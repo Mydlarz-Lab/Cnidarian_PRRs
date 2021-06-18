@@ -1,0 +1,2380 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TLR.hmm
+# target sequence database:        ../proteomes/Aurelia.Genome_v1.2_Protein_Models_12-28-18.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Human_TLR  [M=911]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    4.2e-55  187.7  25.9    2.6e-22   79.2   4.4    3.5  3  Seg1701.4   transcript_id=Seg1701.4|GoldUCD|mRNA.D3Y31 produc
+    1.8e-48  165.8  39.2    8.8e-15   54.3   3.3    5.3  5  Seg1571.5   transcript_id=Seg1571.5|GoldUCD|mRNA.D3Y31 produc
+    5.9e-47  160.8  26.7    1.4e-26   93.3  12.9    2.1  2  Seg764.3    transcript_id=Seg764.3|GoldUCD|mRNA.D3Y31 product
+      1e-45  156.7  44.2    2.9e-16   59.2  10.9    4.2  4  Seg2059.2   transcript_id=Seg2059.2|GoldUCD|mRNA.D3Y31 produc
+    1.1e-45  156.6  35.7    5.4e-19   68.2   8.1    4.9  4  Seg1304.3   transcript_id=Seg1304.3|GoldUCD|mRNA.D3Y31 produc
+    1.3e-45  156.3  32.4    8.1e-12   44.5   3.7    4.2  4  Seg12098.1  transcript_id=Seg12098.1|GoldUCD|mRNA.D3Y31 produ
+    3.9e-42  144.8  65.7    1.2e-12   47.2  14.2    5.6  5  Seg4699.1   transcript_id=Seg4699.1|GoldUCD|mRNA.D3Y31 produc
+    1.3e-38  133.1  84.0    8.7e-11   41.1   4.6    6.9  6  Seg1842.5   transcript_id=Seg1842.5|GoldUCD|mRNA.D3Y31 produc
+    3.1e-38  131.9  10.8    4.5e-14   52.0   0.0    3.3  3  Seg1452.3   transcript_id=Seg1452.3|GoldUCD|mRNA.D3Y31 produc
+    6.8e-38  130.8  43.4    3.1e-13   49.2   8.9    4.9  5  Seg1666.14  transcript_id=Seg1666.14|GoldUCD|mRNA.D3Y31 produ
+    2.4e-37  129.0  35.3    4.2e-15   55.4   1.0    4.6  5  Seg3915.2   transcript_id=Seg3915.2|GoldUCD|mRNA.D3Y31 produc
+    5.6e-36  124.5  27.3    8.5e-16   57.7   6.3    3.4  3  Seg2256.5   transcript_id=Seg2256.5|GoldUCD|mRNA.D3Y31 produc
+    7.7e-36  124.0  69.9    9.7e-21   74.0  28.2    3.5  4  Seg1524.6   transcript_id=Seg1524.6|GoldUCD|mRNA.D3Y31 produc
+    1.1e-33  116.9  23.3      1e-14   54.1   1.8    3.8  3  Seg1571.6   transcript_id=Seg1571.6|GoldUCD|mRNA.D3Y31 produc
+    7.2e-33  114.2  27.3    1.8e-14   53.3   1.8    3.7  4  Seg426.1    transcript_id=Seg426.1|GoldUCD|mRNA.D3Y31 product
+    8.8e-30  103.9  38.5    3.2e-15   55.7  13.5    3.3  4  Seg1300.10  transcript_id=Seg1300.10|GoldUCD|mRNA.D3Y31 produ
+    9.1e-30  103.9  37.2    5.3e-17   61.6   9.5    3.3  3  Seg1055.7   transcript_id=Seg1055.7|GoldUCD|mRNA.D3Y31 produc
+    2.6e-29  102.4   2.5    9.5e-17   60.8   0.3    2.6  3  Seg660.8    transcript_id=Seg660.8|GoldUCD|mRNA.D3Y31 product
+    1.2e-28  100.2   1.6    2.2e-28   99.3   1.6    1.4  1  Seg112.8    transcript_id=Seg112.8|GoldUCD|mRNA.D3Y31 product
+    4.6e-28   98.2  13.0    3.7e-12   45.6   0.6    3.4  3  Seg1996.10  transcript_id=Seg1996.10|GoldUCD|mRNA.D3Y31 produ
+    1.9e-27   96.2  15.8    2.2e-14   53.0   2.9    3.7  3  Seg1087.5   transcript_id=Seg1087.5|GoldUCD|mRNA.D3Y31 produc
+    1.9e-26   92.9  29.6    1.8e-13   50.0   2.2    2.8  3  Seg1547.12  transcript_id=Seg1547.12|GoldUCD|mRNA.D3Y31 produ
+    4.5e-26   91.7  18.4    5.5e-10   38.4   2.6    3.5  3  Seg12012.1  transcript_id=Seg12012.1|GoldUCD|mRNA.D3Y31 produ
+      1e-23   83.9  19.1    2.3e-10   39.7   0.9    2.9  3  Seg7492.2   transcript_id=Seg7492.2|GoldUCD|mRNA.D3Y31 produc
+    9.6e-22   77.3   7.7    1.6e-14   53.4   0.5    2.5  2  Seg2497.2   transcript_id=Seg2497.2|GoldUCD|mRNA.D3Y31 produc
+      1e-21   77.3  26.0      1e-10   40.9   7.3    2.5  2  Seg3528.1   transcript_id=Seg3528.1|GoldUCD|mRNA.D3Y31 produc
+    1.5e-20   73.4   2.8    3.3e-20   72.3   2.8    1.5  1  Seg6940.1   transcript_id=Seg6940.1|GoldUCD|mRNA.D3Y31 produc
+    1.7e-20   73.3  13.4    4.3e-15   55.3   7.7    2.2  2  Seg1081.15  transcript_id=Seg1081.15|GoldUCD|mRNA.D3Y31 produ
+    4.3e-20   71.9   4.0    9.3e-20   70.8   4.0    1.5  1  Seg752.5    transcript_id=Seg752.5|GoldUCD|mRNA.D3Y31 product
+    3.5e-18   65.6  24.8      6e-11   41.6  11.0    2.7  2  Seg2965.1   transcript_id=Seg2965.1|GoldUCD|mRNA.D3Y31 produc
+    6.7e-18   64.6  15.2    2.8e-12   46.0   8.8    2.2  2  Seg557.11   transcript_id=Seg557.11|GoldUCD|mRNA.D3Y31 produc
+    2.5e-17   62.7  15.5    3.8e-12   45.6   8.4    2.0  2  Seg152.4    transcript_id=Seg152.4|GoldUCD|mRNA.D3Y31 product
+    6.4e-17   61.4  33.9    1.5e-14   53.6  23.6    2.6  2  Seg2025.6   transcript_id=Seg2025.6|GoldUCD|mRNA.D3Y31 produc
+    1.1e-15   57.2  34.9    2.5e-14   52.8  18.7    2.7  2  Seg2032.4   transcript_id=Seg2032.4|GoldUCD|mRNA.D3Y31 produc
+    2.2e-15   56.3  26.8    6.9e-09   34.8  14.5    2.1  2  Seg6301.1   transcript_id=Seg6301.1|GoldUCD|mRNA.D3Y31 produc
+    6.3e-15   54.8   1.5    7.6e-15   54.5   1.5    1.1  1  Seg573.1    transcript_id=Seg573.1|GoldUCD|mRNA.D3Y31 product
+      9e-15   54.3   1.6    1.1e-14   54.0   1.6    1.1  1  Seg2327.2   transcript_id=Seg2327.2|GoldUCD|mRNA.D3Y31 produc
+      1e-13   50.8   7.3    1.6e-13   50.1   7.3    1.2  1  Seg1668.3   transcript_id=Seg1668.3|GoldUCD|mRNA.D3Y31 produc
+    1.4e-13   50.3   7.3    2.2e-13   49.7   7.3    1.2  1  Seg2960.2   transcript_id=Seg2960.2|GoldUCD|mRNA.D3Y31 produc
+    2.8e-13   49.3   0.5    3.8e-13   48.9   0.5    1.2  1  Seg116.2    transcript_id=Seg116.2|GoldUCD|mRNA.D3Y31 product
+    6.2e-13   48.2  13.6    1.4e-11   43.7  13.6    2.4  1  Seg626.7    transcript_id=Seg626.7|GoldUCD|mRNA.D3Y31 product
+    9.8e-13   47.5  23.4    1.1e-09   37.4  14.0    2.5  2  Seg172.5    transcript_id=Seg172.5|GoldUCD|mRNA.D3Y31 product
+    2.8e-12   46.0  17.7    2.3e-07   29.8  11.7    2.0  2  Seg1436.5   transcript_id=Seg1436.5|GoldUCD|mRNA.D3Y31 produc
+    5.1e-12   45.2   9.0    8.5e-12   44.4   9.0    1.2  1  Seg2506.3   transcript_id=Seg2506.3|GoldUCD|mRNA.D3Y31 produc
+    6.9e-12   44.7  23.5    1.6e-09   36.9   6.4    2.1  2  Seg179.4    transcript_id=Seg179.4|GoldUCD|mRNA.D3Y31 product
+    8.4e-12   44.4  18.3    2.9e-07   29.4  11.1    2.1  2  Seg1551.1   transcript_id=Seg1551.1|GoldUCD|mRNA.D3Y31 produc
+      1e-11   44.1   8.8      2e-11   43.2   8.8    1.3  1  Seg1932.2   transcript_id=Seg1932.2|GoldUCD|mRNA.D3Y31 produc
+    1.1e-11   44.1   8.0    8.7e-10   37.8   3.3    2.8  2  Seg5847.1   transcript_id=Seg5847.1|GoldUCD|mRNA.D3Y31 produc
+    3.4e-11   42.4   8.4    4.7e-11   42.0   8.4    1.2  1  Seg1658.6   transcript_id=Seg1658.6|GoldUCD|mRNA.D3Y31 produc
+    4.8e-11   41.9   8.7    5.4e-11   41.8   8.7    1.0  1  Seg11460.1  transcript_id=Seg11460.1|GoldUCD|mRNA.D3Y31 produ
+    5.3e-11   41.8   9.9    3.1e-09   36.0   5.6    1.8  1  Seg1750.5   transcript_id=Seg1750.5|GoldUCD|mRNA.D3Y31 produc
+    1.3e-10   40.5  12.2    2.4e-10   39.6  12.2    1.4  1  Seg2763.1   transcript_id=Seg2763.1|GoldUCD|mRNA.D3Y31 produc
+    1.5e-10   40.3   0.3    1.6e-10   40.2   0.3    1.1  1  Seg897.7    transcript_id=Seg897.7|GoldUCD|mRNA.D3Y31 product
+    2.4e-10   39.7   5.0    3.8e-10   39.0   5.0    1.3  1  Seg2031.2   transcript_id=Seg2031.2|GoldUCD|mRNA.D3Y31 produc
+    3.1e-10   39.3  14.4    3.2e-06   26.0   3.9    3.0  3  Seg1703.3   transcript_id=Seg1703.3|GoldUCD|mRNA.D3Y31 produc
+    5.3e-10   38.5   9.4    5.3e-10   38.5   9.4    2.0  2  Seg827.8    transcript_id=Seg827.8|GoldUCD|mRNA.D3Y31 product
+      7e-10   38.1  12.6    2.6e-08   32.9  12.3    2.0  1  Seg5113.1   transcript_id=Seg5113.1|GoldUCD|mRNA.D3Y31 produc
+    9.1e-10   37.7   0.8    1.3e-09   37.2   0.3    1.5  1  Seg7952.1   transcript_id=Seg7952.1|GoldUCD|mRNA.D3Y31 produc
+    1.3e-09   37.2   0.6    1.3e-09   37.2   0.6    1.6  1  Seg1080.12  transcript_id=Seg1080.12|GoldUCD|mRNA.D3Y31 produ
+    4.3e-09   35.5   3.8    5.6e-09   35.1   3.8    1.1  1  Seg1625.2   transcript_id=Seg1625.2|GoldUCD|mRNA.D3Y31 produc
+    4.9e-09   35.3   2.9    5.8e-09   35.1   2.9    1.1  1  Seg1487.1   transcript_id=Seg1487.1|GoldUCD|mRNA.D3Y31 produc
+    6.1e-09   35.0   2.0      7e-09   34.8   2.0    1.2  1  Seg881.4    transcript_id=Seg881.4|GoldUCD|mRNA.D3Y31 product
+    3.7e-08   32.4   6.6    1.1e-07   30.8   6.6    1.6  1  Seg1933.4   transcript_id=Seg1933.4|GoldUCD|mRNA.D3Y31 produc
+    3.9e-08   32.3   2.5    5.5e-08   31.8   2.5    1.1  1  Seg1389.7   transcript_id=Seg1389.7|GoldUCD|mRNA.D3Y31 produc
+    1.7e-07   30.2   6.4    2.5e-07   29.6   6.4    1.2  1  Seg2266.3   transcript_id=Seg2266.3|GoldUCD|mRNA.D3Y31 produc
+    2.6e-07   29.6   0.5      5e-07   28.7   0.5    1.4  1  Seg7786.1   transcript_id=Seg7786.1|GoldUCD|mRNA.D3Y31 produc
+    2.9e-07   29.4   0.5      5e-07   28.7   0.5    1.3  1  Seg10186.2  transcript_id=Seg10186.2|GoldUCD|mRNA.D3Y31 produ
+    7.9e-07   28.0   6.0    1.9e-06   26.7   6.0    1.6  1  Seg7865.1   transcript_id=Seg7865.1|GoldUCD|mRNA.D3Y31 produc
+    8.5e-07   27.9   3.7    1.3e-06   27.2   3.7    1.3  1  Seg2294.8   transcript_id=Seg2294.8|GoldUCD|mRNA.D3Y31 produc
+    1.4e-05   23.9   3.4    2.1e-05   23.3   3.4    1.3  1  Seg1477.19  transcript_id=Seg1477.19|GoldUCD|mRNA.D3Y31 produ
+    1.7e-05   23.6   6.1    0.00021   20.0   3.0    2.1  2  Seg2698.2   transcript_id=Seg2698.2|GoldUCD|mRNA.D3Y31 produc
+    0.00013   20.7   3.5    0.00015   20.4   3.5    1.0  1  Seg1965.6   transcript_id=Seg1965.6|GoldUCD|mRNA.D3Y31 produc
+    0.00014   20.6   0.3    0.00022   19.9   0.3    1.3  1  Seg1672.11  transcript_id=Seg1672.11|GoldUCD|mRNA.D3Y31 produ
+    0.00018   20.2   6.5    0.00069   18.3   6.6    1.7  1  Seg639.8    transcript_id=Seg639.8|GoldUCD|mRNA.D3Y31 product
+    0.00021   20.0   0.6      0.002   16.7   0.2    2.0  2  Seg753.1    transcript_id=Seg753.1|GoldUCD|mRNA.D3Y31 product
+    0.00021   20.0   0.1    0.00024   19.8   0.1    1.1  1  Seg2198.8   transcript_id=Seg2198.8|GoldUCD|mRNA.D3Y31 produc
+    0.00051   18.7   1.7    0.00056   18.6   1.7    1.0  1  Seg11026.1  transcript_id=Seg11026.1|GoldUCD|mRNA.D3Y31 produ
+    0.00064   18.4   0.0    0.00064   18.4   0.0    1.0  1  Seg2396.1   transcript_id=Seg2396.1|GoldUCD|mRNA.D3Y31 produc
+     0.0008   18.0   3.0      0.001   17.7   3.0    1.1  1  Seg962.1    transcript_id=Seg962.1|GoldUCD|mRNA.D3Y31 product
+     0.0033   16.0   7.5     0.0041   15.7   7.5    1.1  1  Seg5094.2   transcript_id=Seg5094.2|GoldUCD|mRNA.D3Y31 produc
+     0.0035   15.9   0.4     0.0041   15.7   0.4    1.1  1  Seg758.6    transcript_id=Seg758.6|GoldUCD|mRNA.D3Y31 product
+     0.0046   15.5   2.3        1.1    7.7   0.0    2.0  2  Seg1768.6   transcript_id=Seg1768.6|GoldUCD|mRNA.D3Y31 produc
+  ------ inclusion threshold ------
+      0.014   14.0   0.0      0.015   13.8   0.0    1.0  1  Seg1181.7   transcript_id=Seg1181.7|GoldUCD|mRNA.D3Y31 produc
+      0.086   11.3   0.0       0.11   11.0   0.0    1.0  1  Seg1695.6   transcript_id=Seg1695.6|GoldUCD|mRNA.D3Y31 produc
+
+
+Domain annotation for each sequence (and alignments):
+>> Seg1701.4  transcript_id=Seg1701.4|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeats and immunoglobulin-like domains p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   6.7   1.5e-23   4.8e-21      18     195 ..      37     211 ..      16     217 .. 0.85
+   2 !   79.2   4.4   8.1e-25   2.6e-22     487     645 ..     218     377 ..     211     379 .. 0.93
+   3 !   43.4   0.5   5.4e-14   1.7e-11     579     679 ..     387     482 ..     382     507 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.5e-23
+  Human_TLR  18 vlalgvlpeilpclseerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnkls 117
+                v + ++ + + p++ + ++ +vdcs ++L++ P+ lp ++  LdL  N i+ ++  d++ l++Lq L l  n  + ti +     l++L++L  ++nk++
+  Seg1701.4  37 VSCDENSMGTCPSVCTCSQKMVDCSRKSLKSFPSSLPSTTLILDLRGNEISSIKRDDITGLPNLQTLYLDGN--VLTIFPA-VGDLQSLQKLSITNNKIK 133
+                44455555566666688899****************************************************..8888875.589*************** PP
+
+  Human_TLR 118 klss..fallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlap 195
+                 +++   + l+sL  L l++n+i   + +g++    ++++LdLs+Nn++++        + nL++L+lS nki  + +  
+  Seg1701.4 134 LIPHgtLSRLKSLKWLDLSHNEIL-AVPNGTFPVRSKFEYLDLSHNNITTMID-LLAVPMLNLTHLKLSYNKITALRCFT 211
+                ***9999999999999*****885.999********************99965.45567889*******99887655544 PP
+
+  == domain 2  score: 79.2 bits;  conditional E-value: 8.1e-25
+  Human_TLR 487 ltlelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrcl.kkLevLDLssnqlksltpklvnk 583
+                +t++ +++r+L+l ++  + + + ++   +s  +L ls+N+++++s+ ++     +l+eL L+ n+L   + +  l k L++LD+s+n lk +    + +
+  Seg1701.4 218 QTENFKNIRILELDHNkITTAANFFFSSFPSVRKLYLSHNRFQTISVGVLHGAS-KLEELYLNGNRLqFLTNMLYLrKDLKILDMSDNMLKGIVAAPFRH 316
+                678899*********867779*****************************9999.************6445666677*********************** PP
+
+  Human_TLR 584 lsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNp 645
+                 + + +Lnl+ N+l+ Lp + +s l +Lk+L l++N+i+ +s+++f  lq +L++++l++N 
+  Seg1701.4 317 AQCIERLNLAGNQLKRLPPSCFSPLRKLKYLYLERNQISEISRTAFYGLQ-ALQTVNLSNNA 377
+                ***********************************************999.*********96 PP
+
+  == domain 3  score: 43.4 bits;  conditional E-value: 5.4e-14
+  Human_TLR 579 klvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCas 678
+                +++     L+ L+ls N +  +p   +  l +L  ++ls+N + +v+  +f +l+ +Lk ++l+a +++C C +++f++w++ ++     + +   kC+ 
+  Seg1701.4 387 TAFMPMYHLKSLDLSGNAIILIPRNAFRGLHNLLFMNLSHNNVISVQSGAFSQLT-SLKQMKLQAPKLICDCSVRWFRNWVKSHS--F--EDSVTGKCKG 481
+                56667789********************************************999.*************************9753..2..2356667777 PP
+
+  Human_TLR 679 P 679
+                P
+  Seg1701.4 482 P 482
+                7 PP
+
+>> Seg1571.5  transcript_id=Seg1571.5|GoldUCD|mRNA.D3Y31 product="Insulin-like growth factor-binding protein complex aci
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   2.1   2.4e-09   7.8e-07      19     139 ..      12     131 ..       4     138 .. 0.80
+   2 !   33.4   0.2   5.8e-11   1.9e-08      53     122 ..     139     209 ..     136     213 .. 0.92
+   3 !   32.0   9.9   1.6e-10     5e-08      98     232 ..     207     339 ..     204     348 .. 0.72
+   4 !   54.3   3.3   2.7e-17   8.8e-15      52     165 ..     349     460 ..     332     483 .. 0.90
+   5 !   36.7   0.2   5.7e-12   1.8e-09      57     157 ..     489     598 ..     484     642 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.0 bits;  conditional E-value: 2.4e-09
+  Human_TLR  19 lalgvlpeilpclseerevivdcs..klkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk. 115
+                l+++ ++++ +c  +   v vd s     L+++P+++p ++ +LdLs N+  +l++ ++ ++ +Lq L l  + +++    +af    +L + dL++nk 
+  Seg1571.5  12 LIAEFRIANALCPDK--CVCVDASvkCTGLKSIPHGIPVSTIELDLSGNQGLTLEKFSLVNFTKLQTLTLINC-NMK----NAFMLPRNLVSIDLTQNKf 104
+                566666666666553..333333311458****************************************9766.666....9****************85 PP
+
+  Human_TLR 116 .lsklss..fallssLteLslvennik 139
+                 +++l+      ++ Lte+++ enni 
+  Seg1571.5 105 tIKTLAAlfTDAPKLLTEIKVDENNIV 131
+                5788988966788999********995 PP
+
+  == domain 2  score: 33.4 bits;  conditional E-value: 5.8e-11
+  Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..f 122
+                 pk++++L+   N++++++ sd+  l +L++L   ++    + +++af s+++L+eL+L +nkl  l+s  f
+  Seg1571.5 139 FPKSTRTLSVCGNKVEKIKRSDLVGLRNLEKLIAISC-GLTQTDQGAFDSVNNLRELNLGSNKLERLPSglF 209
+                6899****************************98888.8999**************************7433 PP
+
+  == domain 3  score: 32.0 bits;  conditional E-value: 1.6e-10
+  Human_TLR  98 eafkslkeLeeLdLshnklsklssfallssLteLslvennik.asledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlapl 196
+                ++f+s+++ + LdL++nkl+++++f ++++L  L l+ n+ik a      +   ++L +LdLs N+  +l+k  ++ n+t+L+ L l + ++++ +++p 
+  Seg1571.5 207 GLFQSNNHISRLDLHDNKLKTIPDFRGINHLNLLDLSWNEIKnA--SGINVPVVNQLYELDLSGNQGLTLEKF-SLVNFTKLQTLTLINCNMKNAFMLPT 303
+                67888999999999999999999999999999999999988844..344445556788899999988877654.57788999999998888888888888 PP
+
+  Human_TLR 197 allelkelsnlsLslsslskvsaewfkslkelnlk.l 232
+                +l+ +  l +    +++l ++  + +k l e++    
+  Seg1571.5 304 NLVSI-DLTKNKFTIKTLAELFTDAPKLLTEIKVDeN 339
+                88888.6666666666665544555666666555544 PP
+
+  == domain 4  score: 54.3 bits;  conditional E-value: 2.7e-17
+  Human_TLR  52 dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgalln 149
+                  p+++++L+   N++++++ sd+  l +L++L   ++    +i+++af s+++L+eL+L +nkl  l+s  f+  +++ +L l  n +k       +++
+  Seg1571.5 349 VFPNSTRTLSVCGNKVEKIKRSDLVGLRNLEKLIAISC-GLTQIDQGAFDSVNNLRELNLGSNKLERLPSglFQCNNHISRLDLHDNKLK-T--IPDFRG 444
+                57899****************************98888.9999***************************999999***********887.3..345899 PP
+
+  Human_TLR 150 lknLklLdLsfNnlks 165
+                 + L+lLdLs N++k 
+  Seg1571.5 445 INHLNLLDLSWNEIKN 460
+                999*********9986 PP
+
+  == domain 5  score: 36.7 bits;  conditional E-value: 5.7e-12
+  Human_TLR  57 vtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni.......k.asledga 146
+                + sLdLs+N+ir l++  f+   + +++ l+ n +i ++  +af  ++  +eL L+ n+++ l++  f++++  t+L l+ n++         + l+++ 
+  Seg1571.5 489 IYSLDLSHNKIRMLPDFAFAGTTSFREIFLQNN-QISEVSSKAFLGVSWVSELHLQRNRIKFLPKgiFKGMVIATNLFLYGNSLsnmdgalDgMTLAPKR 587
+                679******************************.9999**********************************99********997777776334555555 PP
+
+  Human_TLR 147 llnlknLklLd 157
+                l     L+ L+
+  Seg1571.5 588 LILFSMLTSLN 598
+                54444444443 PP
+
+>> Seg764.3  transcript_id=Seg764.3|GoldUCD|mRNA.D3Y31 product=Hemicentin-1 protein_id=Seg764.3|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.6   5.9   7.6e-26   2.4e-23      26     165 ..      43     181 ..      34     182 .. 0.93
+   2 !   93.3  12.9   4.4e-29   1.4e-26     510     698 ..     138     327 ..     136     337 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 82.6 bits;  conditional E-value: 7.6e-26
+  Human_TLR  26 eilpclseerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fa 123
+                +  +c+ +     v c ++ L e+P d+p+ v++L+L  N i+ l asd +++ +L+ L+l +n  i tie+++ ++l +L +L Ls+nkl ++s+   +
+   Seg764.3  43 KKCSCDNQ-YMRYVSCAWKGLSEIPRDIPNDVEHLSLYGNEIKSLRASDVANMTNLKILNLDRN-LIDTIEDSSLNKLYHLTSLSLSGNKLRQISPnlLQ 140
+                44455554.566799*************************************************.9******************************999* PP
+
+  Human_TLR 124 llssLteLslvennikasledgallnlknLklLdLsfNnlks 165
+                 lssL+eL+l +n+ik  + +  ++  ++Lk L L  N l+ 
+   Seg764.3 141 NLSSLQELHLDFNQIK-FIPESFFRSTRSLKKLFLNGNRLTK 181
+                *************999.999******************9985 PP
+
+  == domain 2  score: 93.3 bits;  conditional E-value: 4.4e-29
+  Human_TLR 510 llkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfls 606
+                ll++LssL++L l+ N+++++++  f+s   slk+L+L+ n+L     + l   + Le L Ls nql+++ + ++ + s+++ L l++N++t++ +  + 
+   Seg764.3 138 LLQNLSSLQELHLDFNQIKFIPESFFRSTR-SLKKLFLNGNRLtkiGSKTLDGANLLEKLGLSFNQLEMVDEDAFREMSKMQWLRLNNNNITTIGARTFT 236
+                89****************988877776666.************7776788888899******************************************** PP
+
+  Human_TLR 607 klssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksldls..sCkee 698
+                ++ sL    l++N++kt   + +   +  L++L l++NpF C+C+l++++   ++  ++ i+   ++v C+ P  + G++++ l+ +   C ++
+   Seg764.3 237 DMTSLTRIHLDNNKLKTLPDQLLLRNT-RLNILTLHKNPFLCSCNLRWLRSIFEN--NKIIIPSLNQVRCNEPAYFYGVPLFRLKFEemRCMKQ 327
+                ******************999999776.9**********************8885..66666679*******************9987778655 PP
+
+>> Seg2059.2  transcript_id=Seg2059.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 1" protein_id=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   1.0   4.1e-13   1.3e-10     553     646 ..      32     121 ..      16     122 .. 0.87
+   2 !   50.3   2.8   4.6e-16   1.5e-13     474     623 ..      68     215 ..      68     220 .. 0.85
+   3 !   52.3   6.7   1.1e-16   3.5e-14     513     644 ..     176     303 ..     173     303 .. 0.87
+   4 !   59.2  10.9     9e-19   2.9e-16     448     633 ..     222     408 ..     222     416 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 4.1e-13
+  Human_TLR 553 swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                 +++lr+ ++Le L+L  nql+ l pk++  l +L++L++  N++ sLp   + +l +L++Ld+s+N i     + +  ++ kL+++d++ Np+
+  Seg2059.2  32 PDDILRQERSLEELYLDANQLRDL-PKQLFRLYKLKKLSVGDNEIESLPP-EVGNLTNLEELDISKNDIGVLP-ENIRFCK-KLTIIDISSNPM 121
+                6788999999**************.999999******************9.89999*************8664.5566566.9********996 PP
+
+  == domain 2  score: 50.3 bits;  conditional E-value: 4.6e-16
+  Human_TLR 474 lslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssn 571
+                ls+ dN+i sl  ++ +l++L+eLd+s ++     + ++  ++L+i+d+s+N +  +  + f +l+ +l +L +++  L      +  lk+L vL++++n
+  Seg2059.2  68 LSVGDNEIESLPPEVGNLTNLEELDISKNDIGVLPENIRFCKKLTIIDISSNPMA-MLPDSFSQLT-ELYSLCMNDISLnrIPPDIGGLKNLVVLEMREN 165
+                56789******88888***********6422222233344466***********6.7778888888.99***999999965567899************* PP
+
+  Human_TLR 572 qlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                 +k++ p+++++ls L +L+l +N+l +Lp+  +  ls+L +L l++N ++ 
+  Seg2059.2 166 VIKFI-PESFSFLSCLERLDLGSNELEDLPD-SIGMLSNLVELWLDANYLSI 215
+                *****.88***********************.89**************9875 PP
+
+  == domain 3  score: 52.3 bits;  conditional E-value: 1.1e-16
+  Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklss 610
+                 Ls Le+Ldl +N l+    ++   ++ +l+eL L  n+L      + +lkkL+ LD+s+n+l+ l p++++  +aL  L+ls N+l ++p+  + kl++
+  Seg2059.2 176 FLSCLERLDLGSNELE--DLPDSIGMLSNLVELWLDANYLsiLPAEMGQLKKLQCLDISENKLEEL-PEEISGMTALTDLILSQNNLHEIPD-GIGKLKK 271
+                5899***********7..5667788888************7777899*******************.88***********************.789**** PP
+
+  Human_TLR 611 LkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                L++L++++N i        + l+ +L++L l++N
+  Seg2059.2 272 LSILKVDMNDIDELTPAIGG-LT-SLTELILTEN 303
+                ***********988765544.33.5666666655 PP
+
+  == domain 4  score: 59.2 bits;  conditional E-value: 9e-19
+  Human_TLR 448 elekLetLdLrknslktl.ekvthsl...klslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslk 543
+                +l+kL+ Ld+++n+l++l e+++ +    +l ls+Nn++ + +   +l++L++L++  ++  +    + gL+sL++L l +Ns++ l   ++ +l ++l+
+  Seg2059.2 222 QLKKLQCLDISENKLEELpEEISGMTaltDLILSQNNLHEIPDGIGKLKKLSILKVDMNDIDELTPAIGGLTSLTELILTENSIDGL-PSAIGKL-HKLN 319
+                5899*************999999888888999*********6666699*****9999774447888899***************744.4445555.59** PP
+
+  Human_TLR 544 eLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslq 633
+                +Ln+ +n+L      +    +L+vL  ++n ++ + p+++ + ++L  L+ls N+l +Lp     +   Lk L lssN+ +++ k ++++l 
+  Seg2059.2 320 HLNIDKNRLvtIPAEIGSCTRLTVLSARNNDITKI-PRQIGNCRNLSVLDLSGNRLPNLPV--TISGLPLKALWLSSNQSQSILKLQVEELE 408
+                *********875566777799**************.99**********************9..6666789********99998887777655 PP
+
+>> Seg1304.3  transcript_id=Seg1304.3|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing G-protein coupled recep
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   1.3   2.1e-09   6.8e-07     566     644 ..      62     138 ..      40     138 .. 0.47
+   2 !   68.2   8.1   1.7e-21   5.4e-19      54     168 ..     127     241 ..     125     248 .. 0.96
+   3 !   37.3   7.2   3.8e-12   1.2e-09      56     594 ..     249     401 ..     243     402 .. 0.40
+   4 !   42.2   0.7   1.2e-13     4e-11      59     131 ..     396     466 ..     389     472 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 2.1e-09
+  Human_TLR 566 LDLssnqlk.sltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                L L+++++k +l+++ + k   Lr+L ls N+l+++p+  l +l  L  L ls N ik ++ ++f    +kLkvL+l++N
+  Seg1304.3  62 LHLEDCHIKnQLPKEFLRKFPYLRHLRLSDNRLKKVPD--LTHLRDLDTLLLSGNDIKRFKSSAFS-GPRKLKVLQLERN 138
+                34444444313333333444444444444444444444..44444444444444444444444444.2224444444444 PP
+
+  == domain 2  score: 68.2 bits;  conditional E-value: 1.7e-21
+  Human_TLR  54 pknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlk 151
+                p + ++L+L  N i+++++s + rl+ Lq+L l++n ri +++ ++   l +L eL L++n+++k+    f++l+sL++L+l +nnik  l+d+ + +l 
+  Seg1304.3 127 PRKLKVLQLERNGIEHIPSSALYRLKRLQSLSLKSN-RIRKVKCGSLYGLRSLLELSLQSNQIKKVNRraFHGLFSLQSLKLNNNNIK-MLKDDCFAGLF 224
+                56889*******************************.**************************************************9.9********** PP
+
+  Human_TLR 152 nLklLdLsfNnlkslpk 168
+                +L+ L+L++N l+ +p 
+  Seg1304.3 225 SLNSLNLKDNRLTEFPV 241
+                *************9985 PP
+
+  == domain 3  score: 37.3 bits;  conditional E-value: 3.8e-12
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshn....klsklssfallssLteLslvennikasledgallnlk 151
+                 v +L+L +Nri++++   f  +  L++Ld+  + + ++i + af+++ +L +L+ + n    kl + ++  ++                          
+  Seg1304.3 249 RVSTLNLGNNRISKIPPHAFDGFGRLKALDIWNQHHLEEIAHTAFRNMRSLTKLKIECNngatKLTEFPDLTGT-------------------------- 322
+                33334444444444444444444444444444433333333333333333333333333111112222223333.......................... PP
+
+  Human_TLR 152 nLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkelnlklhlvLdlsenflakeivkts 251
+                                                                                                                    
+  Seg1304.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 252 lktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkylelsnnkisglgel 351
+                                                                                                                    
+  Seg1304.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 352 kakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelek 451
+                                                                                                                    
+  Seg1304.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 452 LetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnm 551
+                                                                                +L +Ldl    l+ +   +f+     l  LnL  n+
+  Seg1304.3 323 ---------------------------------------------------------------LNLRELDLTYCDLE-NMPANFCANRTHLFTLNLMMNK 358
+                ...............................................................44555555555553.3334444444455555555555 PP
+
+  Human_TLR 552 L.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlsl 594
+                + +   ++  k+L++LDL++n+l+ l +++++  ++L  L+ s+
+  Seg1304.3 359 IpKLANMQGCKNLKFLDLQHNRLELL-DNALKDVKSLIDLDASH 401
+                54444455555555555555555555.44555555555554444 PP
+
+  == domain 4  score: 42.2 bits;  conditional E-value: 1.2e-13
+  Human_TLR  59 sLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteL 131
+                 Ld s+N+i+e+ ++df+ l +  +Ldlshn  i+ i  +af+s  +L+eL + hnkl++ +  a+l+ Lt++
+  Seg1304.3 396 DLDASHNHIKEIGENDFFGLRKVDKLDLSHN-LIEHIHLKAFESFRNLKELSMAHNKLKSFPT-AGLEALTHI 466
+                6999***************************.9999**************************5.999988876 PP
+
+>> Seg12098.1  transcript_id=Seg12098.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat and death domain-containing prot
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6   3.0   4.7e-14   1.5e-11      67     170 ..       6     106 ..       5     110 .. 0.89
+   2 !   41.9   3.1   1.5e-13     5e-11      59     174 ..     111     240 ..     103     266 .. 0.69
+   3 !   44.5   3.7   2.5e-14   8.1e-12      61     170 ..     301     407 ..     290     411 .. 0.87
+   4 !   42.4   2.3   1.1e-13   3.4e-11      59     139 ..     412     524 ..     404     564 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 4.7e-14
+   Human_TLR  67 irelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennik.asledgallnlknLklLdLsfNnlk 164
+                 i+ + +  +++l++L+ L +++n ri+++  ++f s+++L++L L +nkl ++++  ++  L eL ++ n ++ +  ed     ++n+++L+L +N+++
+  Seg12098.1   6 ISSIAKDALKSLPHLRTLIIESN-RIKNLPLGTFVSNTKLRYLRLGNNKLESMPDLRGIPYLLELDVSGNRLQnVTSEDI---SMRNITRLNLNDNQIT 100
+                 77889999***************.*******************************999999*********9994444444...356899*********9 PP
+
+   Human_TLR 165 slpkee 170
+                  +++++
+  Seg12098.1 101 FFNLSK 106
+                 887766 PP
+
+  == domain 2  score: 41.9 bits;  conditional E-value: 1.5e-13
+   Human_TLR  59 sLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlknLkl 155
+                 +LdLs+Nr++++ +  f   ++L+ L l+ n +i+ti ++af+  ++ +eL+L+ n+++ l++  f++++ +++L+l+ n +      g+l+ +k+   
+  Seg12098.1 111 ELDLSHNRLSHIDDMVFG-SKKLRYLFLHKN-QIKTISPRAFSGFEQISELYLHRNQIKYLPQgvFKGMT-MIKLVLYGNKLV--NMTGVLNAMKKPPD 204
+                 79**********999886.589*********.*************************************9.*********773..23444444444433 PP
+
+   Human_TLR 156 LdLsf.N.nlkslp...............keeefgn 174
+                 L L f N +l++l+                ++++++
+  Seg12098.1 205 LLLLFsNpSLQHLKasdyvvmsntsslylTCKHLKE 240
+                 333221213444442222222232333333333333 PP
+
+  == domain 3  score: 44.5 bits;  conditional E-value: 2.5e-14
+   Human_TLR  61 dLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennik.asledgallnlknLklLdL 158
+                 ++    i+ + +  +++l++L+ L +++n ri+++  ++f s+++L++L L +nkl ++++  ++  L eL ++ n ++ +  ed     ++n+++L+L
+  Seg12098.1 301 EMKGCGISSIAKDALKSLPHLRTLIIESN-RIKNLPLGTFVSNTKLRYLRLGNNKLESMPDLRGIPYLLELDVSVNRLQnVTSEDI---SMRNITRLNL 395
+                 555566899999*****************.*******************************999999*********9994444444...357899**** PP
+
+   Human_TLR 159 sfNnlkslpkee 170
+                  +N+++ +++++
+  Seg12098.1 396 NDNQITFFNLSK 407
+                 *****9887766 PP
+
+  == domain 4  score: 42.4 bits;  conditional E-value: 1.1e-13
+   Human_TLR  59 sLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni................. 138
+                 +LdLs+Nr++++ +  f   ++L+ L l+ n +i+ti ++af+  ++ +eL+L+ n+++ l++  f++++ +++L+l+ n +                 
+  Seg12098.1 412 ELDLSHNRLSHIDDMVFG-SKKLRYLFLHKN-QIKTISPRAFSGFEQISELYLHRNQIKYLPQgvFKGMT-MIKLVLYGNKLvnmtgvlnamkkppdll 507
+                 79**********999886.589*********.*************************************9.*********8755444444444444443 PP
+
+   Human_TLR 139 ................k 139
+                                  
+  Seg12098.1 508 llfsnpslqhlkasdyV 524
+                 33333333333333330 PP
+
+>> Seg4699.1  transcript_id=Seg4699.1|GoldUCD|mRNA.D3Y31 product="Insulin-like growth factor-binding protein complex aci
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.6   1.6e-07   5.2e-05     115     178 ..     105     167 ..      93     167 .. 0.92
+   2 !   45.0  17.5   1.7e-14   5.6e-12     513     647 ..     160     298 ..     157     299 .. 0.91
+   3 !   32.3   6.3   1.2e-10   3.9e-08     510     606 ..     304     408 ..     299     412 .. 0.87
+   4 !   35.3   2.5   1.5e-11   4.9e-09      50     165 ..     427     553 ..     423     558 .. 0.85
+   5 !   47.2  14.2   3.8e-15   1.2e-12     495     639 ..     518     663 ..     512     675 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1.6e-07
+  Human_TLR 115 klsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnL 178
+                 + ++++f+l++ L++L + +++++  ++++a+ nl++L+ L+L  N lk lp+ +  ++Lt L
+  Seg4699.1 105 SITEIKEFGLPETLISLTVRNTGLE-TIHPNAFMNLTSLTSLSLIMNRLKELPNLSGCDKLTDL 167
+                6889999***************999.9**************************99999998876 PP
+
+  == domain 2  score: 45.0 bits;  conditional E-value: 1.7e-14
+  Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfls.... 606
+                g  +L+ Ldl +N+++ ++ +++ +lp+slk +nL sn++    ++l  l++Le + Ls nq+  ++++++ + ++L+ +++  N+++s++k+ l     
+  Seg4699.1 160 GCDKLTDLDLYSNQIE-IFAHNVSKLPKSLKRINLISNKIykIPEKLFDLPNLEQIGLSLNQMPVFPKNAFFNNTNLKFISVDANQIKSISKSDLAplsl 258
+                5679***********5.999********************8767788889**************************************999975432222 PP
+
+  Human_TLR 607 klssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                + s+L +L+ls+N+i+ +++ ++ ++  +Lk+L+l++N Fe
+  Seg4699.1 259 NNSNLLHLNLSNNEINYIEQGALSQMI-HLKILELHNNTFE 298
+                5689*********************99.9**********96 PP
+
+  == domain 3  score: 32.3 bits;  conditional E-value: 1.2e-10
+  Human_TLR 510 llkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.......swsvlrclkkLevLDLssnqlksltpklv..nklsaLreLnlslNsltsL 600
+                +++ +++L ++d+++N+++el  + fk+lp +lk+L+L s +         ++++r l++L+ L Ls+nql+ ++   +  +  s+L eL++ +N++ +L
+  Seg4699.1 304 IFESVPELLHIDMNNNKVKELTADSFKDLP-KLKSLQLHSQKTsfkltkvYYNSIRNLPSLHNLWLSNNQLTLFPFPMLheETWSKLEELYIDHNQIPNL 402
+                8999**************************.*******9998878889888999*******************9744431144689************** PP
+
+  Human_TLR 601 pkgfls 606
+                +++ + 
+  Seg4699.1 403 KTYSNT 408
+                996555 PP
+
+  == domain 4  score: 35.3 bits;  conditional E-value: 1.5e-11
+  Human_TLR  50 PkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriq..tiekeafkslkeLeeLdLs.......hnklsklss.....fallssLteLslve 135
+                P d + + ++L + +N+++e+ a d+  l +L+ L+ls n r +  ti keafk ++ L eL+L        +n ++ +++        l  +  L l  
+  Seg4699.1 427 PFDTTPALRKLYIQDNFLTEVAADDLVLLTNLNFLELSYN-RLEdkTIHKEAFKVNTVLTELYLGwqitsapYNGIQYVPDavkngT-YLPAISTLGLQG 524
+                5567788999******************************.65556******************655666668*******9877643.444488899999 PP
+
+  Human_TLR 136 nnikasledgallnlknLklLdLsfNnlks 165
+                n i   + +g + nl++L+ LdL+ N + +
+  Seg4699.1 525 NRIT-YVLKGSFSNLTTLTNLDLQSNRILA 553
+                9887.67789****************9866 PP
+
+  == domain 5  score: 47.2 bits;  conditional E-value: 3.8e-15
+  Human_TLR 495 reLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreL 590
+                ++L l+g+  +      + +L+ L++Ldl++N++  ++   f s     + +nL+sn+    + + ++ l++L+ L+Ls+n +  +++ +++ ls+L +L
+  Seg4699.1 518 STLGLQGNrITYVLKGSFSNLTTLTNLDLQSNRILAIEDGSFPSGI---RTINLQSNKFsfkNEKQFQYLSSLNNLYLSDNLIDKIPDVAFHGLSQLLRL 614
+                56677765344455667999**************888777776665...99********99999************************************ PP
+
+  Human_TLR 591 nlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvL 639
+                 l++N++  L k  l +l++L  L l++N++  +++  f  + ++L+++
+  Seg4699.1 615 LLNNNQIGRLLKTHLRDLQRLVDLHLQNNKLAYIEQGTFTAINRALTSM 663
+                ***************************************9988777654 PP
+
+>> Seg1842.5  transcript_id=Seg1842.5|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 9" protein_id=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.6  19.8   1.5e-12   4.8e-10     452     642 ..      22     206 ..      11     220 .. 0.80
+   2 !   30.4   2.9   4.7e-10   1.5e-07     549     625 ..     727     800 ..     702     801 .. 0.85
+   3 !   39.9  10.7   6.3e-13     2e-10     421     644 ..     801    1035 ..     797    1035 .. 0.79
+   4 !   32.0  13.4   1.5e-10   4.9e-08      56     181 ..     980    1102 ..     979    1106 .. 0.86
+   5 ?    5.7   1.4     0.014       4.4     566     624 ..    1146    1202 ..    1138    1229 .. 0.74
+   6 !   41.1   4.6   2.7e-13   8.7e-11      56     205 ..    1236    1382 ..    1219    1398 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 38.6 bits;  conditional E-value: 1.5e-12
+  Human_TLR 452 LetLdLrknslktlekvthsl...klslsdNniasl..vsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLn 546
+                Le L   +n l++ ek +       ++l  N i  +    ++   ++L++L l g++    +  l+ L++Le+L l   s++ ++n    + + +lk+L 
+  Seg1842.5  22 LEELC-TSNGLEFSEKASY-KevqSIELFSNGILVIppLRQF---NNLIQLCLVGHQI-SKIRHLEALNHLEELWLCDCSIKVIEN---LDTNFQLKKLY 112
+                44444.3456666655222.2456899999999998655555...7888888886433.56788999*************975543...44444799*** PP
+
+  Human_TLR 547 LssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk.dvfqslqskLkvLdlg 642
+                L +n +   + +  lk+Le+L L++n++  l  + ++ l++L+ Ln+s N +ts+ +  +++ ++L+ L+ls N+i++++  + +++l  kL++L l+
+  Seg1842.5 113 LYENEIeRIQNISHLKNLEILWLNGNRIAKL--EGISTLENLKDLNISENLITSIGN-SFENNKMLETLNLSGNLISSIKDtTNLGKLP-KLRSLSLK 206
+                ******888999*******************..6899******************99.88999***************98615688888.99999886 PP
+
+  == domain 2  score: 30.4 bits;  conditional E-value: 4.7e-10
+  Human_TLR 549 snmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                +  L +++    +++++ LDL++  l  l    ++ l +L++L++s+N+ltsL++  ls +s+L++Ld s N+i++++
+  Seg1842.5 727 EDLLlKHTGASYVNRITSLDLNGSGLSKLK--PLSTLFSLKKLIVSFNELTSLQD--LSGMSNLEYLDASFNKISSID 800
+                3333589999999****************5..599********************..*****************9985 PP
+
+  == domain 3  score: 39.9 bits;  conditional E-value: 6.3e-13
+  Human_TLR  421 eflgltelkyldLskNkldlltsss.f..telekLetLdLrknslktlekvthsl.....klslsdNniasl..vsltlelesLreLdlsg......k 502 
+                  f+g  ++ yld+s Nkl   +++  +  + l+  + L L++n   + e +         +l+  dN++++   ++l + +   + +          +
+  Seg1842.5  801 GFKGCIHVIYLDMSWNKLHYTREEVgLirKYLPAVKSLNLKHNPWLKPETIRMRCigrlrNLMTMDNEMVTEeeTALAMRMAACSRIAYVTilahsrT 898 
+                 588999************9987764323378************9998888877778888999999999998755444433333332222224444643 PP
+
+  Human_TLR  503 .adn.rylsllkgLssLeiLdlsqNsls.elsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNs 596 
+                   ++ r lsl+ +     ++ +s+ + +   + e+ k+++ +++ L+L +  L + s l+ l++L+++  ++n ++ +  + +++  ++ eL+l  N 
+  Seg1842.5  899 dTEKpRTLSLTPT----ANVLMSKSRNKpVKFYEDDKKWFYTVTCLQLDDQHLsKISNLENLENLRFVSFNNNDITKI--EGLESCPNIEELSLVGNC 990 
+                 2222355555444....55556655544146789999****************8899*********************..679999************ PP
+
+  Human_TLR  597 ltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644 
+                 ++++++  +++l +L+vL+l++N +++ +++ f++l  +Lk L l++N
+  Seg1842.5  991 ISKVEG--IDHLLKLQVLNLDNNNLMSLDATHFDKLL-ELKHLSLENN 1035
+                 ******..***************************99.******9998 PP
+
+  == domain 4  score: 32.0 bits;  conditional E-value: 1.5e-10
+  Human_TLR   56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknL 153 
+                 n+++L+L  N i++++   + +l +LqvL+l  n +   ++   f +l eL++L L++n +  l+s +    L +L l +n i    e + l+n ++L
+  Seg1842.5  980 NIEELSLVGNCISKVEG--IDHLLKLQVLNLDNN-NLMSLDATHFDKLLELKHLSLENNLITRLKSLQKSRTLCDLYLGNNKIANMREIFNLKNITTL 1074
+                 78999999999999865..669999999999999.999999999999999999999999999999999999999999999999877788999999999 PP
+
+  Human_TLR  154 klLdLsfNnlkslpkeeefgnLtnLkiL 181 
+                   LdL  N ++s  +   +  + +L++L
+  Seg1842.5 1075 SILDLVGNPMTSESSDYRLFTIYHLQSL 1102
+                 9999999999998877777666666666 PP
+
+  == domain 5  score: 5.7 bits;  conditional E-value: 0.014
+  Human_TLR  566 LDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624 
+                 LDL +  l+ +  ++ ++ + L   nl++N+lt+  +  l  l++LkvL l+ N+i+++
+  Seg1842.5 1146 LDLPNQGLRNIDLGNGDSFNYLTSVNLEHNNLTHFGG--LIYLNNLKVLCLNFNHIESI 1202
+                 5666666666666666666777777777777777777..77777777777777777665 PP
+
+  == domain 6  score: 41.1 bits;  conditional E-value: 2.7e-13
+  Human_TLR   56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlk 151 
+                 + ++L L +N i+++ + ++ rl +L+ L l+ n +i   + +    +keL+eL L++nk+++ s+  f  l + teL+ +en ++   e   l+ l 
+  Seg1842.5 1236 KLQVLHLGFNGISNIATLQLGRLRNLKTLFLQGN-EIA--KVDGLDGVKELRELVLDKNKIKSFSEysFVKLWKVTELHCEENRLR---ELSNLEPLV 1327
+                 5567777777777777777777777777777777.666..4455677777777777777777777766555566777777777666...556778888 PP
+
+  Human_TLR  152 nLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgn.kiqrcdlaplallelkels 205 
+                 nL++L +  N ++   + e+++ L+nL  L + gn  ++r+ + p+ ++ +++l 
+  Seg1842.5 1328 NLQRLYIGLNRIQESAEIEKLERLSNLVELSVIGNpVSRRLMHRPMLVFRQPNLL 1382
+                 8888888888888888999999999999999999988999999999888887654 PP
+
+>> Seg1452.3  transcript_id=Seg1452.3|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 40" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.7   6.4   2.3e-11   7.3e-09     541     625 ..      85     169 ..      71     172 .. 0.88
+   2 !   41.9  11.3   1.5e-13     5e-11     540     644 ..     153     255 ..     149     258 .. 0.68
+   3 !   52.0   0.0   1.4e-16   4.5e-14      56     169 ..     268     451 ..     259     465 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 34.7 bits;  conditional E-value: 2.3e-11
+  Human_TLR 541 slkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                 lk+L L+sn++      ++ l+ L+vLD ++nql+sl p ++ +l+++ +Lnls+N+++sLp   + +l+ LkvL l+ N ++++ 
+  Seg1452.3  85 DLKKLILASNQIkeLSAEIKNLPALNVLDAHDNQLESL-PDELGELQEIGRLNLSHNKFSSLPV-SVTQLQVLKVLLLNGNILNKIP 169
+                699*********665677899*****************.7799********************9.6677889*********998775 PP
+
+  == domain 2  score: 41.9 bits;  conditional E-value: 1.5e-13
+  Human_TLR 540 eslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLk 637
+                + lk+L L+ n+L    + + +l+++  LDL++n+l++l p+++ +l +Lr+Lnls+N+l  Lp+  +  l  L +L+l sN++k+  k  ++s++  L 
+  Seg1452.3 153 QVLKVLLLNGNILnkIPEEFGQLQNVDELDLADNKLTAL-PESFGNLIKLRKLNLSNNQLEMLPQ-NMGGLTALTYLNLRSNKLKSLPK-GLDSMK-CLD 248
+                457777777777755456777777777777777777777.6677777777777777777777777.67777777777777777777654.466666.677 PP
+
+  Human_TLR 638 vLdlgaN 644
+                +Ld +aN
+  Seg1452.3 249 MLDCRAN 255
+                7777766 PP
+
+  == domain 3  score: 52.0 bits;  conditional E-value: 1.4e-16
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvenni................ 138
+                n ++L Ls+Nri+el ++ fq+l+ L  Ld++ n +iq+i +e    l +Le LdL++n++s l++  + ++++ ++sl  n +                
+  Seg1452.3 268 NLKELCLSNNRIKELDSKLFQHLPMLMILDVKDN-TIQNIPEE-ITTLRKLERLDLTNNHISVLPNvIGNMENIKSISLDGNPLrglrrdivakgtgavl 365
+                789*******************************.9**99665.689*******************99******************************** PP
+
+  Human_TLR 139 ......................................................k.asledgallnlknLklLdLsfNnlkslpke 169
+                                                                      k +s+ dg++ n  +++  d s+N+l+ +p+ 
+  Seg1452.3 366 nylksrivapleqqpgslatrekpreindnfmpsgneidshkisttkkieysnkKaTSIPDGYFVNDVAITGIDFSKNQLTEVPLR 451
+                *****************************************************9679*************************9954 PP
+
+>> Seg1666.14  transcript_id=Seg1666.14|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat protein SHOC-2" protein_id=Seg16
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.8   1.4e-07   4.6e-05     542     623 ..      24     111 ..       8     116 .. 0.69
+   2 !   49.2   8.9   9.6e-16   3.1e-13     511     622 ..     116     227 ..     111     229 .. 0.94
+   3 !   28.4   4.6   1.9e-09     6e-07     558     644 ..     211     296 ..     209     298 .. 0.87
+   4 !   36.2   5.3   7.9e-12   2.6e-09      57     189 ..     239     381 ..     235     386 .. 0.90
+   5 !   36.4   6.5   7.2e-12   2.3e-09     557     646 ..     387     472 ..     383     475 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 1.4e-07
+   Human_TLR 542 lkeLnLssnmL........swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                 l+eL+L++ +L          ++   +++++ L L +n +  l p+++     L++L+   N+l+sLp+  + kl +L++L++s+N+i  
+  Seg1666.14  24 LTELSLEQVKLacspksvlRPTLSTSFSTVTRLLLDHNDILEL-PTEIGDIYCLKKLSTIGNQLSSLPG-SIGKLGQLEILNISENEIRD 111
+                 5555555555565544444445555667777788888888888.7788888888888888888888888.77888888888888888764 PP
+
+  == domain 2  score: 49.2 bits;  conditional E-value: 9.6e-16
+   Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                 +k+L++Le      N l++   + ++ +++slkeL L +n L    + +  l+kLev + s+n++++l p+ +  l++Lr Lnl +N++++Lp+  + k
+  Seg1666.14 116 MKNLTKLETFSAVANDLDSFLDNGICGELQSLKELYLDENLLtkLPDDFGKLSKLEVFECSENNIQAL-PSGFGDLQNLRILNLDSNRISFLPE-DFYK 212
+                 699***************************************766689********************.889**********************.5567 PP
+
+   Human_TLR 608 lssLkvLdlssNaik 622
+                 l +L+vL ls+N+i+
+  Seg1666.14 213 LPNLNVLLLSNNSIE 227
+                 899**********97 PP
+
+  == domain 3  score: 28.4 bits;  conditional E-value: 1.9e-09
+   Human_TLR 558 rclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaik.tvskdvfqslqskLkvLdlgaN 644
+                   l++L+vL Ls+n ++ l p+ + + + L +L+ls N ltsLp+  +++l++ ++L ++ N++  +v  + f + + k+++L +g+N
+  Seg1666.14 211 YKLPNLNVLLLSNNSIENL-PSIMASAKVLEKLILSKNDLTSLPE-WIDDLENIQELAVEDNELLdQVFTEKFCESAVKITTLLAGRN 296
+                 579****************.89***********************.9***************98524555555555559****99999 PP
+
+  == domain 4  score: 36.2 bits;  conditional E-value: 7.9e-12
+   Human_TLR  57 vtsLdLssNrirelsasdfqrlseLqvLdlshntriq.tiekeafkslkeLeeLdLshnklsklss.fallssLteLslvenni..........k.asl 142
+                  ++L Ls+N ++ l++  +  l++ q+L ++ n       +++ ++s  +  +L    n++s l++  +ll++Lt L++ ++            + +  
+  Seg1666.14 239 LEKLILSKNDLTSLPE-WIDDLENIQELAVEDNELLDqVFTEKFCESAVKITTLLAGRNYMSRLPEnIGLLKNLTLLHVGSTMYelersnfqsgNwLFC 336
+                 57899*********86.699*************5544367899999*********************************9997699******9966888 PP
+
+   Human_TLR 143 edgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiq 189
+                  ++ + +l nLk L L +N+++slp  +e+gnLt+L+ Ldl+ n+++
+  Seg1666.14 337 LPDSFAELVNLKKLHLDENQIRSLP--NEIGNLTKLEWLDLGQNQLE 381
+                 999********************98..68*************99876 PP
+
+  == domain 5  score: 36.4 bits;  conditional E-value: 7.2e-12
+   Human_TLR 557 lrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                 +  lk+L+ L Ls+n+lksl p  + +l +L eL l +N +t++p+  +skl+ L++Ldl +N +  + k+ +q ++  Lk Ld+++N+F
+  Seg1666.14 387 FCNLKSLTYLQLSKNRLKSL-PDDLGNLDKLVELRLDSNVITKIPE-SISKLKVLHSLDLFNNCLPEFPKEIMQMTH--LKRLDVEQNNF 472
+                 56688888888888888888.6688888888888888888888888.788888888888888888888888888554..88888888888 PP
+
+>> Seg3915.2  transcript_id=Seg3915.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeats and immunoglobulin-like domains p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   7.3   6.1e-15     2e-12     515     625 ..       2     114 ..       1     119 [. 0.77
+   2 !   53.3   6.1   5.6e-17   1.8e-14      56     167 ..      75     186 ..      73     188 .. 0.95
+   3 !   55.4   1.0   1.3e-17   4.2e-15      61     157 ..     176     272 ..     174     279 .. 0.96
+   4 !   15.4   0.3   1.6e-05    0.0051     640     691 ..     288     335 ..     276     348 .. 0.82
+   5 ?   -1.4   0.1       1.9   6.1e+02     562     578 ..     855     871 ..     836     905 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 6.1e-15
+  Human_TLR 515 ssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssL 611
+                + L+ L l  N l e+   +f++   sl +L +++n++   +++++   +++  L +  n+l+ +t++ +n l++L eL +++N++++Lpkg +s+l +L
+  Seg3915.2   2 QRLQFLSLYRNHLTEITTGVFCKSK-SLLQLYVNQNKIgkiEDNSFAKCNNMLKLTVGYNKLTNVTKSTFNGLRNLAELFMNNNNIKKLPKGTFSELGRL 100
+                6788888888888888888888876.88888888888888878888888777778888888888888888888888888888888888888888888888 PP
+
+  Human_TLR 612 kvLdlssNaiktvs 625
+                + L l sN++   +
+  Seg3915.2 101 RKLSLGSNHLLILE 114
+                88888888887665 PP
+
+  == domain 2  score: 53.3 bits;  conditional E-value: 5.6e-17
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlknL 153
+                n  +L + +N i++l++  f++l  L++L l++n +   +e ++f  l++L+eL Ls+nk+s l +  f +l+ L +L ++ n i+ +++++a+ +l nL
+  Seg3915.2  75 NLAELFMNNNNIKKLPKGTFSELGRLRKLSLGSN-HLLILESGTFTGLNTLKELSLSGNKISDLVPngFTGLKTLSKLTIEDNRIS-KIHKDAFIGLDNL 172
+                5678999***************************.8888************************9988****************998.9************ PP
+
+  Human_TLR 154 klLdLsfNnlkslp 167
+                 +L +  N+l+ +p
+  Seg3915.2 173 LTLYIFRNQLSNIP 186
+                **********9987 PP
+
+  == domain 3  score: 55.4 bits;  conditional E-value: 1.3e-17
+  Human_TLR  61 dLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlknLklLd 157
+                 +  N+++++++  f+ l++L+ L+l++n ri  +++eaf  l+ L +L L++n+l  ++   f++lssL+++ l++n+i+  +++ga++ l +L++L+
+  Seg3915.2 176 YIFRNQLSNIPTRAFTGLDSLTDLNLGVN-RISSMDNEAFVGLPRLLSLSLNSNRLTLIPAhaFKGLSSLQKITLYFNSIQ-YVAEGAFNPLVSLTTLS 272
+                5668*************************.******************************99******************9.89*************98 PP
+
+  == domain 4  score: 15.4 bits;  conditional E-value: 1.6e-05
+  Human_TLR 640 dlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksld 691
+                +l+ N+++C C++ ++ +w+++ +e      p ++ C+sP +lr + + sl+
+  Seg3915.2 288 NLESNNLHCDCNAFWLQEWVKK-REIL---TPPKIVCNSPLELRAKDLSSLK 335
+                6789****************97.3444...4789**********99999987 PP
+
+  == domain 5  score: -1.4 bits;  conditional E-value: 1.9
+  Human_TLR 562 kLevLDLssnqlksltp 578
+                kL+v+D ++nq+ks ++
+  Seg3915.2 855 KLQVMDFKQNQIKSAAS 871
+                34444444444444322 PP
+
+>> Seg2256.5  transcript_id=Seg2256.5|GoldUCD|mRNA.D3Y31 product="Slit 3 protein" protein_id=Seg2256.5|GoldUCD|D3Y31 par
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.5   7.0   1.4e-11   4.4e-09      36     138 ..      31     132 ..       4     139 .. 0.82
+   2 !   57.7   6.3   2.6e-18   8.5e-16      53     167 ..     141     253 ..     138     279 .. 0.86
+   3 !   41.0   0.5   2.8e-13   9.1e-11      56     177 ..     279     413 ..     274     434 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 35.5 bits;  conditional E-value: 1.4e-11
+  Human_TLR  36 evivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk..lsklss..fallssLteL 131
+                 + v+c++l L+++P+++p ++ +LdLs+N+  +l++ ++ ++ +Lq L l+h+  ++    +af   k+L + dL+ nk  + +l +   + ++ Lte+
+  Seg2256.5  31 YASVKCTNLGLKSIPHGIPVSTINLDLSNNQGLNLEKHSLVNFTQLQTLTLTHC-SMK----NAFMLPKNLLSIDLTLNKftIETLEElfTNAPKLLTEI 125
+                4579**************************************************.444....89*******99999999744678888855778889999 PP
+
+  Human_TLR 132 slvenni 138
+                ++ +n+i
+  Seg2256.5 126 KVAKNGI 132
+                9999987 PP
+
+  == domain 2  score: 57.7 bits;  conditional E-value: 2.6e-18
+  Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnl 150
+                 pk++++L+ s Nr++++++sdf  l +L+ +   ++    +ie++af slk L eL+L +nkl+ l+s  f+   ++ +L+l  n +k       l++ 
+  Seg2256.5 141 FPKSTKTLSVSGNRVEKIKKSDFVGLRNLNNIIAISC-GLTQIEQGAFDSLKILGELNLGSNKLKRLPSglFQSNHHMNRLNLHDNKLK---TIPDLRGI 236
+                6899***************************988888.9999********************************************888...3345999* PP
+
+  Human_TLR 151 knLklLdLsfNnlkslp 167
+                ++L+lLdLs+N++k   
+  Seg2256.5 237 NQLNLLDLSYNEIKNAS 253
+                ************99766 PP
+
+  == domain 3  score: 41.0 bits;  conditional E-value: 2.8e-13
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennik..asledgallnlk 151
+                +vt+LdLs N+i++l++s f++++  ++L l+ n +i+++   af+ +k   eL  + nk+++l+   f++++ +++L l+ n+++      dg+++  k
+  Seg2256.5 279 KVTELDLSLNKIEKLPDSAFANIQGVRELFLQNN-EIIEVSTAAFSGVKLIAELHQQRNKIKSLPRgvFKGVA-IFNLFLYGNSLSdmDGALDGMMKAPK 376
+                89********************************.9999********************************99.***********542234456666656 PP
+
+  Human_TLR 152 nLklL....dLsfNnlkslp.......keeefgnLtn 177
+                +L l     +L  N++k +         ++++ n+tn
+  Seg2256.5 377 QLVLFsmltSLNGNDFKGMTedssiliGCDKLRNITN 413
+                6544311135667777777655555554555555544 PP
+
+>> Seg1524.6  transcript_id=Seg1524.6|GoldUCD|mRNA.D3Y31 product="Protein flightless-1-like" protein_id=Seg1524.6|GoldUC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   1.1   5.5e-09   1.8e-06     555     646 ..      12     100 ..       2     103 .. 0.87
+   2 !   50.6  18.3   3.5e-16   1.1e-13     474     646 ..      23     195 ..      23     195 .. 0.86
+   3 !   74.0  28.2     3e-23   9.7e-21     448     646 ..     111     313 ..     107     316 .. 0.89
+   4 !   16.4   0.7   7.6e-06    0.0024     491     582 ..     300     393 ..     298     397 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 5.5e-09
+  Human_TLR 555 svlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                  l +l+ ++ +DLs n  +   p++v +  +Lr L l + +l +Lp+  l +ls+L++L l +N +++ + d    + s+Lkv+++++N++
+  Seg1524.6  12 AELGVLPFVRGIDLSRNDFQDTFPGKVGNMGNLRWLRLDNSNLEKLPD-TLGNLSKLEHLSLVKNNLTSLHGDIP--ALSNLKVINARHNEL 100
+                567778888899*******99999***********************9.999***************99999874..4779********987 PP
+
+  == domain 2  score: 50.6 bits;  conditional E-value: 3.5e-16
+  Human_TLR 474 lslsdNniasl.vsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL....swsvlrclkkLevLDL 568
+                ++ls N+ + +  + + ++ +Lr L l   + ++    l +Ls+Le+L l +N l    + ++  l  +lk++n ++n L      + +  l  L ++DL
+  Seg1524.6  23 IDLSRNDFQDTfPGKVGNMGNLRWLRLDNSNLEKLPDTLGNLSKLEHLSLVKNNLT-SLHGDIPALS-NLKVINARHNELknhgVPTEMFKLDDLLTVDL 120
+                5789999988876777788999999999654447778899***************6.6677788877.9***********85543445556799****** PP
+
+  Human_TLR 569 ssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                s+n+l+ + p++ ++ ++L  Lnls+N++ts+p+ ++ +l  L +Ldls N+i+t+  + +  l+  L++L l++Np+
+  Seg1524.6 121 SHNHLEEV-PEEAENATSLLVLNLSHNKITSIPNQLFMNLTDLIYLDLSDNLIETIPPQ-LRRLT-GLQTLILNNNPL 195
+                ********.779999*****************************************887.55566.899999999985 PP
+
+  == domain 3  score: 74.0 bits;  conditional E-value: 3e-23
+  Human_TLR 448 elekLetLdLrknslktl.ekvthsl...klslsdNniasl.vsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpesl 542
+                +l +L t dL++n+l++  e+ ++     +l+ls+N+i+s+  +l+++l++L++Ldls +  +++   l++L+ L+ L l++N l + +  ++ sl+ +l
+  Seg1524.6 111 KLDDLLTVDLSHNHLEEVpEEAENATsllVLNLSHNKITSIpNQLFMNLTDLIYLDLSDNLIETIPPQLRRLTGLQTLILNNNPLLHAQLRQLPSLL-QL 209
+                7999***********98765533322444*****************************885556777799***************************.** PP
+
+  Human_TLR 543 keLnLssnmL....swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkv 638
+                + L+L++++       ++l  l++L+ +DLs+n l  + p+ +   ++L++L+ls+N++t+L++ ++++  +L+ L+ls+N++++   +  + l+ +Lk 
+  Seg1524.6 210 HTLHLRNTQRtisnMPNKLDNLENLTDVDLSHNDLPRV-PEPIYRITSLKRLDLSHNQITELST-LIDSWTKLETLNLSRNQLTALPSTICK-LT-SLKR 305
+                ******998767877899********************.7899*********************.9*******************9988888.54.8*** PP
+
+  Human_TLR 639 LdlgaNpF 646
+                L +++N++
+  Seg1524.6 306 LYVNGNQL 313
+                **999986 PP
+
+  == domain 4  score: 16.4 bits;  conditional E-value: 7.6e-06
+  Human_TLR 491 lesLreLdlsgk.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvn 582
+                l+sL+ L ++g+  +   +   + +L +Le+L  ++N+l+ +  e ++  + +lk+L L sn L    + +++l +++ LD+++n    ++pk v+
+  Seg1524.6 300 LTSLKRLYVNGNqLTFeGIPLGIGRLLNLEVLMAAWNRLE-CIPEGVCRCL-KLKKLVLHSNCLitLPEGIHFLANIKDLDVRNNPHLVMPPKPVS 393
+                5677777777754443233233567899999999999996.6666666666.69999999999987778899999999999999988888877665 PP
+
+>> Seg1571.6  transcript_id=Seg1571.6|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 15" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.5   5.3   2.6e-11   8.2e-09      20     138 ..      19     132 ..       2     140 .. 0.81
+   2 !   54.1   1.8   3.2e-17     1e-14      53     165 ..     141     251 ..     138     277 .. 0.80
+   3 !   37.1   1.5   4.4e-12   1.4e-09      55     175 ..     278     412 ..     274     420 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 34.5 bits;  conditional E-value: 2.6e-11
+  Human_TLR  20 algvlpeilpclseerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk..ls 117
+                +  + p    c+     + v+c++l L+++P+ +p ++ +LdLs+N+  +l++ ++ ++ +L  L l+++       k+af    +L + dL++nk  + 
+  Seg1571.6  19 VNAICPD--KCVCV--DASVKCTNLGLKSIPHWIPVSTANLDLSNNQGLNLEKHSLVNFTQLHTLTLTRC-SL----KNAFMLPRNLVSIDLTSNKftIE 109
+                3333444..33333..5689**************************************************.44....48****************85567 PP
+
+  Human_TLR 118 klss..fallssLteLslvenni 138
+                +l +     ++ Lte+++ +n+i
+  Seg1571.6 110 TLEElfTDAPKLLTEIKVAHNGI 132
+                88888567888899999999988 PP
+
+  == domain 2  score: 54.1 bits;  conditional E-value: 3.2e-17
+  Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnl 150
+                 pk++++L+ s Nr+++++++ f  l +L++L   ++    +ie++af s+k+L+ L L +nkl+ l+s  f+  +++  L +  n +k       +++ 
+  Seg1571.6 141 FPKSTKTLSVSGNRVEKIKKNGFVGLRNLEKLIAISC-GLTKIEQGAFDSVKKLRNLHLGSNKLKRLPSglFQSNEKINYLDMHDNKLK---TMPDFRGI 236
+                689*****************************98888.9999**************************977777777777777777665...34457777 PP
+
+  Human_TLR 151 knLklLdLsfNnlks 165
+                + L+lLdLs N++k 
+  Seg1571.6 237 NHLNLLDLSWNEIKN 251
+                777777777777665 PP
+
+  == domain 3  score: 37.1 bits;  conditional E-value: 4.4e-12
+  Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni.......k.asled 144
+                ++v +LdLssN+i +l++s f++ +  ++L l+ n +i ++  +af  ++  +eL L+ n++  l++  f++++  t+L l+ n++         ++l++
+  Seg1571.6 278 TQVVHLDLSSNKIDKLPDSAFANTKFFKQLFLQNN-QISEVSSQAFLGVSFISELHLQRNRIGFLPKgiFKGMVIATNLFLYGNSLsnmdgalDgMKLAP 376
+                67788999999999999999999999999999999.8888999999999999999999999999999999999989999999999877777773456666 PP
+
+  Human_TLR 145 gallnlknLklLdLsfNnlkslp.......keeefgnL 175
+                + l     L+   L  N++k +         ++++ n+
+  Seg1571.6 377 KRLILFSMLTS--LNGNDFKGMTddssiliGCDKLRNI 412
+                66666666664..4467766666555555555555555 PP
+
+>> Seg426.1  transcript_id=Seg426.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 15" protein_id=Se
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   2.9   3.3e-09   1.1e-06      23     139 ..      16     131 ..       5     139 .. 0.78
+   2 !   53.3   1.8   5.7e-17   1.8e-14      53     165 ..     139     249 ..     137     251 .. 0.93
+   3 !   36.3   1.2   7.4e-12   2.4e-09      98     167 ..     207     293 ..     203     296 .. 0.96
+   4 !   35.5   0.6   1.3e-11   4.2e-09      56     139 ..     278     367 ..     257     418 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 27.6 bits;  conditional E-value: 3.3e-09
+  Human_TLR  23 vlpeilpclseerevivdcs..klkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk..lsk 118
+                + +++ +c  +   v vd s     L+++P+++p ++ +LdLs N+  +l++ ++ ++ +Lq L l  + +++    +af    +L + dL++nk  +++
+   Seg426.1  16 LSIANALCPDK--CVCVDASvkCTGLKSIPHGIPVSTIELDLSGNQGLTLEKFSLVNFTQLQTLTLINC-NMK----NAFMLPRNLVSIDLTQNKftIKT 108
+                44444444442..333333311358****************************************9766.666....9****************855789 PP
+
+  Human_TLR 119 lss..fallssLteLslvennik 139
+                l++     ++ L e+++ enni 
+   Seg426.1 109 LAElfTDAPKLLKEIKVDENNIV 131
+                99895677888899999999995 PP
+
+  == domain 2  score: 53.3 bits;  conditional E-value: 5.7e-17
+  Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnl 150
+                 pk++++L+   N++++++ sd+  l +L++L   ++    +i+++af s+++L+eL+L +nkl   +s  f+  +++ +L l  n +k       +++ 
+   Seg426.1 139 FPKSTRTLSVCGNKVEKIKRSDLVGLRNLEKLIAISC-GLTQIDQGAFDSVNNLRELNLGSNKLERFPSglFQSNNHISRLDLHDNKLK-T--IPDFRGI 234
+                6899****************************98888.9999********************************************888.3..34699** PP
+
+  Human_TLR 151 knLklLdLsfNnlks 165
+                + L+lLdLs N++k 
+   Seg426.1 235 NHLNLLDLSWNEIKN 249
+                ***********9985 PP
+
+  == domain 3  score: 36.3 bits;  conditional E-value: 7.4e-12
+  Human_TLR  98 eafkslkeLeeLdLshnklsklssfallssLteLslvenni.................kasledgallnlknLklLdLsfNnlkslp 167
+                ++f+s+++ + LdL++nkl+++++f ++++L  L l+ n+i                 k  +ed+ +++ + ++ LdLs+N+++ lp
+   Seg426.1 207 GLFQSNNHISRLDLHDNKLKTIPDFRGINHLNLLDLSWNEIknasgitvplvtqlylgKNLIEDFHFNGTQIMQSLDLSYNKIRMLP 293
+                68*******************************************************9789**********************9987 PP
+
+  == domain 4  score: 35.5 bits;  conditional E-value: 1.3e-11
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni.....k 139
+                 ++sLdLs+N+ir l++  f+   + +++ l+ n +i ++  +af  +   +eL L+ n++  l++  f+++   t+L l+ n++      
+   Seg426.1 278 IMQSLDLSYNKIRMLPDFAFAGTTSFREIFLQNN-QISEVSSKAFLGVRFISELHLQRNRIVFLPKgiFKGMMIATNLFLYGNSLsnmdgA 367
+                4567777777777777777777777777777777.77777777777777777777777777777777777777777777777776433330 PP
+
+>> Seg1300.10  transcript_id=Seg1300.10|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat serine/threonine-protein kinase 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4   1.6     9e-10   2.9e-07     556     646 ..     283     371 ..     250     372 .. 0.84
+   2 !   12.0   4.9   0.00017     0.054     516     623 ..     337     437 ..     336     444 .. 0.75
+   3 !   50.6   8.0   3.6e-16   1.2e-13     516     657 ..     401     539 ..     382     551 .. 0.57
+   4 !   55.7  13.5     1e-17   3.2e-15     453     624 ..     447     632 ..     445     652 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 29.4 bits;  conditional E-value: 9e-10
+   Human_TLR 556 vlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                  +    + ++ +DL++n++k l++  ++ l +L  L++s N ltsLp+  + +  +L+ L  s+N + +v    f+   +++  +dl +N++
+  Seg1300.10 283 WFGLHgPMIQSIDLHQNKIKELPDCFFEMLPNLEDLDISVNLLTSLPERGI-DRCKLSRLIASRNNLHSVPLALFK--NRTICKIDLFQNKL 371
+                 444446899***************************************555.5568*******************9..45588888888876 PP
+
+  == domain 2  score: 12.0 bits;  conditional E-value: 0.00017
+   Human_TLR 516 sLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkv 613
+                 +L +L  s N l++ +   fk+ +  + ++ L +n+L     + l ++  v DL sn+ +   ++++ +  +L  L+ls N+l +Lpk  ++ + +L+ 
+  Seg1300.10 337 KLSRLIASRNNLHSVPLALFKNRT--ICKIDLFQNKL-----KYLpPEGLVEDLDSNEYNDDIEEELWCCINLTSLKLSQNQLAKLPK-AIHGACKLER 427
+                 578888899999888888888877..88888888888.....5666666666888888777667788888888888888888888888.6777778888 PP
+
+   Human_TLR 614 LdlssNaikt 623
+                 L+l +N++ +
+  Seg1300.10 428 LNLGNNELIS 437
+                 8888887655 PP
+
+  == domain 3  score: 50.6 bits;  conditional E-value: 3.6e-16
+   Human_TLR 516 sLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpk.lvnklsaLreLnlslNsltsLpkgflsklssLkv 613
+                 +L+ L+lsqN+l +l+ +++     +l+ LnL +n L   v     ++  LDLs nql+s+ ++ ++  ++++r+L ls N+lt ++ +++  l++L++
+  Seg1300.10 401 NLTSLKLSQNQLAKLP-KAIHGAC-KLERLNLGNNELISFVSPWNCRMDDLDLSYNQLTSFEENiEIYWSKSIRRLTLSGNKLTAISWSVC-RLENLSI 496
+                 5666666666664333.3333333.566666666666333333335666666666666666443134455666666666666666666544.3556666 PP
+
+   Human_TLR 614 LdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvq 657
+                 Ld+s+N +++     f  ++  L+ L+l++N++  +C+ + f  
+  Seg1300.10 497 LDVSHNMLESLPPRHFWLMK-GLNKLNLSHNRLSASCGPQGFAD 539
+                 66666666666666666443.66666666666666666666655 PP
+
+  == domain 4  score: 55.7 bits;  conditional E-value: 1e-17
+   Human_TLR 453 etLdLrknslktl.ekvthsl.....klslsdNniaslvsltlelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNsls.elsneefkslpeslk 543
+                 + LdL++n+l++  e+++         l+ls+N+++++   +  le+L++Ld+s++  +  +   +  ++ L++L+ls+N+ls ++  + f ++ ++ +
+  Seg1300.10 447 DDLDLSYNQLTSFeENIEIYWsksirRLTLSGNKLTAISWSVCRLENLSILDVSHNmLESLPPRHFWLMKGLNKLNLSHNRLSaSCGPQGFADIEKQRV 545
+                 67**********97777665599999************55555************98999777777888*************93567788999****** PP
+
+   Human_TLR 544 eLnLssnmL......swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslN.sltsLpkgflsklssLkvLdlssNaiktv 624
+                 eL +ss         +   + ++ ++L+ LDLssn+l+++ p+ v+ l+aL eLnls+N +lt Lp+  l kl +   L+l++ +++  
+  Seg1300.10 546 ELAISSAAAlsfisnCELPVDMFeNTLQSLDLSSNNLEMV-PETVSMLTALGELNLSNNpRLTRLPA-ELGKLRNIWNLKLDNLSLQDL 632
+                 ****998766999988888999999***************.889***************88*****9.889999999999887666655 PP
+
+>> Seg1055.7  transcript_id=Seg1055.7|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat serine/threonine-protein kinase 2"
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.6   9.5   1.7e-19   5.3e-17     503     646 ..     975    1114 ..     928    1117 .. 0.86
+   2 !   34.4   2.3   2.9e-11   9.3e-09     559     622 ..    1100    1163 ..    1096    1170 .. 0.96
+   3 !   40.4   9.7   4.5e-13   1.4e-10     509     644 ..    1120    1260 ..    1117    1261 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 61.6 bits;  conditional E-value: 1.7e-19
+  Human_TLR  503 adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrcl..kkLevLDLssnqlksltpklvnklsaLreLnlslNslt 598 
+                  ++ +  +++g   L +Ldl  N +   + e+++ ++ s+k+L+L++n L+    + l  k+LevL Ls+n ++ l +++++ +++L +L+++ N lt
+  Seg1055.7  975 RNPFVRPFFNG---LLKLDLRGNDIT-EFPEVVCRELTSIKQLHLAENHLKEFPYEILnnKTLEVLNLSKNSIEVLESSKMHTTMSLTTLDMNQNLLT 1068
+                 44455567777...7789*******6.77788888888********************999************************************* PP
+
+  Human_TLR  599 sLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646 
+                 + p+ + + +  L +L l +N i+t     +q   ++Lk+Ldl++N+ 
+  Seg1055.7 1069 KFPSWLGDYVPALTHLILPRNRISTLASRPLQ--MRQLKMLDLSRNKI 1114
+                 ********************************..557*********86 PP
+
+  == domain 2  score: 34.4 bits;  conditional E-value: 2.9e-11
+  Human_TLR  559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaik 622 
+                 ++++L++LDLs n+++ ++p+ +++   L +L+ls+N l sLp   +  +++L++L+l +N++k
+  Seg1055.7 1100 QMRQLKMLDLSRNKIEVVPPQFFDQCVMLEKLDLSNNCLISLPVQAAMTFNRLSHLKLAHNLLK 1163
+                 5799*********************************************************998 PP
+
+  == domain 3  score: 40.4 bits;  conditional E-value: 4.5e-13
+  Human_TLR  509 sllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL....swsv...lrclkkLevLDLssnqlksltpklvnklsaLreLnlslNslts 599 
+                 +++ +   Le+Ldls+N l +l++++  + +  l +L+L++n L     w v   + +l++L++LD+++n++++l+  ++ +++ Lr Ln  +N++++
+  Seg1055.7 1120 QFFDQCVMLEKLDLSNNCLISLPVQAAMTFN-RLSHLKLAHNLLkerpPWYVprfVLQLQNLTILDMEDNKVTQLPLPSMWASRCLRDLNFDNNRISK 1216
+                 79999999*****************999998.************999956551115568*****************99*******************9 PP
+
+  Human_TLR  600 Lp.kgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644 
+                 L+ +  +s+ s L  L l +N+++    + +++l+  L+ L++++N
+  Seg1055.7 1217 LNlDESASQWSILWRLSLAHNKLERLPPN-IGHLT-GLAYLNISHN 1260
+                 974457899999***********999776.56677.8999999999 PP
+
+>> Seg660.8  transcript_id=Seg660.8|GoldUCD|mRNA.D3Y31 product="Adhesion G protein-coupled receptor A3" protein_id=Seg66
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   0.3   2.9e-19   9.5e-17      10     126 ..       8     131 ..       3     133 .. 0.84
+   2 !   49.7   0.1   6.9e-16   2.2e-13     574     696 ..     120     234 ..     119     240 .. 0.89
+   3 ?   -1.9   0.5       2.6   8.3e+02     293     339 ..     402     447 ..     393     463 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 2.9e-19
+  Human_TLR  10 lltl.....llamvlalgvlpeilpclseerevivdcsklkLtevPk.dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafksl 103
+                +lt+     + + ++++   p   +c+s ++   v cs++ ++++    lpk++ + +Ls+N+i+e+   +f + ++ ++L+l+ n +iq+ie+++f s 
+   Seg660.8   8 TLTClivmfIFLIAVVSDDCPVKCSCSSRNNGKSVLCSSKGIKSIQInRLPKETVEINLSDNQIKEIRRGSFPFSKKVKKLNLRGN-HIQYIEPGSFASF 106
+                5556221223334445555556999********************8548*************************************.************* PP
+
+  Human_TLR 104 keLeeLdLshnklsklss..falls 126
+                ++L++L+L+ n+l ++ +  f++l+
+   Seg660.8 107 PSLSKLYLQVNELRTIEKgtFSGLK 131
+                ****************987777665 PP
+
+  == domain 2  score: 49.7 bits;  conditional E-value: 6.9e-16
+  Human_TLR 574 ksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsd 673
+                +++ ++ ++ l+ L++ n+s N+l  + +  +s++ +L+   l++N+++t+++  f     + + +dlg+N+++C C++ ++v++    +++   g  + 
+   Seg660.8 120 RTIEKGTFSGLKFLKHVNISQNKLLYIHQNAFSEARKLRRISLQQNELTTFQEYTFP----NSSKVDLGGNDLICDCDMYWLVKQ----SKK--RGATDG 209
+                6778889999***********************************************....45689****************995....333..378899 PP
+
+  Human_TLR 674 vkCasPeslrGlsvksldls..sCk 696
+                  C++P+sl G+++k+l  +  +C+
+   Seg660.8 210 SRCKYPKSLTGKKIKELGGKkwKCN 234
+                ***************9976656665 PP
+
+  == domain 3  score: -1.9 bits;  conditional E-value: 2.6
+  Human_TLR 293 vlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkyle 339
+                + ++l+e+ ++++++  lL  +  +ln+i+    + F++ k++ y++
+   Seg660.8 402 LTRQLDELSKRSINNTSLLRIIA-DLNNITNFYKRNFTEAKQFDYIS 447
+                44566666666666666666666.66666666666666666666655 PP
+
+>> Seg112.8  transcript_id=Seg112.8|GoldUCD|mRNA.D3Y31 product="Toll-like receptor 2" protein_id=Seg112.8|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.3   1.6   6.9e-31   2.2e-28     746     899 ..     107     250 ..      58     256 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 99.3 bits;  conditional E-value: 6.9e-31
+  Human_TLR 746 r.....esrnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhqrlleen 840
+                r      + +  +d fi+ys+ D++WV+  L+++l+e +  +++C+  +df PG +ii+ni ++i++SrKt+ Vls+ fv s wc+ e+++A  r +e++
+   Seg112.8 107 RlpsqgSEVEHAFDVFICYSSSDKEWVRKTLLEKLKEYN--MRVCIDFKDFTPGDFIIQNIADAIYNSRKTIAVLSPDFVVSAWCQQELQMALAR-IEDK 203
+                133335677889*************************66..****************************************************99.5777 PP
+
+  Human_TLR 841 sdviILilLepiekyqlskalrklkrllkkksyLeWPkdkskrglFwakLraallskns 899
+                 +vi L             + ++   +l +++yL W  ++  r++Fw++L   +++ ++
+   Seg112.8 204 HQVIPLM-----------YRDCEVPPFLWHRTYLDWC-NPDIRPSFWQQLLRTVNDGKE 250
+                7666332...........2226677778899*****5.799999*****9999988765 PP
+
+>> Seg1996.10  transcript_id=Seg1996.10|GoldUCD|mRNA.D3Y31 product="Insulin-like growth factor-binding protein complex a
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   2.3   6.8e-09   2.2e-06      20     138 ..      21     134 ..       4     142 .. 0.78
+   2 !   38.6   0.1   1.5e-12   4.9e-10      54     163 ..     144     251 ..     141     255 .. 0.94
+   3 !   45.6   0.6   1.2e-14   3.7e-12     512     632 ..     236     351 ..     231     364 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 6.8e-09
+   Human_TLR  20 algvlpeilpclseerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk..l 116
+                 a  + p+  +cl+e     v+c  + L+ +P ++p ++ +LdLs+N+  +l +  f ++ +Lq L+l+ +        +af    +L + d  +n+  +
+  Seg1996.10  21 AHTTCPRRCSCLEE----KVECVRKGLKAIPYGIPLSTIQLDLSQNQGLKLDKFAFINFTQLQTLNLKNC-SL----RHAFTLPRNLASIDVGQNRftI 110
+                 44455665566655....689999********************************************99.44....4899999999999999996446 PP
+
+   Human_TLR 117 sklss..fallssLteLslvenni 138
+                 + l++   + ++sLt + + en i
+  Seg1996.10 111 KALKElfTNAPASLTTILVNENKI 134
+                 677777557788888888888876 PP
+
+  == domain 2  score: 38.6 bits;  conditional E-value: 1.5e-12
+   Human_TLR  54 pknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnl 150
+                 p +++sLd   N +++l + df+ l +L+    ++      i+++af  lk+L+e  L  n +++l+   f    +L++++l +nn+k       l++ 
+  Seg1996.10 144 PSTTKSLDVGGNTVERLGKDDFHGLTNLNIFVARSS-GLTDIKQGAFDVLKDLREICLPVNSIKNLPLglFRHNHKLVRINLDQNNLK---TIPDLRGI 238
+                 789**************************9999999.9999**************************999999999*********999...445699** PP
+
+   Human_TLR 151 knLklLdLsfNnl 163
+                 ++L++LdL  N++
+  Seg1996.10 239 RSLNRLDLGWNKI 251
+                 ********99987 PP
+
+  == domain 3  score: 45.6 bits;  conditional E-value: 1.2e-14
+   Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklss 610
+                 +g+ sL++Ldl +N++    n +  ++p  +++L L+ n++++ +++    +e LDLs+n++k l++ +++  + ++eL l++N++ +++   +s l+s
+  Seg1996.10 236 RGIRSLNRLDLGWNKII---NATGITVP-FINSLYLRANQIEHFSFEKTAIIE-LDLSHNKIKKLPEFAFKGNEYIKELFLQSNKIDDVSPLAFSGLKS 329
+                 68899**********93...33333343.689*********999999987776.9******************************************** PP
+
+   Human_TLR 611 LkvLdlssNaiktvskdvfqsl 632
+                   +L l++N+i++  k+ f+ l
+  Seg1996.10 330 IMELHLQRNKIESLPKSIFKGL 351
+                 *****************99854 PP
+
+>> Seg1087.5  transcript_id=Seg1087.5|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 15" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.3   0.9     2e-09   6.4e-07      30     117 ..      28     118 ..       3     138 .. 0.79
+   2 !   53.0   2.9   6.8e-17   2.2e-14      54     166 ..     153     306 ..     150     307 .. 0.95
+   3 !   27.9   1.7   2.6e-09   8.3e-07      58     146 ..     294     381 ..     287     424 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.3 bits;  conditional E-value: 2e-09
+  Human_TLR  30 cls........eerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnkls 117
+                c s        e +   ++c k  LtevP ++p+++ +  Ls+N   + s+  f ++++L++L+l +n        +af    +L++ +L +nk  
+  Seg1087.5  28 CYSalsngtctECNYTHINCYKAGLTEVPGEIPHSIFEIMLSNNPSLRFSHDAFLKFENLRSLKLDFN-SL----SDAFALPMTLKYINLRGNKFN 118
+                444444444433367789**************************************************.33....489***************975 PP
+
+  == domain 2  score: 53.0 bits;  conditional E-value: 6.8e-17
+  Human_TLR  54 pknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni............. 138
+                p n+++L L + +ir+ls + fq++ +L++L l+++  i+tie ++f  l++L++Ld ++n+l+ l++  f+ +++L  L l+ n++             
+  Seg1087.5 153 PANINNLHLFHFKIRNLSGKFFQHFTKLRQLTLQSC-GIETIEAGSFDHLEKLKMLDIQNNRLKALPDklFSKCKKLNVLLLSGNQLgrlpdlsgpgyfq 251
+                7899********************************.*************************************************************** PP
+
+  Human_TLR 139 ............................kasledgallnlknLklLdLsfNnlksl 166
+                                            +  +e++ l   ++   LdLs+Nn+++l
+  Seg1087.5 252 tlscercgirnltsadimakvalvlkfgRNRIENFNLTS-TKYGILDLSYNNITVL 306
+                *************************99757999999865.67899********987 PP
+
+  == domain 3  score: 27.9 bits;  conditional E-value: 2.6e-09
+  Human_TLR  58 tsLdLssNrirelsasdfqrl.seLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledga 146
+                  LdLs+N i+ l++  f+ l ++++ + l  n +  +i ++af+ l++  eL L+ n+   l++  f++++ +  L +++  +     +g+
+  Seg1087.5 294 GILDLSYNNITVLNDFAFNGLrKQMRTISLINN-NLTQISPKAFRGLTYIDELHLQRNNFTRLPEriFEGMT-INTLLVYHSKLT--TMKGV 381
+                579999999999999999999457999999999.99999999999999999999999999999999999998.778888887552..33333 PP
+
+>> Seg1547.12  transcript_id=Seg1547.12|GoldUCD|mRNA.D3Y31 product="Plant intracellular Ras-group-related LRR protein 3"
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   4.2   1.5e-07   4.9e-05     545     630 ..      20     106 ..       4     113 .. 0.70
+   2 !   50.0   2.2   5.6e-16   1.8e-13     513     627 ..      83     195 ..      81     198 .. 0.90
+   3 !   46.7   7.7   5.5e-15   1.8e-12     514     625 ..     130     240 ..     129     251 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 22.1 bits;  conditional E-value: 1.5e-07
+   Human_TLR 545 LnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfq 630
+                 LnLs+  L     ++l   k +e L L+s++l + +p +++   +L eLnl  N+l+ Lp+  + +l++Lk L +s N+   v k+  q
+  Seg1547.12  20 LNLSNIDLrvlPLQSLTACKGIECLHLNSCNLMM-PPMEIHLFDNLIELNLDDNQLSMLPT-SIGSLQNLKTLCISGNSFGYVPKQICQ 106
+                 4555544433344555566888888888888864.57788888888888888888888888.777888888888888887776666554 PP
+
+  == domain 2  score: 50.0 bits;  conditional E-value: 5.6e-16
+   Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskls 609
+                  L++L+ L +s Ns+     +++++l  +l+ ++++   L    + +  lk+Le L L++nq++s+ +++v   ++L+  n+s+N l++Lp+  l  +s
+  Seg1547.12  83 SLQNLKTLCISGNSFG-YVPKQICQLA-NLRRFFVQRAHLtfFPEEVCALKSLEYLGLAENQIESM-SENVAVMTKLKWFNVSSNFLSELPE-SLTGVS 177
+                 589************7.6678899999.************6655677789****************.6699999******************.8999** PP
+
+   Human_TLR 610 sLkvLdlssNaiktvskd 627
+                 sL + dls+N++k +  +
+  Seg1547.12 178 SLAHIDLSKNKLKNFPSS 195
+                 ************987665 PP
+
+  == domain 3  score: 46.7 bits;  conditional E-value: 5.5e-15
+   Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklss 610
+                 L+sLe L l++N+++  s+ e+  ++ +lk +n+ssn L    ++l  +++L  +DLs+n+lk + p+++ +  +L  L ls+N++++L++  ++k+ +
+  Seg1547.12 130 LKSLEYLGLAENQIE--SMSENVAVMTKLKWFNVSSNFLseLPESLTGVSSLAHIDLSKNKLKNF-PSSLLSIPSLASLLLSNNKIRVLKSDCVNKVTR 225
+                 89************7..66677777789***********766799********************.8899***************************** PP
+
+   Human_TLR 611 LkvLdlssNaiktvs 625
+                 L  Ldl  N i+ + 
+  Seg1547.12 226 LAKLDLRDNPIEDMP 240
+                 *********998765 PP
+
+>> Seg12012.1  transcript_id=Seg12012.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 15" protein_i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.4   4.1   1.2e-10   3.8e-08      14     116 ..      34     158 ..      22     158 .. 0.76
+   2 !   38.4   2.6   1.7e-12   5.5e-10     521     646 ..     126     253 ..     120     255 .. 0.84
+   3 !   29.6   1.0   7.9e-10   2.5e-07     512     607 ..     260     352 ..     259     366 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 32.4 bits;  conditional E-value: 1.2e-10
+   Human_TLR  14 llamvlalgvlpeilpcls..eerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriq................. 93 
+                 +++++++++   +   c +       +v+c+ + L+e+P+d+p ++tsLd s+N   + +++ f ++ +LqvL+l+ + r +                 
+  Seg12012.1  34 IICFLFMQCCGKA-RNCPKrcRCTLSAVKCTYQDLKEIPSDIPLSTTSLDFSHNPSLDFKSNAFLKFTQLQVLRLNNCSR-Kgpvllpdsvrhvglamn 130
+                 3444444443333.34444333346689************************************************9954.458899999999999999 PP
+
+   Human_TLR  94 ..tie..keafksl.keLeeLdLshnkl 116
+                   tie  ke+fk+  + L + d s+n+l
+  Seg12012.1 131 llTIEsvKETFKNSsTRLDVIDISQNYL 158
+                 9977744578876515799999998876 PP
+
+  == domain 2  score: 38.4 bits;  conditional E-value: 1.7e-12
+   Human_TLR 521 dlsqNslsels.neefkslpeslkeLnLssnmL.swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdl 616
+                  l+ N l   s +e+fk+    l ++ +s+n+L   +vl+ + k ++ L  ++n lk+l +++++    +r+Lnl   +l ++++  +++l++L  L l
+  Seg12012.1 126 GLAMNLLTIESvKETFKNSSTRLDVIDISQNYLdIKQVLHIIpKWIKHLVSRGNVLKTLGEHALERFIDMRRLNLCGCQLGKIETKAFDSLKELDALIL 224
+                 567777775541566778888999999999999888999999888999999999999999999999999999999999999999999999999999999 PP
+
+   Human_TLR 617 ssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                 + N++ +  k+ fq    +L+ L l++N +
+  Seg12012.1 225 DGNKLRSLPKKLFQYNV-NLRRLFLRGNHL 253
+                 99999999999999655.999999999986 PP
+
+  == domain 3  score: 29.6 bits;  conditional E-value: 7.9e-10
+   Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                 +g++ L +Ldl qN l++ +  e+    + + +L++ sn++s   l  l+ L+ LDLs n+++ l + ++   +++r L+l++N++++++   l  
+  Seg12012.1 260 RGIPALAKLDLRQNNLKQFNASELGI--KYIAYLKVGSNRISSFNLTGLNVLQ-LDLSRNNITKLGDFAFGGRQRIRILYLQNNNISHISPNTLRR 352
+                 57788999999999998655555543..3599999999999888888888887.799999999999999999999999999999999998854444 PP
+
+>> Seg7492.2  transcript_id=Seg7492.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing G-protein coupled recep
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.5   1.0   4.3e-10   1.4e-07     532     630 ..      10     110 ..       1     110 [. 0.77
+   2 !   39.7   0.9     7e-13   2.3e-10     554     645 ..      82     169 ..      79     173 .. 0.94
+   3 !   39.5   3.5   8.1e-13   2.6e-10      56     189 ..     179     326 ..     174     389 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 30.5 bits;  conditional E-value: 4.3e-10
+  Human_TLR 532 neefkslpeslkeLnLssnmL.swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvf 629
+                +e+fk+    l ++ +s+n+L   +vl+ + k ++ L  ++n lk+l +++++     r+Lnl   +l+++++  +++l++L  L l+ N++ +  k+ f
+  Seg7492.2  10 KETFKNSSTRLDVIDISQNYLdIKQVLHIIpKWIKHLVSRGNVLKTLGEHALERFIDVRRLNLCGCQLRKIETKAFDSLKELDALILDGNKLRSLPKKLF 109
+                5667777788888888888887778888887778888888888888888888888888888888888888888888888888888888888888888877 PP
+
+  Human_TLR 630 q 630
+                q
+  Seg7492.2 110 Q 110
+                6 PP
+
+  == domain 2  score: 39.7 bits;  conditional E-value: 7e-13
+  Human_TLR 554 wsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNp 645
+                 + +  lk+L  L L +n+l+sl++kl++   +Lr+L l  N+l sLp+  l  +  L  Ldl +N +k++++++++ + + ++ L++g N+
+  Seg7492.2  82 TKAFDSLKELDALILDGNKLRSLPKKLFQYNVNLRRLFLRGNHLESLPD--LRGIPALAKLDLRQNNLKQFNASELG-I-KYIAYLKVGSNR 169
+                678999*******************************************..**************************.4.479999999997 PP
+
+  == domain 3  score: 39.5 bits;  conditional E-value: 8.1e-13
+  Human_TLR  56 nvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgallnlknL 153
+                nv +LdLs N i++l +  f   +  + L l+ n +i  i +++f+ l++  eL+L+ n++  l+   f+++  + +L l+ n ++    +g+l+++k+ 
+  Seg7492.2 179 NVLQLDLSRNNITKLGDFAFGGRQRIRILYLQNN-NISHISPNTFRRLESIMELYLHRNRIERLPTniFKGML-IKKLILYGNRLS--NIHGVLEQMKST 274
+                7899******************************.9*****************************99999998.99*******775..446899999988 PP
+
+  Human_TLR 154 klLdLsf.N.nlkslp...............keeefgnLtnLkiLdlSgnkiq 189
+                  L L f N ++k ++                ++++++L++ k L+ S  k+ 
+  Seg7492.2 275 PSLLLLFsNpQFKIFKaadftsmsngseiyiTCKDLKELSEHKALRASI-KCS 326
+                7776655132577777999999999999999999999999999999888.443 PP
+
+>> Seg2497.2  transcript_id=Seg2497.2|GoldUCD|mRNA.D3Y31 product="Follicle-stimulating hormone receptor" protein_id=Seg2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4   1.5   6.9e-12   2.2e-09      40     131 ..      54     148 ..      16     148 .. 0.80
+   2 !   53.4   0.5     5e-17   1.6e-14      47     193 ..     134     275 ..     133     314 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 6.9e-12
+  Human_TLR  40 dcsklkLtevPk....dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteL 131
+                d s ++L++vP     + + + ++L+L +Nri+e+   df  +++L  L l+ n +i ++e+ + ++l+ L++L  ++n + ++++ + +  L eL
+  Seg2497.2  54 DLSYQNLEQVPTaildEQKATLEVLNLGENRITEIRLGDFPWMPKLHTLLLHKN-KISNVEETSLEFLPGLKVLRFEDNLMRSIPKISSPLALYEL 148
+                557789999999555444566789999999999999999999999999999999.99999999999999999999999999999985555556665 PP
+
+  == domain 2  score: 53.4 bits;  conditional E-value: 5e-17
+  Human_TLR  47 tevPk.dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasle 143
+                +++Pk   p +  +Ld+s+N+i e++++d++ ls Lq L ++ n +i+t+ +e+fk ++++ eLdLs+n l  + s    ++++L  L l  + i+    
+  Seg2497.2 134 RSIPKiSSPLALYELDMSYNHIYEVKKEDLKALSLLQILIMRGN-KIKTLRDETFKYNPKMDELDLSENPLTLMESnsLVGPKKLRTLFLRGTKIS---- 228
+                5677766678899*******************************.**************************9999988999999********9776.... PP
+
+  Human_TLR 144 dgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdl 193
+                + + ++lk L++L  + N+++ +   +e + + +Lk +d+    +  c +
+  Seg2497.2 229 KLPNNGLKYLHRL--KINEIEEMWTVPEPSAFEALKEVDVTY-SVHCCPF 275
+                5566667777765..678899888888888888888888876.4444444 PP
+
+>> Seg3528.1  transcript_id=Seg3528.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 69" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8  10.7   3.4e-13   1.1e-10     542     645 ..      77     179 ..      46     181 .. 0.92
+   2 !   40.9   7.3   3.1e-13     1e-10     512     631 ..     188     305 ..     185     356 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 3.4e-13
+  Human_TLR 542 lkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvL 639
+                 k+LnL +  L     ++  + +L++L L++n+l+ l p++++ l++L  L+l +N+++++p+ ++  l+sLk L l +N+ik++  + f  l  +L+ L
+  Seg3528.1  77 AKNLNLGNKGLetLPALIGKVTSLQILTLKGNKLQDL-PRELVVLRQLESLHLGNNNIKDIPA-VIGYLVSLKTLHLFNNQIKQITPTIFSGLS-SLTLL 173
+                5799999999976567788889***************.99***********************.9**************************887.***** PP
+
+  Human_TLR 640 dlgaNp 645
+                +l++N+
+  Seg3528.1 174 NLNNNQ 179
+                ****97 PP
+
+  == domain 2  score: 40.9 bits;  conditional E-value: 3.1e-13
+  Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLsw..svlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskls 609
+                ++LssLe L +++N l+el++ e+++l   l+eL+ ++n L+w  s + +l+ L+ L+L++n++  + p  ++k ++Lr L++s N+l + p+       
+  Seg3528.1 188 NRLSSLEYLSIDNNELNELPV-EICHLS-RLVELHAANNHLKWlpSAIAFLRDLQKLYLQKNEIDIV-PVGLSKCTKLRVLDISANRLCFFPS--ELAGL 282
+                89**************97776.688888.9***********88667999******************.78889999*****************..44556 PP
+
+  Human_TLR 610 sLkvLdlssNa.iktvskdvfqs 631
+                sL +L  ++N  +++   +++q 
+  Seg3528.1 283 SLDELYCEQNNlLQHLPVQSLQD 305
+                99999998765156666666665 PP
+
+>> Seg6940.1  transcript_id=Seg6940.1|GoldUCD|mRNA.D3Y31 product="Malignant fibrous histiocytoma-amplified sequence 1" p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.3   2.8     1e-22   3.3e-20     426     625 ..     138     339 ..     102     352 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 72.3 bits;  conditional E-value: 1e-22
+  Human_TLR 426 telkyldLskNkldll.tsssftelekLetLdLrknslktl.ekvthsl.klslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdl 522
+                 ++ky  + +  +     ++s++e+++Let  L +    t+    + +l +++ls N i+ +     + + L+ L ls +  +++ + +++L+sL++Ldl
+  Seg6940.1 138 VHMKYFHFENDGIHAFgLAESIQEMKDLETVALPYCGISTMpGAFPANLkHMDLSCNRIKEISTTIFQIRTLESLILSKNIIQDVPKEINNLKSLKKLDL 237
+                4677777777776543156777777777777777777777754445555677777777777755555777777777776644455555677777777777 PP
+
+  Human_TLR 523 sqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNa 620
+                s+Ns+s+l+  e+ + ++ l +L L+ n L      +  l++L+ LDL++n l+s+ p ++  l +L +L ls+N+lt Lp+ +++     + L ls N 
+  Seg6940.1 238 SHNSISTLP--ETITDLKWLMKLYLAGNELkyLPVNIGNLHSLKHLDLRDNFLTSI-PDSIGDLFKLIKLTLSNNKLTALPETICKLSMADEALLLSGNP 334
+                777776433..333333467777777777733334556677777777777777777.5577777777777777777777777777777777777777777 PP
+
+  Human_TLR 621 iktvs 625
+                + ++ 
+  Seg6940.1 335 LHMPP 339
+                77665 PP
+
+>> Seg1081.15  transcript_id=Seg1081.15|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 58" protein_i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.3   6.1e-07    0.0002     566     646 ..      19     101 ..      17     103 .. 0.79
+   2 !   55.3   7.7   1.3e-17   4.3e-15     516     646 ..     113     239 ..     106     242 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 6.1e-07
+   Human_TLR 566 LDLssnqlksltpklvn.....klsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                 LDLss  l+ l p++       +   +r+L +  N l+++p+  +  ++sL++Ld+s+N+i+  s +    l  kL++L +++N++
+  Seg1081.15  19 LDLSSRGLTYLNPSSPLinrglEVAHIRKLTVIDNALSVIPN-SIAAFVSLEELDISRNSISWLSGETAR-LP-KLRILLARNNRL 101
+                 6777777777766543311111456789**************.8899*****************999887.66.9*********97 PP
+
+  == domain 2  score: 55.3 bits;  conditional E-value: 1.3e-17
+   Human_TLR 516 sLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLk 612
+                 sLeiL+ls N +      e+  l  +lkeL L  n++    + +r l+ L+vL+L +nq+  + p+++ kl++L+ L+l  N+l ++p+  l +l++Lk
+  Seg1081.15 113 SLEILNLSGNMFL-DVPRELLGLG-KLKELYLGGNRInsITDEIRRLEGLQVLYLGGNQISEI-PGSLGKLKNLQALILCDNKLENIPA-RLAQLKKLK 207
+                 7***********5.5555666666.9***********876788999*****************.99***********************.8999***** PP
+
+   Human_TLR 613 vLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                 +L l +N++kt   + +  l  +L++L l++Np+
+  Seg1081.15 208 SLSLHKNKLKTLPMEIVM-LL-NLQELSLRDNPL 239
+                 *************99998.55.8*********97 PP
+
+>> Seg752.5  transcript_id=Seg752.5|GoldUCD|mRNA.D3Y31 product="Malignant fibrous histiocytoma-amplified sequence 1-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.8   4.0   2.9e-22   9.3e-20      42     190 ..     171     313 ..     112     352 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 70.8 bits;  conditional E-value: 2.9e-22
+  Human_TLR  42 sklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennika 140
+                  + +   P + p n +++dLs Nri+e+s++ f +++ L++L ls n  iq + k   ++lk+L++LdLshn +s+l++    l+ L++L l  n++k 
+   Seg752.5 171 PYCGFSTMPGAFPANLKHMDLSCNRIKEISTAIF-QIKTLESLILSKN-IIQDLPK-EINNLKSLKKLDLSHNSISSLPEtITDLKWLMKLYLAGNELK- 266
+                4456677777777777777777777777777655.4677777777777.7776644.457777777777777777777777777777777777777666. PP
+
+  Human_TLR 141 sledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqr 190
+                   +  + nl +Lk+LdL +N l+s+p  +++g L +L +L lS+nk+  
+   Seg752.5 267 -YLPVNIGNLHSLKHLDLRDNFLTSIP--DSIGDLFKLIKLTLSNNKLTA 313
+                .34556777777777777777777765..567777777777777775543 PP
+
+>> Seg2965.1  transcript_id=Seg2965.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat and IQ domain-containing protein 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.6  11.0   1.9e-13     6e-11     509     644 ..     514     639 ..     471     640 .. 0.84
+   2 !   39.4   5.8     9e-13   2.9e-10     513     647 ..     605     736 ..     603     755 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 41.6 bits;  conditional E-value: 1.9e-13
+  Human_TLR 509 sllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                + l++ +  e+Ldl  N+++++s+ +  sl     +L++ +n L s + l cl++LevLDLssn+++ +  ++++  ++L++Lnl  N+l  L++  ++ 
+  Seg2965.1 514 EGLEKHEYIEKLDLPDNKIDFMSMSTQVSLR----HLSMPNNNLsSTNGLDCLPNLEVLDLSSNRITRI--GSISLCKKLQNLNLDENQLIALKG--IEG 605
+                44444567899********999888776665....*********88899********************..88999*******************..*** PP
+
+  Human_TLR 608 lssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                ++ L  L++s+N +   +++++++l   L+ Ldl+ N
+  Seg2965.1 606 IQGLVDLNVSRNYLG--NAKEIENLP-LLTRLDLHSN 639
+                ************997..566777777.8888998888 PP
+
+  == domain 2  score: 39.4 bits;  conditional E-value: 9e-13
+  Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssL 611
+                g++ L  L++s N l   + +e+ +lp  l+ L L sn +    +++    L+ LDL++n + sl p + + l +L+ ++++ Ns+ +Lp   l++l +L
+  Seg2965.1 605 GIQGLVDLNVSRNYL--GNAKEIENLP-LLTRLDLHSNTInMLPSFKNHVLLRHLDLHGNSIVSLEPLANVWLPSLQSIHIAGNSIEELPV--LDNLIML 699
+                788999*********..6889999999.99**********54556666667999*************************************..******* PP
+
+  Human_TLR 612 kvLdlssNaiktvsk..dvfqslqskLkvLdlgaNpFe 647
+                +  d++ N i   s+   +++++   L vL++++Np  
+  Seg2965.1 700 STIDIQDNVIRECSNflRAIENCR-RLLVLKISGNPVV 736
+                ***********9996336788888.9*********975 PP
+
+>> Seg557.11  transcript_id=Seg557.11|GoldUCD|mRNA.D3Y31 product="Plant intracellular Ras-group-related LRR protein 7" p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.0   8.8   8.7e-15   2.8e-12     511     645 ..      43     171 ..       7     173 .. 0.85
+   2 !   25.4   0.9   1.5e-08   4.8e-06     560     631 ..     159     228 ..     154     242 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 46.0 bits;  conditional E-value: 8.7e-15
+  Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl 608
+                + ++  L+ L++s+  l+    ee+ +l+ ++k+L L+ n++    +++  l+++++ D s n l+ + p+ + + ++L +Ln+s+N+l+sLp+  l++l
+  Seg557.11  43 F-EIDTLNFLEISNTGLE-VVPEEIGKLV-NMKNLALQRNKIanLPESIGSLQNMKFFDASWNVLTVV-PETFRNFKELHTLNVSCNKLQSLPN--LDSL 136
+                3.5689***********6.7778888888.9***********877899********************.88***********************..**** PP
+
+  Human_TLR 609 ssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNp 645
+                ++L ++ +++N++++  +   +   ++L+++ +++N 
+  Seg557.11 137 ENLVIMHIDHNQLTALPEGIYG--LEHLNEIHASHNA 171
+                ***************9999988..4479999999996 PP
+
+  == domain 2  score: 25.4 bits;  conditional E-value: 1.5e-08
+  Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqs 631
+                l++L+ +  s+n ++s+ ++++++   L+ L++s+N+l++Lp+  l +  +Lk L+l +N +k    + + s
+  Seg557.11 159 LEHLNEIHASHNAITSI-SGEIVEIDYLKVLDVSNNQLKELPA-ALANCPRLKDLNLRENPLKDNRLKKMTS 228
+                77888888899999999.8899999999999999999999999.7888899999999999998877776665 PP
+
+>> Seg152.4  transcript_id=Seg152.4|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 57" protein_id=Se
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.7   1.8e-07   5.8e-05     567     624 ..      19      75 ..      10      79 .. 0.91
+   2 !   45.6   8.4   1.2e-14   3.8e-12     511     647 ..      79     213 ..      76     215 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 1.8e-07
+  Human_TLR 567 DLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                 L++  lk l+p+ +  ++ Lr+ +ls+N+l +Lp+ ++ ++++Lk+L +++N ++++
+   Seg152.4  19 SLNGKGLKELPPEFSRLSKVLRTTDLSNNRLEELPA-IIGEFKNLKSLTVNNNRLESI 75 
+                688899******9999999*****************.9***************99876 PP
+
+  == domain 2  score: 45.6 bits;  conditional E-value: 1.2e-14
+  Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl 608
+                l +L++Le L l+ N+l  +++  f ++  +l+ L+L +n+L      +  l kL+v+DLs+n +  + p  v +l+a+ eLnl+ N+l +Lp   l + 
+   Seg152.4  79 LGNLTKLETLSLNGNRLTMIPSTIFIKMK-NLTTLSLCNNKLriFPVEICELTKLNVVDLSGNLMDHI-PDTVGSLKAM-ELNLNGNRLATLPL-SLVNC 174
+                679**************999999998887.************7433444558****************.5577777776.8************9.66778 PP
+
+  Human_TLR 609 ssLkvLdlssNa..iktvskdvfqslqskLkvLdlgaNpFe 647
+                ++LkvL +++N   ++++s d +   q  ++vL + +N F+
+   Seg152.4 175 ERLKVLRVEENClgLEAISTDLLRDSQ--IAVLAADGNLFQ 213
+                9**********8335899*****9655..9******99997 PP
+
+>> Seg2025.6  transcript_id=Seg2025.6|GoldUCD|mRNA.D3Y31 product="Acidic mammalian chitinase" protein_id=Seg2025.6|GoldU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6  23.6   4.5e-17   1.5e-14     432     622 ..     487     670 ..     472     671 .. 0.87
+   2 !   19.1   4.5   1.2e-06   0.00038     558     646 ..     654     738 ..     650     741 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 4.5e-17
+  Human_TLR 432 dLskNkldlltsssftelekLetLdLrknslktlekvthsl...klslsdNniaslvsltlelesLreLdlsgkadn.rylsllkgLssLeiLdlsqNsl 527
+                d+++  l     + ++ l++ etL Lr+n+ k++e+v+      +l++ dN + + ++ +++l++L+ Ldls   ++ r +  l +L + ++L l +N++
+  Seg2025.6 487 DFTHAGLEK--IEGLERLHRVETLCLRRNKIKKIENVDTLTmltELDMYDNLV-TEIENLENLTNLTSLDLSF--NKiRKIANLGTLVNVTNLFLVNNKI 581
+                555555544..567999*******************99887778999998855.5566666***********4..444677778999************9 PP
+
+  Human_TLR 528 selsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaik 622
+                s   + e+ s++ +l+ L+L sn++ + + l+ l +L+ L +  n+++ l  + +++l++L +L++++N+l ++++  l+ l++Lk+L +s+N i+
+  Seg2025.6 582 S---KIENISMMTNLVMLELGSNRIrKLENLESLVNLKKLFVGRNKITKL--QGFDSLQQLETLSIQSNRLVKIEG--LDLLVNLKELYISHNGIE 670
+                7...45667888899**********9999*********************..78**********************..***************985 PP
+
+  == domain 2  score: 19.1 bits;  conditional E-value: 1.2e-06
+  Human_TLR 558 rclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk.dvfqslqskLkvLdlgaNpF 646
+                  l +L+ L++s+n ++ l  + +++  +L +L+++ N++++L++  +s+l++L++   + N+++  +  d++q++  +L+++ l++Np 
+  Seg2025.6 654 DLLVNLKELYISHNGIEKL--EGLEHNVNLNTLDVAGNRIKKLEN--ISHLQNLEEFWCNDNKVENWNDiDELQNME-SLETVYLERNPI 738
+                5678999999999999999..678999999999999999999999..999999999999999999987549999988.999999999996 PP
+
+>> Seg2032.4  transcript_id=Seg2032.4|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 49" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.8  18.7   7.7e-17   2.5e-14     490     626 ..     220     349 ..     195     357 .. 0.90
+   2 !    8.7   8.8    0.0017      0.53     102     348 ..     352     625 ..     350     683 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 52.8 bits;  conditional E-value: 7.7e-17
+  Human_TLR 490 elesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLr 588
+                + e+Lr L+++++   r ++ l  L +L  Ldl  N+++e+s     s++ sl++L L +n+L + + l+ l+kL vLDL++n++  +  +++++l +Lr
+  Seg2032.4 220 GEENLRLLNFQHNLI-RKIENLGMLRKLIFLDLYDNQIEEISG---LSWLRSLRVLMLGKNRLrKIDNLHDLSKLDVLDLHGNKIAKI--ENLSHLLELR 313
+                5789*******8744.45666888999***********98765...89***************999**********************..679******* PP
+
+  Human_TLR 589 eLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk 626
+                 Lnl+ N+l +++k  l+ l+sL +L+l +N+i++v++
+  Seg2032.4 314 VLNLAGNELIKINK--LHGLESLTELNLRRNKITSVNE 349
+                **************..*******************985 PP
+
+  == domain 2  score: 8.7 bits;  conditional E-value: 0.0017
+  Human_TLR 102 slkeLeeLdLshnklsklss...fallssLteLslvennik..asledgallnlknLklLdLsfNnlkslp...........keeefgnLtnLk...iLd 182
+                +l++L+ L Ls+n + + ++    +  +sLteLsl  n +    + ++  l+n +++k+Ld+++ + +              k  ef++++ Lk    L 
+  Seg2032.4 352 ELPSLQRLFLSYNDIRNFQDiscLSKSTSLTELSLDGNPLTneSNYKQIILHNVTSIKQLDMKKISDEERRitsvmarkedeKRREFEKISTLKerrQLA 451
+                5888999999999998888877667778899999999998435778888889999999999886443333344455888888555666666554211566 PP
+
+  Human_TLR 183 lSgnkiqrcdlaplallelkelsnlsLslssl.skvsaewfkslkelnlk...lhlvLdlsenflakeivktslktlaqLellnl.........klklfs 269
+                + ++k+q     +    ++   s+ sL+ +++ +    +++  l ++ +     hl  +l+ n l        + ++ +Le ++             +++
+  Seg2032.4 452 INNAKCQYEAQFEKGSNDISAKSTKSLAEKKTpRDR--STTPKLSSVGTDysvCHL-AELDDNRL-------NFYGSGSLEAVDRnwgekaassVIYVSF 541
+                666666653333322333323344455555553333..223334444443212233.33444444.......2333444444444444444555445557 PP
+
+  Human_TLR 270 nslnlsqafsslls..lknlklkgfvlaelketddsllqvLqlLetls...lelnfikqaklklFkafkglkylelsnnkisgl 348
+                + +n +q + +l++   + +++ ++ +ae +    s ++ L +L +ls   ++    +  +++l+k +  ++  +ls  +i+g 
+  Seg2032.4 542 HFINFDQIVPYLAKikSRFVNITNICFAETNLCHLSQVNALAVLRNLSeltIDETGNPVTEFNLWKPYVLFRLSHLSLQTINGC 625
+                777777777777776666777777777776666655544444444443200444444556666666554444444444455555 PP
+
+>> Seg6301.1  transcript_id=Seg6301.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat and guanylate kinase domain-contai
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8  14.5   2.2e-11   6.9e-09     538     646 ..      99     200 ..      80     201 .. 0.88
+   2 !   30.2   7.2   5.3e-10   1.7e-07     515     622 ..     188     291 ..     183     312 .. 0.43
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 2.2e-11
+  Human_TLR 538 lpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskL 636
+                  + l++LnLs+n L +  vl  l++L  LD s+n+l  +    +n   +Lre nls+N+++sLp+  ls  + L+ L l++N+i+ +  + + ++q  L
+  Seg6301.1  99 Y-NHLQVLNLSYNELqELAVLSNLPHLISLDASHNELVDV--LDFNPPLSLREVNLSHNKIQSLPD--LSMHKCLNKLILDNNFITEI--TGLANCQ-RL 190
+                3.389**********8889********************9..559*********************..*****************988..57999**.** PP
+
+  Human_TLR 637 kvLdlgaNpF 646
+                k+L l +N+ 
+  Seg6301.1 191 KILSLADNQI 200
+                ********85 PP
+
+  == domain 2  score: 30.2 bits;  conditional E-value: 5.3e-10
+  Human_TLR 515 ssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg.flsklssLk 612
+                + L+iL l+ N+++++s    + l+  l +L Ls+n++ + + +  lk L+ +DLs n ++sl  k ++  + L +++l++N++ +L++  ++ +l  L+
+  Seg6301.1 188 QRLKILSLADNQIEKISGL--DGLT--LSYLDLSKNKIrKIENIASLKYLQAIDLSFNSIRSL--KGLQLHNLLETIKLANNEIIDLSEIrYVRDLPLLR 281
+                3344444444444333222..2222..224444444444344444444444444444444444..23333333444444444444444421233444444 PP
+
+  Human_TLR 613 vLdlssNaik 622
+                vLd ssN i+
+  Seg6301.1 282 VLDFSSNPIQ 291
+                4444444443 PP
+
+>> Seg573.1  transcript_id=Seg573.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 59" protein_id=Se
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.5   1.5   2.4e-17   7.6e-15      59     165 ..      20     123 ..      15     196 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 54.5 bits;  conditional E-value: 2.4e-17
+  Human_TLR  59 sLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnlknLklLd 157
+                +LdLs   i +++ +++++l++ +vLdls+n +i+++ ++af +lk+L + dLs+n l +l+  f+ l+ L +L l++nn+     +  + +l++Lk Ld
+   Seg573.1  20 ELDLSLCSIVKVPVKQISSLPKVTVLDLSCN-KIVEL-PDAFCNLKNLMQIDLSKNCLTSLPAnFGDLQCLKRLDLYNNNLV--SLPLSFGELRALKWLD 115
+                7999999999999999999999999999999.77766.78999999999999999999999999999999999999999987..3356799999999999 PP
+
+  Human_TLR 158 LsfNnlks 165
+                L++N ++s
+   Seg573.1 116 LKDNPVQS 123
+                99999986 PP
+
+>> Seg2327.2  transcript_id=Seg2327.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 59" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   1.6   3.4e-17   1.1e-14      59     165 ..      20     123 ..      15     196 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 3.4e-17
+  Human_TLR  59 sLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnlknLklLd 157
+                +LdLs   i +++ +++++l++ +vLdls+n +i ++ ++af +lk+L + dLs+n l +l+  f+ l+ L +L l++nn+     +  + +l++Lk Ld
+  Seg2327.2  20 ELDLSLCSIVKVPVKQISSLPKVTVLDLSCN-KIAEL-PDAFCNLKNLMQIDLSKNCLTSLPAnFGDLQCLKRLDLYNNNLV--SLPLSFGELRALKWLD 115
+                7999999999999999999999999999999.77766.78999999999999999999999999999999999999999886..3356799999999999 PP
+
+  Human_TLR 158 LsfNnlks 165
+                L++N ++s
+  Seg2327.2 116 LKDNPVQS 123
+                99999986 PP
+
+>> Seg1668.3  transcript_id=Seg1668.3|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat serine/threonine-protein kinase 2"
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   7.3     5e-16   1.6e-13      44     641 ..     339     474 ..     315     514 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 5e-16
+  Human_TLR  44 lkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasle 143
+                + Lt+vP++l                                                                                          
+  Seg1668.3 339 NLLTKVPDGL------------------------------------------------------------------------------------------ 348
+                4444444433.......................................................................................... PP
+
+  Human_TLR 144 dgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkelnlklhlvLdlsenfl 243
+                                                                                                                    
+  Seg1668.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 244 akeivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkylelsnn 343
+                                                                                                                    
+  Seg1668.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 344 kisglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldllts 443
+                                                                                                                    
+  Seg1668.3   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 444 ssftelekLetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslk 543
+                                                                                     ++++L +Ldl++Ns++e ++e f + +++l+
+  Seg1668.3 349 --------------------------------------------------------------------IDMKNLLKLDLAKNSIEEVPKEIF-E-LKQLR 378
+                ....................................................................345666666666666654444333.2.23466 PP
+
+  Human_TLR 544 eLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdl 641
+                +LnL sn +    +v +  k ++vL L++n+l++l    + + s+L  Lnl+ N+l ++p+  + +++ L+ Ldls+N+  t+    + +l+ kL+ L +
+  Seg1668.3 379 NLNLLSNDIryLPNVSEWSKAMKVLNLKENNLRFL--DDSIAESELEDLNLAENNLGHVPE-CICEIKTLQTLDLSRNKFITILPPDLAKLT-KLNYLGI 474
+                66666666644334444445666666666666666..235555556666666666666666.333455666666666665555555555555.5555544 PP
+
+>> Seg2960.2  transcript_id=Seg2960.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat serine/threonine-protein kinase 2"
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.7   7.3     7e-16   2.2e-13      44     641 ..     339     474 ..     315     514 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 49.7 bits;  conditional E-value: 7e-16
+  Human_TLR  44 lkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasle 143
+                + Lt+vP++l                                                                                          
+  Seg2960.2 339 NLLTKVPDGL------------------------------------------------------------------------------------------ 348
+                4444444433.......................................................................................... PP
+
+  Human_TLR 144 dgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkelnlklhlvLdlsenfl 243
+                                                                                                                    
+  Seg2960.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 244 akeivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkylelsnn 343
+                                                                                                                    
+  Seg2960.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 344 kisglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldllts 443
+                                                                                                                    
+  Seg2960.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 444 ssftelekLetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslk 543
+                                                                                     ++++L +Ldl++Ns++e ++e f + +++l+
+  Seg2960.2 349 --------------------------------------------------------------------IDMKNLLKLDLAKNSIEEVPKEIF-E-LKQLR 378
+                ....................................................................345666666666666654444333.2.23466 PP
+
+  Human_TLR 544 eLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdl 641
+                +LnL sn +    +v +  k ++vL L++n+l++l    + + s+L  Lnl+ N+l ++p+  + +++ L+ Ldls+N+  t+    + +l+ kL+ L +
+  Seg2960.2 379 NLNLLSNDIryLPNVSEWSKAMKVLNLKENNLRFL--DDSIAESELEDLNLAENNLGHVPE-CICEIKTLQTLDLSRNKFITILPPDLAKLT-KLNYLGI 474
+                66666666644334444445666666666666666..235555556666666666666666.333455666666666665555555555555.5555544 PP
+
+>> Seg116.2  transcript_id=Seg116.2|GoldUCD|mRNA.D3Y31 product="Myeloid differentiation primary response protein MyD88-A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.9   0.5   1.2e-15   3.8e-13     739     833 ..     119     215 ..     110     267 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 48.9 bits;  conditional E-value: 1.2e-15
+  Human_TLR 739 tykrlsar...esrnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsie.kSrKtvfVlskkfvksewckyefylAh 833
+                  k+++      + +  YdAfisy+  D d  k  +++ le+ + +lk+C+  Rdf+PG   +e i++ ie +  K++++ls+ ++  e c  + ++A 
+   Seg116.2 119 ETKKQENSngpSTIDEHYDAFISYAVADRDFAKM-ILSRLET-DYNLKVCIDFRDFLPGAHKLEQIVEVIEdRCNKVIVILSQDYMECEECDHQAKVAM 215
+                43443333455677789*************9775.5678999.569************************8579*****************98877775 PP
+
+>> Seg626.7  transcript_id=Seg626.7|GoldUCD|mRNA.D3Y31 product="putative leucine-rich repeat-containing protein" protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.7  13.6   4.4e-14   1.4e-11     216     596 ..      97     464 ..      93     481 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 43.7 bits;  conditional E-value: 4.4e-14
+  Human_TLR 216 kvsaewfkslkelnlklhlvLdlsenflakeivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgf..vlaelketddsll.qvLqlLe 312
+                 +  ewf+ l + ++k  + L l++n+l+        k+ a+L  ++l l+l ++ +n++ ++++l++    +l +f   +++++ +    l + L+lLe
+   Seg626.7  97 SH-CEWFGVLCDYKTKHVIALSLTHNNLN-------GKWKAKLTDFHLLLGLCFARNNIKGNLQKLIEDMPKTLLRFsfAYNYIEGYLPMKLhMKLPLLE 188
+                44.69*****9999998889999999996.......478899**************************555555555116689998876665157***** PP
+
+  Human_TLR 313 tlslelnfikqaklklFkafkglkylelsnnkisglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNl 412
+                +l+l   ++k+   ++  +++ l++l++ +  isg++     +             ++ ++  + +l++lnL+ n        +f +l+++++L Ls N 
+   Seg626.7 189 KLQLTGTEVKGSLPNDIGNLSHLRVLSVGETHISGSVPA---S------------ITNLKKLWFLDLEALNLQGNI------ASFLNLTKIRYLHLSSNN 267
+                ************************************533...1............245566667777777777665......78999************* PP
+
+  Human_TLR 413 lsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktl..ekvthsl..klslsdNniasl.vsltlelesLreLdlsg...... 501
+                +  e+ +   +  + +++l L+ N +     +s+  l++Let    +n+       +++h    +l ls+Nn      +l+ ++++L++           
+   Seg626.7 268 IKGEIPEDIGYRWPIIHELLLQSNDIHGPIPRSIGLLSRLETFNVARNKMRGKipVELGHLHlkVLVLSNNNFEGFeNGLFFNSTRLSIFMAANlkacis 367
+                *******888999**********************************988755344444444889***********99**********966555888885 PP
+
+  Human_TLR 502 kadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNs 596
+                + d  +  l+   +sL +Ldls+  ++    +++++    l+ ++L+sn+L          ++ L++LDLs+n      p + + l  L eL+l  N+
+   Seg626.7 368 NLDTIISMLMPSKQSLMQLDLSHSNINGTVPDTIFDFK-PLTFVRLASNRLtghIPAPSDNVPYLTLLDLSNNDFSGHIPASYSRLLMLLELHLRGNK 464
+                567666666777789***********988777777765.9***********66534446678*************998899************99997 PP
+
+>> Seg172.5  transcript_id=Seg172.5|GoldUCD|mRNA.D3Y31 product="Tubulin-specific chaperone E" protein_id=Seg172.5|GoldUC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   4.2   1.8e-05    0.0056     489     555 ..     478     548 ..     445     554 .. 0.50
+   2 !   37.4  14.0   3.5e-12   1.1e-09      29     166 ..     530     674 ..     523     846 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.8e-05
+  Human_TLR 489 lelesLreLdlsgk..adn.rylsllkgLssLeiLdlsqNslselsn.eefkslpeslkeLnLssnmLsws 555
+                    +++ Ld+s +  ++  ++ s++++L +L+iL+ls+N+ls+l+n +++   ++slk ++ +  +Lsw+
+   Seg172.5 478 KTAPNIIHLDISNNlfHTWkQIASITEQLRHLTILNLSENRLSSLENcNKIAPAFQSLKTIFANRMQLSWK 548
+                22334555555553333333555566666666666666666655544234444555555555555555554 PP
+
+  == domain 2  score: 37.4 bits;  conditional E-value: 3.5e-12
+  Human_TLR  29 pclseerevivdcsklkLtevPk..dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiek.eafkslkeLeeLdLshnklsklss.... 121
+                p+ +  + +++++++l+ +ev +   +  n ++L + +N i++++ sd++++++L+ L+l+ n ri + ++     +lk+Le+L L++n+lsk+      
+   Seg172.5 530 PAFQSLKTIFANRMQLSWKEVVNllLVASNLEELHICFNSIHQINCSDLKSVNHLKLLNLEGN-RIDNWDEiMKLTALKSLETLILNDNNLSKIEFprtd 628
+                555566778899999999999986666899*********************************.8887766256899*****************877788 PP
+
+  Human_TLR 122 .fallssLteLslvennikasledgallnlknLklLdLsfNnlksl 166
+                 + + +sL  +sl++n i+  l  + l nl +L     + N++   
+   Seg172.5 629 gCVGFESLKAISLSHNTINQWLSINELANLPSLANIKFKSNSICKD 674
+                99999*************99999999999****9999999998544 PP
+
+>> Seg1436.5  transcript_id=Seg1436.5|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat protein 1" protein_id=Seg1436.5|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.8  11.7   7.2e-10   2.3e-07     536     626 ..      56     149 ..      48     162 .. 0.85
+   2 !   24.3   4.5   3.2e-08     1e-05     565     647 ..     136     213 ..     134     228 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 29.8 bits;  conditional E-value: 7.2e-10
+  Human_TLR 536 kslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl..ssLkvLdlssNaiktvsk 626
+                ks p sl++L+ ++  L   ++ +  l++L vL L++n+l+ l p ++++l++L+eL+l+ N +++ p+ ++  +  s+L  LdlssN+++ +  
+  Seg1436.5  56 KSFPSSLVKLSANNCGLirLDTRILRLQNLCVLNLNENKLREL-PDSLESLNNLKELYLAKNCISNFPECLFRPVmrSRLLLLDLSSNQLERIPL 149
+                688999*****9999998777778888****************.779**********************9998763378***********98755 PP
+
+  == domain 2  score: 24.3 bits;  conditional E-value: 3.2e-08
+  Human_TLR 565 vLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                +LDLssnql+ + p ++   ++  +L + +Ns++ Lp   +  lssL++L l +N +k     + +    ++ +Ldl++Np++
+  Seg1436.5 136 LLDLSSNQLERI-PLEIGLFEKVTNLRMDNNSINGLPY-SIGMLSSLRYLSLAKNNLKLLPYGFCK---LNIDSLDLSGNPLD 213
+                677777777777.6677777777777777777777776.677777777777777777777665554...46777777777764 PP
+
+>> Seg2506.3  transcript_id=Seg2506.3|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 57" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   9.0   2.6e-14   8.5e-12     517     662 ..      51     196 ..      49     207 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 44.4 bits;  conditional E-value: 2.6e-14
+  Human_TLR 517 LeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvL 614
+                Le+Ldls+N l+  sn    +l+e+lk L Ls n L    + +  l+kLe+LDLs n+l sl  k++n+l++L+  nls N+lt +p+++ls  +  kv 
+  Seg2506.3  51 LEHLDLSNNYLDAVSN--EIKLLENLKTLILSGNSLtgLPTEIGELRKLETLDLSRNKLSSL-RKEINNLKELKAVNLSGNKLTLIPEYLLSLPKLKKVF 147
+                99*********85555..4678889***********877899999*****************.99***********************999998888899 PP
+
+  Human_TLR 615 dlssNaiktvskdvfqslqskLk.vLdlgaNpFeCtCelaefvqwlnea 662
+                 + + ++  v ++   +  ++++ +L+++  ++eC  e ++ +++ln++
+  Seg2506.3 148 CIRNEQLRNVPRHIAAEGLEAMRiFLQIQVEEYECFREEKKRDKKLNKT 196
+                9999999988888888866677735888888888877777777777765 PP
+
+>> Seg179.4  transcript_id=Seg179.4|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 23" protein_id=Se
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.3   9.1   6.5e-08   2.1e-05     473     598 ..    1052    1171 ..    1034    1177 .. 0.70
+   2 !   36.9   6.4   4.9e-12   1.6e-09      58     183 ..    1137    1256 ..    1134    1272 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 6.5e-08
+  Human_TLR  473 klslsdNniaslvsltlelesLreLdlsgkadn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLs 569 
+                 kl+l + ++ + +sl+ +  +Lr+ d++g+  + + +  l+ L++L  L+ ++N l + +++e+      l++ + ++n++ ++     + Le L L+
+   Seg179.4 1052 KLDL-HDKLITDISLLNCYIHLRYVDIKGN--KlKEITTLNSLTHLLTLNADKNLLRSAKMDEMP----YLQVASFANNKIMDTEGLNHPLLESLNLK 1142
+                 5555.4566667777778888888888864..224577788888888888888888755555443....55588888888866554444788888888 PP
+
+  Human_TLR  570 snqlksltpklvnklsaLreLnlslNslt 598 
+                 +nq+  +t    +kl +L+ L+l  N++ 
+   Seg179.4 1143 NNQIIDVTGLDPKKLARLKVLELRGNKMV 1171
+                 88888888888888888888888888765 PP
+
+  == domain 2  score: 36.9 bits;  conditional E-value: 4.9e-12
+  Human_TLR   58 tsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLkl 155 
+                 +sL+L +N+i +++  d ++l  L+vL+l+ n  ++        +l++L  L+L +n + ++   + l++L+ L+l en i+    dg  +++k L++
+   Seg179.4 1137 ESLNLKNNQIIDVTGLDPKKLARLKVLELRGNKMVN----TKGIELPNLARLYLGGNDIVEIEGLSELQNLVFLHLRENKIE--KLDGFSEQMKCLQY 1228
+                 678888888888888888888888888888883333....344578888888888888888888888888888888888665..34667778888888 PP
+
+  Human_TLR  156 LdLsfNnlkslpkeeefgnLtnLkiLdl 183 
+                 L+L +N++  + +  +++ L +L+ L l
+   Seg179.4 1229 LNLRKNDIAEFSEVAKLKCLPKLRALVL 1256
+                 8888888888888888888888887765 PP
+
+>> Seg1551.1  transcript_id=Seg1551.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat protein 1" protein_id=Seg1551.1|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.4  11.1   9.1e-10   2.9e-07     536     624 ..     152     243 ..     144     247 .. 0.89
+   2 !   18.8   0.8   1.4e-06   0.00046     560     626 ..     250     313 ..     245     324 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 29.4 bits;  conditional E-value: 9.1e-10
+  Human_TLR 536 kslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl..ssLkvLdlssNaiktv 624
+                ks p sl++L+ ++  L   ++ +  l++L vL L++n+lk l p+++++l++L+eL+l+ N +++ p+ ++  +  s+L  LdlssN+++ +
+  Seg1551.1 152 KSFPSSLVKLSANNCGLirLDTRILRLQNLCVLNLNENKLKEL-PESLESLNNLKELYLAKNCISNFPECLFRPVmrSRLLLLDLSSNQLERI 243
+                678999*****9999998777778888****************.88***********************9998763378**********9875 PP
+
+  == domain 2  score: 18.8 bits;  conditional E-value: 1.4e-06
+  Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk 626
+                ++k++ L + +n ++ l p ++  ls+Lr L+l+ N+l+ Lp gf++   +  +Ldls N + t  +
+  Seg1551.1 250 FEKVTNLRMDNNSINGL-PYSIGMLSSLRYLSLAKNNLKLLPYGFCKL--NIDSLDLSGNPLDTDAA 313
+                4778889999*******.99***********************99986..7899****999887655 PP
+
+>> Seg1932.2  transcript_id=Seg1932.2|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 63" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.2   8.8   6.3e-14     2e-11      52     624 ..     367     477 ..     343     515 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 43.2 bits;  conditional E-value: 6.3e-14
+  Human_TLR  52 dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnl 150
+                +++++                          +++ls+n    ti +e+fk +++L++L+L +n + ++++  + l++L  L+l+++ i+ sl +  + nl
+  Seg1932.2 367 QISET------------------------VLHINLSFN-DFMTIPEELFK-ISQLQTLKLRNNPIHEIPEeIGNLKELKTLVLSFCLIS-SLPPS-IFNL 438
+                23333........................334555555.55555555553.44555555555555555555555555555555555444.33332.3345 PP
+
+  Human_TLR 151 knLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkelnlklhlvLdlsenflakeivkt 250
+                ++L  LdLs+N +  +p  ee++nL+nLk+L++ gn++ +                                                            
+  Seg1932.2 439 ESLDILDLSYNRIAFIP--EELKNLKNLKVLNVEGNQLTS------------------------------------------------------------ 476
+                55555555555554433..455555555555555543332............................................................ PP
+
+  Human_TLR 251 slktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkylelsnnkisglge 350
+                                                                                                                    
+  Seg1932.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 351 lkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftele 450
+                                                                                                                    
+  Seg1932.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 451 kLetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssn 550
+                                                                                                                    
+  Seg1932.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+  Human_TLR 551 mLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                                                                                         +
+  Seg1932.2 477 -------------------------------------------------------------------------F 477
+                .........................................................................2 PP
+
+>> Seg5847.1  transcript_id=Seg5847.1|GoldUCD|mRNA.D3Y31 product="putative leucine-rich repeat-containing protein" prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   3.3   2.7e-12   8.7e-10     406     612 ..     163     356 ..     146     364 .. 0.61
+   2 !   10.7   1.8    0.0004      0.13     445     571 ..     324     475 ..     324     485 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 37.8 bits;  conditional E-value: 2.7e-12
+  Human_TLR 406 LnLseNllsqelfgseflgltelkyldLskNk.ldlltsssftelekLetLdLrknslktlekvthslklslsdNniasl.vsltlelesLreLdlsgka 503
+                L++++N +  +  +   +  + l  ++Ls N+ l     +++ +l +L++L L +                     ++ +      +l +L  Ldl+   
+  Seg5847.1 163 LDFAYNKINGKFPQDISTKWPGLGKIQLSGNRgLYGSLPKNIDKLRDLQVLSLGE-------------------TGMTGSlPPNIGNLSKLYFLDLETLS 243
+                5555555554444433333444444445555422223344555555555555554...................33333323333345555555555422 PP
+
+  Human_TLR 504 dnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnq.lksltpklvnklsaLreLnlslNslts 599
+                    l  lkgLs+Le + l +N +++   ++f +++++l++L+L+ n L      ++  + +L++L Ls+n+ l+   p ++++l++L  L++s  ++  
+  Seg5847.1 244 MTGDLMYLKGLSNLEYIHLMSNDIDSKIPNDFGNWFPKLVQLSLQGNSLkgiVPASIGNMIHLTLLQLSENRrLTGKIPLSFSNLTNLEILDISYTQILG 343
+                2234777888888888888888888888888888888888888888888666666777778888888888853665558888888888888888888877 PP
+
+  Human_TLR 600 LpkgflsklssLk 612
+                 +kg++ + s+L+
+  Seg5847.1 344 FEKGLALHSSKLS 356
+                7777777777766 PP
+
+  == domain 2  score: 10.7 bits;  conditional E-value: 0.0004
+  Human_TLR 445 sftelekLetLdLrknslktl.ekvthsl..............klslsdNniaslvsltlele.sLreLdlsg..........k.adnrylsllkgLssL 517
+                sf +l++Le Ld+++ +     +++   l              k s+    i++lv+++ +++ sL +Ld++           + ++n ++ ++k  s+L
+  Seg5847.1 324 SFSNLTNLEILDISYTQILGFeKGLA--LhssklsafvakgnsKFSML---IYTLVNVLGQSKsSLMQLDVQDcdiygkfdkiNdDTNLVNGIFKF-SKL 417
+                68999999999999987655534433..24467776666655544443...67777776665427*******9********986466699999987.*** PP
+
+  Human_TLR 518 eiLdlsqNslselsneefkslpeslkeLnLssnmL....swsvlrclkkLevLDLssn 571
+                  L+l  N+  + s ++  s +  + +Ln+s++ L      s l  lk ++++D+++n
+  Seg5847.1 418 AFLNLGGNKRLYGSIPDPISSVGLIMYLNVSHTNLssalPLSYLIKLKVIQTIDIRGN 475
+                ********988999999999999************87666677888899999999988 PP
+
+>> Seg1658.6  transcript_id=Seg1658.6|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 28" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.0   8.4   1.5e-13   4.7e-11     506     608 ..      44     145 ..      12     153 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 42.0 bits;  conditional E-value: 1.5e-13
+  Human_TLR 506 rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg 603
+                ++ + + +++ L++L ++ N l+++++e   + ++sl++L L+snm+    +++  l+ Le L+L +n++  l p  + kls+L+ L+ls+N+l+++p g
+  Seg1658.6  44 EIPEAVLQIKMLKRLYMKRNLLKSIPKE--INFLASLVQLYLNSNMIenIPESIGDLQCLESLELDHNEISKL-PVTIGKLSNLKSLILSHNNLSKIPPG 140
+                4556678899999999999999877766..4567789999999999977678889999999999999999999.88999999999999999999999987 PP
+
+  Human_TLR 604 flskl 608
+                  +  
+  Seg1658.6 141 KQNLY 145
+                66655 PP
+
+>> Seg11460.1  transcript_id=Seg11460.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg11460.1|GoldUCD|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   8.7   1.7e-13   5.4e-11     539     622 ..       8      90 ..       2      91 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 1.7e-13
+   Human_TLR 539 peslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaik 622
+                 +++l+ L+L++n + + + l +l ++++LDLs+n +k +  + +++l++L  Lnl+ N++ sLp+++ +kl+ L+  ++ +N++ 
+  Seg11460.1   8 LQNLQILSLAHNTIeKMERLDQLVNIQILDLSDNLIKKI--EGIQNLQQLTVLNLEDNQIESLPAFIGKKLKCLRTFKIARNQLH 90 
+                 579999********99999********************..68999*******************999**************986 PP
+
+>> Seg1750.5  transcript_id=Seg1750.5|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 28" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   5.6   9.5e-12   3.1e-09     560     646 ..       4      86 ..       2      87 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.0 bits;  conditional E-value: 9.5e-12
+  Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                l+ Le L+L +n++  l p  + kls+L+ L+ls+N+l ++p   + kl +L+ L++ +N i++  k+  +++  kL++L++ +N+ 
+  Seg1750.5   4 LQCLESLELDHNEISKL-PVTIGKLSNLKSLILSHNNLLKIPP-EIGKLHNLQTLNVVNNIIEMLPKEI-GQCS-KLQTLQVDGNRI 86 
+                56688999*********.8999*******************99.8999*********999999998776.5588.9******99986 PP
+
+>> Seg2763.1  transcript_id=Seg2763.1|GoldUCD|mRNA.D3Y31 product=Centriolin protein_id=Seg2763.1|GoldUCD|D3Y31 partial=t
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6  12.2   7.6e-13   2.4e-10     473     638 ..      91     260 ..      61     266 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 7.6e-13
+  Human_TLR 473 klslsdNniaslvsltlelesLreLdlsg..k.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLD 567
+                ++ +++N i  + ++  +++ + +L l      +++ ++++ l+ L++L+iL l++N ++  ++e +++l+ +++ L Ls+n + + + ++ l++L+vL 
+  Seg2763.1  91 VIYITENLIRKMSKED-NMHMIFKLGLTLpkDlNKKiKFIENLEPLQNLQILSLAHNTIE--KMERLDQLV-NIQILDLSDNLIkKIEGIQNLQQLTVLN 186
+                5666666666553333.3334444444434232333467777777889999999999995..889999999.************88899*********** PP
+
+  Human_TLR 568 LssnqlksltpklvnklsaLreLnlslNsltsLpk.gflsklssLkvLdlssNaiktvsk.dvfqs.lqskLkv 638
+                L++nq++sl+    +kl+ Lr+ ++++N+l sL + + +  l  L +  ++ N + + ++  ++ + l ++L++
+  Seg2763.1 187 LEDNQIESLPAFIGKKLKCLRTFKIARNQLHSLHElYKIRALPDLVEATIEGNPVCSLQHyRQLTTfLLRSLEI 260
+                *********99999*******************98234566777777789999998888734555533344444 PP
+
+>> Seg897.7  transcript_id=Seg897.7|GoldUCD|mRNA.D3Y31 product="U2 small nuclear ribonucleoprotein A'" protein_id=Seg897
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   0.3     5e-13   1.6e-10      60     156 ..      47     145 ..      31     218 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 5e-13
+  Human_TLR  60 LdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss...fallssLteLslvenni.......kasledgalln 149
+                 dLs+N ir+++   f  l+ L+ L l+ n r+  i++++ +s+++Le+L L++n++s+l++    a ++sL  Lsl+ n i             + +++
+   Seg897.7  47 IDLSDNDIRKIE--GFPLLKRLKTLLLNNN-RVMRIQENLEQSIPNLETLVLTNNNISELADvepLASVKSLRYLSLMRNPIankqsyrF-----FIIHK 138
+                79*******996..7999************.9999**************************98888888999999*****9965444430.....34444 PP
+
+  Human_TLR 150 lknLklL 156
+                  + ++L
+   Seg897.7 139 VPQVRVL 145
+                4444444 PP
+
+>> Seg2031.2  transcript_id=Seg2031.2|GoldUCD|mRNA.D3Y31 product="Dynein assembly factor 1 axonemal" protein_id=Seg2031.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.0   5.0   1.2e-12   3.8e-10     370     539 ..      30     199 ..       4     211 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 39.0 bits;  conditional E-value: 1.2e-12
+  Human_TLR 370 svvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktlekvt 469
+                +++y + + +++l L +    + + e  ++ + l++L L  N +  ++ g e    t l+ l+L +N l     ++++ l+ L+tL +++n  + +e++ 
+  Seg2031.2  30 QKLYMTPHLNDVLYLHYKG--FAKIENLEEYTGLKCLWLECNGIK-KIEGLE--NQTGLRCLYLHQNLLTK--IENLEPLQLLDTLNISNNVIERIENIA 122
+                4445555555555566655..333344455677889999999998.677733..46889999999997766..678999999999999999999999988 PP
+
+  Human_TLR 470 hsl...klslsdNniasl..vsltlelesLreLdlsg.k.adnrylsllkgLssLeiLdlsqNslselsneefkslp 539
+                 ++   +l++++N +++   +  ++   s++ Ldls+ + +d++++++l +++ L +L+l  N++ +  ++  k++ 
+  Seg2031.2 123 CIPninTLQVAHNRLKTAddIRHLIDCPSISVLDLSHnRiEDPEIVEVLSNMPDLRVLNLMGNKVIKFISDYRKTII 199
+                88888889999999999877778888899999999995467779999999999999999999988666666555555 PP
+
+>> Seg1703.3  transcript_id=Seg1703.3|GoldUCD|mRNA.D3Y31 product="X-ray radiation resistance-associated protein 1" prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   3.9     1e-08   3.2e-06      75     167 ..     114     202 ..     103     215 .. 0.68
+   2 !   20.7   4.1   3.9e-07   0.00013     514     602 ..     185     268 ..     185     275 .. 0.83
+   3 ?    2.9   0.0     0.092        29     608     647 ..     455     494 ..     446     505 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1e-08
+  Human_TLR  75 fqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennik.asledgallnlknLklLdLsfNnlkslp 167
+                f  +++  +++ + n     ++ e+fk  ++L+eL+L+ n +s+ls   +   +L +L+l+ nni     +  al  l +Lk L L  N+lk+lp
+  Seg1703.3 114 FVLFDNVISIEAGEN----RLTLETFKTFPSLRELELQVNGISSLSLfSNDFIHLESLNLSYNNITpE--DMLALGVLPSLKCLHLTGNSLKQLP 202
+                555555555555555....6777888888888888888888888887434455688888888887522..3346677778888888888888877 PP
+
+  == domain 2  score: 20.7 bits;  conditional E-value: 3.9e-07
+  Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltp.klvnklsaLreLnlslNsltsLpk 602
+                L+sL+ L l  Nsl++l+ e+ +   +s ++  L       ++ r + kLe+L+L +n+l+ ++  +++  l++Lr Lnl++N+l+ +p+
+  Seg1703.3 185 LPSLKCLHLTGNSLKQLPFETSRMFQDSKENYCL------AESKRRFAKLEILYLDENELEDISVfSSLAGLRKLRLLNLANNNLQCVPH 268
+                789*************999999999976555555......5566899**************99652455668899999*********999 PP
+
+  == domain 3  score: 2.9 bits;  conditional E-value: 0.092
+  Human_TLR 608 lssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                +++L+ Ld+s+N i+  ++     +  +L ++++++Np +
+  Seg1703.3 455 FQNLEKLDISHNDISEEEALLPLAAWPNLMEVNIRENPVA 494
+                4556666666666655444332223346666666666554 PP
+
+>> Seg827.8  transcript_id=Seg827.8|GoldUCD|mRNA.D3Y31 product="Dynein regulatory complex subunit 3" protein_id=Seg827.8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.5   9.4   1.6e-12   5.3e-10     527     646 ..      52     168 ..      44     178 .. 0.91
+   2 ?   -0.3   1.5      0.87   2.8e+02     246     340 ..     274     372 ..     262     441 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 38.5 bits;  conditional E-value: 1.6e-12
+  Human_TLR 527 lselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                ++++ + ++   +++l++L+L +n++   + l +l +Le LDLs n+++ +  + ++kl++Lr L l +N++t L++  +++l+ L+v    +N++++ +
+   Seg827.8  52 FKNILKIDNLGQFKNLVKLQLDNNIIeRVEGLDVLIHLEWLDLSFNNIEVI--EGFEKLTKLRDLTLYNNRITLLEN--MDSLVDLHVFSAGNNKLEQLE 147
+                45556666777888999*********88899********************..78**********************..********************9 PP
+
+  Human_TLR 626 kdvfqslqskLkvLdlgaNpF 646
+                + +    +++L++L+l +Np+
+   Seg827.8 148 NIAYLRRFKQLNSLNLDGNPL 168
+                988777666**********98 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.87
+  Human_TLR 246 eivkt.slktlaqLellnlklklfsnslnlsqafsslls..lknlklkgfvlaelketddsllqvLqlLetlsl...elnfikqaklklFkafkglkyle 339
+                 i+k  ++++ +++ ++ lk +  + + +++ +fs + +    n +   + + + ++++ + +  +++L  + +   ++n+i+ +  +l++ ++g ++ +
+   Seg827.8 274 SIFKGrFTTICQEIAQFGLKEHI-KRESEMKSFFSCMEEavSSNKDSCVICIDNFESYKRKEFGEINNLADTAMiekKINDITEEIASLWTSLMGYEM-Q 371
+                57777788888889999998887.66667888889888866677777788999999999999999999999997333455565555666666655442.2 PP
+
+  Human_TLR 340 l 340
+                l
+   Seg827.8 372 L 372
+                2 PP
+
+>> Seg5113.1  transcript_id=Seg5113.1|GoldUCD|mRNA.D3Y31 product="Protein phosphatase 1 regulatory subunit 42" protein_i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9  12.3   8.2e-11   2.6e-08     445     619 ..      24     205 ..      23     228 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 32.9 bits;  conditional E-value: 8.2e-11
+  Human_TLR 445 sftelekLetLdLrknslktl..ekvthsl.klslsdNniaslvsltlelesLreLdlsgkadn.rylsllkgLssLeiLdlsqNslselsneefkslpe 540
+                 f++l +L +   ++ +  ++   +v ++l +l l dNni+ + +l  +  +L+ L l+ +  +   +s l+gL+ L +L l qNs+s ++     + +e
+  Seg5113.1  24 DFQFLRRLTHIYCQEKNIDQIvnLEVCKNLaVLYLYDNNITVIKNLS-CTSNLTHLYLQKN--HiSRISGLNGLTRLSKLYLGQNSISVIE---GLEKNE 117
+                577888888888888777766333444444899*******9885555.7788889889943..33778889***************97554...456677 PP
+
+  Human_TLR 541 slkeLnLssnmL........swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl..sklssLkvLdlssN 619
+                sl+eL+++s +L            +  l  +L vL +++n+l+ +  +++  ls++ +   s+N l+s+ +  +   +  sL+ L+l+ N
+  Seg5113.1 118 SLTELHIESQKLpageallfDPRTIDALsGSLSVLNVAGNNLTEI--SELAVLSKMTQFFASNNDLSSMYDLSCavRSWPSLSKLELQGN 205
+                899***********9999988889999999***************..5699999*************99885541156789999999998 PP
+
+>> Seg7952.1  transcript_id=Seg7952.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 74A" protein_id
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.3   3.9e-12   1.3e-09     451     625 ..     125     336 ..     111     359 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 3.9e-12
+  Human_TLR 451 kLetLdLrknslktl..ekvthsl.......klslsdNniasl.....vsltlelesLreLdlsg......kadnrylsllkgLssLeiLdlsqNslsel 530
+                + + LdL+ n+  t+   ++ +++       +l+l++N i +       + +  ++ L++ ++sg      k  +  + ++ + +s ++L+ls+N++ + 
+  Seg7952.1 125 RVKELDLQGNKIGTRgvRELRSMFfenlfitDLNLANNMIGNGgshdiGKILQDSKFLVQVNVSGnefddsKSSELANGIALN-KSIQVLNLSHNRFMSG 223
+                56778888888877666777777788888888888888886543334245566788888888888654442223344555555.7888888888888888 PP
+
+  Human_TLR 531 sneef...kslpeslkeLnLssnmL.......swsvlrclkkLevLDLssnqlk.....sltpklvnklsaLreLnlslNsltsLpkgf....lsklssL 611
+                   +f    +++ sl+eL Ls n L         + l   k++ +L +s n        ++  +++ + + L+ L+ls N++t++ +      ls+ ++L
+  Seg7952.1 224 AGRDFglaIEVNRSLTELDLSWNHLrlegavgFANGLAWNKSIAILNISFNGFAddgaaAI-GRALAHNKTLKSLDLSYNRITDVGAQAlakgLSNNKRL 322
+                8877633346778888888888888888766534444444777777777776642222145.67888888888888888888887654422225778888 PP
+
+  Human_TLR 612 kvLdlssNaiktvs 625
+                +vL +  N i++  
+  Seg7952.1 323 EVLIIGYNPISSCG 336
+                88888888887754 PP
+
+>> Seg1080.12  transcript_id=Seg1080.12|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 74A" protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.2   0.6   3.9e-12   1.3e-09     451     625 ..     125     336 ..     114     358 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 37.2 bits;  conditional E-value: 3.9e-12
+   Human_TLR 451 kLetLdLrknslktl..ekvthsl.......klslsdNniasl.....vsltlelesLreLdlsg......kadnrylsllkgLssLeiLdlsqNslse 529
+                 + + LdL+ n+  t+   ++ +++       +l+l++N i +       + +  ++ L++ ++sg      k  +  + ++ + +s ++L+ls+N++ +
+  Seg1080.12 125 RVKELDLQGNKIGTRgvRELRSMFfenlfitDLNLANNMIGNGgshdiGKILQDSKFLVQVNVSGnefddsKSSELANGIALN-KSIQVLNLSHNRFMS 222
+                 56789999999888767788888899999999999999997644334245667788999999999655543233355555555.899999999999999 PP
+
+   Human_TLR 530 lsneef...kslpeslkeLnLssnmL.......swsvlrclkkLevLDLssnqlk.....sltpklvnklsaLreLnlslNsltsLpkgf....lskls 609
+                     +f    ++++sl+eL Ls n L         + l   k++ +L +s n        ++  +++ + + L+ L+ls N++t++ +      ls+ +
+  Seg1080.12 223 GAGRDFglaIEVNQSLTELDLSWNHLrlegavgFANGLAWNKSIAILNISFNGFAddgaaAI-GRALAHNKTLKSLDLSYNRITDVGAQAlakgLSNNK 320
+                 98888733357889999999999999998876644444445888888888887642222155.788999999999999999999987654222267889 PP
+
+   Human_TLR 610 sLkvLdlssNaiktvs 625
+                 +L+vL +  N i++  
+  Seg1080.12 321 RLEVLIIGYNPISSCG 336
+                 9999999999998764 PP
+
+>> Seg1625.2  transcript_id=Seg1625.2|GoldUCD|mRNA.D3Y31 product="Acidic leucine-rich nuclear phosphoprotein 32 family m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.8   1.7e-11   5.6e-09      80     186 ..      16     117 ..      12     143 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 1.7e-11
+  Human_TLR  80 eLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLk 179
+                + ++L+l  +   + i  e fk+   L++L L +  l +l+ f  l +L +L+l+ n i+  +  + ll+  +L++L+Ls N++k +++ ++++ L++Lk
+  Seg1625.2  16 KVTELNLDNCRSTNVIGLEDFKN---LRILSLINVGLTTLKGFPALPELRKLELSDNRISSGV--DNLLKCPKLTHLSLSGNKIKDFEALDQLKDLKELK 110
+                66788888887777788877765...5666666666777776667777999999999887554..45888899999999999999999999999999999 PP
+
+  Human_TLR 180 iLdlSgn 186
+                +Ldl + 
+  Seg1625.2 111 SLDLFNC 117
+                9999774 PP
+
+>> Seg1487.1  transcript_id=Seg1487.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich melanocyte differentiation-associated pro
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   2.9   1.8e-11   5.8e-09      44     139 ..      38     148 ..      21     175 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 1.8e-11
+  Human_TLR  44 lkLtev.Pk...dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.....fallssLteLslv 134
+                ++L+e+ P+   +  k+ ++LdLs+N+ r+l  s++  +++ + L l hn +i    + +f sl++L++L L+ n++s+ls       a l sL  Lsl+
+  Seg1487.1  38 RNLNEIaPQlinKYGKEAKTLDLSHNQFRDL--SSLYGFDHVETLILDHN-EIT--CNVSFPSLPSLKMLSLNANNISNLSVfvrnlSASLPSLKYLSLM 132
+                66666645544455678899*********99..58999999999******.666..5789*******************998766665777889999999 PP
+
+  Human_TLR 135 enni...........k 139
+                +n+            +
+  Seg1487.1 133 KNDAapsyfnggslqQ 148
+                9977555555554441 PP
+
+>> Seg881.4  transcript_id=Seg881.4|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat and WD repeat-containing protein 1" 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8   2.0   2.2e-11     7e-09     551     640 ..       8      96 ..       1     235 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 2.2e-11
+  Human_TLR 551 mLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssN.aiktvskdvfqslqskLkvLd 640
+                +Ls + ++ l +Le L +++n+l++l+    ++ ++++ Ln++ N+l+s ++  l  +s+L++Ld+s N +i+ +++  + s+ skLk+Ld
+   Seg881.4   8 KLSKDFFEKLCNLEELVINNNELTALPLDPWKSYESMKSLNIAQNKLQSTDE--LVFFSNLEHLDISGNdQIQVSERYKLVSVLSKLKTLD 96 
+                3577778888888888888888888877778888888888888888888888..6677888888888775577777778888888888876 PP
+
+>> Seg1933.4  transcript_id=Seg1933.4|GoldUCD|mRNA.D3Y31 product=Nischarin protein_id=Seg1933.4|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   6.6   3.5e-10   1.1e-07     531     644 ..     312     423 ..     223     432 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 3.5e-10
+  Human_TLR 531 sneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk.dv 628
+                s + + +l++++++L Ls+n L   + l+ +  L+ LDLs n+++ + +    kl a+ +Lnls N+l+++ +  l+k++sLk L++  N+i+++s    
+  Seg1933.4 312 SIDSTITLLPNIRKLDLSHNLLtDVQYLESFLYLRELDLSYNEITDV-EDFPYKLGAIATLNLSGNRLRDVRG--LDKMFSLKNLKIADNLIEKMSSvLK 408
+                44667778888888888888884456788888888888888888888.6677888888888888888888888..8888888888888888876654134 PP
+
+  Human_TLR 629 fqslqskLkvLdlgaN 644
+                +++l   L+ +dl++N
+  Seg1933.4 409 LGNLP-LLENVDLHGN 423
+                55555.6666666666 PP
+
+>> Seg1389.7  transcript_id=Seg1389.7|GoldUCD|mRNA.D3Y31 product="Protein tilB" protein_id=Seg1389.7|GoldUCD|D3Y31 parti
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.8   2.5   1.7e-10   5.5e-08     513     620 ..      60     165 ..      34     188 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 31.8 bits;  conditional E-value: 1.7e-10
+  Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg.flsklss 610
+                +Ls+Le++ l q  ++  + e+++++  +lk L L+sn +   + +  lkkLe L L+ n+++ +  ++++  ++L++L+   N + +L++   l++ + 
+  Seg1389.7  60 QLSNLEEISLHQQDIE--RIEHLDKWCRELKILYLQSNLIpRIENVGRLKKLEYLNLALNNITKV--ENLKGCESLKKLDFTVNFIGELTSVeSLKENKL 155
+                5666666666666664..44556666666666666666666566666666666666666666666..346666666666666666666655212444445 PP
+
+  Human_TLR 611 LkvLdlssNa 620
+                L++L l  N 
+  Seg1389.7 156 LRELYLTGNP 165
+                5555555554 PP
+
+>> Seg2266.3  transcript_id=Seg2266.3|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat protein SHOC-2" protein_id=Seg2266
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   6.4   7.9e-10   2.5e-07     543     604 ..      30      93 ..      12     106 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 7.9e-10
+  Human_TLR 543 keLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgf 604
+                k+L Ls+ ++    + l+ l++Le+L+L++n l++l+++l+ +l++L+ L+l +N+l +Lp+++
+  Seg2266.3  30 KKLDLSKRRImnIPTELQSLQQLEFLYLEGNLLQTLPEELFTCLHQLKWLDLRNNKLLHLPSSI 93 
+                6788888888777789999999999999999999999999999999999999999999999943 PP
+
+>> Seg7786.1  transcript_id=Seg7786.1|GoldUCD|mRNA.D3Y31 product="Dynein light chain 1 axonemal" protein_id=Seg7786.1|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7   0.5   1.5e-09     5e-07     541     645 ..      38     137 ..      25     139 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 1.5e-09
+  Human_TLR 541 slkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvL 639
+                s++ L Ls   +     +    +Le+L L++n + +l++  +++  +L +L+ls+N+l++L +  ++k+     L +s+N+ik ++ + + +l   + +L
+  Seg7786.1  38 SVTFLDLSLSGIqRILGISTCTNLEILILHGNCIDTLPD--LSSCPNLWKLDLSCNHLKDLCG--FEKFGTFGTLIVSENKIKWPHLEKVAHLE--ILSL 131
+                56666666666622222344589**************77..8899******************..**********************9999766..7778 PP
+
+  Human_TLR 640 dlgaNp 645
+                 +++N+
+  Seg7786.1 132 HMTDNR 137
+                888885 PP
+
+>> Seg10186.2  transcript_id=Seg10186.2|GoldUCD|mRNA.D3Y31 product="Dynein light chain 1 axonemal" protein_id=Seg10186.2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7   0.5   1.5e-09     5e-07     541     645 ..      38     137 ..      25     139 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 1.5e-09
+   Human_TLR 541 slkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkv 638
+                 s++ L Ls   +     +    +Le+L L++n + +l++  +++  +L +L+ls+N+l++L +  ++k+     L +s+N+ik ++ + + +l   + +
+  Seg10186.2  38 SVTFLDLSLSGIqRILGISTCTNLEILILHGNCIDTLPD--LSSCPNLWKLDLSCNHLKDLCG--FEKFGTFGTLIVSENKIKWPHLEKVAHLE--ILS 130
+                 56666666666622222344589**************77..8899******************..**********************9999766..777 PP
+
+   Human_TLR 639 LdlgaNp 645
+                 L +++N+
+  Seg10186.2 131 LHMTDNR 137
+                 8888885 PP
+
+>> Seg7865.1  transcript_id=Seg7865.1|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 74A" protein_id
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7   6.0   5.9e-09   1.9e-06     480     625 ..     165     333 ..     116     350 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 26.7 bits;  conditional E-value: 5.9e-09
+  Human_TLR 480 niaslvsltlelesLreLdlsg.k.adnrylsllkgL...ssLeiLdlsqNslselsneefksl...peslkeLnLssnmL.............swsvlr 558
+                 ia++ +++++ + L eL l   k +d+    +++ L   s L +Ldls+N +s     ++ s    +++l +LnLs n +               +v  
+  Seg7865.1 165 GIAAICKMLESNKYLLELSLAAnKiGDESASCIANALrenSTLRVLDLSSNDVSGDGAVVLSSAvksNDTLLYLNLSGNHIrnrgavklieaveANTV-- 262
+                35556677767777777777775345554444444442226788888888888765555444440004457888888888887774443333322223.. PP
+
+  Human_TLR 559 clkkLevLDLssnql.....ksltpklvnklsaLreLnlslNsltsLpkgf....lsklssLkvLdlssNaiktvs 625
+                    L+ +DLs n l      +l ++l++k+++LreL++s+N+l++L++      l+k s L+vL++  N +++  
+  Seg7865.1 263 ----LRSVDLSFNGLddnvaDAL-KSLLKKSTSLRELDISSNRLFQLSARNiavgLEKNSTLRVLKVGPNPMQSAG 333
+                ....3444444444411111455.6677788888888888888888876432222567777888877777776655 PP
+
+>> Seg2294.8  transcript_id=Seg2294.8|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 43" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   3.7   4.1e-09   1.3e-06     536     650 ..     121     238 ..      55     282 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 4.1e-09
+  Human_TLR 536 kslpeslkeLnLssnmLswsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg.flsklssLkvLdlssNaiktvskd..vfqs 631
+                   + +lkeL Ls n++     + l k LevL+L +n+l  + ++l  +l +L +L +  N l ++ ++ + +  s++ +Ld s N+++   ++  ++ +
+  Seg2294.8 121 LLKFSNLKELTLSANKIREIYSNNLpKGLEVLELYGNHLSDI-NTLPRSLPSLTHLGVGKNALPTIIGSiPPNTWSNMLSLDFSFNSLSGLRETlnALTN 219
+                233445556666666665555566655566666666666666.556666666666666666665544331345555666666666666555433113444 PP
+
+  Human_TLR 632 lqskLkvLdlgaNp.FeCtC 650
+                l  +L+ L l++Np F  +C
+  Seg2294.8 220 LP-TLNNLLLQGNPlFLSSC 238
+                44.55555555555333333 PP
+
+>> Seg1477.19  transcript_id=Seg1477.19|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg1477.19|GoldUCD|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.3   3.4   6.6e-08   2.1e-05     427     569 ..     109     268 ..      96     298 .] 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 6.6e-08
+   Human_TLR 427 elkyldLskNkldlltss.sftelekLetLdLrknslktlekvthsl......klslsdN..niasl.vsltlelesLreLdlsg.k.adnrylsllkg 513
+                 +l  ldLs+ k+ ++++  +  + + L+  d++++ lk+   v+         +l++s       s   s +++le+L++Ld+s  + +  + l+ + +
+  Seg1477.19 109 QLTKLDLSNKKIRMYQDYvTALFCHTLKEIDFSNSFLKEETAVKLEAlanslkTLKMSRTmgAWNSKsASFLVKLEKLEKLDMSFvRaGMSQCLESISQ 207
+                 466777777777777765134456777777777777777666555445666676666654112333356666677777777777754344477777777 PP
+
+   Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.......swsvlrclkkLevLDLs 569
+                 L+sL +Ldls   l++l    +ksl  sl++L L +            +v+ +lkkL+ LD+s
+  Seg1477.19 208 LKSLVWLDLSGCDLDTL--VPLKSLAGSLQHLYLYNACQelessgeLAEVIPVLKKLTHLDIS 268
+                 77777777777777643..34666677777777765443446666556666667777777765 PP
+
+>> Seg2698.2  transcript_id=Seg2698.2|GoldUCD|mRNA.D3Y31 product="F-box/LRR-repeat protein 20" protein_id=Seg2698.2|Gold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   4.2   0.00044      0.14     516     590 ..     125     206 ..      75     209 .. 0.56
+   2 !   20.0   3.0   6.5e-07   0.00021      76     212 ..     173     315 ..     168     344 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00044
+  Human_TLR 516 sLeiLdlsqNslselsneefkslpeslkeLnLssnmL.......swsvlrclkkLevLDLssnqlksltp.klvnklsaLreL 590
+                +L+   l++  l   +  ++  lp++l +L+L++ mL         + +  ++kL++LDLs++   s t+ ++++ l++L +L
+  Seg2698.2 125 NLTAFTLENYDLR-QNALNISVLPAQLSYLSLKDSMLahgwfesLKNNTFNMEKLKFLDLSNCTAISNTDlEAFSYLTNLHTL 206
+                4555555555553.333357778888899999999995554443222222345789999997753333221445555565555 PP
+
+  == domain 2  score: 20.0 bits;  conditional E-value: 6.5e-07
+  Human_TLR  76 qrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnk.lsk..lss.fallssLteLslven.nikasledgal.lnlknLklLdLsfN.nlkslpk 168
+                +++++L+ Ldls +t i + + eaf+ l++L +L L + + +s   ++   + l s+t+L +  + +i+ +++  ++ + lk+L+ L+L f  +++   +
+  Seg2698.2 173 FNMEKLKFLDLSNCTAISNTDLEAFSYLTNLHTLLLYNCYrISArgIPTiAHNLHSMTHLDVACCpGIN-DVALHYFgRSLKQLRKLNLRFChHITDSGI 271
+                568899999999999999999999999999999999765322211233354788889999888773455.666666635799999999998525777778 PP
+
+  Human_TLR 169 eeefgnLtnLkiLdlSgnkiqrcdlaplallelk..elsnlsLsls 212
+                 + +     L++Ldl +  + ++ +  l+ + +   +l++l   + 
+  Seg2698.2 272 ASLVYGARDLEHLDLFS--CHEITNESLKNVSQYskKLRYLDVRSC 315
+                88888888888888887..777777776666654335555544443 PP
+
+>> Seg1965.6  transcript_id=Seg1965.6|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 72" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   3.5   4.7e-07   0.00015     540     615 ..      11      90 ..       4     111 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 4.7e-07
+  Human_TLR 540 eslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpk..lvnklsaLreLnlslNsltsLpkgflsklssLkvLd 615
+                  l+eL L+sn L      l+ l+ L+vL L++nql slt+   ++ + ++L +Lnl  N l +  ++ +  ++sLk+L+
+  Seg1965.6  11 YHLTELYLQSNLLtnINGALQRLRCLQVLLLHGNQLISLTDViyELRNAHSLTTLNLFGNPLAQDYDYRMYVVFSLKSLE 90 
+                46778888888886556678888888888888888888877422456777788888888888777666666666666664 PP
+
+>> Seg1672.11  transcript_id=Seg1672.11|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 51" protein_i
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.3   6.9e-07   0.00022      27     118 ..     111     216 ..      90     285 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 6.9e-07
+   Human_TLR  27 ilpclseerevivdcsklkLtevPk.....dlpknvtsLdLssNrirelsasdfqrl......seLqvLdlshntriqtiek....eafkslkeLeeLd 110
+                 +  cl e+  +iv+ + +   + P+     ++++++t   Ls+N i++ s+ + +        s+L+ +dls+n  i +i+k    +  ++lk+L++L 
+  Seg1672.11 111 VIECLDEDPRGIVQVQRNDTSKQPAtdpvvKIKHKTTAIRLSNNLITDWSDFSTTVAeivedpSKLEWIDLSFN-DIYNIDKisdvDKLSNLKNLRTLT 208
+                 556888999999999999999999988888999**************998777543322222289*********.888776533346799********* PP
+
+   Human_TLR 111 Lshnklsk 118
+                 L++n++ +
+  Seg1672.11 209 LHGNQIEE 216
+                 *****975 PP
+
+>> Seg639.8  transcript_id=Seg639.8|GoldUCD|mRNA.D3Y31 product="Glutamate-rich protein 3" protein_id=Seg639.8|GoldUCD|D3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.3   6.6   2.2e-06   0.00069     476     644 ..    1147    1334 ..    1129    1337 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 2.2e-06
+  Human_TLR  476 lsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNsls...elsneefkslpeslkeLnLssnmL.....swsvlrcl..kkL 563 
+                 ls+  i++++++   + sLr   ++  + +++ + +k+ ++L+ L+l+ Ns+         e+  ++++lk L L  n+L     ++     l  +k+
+   Seg639.8 1147 LSNVVIKNSDNMD--SLSLRNVSINDDGIEKIKEAVKNAENLKMLNLNLNSIGpsgAKHLAEVIRENKNLKMLMLHGNKLgdegmTYIAEALLydEKI 1242
+                 4555555555544..88888888887666699999****************97222234456677899************98885333333447789* PP
+
+  Human_TLR  564 evLDLssnqlksltp....klvnklsaLreLnlslNslts.....LpkgflsklssLkvLdlssNaiktvskdvfqs...lqskLkvLdlgaN 644 
+                 ++LD+ ++++  +      +l++  + L  Lnls N +t+     L++  +++ + L  L l+ N +     + + +     ++Lk++d ++N
+   Seg639.8 1243 TTLDIGDCKIGDVGAvkiaELLKRNNTLTDLNLSGNDITNdgweaLAE-GFKQNKALATLSLDFNNLRDEGIEILCEgirDNTALKSIDFEGN 1334
+                 **********99865111144566688999********8544444888.5788899*********9987776666654212345666666666 PP
+
+>> Seg753.1  transcript_id=Seg753.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg753.1|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0      0.29        94     793     833 ..      26      66 ..       4      96 .. 0.81
+   2 !   16.7   0.2   6.2e-06     0.002     750     834 ..     145     228 ..     108     248 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 1.3 bits;  conditional E-value: 0.29
+  Human_TLR 793 PGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAh 833
+                P ++  + i q +    +++ +l+++f+ +e c  ++++A 
+   Seg753.1  26 PDVSWQDEIYQIMVTCARVITILTPRFLTDEACLEQYNIAL 66 
+                666777888999999999****************9999986 PP
+
+  == domain 2  score: 16.7 bits;  conditional E-value: 6.2e-06
+  Human_TLR 750 nleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhq 834
+                ++ Yd fisys+++sd V   + k l   ++  ++ +   +   G++    + +sie S  ++ ++s  +++s+ c+ e++lA  
+   Seg753.1 145 KTHYDVFISYSHQNSD-VAHCIQKFLSVFHPDWNIFIDINELKTGVSWQVKLYDSIESSSIVIALISSPYIRSKVCQEEYNLASA 228
+                689********99998.99999999999999999999********************************************9975 PP
+
+>> Seg2198.8  transcript_id=Seg2198.8|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 56" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.1   7.5e-07   0.00024     589     646 ..       1      56 [.       1      74 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 7.5e-07
+  Human_TLR 589 eLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                eL+l+ N++ +L++  ls l sL vLdl+ N +  + + +f  l +kL +L l++Np 
+  Seg2198.8   1 ELYLAYNEVEDLSS--LSMLDSLWVLDLEGNNVDDITQVEFLALCTKLVSLTLSGNPV 56 
+                68899999999999..999999999999999999998888888666999999999985 PP
+
+>> Seg11026.1  transcript_id=Seg11026.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" pseudo=true protein_id=Seg1102
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   1.7   1.7e-06   0.00056     563     619 ..      14      66 .]       5      66 .] 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 1.7e-06
+   Human_TLR 563 LevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssN 619
+                  +++ Ls+n+lksl  k v+ l++   ++l  N++ +L++  +++l+sL++L l +N
+  Seg11026.1  14 FKTVKLSGNKLKSL--KRVHMLQNTVSIDLDQNEIENLDG--FENLVSLEELSLRNN 66 
+                 44455555555555..445555555555555555555555..555555555555444 PP
+
+>> Seg2396.1  transcript_id=Seg2396.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg2396.1|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0     2e-06   0.00064     564     602 ..      17      55 .]       3      55 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 2e-06
+  Human_TLR 564 evLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                 v+D s+ +l +++p   ++  +L eL+l  N+l++Lpk
+  Seg2396.1  17 SVIDYSHSNLLTVPPDIYDHAVSLEELYLDGNQLQDLPK 55 
+                79***********************************97 PP
+
+>> Seg962.1  transcript_id=Seg962.1|GoldUCD|mRNA.D3Y31 product="Acidic leucine-rich nuclear phosphoprotein 32-related pr
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   3.0   3.3e-06     0.001     492     598 ..     144     248 ..     119     269 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.7 bits;  conditional E-value: 3.3e-06
+  Human_TLR 492 esLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLre 589
+                 +L++ +l +  + +++ ++l++L    +++l   sl  l +  f s +     LnL+ n L s ++l  ++++e L L++n++ sl   ++   ++L+ 
+   Seg962.1 144 VNLSYQELGHGyQLKEFYKVLRKLVRCIEIELIDDSLADLHMISFPSCT----RLNLQRNFLsSFKKLPRIPNIEHLALQQNNISSLNGLEIFRRTRLKS 239
+                4666666666534447778888888888888888888777776666666....99999999988899999999999999999999997778888899999 PP
+
+  Human_TLR 590 LnlslNslt 598
+                + l  N ++
+   Seg962.1 240 MVLDGNPVS 248
+                999888764 PP
+
+>> Seg5094.2  transcript_id=Seg5094.2|GoldUCD|mRNA.D3Y31 product="NACHT LRR and PYD domains-containing protein 1" protei
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   7.5   1.3e-05    0.0041     128     301 ..       4     184 ..       1     194 [. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 1.3e-05
+  Human_TLR 128 LteLslvenni..kasle.dgallnlknLklLdLsfNnlkslp......keeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslssl.skv 217
+                L eL ++ n++  + +++  + l n ++L+ L+L +  ++         ++  +++L nL++Ldl +  + + ++  ++ ++  +l+ l+L++  l ++ 
+  Seg5094.2   4 LSELDAYMNSLmcEGVIAlSKILVNFTTLRKLNLGYAMISEDDpaaireLSTCLNKLENLEFLDLTACLLDSGFISLFESMQVRNLKHLRLASCGLpQEA 103
+                6677777777754223331457788999999999998888777788888888899999999999999999999999999999999999999999996555 PP
+
+  Human_TLR 218 saewfkslkelnlklhlvLdlsenflake.ivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketd 301
+                 +   + lke +      L+l++n+l     +k +l+ l++ + +  kl++ sn   ++ ++++++ l +++   + l+el+ t 
+  Seg5094.2 104 IKYLAEVLKESQIC---ALELQYNNLKDAgSFKSFLELLKNSKDTLAKLDV-SNTGLKHDQIEEIVGLLKVQKDAMALRELHITL 184
+                45556777777777...6788888884221122233333332222224444.333334444455555555555556666665555 PP
+
+>> Seg758.6  transcript_id=Seg758.6|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 74A" protein_id=S
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.4   1.3e-05    0.0041     153     241 ..       5      97 ..       1     102 [. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 1.3e-05
+  Human_TLR 153 LklLdLsfNnlkslp....keeefgnLtn..LkiLdlSgnkiqr...cdlaplallelkelsnlsLslssl.skvsaewfkslkelnlklhlvLdlsen 241
+                +++LdL +N+l++      +    +   n   ++LdlS+n+++    ++la++ l +  +l+ ++L +++l  +v +++ +slk++++ +hl  dls+n
+   Seg758.6   5 IEELDLTDNDLQADGgifmALTLYE---NfyITKLDLSANFLRAdggISLAKVLLTNT-SLRRVVLRNNHLtDRVAKAFAESLKDNRTLSHL--DLSYN 97 
+                5667777777776554332222222...133677777777444311133444433333.777777777777777777777777777766666..66666 PP
+
+>> Seg1768.6  transcript_id=Seg1768.6|GoldUCD|mRNA.D3Y31 product="Leucine-rich repeat-containing protein 73" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   2.1     0.011       3.5     489     573 ..      25     125 ..       6     138 .. 0.71
+   2 !    7.7   0.0    0.0033       1.1     540     598 ..     173     243 ..     163     252 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.011
+  Human_TLR 489 lelesLreLdlsg.kadn.rylsllkgLs...sLeiLdlsqNslselsn....eefkslpeslkeLnLssnmL.......swsvlrclkkLevLDLssnq 572
+                l+ +s+r L l+g + d  ++  l++ L+   sL +L+l+   +++ +      +   +++sl++L+L  + L        ++ l+  +kL+ LDL ++q
+  Seg1768.6  25 LKNNSIRLLSLRGcHMDDlNFQRLTESLKgndSLAQLNLNLGVVNSKERikwlTQGLIENDSLTSLFLHGTPLqddgmaiLQTALEGHPKLQSLDLGDCQ 124
+                34567777888885233336666666554333899999998777655441111333446789***********999888888999999************ PP
+
+  Human_TLR 573 l 573
+                l
+  Seg1768.6 125 L 125
+                9 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0033
+  Human_TLR 540 eslkeLnLssnmL......swsvlrcl.kkLevLDLssnqlk.....sltpklvnklsaLreLnlslNslt 598
+                 slk+L+L ++ +      +  v     k+++vLDL+++ ++     +l +  +   + L+eLnl+ N++t
+  Seg1768.6 173 SSLKSLFLDYTNIgdfgagTFAVALAAsKTIQVLDLEGCGITdtgaeFLYDLITIYETPLKELNLAENKVT 243
+                5899999999999999988665555555***********99722222566667778899*********987 PP
+
+>> Seg1181.7  transcript_id=Seg1181.7|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg1181.7|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.0   4.7e-05     0.015     407     465 ..      43      99 ..      40     127 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.8 bits;  conditional E-value: 4.7e-05
+  Human_TLR 407 nLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktl 465
+                +Ls N+l+q+++g+   + t++++++L +  ++ll+ss f++  + e L+ ++n+ ++ 
+  Seg1181.7  43 ELSSNELVQQVTGQG-HPPTNVRVINLVEEYVALLESSDFEATDDVEDLM-EENQETVG 99 
+                69***********88.999****************************997.55555554 PP
+
+>> Seg1695.6  transcript_id=Seg1695.6|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg1695.6|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00034      0.11     798     835 ..      48      85 ..      45      87 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00034
+  Human_TLR 798 ieniiqsiekSrKtvfVlskkfvksewckyefylAhqr 835
+                 + + +++e    +++ +s k+  se+ck ef++A+ r
+  Seg1695.6  48 YDKMAEGVEGASVIIVCMSSKYQCSENCKREFKYAQDR 85 
+                56677788888999**********************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (911 nodes)
+Target sequences:                      27044  (10271587 residues searched)
+Passed MSV filter:                      1463  (0.054097); expected 540.9 (0.02)
+Passed bias filter:                      607  (0.0224449); expected 540.9 (0.02)
+Passed Vit filter:                       133  (0.00491791); expected 27.0 (0.001)
+Passed Fwd filter:                        85  (0.00314303); expected 0.3 (1e-05)
+Initial search space (Z):              27044  [actual number of targets]
+Domain search space  (domZ):              84  [number of targets reported over threshold]
+# CPU time: 1.78u 0.12s 00:00:01.90 Elapsed: 00:00:01.02
+# Mc/sec: 9098.40
+//
+[ok]

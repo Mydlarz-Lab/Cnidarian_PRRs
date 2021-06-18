@@ -1,0 +1,554 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  human_C_lectins.hmm
+# target sequence database:        ../proteomes/Aurelia.Genome_v1.2_Protein_Models_12-28-18.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       human_Clectins  [M=1428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                 -----------
+    2.5e-49  168.6  17.6    3.3e-18   65.4   2.1    3.1  3  Seg4523.1                                 transcript_id=Seg4523.1|GoldUCD|
+    1.1e-45  156.5   9.1    1.5e-23   83.2   1.6    2.1  2  Seg929.1                                  transcript_id=Seg929.1|GoldUCD|m
+    8.3e-44  150.3  19.9    7.8e-24   84.1   8.7    2.4  2  Seg118.4                                  transcript_id=Seg118.4|GoldUCD|m
+    5.1e-42  144.3  26.4    5.3e-22   78.0   6.0    2.5  2  Seg53.7                                   transcript_id=Seg53.7|GoldUCD|mR
+      5e-30  104.6   0.1    5.6e-30  104.4   0.1    1.0  1  Seg432.9                                  transcript_id=Seg432.9|GoldUCD|m
+    2.7e-25   88.9   0.4    5.1e-25   88.0   0.4    1.4  1  Seg2124.6                                 transcript_id=Seg2124.6|GoldUCD|
+      1e-24   87.0   2.0    1.2e-24   86.8   2.0    1.0  1  Seg1086.6                                 transcript_id=Seg1086.6|GoldUCD|
+    8.6e-23   80.6   1.7    8.6e-23   80.6   1.7    1.7  1  Seg2902.3                                 transcript_id=Seg2902.3|GoldUCD|
+    6.4e-19   67.8   9.6    9.3e-19   67.3   9.6    1.1  1  Seg1660.6                                 transcript_id=Seg1660.6|GoldUCD|
+    1.4e-18   66.6   0.4    1.7e-18   66.4   0.4    1.1  1  Seg230.12                                 transcript_id=Seg230.12|GoldUCD|
+    1.5e-18   66.5   3.6    1.5e-18   66.5   3.6    1.3  1  Seg1550.2                                 transcript_id=Seg1550.2|GoldUCD|
+    2.1e-18   66.1   2.0    2.4e-18   65.9   2.0    1.0  1  Seg328.6                                  transcript_id=Seg328.6|GoldUCD|m
+    2.8e-14   52.4   1.0    3.1e-14   52.3   1.0    1.0  1  Seg217.6                                  transcript_id=Seg217.6|GoldUCD|m
+    3.4e-14   52.1   2.0    5.4e-14   51.5   2.0    1.2  1  Seg262.1                                  transcript_id=Seg262.1|GoldUCD|m
+    8.5e-13   47.5   0.3    9.3e-13   47.4   0.3    1.0  1  Seg1040.6                                 transcript_id=Seg1040.6|GoldUCD|
+    1.3e-12   46.8   4.7    1.3e-12   46.8   4.7    3.1  1  Seg4060.1                                 transcript_id=Seg4060.1|GoldUCD|
+    1.1e-11   43.8   5.4    1.2e-11   43.7   5.4    1.0  1  Seg2641.1                                 transcript_id=Seg2641.1|GoldUCD|
+    5.4e-11   41.5  10.6    1.7e-10   39.9  10.6    1.8  1  Seg1310.11_Seg1310.8_Seg1310.2_Seg1310.3  transcript_id=Seg1310.11_Seg1310
+    1.9e-10   39.7   3.0    1.2e-05   23.8   0.9    2.2  2  Seg17386.1                                transcript_id=Seg17386.1|GoldUCD
+    4.2e-10   38.6   0.3    4.4e-10   38.5   0.3    1.0  1  Seg144.1                                  transcript_id=Seg144.1|GoldUCD|m
+    9.8e-10   37.3   0.1    9.8e-10   37.3   0.1    1.0  1  Seg4101.1                                 transcript_id=Seg4101.1|GoldUCD|
+    1.6e-07   30.0   0.1    1.6e-07   30.0   0.1    1.0  1  Seg417.27                                 transcript_id=Seg417.27|GoldUCD|
+    1.1e-06   27.2   1.5    1.6e-06   26.7   1.5    1.1  1  Seg1152.2                                 transcript_id=Seg1152.2|GoldUCD|
+    0.00022   19.6   0.5    0.00023   19.6   0.5    1.0  1  Seg5572.2                                 transcript_id=Seg5572.2|GoldUCD|
+     0.0022   16.3   0.2     0.0022   16.3   0.2    1.1  1  Seg417.26                                 transcript_id=Seg417.26|GoldUCD|
+  ------ inclusion threshold ------
+      0.022   13.0   0.2      0.027   12.7   0.2    1.1  1  Seg920.4                                  transcript_id=Seg920.4|GoldUCD|m
+
+
+Domain annotation for each sequence (and alignments):
+>> Seg4523.1  transcript_id=Seg4523.1|GoldUCD|mRNA.D3Y31 product="Macrophage mannose receptor 1" pseudo=true protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.2   0.5   1.5e-20   1.6e-17     942    1067 ..     130     250 ..      34     260 .. 0.87
+   2 !   65.4   2.1   3.2e-21   3.3e-18     934    1060 ..     444     565 ..     438     571 .. 0.92
+   3 !   49.8   1.5   1.6e-16   1.7e-13     938    1060 ..     569     688 ..     566     690 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 63.2 bits;  conditional E-value: 1.5e-20
+  human_Clectins  942 Cylf..sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsred 1032
+                       y+f   +   tw ea+++C  +g+ L++i s e+q+++ ++ ++     ++WiG +dr se++f W dg+p+    ++w+ +ep++ g  ed
+       Seg4523.1  130 KYMFtvTNTLFTWLEARTHCLYAGGDLASILSAEDQMRIDKI-TNL--RDKYWIGFNDRSSEGSFVWSDGSPTG--CKAWSLLEPNDFG-GED 216 
+                      45552157889*******************************.666..899***********************..99********987.8** PP
+
+  human_Clectins 1033 CavilassetgkwndesCserklgliCektaevls 1067
+                      C  +   + +gkwnd sCs++  ++iC+ + ++ +
+       Seg4523.1  217 CTQLFYDGISGKWNDFSCSRTS-KSICKIPVATWK 250 
+                      ***998889***********86.****98776655 PP
+
+  == domain 2  score: 65.4 bits;  conditional E-value: 3.2e-21
+  human_Clectins  934 gWisfqnkCylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgep 1024
+                      ++i+++n+ y f+  +s  twsea+++C+  g+ L++i++ ++q ++ +l+   +g+  +WiG +d  +e++f W dg+  +  y++w++ +p
+       Seg4523.1  444 KFIYVSNSRYGFKiiSSLVTWSEARQQCEVIGGDLASIHNAKDQLKIDYLT---EGKGRYWIGYNDIGTEGSFIWSDGSASS--YTKWSSKQP 531 
+                      57888888888855699*********************************4...55899***********************..********* PP
+
+  human_Clectins 1025 snsgsredCavilassetgkwndesCserklgliCe 1060
+                      +n+   edC +i  +++t kwnd +Cs++  + iC 
+       Seg4523.1  532 DNAW-GEDCTSIFYRNKTSKWNDLRCSSKL-KAICR 565 
+                      **98.8******9999************85.9***6 PP
+
+  == domain 3  score: 49.8 bits;  conditional E-value: 1.6e-16
+  human_Clectins  938 fqnkCylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsg 1028
+                      f+n ++ f+  +    w+ea+ +C+  g+ +++i s +eq ++ ++   ++ + ++ iG +dr+se++f W d++  +  ++nw + + +n  
+       Seg4523.1  569 FSNDLFEFQatKLPLPWNEARIYCEADGGDMASILSAKEQFKINAI---TKANGTYAIGYNDRRSEGNFVWSDSKAAS--FTNWYKKDSNNGS 656 
+                      5566666643355678******************************...35589************************..******9999888 PP
+
+  human_Clectins 1029 sredCavilass.etgkwndesCserklgliCe 1060
+                       ++dC  i  +s + g+wn+ +C++r+ ++iC+
+       Seg4523.1  657 LENDCTEIAYKSsFYGNWNEYNCTRRR-KSICK 688 
+                      899*****87668************97.****8 PP
+
+>> Seg929.1  transcript_id=Seg929.1|GoldUCD|mRNA.D3Y31 product="C-type mannose receptor 2" protein_id=Seg929.1|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.2   1.1   4.4e-25   4.6e-22     943    1063 ..      16     133 ..       6     138 .. 0.89
+   2 !   83.2   1.6   1.4e-26   1.5e-23     943    1115 ..     137     309 ..     133     399 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 78.2 bits;  conditional E-value: 4.4e-25
+  human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCav 1035
+                      y + +ss +w+ea+++C ++g+ L++i s e+q ++++++    +  ++WiGL+dr +e++f+W dg+ ++  ++ w+ gep++ g++edC  
+        Seg929.1   16 YEIENSSLNWTEARQHCLDKGGDLASIVSAEDQSKIKAMVV---SYGNYWIGLNDRVKEGTFNWSDGSAVN--FTRWRTGEPNDDGKNEDCGQ 103 
+                      4456899********************************64...4579***********************..******************98 PP
+
+  human_Clectins 1036 ilass....etgkwndesCserklgliCekta 1063
+                      i   +    ++ +wnd+ Cs+   ++iC+ +a
+        Seg929.1  104 IVY-GheneNDRTWNDDICSRAW-KSICKIPA 133 
+                      863.3477799**********85.****9776 PP
+
+  == domain 2  score: 83.2 bits;  conditional E-value: 1.4e-26
+  human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCav 1035
+                      y +++s  +w++a+++C + g+ L++i s e+q ++  ++ +   + ++WiGL+dr +e++f W dg+ ++  +++w pgep++++++edC  
+        Seg929.1  137 YEIKHSLLNWTQARQSCMDVGGDLASILSAEDQLKIETMIVN---HGDYWIGLNDRVKEGTFVWSDGSAIN--FTKWMPGEPNDQERSEDCGQ 224 
+                      6678999******************************99744...68************************..*******************9 PP
+
+  human_Clectins 1036 ilass...etgkwndesCserklgliCektaevlsresntlalsnape....tvkygnrsykiiraplswhsAkkeclksnaqlasi 1115
+                      i  +     +++wnd+ Cs++  ++iC+ +a  + +   ++ ++++ +    + + +  +++  +a++s  sA  ++ k + q  s 
+        Seg929.1  225 IIYLIgenVNKTWNDNVCSRKM-KSICKIPAHSSMQ-LDPTSVMSTRNldlpMTSALATTMQPTNAKMSSKSAMSTFPKTVPQPTSK 309 
+                      98655888899*********85.********87776.55555555555111144556666666778888888888888887777764 PP
+
+>> Seg118.4  transcript_id=Seg118.4|GoldUCD|mRNA.D3Y31 product="C-type mannose receptor 2" protein_id=Seg118.4|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.9   3.9   1.8e-23   1.8e-20     720    1063 ..    1395    1745 ..    1370    1746 .. 0.56
+   2 !   84.1   8.7   7.5e-27   7.8e-24     926    1062 ..    1743    1871 ..    1742    1879 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 72.9 bits;  conditional E-value: 1.8e-23
+  human_Clectins  720 aelltesfmldededsyqklfwiglnkrspenkg................pnaasstqwsdrlpvstaredlrncaalklkialatlelltll 796 
+                       ++ t+s+m  +++d  q+  + + +++s +++                  +a s+++ s++l+  ++r+++ n+a +++++ + + +  t  
+        Seg118.4 1395 IKTTTSSEMTRNENDGNQHAVVRNTLYGSDTQGMfsatsqkdltglktssAEAPSQMTDSHGLSAASQRQSIFNAASSGASLHWKDENARTRS 1487
+                      455566667666666677776778888777766644444444444444444444444444555544444455555555554444432222222 PP
+
+  human_Clectins  797 lwvvipkgrtpkledareeqellrlilegeeaflaelkeelenaealcss....hselaeI.....qvel..ealkekiqklkeqewwik... 875 
+                       +       + + ++++ + ++ r +++ ++    +++  + n +a ++s     s   +I     q+++   +++ ++ ++k      +   
+        Seg118.4 1488 GV-------DGQQKNTDVPDDGSRPTMKPAH---PNTELGIPNVVASQQSpelpASSISQIssiyqQAMRsqAPIGPQQVQFK------Epqp 1564
+                      21.......1111111111122222222221...1222223333333333433323333332223322222222222222221......1111 PP
+
+  human_Clectins  876 .........tdgqllswateevrtldaecvyltaktgrllwkalkvklplcqrkketpkaasspCpkgWis....fqnkCylfsessktwsea 955 
+                               +  q + +++ ++r++++ +++ t          +++ +++ ++k+  +++    C +gW      f+  Cy f + +  + +a
+        Seg118.4 1565 ssiiqpqmrMSPQAFISQAPQQRPMQELVQFKT----------QRTHQEMAHKKNLIKHKPDLDCGEGWEGasgdFGTFCYKFMNIKTVFDDA 1647
+                      111112211111222223333333333222222..........222222322244455566667889998722224567************** PP
+
+  human_Clectins  956 eeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwnde 1048
+                      + +C+  +++L ++ ++ e++ l ++      + +lWiG +d+  +++++W+dg++    y+nwa++  +++g+r+dC++++  +++gkw+d+
+        Seg118.4 1648 QAECQRLNSNLFSVLNPYENRYLHDN---F--HEKLWIGYRDKGMDGSWNWTDGSRGI--YTNWASEADDDNGQRRDCVILQ--ADEGKWKDM 1731
+                      **************************...4..789***********************..*******999***********9..59******* PP
+
+  human_Clectins 1049 sCserklgliCekta 1063
+                      +C+++ ++++C+ ++
+        Seg118.4 1732 PCNSN-FRFLCKHKS 1745
+                      ****8.6****9875 PP
+
+  == domain 2  score: 84.1 bits;  conditional E-value: 7.5e-27
+  human_Clectins  926 aasspCpkgWisfq....nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                      ++s+ Cpk+W++++    ++Cy +++++k+w+eae++C+ ++a+Lv+i +++eq  +++      +++++WiG +d++se++++W d  + + 
+        Seg118.4 1743 HKSGKCPKNWKKLNlnsvSACYHMFQDKKSWEEAEQECENYDAHLVSILTEDEQTMIYQV----YSSRNYWIGFNDKDSEGDWQWSDRLTSS- 1830
+                      78999******987444467****************************************....689*******************987777. PP
+
+  human_Clectins 1015 qysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                       y+nw   +p+n g   +Ca++    e g w de+C e+   +iC+++
+        Seg118.4 1831 -YTNWDDKSPNNGG--VSCAAFA---EGGHWHDEPCMEKL-PFICKRK 1871
+                      .******9999865..9*****8...************85.****986 PP
+
+>> Seg53.7  transcript_id=Seg53.7|GoldUCD|mRNA.D3Y31 product="C-type mannose receptor 2" protein_id=Seg53.7|GoldUCD|D3Y3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.6  12.2   4.5e-23   4.7e-20     903    1061 ..      90     269 ..      25     274 .. 0.70
+   2 !   78.0   6.0   5.1e-25   5.3e-22     933    1066 ..     275     414 ..     270     421 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 71.6 bits;  conditional E-value: 4.5e-23
+  human_Clectins  903 g.................rllwkalkvklpl.cqr....kketpkaasspCpkgWisfq....nkCylfsessktwseaeeaCisegatLvki 969 
+                                        +  w  + v +p+ + +      +  +++ + Cp++W + +    n Cy+ + + ktw++a++aC+  +++L++ 
+         Seg53.7   90 AafyevsvkskksrivekTFFWLNVAVCKPNqK-EsqdvTAKCTSSCVEFCPTNWHYSHspdgNRCYQYFGEPKTWTAASDACQAINGQLATA 181 
+                      022222222112223333336666667666633.2467755666788999*****8764333389**************************** PP
+
+  human_Clectins  970 qsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtp.lasqysnwapgeps...nsgsredCavilassetgkwndesCserklgli 1058
+                      ++ ee++f+ sll    +  + WiGL+dr+se +f W + ++ ++  ++ wa+ ep+    +++ e+C++++  + +gkw+d  C+  +  ++
+         Seg53.7  182 NNYEENRFIGSLL---LSGEGGWIGLNDRKSEASFVWSSAKTkIK--FTSWAKNEPNnynAKCNIENCVMMS--KGNGKWSDVICNAFY-PFV 266 
+                      ************7...446899****************9887444..889*******6644499*******8..599**********75.*** PP
+
+  human_Clectins 1059 Cek 1061
+                      Ce 
+         Seg53.7  267 CES 269 
+                      *96 PP
+
+  == domain 2  score: 78.0 bits;  conditional E-value: 5.1e-25
+  human_Clectins  933 kgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq...ysnwapg 1022
+                      ++W+ ++ kCy f es   w++a  +C+s+ga L++iq+ ee++f++ ++     + + WiGL+d  + + f W  + +++sq   y+nw   
+         Seg53.7  275 SNWQCMKTKCYKFVESPLMWHDALSNCKSYGAILASIQNNEENNFIKNFI-----TKDSWIGLNDIGEAGAFVWN-QVTYSSQklpYTNWDAN 361 
+                      69***********************************************4.....7799************9996.5555555699******* PP
+
+  human_Clectins 1023 eps..........nsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                      ep+           ++  edC+++++++++  w+d +C ++k  ++Cek  + l
+         Seg53.7  362 EPNdmvfskrygaAKCDGEDCVLLREWQSQSFWYDVDCASKK-PYVCEKIRDSL 414 
+                      ***88876555443399***********************98.*****987766 PP
+
+>> Seg432.9  transcript_id=Seg432.9|GoldUCD|mRNA.D3Y31 product="CD209 antigen-like protein A" protein_id=Seg432.9|GoldUC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.4   0.1   5.3e-33   5.6e-30     921    1066 ..      60     208 ..      13     219 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 104.4 bits;  conditional E-value: 5.3e-33
+  human_Clectins  921 ketpkaasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                      +++   a + Cp+gWi+f++ Cy  +     +s ++w++++ aC+ +ga L++i++q+e +fl  +l+  ++   +WiGL+d a+e++f W+d
+        Seg432.9   60 DSSTVLANGECPTGWIIFGDYCYHYHdvtyaTSGMSWNDSRLACQRYGADLLTIKNQAEFQFLSGNLTAAQKRQHYWIGLTDVAKEGTFVWID 152 
+                      4555568899***************99999999**********************************99999********************* PP
+
+  human_Clectins 1009 gtplasq..ysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                      gt++a++     +a+gep+n g +edC  ++    +gkwnd+ C ++ + +iC+k++++ 
+        Seg432.9  153 GTSVAATgsHWRTASGEPNNWGGNEDCTEMH---LDGKWNDNGCFRE-FAFICKKNKSTP 208 
+                      ***998634334578999999*********9...9***********9.5******98775 PP
+
+>> Seg2124.6  transcript_id=Seg2124.6|GoldUCD|mRNA.D3Y31 product="C-type lectin domain family 4 member M" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.0   0.4   4.9e-28   5.1e-25     921    1060 ..    1198    1328 ..    1051    1335 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 88.0 bits;  conditional E-value: 4.9e-28
+  human_Clectins  921 ketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                         + a ++ Cp+g++s+++ Cy +++++ktw +a e+C +++a+Lv+++  ee   lt+ll+      + WiGL+dr++e++f+Wvdg pl+
+       Seg2124.6 1198 TAVQGASPGSCPEGFQSNGAYCYKLFTEQKTWVKAVETCNEMKASLVSVARDEEHYYLTQLLQTN-TVPQAWIGLNDRQTEGSFTWVDGMPLS 1289
+                      45577899*****************************************************8775.599************************ PP
+
+  human_Clectins 1014 sqysnwapgepsnsgsredCavilassetgkwndesCserklgliCe 1060
+                        +  w+   p++sg ++dC+ ++    +++w+d++C+  +  +iC+
+       Seg2124.6 1290 --FNGWQT-APTSSG-QKDCVQFN---AQKGWMDNNCEIIQ-PFICK 1328
+                      ..877877.466666.99*****9...89**********87.****8 PP
+
+>> Seg1086.6  transcript_id=Seg1086.6|GoldUCD|mRNA.D3Y31 product="Hepatic lectin" protein_id=Seg1086.6|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.8   2.0   1.1e-27   1.2e-24     942    1062 ..      15     129 ..       3     131 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 86.8 bits;  conditional E-value: 1.1e-27
+  human_Clectins  942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps..nsgsred 1032
+                      Cy++++   +w  a+++C    a Lv+i+sq+eq+f+t+ l +      +W+G +d+++e+++ W d+t+ + +++nw  g+p+  +  ++ed
+       Seg1086.6   15 CYIVKKNYFSWYGARDDCLTNSADLVSITSQAEQEFVTRELLK---GKFMWLGFTDKDDEGRWAWSDNTTQH-SFTNWDGGDPNdgGWLHNED 103 
+                      ****************************************744...479*********************99.899********654489*** PP
+
+  human_Clectins 1033 CavilassetgkwndesCserklgliCekt 1062
+                      Ca+++    +gkwnd +Cs+++ ++iC+++
+       Seg1086.6  104 CALMK---PDGKWNDYPCSDQY-KYICKRK 129 
+                      ****9...99**********96.****975 PP
+
+>> Seg2902.3  transcript_id=Seg2902.3|GoldUCD|mRNA.D3Y31 product="Neurocan core protein" protein_id=Seg2902.3|GoldUCD|D3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.6   1.7   8.3e-26   8.6e-23     942    1131 ..     307     481 ..     272     485 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 80.6 bits;  conditional E-value: 8.3e-26
+  human_Clectins  942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns..gsred 1032
+                      C+ + ++ k+w eae++C+ eg++L++++sqee +f+ + +k        WiGL+dr+ e+++ W+d+++ +  ++ w++g+  ++   + ed
+       Seg2902.3  307 CFRLITKYKNWMEAEKECQLEGGELASVTSQEEHDFIIDEVKL---CGFTWIGLNDRDREGNYMWTDNSNNT--FASWKEGQAYDEvqRHYED 394 
+                      ****************************************543...4689**********************..99*****9996656889** PP
+
+  human_Clectins 1033 CavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykiiraplswhsAkkeclksnaqlasit..dpyqqaf 1123
+                      C+++    ++g+w   sC++r ++++C+kt    +  + t    + p++ +    +   i ++ +++ A+    + +++++++t  ++y++  
+       Seg2902.3  395 CVAMD---SEGNWFTFSCQDR-FYFLCKKTLVDMEM-PIT----EEPPAPETPPIQ--FIAPNYTMPVAA---AEAQTEEEAMTeeEKYNEML 473 
+                      ****9...99**********9.5******9843333.222....233343333334..466888888884...34444444544114677777 PP
+
+  human_Clectins 1124 lsvqlell 1131
+                      +s+ + ++
+       Seg2902.3  474 ASISMSRM 481 
+                      77777665 PP
+
+>> Seg1660.6  transcript_id=Seg1660.6|GoldUCD|mRNA.D3Y31 product="FRAS1-related extracellular matrix protein 1" protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.3   9.6   8.9e-22   9.3e-19     828    1056 ..    1774    1999 ..    1726    2010 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 67.3 bits;  conditional E-value: 8.9e-22
+  human_Clectins  828 aflaelkeelenaealcss........hselaeIqvelealkekiqklkeqewwiktdgqllswateevrt..ldaecvyltaktgrllwkal 910 
+                      +++ e++ e+e+ +++ ++        +s    I++ ++a +++++k+ +++  ik d+ + +++ e+ +    +  + + t+k++  ++k +
+       Seg1660.6 1774 WKMPEEALEYEKVQIFINKefntllgkKSINFDISTAQDACSKQQKKFSKNSATIKADTRI-TSDKEKINQhhAISLVDTSTSKQR-MKFKEQ 1864
+                      55555555555555554444555555577788899999**********9999999999964.445566665433333544555554.345555 PP
+
+  human_Clectins  911 k.vklp.lcqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase 1001
+                      + + +  l    k+ +  + + C kgWi f+n Cyl+ ++  +w++a ++C  ++++L + +s++e+  + ++    ++++ +WiG++  +++
+       Seg1660.6 1865 DsT-NVgL---IKRPQRIDLKNCRKGWIEFRNHCYLLLKKLSSWKKAIKSCLRRNSSLFTSTSSSEETVIDKI----RRNYPIWIGIKL-NKH 1948
+                      432.2222...34556689******************************************************....89*********8.999 PP
+
+  human_Clectins 1002 kpfkWvdgtplasqysnwapgeps..nsgsredCavilassetgkwndesCserklg 1056
+                      k++kW  +++l+  ++++++++    ++ +++ C+v++    +g+w+ ++C+++   
+       Seg1660.6 1949 KRWKWN-TKKLE--RKFVNRLQQMqlPASKKNVCVVMQ---ANGRWSVKNCKQKVVA 1999
+                      99***5.77888..44555554444577999******9...9**********98655 PP
+
+>> Seg230.12  transcript_id=Seg230.12|GoldUCD|mRNA.D3Y31 product="Golgi-associated plant pathogenesis-related protein 1"
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.4   0.4   1.7e-21   1.7e-18     926    1061 ..     213     347 ..      85     363 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 66.4 bits;  conditional E-value: 1.7e-21
+  human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq... 1015
+                      + +  Cp +W+ +++ Cy  +  +ktw +a e+C   +++Lv+i+  +++  +++l   +++ +  WiG+sd+a+++++++vdgtp+  +   
+       Seg230.12  213 TTQIKCPDEWTLNGHHCYRYFAGKKTWGDAVEHCNVLKGSLVSIECADDNLYVKAL-AHSKNGTHSWIGMSDTATKGTYQYVDGTPFVFSdft 304 
+                      55678**************************************************9.5556799**********************6653366 PP
+
+  human_Clectins 1016 ..ysnwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                        + nw+  +++++  r +C+++++  +  +w+ ++C+++   ++C+ 
+       Seg230.12  305 idAYNWHAQNMDSA--RGKCVSMNT--THSGWQYTDCNTPL-PFLCKL 347 
+                      77669999766654..79*****95..889*********96.****84 PP
+
+>> Seg1550.2  transcript_id=Seg1550.2|GoldUCD|mRNA.D3Y31 product="Secretory phospholipase A2 receptor" pseudo=true prote
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.5   3.6   1.5e-21   1.5e-18     928    1073 ..      62     200 ..      37     253 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 66.5 bits;  conditional E-value: 1.5e-21
+  human_Clectins  928 sspC.pkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnw 1019
+                      ++ C  k+W+ +++ Cy + +  + ++ a++ C++ g+tL+ i  q+e+  + +l++  t+  e WiGLs +a +k+++Wvd++++   ++nw
+       Seg1550.2   62 KGYCkDKNWTLYKEHCYRVYNTFEYFKVANTICQDNGGTLALIGDQNENSLIEELVRTKTRYKEAWIGLSSNANSKNYEWVDKKTTL-IFTNW 153 
+                      55552599***********************************************999999***********************977.799** PP
+
+  human_Clectins 1020 apgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntl 1073
+                      a g ps++g    Ca +      g+w+++ C +++ +++Ce+    +  e +++
+       Seg1550.2  154 AFGRPSTEG---LCAEMI---PGGRWSNTFCYSKQ-QFVCERAEVKTVAEDKST 200 
+                      *****9987...*****9...9***********97.*****7654444444443 PP
+
+>> Seg328.6  transcript_id=Seg328.6|GoldUCD|mRNA.D3Y31 product="Neurocan core protein" protein_id=Seg328.6|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   2.0   2.3e-21   2.4e-18     903    1061 ..      47     211 ..       9     214 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 2.3e-21
+  human_Clectins  903 g..........................rllwkalkvklplcqr..kketpkaasspCpkgWisfq.nkCylfsessktwseaeeaCisegatL 966 
+                      +                          +++w+++            + + +++   C +g+ +++ n+Cy+ s s      a+ +C+ +g++L
+        Seg328.6   47 RptmlqfhrclardscssvhikdsqngMEQWQKV--------PeiISPHIAKEVDRCIRGYRFNGnNTCYINSMSATMLDGAQISCAVKGGKL 131 
+                      0222222222222221112222211223333333........02323345578889999999987257************************* PP
+
+  human_Clectins  967 vkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliC 1059
+                      v  +  +e++f+ s++     + + WiGL++  + ++fkW +g++ +  ++nw+++   +s+   +C+v+l  + +gkw+ +sCse++  +iC
+        Seg328.6  132 VILHHLKENDFVASMI-----QSDSWIGLRK--EGGNFKWSNGQTAT--FQNWKSE---DSKGGGNCVVML--AASGKWETRSCSEKN-TSIC 209 
+                      ***************4.....789******9..8999**********..******6...555678*****9..599**********86.**** PP
+
+  human_Clectins 1060 ek 1061
+                      e 
+        Seg328.6  210 EH 211 
+                      96 PP
+
+>> Seg217.6  transcript_id=Seg217.6|GoldUCD|mRNA.D3Y31 product="Aggrecan core protein" protein_id=Seg217.6|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3   1.0   2.9e-17   3.1e-14    1096    1198 ..       2     108 .]       1     108 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 2.9e-17
+  human_Clectins 1096 lswhsAkkeclksnaqlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrftrWa.eeegdlledCv....yldadgfwkt 1183
+                      l+w  A  +c  +n+ l+si d y+   +   ++ +n ++wIgl+   +  n  WsDg+ ++f rW   +  +  + Cv       ++g w t
+        Seg217.6    2 LTWKNARDYCRAHNGDLVSIKDGYELEHVYKAAKPHNTAHWIGLNVPPTSGNRFWSDGTPVKFKRWFfSTHKSTWNYCVraiySWFLNGTWTT 94  
+                      89*******************************************999888877************63566678999**87643458****** PP
+
+  human_Clectins 1184 vdCndnlqGaiCevs 1198
+                      ++C d l  +iC+++
+        Seg217.6   95 AAC-DRLSSFICKIP 108 
+                      ***.56777***975 PP
+
+>> Seg262.1  transcript_id=Seg262.1|GoldUCD|mRNA.D3Y31 product=Fucolectin protein_id=Seg262.1|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.5   2.0   5.2e-17   5.4e-14     173     228 ..    3136    3190 ..    3132    3194 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.5 bits;  conditional E-value: 5.2e-17
+  human_Clectins  173 elyTikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228 
+                      ++ T  GN+ G+ c fPF+y +k +  Ct++ +++ lWCaTT +Y+k +kwG C +
+        Seg262.1 3136 NMPTFGGNARGAKCVFPFRYKGKLYSACTKA-NHNKLWCATTANYDKNKKWGNCKI 3190
+                      577999***********************87.5789******************76 PP
+
+>> Seg1040.6  transcript_id=Seg1040.6|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg1040.6|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.3     9e-16   9.3e-13     990    1061 ..      19      92 ..      11      93 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 9e-16
+  human_Clectins  990 elWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass.....etgkwndesCserklgliCek 1061
+                      ++WiGL+dra+e++f W dg++ +  y++w pgep+n +  edC++   ++     ++g w+de+C+++ + ++C+ 
+       Seg1040.6   19 KFWIGLNDRATEGKFVWSDGRKGT--YRFWMPGEPNNYYGLEDCVIAMYRGvildrSNGAWQDEECRKS-FMSVCKH 92  
+                      69**********************..********************99877*****************8.6****96 PP
+
+>> Seg4060.1  transcript_id=Seg4060.1|GoldUCD|mRNA.D3Y31 product=Fibropellin-1 protein_id=Seg4060.1|GoldUCD|D3Y31 partia
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.8   4.7   1.3e-15   1.3e-12     179     235 ..      68     123 ..      64     125 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 46.8 bits;  conditional E-value: 1.3e-15
+  human_Clectins 179 GNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkkengced 235
+                     G + G++c fPF y+++ +  Ct+  +++ lWCaTT +Y+ D  wG C   +++ce+
+       Seg4060.1  68 GTAGGATCYFPFIYEGTIYSSCTLV-NHDILWCATTPNYDLDLEWGNCKSTTDECES 123
+                     8899*******************97.589**************************97 PP
+
+>> Seg2641.1  transcript_id=Seg2641.1|GoldUCD|mRNA.D3Y31 product="C-type lectin domain family 1 member B" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.7   5.4   1.1e-14   1.2e-11     895    1066 ..     133     310 ..      53     314 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 43.7 bits;  conditional E-value: 1.1e-14
+  human_Clectins  895 cvyltaktgrllwkalk...vklp.lcqr..kketpkaasspCpkgWisf..qnkCylfsessktwseaeeaCisegatLvkiqsqeeqaflt 979 
+                      c+ lt +++  l++  +   + l+ + +   k  + +    pC +g+  +  +++C+++s+ s tw  + + C+ ++a L+ki+s+++++f+ 
+       Seg2641.1  133 CELLTGDAENALLEQENatfTRLRkIGEAsqKGGQCSLSTCPCDEGYFHHeeSGSCFMVSRYSATWPMSFQICKNRDAILAKIDSKSKLDFIR 225 
+                      5555555553344444443322222222222333344444567788866622468************************************** PP
+
+  human_Clectins  980 sllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns..gsredCavilass....etgkwndesCserklgliCektaevl 1066
+                      s     t+ ++++iGL++ +++++  W dgt+    + + + g + +    ++  C v++++      t +++++ C     +++Cek+a   
+       Seg2641.1  226 SK----TRLYYIYIGLKQ-EKNGSIWWADGTEAI--FDQLEVGITRKLcnDTDICCGVLEDQRqdknITLTLYNRFCVIAS-YYVCEKKARKM 310 
+                      **....899********9.7777788******66..43333443333332556678888865599998999********87.******99765 PP
+
+>> Seg1310.11_Seg1310.8_Seg1310.2_Seg1310.3  transcript_id=Seg1310.11_Seg1310.8_Seg1310.2_Seg1310.3|GoldUCD|mRNA.D3Y31 p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.9  10.6   1.6e-13   1.7e-10     179     228 ..     694     742 ..     687     745 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 39.9 bits;  conditional E-value: 1.6e-13
+                            human_Clectins 179 GNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                                               G  yG+ c+fPFk +++ + dCt +g++  lWC+TT ++++ +kwGfC +
+  Seg1310.11_Seg1310.8_Seg1310.2_Seg1310.3 694 GTGYGMCCHFPFKHNGTIYNDCTTEGKK-ALWCSTTFNFDENNKWGFCNE 742
+                                               889********************99985.79*****************76 PP
+
+>> Seg17386.1  transcript_id=Seg17386.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg17386.1|GoldUCD|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   0.9   1.1e-08   1.2e-05     942    1014 ..      82     153 ..      76     182 .. 0.80
+   2 !   16.0   0.0   2.7e-06    0.0028     941    1027 ..     227     310 ..     218     421 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 1.1e-08
+  human_Clectins  942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsl..lkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                       +lf ++ +tw+ea + C+++g+ L + +++++   lt+   lkd     ++W+G  +  s+k + Wvd+t++ s
+      Seg17386.1   82 ILLFINQPMTWHEADNWCQEHGGYLGVCRTSSDWHDLTKRisLKDG--VNNVWLGGGT-SSSKAWAWVDDTEWGS 153 
+                      678999**********************************556665..********99.77778*******9653 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 2.7e-06
+  human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg.elelWiGLsdrasekpfkWvdgtplasqysnwapgepsns 1027
+                        y++ + + +++ea++    +g++L+  +  +e++ +  ll  +t+    +WiG ++  +++++ W  ++p++  + +w +g+p++ 
+      Seg17386.1  227 RHYYVAQGEYSYTEAKKLADIAGGHLLIPRDDSERKLIETLLSSTTEtGNIYWIGGKR--KNDSWVWETNEPWQ--ALPWDEGYPKKG 310 
+                      569999999999************************9999977776646789***999..88899*******99..889999999842 PP
+
+>> Seg144.1  transcript_id=Seg144.1|GoldUCD|mRNA.D3Y31 product="C-type lectin domain family 1 member B" protein_id=Seg14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.5   0.3   4.2e-13   4.4e-10     945    1067 ..       2     122 ..       1     125 [] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 38.5 bits;  conditional E-value: 4.2e-13
+  human_Clectins  945 fsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns..gsredCav 1035
+                      +s+ s tw  + + C+ +ga L+ki+s+++++f+ s     t+ ++++iGL++ +++++  W dgt+    + + + g + +    ++  C v
+        Seg144.1    2 VSRYSATWPMSFQICKNRGAILAKIDSKSKLDFIRSK----TRLYYIYIGLKQ-EKNGSIWWADGTEAI--FDQLEVGITRKLcnDTDICCGV 87  
+                      5677899******************************....899********9.7777788******66..4333344333333255667888 PP
+
+  human_Clectins 1036 ilass....etgkwndesCserklgliCektaevls 1067
+                      ++++      t +++++ C     +++Cek+a    
+        Seg144.1   88 LEDQRqdknITLTLYNRFCVIAS-YYVCEKKARKMN 122 
+                      8865599998999********87.******997654 PP
+
+>> Seg4101.1  transcript_id=Seg4101.1|GoldUCD|mRNA.D3Y31 product="C-type lectin lectoxin-Phi1" protein_id=Seg4101.1|Gold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   0.1   9.5e-13   9.8e-10     946    1062 ..     120     227 ..      31     231 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 9.5e-13
+  human_Clectins  946 sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavila 1038
+                      s+ + tw+e +++C s ++ L++i  ++e +++ s +  + ++ ++ iG +     +  +W dg++l+  ++nw   +ps+ +    C  il 
+       Seg4101.1  120 STIKGTWEEGRRRCLSLKGDLASIIDKKESDAVISAIVATGRDEQFLIGGRS--RGGILEWSDGKNLS--FTNWPGTQPSGDY----CINILP 204 
+                      3555667777777777777777777777777777776666667777777666..55566677777777..7777666655544....777776 PP
+
+  human_Clectins 1039 ssetgkwndesCserklgliCekt 1062
+                      ss + kw +++C +r   ++C+ +
+       Seg4101.1  205 SSGNHKWTNNDCLRRV-AIVCKIK 227 
+                      6667777777777764.7777654 PP
+
+>> Seg417.27  transcript_id=Seg417.27|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg417.27|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.0   0.1   1.6e-10   1.6e-07     329     374 ..       6      50 ..       1      53 [] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 30.0 bits;  conditional E-value: 1.6e-10
+  human_Clectins 329 ieescvalldaesglwenlsceakLpYvckkklnntsivvekdvwa 374
+                     + ++ v+ll++ ++l+en+ +e++L+++++++ +n si+v+k+ ++
+       Seg417.27   6 GTYVTVQLLQTLNILFENIRHETSLYFLLSNNHVN-SIIVHKFDFS 50 
+                     67999******************************.9*****9766 PP
+
+>> Seg1152.2  transcript_id=Seg1152.2|GoldUCD|mRNA.D3Y31 product="72 kDa type IV collagenase" protein_id=Seg1152.2|GoldU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7   1.5   1.6e-09   1.6e-06     174     230 ..     946    1004 ..     942    1009 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 26.7 bits;  conditional E-value: 1.6e-09
+  human_Clectins  174 lyTikGNsy.GkpcefPFkydnkWhhdCtsdgre.sllWCaTTldYekDekwGfCpkke 230 
+                      l+ i G s  G+ c fPFk+ ++    C   g +    WC+   d++++++wG+C ++ 
+       Seg1152.2  946 LHAIGGTSTpGACCVFPFKFKGRLQNSCLPFGGDkKRRWCSLSHDFDRERRWGMCSIPD 1004
+                      5667776543*******************876665********************9885 PP
+
+>> Seg5572.2  transcript_id=Seg5572.2|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg5572.2|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.6   0.5   2.2e-07   0.00023    1003    1060 ..       3      63 ..       1      66 [] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 19.6 bits;  conditional E-value: 2.2e-07
+  human_Clectins 1003 pfkWvdgtplasqysnwapgepsnsgsredCavilass.......etgkwndesCserklgliCe 1060
+                      +f+Wvdgt la++ s+w+ gep+ sg   +Cav+ +++          +++d +C ++k   iC 
+       Seg5572.2    3 DFTWVDGTMLAHNDSKWHTGEPNMSG---KCAVLWNRKkrdkhgiLHRSFDDVPCGNTK-LAICS 63  
+                      69*********9999********998...9****98889**99998899********98.99997 PP
+
+>> Seg417.26  transcript_id=Seg417.26|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg417.26|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.2   2.1e-06    0.0022     273     302 ..      36      66 ..      20      68 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 2.1e-06
+  human_Clectins 273 SiteiaEqtylkeklesitki.lWiglNdls 302
+                     Si  ++ + +l+e+l+si++i +W+++Nd+s
+       Seg417.26  36 SIVTENNKSLLVETLRSIAEIlIWGDQNDSS 66 
+                     8999999**********************98 PP
+
+>> Seg920.4  transcript_id=Seg920.4|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg920.4|GoldUCD|D3Y31 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.2   2.6e-05     0.027    1330    1401 ..     346     417 ..     286     448 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 2.6e-05
+  human_Clectins 1330 tckvikelicKieiviykeeystalpqkspsedvisavvvlklliltvlglvalflykkssghlarvesfep 1401
+                      t++  + +++ + +++ ke+     p  + ++++i  +vv+++++l+ + +va++ y+k++   ++v+sfe 
+        Seg920.4  346 TFDGNNMVASQTLKIDGKEQIPPPKPAPKSNKILIIIIVVVVVVLLIFIAIVAYCCYRKKRMNAKKVKSFEM 417 
+                      556666677777777777776655555577888888888888888889**************9999999986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1428 nodes)
+Target sequences:                      27044  (10271587 residues searched)
+Passed MSV filter:                      2205  (0.0815338); expected 540.9 (0.02)
+Passed bias filter:                      541  (0.0200044); expected 540.9 (0.02)
+Passed Vit filter:                        78  (0.00288419); expected 27.0 (0.001)
+Passed Fwd filter:                        26  (0.000961396); expected 0.3 (1e-05)
+Initial search space (Z):              27044  [actual number of targets]
+Domain search space  (domZ):              26  [number of targets reported over threshold]
+# CPU time: 1.13u 0.03s 00:00:01.15 Elapsed: 00:00:00.90
+# Mc/sec: 16241.50
+//
+[ok]

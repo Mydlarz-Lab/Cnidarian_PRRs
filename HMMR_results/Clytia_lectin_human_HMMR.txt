@@ -1,0 +1,2165 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  human_C_lectins.hmm
+# target sequence database:        ../proteomes/Clytia_hemisphaerica_proteome.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       human_Clectins  [M=1428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+   3.3e-252  840.7 108.1    3.9e-31  108.2   0.3   11.1 11  TCONS_00003294-protein  
+    5.3e-87  293.3  39.5      6e-25   87.7   0.6    4.6  4  TCONS_00064671-protein  
+      2e-60  205.2  86.3    3.7e-16   58.5   0.7    9.2  8  TCONS_00013994-protein  
+    1.8e-50  172.2   0.0    2.6e-20   72.3   0.0    3.0  3  TCONS_00058657-protein  
+    2.1e-49  168.7   0.1    5.6e-16   57.9   0.0    3.0  3  TCONS_00044056-protein  
+    7.5e-40  137.0   0.0    6.7e-39  133.9   0.0    1.9  1  TCONS_00021030-protein  
+    2.9e-39  135.1  11.2      3e-25   88.7   3.1    2.1  2  TCONS_00067484-protein  
+    1.3e-35  123.0   2.8    1.8e-19   69.5   0.9    2.0  2  TCONS_00008792-protein  
+    8.6e-34  117.0  13.7      3e-21   75.4   1.5    3.3  2  TCONS_00053707-protein  
+    2.5e-33  115.4   0.3    7.5e-16   57.5   0.0    2.0  2  TCONS_00021701-protein  
+    1.4e-31  109.6   0.9    7.6e-24   84.0   0.1    2.0  2  TCONS_00060110-protein  
+    2.2e-31  109.0  19.4    1.8e-20   72.8  17.1    2.0  2  TCONS_00059665-protein  
+    7.5e-31  107.2  18.3      2e-18   66.1   2.8    2.6  3  TCONS_00008404-protein  
+    2.8e-30  105.3   5.2    3.1e-30  105.2   5.2    1.0  1  TCONS_00053094-protein  
+    3.1e-30  105.2  20.5    3.7e-27   95.0   7.2    2.0  2  TCONS_00065030-protein  
+    2.8e-29  102.0   7.3    6.4e-15   54.4   0.7    2.5  2  TCONS_00059925-protein  
+    4.3e-29  101.4   5.0    4.3e-29  101.4   5.0    1.3  1  TCONS_00046080-protein  
+    5.6e-29  101.0   1.0    9.6e-29  100.2   1.0    1.3  1  TCONS_00053164-protein  
+      8e-29  100.5   7.3    1.4e-28   99.7   7.3    1.2  1  TCONS_00019049-protein  
+    1.5e-28   99.6  20.4    1.5e-22   79.7   9.1    2.5  2  TCONS_00001201-protein  
+    1.9e-25   89.3   5.0    7.5e-20   70.8   0.9    2.0  2  TCONS_00043994-protein  
+    3.5e-23   81.8  18.3    8.2e-15   54.1   9.3    2.8  2  TCONS_00036492-protein  
+    3.6e-23   81.7   3.7    1.5e-11   43.3   0.3    2.0  2  TCONS_00018684-protein  
+    8.8e-23   80.5   3.6    6.7e-15   54.4   8.2    2.0  2  TCONS_00059594-protein  
+    1.2e-22   80.0  10.4    1.2e-22   80.0  10.4    1.1  1  TCONS_00062360-protein  
+    1.3e-22   80.0   0.8    1.9e-22   79.3   0.8    1.1  1  TCONS_00020839-protein  
+    1.4e-22   79.8   0.8    2.4e-22   79.0   0.8    1.3  1  TCONS_00048264-protein  
+    8.7e-22   77.2   0.0    1.5e-12   46.5   3.2    2.0  2  TCONS_00071777-protein  
+    4.9e-21   74.7   6.2    7.9e-21   74.0   6.2    1.2  1  TCONS_00047185-protein  
+    6.1e-21   74.4   2.2    1.1e-20   73.5   2.2    1.3  1  TCONS_00059252-protein  
+      2e-20   72.6   1.6    2.5e-20   72.3   1.6    1.0  1  TCONS_00050531-protein  
+    3.9e-20   71.7   0.8    3.9e-20   71.7   0.8    1.3  2  TCONS_00008793-protein  
+    5.3e-20   71.3   0.2    6.9e-20   70.9   0.2    1.1  1  TCONS_00001968-protein  
+    9.7e-20   70.4   0.3    1.2e-19   70.1   0.3    1.0  1  TCONS_00056360-protein  
+    2.4e-19   69.1   0.3    3.1e-19   68.7   0.3    1.0  1  TCONS_00026645-protein  
+      4e-19   68.3   1.9    8.7e-13   47.3   2.7    2.0  2  TCONS_00031187-protein  
+    5.8e-18   64.5   0.0    1.8e-17   62.9   0.0    1.7  2  TCONS_00072166-protein  
+    1.2e-17   63.4   5.1    1.2e-17   63.4   5.1    1.6  1  TCONS_00020411-protein  
+    1.5e-17   63.1   0.1    1.7e-17   63.0   0.1    1.0  1  TCONS_00026958-protein  
+    1.7e-17   63.0   0.1    2.8e-14   52.3   0.3    2.0  2  TCONS_00063107-protein  
+    2.8e-17   62.2   0.0    2.2e-07   29.5   4.2    2.0  2  TCONS_00030658-protein  
+    3.5e-17   61.9   4.5    3.5e-17   61.9   4.5    2.1  2  TCONS_00058579-protein  
+    6.7e-17   61.0   0.9      8e-17   60.7   0.9    1.0  1  TCONS_00012031-protein  
+    9.3e-17   60.5   0.6    1.2e-16   60.2   0.6    1.0  1  TCONS_00000809-protein  
+      2e-16   59.4   0.1    3.6e-16   58.6   0.1    1.3  1  TCONS_00065193-protein  
+    2.8e-16   58.9   9.7    2.6e-15   55.7   9.7    2.1  1  TCONS_00036482-protein  
+    6.3e-16   57.8   5.8      8e-16   57.4   5.8    1.0  1  TCONS_00063658-protein  
+    1.7e-15   56.3   0.2    2.2e-15   56.0   0.2    1.0  1  TCONS_00065170-protein  
+    1.4e-14   53.3   0.3    1.6e-14   53.1   0.3    1.0  1  TCONS_00038274-protein  
+    1.7e-13   49.7   0.1    2.1e-13   49.4   0.1    1.0  1  TCONS_00056825-protein  
+    2.1e-13   49.4   0.4    2.5e-13   49.2   0.4    1.0  1  TCONS_00006800-protein  
+    2.4e-13   49.2   0.7    2.8e-13   49.0   0.7    1.0  1  TCONS_00056350-protein  
+    3.8e-13   48.5   1.9    3.9e-13   48.5   1.9    1.2  1  TCONS_00042536-protein  
+      3e-12   45.6   3.6    3.4e-12   45.4   3.6    1.0  1  TCONS_00021054-protein  
+    6.9e-12   44.4   0.0    7.5e-12   44.2   0.0    1.0  1  TCONS_00025012-protein  
+    2.2e-11   42.7   8.7      8e-07   27.6   0.5    3.2  3  TCONS_00020951-protein  
+    6.5e-11   41.1   0.1    7.1e-11   41.0   0.1    1.0  1  TCONS_00065169-protein  
+      1e-10   40.5   0.1    8.5e-05   20.9   0.1    2.0  2  TCONS_00057260-protein  
+    2.9e-10   39.0   0.6    2.9e-10   39.0   0.6    1.5  2  TCONS_00019274-protein  
+      3e-10   38.9   0.1      3e-10   38.9   0.1    1.4  2  TCONS_00053705-protein  
+    7.5e-10   37.6   7.4    1.2e-09   37.0   7.4    1.2  1  TCONS_00066533-protein  
+    8.6e-10   37.4   6.7    8.6e-10   37.4   6.7    1.5  2  TCONS_00038451-protein  
+    1.3e-09   36.8   6.7    1.3e-09   36.8   6.7    1.7  2  TCONS_00053338-protein  
+    3.5e-09   35.4   0.1    3.7e-09   35.3   0.1    1.0  1  TCONS_00052747-protein  
+    9.7e-09   33.9   7.3    9.7e-09   33.9   7.3    1.5  2  TCONS_00019092-protein  
+    1.8e-08   33.0   0.1    3.2e-06   25.6   0.1    2.0  2  TCONS_00063447-protein  
+      2e-08   32.9   0.7     0.0019   16.4   0.5    2.0  2  TCONS_00057215-protein  
+    1.4e-07   30.1   3.1    1.4e-07   30.1   3.1    2.1  1  TCONS_00024235-protein  
+    9.3e-05   20.7   6.0     0.0001   20.6   6.0    1.0  1  TCONS_00000142-protein  
+    0.00044   18.5   3.0      0.053   11.6   0.6    2.0  2  TCONS_00055222-protein  
+    0.00064   18.0   0.4    0.00065   17.9   0.4    1.0  1  TCONS_00009386-protein  
+     0.0015   16.7   0.3     0.0022   16.2   0.3    1.2  1  TCONS_00009141-protein  
+     0.0025   16.0   0.0      0.033   12.3   0.0    1.9  2  TCONS_00063493-protein  
+      0.003   15.8   0.1     0.0034   15.5   0.1    1.1  1  TCONS_00055162-protein  
+     0.0042   15.3   0.0     0.0066   14.6   0.0    1.2  1  TCONS_00062879-protein  
+     0.0085   14.3   0.1      0.011   13.9   0.1    1.1  1  TCONS_00031765-protein  
+  ------ inclusion threshold ------
+       0.02   13.0   0.0      0.023   12.8   0.0    1.0  1  TCONS_00063468-protein  
+      0.022   12.9   0.1      0.022   12.9   0.1    1.0  1  TCONS_00055163-protein  
+      0.042   11.9   0.1      0.038   12.1   0.1    1.0  1  TCONS_00044676-protein  
+       0.14   10.3   0.0        0.2    9.7   0.0    1.2  1  TCONS_00065658-protein  
+        7.9    4.4  11.8        9.7    4.1   3.8    2.1  2  TCONS_00064739-protein  
+
+
+Domain annotation for each sequence (and alignments):
+>> TCONS_00003294-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.2   2.1   1.7e-28   5.2e-26     926    1064 ..      18     161 ..      13     175 .. 0.87
+   2 !  108.2   0.3   1.2e-33   3.9e-31     924    1065 ..     175     315 ..     163     317 .. 0.92
+   3 !   55.6   7.2   9.1e-18   2.8e-15     929    1062 ..     316     457 ..     312     492 .. 0.83
+   4 !   85.7   7.1   7.7e-27   2.4e-24     226     363 ..     621     761 ..     616     781 .. 0.89
+   5 !   84.4   3.9   1.8e-26   5.7e-24     379     508 ..     996    1125 ..     940    1136 .. 0.67
+   6 !   51.8   0.3   1.3e-16   3.9e-14     904    1073 ..    1205    1369 ..    1149    1374 .. 0.76
+   7 !   72.4   1.1   7.6e-23   2.4e-20     907    1076 ..    1342    1518 ..    1340    1525 .. 0.86
+   8 !   91.8   0.9   1.1e-28   3.3e-26     928    1072 ..    1523    1665 ..    1511    1671 .. 0.89
+   9 !   84.8   4.2   1.4e-26   4.4e-24     927    1068 ..    1670    1809 ..    1665    1821 .. 0.90
+  10 !   82.9   2.9   5.1e-26   1.6e-23     928    1068 ..    1820    1955 ..    1812    1960 .. 0.91
+  11 !   96.2   5.7     5e-30   1.6e-27     929    1068 ..    1960    2096 ..    1952    2109 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 91.2 bits;  conditional E-value: 1.7e-28
+          human_Clectins  926 aasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekp 1003
+                               a + C k+W  +++ Cy f         +tws+++  C+ +g+ L++i+ ++eq  + ++ +++ +  + ++WiGL+d ++e++
+  TCONS_00003294-protein   18 GANAACDKDWSEYNGYCYHFTtptptIRPQTWSDSRLICQLQGGDLLSIRDRDEQIYIDKFFNGT-SiqNNNYWIGLTDAEKEGT 101 
+                              57789***************87887755789******************************5554.44599************** PP
+
+          human_Clectins 1004 fkWvdgtplasq.ysnwap..gepsnsgsredCavilassetgkwndesCserklgliCektae 1064
+                              fkW d+tp++++ + nw++  gep++ g +edCa       +gkwnd++C+ + +g+iC+k+  
+  TCONS_00003294-protein  102 FKWSDNTPFNRTiFHNWREdrGEPNDYGGKEDCAETT---WDGKWNDNNCDAQ-FGFICKKKLG 161 
+                              **********8568899753378888899*******8...9***********8.6*****9875 PP
+
+  == domain 2  score: 108.2 bits;  conditional E-value: 1.2e-33
+          human_Clectins  924 pkaasspCpkgWisfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWv 1007
+                               ++++ +C+ gWi+ + +Cy + +   k+w++a+ +C  + + L++i+sq+e++f+t  +++     e+WiGL+d+  +k+f+Wv
+  TCONS_00003294-protein  175 TTTKPVTCEAGWIPWGTSCYGIiKGIAKSWQDARSDCMRRFGDLLVIDSQDENDFITNEIRPL--RSEYWIGLTDQGISKKFHWV 257 
+                              458999**************9967889************************************..99****************** PP
+
+          human_Clectins 1008 dgtplasq.ysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaev 1065
+                              dgtpl+++   nw+pgepsns  +edC+ i     +gkwnd++Cs+ +  +iCek++ v
+  TCONS_00003294-protein  258 DGTPLNETlNVNWRPGEPSNSFGSEDCVEIYGHWLPGKWNDNHCSSIR-DYICEKKSGV 315 
+                              ******85688**********99*******9766************86.******9865 PP
+
+  == domain 3  score: 55.6 bits;  conditional E-value: 9.1e-18
+          human_Clectins  929 spCpkgWisfqnkCylfs...essktwseaeeaCiseg...........atLvkiqsqeeqafltsllkdmtg.elelWiGLsdr 998 
+                              + Cp gW  +++ Cy++    +++ tws+a++ C + +           a Lv+i+s++eq+fl  + ++m+    ++W+GL + 
+  TCONS_00003294-protein  316 HNCPDGWVTYKDHCYQINahpNQQTTWSNARRICLDFNspwkdkidvarADLVSITSPDEQKFLETQYRNMKVyRGYFWTGLYK- 399 
+                              67***************77898999*********98753333333333389****************88885446689*****9. PP
+
+          human_Clectins  999 asekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                              + +kpf W+d + ++  y+nw++g+p+ s+   +C   +   ++++w+ + C+e++ +++C+ +
+  TCONS_00003294-protein  400 NNSKPFAWTDHSDIT--YQNWKNGKPDASK---NCSKSSLAYSSQGWEASLCTENN-YFVCKVK 457 
+                              88899**********..*********9876...88777644499**********96.****965 PP
+
+  == domain 4  score: 85.7 bits;  conditional E-value: 7.7e-27
+          human_Clectins 226 Cpkke..ngcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkekl...esitkilWiglNdlssaagw 307
+                             Cp  e  + c   W ++++t+ cYq n++ + +W  a + c+ Qg+ LLSi + +Eq y+k++l   +++   +W glNdl++++ +
+  TCONS_00003294-protein 621 CPVEEnsKYCGLGWKREPNTKHCYQLNTKKT-TWDAAESICKAQGGSLLSIESTTEQAYIKNRLkpqQGKIDSFWTGLNDLDEERIF 706
+                             7776633569999****************99.******************************98333477777************** PP
+
+          human_Clectins 308 qwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnn 363
+                              +sd++pl f  w+++ p+ +  ++c  + +++ +lw   +c +   ++ckk + n
+  TCONS_00003294-protein 707 RFSDQTPLLFNYWSSGFPKTDASQNCA-VVQTKDALWSIKDCTQFNEFICKKTYEN 761
+                             ******************888888875.67899********************988 PP
+
+  == domain 5  score: 84.4 bits;  conditional E-value: 1.8e-26
+          human_Clectins  379 rceagwlptngfcYklqkeekswdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtlT 463 
+                              +c +g      +cY+ + +e sw+ Al+ c+ +++dl+sihs++e  ++  ++ + + +  wIgl+ +k  t f+Wsd + V +T
+  TCONS_00003294-protein  996 KCGPGQIAHGSYCYEFNSNEVSWNSALRDCQSKNGDLTSIHSTVEQAFMAMNIRKLN-KDAWIGLS-MKKDTPFKWSDNTAVAYT 1078
+                              466666666666777777777777777777777777777777777767666666644.66677764.455666777777777777 PP
+
+          human_Clectins  464 kWdelEPnvernkle..dCVslkgeegqwkdksceekLkyiCkkkge 508 
+                               W+++EPn  + + +   CV + +   +w+d+ c  k  y+Ck+   
+  TCONS_00003294-protein 1079 AWQTGEPNAGYRSYQytRCVHTVNGTERWNDHYCYSKKGYVCKFTKT 1125
+                              77777776665543322577666666667777777777777766543 PP
+
+  == domain 6  score: 51.8 bits;  conditional E-value: 1.3e-16
+          human_Clectins  904 rllwkalkvklpl.cqrkketpkaasspCpkgWisfqn..kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdm 985 
+                              + +wk l++   + c   ++tp +   +C +g+ + +n   Cy + +++kt+++a+ aC+  +atL+ i  ++eq+ ltsll++ 
+  TCONS_00003294-protein 1205 TYTWKMLNI--TYtC--VDDTP-SVDPVCGNGYVKSSNglYCYKLMTDQKTFNDAKAACVADKATLAAIPGPSEQKLLTSLLTKL 1284
+                              445555553..1223..34556.66667777777666622588889*************************************** PP
+
+          human_Clectins  986 tgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass.etgkwndesCserklgliCektaevlsre 1069
+                              ++  ++WiG++ + s+++++W+ + p++  +++w + +p+++  + + + ++ ++ e++ w  ++ +e+   + C+k+++ + ++
+  TCONS_00003294-protein 1285 NSPSNVWIGIQYSLSSQQYQWIKNVPVT--FTKWFNRQPNPAFGNFSKVGVN-TGlEPMLWRAAKGNEEL-PFFCQKRTDLTTTA 1365
+                              ****************************..**********985555555554.456*********99985.*********99997 PP
+
+          human_Clectins 1070 sntl 1073
+                              s ++
+  TCONS_00003294-protein 1366 SPKT 1369
+                              7665 PP
+
+  == domain 7  score: 72.4 bits;  conditional E-value: 7.6e-23
+          human_Clectins  907 wkalk..vklpl.cqr.........kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCi..segatLvkiqsqeeqaf 977 
+                              w a k   +lp+ cq+         +k+tp  + +pC kgW  +++ Cy++ + ++++ +ae++C+   ++a+ ++i + +e++f
+  TCONS_00003294-protein 1342 WRAAKgnEELPFfCQKrtdltttasPKTTP-GQVQPCYKGWSEHNGYCYYVNQFTMSFVDAEKNCSnlAQNAHAASIWNTKENDF 1425
+                              555556566777788889999999666666.999*******************************733699************** PP
+
+          human_Clectins  978 ltsllkdmtg.elelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                              ++ l+ + tg +   W+GL ++   + f+W dgtpl+  y nw p  p + gsr  C  ++   ++g+w+d +C  ++  ++C+ 
+  TCONS_00003294-protein 1426 VKVLVYNRTGsNPFTWLGLDNEGLVNGFRWKDGTPLN--YLNWYPSRPYT-GSRHLCGGME---SNGQWYDLPCYAKH-PSVCKV 1503
+                              ****66655538889******9999************..******88775.789******9...99**********98.****** PP
+
+          human_Clectins 1062 taevlsresntlals 1076
+                              +++ l +  +++++ 
+  TCONS_00003294-protein 1504 EKALLLPTTKPTTTP 1518
+                              **9999988777544 PP
+
+  == domain 8  score: 91.8 bits;  conditional E-value: 1.1e-28
+          human_Clectins  928 sspCpkgWisfqnkCylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkWvd 1008
+                              s  C k+W++f+++Cy++s  +++k + +a ++C+ ++++L+++ sq+e++f+++ ++  +g  +   +iGLs+   ++ ++W d
+  TCONS_00003294-protein 1523 SVKCAKDWTQFNGSCYYVSpsNAQKDYYAALRDCQTRNGSLASVLSQSENDFIKKEIRRKQGyyTPPNFIGLSQLSGNDGWTWSD 1607
+                              457***************766999********************************655544447889***************** PP
+
+          human_Clectins 1009 gtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresnt 1072
+                              ++ ++  + n+apg+p+n +s e+C+++    +tg+w d++C+ +   +iC+++ +++++++++
+  TCONS_00003294-protein 1608 DSIVN--FLNFAPGQPNNLNSLESCVTMY---STGQWHDSPCNLKG-LYICKTNDDMKKVKPTE 1665
+                              *****..*********************9...9***********97.***********996554 PP
+
+  == domain 9  score: 84.8 bits;  conditional E-value: 1.4e-26
+          human_Clectins  927 asspCpkgWisfqnkCylfs...essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                              +++ C++gW  ++n+Cy f     ++k++++a  +C+s ++ L++++s+ e+a ++s+     ++++l+iG +d +sek+f W d
+  TCONS_00003294-protein 1670 DKGYCERGWELYGNSCYKFEleqGHEKNFKDALAYCKSLKGDLASVHSSYENAWILSHAHA--HTVNLYIGFTDLNSEKKFIWSD 1752
+                              6789***************7777899********************************544..5********************* PP
+
+          human_Clectins 1009 gtplasqysnwapgepsnsgsredCavilass.etgkwndesCserklgliCektaevlsr 1068
+                              +++++  y++w + eps+ g +edC+ +++   ++gkwnd  C++++ g++C+k++  + +
+  TCONS_00003294-protein 1753 QSSVE--YTHWDRNEPSSHG-DEDCVEMRTYVqSKGKWNDIGCDKKN-GFVCKKESLSVRP 1809
+                              *****..**********988.9******96558************86.******9865544 PP
+
+  == domain 10  score: 82.9 bits;  conditional E-value: 5.1e-26
+          human_Clectins  928 sspCpkgWisfqnkCylfsessktwseaeeaCiseg..atLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgt 1010
+                              s+ Cpkg+is++++Cy++ +++ktw++a+++C+ ++  a+L+++ +  eqa l ++  ++  +   WiGLs+++++++fk++d+ 
+  TCONS_00003294-protein 1820 SADCPKGFISYRKACYYMAKDKKTWQDAQDSCQRMNkdANLLSVSNIYEQAYLFAHYIEY--TNVTWIGLSRDKDQQNFKYIDKA 1902
+                              568*****************************9864339*****************7777..999******************** PP
+
+          human_Clectins 1011 plasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                              +l+  y++wa  +p+++  +++C++   + ++g+w  ++C++ +  +iC+ ++e+ ++
+  TCONS_00003294-protein 1903 RLT--YAFWAT-KPKTTADKRECVSQV-NVNSGTWRVDDCNQLH-PYICKINTEPIEE 1955
+                              ***..****99.6998999******97.4589**********98.*****99988765 PP
+
+  == domain 11  score: 96.2 bits;  conditional E-value: 5e-30
+          human_Clectins  929 spCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                              + C  gW ++++ Cy  ++++ +w+ea+++C+s+g+ Lv ++s   q+ l ++++d   + ++WiGL+dra e++f+W  g++++
+  TCONS_00003294-protein 1960 GNCTDGWDQYNGLCYKHFNQKSSWAEARKKCVSYGGDLVAVDSYRLQKHLEYMIRDF--TQSVWIGLNDRAMEHNFRWSTGESFH 2042
+                              67*******************************************************..99**********************99 PP
+
+          human_Clectins 1014 s.q.ysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                                + ysnw++ ep++++ re+C+ +   s+ gkwnd++Cs +  +++C+ + e+  +
+  TCONS_00003294-protein 2043 LgEsYSNWNNKEPNDNYGRENCVEMY--STHGKWNDMPCSYKL-SYLCQHPLECNTP 2096
+                              7537************99*******8..699**********85.******9988765 PP
+
+>> TCONS_00064671-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.0   6.2   8.1e-25   2.5e-22     919    1062 ..     200     344 ..     157     345 .. 0.83
+   2 !   87.7   0.6   1.9e-27     6e-25     937    1068 ..     345     472 ..     342     485 .. 0.93
+   3 !   70.9   6.8   2.1e-22   6.6e-20     933    1060 ..     566     686 ..     480     688 .. 0.82
+   4 !   71.6   4.6   1.4e-22   4.3e-20     937    1060 ..     689     805 ..     687     806 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 79.0 bits;  conditional E-value: 8.1e-25
+          human_Clectins  919 r.......kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLs 996 
+                              +       ++e ++ + ++C+    + ++  y fs+++kt++eae++C+s g++L++i+s+ee++f+++  ++  g +  +iG +
+  TCONS_00064671-protein  200 KdcsvlgePSEVRQCQLAVCKPALVKRGELIYHFSSAKKTFAEAEDYCQSIGGHLASIHSKEENDFVLKEAQNR-GLVHPYIGGT 283 
+                              03333444667788999*****************************************************8885.9********* PP
+
+          human_Clectins  997 drasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                              d  se++++W dgt +a  y++w p ep+n++ +e+C  +   +++ +wnd  C +++  ++C++ 
+  TCONS_00064671-protein  284 DAGSEGKWRWNDGTAMA--YKKWLPNEPNNKNGKEHCMHLW--KSNTGWNDIFCGNKY-NFVCKMS 344 
+                              *****************..*********************7..6899*********86.****975 PP
+
+  == domain 2  score: 87.7 bits;  conditional E-value: 1.9e-27
+          human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwap 1021
+                              +f++k y++s+++k+  +ae +C+ +g++Lv+i+sq+e++ + ++  +++g l+++iGL+d +++++f+Wvdg+++   ++ w++
+  TCONS_00064671-protein  345 QFHGKVYYVSTVKKNHDQAESHCKTMGGNLVTIHSQAENDYVHKM-AKSRGYLDVFIGLRDVNKNGQFSWVDGSKVV--FTDWQN 426 
+                              799*****************************************9.566799*************************..****** PP
+
+          human_Clectins 1022 gepsnsgsredCavilass.etgkwndesCserklgliCektaevlsr 1068
+                              gep+ +g +e+Cav ++ +  + +wn+  Cs  k ++iC+++ ++l  
+  TCONS_00064671-protein  427 GEPNFKG-KENCAVYQHINlAKHGWNNIYCSGVK-QYICKYQPDILVY 472 
+                              ****877.9*******999*99**********98.******9988765 PP
+
+  == domain 3  score: 70.9 bits;  conditional E-value: 2.1e-22
+          human_Clectins  933 kgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqys 1017
+                               ++ +++++ y+fs+ + ++++a  aC+  g+ L++++s +e++f+ +  k  ++  ++WiG +d+  e+++ W d tp++  y+
+  TCONS_00064671-protein  566 DKFVPHGEASYYFSDNKVNYNDADAACHHIGGFLASVHSAAENKFISDEAKR-RKLGNVWIGGNDKSREGSWVWNDLTPFS--YK 647 
+                              3588999999***************************************555.57889***********************..** PP
+
+          human_Clectins 1018 nwapgepsnsgsredCavilassetgkwndesCserklgliCe 1060
+                              nwa+ ep+n+g+ edC  +     tg wnd+ C+++k  ++C+
+  TCONS_00064671-protein  648 NWAKNEPNNAGKGEDCPEMY---GTGHWNDHYCDRKK-AFVCK 686 
+                              *******************9...8***********98.****8 PP
+
+  == domain 4  score: 71.6 bits;  conditional E-value: 1.4e-22
+          human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwap 1021
+                              +f+++ y++s+++k+w +ae++C+  +++L +i+s+ee++ ++ +l +  +    + GL+d+++e+++ W dg++++  y +w+ 
+  TCONS_00064671-protein  689 YFKGNRYFISSAKKNWYDAEKFCAIFDGHLTSIHSKEENDYIYNQLVKR-KIKHPFAGLNDQKQEGKWVWSDGSEVD--YLAWSH 770 
+                              788999***************************************8775.46788**********************..****** PP
+
+          human_Clectins 1022 gepsnsgsredCavilassetgkwndesCserklgliCe 1060
+                               ep+n   +edC  ++   ++ kwnd +C +++ +++C+
+  TCONS_00064671-protein  771 REPNNLR-NEDCMHVKW--KSTKWNDIKCMNKY-QFVCK 805 
+                              ****986.9******84..889*********86.****8 PP
+
+>> TCONS_00013994-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.5   0.7   1.2e-18   3.7e-16     941    1092 ..      41     185 ..      16     199 .. 0.87
+   2 !   28.9   0.4     1e-09   3.2e-07     181     229 ..     337     385 ..     327     397 .. 0.90
+   3 !   29.5   1.9   6.8e-10   2.1e-07     186     232 ..    1122    1171 ..    1116    1174 .. 0.84
+   4 !   33.9   0.4   3.2e-11     1e-08     184     243 ..    1226    1287 ..    1214    1324 .. 0.82
+   5 !   22.8   0.4     7e-08   2.2e-05     172     232 ..    1432    1491 ..    1422    1498 .. 0.80
+   6 !   14.8   0.3   1.9e-05     0.006     182     214 ..    1538    1571 ..    1534    1574 .. 0.88
+   7 !   43.0   2.5   5.7e-14   1.8e-11     182     231 ..    1706    1756 ..    1703    1768 .. 0.94
+   8 !   28.3   5.4   1.6e-09   4.8e-07     179     233 ..    1847    1904 ..    1838    1909 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 58.5 bits;  conditional E-value: 1.2e-18
+          human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps 1025
+                                yl+ +++  w++a+++C+++ ++Lv++ ++  ++ l++ll+++ +++ +W+GLs+ +  k++ W +g+  +  ++ wa g+p 
+  TCONS_00013994-protein   41 LVYLVNNHKLAWEDAKQFCEKRSGKLVVVPNEHVRESLKDLLRNQ-EDALYWTGLSE-DLFKKWAWEEGGGAT-PFTDWAVGQPY 122 
+                              57999***************************************7.8*********9.66677********99.7889******* PP
+
+          human_Clectins 1026 nsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykii 1092
+                              ++     C v+      +kw  ++C++++ +++C+k  + l  e+ + + s+  ++++ g+r  k+ 
+  TCONS_00013994-protein  123 DEDGVPGCGVVD---VHAKWRVSHCETER-RSVCQKADNGLDDEESEVTNSERLQAEQSGKRKSKVP 185 
+                              **99*******9...89**********97.*******999999888888888788888888877655 PP
+
+  == domain 2  score: 28.9 bits;  conditional E-value: 1e-09
+          human_Clectins 181 syGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkk 229
+                             + G+ c +PF+y+ + h +C  + +   +WC+  ++Y++D  w +C   
+  TCONS_00013994-protein 337 AGGEYCVLPFRYNSEVHRNCLPTKDGRKMWCSLSSNYDRDALWAYCDGD 385
+                             56999*****************************************755 PP
+
+  == domain 3  score: 29.5 bits;  conditional E-value: 6.8e-10
+          human_Clectins  186 cefPFkydnkWhhdCtsdgre.sllWCaTT..ldYekDekwGfCpkkeng 232 
+                              c fPF y +k + dCtsd++  + lWC+TT   +Y+k  k G+C  +  +
+  TCONS_00013994-protein 1122 CVFPFVYKGKTYFDCTSDDDPkGKLWCSTTptHNYDKIPKKGYCKLNRRD 1171
+                              9*******************99*******82245666669****887655 PP
+
+  == domain 4  score: 33.9 bits;  conditional E-value: 3.2e-11
+          human_Clectins  184 kpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkke...ngcedlWekdelt 243 
+                              kpc fPF y ++ + dCt +++    WC+ T+ Y++D k G+C k +   + + d  e de +
+  TCONS_00013994-protein 1226 KPCVFPFVYKGESYFDCTTEDD-TKSWCSLTKSYDQDLKKGYCSKTTdpqHQSSDTREVDEEE 1287
+                              8*****************8765.678*****************98764446666666666665 PP
+
+  == domain 5  score: 22.8 bits;  conditional E-value: 7e-08
+          human_Clectins  172 helyTikGNsyGkpcefPFkydnkWhhdCtsdgre.sllWCaTT.ldYe.kDekwGfCpkkeng 232 
+                              +e++T     +G  c fPF y++k + dCtsd++  +  WC+T  ++++ + e  G+C + + +
+  TCONS_00013994-protein 1432 KEVFTE----NGGQCVFPFIYNGKSYFDCTSDDDIsGKKWCSTKyKNFDlRPEGKGYCVDTTTE 1491
+                              566664....5789********************999*****9735676445778888887755 PP
+
+  == domain 6  score: 14.8 bits;  conditional E-value: 1.9e-05
+          human_Clectins  182 yGkpcefPFkydnkWhhdCtsdgre.sllWCaTT 214 
+                               Gk c fPF y ++ + dC+  ++  +  WC+T 
+  TCONS_00013994-protein 1538 DGKECVFPFYYKGQKYYDCIDIDEPsGKYWCSTV 1571
+                              59******************866655******96 PP
+
+  == domain 7  score: 43.0 bits;  conditional E-value: 5.7e-14
+          human_Clectins  182 yGkpcefPFkydnkWhhdCtsdgre.sllWCaTTldYekDekwGfCpkken 231 
+                               G+pc fPF  + k + dCtsd++  +  WC+TT+++++De+ G+C ++ n
+  TCONS_00013994-protein 1706 TGAPCVFPFIHNSKSYYDCTSDDEPtEKFWCSTTNNFDRDERKGYCVDPRN 1756
+                              59********************9999**********************986 PP
+
+  == domain 8  score: 28.3 bits;  conditional E-value: 1.6e-09
+          human_Clectins  179 GNsy.GkpcefPFkydnkWhhdCts...dgresllWCaTTldYekDekwGfCpkkengc 233 
+                              GNs+  + c++PF y+ k +  C+      r++  WCaT  +++kD kwG+C ++++ c
+  TCONS_00013994-protein 1847 GNSKkSARCAIPFIYNRKSYFSCVNftnPTRKGESWCATSHNFDKDMKWGLCCTQSK-C 1904
+                              78752578***************752215678********************98764.4 PP
+
+>> TCONS_00058657-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.3   0.0   8.5e-23   2.6e-20     937    1064 ..      29     148 ..      20     167 .. 0.87
+   2 !   53.3   0.0   4.7e-17   1.4e-14     903    1074 ..     370     569 ..     257     584 .. 0.69
+   3 !   43.3   0.0   4.7e-14   1.5e-11     939    1052 ..     586     703 ..     570     708 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 72.3 bits;  conditional E-value: 8.5e-23
+          human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwap 1021
+                              +f++  y+f + +ktw+ ae++Ci++g++L +++s++e++flt+++    g ++ W G  +   ++ f+W d+tp++   ++w p
+  TCONS_00058657-protein   29 IFNGRRYFFGSTNKTWQGAENDCIGRGGHLTSVHSKAENDFLTQQIVSR-GGVSNWYGGIR--VNNIFTWSDKTPFT--TTFWGP 108 
+                              567777***999*********************************7665.56777777666..7999**********..99**** PP
+
+          human_Clectins 1022 gepsnsgsredCavilassetgkwndesCserklgliCektae 1064
+                              gep++    edC  ++ + + g+wnd +C+ + + ++C+  ++
+  TCONS_00058657-protein  109 GEPNGLL-GEDCLHMN-TDHLGQWNDLPCNVE-FPYVCKLGKA 148 
+                              ****874.69*****6.7899**********9.5****97665 PP
+
+  == domain 2  score: 53.3 bits;  conditional E-value: 4.7e-17
+          human_Clectins  903 g......................rllwkalkvklplcqr....kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCis 961 
+                              +                      +++ ++  ++l++c+     +     ++ +p p+  ++ +n+ y+fs+++ tw eae+ Ci 
+  TCONS_00058657-protein  370 RsltrsedaveerfggcaglpttCENREIETITLNSCPYttlaP----PTQTQPTPSLVKWGSNE-YYFSDVKVTWFEAERLCIA 449 
+                              23333333344333333333333222233333333355543323....34444444444445555.******************* PP
+
+          human_Clectins  962 egatLvkiqsqeeqafltsllkdmtg.....elelWi.GLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass 1040
+                              +g+tL++i s ee +f++ +l++  +     + ++W+ G+++   + ++ W dg+++   y+n   g  ++   +e C+++   +
+  TCONS_00058657-protein  450 RGGTLATILSLEEDDFMLNQLTKR-KpfnerTISYWLdGVKR---NMKYVWNDGSEMI--YKNLGGGRADEDSYTEGCVSVMYGP 528 
+                              ********************5443.1355559****944444...66678********..**********8888*******8655 PP
+
+          human_Clectins 1041 .....etgkwndesCserk..lgliCektaevlsresntla 1074
+                                   e+ +w + sC++    ++++C+ ++   s+  +t a
+  TCONS_00058657-protein  529 gflvpEPYSWLKGSCTNYGypIQYVCKGKKLNDSPSITTAA 569 
+                              ****************97622589**988877777554443 PP
+
+  == domain 3  score: 43.3 bits;  conditional E-value: 4.7e-14
+          human_Clectins  939 qnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg.....elelWi.GLsdrasekpfkWvdgtplasqys 1017
+                              +n+ y+fs+++ +w eae+ Ci +g+tL++i s ee +f++++l++  +     + ++W+ G+++   + ++ W dg+++   y+
+  TCONS_00058657-protein  586 SNE-YYFSDVKVNWFEAERLCIARGGTLATILSLEEDDFMLDQLTKR-KpfnerTISYWLdGVKR---NMKYVWNDGSEMI--YK 663 
+                              444.***************************************5443.1355559****944444...66678********..** PP
+
+          human_Clectins 1018 nwapgepsnsgsredCavilass.....etgkwndesCse 1052
+                              n   g  ++   +e C+++   +     e+ +w + sC++
+  TCONS_00058657-protein  664 NLGGGRADEDSYTEGCVSVMYGPgflvpEPYSWLKGSCTN 703 
+                              ********8888*******855599999999**9999987 PP
+
+>> TCONS_00044056-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   0.0   1.2e-17   3.7e-15     935    1075 ..       8     154 ..       4     171 .. 0.80
+   2 !   57.9   0.0   1.8e-18   5.6e-16     939    1088 ..     169     324 ..     153     332 .. 0.80
+   3 !   52.8   0.3   6.5e-17     2e-14     943    1061 ..     333     457 ..     326     470 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 1.2e-17
+          human_Clectins  935 WisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtg....elelWi.GLsdrasekpfkWvdgt 1010
+                              + ++ ++ y+fs+++ +w eae+ Ci +g+tL++i sqee +f++++              + ++W+ G++    + ++ W dg+
+  TCONS_00044056-protein    8 FEYLLDE-YYFSDVKVNWFEAERLCIARGGTLATILSQEEDNFMLDQltkrK----PsnerTINYWLdGVK---RNMKYVWNDGS 84  
+                              5666666.***************************************55542....1444599***94444...466678***** PP
+
+          human_Clectins 1011 plasqysnwapgepsnsgsredCavilass.....etgkwndesCserk..lgliCektaevlsresntlal 1075
+                              ++   y+n   g  ++s  +e C+++   +     e+ +w + sC++    ++++C+ +    s+  +t a+
+  TCONS_00044056-protein   85 EMI--YKNLGGGRADESSYTEGCVLVMYGPgflvpEPYSWLKVSCTNDGypIQYVCKGKNLNDSPSITTAAT 154 
+                              ***..**********9999*******8655****************98733589**9888777774444422 PP
+
+  == domain 2  score: 57.9 bits;  conditional E-value: 1.8e-18
+          human_Clectins  939 qnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtg....elelWi.GLsdrasekpfkWvdgtplas 1014
+                              +++ y+fs+++ +w eae+ Ci +g+tL++i sqee +f++++              + ++W+ G++    + ++ W dg+++  
+  TCONS_00044056-protein  169 GSNEYYFSDVKVNWFEAERLCIARGGTLATILSQEEDNFMLDQltkrK----PsnerTISYWLdGVK---RNMKYVWNDGSEMI- 245 
+                              3444***************************************55542....144459****94444...466678********. PP
+
+          human_Clectins 1015 qysnwapgepsnsgsredCavilass.....etgkwndesCserk..lgliCektaevlsresntlalsnapetvkygnrs 1088
+                               y+n   g  ++s  +e C+++   +     e+ +w + sC++    ++++C+ +    s+  +t++ + ap t +++  s
+  TCONS_00044056-protein  246 -YKNLGGGRADESSYTEGCVLVMYGPgflvpEPYSWLKVSCTNDGypIQYVCKGKNLNDSPTITTTT-TVAPTTPSESLPS 324 
+                              .**********9999*******8655****************98733589***99988888666664.4447766666655 PP
+
+  == domain 3  score: 52.8 bits;  conditional E-value: 6.5e-17
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg....elelWiGLsdrasekpfkWvdgtplasqysnwapge 1023
+                              y+fs+++ +wse++++C++ g+tL++i sq+e +f+  +l+d ++    + ++W+     +++ ++ W dg ++   y+n ++g 
+  TCONS_00044056-protein  333 YFFSDEKLNWSESQQKCTDLGGTLATIFSQDEDDFIRGQLRDRKSpsdrSINYWL--DGVKKDMKYVWNDGLEMI--YTNLRSGR 413 
+                              9**************************************7766556666999998..4444577789********..******** PP
+
+          human_Clectins 1024 psnsgsredCavilass....etgkwndesCserkl..gliCek 1061
+                              ++++  +e C++++ s+       +w+ ++C ++++  ++iC+ 
+  TCONS_00044056-protein  414 TNENSFKEGCVSVGYSPtgtiPVYSWWTNDCADKRFpyQYICKG 457 
+                              **99899******9988999988899999999987522789985 PP
+
+>> TCONS_00021030-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.9   0.0   2.2e-41   6.7e-39     279     838 ..      42     658 ..      33     662 .] 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 133.9 bits;  conditional E-value: 2.2e-41
+          human_Clectins 279 Eqtylkeklesitki.lWiglNdlssaagwqwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnnt 364
+                              + +++e+l+si++i +W+++Nd+  ++++++++n+ l+fL +  ++    + ++ v+ll++ ++l+en+  +++L+++++++ +n 
+  TCONS_00021030-protein  42 NKGLVVETLRSIAEIlIWGDQNDST-VFDFFLEKNMLLFFLKFMTQNC---GSYVTVQLLQTLNILFENIRSQTSLYFLLSNNHVN- 123
+                             567899*****************99.********************99...***********************************. PP
+
+          human_Clectins 365 sivvekd......vwayvktrceagwlp....tngfcYklqkeeks.wdeAlkkckaeesdlisihslaelevvvtkLdnedkeelw 440
+                             si+v+k+      v+ay+++++++++l+    t +f+++++k ++  ++eA+k+++++es++++++++ +l+v+++  ++++ ++ +
+  TCONS_00021030-protein 124 SIIVHKFdfsneeVLAYYISFLKTLSLKlnrqTINFFFNERKGDFPlYTEAIKFFHHPESMVRIAVRTLTLNVYKV--GHQK-MLEF 207
+                             9*****99********************8888788**************************************976..5544.9999 PP
+
+          human_Clectins 441 Ig.lkdikiptnfeWsdgseVtlTkWdelEPnvernkledCVslkgeegqwkdks............ceekLkyiCkkkgevlndal 514
+                             I  +++ ++++n+ W +g                 ++l+dCV  + ++ ++   +            ++++L      ++  l+d++
+  TCONS_00021030-protein 208 ICdKTATPYFSNLIWLIGKDA--------------IELDDCVMQESDHFKYDKLKantadhldhlhyLNDILLLKIDVLNMILTDHM 280
+                             999***************999..............9******99999888855445789999************************* PP
+
+          human_Clectins 515 ldkekgcreGWkrHgetCYkigedlvvfseanqd..kaderpklvtitnrfeqafllslvkkvvkskekyfwtgLqdv..dstgeya 597
+                             ++                 ++  +l+ +s  ++d   +++ p  v i ++  + fll +  +++  ++k++++++ dv  +  +  +
+  TCONS_00021030-protein 281 VN-----------------RLLIPLYIYSLPSKDdlVGENDPDRVHI-SKLVALFLLAQHIMIM--EHKPLVNAIMDVllNENEIHS 347
+                             **.................9999999999988762257889999*99.999999*999877554..5***********985444444 PP
+
+          human_Clectins 598 wte.eeeVtfthwnidepgak...ggcvamstgeavgkwevk..kcrsfkarsickkmseplgpeeekgpteecpedwesekgtesc 678
+                              +  +    f +  +  + a+    + ++ +     +++e     ++s + ++ +k  se+ +++e  g++ +  +   ++  t  +
+  TCONS_00021030-protein 348 TAYtPATPDFEDRKSLLSNASsssSRAFIPPPAPLESQLEACgiTRDSYNLNMKLKMLSEDKPDKE--GNNSKLTKRNSKFYITGDG 432
+                             332334456666655433333234788887754445666555665555555555554444444444..3333333333333333222 PP
+
+          human_Clectins 679 yKvfeaekvvmkrswleaerfCqalGahlasfasveeektvaelltesf.mldededsyqklfwiglnkrspenkgpnaasstqwsd 764
+                               v+  e   ++ s l+ e+   a+  +++   s++e + + ++   ++   +++e  +++    g+n++s+++ + +aass    +
+  TCONS_00021030-protein 433 -DVIVTED-SDNGSELDDENGACAVDDKTND--SMKESQSIERTTDTEKqTRKSPEIPGDAEPKTGHNTSSSQTPE-EAASSAADGE 514
+                             .2222222.1222222222222222222222..3333333333332222123333333333222244444444443.3333333222 PP
+
+          human_Clectins 765 rlpvst..are..dlrncaalkl................................................................ 783
+                             +++++    r+  +  nc++ ++                                                                
+  TCONS_00021030-protein 515 PTQENGifLRSilKSLNCLNGDGeaffaicllytilvnkginrtslsdiglclpkenedyndevmdhllrfleegvqdgssvrlvtf 601
+                             222222221222222233333334444444444444444444444444444444444444444444455555555555555544554 PP
+
+          human_Clectins 784 kialatlelltlllwv.vipkgrtpkledareeq.ellrlilegeeaflaelkeele 838
+                             ++    + llt  +++  i++++++ l++ re +  +lr++++g + f+++++ +++
+  TCONS_00021030-protein 602 EMCIKVIRLLTIDDKLiRIKDEHLAMLQNIREAStLQLRNFYKGDSMFVDTFEGQYH 658
+                             344444444555555347777777777777776667777777777777777776665 PP
+
+>> TCONS_00067484-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.4   1.2   1.7e-16   5.3e-14     966    1100 ..       1     123 [.       1     147 [. 0.82
+   2 !   88.7   3.1   9.6e-28     3e-25     934    1068 ..     195     321 ..     145     381 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 51.4 bits;  conditional E-value: 1.7e-16
+          human_Clectins  966 LvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesC 1050
+                              L +++sq+e++fl++   + tg +  W G ++  +++ f W dgt+++  +++w++gep+n + +e+C +     ++g wnde+C
+  TCONS_00067484-protein    1 LTSVHSQAENNFLKQEFHNRTGRRIAWYGGEK--KNGVFIWSDGTSFT--KTFWKSGEPNNLNGNENCLLT----NDGAWNDEDC 77  
+                              789****************************9..9999**********..999***************999....59******** PP
+
+          human_Clectins 1051 serklgliCektaevlsresntlalsnapetvkygnrsykiiraplswhs 1100
+                              s +k +++C+  +e + r  ++    ++ + ++  +   +++    s+hs
+  TCONS_00067484-protein   78 SVTK-YYVCKLDSEFTLRFLTKP---SVRKSESGNEVIISGCSYSSSTHS 123 
+                              **98.********9999855444...333444444444555555555555 PP
+
+  == domain 2  score: 88.7 bits;  conditional E-value: 9.6e-28
+          human_Clectins  934 gWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysn 1018
+                              + +sf+++ y+fs s+k+w++ae++Ci  g++L +++sq+e++f+ + +k +tg++ +W G ++  +++ f W+dgt ++  +++
+  TCONS_00067484-protein  195 QVTSFNEAQYYFSISKKNWQSAENDCIYLGGHLTSVHSQAENEFINQEIKRTTGNVIVWYGGER--KNNVFVWTDGTIFT--KTF 275 
+                              557889999******************************************************9..8888**********..999 PP
+
+          human_Clectins 1019 wapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                              w+ gep+n g +e+C  +     tg wnd sC++  ++++C+ +++    
+  TCONS_00067484-protein  276 WNTGEPNNLGGNENCLNVY---ATGMWNDISCHNL-FYYVCKLRSSDFTL 321 
+                              ******************9...9***********8.6*****87754333 PP
+
+>> TCONS_00008792-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.9   0.0     3e-17   9.2e-15     966    1063 ..       2      92 ..       1      98 [. 0.94
+   2 !   69.5   0.9   5.9e-22   1.8e-19     940    1062 ..      99     211 ..      95     212 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 53.9 bits;  conditional E-value: 3e-17
+          human_Clectins  966 LvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesC 1050
+                              Lv+ +  +e +f+ +   + +g  ++WiG +d   e++fkW+d t++   ++ +a gep+n+g +e+C++ +   +tg wnd++C
+  TCONS_00008792-protein    2 LVSFKDIDESRFIHYEAVNKRGLEKFWIGYTDVVNEGSFKWTDHTEFG--FTLFAAGEPNNAG-NEHCVYQR---KTGYWNDANC 80  
+                              89999999*******9889899**************************..999********98.*******9...9********* PP
+
+          human_Clectins 1051 serklgliCekta 1063
+                              + ++ g++C+k++
+  TCONS_00008792-protein   81 ELKA-GYVCKKPY 92  
+                              **97.*****975 PP
+
+  == domain 2  score: 69.5 bits;  conditional E-value: 5.9e-22
+          human_Clectins  940 nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgep 1024
+                              +k y f++   tw  a++ C++ +++Lv+i+s++e++fl +  ++ +g  + WiG +d++ e++fkWv+g ++   y++w +g+p
+  TCONS_00008792-protein   99 GKSYRFFKRLSTWDIARQLCEQLKGSLVTIDSEAENEFLARESGN-RGFSGTWIGYNDKDVEGTFKWVSGATTC--YKKWLSGQP 180 
+                              677999999*********************************655.69**************************..*******88 PP
+
+          human_Clectins 1025 snsgsredCavilassetgkwndesCserklgliCekt 1062
+                              s+     dC++++  ++t+ w+ ++C  ++  +iCe++
+  TCONS_00008792-protein  181 SS----PDCVFLN--PFTKYWSTSTCGFTR-PYICEFN 211 
+                              76....68****8..8************86.*****86 PP
+
+>> TCONS_00053707-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4   1.5   9.5e-24     3e-21     932    1077 ..      81     213 ..      36     248 .. 0.78
+   2 !   55.8   4.9   7.9e-18   2.4e-15     942    1097 ..     256     400 ..     246     446 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 75.4 bits;  conditional E-value: 9.5e-24
+          human_Clectins  932 pkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl..lkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                              + +  +f+n+ y+f +s k+w++ae++C+s+g++L +i+s ee++fl+    +   ++   +W+G ++  + ++f W dgt+ + 
+  TCONS_00053707-protein   81 SGDLVVFNNSTYFFGTSHKNWHNAEKDCVSRGGHLTSIHSHEENEFLLNEaiT---RNIGFYWVGGER--KGNEFFWSDGTERD- 159 
+                              567889******************************************99422...234679*****9..7788**********. PP
+
+          human_Clectins 1015 qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsn 1077
+                               y +w + ep+n +  e+Ca i+    +   nd++C+e++ +++C+ +++  +       ++n
+  TCONS_00053707-protein  160 -YHFWPKTEPNNLCGVENCAEIR---LRRMGNDARCNEKR-SYVCKINKTNMKA-LS---IVN 213 
+                              .*********************9...88999*******87.*****88765554.22...233 PP
+
+  == domain 2  score: 55.8 bits;  conditional E-value: 7.9e-18
+          human_Clectins  942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsn 1026
+                               y+f +s+k+w++ae++C+s+g++L +i+s ee++fl++ lk      ++WiG  + ++++ ++W+++++ + +  n+ + +p +
+  TCONS_00053707-protein  256 TYYFGKSRKNWHDAEKDCVSRGGHLTSIHSHEENEFLKKELKSRGYLSYVWIGGGQ-QKDNAWSWTNNSTKNFSLVNTCQ-KPIP 338 
+                              49**************************************99988899*******9.55556******996622434333.3555 PP
+
+          human_Clectins 1027 sgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykiirapls 1097
+                              s   ++C ++ + s+   w+  +C +    +iC+   +v+  +++++ ++ +++t + +     +i+  ls
+  TCONS_00053707-protein  339 S---NKCFSMYHVSF--HWERIPCATAVSFYICK--LDVSNWAQLPQ-MITTNPTTEPLSTIS-TIQTSLS 400 
+                              5...59****97555..9***************9..67777777888.555444444433332.3445555 PP
+
+>> TCONS_00021701-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   0.0   2.4e-18   7.5e-16    1222    1344 ..      47     183 ..      41     191 .. 0.83
+   2 !   56.0   0.2   6.8e-18   2.1e-15     944    1065 ..     192     316 ..     185     340 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 2.4e-18
+          human_Clectins 1222 ipfknrcynlrvakkaltfdevltkckk.ags.dllsikdekenafvleellkfkskasdvllgl.tyddkslkWfdksplsftk 1303
+                              i f +  y +r +   lt +e+ ++c+   gs  l+si++e+en f+ +el++  +k ++v+lg+ t+d++s+ W d+sp+ +t+
+  TCONS_00021701-protein   47 ICFDDFGYDFRHEPFGLTIEEANEECEDvYGSgGLISIQNEDENKFLINELKY--RKLKTVFLGMkTNDEGSYEWLDQSPMIYTN 129 
+                              66888889999999999***********9555269******************..777889****99999*************** PP
+
+          human_Clectins 1304 wsaq.dpsed...nekcva..lliksGfWkkqtckvike.......licKieiv 1344
+                              w+ + +p+++    + c+     +++G+W+     v++        ++cK++ +
+  TCONS_00021701-protein  130 WENGrRPTIEdefLNPCIEidVTATNGSWSALGEGVSEScplvktdYVCKVPLI 183 
+                              *9862577775555667642267899****988888877888888999999765 PP
+
+  == domain 2  score: 56.0 bits;  conditional E-value: 6.8e-18
+          human_Clectins  944 lfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns. 1027
+                              ++s+++ +w++a+++C+    +Lv i+  +e++ l++ll++  + +++WiGLs  +++++++Wv+++     y+ w pg+p++  
+  TCONS_00021701-protein  192 FVSDDRTSWESANDSCSLFRMSLVIINDVNENKMLYELLQQNGRVRKVWIGLSG-NKQGKYRWVSDDLSV--YRDWCPGHPNDIk 273 
+                              689*************************************9999*********9.77777****999999..**********444 PP
+
+          human_Clectins 1028 ..gsredCavilass....etgkwndesCserklgliCektaev 1065
+                                 + +dC++    +    ++g ++ e+C++    +iCe+++e 
+  TCONS_00021701-protein  274 iiSEVNDCVTYTIDNekddDKGCFSVEKCDQVL-PFICERETEE 316 
+                              567799***997555899999**********85.*****99875 PP
+
+>> TCONS_00060110-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0   0.1   2.4e-26   7.6e-24     934    1063 ..      11     133 ..       4     139 .. 0.94
+   2 !   24.7   0.0     2e-08   6.1e-06     940     980 ..     140     180 ..     134     183 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 2.4e-26
+          human_Clectins  934 gWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysn 1018
+                              + i f+n  y++ +++ twsea+  C+ +ga+Lv+ +  +e +f+ +   + +g  ++WiG +d   e++fkW+d t++   ++ 
+  TCONS_00060110-protein   11 DMIEFENHKYYVGTEKVTWSEAQALCHLRGAELVSFKDIDESRFIHYEAVNKRGLEKFWIGYTDVVNEGTFKWTDHTEYG--FTL 93  
+                              678899999***************************************999999************************99..999 PP
+
+          human_Clectins 1019 wapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                              +a gep+n+g +e+C++ +   +tg wnd++C  +  g++C+k++
+  TCONS_00060110-protein   94 FAAGEPNNAG-SEHCVYQR---NTGYWNDANCGLKV-GYVCKKPY 133 
+                              ********98.9******9...9***********85.*****975 PP
+
+  == domain 2  score: 24.7 bits;  conditional E-value: 2e-08
+          human_Clectins 940 nkCylfsessktwseaeeaCisegatLvkiqsqeeqaflts 980
+                             +k y f++++++w  a+++C   g++Lv+i+s++e++fl +
+  TCONS_00060110-protein 140 GKSYRFFKEWRNWDIAQQTCGHFGGNLVTIDSEAENEFLSQ 180
+                             67799*********************************976 PP
+
+>> TCONS_00059665-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.8  17.1   5.8e-23   1.8e-20     876    1115 ..      82     324 ..      30     325 .. 0.71
+   2 !   47.4   0.6   2.7e-15   8.4e-13     383    1062 ..     287     418 ..     279     427 .. 0.47
+
+  Alignments for each domain:
+  == domain 1  score: 72.8 bits;  conditional E-value: 5.8e-23
+          human_Clectins  876 tdgqllswateevrt..ldaecvyltaktg.........rllwkalk....vklplcqr.....kketpkaasspCpkgWisf.. 938 
+                               dg+l+ +++e  ++   +a +       +         ++lw  +      ++    +       +  + +++ Cp+gW+++  
+  TCONS_00059665-protein   82 ADGNLQIRSLEPSDFayYQATV-------EntfgkatesTDLWLHVTgcgkHEK----ElarssSLSCTTLCEAKCPSGWTYVig 155 
+                              3443333333333333322221.......1222222223445555555554222....13333356667788999*****98733 PP
+
+          human_Clectins  939 .qnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapg 1022
+                               ++ C + + + +tw+ a+e+C+  ga+L +i+++ e++f+ s+l   +  ++ WiGL+dr+se ++ W  +++ +++y +w + 
+  TCONS_00059665-protein  156 tSSMCAQYFAKGETWNRASENCQAIGAELTTIENEVENRFISSML---ETATGAWIGLNDRESESQYVWNFKQSSSQTYFTWGKN 237 
+                              3566988889999*******************************7...34799***********99999877777767******* PP
+
+          human_Clectins 1023 eps...nsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykiiraplswhsAkke 1104
+                              eps   ++++ e+C++++  +++g wnd  C++ +  ++C+  +++ +         +++e    gn+ +k+ +  l w +A  +
+  TCONS_00059665-protein  238 EPSnynGNCNIENCVTMK--KSNGYWNDVICDSFY-PFVCQVSTSYNES--------DVSEWTCRGNSCFKLFNDHLVWSEAVSR 311 
+                              ***766559********9..599**********75.*****77644333........5778999********************* PP
+
+          human_Clectins 1105 clk..snaqlasi 1115
+                              c k  + a +a+i
+  TCONS_00059665-protein  312 CRKihPTAHIAAI 324 
+                              *863366677776 PP
+
+  == domain 2  score: 47.4 bits;  conditional E-value: 2.7e-15
+          human_Clectins  383 gwlptngfcYklqkeekswdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtlTkWde 467 
+                              +w    + c+kl +++  w eA+  c++                                                         
+  TCONS_00059665-protein  287 EWTCRGNSCFKLFNDHLVWSEAVSRCRKI-------------------------------------------------------- 315 
+                              34444445555555555555555555542........................................................ PP
+
+          human_Clectins  468 lEPnvernkledCVslkgeegqwkdksceekLkyiCkkkgevlndalldkekgcreGWkrHgetCYkigedlvvfseanqdkade 552 
+                                                                                                                   
+  TCONS_00059665-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  553 rpklvtitnrfeqafllslvkkvvkskekyfwtgLqdvdstgeyawteeeeVtfthwnidepgakggcvamstgeavgkwevkkc 637 
+                                                                                                                   
+  TCONS_00059665-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  638 rsfkarsickkmseplgpeeekgpteecpedwesekgtescyKvfeaekvvmkrswleaerfCqalGahlasfasveeektvael 722 
+                                                                                                                   
+  TCONS_00059665-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  723 ltesfmldededsyqklfwiglnkrspenkgpnaasstqwsdrlpvstaredlrncaalklkialatlelltlllwvvipkgrtp 807 
+                                                                                                                   
+  TCONS_00059665-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  808 kledareeqellrlilegeeaflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwiktdgqllswateevrtld 892 
+                                                                                                                   
+  TCONS_00059665-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  893 aecvyltaktgrllwkalkvklplcqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqaf 977 
+                                                                                                    +a+ + i+s + ++ 
+  TCONS_00059665-protein  316 --------------------------------------------------------------------HPTAHIAAITSGSINDL 332 
+                              ....................................................................23455555555555555 PP
+
+          human_Clectins  978 ltsllkdmtgelelWiGLsdrasekpfkWvdgtp.lasqysnwapgeps........nsgsredCavilassetgkwndesCser 1053
+                              +  l+     +   WiGL+d ++ ++++W  +++ ++  ysnw  gep+         s+  edC+ i++ + + +w d  C + 
+  TCONS_00059665-protein  333 VRTLI-----KEPTWIGLNDIREAGDYEWEGSDSsFS--YSNWDWGEPNdifirdrqLSCPGEDCVQIKKFGGDVTWHDLGCGTV 410 
+                              54442.....334455555555555555543333233..5555555555444443332344455555554444455555555554 PP
+
+          human_Clectins 1054 klgliCekt 1062
+                                 +iCe+ 
+  TCONS_00059665-protein  411 L-PYICERV 418 
+                              3.5555543 PP
+
+>> TCONS_00008404-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.1   2.8   6.3e-21     2e-18     897    1067 ..     406     573 ..     315     582 .. 0.76
+   2 !   51.0   2.4   2.2e-16   6.7e-14     937    1089 ..     585     727 ..     575     761 .. 0.79
+   3 ?   -2.3   0.2       2.7   8.5e+02     730     875 ..    1646    1827 ..    1623    1894 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 66.1 bits;  conditional E-value: 6.3e-21
+          human_Clectins  897 yltaktgrllwkalkvklplcqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl 981 
+                              + t  t +++++++ ++ ++ ++  +t ++   + p++  + qn+ y+f  ++ +w +ae  C+ ++a+Lv+i sq+e+ fl ++
+  TCONS_00008404-protein  406 QTTTTTTTTTTTTTATTSQYTEGSTTTIQQVAVTLPTNIFWEQNE-YIFDGVTLNWIDAEFGCQMYDAHLVSILSQQEMTFLSEQ 489 
+                              111111122223333444555556677779999999999999998.*************************************** PP
+
+          human_Clectins  982 lkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass....etgkwndesCserklgliCekt 1062
+                                d+ +  ++WiGL++++ e   +W dg++l+  +++w  + p +s+ + +C+ +  ss     +  w d +C  ++  ++C+kt
+  TCONS_00008404-protein  490 -FDQ-RGSNFWIGLKRENWEPFSQWSDGNTLN--FTHWDFERPFGSN-DVECVHVALSSsvtpPAHLWRDGHCAAEY-HYVCKKT 568 
+                              .675.58*********9999999*********..*********9997.99****9866699998899********97.******* PP
+
+          human_Clectins 1063 aevls 1067
+                              a+ +s
+  TCONS_00008404-protein  569 ATKTS 573 
+                              97665 PP
+
+  == domain 2  score: 51.0 bits;  conditional E-value: 2.2e-16
+          human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkWvdgtplasqysnw 1019
+                              ++q++ y+f     +w++a+e+C   g++L+++ s +e +fl + l+   +  ++++WiG  ++     + W+d+tp++  ys w
+  TCONS_00008404-protein  585 WNQHE-YFFGGNLLQWNDANETCDNLGGNLASVLSDDEIDFLSAELTSR-NldNTTYWIGAYQSPGTSLWYWTDNTPWS--YSYW 665 
+                              45666.8999999*******************************95432.13499********9999************..**** PP
+
+          human_Clectins 1020 apgepsnsgsredCavilass.etgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsy 1089
+                                  p+++   e+C +++  s ++    d++C+ +   ++C++  + +s  s+++   +     + +n  +
+  TCONS_00008404-protein  666 YYNRPEENL-VENCLSLHYDSnDRYAMFDADCDAQS-AYVCKTARAGQSSTSTPT---P----PPSSNTEL 727 
+                              *99998764.89*****9766677788888****97.*****9887777645444...2....22333333 PP
+
+  == domain 3  score: -2.3 bits;  conditional E-value: 2.7
+          human_Clectins  730 dededsyqklfwiglnkrspenkgpnaasstqwsdrlpvst.are......dlrncaalkl......kialatlelltlllw..v 799 
+                              ++ +  y++l    ln++++++++  a+s+t+++    +++  re      +lr+ +  k+      +i   ++++ t ++   v
+  TCONS_00008404-protein 1646 SNYASMYTSL----LNEATENEQKVLANSTTNYNLTDNEKQeMREsklkrmQLREELLKKVdrvevtTIE--DINIVTGTNAeiV 1724
+                              3444445555....55555555554555555554444444332223333333333333333555534444..4555555555526 PP
+
+          human_Clectins  800 vipkgrtpkledareeq.ellrlilegeeaflaelkeelenaealcss....hselaeI......................qvel 857 
+                              +ip++  p+++++   q +   +il + +   ++ +e+l     + s+     s+ + +                      q+ l
+  TCONS_00008404-protein 1725 KIPNEIPPRTQETLLGQvDSFLQILDDDDLSAEDVQESLSGVINMASKvalvSSNIVDVvnpndldveavrslvgdaeeskQKLL 1809
+                              9999999999988664559999999999998989998888776666667777555555567666666655655555544333333 PP
+
+          human_Clectins  858 ealkekiqklkeqewwik 875 
+                              +++k++  +l++++ +i+
+  TCONS_00008404-protein 1810 NQIKQTEDQLTKAQNLIG 1827
+                              666666666655555555 PP
+
+>> TCONS_00053094-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.2   5.2     1e-32   3.1e-30     868    1062 ..      85     300 ..      36     301 .] 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 105.2 bits;  conditional E-value: 1e-32
+          human_Clectins  868 keqewwik.tdgqllswateevrtldaecvyltaktg...........................rllwkalkvklpl.cqr.... 919 
+                              k++  +ik ++gq+++ +  +    +          +                           +          ++ +++    
+  TCONS_00053094-protein   85 KSSPAFIKlKRGQVVEIHCSAYGNSQ----------SmsgkitrvgssaliqeettrtpnlisvK---------ASFrEEGtyrc 150 
+                              33333444322233322222211111..........01111111222222221211222222220.........22211112222 PP
+
+          human_Clectins  920 ........kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLs 996 
+                                      k+ +  ++ + C +gW++++++Cy+  +++ktw++ae +Cis+g++L++i  + e++f++ l+++   + ++WiGL+
+  TCONS_00053094-protein  151 tiknnksgKQVEAFSRVEECHSGWTKYSGNCYVYIDQKKTWNNAESYCISKGGHLASIMDKGENDFVYGLTPGK--KNDYWIGLT 233 
+                              2233334566677789999***************************************************7776..9******** PP
+
+          human_Clectins  997 drasekpf.kWvdgtplasqysnwapgeps....nsgsredCavilassetgkwndesCserklgliCekt 1062
+                              d++se++f +W d++ ++  y+n+a+g+p+    n   ++dC+++l  s++ kwnd +Cs++ + ++C+ t
+  TCONS_00053094-protein  234 DMRSEGSFsRWSDSSIVT--YKNFANGQPNngghNRWYSQDCVSFL-YSDAYKWNDWECSKE-FAFVCKAT 300 
+                              *****9995699999999..**********777666889******9.6799**********9.5****975 PP
+
+>> TCONS_00065030-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   5.5     4e-06    0.0012     862     956 ..      32     134 ..      14     136 .. 0.66
+   2 !   95.0   7.2   1.2e-29   3.7e-27     933    1060 ..     135     256 ..     132     259 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 4e-06
+          human_Clectins 862 ekiqklkeqewwiktdgqllswateevrt.ldae..cvyltaktgrllwkalk..........vklplcqr.kketpkaasspCpkg 934
+                             e +q+ ++++  i+t+ ++ + + ++ ++ +d++  +++++++++ +  k ++                ++  k+ +k +++ C +g
+  TCONS_00065030-protein  32 ELQQNSQGEK--IRTRRDVTNDENNNWSPfFDQQklINFIQKQSNQTIYKEVNrilkhftsnfP----VEKfCKDLSKCEREECGSG 112
+                             3344446666..7766655555544444555555567788888885555555555455433321....22245677889******** PP
+
+          human_Clectins 935 WisfqnkCylfsessktwseae 956
+                             W+ +++ Cy   +++ktw +a 
+  TCONS_00065030-protein 113 WTEYSGDCYAYINQKKTWDNAX 134
+                             ******************9985 PP
+
+  == domain 2  score: 95.0 bits;  conditional E-value: 1.2e-29
+          human_Clectins  933 kgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqys 1017
+                              +gW+ +++ Cy   +++ktw +ae +Cis+g++L++i+s++e++f++ l+++   + ++WiGLsd++ e++f+W +++++a +y+
+  TCONS_00065030-protein  135 SGWTEYSGDCYAYINQKKTWDNAESYCISKGGHLASIKSKQENDFVYGLTPGG--HNNYWIGLSDKQVEGSFTWWSDGKTA-TYT 216 
+                              69***********************************************7777..9*****************99888888.7** PP
+
+          human_Clectins 1018 nwapgepsnsgsredCavilassetgkwndesCserklgliCe 1060
+                              n+ +g+p++sg ++dC+++     + kwnd  Cs+++  ++C+
+  TCONS_00065030-protein  217 NFDSGQPNSSG-NQDCVSFF-EDAAEKWNDWGCSNSY-TFVCK 256 
+                              *********98.9******6.57899*********96.****8 PP
+
+>> TCONS_00059925-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.2   2.1e-16   6.6e-14     937    1063 ..      39     166 ..      30     185 .. 0.86
+   2 !   54.4   0.7   2.1e-17   6.4e-15     926    1078 ..     224     369 ..     182     397 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 2.1e-16
+          human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtgelelWiGLsdrasekpfkWvdgtplasqys 1017
+                              ++q   y+fs+++  w ea+++C s+g++L+ki s+ee +f++s     l+++ + + +Wi   +  s+ ++ W dg+++   ++
+  TCONS_00059925-protein   39 WNQTD-YYFSDVEVDWFEAKRQCNSRGGRLAKILSKEEDDFILSEmakrLPPSVRIFPHWIDGIK--SNMKYIWSDGSEMV--FT 118 
+                              45665.**************************************99999889989******5555..677778******99..99 PP
+
+          human_Clectins 1018 nwapgepsnsgsredCavilass...etgkwndesCserklgliCekta 1063
+                              + + g  ++ + +e C+++   +    + +w+ ++C+++ +++iC+ + 
+  TCONS_00059925-protein  119 HLQIGRSNEDQFPEGCVYVDYGQftaIRYSWWTHHCTDT-FSYICKGKN 166 
+                              999999999999*******97777776779********7.6****9765 PP
+
+  == domain 2  score: 54.4 bits;  conditional E-value: 2.1e-17
+          human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtgelelWiGLsdrasekpfkW 1006
+                              ++ ++ + + +s +++ y+fs+ +k w eae +C s++++L +i s+ e++fl++     +++  ++  +WiG ++  ++++++W
+  TCONS_00059925-protein  224 SQIKTISLSLPSWESSYYYFSSIKKPWIEAELDCNSREGHLTSILSSRELKFLLREylkhVPK--DDSMFWIGGNR-HDDGTWRW 305 
+                              5555566667778999**************************************998665333..399*******9.78888*** PP
+
+          human_Clectins 1007 vdgtplas.qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsna 1078
+                               +++++a+  y      + +   +  dC vi+ + +   w+++sC  + +++iC+ ++  + +     +++n 
+  TCONS_00059925-protein  306 RESDSTATfPY------QFK-DTNLGDCMVIKLNLNFSYWESASCLGSDRRYICKIPFHSKTHC--REETWNL 369 
+                              *****992223......222.33477*****86668899****************999777663..3334663 PP
+
+>> TCONS_00046080-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.4   5.0   1.4e-31   4.3e-29     858    1060 ..     361     545 ..     288     548 .] 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 101.4 bits;  conditional E-value: 1.4e-31
+          human_Clectins  858 ealkekiqklkeqewwiktdgqllswateevrtldaecvyltaktg..........rllwkalk...........vklplcqr.. 919 
+                              ++++ ki+++ ++e +i+                           +                 k           +         
+  TCONS_00046080-protein  361 QRMSGKITRVGSSE-LIQ---------------------------EettrtpnlisV------KasvrgegtyrcT------Irn 405 
+                              22222222222111.121...........................011122122110......1111222221121......022 PP
+
+          human_Clectins  920 .....kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdra 999 
+                                   + e+ ++ ++ C +gW+ +++ Cy   +++ktw +ae +Cis+g++L++i+s++e++f++ l+++     ++WiGLsd++
+  TCONS_00046080-protein  406 nksgkQVEAVTRVEKECGSGWTEYSGDCYAYINQKKTWYNAELYCISKGGHLASIKSKQENDFVYGLTPGG--RNNYWIGLSDKQ 488 
+                              22334557788999*****************************************************7777..9*********** PP
+
+          human_Clectins 1000 sekpf.kWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCe 1060
+                               e++f +W dg++ +  y+n+++g+p+nsg ++dC+++     + kwnd  Cs++ + ++C+
+  TCONS_00046080-protein  489 VEGSFtRWSDGKTAT--YTNFENGQPNNSG-NQDCVSFF-EDAAEKWNDWGCSKS-FTFVCK 545 
+                              **9985699999999..************9.9******6.57899*********8.6****8 PP
+
+>> TCONS_00053164-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.2   1.0   3.1e-31   9.6e-29     891    1065 ..     732     908 ..     668     932 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 100.2 bits;  conditional E-value: 3.1e-31
+          human_Clectins  891 ldaecvyltaktg.....rllwkalkvklplcqrkketpkaasspCpkgWisf.....qnkCylfsessktwseaeeaCisegat 965 
+                               +ae++++++++g     +l+wka+k + +  ++ +e +k+++  Cp+gW +f     +++Cy++++   +w +a+++C +  a 
+  TCONS_00053164-protein  732 NKAEINFVSDHSGeysgfKLQWKAYKKEIS--NTLPEVKKNQERDCPEGWVYFaenleGGACYIVKRNYFNWYAARDDCLGNSAD 814 
+                              344455555555588888889999984333..3567788899***********33333357************************ PP
+
+          human_Clectins  966 LvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps..nsgsredCavilassetgkwnde 1048
+                              Lv+++++ eq+f+t+ l    +  ++W+G++d + e+++ W d+t+ +  + nw  g+p+  +  ++edCa+i+    +gkwnd 
+  TCONS_00053164-protein  815 LVSVTTKTEQDFITRDLL---QGNYMWLGMTDGDLEGRWAWSDNTTAT-AFNNWDAGDPNngGRLQNEDCALIK---PDGKWNDY 892 
+                              ***************963...3579*********************88.899********654578*******9...99****** PP
+
+          human_Clectins 1049 sCserklgliCektaev 1065
+                              +C+++ + +iC+ +   
+  TCONS_00053164-protein  893 PCEDK-FNYICKSKPVE 908 
+                              ****7.6****976544 PP
+
+>> TCONS_00019049-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.7   7.3   4.4e-31   1.4e-28     930    1063 ..      36     169 ..      11     190 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 99.7 bits;  conditional E-value: 4.4e-31
+          human_Clectins  930 pCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                               Cp+gW    +kCyl  +++++w++a+ +C+++ga+Lv++++++ +afl ++   ++ ++++ WiGL+dra+e++f+Wvdgt+  
+  TCONS_00019049-protein   36 ECPQGWFLRCGKCYLYVDEKRQWNDAQYNCKQRGANLVTVDEEATNAFLARYiSFKSGDTRTSWIGLNDRAEEGKFEWVDGTRPL 120 
+                              7*****999*******************************************64455669***********************98 PP
+
+          human_Clectins 1014 sqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                              + + +w pg+p+n +++edC+ +  +++++ wnd +Cs++   ++C++ a
+  TCONS_00019049-protein  121 QYAFKWLPGQPDNDNQDEDCVEMYVRQKQNLWNDVPCSTEL-PFVCQMDA 169 
+                              55789*******************999************96.*****977 PP
+
+>> TCONS_00001201-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.3   6.0   1.3e-08     4e-06    1002    1073 ..       5      70 ..       2      77 .. 0.69
+   2 !   79.7   9.1   4.8e-25   1.5e-22     929    1063 ..      61     187 ..      59     210 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 25.3 bits;  conditional E-value: 1.3e-08
+          human_Clectins 1002 kpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntl 1073
+                              + ++W+d+++    y+nw + e++n+++r dC++i   +e+gkw+d +C+++k  ++C++++e +  e n+l
+  TCONS_00001201-protein    5 GLWSWTDSSRSI--YTNWGK-EVDNKNNRHDCVYID--QEEGKWKDGNCTSSK-PFLCKMKTESCPSEWNNL 70  
+                              557788888877..788877.566666778888886..577888888888876.888887777766665555 PP
+
+  == domain 2  score: 79.7 bits;  conditional E-value: 4.8e-25
+          human_Clectins  929 spCpkgWisfqnk....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdg 1009
+                              + Cp++W+ ++ +    Cy ++++  tw++ae++C+ e+a+L++++s++eq  ++++     +++++WiG +dr+ e+++ W d 
+  TCONS_00001201-protein   61 ESCPSEWNNLKLNsvvgCYKLFNDDTTWEKAEQRCKAENAHLASVASEDEQTMIYQF----HSSTSYWIGFNDRENEGDWLWSDR 141 
+                              57999999888655666****************************************....779******************998 PP
+
+          human_Clectins 1010 tplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                               + +  y+nwa   p+n g  ++Ca+++   ++gkw d +C+e+   ++C+k+ 
+  TCONS_00001201-protein  142 LTSS--YTNWADNAPNNGG--YSCASVG---KSGKWHDGKCNEKL-NVVCKKKG 187 
+                              7777..******9999866..******8...9***********85.*****986 PP
+
+>> TCONS_00043994-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.2   2.8e-07   8.7e-05    1019    1062 ..       7      45 ..       2      52 .. 0.76
+   2 !   70.8   0.9   2.4e-22   7.5e-20     940    1062 ..      53     165 ..      49     166 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 2.8e-07
+          human_Clectins 1019 wapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                              +a gep+n+g +e+C++ +   +tg wnd++C+ +  g++C+k+
+  TCONS_00043994-protein    7 FAAGEPNNAG-NEHCVYQR---KTGYWNDANCELKV-GYVCKKP 45  
+                              6678888877.88888887...78888888888864.8888876 PP
+
+  == domain 2  score: 70.8 bits;  conditional E-value: 2.4e-22
+          human_Clectins  940 nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgep 1024
+                              +k y f++   tw  a++ C++ +++Lv+i+s++e++fl +  ++ +g  + WiG +d++ e++fkWv+g ++   y++w +g+p
+  TCONS_00043994-protein   53 GKSYRFFKRLSTWDIAQQLCEQLKGSLVTIDSEAENEFLARESGN-RGFSGTWIGYNDKDVEGTFKWVSGATTC--YKKWLSGQP 134 
+                              577999999*********************************655.69**************************..*******99 PP
+
+          human_Clectins 1025 snsgsredCavilassetgkwndesCserklgliCekt 1062
+                              s+s    dC++++  ++t+ w+ ++C   +  +iCe++
+  TCONS_00043994-protein  135 SPS----DCVFLN--PFTKYWSTSTCGFIR-PYICEFN 165 
+                              986....6****8..8************86.****986 PP
+
+>> TCONS_00036492-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.6   1.5   1.6e-10   4.8e-08     989    1066 ..       5      85 ..       1      96 [. 0.87
+   2 !   54.1   9.3   2.6e-17   8.2e-15     924    1062 ..      98     232 ..      88     233 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 31.6 bits;  conditional E-value: 1.6e-10
+          human_Clectins  989 lelWiGLsdrase.....kpfkWvdgtplasqysnwapgeps.nsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                              ++ W+GL++ +++     + ++W+dgt+ +  y nw  g+p  +s++r++C + +  s+ gkw ++ C+  + +++C+++ae+ 
+  TCONS_00036492-protein    5 AKTWTGLTTIDESkraktEGNEWIDGTSRT--YLNWYAGHPHgDSNHRYNCYFQH-DSTGGKWANALCTADRMYYVCKEPAEIA 85  
+                              6789**998665577888889*********..**********888******9886.6899*******************99876 PP
+
+  == domain 2  score: 54.1 bits;  conditional E-value: 2.6e-17
+          human_Clectins  924 pkaasspCpkgWisf.qnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase.....k 1002
+                               k+a   C kgW+   ++kC+ + + +  + ea  +C+s ga+L +++s +e+a l +   d+    + WiGL++++ +      
+  TCONS_00036492-protein   98 AKRAADKCGKGWKLSgNDKCLHVNNTRVDFFEALLQCQSLGAHLTTMHSAQEEAQLSRA-FDS--CDTPWIGLENTDPNrvnsnA 179 
+                              5678889*****8762569****************************************.566..799******98777888888 PP
+
+          human_Clectins 1003 pfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                               +kW d+t l+  ysnw++  p+n + +++C  +       +w +++C e    +iC+k+
+  TCONS_00036492-protein  180 GWKWNDNTVLK--YSNWQSTTPTNDK-TKQCGKLV---RGLSWVNTHCWELL-PFICQKN 232 
+                              9**********..*******999975.9*****98...89**********85.*****97 PP
+
+>> TCONS_00018684-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.3   4.8e-14   1.5e-11     943    1071 ..      10     138 ..       5     156 .. 0.73
+   2 !   39.6   0.5   5.9e-13   1.8e-10     943    1066 ..     157     279 ..     147     293 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 4.8e-14
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase..kpfkWvdgtplasq....ysnwap 1021
+                              y fs+++k+w eae++C+++g++L +i+   e++f+ +++ +  +  + +iG  +r     + +kW+d+t+++ q    y  w+ 
+  TCONS_00018684-protein   10 YHFSDVKKSWREAEDFCQKYGGHLTSIKDARENDFIDAYVVGR-NLQNPYIGAVRRGVGaaRVWKWLDNTTWTWQpsiwY-GWED 92  
+                              89*************************************7775.4666777777766656799********996544432.3444 PP
+
+          human_Clectins 1022 gepsnsgsredCavilassetgkwndesCserklgliCektaevlsresn 1071
+                              g+ ++   +    +++++ +++kw  ++ ++    +iC+ +++   ++++
+  TCONS_00018684-protein   93 GSKTT--ADIYGYYFGTKDKKWKWTAQPLDK--SPFICKVPSSGIDVQKE 138 
+                              43332..233345566555888888888666..489**988866555444 PP
+
+  == domain 2  score: 39.6 bits;  conditional E-value: 5.9e-13
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase..kpfkWvdgtplasq..ysnwapge 1023
+                              y fs+++++w++ae +C+++g++L +i s+ee+ f+ ++++  ++ +  +iG  ++     ++++W+d+t ++    + +w +  
+  TCONS_00018684-protein  157 YHFSTVKMNWTNAESFCQEHGGHLTSISSEEEKVFIGANVES-RNLYRPYIGALKQGIGaaRKWQWIDKTFWT-WgpSVFWGRNI 239 
+                              99*************************************655.46777888877754446699*******998.33566666654 PP
+
+          human_Clectins 1024 psnsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                               s++ ++ +  +i   s+  +w+ ++  er   ++C+ +++ +
+  TCONS_00018684-protein  240 GSGA-NQDNYGFIYRESKLLSWMTQPNLER--AFVCKVRTDET 279 
+                              4444.3556667766678889999986665..59999877654 PP
+
+>> TCONS_00059594-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.0   6.1e-07   0.00019     919    1062 ..      26     165 ..       9     181 .. 0.77
+   2 !   54.4   8.2   2.2e-17   6.7e-15     947    1087 ..     190     324 ..     172     331 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 6.1e-07
+          human_Clectins  919 r..kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCise......gatLvkiqsqeeqafltsllkdmtgelelWiGL 995 
+                              +   + +++a  +++p++ +    + y+f + ++++++a+++C++       +  Lv+i+sqee++ ++ l+   + ++ + +GL
+  TCONS_00059594-protein   26 QtcDQYAEAAGNTQVPNPIQCTATSVYYFTPLEESFEDARKTCQDLppfngvQFDLVVIESQEELDVIVTLP--LRLSVFYRLGL 108 
+                              333334566788889999999999*******************974333222668****************4..44599****** PP
+
+          human_Clectins  996 sdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass.etgkwndesCserklgliCekt 1062
+                               + +s  + +W++g p++          +++  ++  C  ++++   ++++ +++C+ ++   iCe  
+  TCONS_00059594-protein  109 MA-NSISNPTWINGAPYT--L------GVEP-PEDGLCLEFSQTTeIPAQLVFSTCEIPR-FTICEPS 165 
+                              *9.666667********9..4......2222.3477999998766778999999999997.9999965 PP
+
+  == domain 2  score: 54.4 bits;  conditional E-value: 2.2e-17
+          human_Clectins  947 essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsre 1031
+                              +++ +w++a+ aC +e+a+L++iqs +e+  l +     ++  ++W+GL ++ s+k+f+W+d+++ a  y+ w  g   + g +e
+  TCONS_00059594-protein  190 DVQISWEDAQSACMEENAKLATIQSLKENLCLFEKF---ASLNTFWLGLINNLSKKKFQWIDNDNSA--YRSWCDGRQPPLG-SE 268 
+                              67889*****************************95...6689************************..*******888777.99 PP
+
+          human_Clectins 1032 dCavilass..etgkwndesCserklgliCektaevlsresntlalsnapetvkygnr 1087
+                               C+v++  s  +tg ++  +C+e++  ++Ce ++ + +   +tl + + ++  +++++
+  TCONS_00059594-protein  269 GCVVVRFPSeqTTGCFDLVDCDESH-NFVCEIQTGCNEYCLQTL-TESISKSLQKSKN 324 
+                              *****97668899999999****98.*****9998877755555.4444555555555 PP
+
+>> TCONS_00062360-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.0  10.4     4e-25   1.2e-22     894    1063 ..     262     453 ..      74     458 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 80.0 bits;  conditional E-value: 4e-25
+          human_Clectins  894 e....cvyltaktg................rllwkalk.......vklp..lcqr.........kketpkaasspCpkgWisfqn 940 
+                              +    c  +++ ++                + +w + +       +  +  +cq+         +k++ +++  +C++gW++ +n
+  TCONS_00062360-protein  262 KgtyvC-SISNAEEtlevavlvnyvefgawS-SWSKCNcdesttkT--RsrNCQNespmrkcrvPKKETTSCACTCKTGWKKKSN 342 
+                              122222.122211234454444444444431.23333233333211..121233334444455588888889999********** PP
+
+          human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps 1025
+                               Cy   ++++tw+ ae +C+s+g++Lv+i ++ e++ ++ +   ++g+ ++WiGLs    e +++W dg+++   y +  + + s
+  TCONS_00062360-protein  343 RCYAEIKARNTWNFAELFCQSKGGHLVSISNSTEKDNVYLT---YRGTPNVWIGLSF---ETEWQWSDGSKVV--YYHNLQKSRS 419 
+                              **************************************999...46789********...999********99..6443344455 PP
+
+          human_Clectins 1026 nsgsredCavilassetgkwndesCserklgliCekta 1063
+                              +sg r++C+++++     +w  ++C++r + ++Ce   
+  TCONS_00062360-protein  420 GSG-RKKCVSFKD--GGSSWALQNCDQR-FIFVCEASM 453 
+                              555.9******94..7889********9.5****9765 PP
+
+>> TCONS_00020839-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.3   0.8   6.3e-25   1.9e-22     943    1081 ..      24     155 ..      16     172 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 79.3 bits;  conditional E-value: 6.3e-25
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsn 1026
+                              y+fs++ k+w++ae++Ci +g++L +++sq+e++fl ++  + + +++ +W G  + + + +f W dgt ++   ++w +gep+n
+  TCONS_00020839-protein   24 YYFSSEGKNWQNAENDCIARGGHLTSVHSQAENNFLNQQiSTRYGSQARVWYGGFR-RPDLKFAWSDGTDFS--WTKWGEGEPNN 105 
+                              9************************************995444556999**99887.67788**********..99********* PP
+
+          human_Clectins 1027 sgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapet 1081
+                               g +e+C +     ++g wnd +C+  + ++iC+  ++++ +  +t+++  +p+t
+  TCONS_00020839-protein  106 HGGTENCLTRW--IFDGIWNDLTCNHAN-YYICKLDIATTTTSTTTTTT--TPPT 155 
+                              *******8875..5************86.*****999999885555543..3444 PP
+
+>> TCONS_00048264-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.0   0.8   7.9e-25   2.4e-22     922    1085 ..     291     445 ..     231     470 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 79.0 bits;  conditional E-value: 7.9e-25
+          human_Clectins  922 etpkaasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase 1001
+                              + +  a + Cp  W+++ ++     C+ +++++k+++ea++ C++ega+L+++ s+e++ f+++ +   +  ++ WiGL++  +e
+  TCONS_00048264-protein  291 TDKRFAVHECPVLWKKYYDAdntawCFRLFSQEKSFEEANDICEEEGAQLASVVSEEQKSFILKDV---KICYKAWIGLHK--EE 370 
+                              4455677889999998865444455**************************************995...447********9..99 PP
+
+          human_Clectins 1002 kpfkWvdgtplasqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkyg 1085
+                              k + W+dg+     y nw++++ ++s   + +C++++   e+gkw+ e+C++++ ++iC+++  +  +e ++    ++p++ +y 
+  TCONS_00048264-protein  371 KAYYWLDGSDSL--YHNWKEEHYTESqRDDDKCVLMN---EDGKWELEKCQDKN-YFICKQKMYI-RPEAKPE---EVPNVMPYE 445 
+                              999*********..******999965478999****9...************86.*****98854.5545665...456665554 PP
+
+>> TCONS_00071777-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   0.0   6.9e-09   2.1e-06     940    1065 ..      65     194 ..      37     210 .. 0.83
+   2 !   46.5   3.2   4.9e-15   1.5e-12     939    1093 ..     208     366 ..     193     367 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 6.9e-09
+          human_Clectins  940 nkCylfsessktwseaeeaCis......egatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase.....kpfkWvdgtpla 1013
+                              +k y+fs++++ + + + +C+       +    v+i+++ee++f++ ++k +  +++ +iGL++++ +      +fkW++g pl+
+  TCONS_00071777-protein   65 GKPYYFSDDRNDFDTVRAECQAlppfngRPFDVVVIETKEELDFIVNNPKYT--DMDRYIGLTAETLSnpavpSDFKWINGAPLT 147 
+                              566999999999999999998633321144579***************5555..99*******977779999999********** PP
+
+          human_Clectins 1014 sqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaev 1065
+                                   +    ps s s  +C+ +    ++ k++++sC  ++  +iCe  +  
+  TCONS_00071777-protein  148 --LDIFFDDLPSFSDSVPRCVELD--RSPIKLQPQSCGFNE-NVICEVSIPS 194 
+                              ..77788889999999*******9..5899*********97.****977654 PP
+
+  == domain 2  score: 46.5 bits;  conditional E-value: 4.9e-15
+          human_Clectins  939 qnkCylfs..essktwseaeeaCisegatLvkiqsqeeq..afltsllkdmtgelelWiGLsdr.asekpfkWvdgtplasqysn 1018
+                              +   +++   +++ +w++a+ aC +++a+L++++s +e+  af++++ +  ++  ++W+GL ++ +++k+f+W+d++     y+n
+  TCONS_00071777-protein  208 KTRYFQIDedNQQLSWEDAQAACMEKNAHLITVKSHKENlcAFVKYQ-TSFRSLDTFWLGLVNDlEEKKKFRWIDNDLSP--YRN 289 
+                              55556664447889**********************99854678877.56667999****9665156699*******999..*** PP
+
+          human_Clectins 1019 wapgepsnsgsredCavilass....etgkwnde.sCserklgliCektaevlsresntlalsnapetvkygnrsykiir 1093
+                              w  g ++++  +  C++++       +tg ++   +Cs+++ +++Ce ++   +++ +tl ++ +++t +  ++  k +r
+  TCONS_00071777-protein  290 WCGG-VTPTHGSVGCVLFRFGDpsdaTTGCFELVaDCSTPH-SFVCEANTLFDKNGFQTL-TQVMSKTIQGAQNNCKSCR 366 
+                              *998.66777799*****86559998888887667*****8.*******99999988888.7778999988888887775 PP
+
+>> TCONS_00047185-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.0   6.2   2.6e-23   7.9e-21     370    1065 ..    1168    1303 ..     956    1328 .. 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 74.0 bits;  conditional E-value: 2.6e-23
+          human_Clectins  370 kdvwayvktrceagwlptngfcYklqkeekswdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIglkdikiptnfeW 454 
+                              ++  ++    c +g+  ++gfcYk  +++k+w+eA  +c  e+s lisi+ + e  +v   +++ +++e wIgl+d     +++W
+  TCONS_00047185-protein 1168 NFGQSEASGACATGYTSQEGFCYKFFADKKTWEEASMACASEKSSLISITNTNEFTLVGNTMEQMNAQEAWIGLNDRVRENSLQW 1252
+                              2233333444555555555555555555555555555555555555555555555555555555555555555555555555555 PP
+
+          human_Clectins  455 sdgseVtlTkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkkkgevlndalldkekgcreGWkrHgetCYkigedl 539 
+                               dgs+ t+  W +  P   ++k++ CV ++++ g  + + c++kL+                                       
+  TCONS_00047185-protein 1253 TDGSSPTFNGWVN--PP-IKDKTKRCVLYDKN-GAFEKNLCQQKLP--------------------------------------- 1294
+                              5555555555532..22.23455555555444.5555555555555....................................... PP
+
+          human_Clectins  540 vvfseanqdkaderpklvtitnrfeqafllslvkkvvkskekyfwtgLqdvdstgeyawteeeeVtfthwnidepgakggcvams 624 
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  625 tgeavgkwevkkcrsfkarsickkmseplgpeeekgpteecpedwesekgtescyKvfeaekvvmkrswleaerfCqalGahlas 709 
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  710 fasveeektvaelltesfmldededsyqklfwiglnkrspenkgpnaasstqwsdrlpvstaredlrncaalklkialatlellt 794 
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  795 lllwvvipkgrtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwiktdgq 879 
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  880 llswateevrtldaecvyltaktgrllwkalkvklplcqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisega 964 
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins  965 tLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndes 1049
+                                                                                                                   
+  TCONS_00047185-protein    - -------------------------------------------------------------------------------------    -
+                              ..................................................................................... PP
+
+          human_Clectins 1050 CserklgliCektaev 1065
+                                     + C++ + +
+  TCONS_00047185-protein 1295 -------FFCKTVQPT 1303
+                              .......555554444 PP
+
+>> TCONS_00059252-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.5   2.2   3.5e-23   1.1e-20     940    1080 ..      29     161 ..      23     174 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 73.5 bits;  conditional E-value: 3.5e-23
+          human_Clectins  940 nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkd.mtgelelWiGLsdrasekpfkWvdgtplasqysnwapge 1023
+                              +  y++s+  ktw++ae++Ci +g++L +++sqee++fl  l++  +t + ++W G ++ + +++f W dgt+++   ++w+ ge
+  TCONS_00059252-protein   29 GVNYILSSNFKTWQDAENDCIARGGHLTSVHSQEENNFLNTLINTrTTPSSTIWYGGHR-NANRDFVWSDGTTFS--WTAWNGGE 110 
+                              5559*************************************95430344899******9.99999**********..99****** PP
+
+          human_Clectins 1024 psnsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnape 1080
+                              p++   +e+C   l   ++g wnd +C ++ +++iC+  +  + +  +t++++ +p+
+  TCONS_00059252-protein  111 PNGRF-TENCLHRL---SNGLWNDLRCGQT-FQYICKLDKVATTT-TTTTTTTTTPS 161 
+                              **986.9*****99...99**********7.6****977654444.33333333343 PP
+
+>> TCONS_00050531-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.3   1.6   8.2e-23   2.5e-20     936    1061 ..      23     139 ..      17     143 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 72.3 bits;  conditional E-value: 8.2e-23
+          human_Clectins  936 isfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwa 1020
+                              i f +k y++ +s  tws+ae +C s+g++L++iqs +e +   ++    ++++ +W+G ++  s+++++W d+t ++  +++w+
+  TCONS_00050531-protein   23 INFDGKRYVLVRSLATWSDAESDCNSKGGHLASIQSTQEANHFNDI----AKNRVIWLGAKR-SSSGDWNWADDTLWS--FTHWN 100 
+                              6789999***************************************....8899*******9.77788**********..***** PP
+
+          human_Clectins 1021 pgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                               gepsn g +e+C + +  ++t+ wnd +C+ +   ++Ce 
+  TCONS_00050531-protein  101 GGEPSNDGGNENCLATS-GGSTAVWNDLDCELPL-PYLCEL 139 
+                              *************9997.46************96.****95 PP
+
+>> TCONS_00008793-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       3.5   1.1e+03     276     319 ..       3      49 ..       1      51 [. 0.68
+   2 !   71.7   0.8   1.2e-22   3.9e-20     943    1065 ..      65     180 ..      55     182 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 3.5
+          human_Clectins 276 eiaEqtylkeklesitkilWiglNdlssaa...gwqwsdnkplnfLN 319
+                              i+E+  l  +l+++++ +W g  d + ++     ++s    l+fLN
+  TCONS_00008793-protein   3 YITELKELSSLLRAYSSKFWRGTKDKYLVKmrlCIFLSVIYCLFFLN 49 
+                             578888899999999*****999988754311135556666666665 PP
+
+  == domain 2  score: 71.7 bits;  conditional E-value: 1.2e-22
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns 1027
+                              y+f +   +w++ae +C+ +g++L + +  +e + ++++  +++g  ++W+GL+d+++e++f  vdg +l   y+nw  gep+n 
+  TCONS_00008793-protein   65 YYFEKTLYNWNDAEVRCQWRGGHLFVPKDLSEWNLVYQT-AKQKGIHDFWLGLNDKQTEGQFIAVDGATLF--YENWTAGEPNNY 146 
+                              9999999*******************************9.555799*************************..**********96 PP
+
+          human_Clectins 1028 gsredCavilassetgkwndesCserklgliCektaev 1065
+                              + +edCa  +    +g+wnd++C + k+ ++C++++ v
+  TCONS_00008793-protein  147 N-NEDCAHSR---YDGTWNDHQCLTAKFASVCKMPFHV 180 
+                              5.*******9...9*******************98865 PP
+
+>> TCONS_00001968-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.9   0.2   2.2e-22   6.9e-20     924    1062 ..     195     329 ..      78     364 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 70.9 bits;  conditional E-value: 2.2e-22
+          human_Clectins  924 pkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                               +  +  C  gW+ ++++C+ f+e++ +w +a ++C   +a+L++ +s ee   l  ++  m++e + W+G+sd+a ++ f++vd
+  TCONS_00001968-protein  195 AECGHVKCDDGWTLHGCSCFKFFEDELSWPDAVDHCNILKASLASAESMEEGTLLRTMM--MEKEKQAWVGMSDTANKGGFQFVD 277 
+                              4467899********************************************99999997..5559******************** PP
+
+          human_Clectins 1009 gtplasqysnwapgeps.....nsgsredCavilassetgkwndesCserklgliCekt 1062
+                              gtp+   ys w+ ++ +     ++  r++C + +    + +wn ++Cs++   +iC  +
+  TCONS_00001968-protein  278 GTPYV--YSDWSFESYEwlyahPNDARSKCITSS----KDGWNYKECSDKL-PSICRSR 329 
+                              ***99..888888877777777668899**9995....89*********85.****865 PP
+
+>> TCONS_00056360-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.1   0.3   3.8e-22   1.2e-19     938    1065 ..      35     159 ..      21     165 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 70.1 bits;  conditional E-value: 3.8e-22
+          human_Clectins  938 fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapg 1022
+                              + ++ y +++++ tw ea+ +C+s g++Lv+i+ ++e   l + l++  +  ++WiGL+dra e++f+Wv +++ +  +++w +g
+  TCONS_00056360-protein   35 YTSQ-YTIHQKELTWYEARAECESCGGNLVTIDDSAEHTYLIQKLNEL-KVGQVWIGLNDRAGEGRFRWVKDDSED-GFKQWCNG 116 
+                              4444.99*************************************9998.699******************888866.7889**** PP
+
+          human_Clectins 1023 epsnsgsredCavilassetgkwndesCserklgliCektaev 1065
+                              +p+n g  edC+ +++    + +nd++C + +l +iCe ++  
+  TCONS_00056360-protein  117 QPNNVGGHEDCVELRDEILGNCLNDRPCGSYRLPFICEVNIHK 159 
+                              **************9777999*****************88765 PP
+
+>> TCONS_00026645-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.7   0.3     1e-21   3.1e-19     943    1062 ..       7     122 ..       3     137 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 68.7 bits;  conditional E-value: 1e-21
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns 1027
+                              y+fs  ++tw +a+++C + ++ L++i+++ee  f+t+ l +  +  + +iG +d+ +e+++ W+dgtp++  +++wa  ep+n+
+  TCONS_00026645-protein    7 YYFSLYTETWYSAKDFCRKFDGFLASIHKKEESIFITQELIKR-KIGTAFIGGTDEPHEGKWVWLDGTPWS--FEAWAGIEPNNN 88  
+                              999*99********************************97664.467899*********************..************ PP
+
+          human_Clectins 1028 gsredCavilassetgkwndesCserklgliCekt 1062
+                              + +e+C ++ ++ e  +w+d  C+++  ++iC+++
+  TCONS_00026645-protein   89 KGAEHCLAVTNRHEIYNWDDILCNQNG-YFICKFK 122 
+                              *********9999************98.****975 PP
+
+>> TCONS_00031187-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.0   8.8e-07   0.00027     971    1066 ..      10     105 ..       3     124 .. 0.77
+   2 !   47.3   2.7   2.8e-15   8.7e-13     938    1093 ..     117     276 ..     102     277 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 8.8e-07
+          human_Clectins  971 sqeeqafltsllkdmtgelelWiGLsdrase.....kpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesC 1050
+                              s+  +  +t + +  +g+ + +iGL++++ +      +fkW++g pl+     +   +ps+s s  +C+++   +++ k++d++C
+  TCONS_00031187-protein   10 SEVSLSYITNCWRLNRGSDDRYIGLKAETLSnppvpSDFKWINGAPLT--LDIFFDDNPSSSDSVPRCVALD--KDPIKLEDQRC 90  
+                              55556666666444445778899999977768999999**********..7778888999999********8..5999******* PP
+
+          human_Clectins 1051 serklgliCektaevl 1066
+                              s+++  +iCe  +  +
+  TCONS_00031187-protein   91 SKNE-DVICEVSIPSV 105 
+                              **97.****9776544 PP
+
+  == domain 2  score: 47.3 bits;  conditional E-value: 2.8e-15
+          human_Clectins  938 fqnkCylfs..essktwseaeeaCisegatLvkiqsqeeq..afltsllkdmtgelelWiGLsdr.asekpfkWvdgtplasqys 1017
+                              ++   +++   +++ +w++a+ aC +++a+L++++s +e+  af++++ +  ++   +W+GL ++ +++k+f+W+d++     y+
+  TCONS_00031187-protein  117 VKTRYFQIDedNQQLSWEDAQAACMEKNAHLITVKSHKENlcAFVKYQ-TSFRSLDAFWLGLVNDlEEKKKFRWIDNDLSP--YR 198 
+                              555556664457889**********************99844678777.55566889****9665156699*******999..** PP
+
+          human_Clectins 1018 nwapgepsnsgsredCavilass....etgkwnde.sCserklgliCektaevlsresntlalsnapetvkygnrsykiir 1093
+                              nw  g ++++  +  C++++       +tg ++   +Cs+++ +++Ce ++ + +++ +tl ++ +++t +  ++  k +r
+  TCONS_00031187-protein  199 NWCGG-VTPTPGSVGCVLFRFGDpsgaTTGCFELVaDCSTPH-SFVCEANTLCDKNGFQTL-AQVMSKTIQGTQNNCKSCR 276 
+                              **998.66666699*****86559998888887767*****8.*****9999999988888.7777899888888877775 PP
+
+>> TCONS_00072166-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.0   5.7e-20   1.8e-17     938    1061 ..      28     144 ..      21     173 .. 0.87
+   2 ?   -1.8   0.0         2   6.1e+02      24      53 ..     374     405 ..     356     415 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 5.7e-20
+          human_Clectins  938 fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwap 1021
+                              f++  y+fs+   +w++ae +Ci +g++L +++s++e++flt++ +    g ++lW G  +   ++ f+W d tp++   ++wa 
+  TCONS_00072166-protein   28 FNGVRYYFSPTPLSWQNAEIDCINRGGHLTSVHSKAENDFLTDQsI-SRFGGVSLWYGGIR--INNVFTWSDRTPFT--TTFWAL 107 
+                              55556***************************************54.44468999999888..7888**********..99**** PP
+
+          human_Clectins 1022 gepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                              gep++  + e+C  +    + g+wnd +C  +  +++C+ 
+  TCONS_00072166-protein  108 GEPNGP-HVENCLHMT-ADHIGQWNDLRCIPEL-RYVCKL 144 
+                              ****86.59******7.5799*********996.****95 PP
+
+  == domain 2  score: -1.8 bits;  conditional E-value: 2
+          human_Clectins  24 laePsgvapGaa....lldkdvFlivsenlkkCi 53 
+                              +   +v+   +    + ++d+F i se+ k+C 
+  TCONS_00072166-protein 374 FGSSDAVI--IVcevlICKNDPFAILSEECKRCG 405
+                             44444444..223446889**************4 PP
+
+>> TCONS_00020411-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.4   5.1     4e-20   1.2e-17     917    1066 ..      30     171 ..       7     184 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 63.4 bits;  conditional E-value: 4e-20
+          human_Clectins  917 cqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase 1001
+                               q+  +tp  + ++C  +W  f+++Cyl  ++++  ++a++ C+++ atL++i  ++e++f+++l ++  +  e W+GL +++  
+  TCONS_00020411-protein   30 TQSTTNTP-WNTEGCDVDWYRFKESCYLPYKQEQYHNDASKICQKHSATLATIMDEQENQFIKALANQFLSYGESWLGLVRSERL 113 
+                              34444444.67899****************99*9*******************************7777778899****985544 PP
+
+          human_Clectins 1002 .kpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                                +f+W dg++++  y+ w   +ps    + dC+ +    ++g w + +C +r +++iC+k ++  
+  TCONS_00020411-protein  114 gTTFTWADGQQVS--YERWMFNKPSI--GDGDCVQLI---SSGFWTNINCYNR-FSFICKKDKNLP 171 
+                              589**********..99999988874..467*****9...8899********9.5*****988654 PP
+
+>> TCONS_00026958-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.0   0.1   5.4e-20   1.7e-17     943    1060 ..       8     123 ..       2     125 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 63.0 bits;  conditional E-value: 5.4e-20
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns 1027
+                              y  ++++  w ea+ +C++++++Lv+++s++e + l+s+l++  +    WiGL+d+a+e++++W  g++ a  y ++ +gep+n+
+  TCONS_00026958-protein    8 YRYFKQQVLWPEAQSECKKQKGHLVTVDSEDEFEYLMSNLREF-KINRTWIGLNDMAQEGQWRWEYGDSSA-GYIKFGKGEPNNA 90  
+                              555666778******************************9998.57999*******************999.899*********9 PP
+
+          human_Clectins 1028 gsredCavilassetgkwndesCse...rklgliCe 1060
+                              g +edC+ +      +++nd +Cs+   r++g+iCe
+  TCONS_00026958-protein   91 G-NEDCVELV--VPINGYNDLPCSKgnlRRRGFICE 123 
+                              8.*****997..367899999998644467899998 PP
+
+>> TCONS_00063107-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.4   0.0    0.0016      0.48     952    1009 ..      80     141 ..      56     160 .. 0.87
+   2 !   52.3   0.3     9e-17   2.8e-14     917    1062 ..     191     333 ..     141     347 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.0016
+          human_Clectins  952 wseaeeaCisegatLvkiqsqeeqafltsl.....lkdmtgelelWiGLsdrasekpfkWvdg 1009
+                              +  a+ +C   g+ L++ +s e++a +t +     l d  +++ + iG++d   +++++  d 
+  TCONS_00063107-protein   80 FDMAQAECNANGGFLATFNSNEQLAEITTMggipdLDDG-DSAVIIIGIKDVSGQGTWQNFDM 141 
+                              788***************************997776665.58999***********9997775 PP
+
+  == domain 2  score: 52.3 bits;  conditional E-value: 9e-17
+          human_Clectins  917 cqrkketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase 1001
+                              c  +++  ++ + +C  ++++ +n+  ++ ++ ++ws+a  +C++ g+ L ++++ ee+++l  ll++   + + WiGL+d ++e
+  TCONS_00063107-protein  191 C--PQD-AATTHYMC--RFNYISNSIIYI-DEARQWSDAMVKCQEIGGDLFSMKNAEEKMALNCLLNER-VKHTAWIGLNDLNHE 268 
+                              3..223.44677788..888888885555.5677*******************************8774.699************ PP
+
+          human_Clectins 1002 kpfkWvdgtplasqysnwapgepsnsgsredCavilass........etgkwndesCserklgliCekt 1062
+                              ++f+W d +  +  y+++   +p +   ++dC++++a+         ++g  +d +Cs +   ++C+ +
+  TCONS_00063107-protein  269 GEFTWSDYSISK--YTPFCT-KPAPDALDKDCVMFQANTvkphdhanKAGCIQDGDCSMNL-PYVCKIR 333 
+                              ********9999..888776.57788889******9888*******999999999****86.****966 PP
+
+>> TCONS_00030658-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   5.5e-09   1.7e-06     943    1068 ..     110     242 ..      82     250 .. 0.82
+   2 !   29.5   4.2     7e-10   2.2e-07     942    1073 ..     250     367 ..     242     387 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 5.5e-09
+          human_Clectins  943 ylfsessktwseaeeaCis......egatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase.....kpfkWvdgtplasqy 1016
+                              y+ s+++ ++ +a+ aC+       ++   v+i++q+e++f+++ +  +  +   +iGL+++a +      ++kW++g p++ ++
+  TCONS_00030658-protein  110 YYYSDDQLNFDAARAACQAltpfngKQFDIVVIETQAELDFIVADPAFT--TNRRYIGLQAQAFSdppvmCDYKWLNGAPVTLDF 192 
+                              999**************962222225568****************5555..8999******777789999789*******99665 PP
+
+          human_Clectins 1017 snwapgeps.nsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                               ++ ++ p+ +     +C+++  + ++ +  +++C++ k ++iCe  a ++s 
+  TCONS_00030658-protein  193 -PFDNELPTnPDPVVPRCVFLD-KRDPPSILQRRCTRLK-RYICEVSAPYVSA 242 
+                              .445555553557789*****7.5689999*******98.*****99877665 PP
+
+  == domain 2  score: 29.5 bits;  conditional E-value: 7e-10
+          human_Clectins  942 Cylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgep 1024
+                              ++++   +++ ++++a++aC + +a+L++++s +e++   +       e ++W+GL  + ++++f+W+d++     y+nw +g +
+  TCONS_00030658-protein  250 FFQIDegTEQLSFEDAQTACMENDANLITVKSLKENMCAFDKYVAC--ESSIWLGLVSNLEKNKFHWIDNDISP--YRNWCSG-V 329 
+                              455534578999************************9999885455..9********9999999*******999..******8.8 PP
+
+          human_Clectins 1025 snsgsredCavilassetgkwndesCserklgliCektaevlsresntl 1073
+                              s++  +e C  +           e+C +++ +++Ce ++ + +++ +tl
+  TCONS_00030658-protein  330 SPAPGTEGCFELV----------EDCVTPQ-SFVCEANTLCDKNGFQTL 367 
+                              8887899999886..........6788876.888887776666655555 PP
+
+>> TCONS_00058579-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   1.3     0.068        21     824     952 ..    1022    1167 ..     921    1173 .. 0.63
+   2 !   61.9   4.5   1.1e-19   3.5e-17     936    1068 ..    1500    1625 ..    1220    1641 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 3.0 bits;  conditional E-value: 0.068
+          human_Clectins  824 egee.aflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwik.......tdgqllswateevrt.ldaecvylt 899 
+                              + ++  ++++ + + +n++++c  + +l++I     ++              +       +++++l w+  + ++  +  c  l+
+  TCONS_00058579-protein 1022 KSNHlSEIQKVHITPKNSHTVCM-KQKLQNIYLSEINVFA------------SvetssasSQQPVLAWTRLNSNSrYIDVC--LK 1091
+                              23334455555555556655555.4555555333322222............02222222344788888766666644446..45 PP
+
+          human_Clectins  900 aktgrllwkalk........vklp.l.cqr...............kketpkaasspCpkgWisfqnkCylfsessktw 952 
+                              +k++ +++ ++            + + c+                  e+ +  ++ C ++++s++++Cyl +++ + +
+  TCONS_00058579-protein 1092 SKQQ-DTMHKVHllvkgdvsPC-SnFsCPDhlqcrlasgrqpfcgCIENCTGGQEICGSDYKSYRSECYLNQQHCRRF 1167
+                              5555.33333333433333321.1233444444455556667777457799*******************99887666 PP
+
+  == domain 2  score: 61.9 bits;  conditional E-value: 1.1e-19
+          human_Clectins  936 isfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase.kpfkWvdgtplasqysnw 1019
+                              ++++++Cy   ++  ++  a+ +C  +ga+L++i s +e af+++++k+       W+ L+++  + +++ W dgt++  + + w
+  TCONS_00058579-protein 1500 TYHEGSCYKKLPQGLSFDMANAQCLVQGASLPVISSTNEGAFIQENIKGA-----TWLNLKRSPPNtGEWGWADGTSFV-NGTMW 1578
+                              6899******************************************8666.....8*****97766699*********9.7778* PP
+
+          human_Clectins 1020 apgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                               pg+p+n + + +Cav+ +++ + +w de+Cs ++ ++iCek a  ++r
+  TCONS_00058579-protein 1579 YPGQPTNMK-DHNCAVVDNRGIQTGWRDEHCSASR-SVICEKDARLVER 1625
+                              ******986.9*******99999**********97.******9987776 PP
+
+>> TCONS_00012031-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.7   0.9   2.6e-19     8e-17     943    1066 ..      34     161 ..      24     166 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 60.7 bits;  conditional E-value: 2.6e-19
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas.q..ysnwapgep 1024
+                              y + +  +tw +a+++C   g++L++i+++++ a l  +lk+m +  + W+GL+d ++ek+f Wv g +    +  y++w p ep
+  TCONS_00012031-protein   34 YRIIKTPETWINAQKKCRACGGNLATITNSNDHAYLAFQLKKM-KIKSAWVGLNDIKKEKTFVWVAGISAFGgKsgYKKWCPKEP 117 
+                              78888899**********************************9.6899*******************996653478********* PP
+
+          human_Clectins 1025 snsgsredCavilass.etgkwndesCs..erklgliCektaevl 1066
+                              +n+g +edC+ + as      +nd +Cs  + k+g+iCe  a+ +
+  TCONS_00012031-protein  118 NNNG-NEDCVELIASHkAGPCLNDLRCSfsKHKRGYICEIDASRT 161 
+                              **98.*******98885555678889963366789****887655 PP
+
+>> TCONS_00000809-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.2   0.6   3.8e-19   1.2e-16     942    1067 ..      37     167 ..      27     171 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 60.2 bits;  conditional E-value: 3.8e-19
+          human_Clectins  942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas.q..ysnwapge 1023
+                               y + +  + w +a+++C+  g++L++i+++++ a l ++lk+m +  + W+GL+d ++ek+f Wv g++    +  y++w p e
+  TCONS_00000809-protein   37 SYHIIKTPELWINAQKKCKACGGNLATITNPNDHAYLAAQLKKM-NIKSAWVGLNDIKTEKTFVWVAGSSAFGgKsgYKKWCPKE 120 
+                              3777788889*********************************9.5899*********************7753478******** PP
+
+          human_Clectins 1024 psnsgsredCavilass..etgkwndesCs..erklgliCektaevls 1067
+                              p+n+g +edC+ + a+       +nd +Cs  ++k+g+iCe  a+ + 
+  TCONS_00000809-protein  121 PNNKG-NEDCVELVANHssAGPCLNDLRCSfpTNKRGYICEIIASKTT 167 
+                              ***98.*****9987776666779999**84445679***98776555 PP
+
+>> TCONS_00065193-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.6   0.1   1.2e-18   3.6e-16     938    1060 ..      30     148 ..      26     153 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 58.6 bits;  conditional E-value: 1.2e-18
+          human_Clectins  938 fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapg 1022
+                              ++++ +l+ +   + ++a++aC+  g+ L++i++q e  fl++ l+ + + ++ W+GL+d+a ek f+W dg+++a  +++w p 
+  TCONS_00065193-protein   30 YRSTYLLVRSPPLNMHQAKHACARFGGFLATINNQREHHFLVAKLQHY-NIRSAWVGLNDKANEKVFRW-DGSNVA-GFKKWCPH 111 
+                              55554455788899******************************9998.689****************9.788888.7999**** PP
+
+          human_Clectins 1023 epsnsgsredCavilassetgkwndesCserklgliCe 1060
+                              ep+n    edC+ +l   + + +nd +C++    +iCe
+  TCONS_00065193-protein  112 EPNNFRYGEDCVELLGPVNYKCLNDLPCTRVL-PYICE 148 
+                              ***99999******96559999*******985.****9 PP
+
+>> TCONS_00036482-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   9.7   8.5e-18   2.6e-15     922    1062 ..      29     165 ..       2     166 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 8.5e-18
+          human_Clectins  922 etpkaasspCpkgWisf.qnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase.... 1001
+                               + k+a   C kgW+   ++kC+ + + +  + ea  +C+s ga+L +++s +e+a l +   d+    + WiGL++++ +    
+  TCONS_00036482-protein   29 MRAKRAADKCGKGWKLSgNDKCLHVNNTRVDFFEALLQCQSLGAHLTTMHSAQEEAQLSRA-FDS--CDTPWIGLENTDPNrvns 110 
+                              456788999*****8762569****************************************.566..799******987778888 PP
+
+          human_Clectins 1002 .kpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                                 +kW d+t l   ysnw++  p+n + +++C  +       +w +++C e    +iC+k+
+  TCONS_00036482-protein  111 nAGWKWNDNTVLR--YSNWQSTTPTNDK-TKQCGKLV---RGLSWVNTHCWELL-PFICQKN 165 
+                              889**********..*******999975.9*****98...89**********85.*****97 PP
+
+>> TCONS_00063658-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.4   5.8   2.6e-18     8e-16     938    1063 ..      30     150 ..      25     158 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 57.4 bits;  conditional E-value: 2.6e-18
+          human_Clectins  938 fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapg 1022
+                               + + y ++++  tw++a+++C   g+ L++i+ ++e   l   l+   +  + WiGL+dr++e++++W   ++l   y+ w +g
+  TCONS_00063658-protein   30 IKTSQYTIHRKAYTWTDAQKECRRCGGYLATINDSAEHFYLANELQRR-KISTAWIGLNDRTKEGTYRWDRYNSLG-GYKRWCKG 112 
+                              55667999************************************9886.7899****************7555555.7******* PP
+
+          human_Clectins 1023 epsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                              +p+n  +++dC+++   ++++ +nd+ C +rk  +iCe + 
+  TCONS_00063658-protein  113 QPNNWRNSQDCVMLT--GNSKCLNDRACLSRK-FFICEVNV 150 
+                              *****99*******8..7999**********8.****9765 PP
+
+>> TCONS_00065170-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   0.2   7.1e-18   2.2e-15     941    1065 ..      37     155 ..      30     161 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 7.1e-18
+          human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps 1025
+                              + yl+++   + ++a+eaC++ g+ L++i+   e  fl++ l++  +  + W+GL+d+a+ek f+W dg++l   +++w p ep+
+  TCONS_00065170-protein   37 STYLIKKTPLNMHAAKEACAKCGGFLATIDDLPEHHFLVHELQKL-HIKSAWVGLNDKAYEKVFRW-DGSNLP-GFKKWCPHEPN 118 
+                              45999999*********************************9998.6889****************.788888.7899******* PP
+
+          human_Clectins 1026 nsgsredCavilassetgkwndesCserklgliCektaev 1065
+                              n g++edC+ +   ++++ +nd  C   +  +iCe +++ 
+  TCONS_00065170-protein  119 NFGNAEDCVELI--ADKKCLNDLGCAHAR-PYICEINQSK 155 
+                              ***********9..599999******986.*****87754 PP
+
+>> TCONS_00038274-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   0.3   5.2e-17   1.6e-14     940    1066 ..      35     161 ..      20     166 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 5.2e-17
+          human_Clectins  940 nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtp.lasqysnwapge 1023
+                               + y++ +++  w +ae++C+  g++L++i+ ++e +f+ + lk+    +e+WiGL+d a++ +f W  + + +   y nw    
+  TCONS_00038274-protein   35 LQRYVVYTDKVDWFKAEKNCKRIGGELLTINDKNEHDFIFKVLKKKFALYEYWIGLNDIAKDFEFVWSGQPKkFV-GYINWCGSG 118 
+                              3348888***********************************999999**********99998899986655444.699998743 PP
+
+          human_Clectins 1024 psnsgsredCavilass...etgkwndesCserklgliCektaevl 1066
+                                +  s+ +C + + ++   +++ +  e Cs rk  +iCe ++  +
+  TCONS_00038274-protein  119 --HDTSDPHCFAAHMRGhmwNRMCLRHELCSYRK-AYICENRKPLK 161 
+                              ..44568***999865566666666666999998.99**9987655 PP
+
+>> TCONS_00056825-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.4   0.1   6.9e-16   2.1e-13     949    1069 ..     144     260 ..     131     275 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 49.4 bits;  conditional E-value: 6.9e-16
+          human_Clectins  949 sktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredC 1033
+                                +w++a++ C+   a+Lv i++ +e+  +t+      +  ++WiGL ++  + +fkW+d++  +  y+nw  g p +   ++ C
+  TCONS_00056825-protein  144 MLSWEAAQDLCEANMANLVGIHNLKENLYITAKY---FSLNTIWIGLLNDLANSKFKWIDNDISD--YRNWCTGTPPT--GATGC 221 
+                              679******************************5...45699*******9*************99..*******8765..4799* PP
+
+          human_Clectins 1034 avilass....etgkwndesCserklgliCektaevlsre 1069
+                              +++   +     +g ++  +C+e +  +iCe++ ++  ++
+  TCONS_00056825-protein  222 VLLDFENansdAPGCFKLVPCTEDH-AYICEFKVDYDDNG 260 
+                              ***987799999999********98.******99987664 PP
+
+>> TCONS_00006800-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   0.4   7.9e-16   2.5e-13     934    1033 ..      11     112 ..       4     121 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 7.9e-16
+          human_Clectins  934 gWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtg......elelWiGLsdrasekpfkWvd 1008
+                              +  sf++  y+f  ++k+w +ae++C+ +g++L +i s+ee++fl ++                + + W+G  +   ++++ W d
+  TCONS_00006800-protein   11 DLVSFNGVEYFFGIEEKEWGSAENDCVTRGGHLTSIFSREENDFLFQQiqqkW----YpgqgyiNSGPWLGGVE--RNDTWIWAD 89  
+                              55677777799*9999********************************44441....255556799***99877..7889***** PP
+
+          human_Clectins 1009 gtplasqysnwapgepsnsgsredC 1033
+                              gt+l+s++ +w+pgeps+   +e C
+  TCONS_00006800-protein   90 GTTLESSFDAWHPGEPSG--GTEGC 112 
+                              *****99*******9985..34566 PP
+
+>> TCONS_00056350-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.0   0.7   9.2e-16   2.8e-13     941    1063 ..      33     150 ..      25     158 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 49.0 bits;  conditional E-value: 9.2e-16
+          human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq..ysnwapge 1023
+                              + y ++++  +w +a+ +C   g++Lv+i+  +e  flt+ l+ + + ++ W+GL+dra+e++++W    +++s   y+ w +ge
+  TCONS_00056350-protein   33 SQYTIHRKAYNWLQARAECRRCGGHLVTINDAAEHFFLTRALQRY-KIRSAWTGLNDRAKEGDYRWD---RFNSAggYKRWCKGE 113 
+                              44999999**********************************998.69******************5...7776457******** PP
+
+          human_Clectins 1024 psnsgsredCavilassetgkwndesCserklgliCekta 1063
+                              p+n g++    ++    ++  +nd   + + + +iCe + 
+  TCONS_00056350-protein  114 PNNLGNEDAAELFA--HTSSCLNDLGIHHK-RFFICEVNV 150 
+                              **999555555555..35556666666665.599999765 PP
+
+>> TCONS_00042536-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   1.9   1.3e-15   3.9e-13     918    1001 ..     100     186 ..      20     187 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 1.3e-15
+          human_Clectins  918 qr....kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtgelelWiGLsd 997 
+                              ++     k+ +++ + +C +gW++  ++C++  + ++tws+ae +C+ +g++Lv++ + ++++f+ ++ lk   +++e+WiG++d
+  TCONS_00042536-protein  100 EGdgreEKSCNTNPCPGCRSGWTQRDHECFMYIPTQRTWSDAESDCVVKGGHLVTVYNGDRKQFIIDTfLKA--SNAEIWIGMND 182 
+                              33555545556678999*************************************************994544..5********** PP
+
+          human_Clectins  998 rase 1001
+                              r++e
+  TCONS_00042536-protein  183 RDTE 186 
+                              9887 PP
+
+>> TCONS_00021054-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   3.6   1.1e-14   3.4e-12     943    1093 ..      24     178 ..       9     179 .] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 1.1e-14
+          human_Clectins  943 ylfs..essktwseaeeaCisegatLvkiqsqeeq..afltsllkdmtgelelWiGLsd.rasekpfkWvdgtplasqysnwapg 1022
+                              +++   +++ +w++a++aC +++a+L++++s +e+  af++++ +  ++   +W+GL +  + +k+f+W+d++     y+nw  g
+  TCONS_00021054-protein   24 FQIDedNQQLSWEDAQTACMEKNAHLITVKSHKENlcAFVKYQ-TSFRSLDAFWLGLVNdFEVKKKFRWIDNDLSP--YRNWCGG 105 
+                              4453347789**********************99844678777.55566889****965056679********999..****998 PP
+
+          human_Clectins 1023 epsnsgsredCavilass....etgkwnde.sCserklgliCektaevlsresntlalsnapetvkygnrsykiir 1093
+                               ++++  +  C++++       +tg ++   +Cs+++ +++Ce ++ + +++ +tl ++ +++t +  ++  k +r
+  TCONS_00021054-protein  106 -VTPTPGSVGCVLFRFGDpsgaTTGCFELVaDCSTPH-SFVCEANTLCDKNGFQTL-AQVMSKTIQGIQNNCKSCR 178 
+                              .66666699*****86559998888887767*****8.*****9999999988888.6777888888877777665 PP
+
+>> TCONS_00025012-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   0.0   2.4e-14   7.5e-12     943    1067 ..      33     169 ..      17     173 .] 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 44.2 bits;  conditional E-value: 2.4e-14
+          human_Clectins  943 ylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg....elelWiGLsdrasekpfkWvdgtplasq........ 1015
+                              y+  + + tw++a+++C   g++L++i+ ++e +fl + lk+m+        +WiGL+d a+ +   W  g+p++ +        
+  TCONS_00025012-protein   33 YIAYKNRVTWHQAQTNCRAIGGELLTINDEKEHKFLEKVLKKMKFtgksLPFFWIGLNDIAKAGVHVWS-GQPVTFKgyikrcng 116 
+                              888999*********************************88874355557789******9999977776.666443234444444 PP
+
+          human_Clectins 1016 .ysnwapgepsns......gsredCavilassetgkwndesCserklgliCektaevls 1067
+                               +  ++ g  + +       +++ C++ ++  +++ ++d+s +  k+g+iCe ++  + 
+  TCONS_00025012-protein  117 lR--FRDGTRK-TgaalyvSKSRFCVLDKT--FRKVLYDSSLKY-KFGYICENQKPLKL 169 
+                              31..2222222.123445566778888874..999999999555.68*****9986655 PP
+
+>> TCONS_00020951-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.1     0.014       4.3     978    1107 ..      71     183 ..      49     207 .. 0.77
+   2 !   14.1   0.4     3e-05    0.0094     959    1063 ..     773     868 ..     768     878 .. 0.82
+   3 !   27.6   0.5   2.6e-09     8e-07     931    1023 ..     873     963 ..     867     978 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.014
+          human_Clectins  978 ltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                              l sl+ d+   +++W+  ++ ++ ++++ +d++p++       p ep  s+ ++ C+ +    + g++++ +C ++  + +C+  
+  TCONS_00020951-protein   71 LESLPDDI--PAKVWTYFRQ-TDTNSWRKLDNSPVE--P----PPEPFFSNPNKGCVRV----NGGQLQPYDCASPL-KPLCKLD 141 
+                              44445555..8899999998.56666**********..3....456666677899****....59**********96.******* PP
+
+          human_Clectins 1063 aevlsresntlalsnapetvkygnrsykiiraplswhsAkkeclk 1107
+                               +  + +s +++++  p t      + ++   p ++  A+   + 
+  TCONS_00020951-protein  142 LNNPQGGSPPTTTTASPTTTASTTTTIATTTSPTTTTIAT---TT 183 
+                              *999999999988888888888888887777777777773...33 PP
+
+  == domain 2  score: 14.1 bits;  conditional E-value: 3e-05
+          human_Clectins  959 Ci.segatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps.nsgsredCavilasse 1041
+                              C+ ++g+++++i+s ee + lt++lk+      +  + sdr++e+  kW d+   a       p e+  ++  +++C  i+++++
+  TCONS_00020951-protein  773 CAeKYGGEMITINSLEEFNQLTDYLKPG----VFLAAASDREEEGVLKWQDNHIGA-------PVEIAgENTVENNCIKIQNLPN 846 
+                              651579******************9998....456667888999********9988.......3344423345789********* PP
+
+          human_Clectins 1042 tgkwndesCserklgliCekta 1063
+                              +++++ ++C + ++ l+C+ + 
+  TCONS_00020951-protein  847 SKELQWQKCIQDRHELVCQWRE 868 
+                              ******************9765 PP
+
+  == domain 3  score: 27.6 bits;  conditional E-value: 2.6e-09
+          human_Clectins  931 CpkgW.isfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                              C k+   +++nkC+   s++  ++s+a + C + g+tL   +  +e +f+ + l+++      W+G sd ++e+  +W dgt++a
+  TCONS_00020951-protein  873 CTKDHgFQYKNKCFRElSQAVAKRSDADQMCRDWGGTLFMPDDDQEVQFISDVLRNQ----RTWLGASDLETEGLLQWDDGTTTA 953 
+                              544431489*****9879***********************************7665....89********************88 PP
+
+          human_Clectins 1014 sqysnwapge 1023
+                              ++ ++  +g+
+  TCONS_00020951-protein  954 TKWTFLTKGN 963 
+                              6544444444 PP
+
+>> TCONS_00065169-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.0   0.1   2.3e-13   7.1e-11     953    1062 ..       2     106 ..       1     115 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 41.0 bits;  conditional E-value: 2.3e-13
+          human_Clectins  953 seaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavil 1037
+                              ++a  +C++ g+ L++i++  e   l+ +l+   g  + WiGL d+ +e++f W ++      ++ w p ep+n g+ edC+ ++
+  TCONS_00065169-protein    2 HAAAAECAKCGGFLATINNVREHHYLVGQLNL-LGIKSAWIGLIDKSTEGKFVWPSTPAPG--FKRWCPHEPNNFGTGEDCVELK 83  
+                              67889999999999999999999999999644.4778999999999999999999877766..8899999999999999999998 PP
+
+          human_Clectins 1038 assetgkwndesCserklgliCekt 1062
+                              a +++  +nd  C+ +k  +iCe +
+  TCONS_00065169-protein   84 A-ETERCLNDLFCNVKK-PYICEIN 106 
+                              4.456678888999987.9999965 PP
+
+>> TCONS_00057260-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.0   2.3e-06   0.00072     947     997 ..      50      97 ..      34     126 .. 0.78
+   2 !   20.9   0.1   2.8e-07   8.5e-05    1224    1341 ..     159     304 ..     144     328 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 2.3e-06
+          human_Clectins 947 essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsd 997
+                             e+  tw++ae+ C+++g++L++++s ++  ++ +ll+      + W+G  +
+  TCONS_00057260-protein  50 EAMVTWQDAEDVCKGKGGHLASVTSDSQVIAMEMLLPT---GEQAWLGTVQ 97 
+                             67789******************************755...4799999776 PP
+
+  == domain 2  score: 20.9 bits;  conditional E-value: 2.8e-07
+          human_Clectins 1224 fknrcynlrvakkaltfdevltkckk....agsdllsikdekenafvleellkfkskas....dvllgltyddksl..kWfdksp 1298
+                              f+nr  ++    +al++ +  t c+     +   ++ i + k  +fv  e+  + +ka+     ++++++y + ++  kW+ + +
+  TCONS_00057260-protein  159 FHNRKIYFGFPDTALNQPDTATACEMlgepKDGRIIQIDSGKLQNFVNAEVDRLVEKADpaeyFFWINMKYSETTMkyKWGVEGT 243 
+                              6666666777777777777788888777665568999999999999999988888887644446899999999886336875555 PP
+
+          human_Clectins 1299 ls.ftkwsaqdpsed....nekcvalliksGfWkkqtckvike..............licKi 1341
+                               s f kw + +p+ +     ++cv+l +  G Wk + c+ +                ++c +
+  TCONS_00057260-protein  244 YSpFRKWCTAQPDDEeidaADRCVVL-TAAGCWKVKRCSRSFDiiftpiastfnlflTMCEF 304 
+                              44389998877776667767778765.56799999999887765555555555555555555 PP
+
+>> TCONS_00019274-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.0   0.6   9.5e-13   2.9e-10     931    1071 ..      31     163 ..       8     173 .. 0.79
+   2 ?   -2.1   0.1       2.3   7.2e+02     808     903 ..     287     382 ..     188     426 .. 0.45
+
+  Alignments for each domain:
+  == domain 1  score: 39.0 bits;  conditional E-value: 9.5e-13
+          human_Clectins  931 CpkgWisfqnkCylfsessktwseaeeaCise...gatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                                +gWi ++++C++  ++  +++ea+++C++    +a  v      e++ ++ +   m ++  +WiGL   +s+++ +W+ ++  
+  TCONS_00019274-protein   31 EAEGWIHYKSSCLVYVNKHLHFKEARKYCQGFlggTADIVYNVDDTENEYIKTN---MIRKDPIWIGLMI-TSQNSSSWIRNNGE 111 
+                              4699*************************9873224556666677888888888...6889********9.66666899855443 PP
+
+          human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresn 1071
+                                +++nwa   p    ++ dC ++    e+g w +++C+ ++  ++C+k+++   ++++
+  TCONS_00019274-protein  112 G-NFKNWAFSRPP--FRNGDCSIMM---ESGFWLETNCNGEH-PFVCKKESSLEDEDET 163 
+                              3.48999997665..3468*****9...999*********98.******9987666544 PP
+
+  == domain 2  score: -2.1 bits;  conditional E-value: 2.3
+          human_Clectins 808 kledareeqellrlilegeeaflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwik...tdgqllswateevrtl 891
+                             +++ a+e ++++ +  ++e+ f   + e + n+ + c+++   + I +++ + ++ +++ ++    i+   ++ +++s + ++  + 
+  TCONS_00019274-protein 287 EIKRANETVKVETEDSNKEDVFY-IHDEVVSNQYTNCEREFAEQDIPFRRTKSERLPNRKDRTGRNISlrrSNSNIFSYEQRKSLI- 371
+                             22222222233333333333433.33344555555666655566665555444444444433333333222222444433222222. PP
+
+          human_Clectins 892 daecvyltaktg 903
+                               e +y+++ ++
+  TCONS_00019274-protein 372 -LEDEYISEASR 382
+                             .22223333333 PP
+
+>> TCONS_00053705-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   0.1   9.7e-13     3e-10     934    1013 ..      56     132 ..       5     169 .. 0.79
+   2 ?   -4.1   0.1       9.7     3e+03    1160    1336 ..     753     786 ..     686     801 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 38.9 bits;  conditional E-value: 9.7e-13
+          human_Clectins  934 gWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                              +   f+n+ y+f e+  +w +ae++C+s+g++L++i+s+ee++f+t+ + +  +++++W G  +  ++++f W  gt+++
+  TCONS_00053705-protein   56 QSVRFENARYIFIEVPSKWMDAENDCVSRGGHLASIHSKEENDFITDEISKR-ENWYWWFGGVR--KNNTFVWSAGTKME 132 
+                              345789999***************************************9885.89****99887..78889999998865 PP
+
+  == domain 2  score: -4.1 bits;  conditional E-value: 9.7
+          human_Clectins 1160 rWaeeegdlledCvyldadgfwktvdCndnlqGaiCevsgeetetevpedpvrcpevtatpWipfknrcynlrvakkaltfdevl 1244
+                              +W                                                                                   
+  TCONS_00053705-protein  753 FW----------------------------------------------------------------------------------- 754 
+                              44................................................................................... PP
+
+          human_Clectins 1245 tkckkagsdllsikdekenafvleellkfkskasdvllgltyddkslkWfdksplsftkwsaqdpsednekcvalliksGfWkkq 1329
+                                                                                           +q+++  + +    ++++GfW+  
+  TCONS_00053705-protein  755 ------------------------------------------------------------DTQKETPPKSTNGPPKSTNGFWSSR 779 
+                              ............................................................4444444434444444444444444 PP
+
+          human_Clectins 1330 tckvike 1336
+                               c + +e
+  TCONS_00053705-protein  780 GCWKVNE 786 
+                              4433333 PP
+
+>> TCONS_00066533-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   7.4   3.7e-12   1.2e-09     178     229 ..     698     762 ..     684     763 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 3.7e-12
+          human_Clectins 178 kGNsyGkpcefPFkydnkWhhdCtsdgre.s............llWCaTTldYekDekwGfCpkk 229
+                              GNs+G+ c+fPF y+++ h +C++++++ +              WC+TT+d+++D kwG+C +k
+  TCONS_00066533-protein 698 GGNSFGHCCQFPFVYNGQLHYQCIQKNNSsEnngnnselnnenRSWCSTTNDFDQDGKWGYCSEK 762
+                             6***********************876432111111222222157*****************876 PP
+
+>> TCONS_00038451-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   0.1       5.2   1.6e+03    1043    1061 ..      19      37 ..       7      55 .. 0.60
+   2 !   37.4   6.7   2.8e-12   8.6e-10     178     226 ..     484     536 .]     468     536 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 5.2
+          human_Clectins 1043 gkwndesCserklgliCek 1061
+                              ++w++++C+++  +l C++
+  TCONS_00038451-protein   19 AGWKKHTCKSKPVYLTCKR 37  
+                              4444444444444444443 PP
+
+  == domain 2  score: 37.4 bits;  conditional E-value: 2.8e-12
+          human_Clectins 178 kGNsyGkpcefPFkydnkWhhdCtsdgre....sllWCaTTldYekDekwGfC 226
+                              G + G+ c+fPF+y +k +  Ct +g e    + +WC+ T+dY++D+ wG+C
+  TCONS_00038451-protein 484 GGTADGACCKFPFLYKGKEYRSCTTKGTEkfkkQFMWCSATTDYDRDKLWGLC 536
+                             47889********************99764334679***************** PP
+
+>> TCONS_00053338-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   0.3       2.3     7e+02    1028    1061 ..     225     261 ..     182     276 .. 0.65
+   2 !   36.8   6.7   4.3e-12   1.3e-09     178     226 ..     708     760 .]     692     760 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 2.3
+          human_Clectins 1028 gsredCavilass...etgkwndesCserklgliCek 1061
+                               ++  C  ++++    + ++w++++C+++  +l C++
+  TCONS_00053338-protein  225 MTKVYCNGMESTLyecHHAGWKKHTCKSKPVYLTCKR 261 
+                              4455566665333777778888888888887777875 PP
+
+  == domain 2  score: 36.8 bits;  conditional E-value: 4.3e-12
+          human_Clectins 178 kGNsyGkpcefPFkydnkWhhdCtsdgre....sllWCaTTldYekDekwGfC 226
+                              G + G+ c+fPF+y +k +  Ct +g e    + +WC+ T+dY++D+ wG+C
+  TCONS_00053338-protein 708 GGTADGACCKFPFLYKGKEYRSCTTKGTEkfkkQFMWCSATTDYDRDKLWGLC 760
+                             47889********************99764334679***************** PP
+
+>> TCONS_00052747-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.3   0.1   1.2e-11   3.7e-09     923    1063 ..     230     364 ..      99     366 .] 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 35.3 bits;  conditional E-value: 1.2e-11
+          human_Clectins  923 tpkaasspCpkgWis.fqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtg....elelWiGLsdras 1000
+                                +++   Cp gW     ++Cy + s++s+t+++a+ +C+++ga Lv+ ++ +e +  +++ lk+ ++      e+++G++    
+  TCONS_00052747-protein  230 DCDSKTISCPVGWSAgPTGTCYGVvSRDSQTYQDARLSCADHGAYLVSLETNDESDWFYKNiLKPRKElnvnFKEIFLGIKP--N 312 
+                              34566778*****6524799**9989******************************99888777766677778899*****9..4 PP
+
+          human_Clectins 1001 ekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                              +++++W ++ ++   +  w++    +s+++++C +i       +w  ++C+  +  + Cek++
+  TCONS_00052747-protein  313 SYKYEWESNIRFY--S--WKKY--IPSYRNSSCFAIA----GENWIRANCTIAH-DFYCEKYK 364 
+                              55568******99..3..6664..567789******5....89*********98.******97 PP
+
+>> TCONS_00019092-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.3       6.6     2e+03    1042    1061 ..     249     268 ..     237     287 .. 0.56
+   2 !   33.9   7.3   3.1e-11   9.7e-09     179     226 ..     719     770 .]     706     770 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 6.6
+          human_Clectins 1042 tgkwndesCserklgliCek 1061
+                               ++w++++C+++  +l C++
+  TCONS_00019092-protein  249 HAGWKKHTCKSKPVYLTCKR 268 
+                              33444444444444444443 PP
+
+  == domain 2  score: 33.9 bits;  conditional E-value: 3.1e-11
+          human_Clectins 179 GNsyGkpcefPFkydnkWhhdCtsdgre....sllWCaTTldYekDekwGfC 226
+                             G + G+ c+fPF+y +k +  Ct +g e    +  WC+ T+dY+kD+ wG+C
+  TCONS_00019092-protein 719 GTADGACCKFPFLYKGKEYRSCTTKGTEkfkkQFQWCSVTTDYDKDKMWGLC 770
+                             8899********************99864333578***************** PP
+
+>> TCONS_00063447-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.9   0.0    0.0093       2.9     989    1063 ..      12      84 ..       2     104 .. 0.70
+   2 !   25.6   0.1     1e-08   3.2e-06     950    1050 ..     109     215 ..     102     247 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.0093
+          human_Clectins  989 lelWiGLsdrasekpfkWvdgtp.lasqysnwapgepsns.gsredCavilassetgkwndesCserk.lgliCekta 1063
+                              +  W+GL+d++++     +dgt  + +    + p++p +s    +dCa+++  ++++k++ +sC  ++ + +iC++++
+  TCONS_00063447-protein   12 TLAWTGLNDHKDNT----IDGTFeYLTGIDGFVPLSPLPSnSILKDCAALQ-VGNENKFEVRSCGGTTkIWSICKMNY 84  
+                              568******77774....455543222344455666664423479*****7.7899******9986551567**9876 PP
+
+  == domain 2  score: 25.6 bits;  conditional E-value: 1e-08
+          human_Clectins  950 ktwseaeeaCisegatLvkiq..sqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps...nsgs 1029
+                               +ws+a ++C+ +g++L+ i   ++  ++++++  +++  ++ +WiG++ ++s+k+f W +g +     + w +geps   +   
+  TCONS_00063447-protein  109 LNWSDADQECKNKGGELMNICgmNSVILRRILRK-RNI--DTPVWIGMNYDTSKKKFFWRNGVSKF---KRWCRGEPSlnpDPLA 187 
+                              5788888888888888887741134444445444.444..78888888888888888888776544...4677777775432245 PP
+
+          human_Clectins 1030 redCavilass.......etgkwndesC 1050
+                              +++C++    +        +g    e+C
+  TCONS_00063447-protein  188 PNQCVAYIVGGkprgrgtGKGCIRVEPC 215 
+                              6777766532355555553344444444 PP
+
+>> TCONS_00057215-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.0   0.0   3.3e-05      0.01     947     997 ..      50      97 ..      36     125 .. 0.82
+   2 !   16.4   0.5   6.1e-06    0.0019     429     496 ..     210     278 ..     189     307 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 14.0 bits;  conditional E-value: 3.3e-05
+          human_Clectins 947 essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsd 997
+                             e+  tw++ae  C+ +g++L++++s ++  ++ +ll+      + W+G + 
+  TCONS_00057215-protein  50 EAGVTWENAEGVCQRKGGHLASVTSDNQVIAMEMLLPT---GEQAWLGTEV 97 
+                             56789******************************755...4789999765 PP
+
+  == domain 2  score: 16.4 bits;  conditional E-value: 6.1e-06
+          human_Clectins 429 tkLdnedkeelwIglkdikiptnfeW.sdgseVtlTkWdelEPnvernk.ledCVslkgeegqwkdksce 496
+                             ++L + ++ + wI +k  +  ++++W  +g+   l kW +  P+ e++   e CV+l g  g wk+++c+
+  TCONS_00057215-protein 210 VELSDPAEYLFWINMKYSETTMKYKWgVEGTYSPLRKWCTAQPDDEEIDvAERCVVLTGA-GCWKVEPCN 278
+                             456666778999999999999999995589999999999999998776526899999998.999999987 PP
+
+>> TCONS_00024235-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.1   3.1   4.5e-10   1.4e-07     183     227 ..     252     294 ..     199     303 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 30.1 bits;  conditional E-value: 4.5e-10
+          human_Clectins 183 GkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCp 227
+                                c fPF + +k h +C++ g     WC+TT   ++D++wG+C 
+  TCONS_00024235-protein 252 KSCCVFPFMFGGKPHSQCIKSGA--RAWCGTTDSVDRDKRWGLCI 294
+                             45799***************996..58*****************5 PP
+
+>> TCONS_00000142-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   6.0   3.3e-07    0.0001     934    1062 ..      19     144 ..       6     146 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 20.6 bits;  conditional E-value: 3.3e-07
+          human_Clectins  934 gWisfqnkCylfsessktwseaeeaCi....segatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                               W +++++ +   ++ +tw    e C+    s++++  + +++ee+ +++++ ++       WiG  + ++ +++ W  gt++++
+  TCONS_00000142-protein   19 AWVKVGKAWFTQLKVARTWLGQVEMCKkvdpSRKSSIGTLRNKEENLKVQKTFPG-----PTWIGGFEIETTGQWFWW-GTSTNK 97  
+                              46667788777789999999999999844446899*****************544.....57*99999999999***9.445454 PP
+
+          human_Clectins 1015 .qysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                               + ++wa+gep+n g +e C +   +   ++w d  C++ +   iCe +
+  TCONS_00000142-protein   98 iTNTFWASGEPDNRGGNEACIMYD-WRLGAGWTDIACTSVY-MAICEIR 144 
+                              4699*******************6.8899**********86.****965 PP
+
+>> TCONS_00055222-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.6   0.00017     0.053     991    1061 ..       1      56 [.       1      71 [. 0.77
+   2 !    7.9   0.1    0.0023      0.72     941     993 ..      69     121 .]      65     121 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00017
+          human_Clectins  991 lWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                              +WiGL++  +++ +kW+ g+ l+  y     g+     s+ dC ++ + ++t  ++++sC+ +k  ++C+ 
+  TCONS_00055222-protein    1 YWIGLTQ--ENGAYKWLTGEALT--Y-----GQ----PSTGDCFYVTH-GSTTWFKSSSCDYEK-HIVCKI 56  
+                              7****99..778889**999999..8.....43....45679*99974.6666777779*9998.999984 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0023
+          human_Clectins 941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWi 993
+                             k  l++ ++k  s a+e+C+ ++++L++ ++++e ++   +++      ++Wi
+  TCONS_00055222-protein  69 KYHLIQADRKRQSFANEDCETKKGKLATFKTESEWDAFFGQIPARYAGDSFWI 121
+                             5567789999999*********************9999888776666777776 PP
+
+>> TCONS_00009386-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.4   2.1e-06   0.00065     928    1052 ..      42     160 ..       3     161 .] 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 2.1e-06
+          human_Clectins  928 sspCpkgWisfqnkCylfs......essktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtgelelWiGLsdrasekpfk 1005
+                               s+ +        kC+ f+       +++t+ +  + C ++ ++Lv+ ++  e    +sl +++   +  +W+G sd  +e+  k
+  TCONS_00009386-protein   42 LSVSS-------TKCLKFQkssaivLAEETFGAGIKLCGEQRGQLVQFKNMTEFTQFKSLfIGNGILSDRVWVGASDAFEEGVLK 119 
+                              34444.......4455553334444667899**********************99999997666656899*************** PP
+
+          human_Clectins 1006 WvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCse 1052
+                              W dgt  +  + ++  g  s++  +++C v    s t+k++ ++C++
+  TCONS_00009386-protein  120 WQDGTVGT--AIEF--GTNSSNDLATNCIVYD--SGTQKLEWDNCRT 160 
+                              ******88..4333..44455566899*9998..5778888888876 PP
+
+>> TCONS_00009141-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.3   7.1e-06    0.0022     961    1073 ..     198     314 ..     189     338 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 7.1e-06
+          human_Clectins  961 segatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps...ns...gsredCavilas 1039
+                              +e+++L + ++ ++ a++t+ l   t+el ++iG + ++   +  W +g++    ++nw +  ps   ++     +e+C+++   
+  TCONS_00009141-protein  198 GENGQLKTFTNFNKVARITKELSLRTRELRYFIGAKFDTATLKLIWDNGSKSL--VRNWCSSPPSidnPNhldPVPEQCVMVT-- 278 
+                              5799*****************999999************************99..999999999987622566779******9.. PP
+
+          human_Clectins 1040 setgkwndesCse...rklgliCektaevlsresntl 1073
+                               ++g w  ++C++   + + +iC++    + + +n+ 
+  TCONS_00009141-protein  279 -SSGCWVLQDCQSgppKFRNYICDFDRRGSLNSENND 314 
+                              .99********98544567899998877666655554 PP
+
+>> TCONS_00063493-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.13        39    1025    1063 ..      36      76 ..       1      87 [. 0.61
+   2 !   12.3   0.0   0.00011     0.033     950     982 ..     102     134 ..      97     135 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 2.1 bits;  conditional E-value: 0.13
+          human_Clectins 1025 s..nsgsredCavilassetgkwndesCs.erklgliCekta 1063
+                                 ++ + +dCa+++ ++++ k++ ++C  ++ + +iC++++
+  TCONS_00063493-protein   36 IfsSNTQIKDCAALE-LENDEKFEVHKCGgKEIIHSICKYNF 76  
+                              233446799*****7.789999*9999972556799**9986 PP
+
+  == domain 2  score: 12.3 bits;  conditional E-value: 0.00011
+          human_Clectins 950 ktwseaeeaCisegatLvkiqsqeeqafltsll 982
+                             ++w +a+e+C  +g+ Lv+i s++ ++f+++ll
+  TCONS_00063493-protein 102 ENWGAAREECMAKGGDLVTIGSRKMNNFVKDLL 134
+                             69**************************99875 PP
+
+>> TCONS_00055162-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.1   1.1e-05    0.0034     944    1001 ..      33      91 ..      28     118 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.1e-05
+          human_Clectins  944 lf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrase 1001
+                              l+ ++  +++ ea+++C+ +g+ L++  ++++     +l+++  +e ++W+ L++ + +
+  TCONS_00055162-protein   33 LMiHNPARNFIEAQNDCKNRGGDLASFSNESDWTTFSELVQQRYNEIQFWMRLTTADLQ 91  
+                              44367777888888888888888888888888888888888877888888888775544 PP
+
+>> TCONS_00062879-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0   2.1e-05    0.0066     947    1027 ..    1045    1122 ..     967    1153 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 2.1e-05
+          human_Clectins  947 essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelW.iGLsdrasekpfkWvdgtplasqysnwapgepsns 1027
+                              ++  ++ + ++aC+  g+tLv  +s +e++ l +  +    + ++W iG++++ s+ ++++++g+p+    + ++pg+  n+
+  TCONS_00062879-protein 1045 TEPGNFDAVKTACEASGGTLVEPRSFDEMELLAEKFTAA--DSDIWhIGVTAMSSNTKYRFISGNPFP--NKLFNPGDGLNT 1122
+                              67789999***************************7555..6676669******************99..445666655444 PP
+
+>> TCONS_00031765-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.9   0.1   3.6e-05     0.011    1136    1197 ..     217     291 ..     181     318 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 3.6e-05
+          human_Clectins 1136 wIglfsqddelnfgWsDgkrlrftrWaeeegdl.....l....edCvyldadgfwktvdCndnlq....GaiCev 1197
+                               Ig +  ++ ++  W Dg+r+   +W  + +++     l     +Cv++ + g+w++  C   l+    G+iC  
+  TCONS_00031765-protein  217 HIGATYDAETMELAWDDGTRSTVRNWCSNPPSVdnpnnLdpvpDQCVVVTSTGCWELQRCFAVLPtpplGFICDA 291 
+                              577778888888888888888888887654443111113222246888888888888888887765556788865 PP
+
+>> TCONS_00063468-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   7.3e-05     0.023     942     982 ..      73     113 ..      60     115 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 7.3e-05
+          human_Clectins 942 CylfsessktwseaeeaCisegatLvkiqsqeeqafltsll 982
+                             +y f + +  + +ae++C+ +g++L  i  +ee +fl++ +
+  TCONS_00063468-protein  73 FYEFYPPRADFFKAERNCVARGGHLTDIVDEEEADFLLQEM 113
+                             577788899999*************************9874 PP
+
+>> TCONS_00055163-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   7.1e-05     0.022     943     996 ..      52     107 ..      16     108 .] 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 7.1e-05
+          human_Clectins 943 ylfs..essktwseaeeaCisegatLvk.iqsqeeqafltsllkdmtgelelWiGLs 996
+                             +++s   + ++  +a ++C+ +g+ L++ i+s e q+f+ s +k  +   e+WiGL+
+  TCONS_00055163-protein  52 FFVSskAKLMSNDKATDDCKMRGGGLASfITSTEWQNFVDSEVKI-EAGSEYWIGLE 107
+                             333322334555666667777777776645666666666666433.34566777665 PP
+
+>> TCONS_00044676-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.1   0.00012     0.038     954    1011 ..      77     134 ..      10     178 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00012
+          human_Clectins  954 eaeeaCis..egatLvki.qsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtp 1011
+                              +a   C++   +atL +  ++++e+ fl+++lkd+ g  ++W+G +     +++ W d+ +
+  TCONS_00044676-protein   77 SADGLCTEwhTDATLFTPlETPKEMSFLQKSLKDV-GVSKVWMGAEY--NVDTWDWADSVS 134 
+                              44444543224566666425667777777777777.67777777777..555577777655 PP
+
+>> TCONS_00065658-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00066       0.2     952    1065 ..     174     296 ..     170     308 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00066
+          human_Clectins  952 wseaeeaCisegatLvkiqsqeeqafltsl.........lkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps.n 1026
+                              +  a+++C+ +g +L++i+s ++++ +t+l         + ++ + +e+W++L+ +   ++ +  +++ l  ++++w p+  + +
+  TCONS_00065658-protein  174 FLGAKKRCEARGKELLTIESAAKMETVTDLinnfvpppgIFPI-NIFEIWVALTLDPLAGKITSCNKDILP-NFRPWCPFGDQlT 256 
+                              5579**************************7777776665555.489999999987666766666666555.6777777666645 PP
+
+          human_Clectins 1027 sgsredCavilassetgkwndesCs.erklgliCektaev 1065
+                              +     C ++   s+      ++C   + ++ iC+k++++
+  TCONS_00065658-protein  257 ADDGGLCILFFRFSKCFPIPASKCGaAPSISTICQKPSAI 296 
+                              5666777777655544445555554134566777777655 PP
+
+>> TCONS_00064739-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   3.8     0.031       9.7     182     203 ..      52      73 ..      41      98 .. 0.77
+   2 ?    3.4   3.4     0.053        16     185     230 ..      99     144 ..      77     150 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 4.1 bits;  conditional E-value: 0.031
+          human_Clectins 182 yGkpcefPFkydnkWhhdCtsd 203
+                               + c+fPF y  kW+  C + 
+  TCONS_00064739-protein  52 TSRQCHFPFYYRRKWYYTCAKS 73 
+                             5689***************865 PP
+
+  == domain 2  score: 3.4 bits;  conditional E-value: 0.053
+          human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDe.kwGfCpkke 230
+                              c+ PF y +  + +C  +  +  +WC+   +  + + k+ +Cpk+ 
+  TCONS_00064739-protein  99 QCQNPFFYKGVKYEGCS-TRFSPVPWCSLDRNHKRGKsKFAYCPKNL 144
+                             699*************6.45569**********997659*****975 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1428 nodes)
+Target sequences:                      25087  (10474104 residues searched)
+Passed MSV filter:                      2611  (0.104078); expected 501.7 (0.02)
+Passed bias filter:                      541  (0.021565); expected 501.7 (0.02)
+Passed Vit filter:                       132  (0.00526169); expected 25.1 (0.001)
+Passed Fwd filter:                        81  (0.00322876); expected 0.3 (1e-05)
+Initial search space (Z):              25087  [actual number of targets]
+Domain search space  (domZ):              81  [number of targets reported over threshold]
+# CPU time: 2.07u 0.07s 00:00:02.13 Elapsed: 00:00:01.09
+# Mc/sec: 13612.60
+//
+[ok]

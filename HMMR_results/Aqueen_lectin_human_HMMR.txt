@@ -1,0 +1,99 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  human_C_lectins.hmm
+# target sequence database:        ../proteomes/Amphinedon_queenslandica_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       human_Clectins  [M=1428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.3e-39  134.5   1.3    6.4e-39  133.9   1.3    1.1  1  XP_019858541.1  PREDICTED: protein CLEC16A-like, partial [Amp
+    1.4e-16   59.9   8.0    4.1e-16   58.3   0.1    2.0  2  XP_019854230.1  PREDICTED: uncharacterized protein LOC1095833
+    5.2e-07   28.2   0.0      7e-07   27.7   0.0    1.0  1  XP_019856462.1  PREDICTED: uncharacterized protein LOC1006400
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_019858541.1  PREDICTED: protein CLEC16A-like, partial [Amphimedon queenslandica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  133.9   1.3   7.9e-43   6.4e-39     277     460 ..      42     230 ..      31     261 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 133.9 bits;  conditional E-value: 7.9e-43
+  human_Clectins 277 iaEqtylkeklesitki.lWiglNdlssaagwqwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvek 370
+                     +a + +l+e+ +si++i +W+++Nd+s ++++++++n+   fL +l+++    +++   +ll++ s+l+en+  e++++Y+++++ +n si+v+k
+  XP_019858541.1  42 EANKKLLVETFRSIAEIlIWGDQNDSS-VFDFFLEKNMQSYFLRILSQHC---GRYMVLQLLQTLSILFENIRNETSIYYLLSNNHVN-SIIVLK 131
+                     467889********************9.**********************...***********************************.788887 PP
+
+  human_Clectins 371 d......vwayvktrceagwlp....tngfcYklqkeeks.wdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIg.lkdikiptnfe 453
+                            v+ay+++++++++ +    t +f+Y+++  ++  ++eA+k+++++es++++++++ +l+v++++ +   +++ +I+ +++ ++++n++
+  XP_019858541.1 132 LdfsdeeVLAYYISFLKTLSFKlnkhTIHFFYNEHLRDFPlYTEAIKFFNHPESMVRIAVRTLTLNVYKVEDK---NMLEYIRsKTAAPYFSNLV 223
+                     6689999**************99888889***************************************98644...49***************** PP
+
+  human_Clectins 454 WsdgseV 460
+                     W++g +V
+  XP_019858541.1 224 WFIGNHV 230
+                     ******9 PP
+
+>> XP_019854230.1  PREDICTED: uncharacterized protein LOC109583360 [Amphimedon queenslandica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.3   0.1   5.1e-20   4.1e-16     937    1068 ..      38     168 ..      23     183 .. 0.84
+   2 !    2.5   6.0    0.0035        28    1357    1393 ..     184     220 ..     161     225 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 58.3 bits;  conditional E-value: 5.1e-20
+  human_Clectins  937 sfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas.q..ysnwapgeps. 1025
+                      ++++ Cy+++  +  +s+a+++C+  ++ Lvki+s ee++ + ++  ++    e+WiGL+d+ +e+ fkWv+g++l   +  y+nw  g+   
+  XP_019854230.1   38 PNSDYCYVLFLTKGDFSTANRTCVRNNGYLVKIDSDEENNYIRDTYLNS--APEFWIGLTDQVTEGVFKWVEGDTLILpNisYTNWFGGSAAe 128 
+                      56789*****999*******************************97777..89**********************4432455*******9995 PP
+
+  human_Clectins 1026 nsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                      +++ + dC+ +    + +k  ++ C+++ l ++C ++   + +
+  XP_019854230.1  129 TNEVAFDCVKFT--IDGWKVHNHFCDSSVLPYLCRQQVCSS-T 168 
+                      558899*****7..489999999***********9877433.3 PP
+
+  == domain 2  score: 2.5 bits;  conditional E-value: 0.0035
+  human_Clectins 1357 kspsedvisavvvlklliltvlglvalflykkssghl 1393
+                       sp ++ i +vvv++l++++v++++ ++++k + + +
+  XP_019854230.1  184 LSPVIIAIIVVVVVILILVIVIMILLFCMWKYKNDAF 220 
+                      378888899999999999999**********998866 PP
+
+>> XP_019856462.1  PREDICTED: uncharacterized protein LOC100640046 [Amphimedon queenslandica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.7   0.0   8.7e-11     7e-07     929    1068 ..      22     158 ..      17     174 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 27.7 bits;  conditional E-value: 8.7e-11
+  human_Clectins  929 spCpkg.WisfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsl...lkdmtg..elelWiGLsdrasekpfkWvdgtplas 1014
+                      + Cp++ +++ +++C+ +  +s+ ++ +a+ +C+  ga+Lv i s+ e+ +   +   l    g  +  +WiG + + s+     v+g+p  s
+  XP_019856462.1   22 QLCPSDtFTYSESNCLSLtTSSTPSYDNASASCATDGASLVLISSEGELFAARGYtrsL----GvrDGRYWIGYQYSSSNL--VDVNGNPAPS 108 
+                      45665516777889****679999*************************9999994432....133889*******66665..5789999775 PP
+
+  human_Clectins 1015 .qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                        +s++++g p ++  +  C+++    ++  +    C+e+  g+iC++t++v  +
+  XP_019856462.1  109 iVVSAVEEGGPAPA--TGVCVALT---QNEALVRVLCNESLDGYICQFTINVPLV 158 
+                      44777777777665..69*****8...8999*****************9988665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1428 nodes)
+Target sequences:                      24115  (11725344 residues searched)
+Passed MSV filter:                      2229  (0.0924321); expected 482.3 (0.02)
+Passed bias filter:                      730  (0.0302716); expected 482.3 (0.02)
+Passed Vit filter:                        86  (0.00356625); expected 24.1 (0.001)
+Passed Fwd filter:                         3  (0.000124404); expected 0.2 (1e-05)
+Initial search space (Z):              24115  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 1.06u 0.03s 00:00:01.09 Elapsed: 00:00:00.72
+# Mc/sec: 23020.62
+//
+[ok]

@@ -1,0 +1,1750 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NLR.hmm
+# target sequence database:        ../proteomes/Ccrux.Trinity.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NLR_alignement  [M=1486]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.8e-32  113.3   1.7    3.9e-32  112.8   1.7    1.1  1  Ccrux.Trinity.10036  
+    1.2e-31  111.1   1.5    1.2e-31  111.1   1.5    1.9  2  Ccrux.Trinity.10034  
+      3e-31  109.9   9.3    3.6e-31  109.6   9.3    1.0  1  Ccrux.Trinity.15378  
+    1.7e-30  107.3  13.1    2.4e-15   57.1   1.3    2.0  2  Ccrux.Trinity.42929  
+    2.4e-27   96.9   6.3    3.1e-27   96.6   6.3    1.0  1  Ccrux.Trinity.5016   
+    8.4e-27   95.1  24.0    2.4e-13   50.5   8.0    2.1  2  Ccrux.Trinity.30337  
+    8.4e-27   95.1  24.0    2.4e-13   50.5   8.0    2.1  2  Ccrux.Trinity.30339  
+    1.2e-24   88.0   5.5    1.2e-24   87.9   5.5    1.1  1  Ccrux.Trinity.52457  
+    4.4e-24   86.1   8.4    1.2e-16   61.4   2.5    3.0  3  Ccrux.Trinity.2744   
+    4.4e-24   86.1   8.4    1.2e-16   61.4   2.5    3.0  3  Ccrux.Trinity.2745   
+      6e-24   85.7  18.7    9.6e-18   65.1  10.4    2.0  2  Ccrux.Trinity.24723  
+    7.2e-24   85.4   0.7    7.2e-24   85.4   0.7    1.9  2  Ccrux.Trinity.10038  
+    5.4e-19   69.2   3.6    1.3e-16   61.3   1.8    2.0  2  Ccrux.Trinity.23546  
+    5.4e-19   69.2   3.6    1.4e-16   61.3   1.8    2.0  2  Ccrux.Trinity.23548  
+    2.2e-18   67.2   1.8    2.6e-18   67.0   1.8    1.0  1  Ccrux.Trinity.11751  
+    2.5e-18   67.1   0.7    3.1e-18   66.7   0.7    1.0  1  Ccrux.Trinity.13970  
+    3.2e-18   66.7   0.7    4.2e-18   66.3   0.7    1.1  1  Ccrux.Trinity.13956  
+    3.2e-18   66.7   0.7    4.2e-18   66.3   0.7    1.1  1  Ccrux.Trinity.13976  
+    3.2e-18   66.7   0.7    4.2e-18   66.3   0.7    1.1  1  Ccrux.Trinity.13983  
+      8e-18   65.4   0.2      8e-18   65.4   0.2    1.9  2  Ccrux.Trinity.10037  
+    5.3e-17   62.7   1.8    6.7e-17   62.3   1.8    1.1  1  Ccrux.Trinity.23545  
+    1.6e-16   61.0   3.7    1.9e-16   60.8   3.7    1.0  1  Ccrux.Trinity.13966  
+    2.8e-15   56.9   2.4    3.3e-15   56.7   2.4    1.0  1  Ccrux.Trinity.11752  
+    2.8e-14   53.6   5.2    3.7e-14   53.2   5.2    1.1  1  Ccrux.Trinity.4075   
+    3.6e-14   53.3   0.8    4.1e-14   53.1   0.8    1.0  1  Ccrux.Trinity.324    
+    1.5e-13   51.2   1.9    1.6e-13   51.2   1.9    1.0  1  Ccrux.Trinity.13954  
+    1.5e-13   51.2   1.9    1.6e-13   51.2   1.9    1.0  1  Ccrux.Trinity.13964  
+    1.5e-13   51.2   1.9    1.6e-13   51.2   1.9    1.0  1  Ccrux.Trinity.13969  
+    1.5e-13   51.2   1.9    1.6e-13   51.2   1.9    1.0  1  Ccrux.Trinity.13981  
+    1.5e-13   51.2   1.9    1.6e-13   51.2   1.9    1.0  1  Ccrux.Trinity.13984  
+      3e-13   50.2   5.1    3.3e-13   50.1   5.1    1.0  1  Ccrux.Trinity.13957  
+    3.3e-13   50.1   0.9    1.1e-12   48.4   0.9    1.6  1  Ccrux.Trinity.51793  
+    1.5e-12   47.9   0.0    1.7e-12   47.7   0.0    1.0  1  Ccrux.Trinity.59167  
+    6.3e-10   39.2   4.1    9.7e-06   25.3   2.2    2.4  3  Ccrux.Trinity.62973  
+    3.4e-09   36.8  14.2    3.4e-09   36.8  14.2    2.0  1  Ccrux.Trinity.27400  
+    3.8e-09   36.6   9.0    1.1e-06   28.4   8.4    2.1  1  Ccrux.Trinity.35209  
+    8.8e-09   35.4   4.3    1.1e-08   35.1   4.3    1.1  1  Ccrux.Trinity.35207  
+    2.1e-08   34.1   1.4    2.2e-08   34.1   1.4    1.0  1  Ccrux.Trinity.57567  
+    7.5e-08   32.3   4.2    8.5e-08   32.1   4.2    1.2  1  Ccrux.Trinity.35212  
+    6.2e-07   29.3   3.1    7.5e-07   29.0   3.1    1.0  1  Ccrux.Trinity.64509  
+    1.5e-06   28.1  14.6    0.00042   19.9   6.3    2.1  2  Ccrux.Trinity.14183  
+      7e-06   25.8  15.7    9.8e-05   22.0   3.3    2.2  2  Ccrux.Trinity.20843  
+    2.2e-05   24.2   0.1    2.6e-05   23.9   0.1    1.0  1  Ccrux.Trinity.13967  
+    9.4e-05   22.1  32.4    0.00035   20.2  18.5    2.0  2  Ccrux.Trinity.59768  
+    0.00012   21.7   6.1    0.00012   21.7   6.1    1.1  1  Ccrux.Trinity.6732   
+    0.00037   20.1   3.7    0.00082   18.9   3.7    1.5  1  Ccrux.Trinity.60153  
+    0.00044   19.8   4.8    0.00055   19.5   4.8    1.0  1  Ccrux.Trinity.66021  
+    0.00048   19.7   0.0       0.12   11.7   0.0    2.0  2  Ccrux.Trinity.28589  
+    0.00087   18.9  10.6     0.0071   15.8   2.8    1.6  2  Ccrux.Trinity.47028  
+    0.00087   18.9  10.6     0.0071   15.8   2.8    1.6  2  Ccrux.Trinity.47035  
+    0.00087   18.9  10.6     0.0071   15.8   2.8    1.6  2  Ccrux.Trinity.47039  
+    0.00087   18.9  10.6     0.0071   15.8   2.8    1.6  2  Ccrux.Trinity.47047  
+    0.00097   18.7   0.7      0.001   18.7   0.7    1.0  1  Ccrux.Trinity.4345   
+     0.0012   18.4   0.0       0.23   10.8   0.0    2.2  2  Ccrux.Trinity.28587  
+     0.0019   17.7   6.2     0.0059   16.1   5.8    1.8  1  Ccrux.Trinity.26513  
+      0.005   16.3   0.1     0.0057   16.2   0.1    1.0  1  Ccrux.Trinity.13959  
+      0.005   16.3   0.1     0.0057   16.2   0.1    1.0  1  Ccrux.Trinity.13980  
+     0.0055   16.2   3.0      0.012   15.0   2.5    1.5  2  Ccrux.Trinity.47032  
+     0.0076   15.7   3.2      0.016   14.7   2.6    1.5  2  Ccrux.Trinity.47043  
+  ------ inclusion threshold ------
+      0.017   14.6   4.6      0.023   14.2   4.6    1.1  1  Ccrux.Trinity.25102  
+       0.02   14.4   0.0       0.02   14.4   0.0    1.0  1  Ccrux.Trinity.15377  
+      0.027   13.9   1.8      0.041   13.3   1.8    1.1  1  Ccrux.Trinity.6480   
+      0.031   13.7  10.8      0.037   13.5   5.5    2.1  2  Ccrux.Trinity.70485  
+      0.046   13.1   0.1      0.055   12.9   0.1    1.0  1  Ccrux.Trinity.3621   
+      0.052   13.0   0.1      0.064   12.7   0.1    1.1  1  Ccrux.Trinity.3623   
+       0.09   12.2   0.2      0.097   12.1   0.2    1.1  1  Ccrux.Trinity.7930   
+      0.099   12.0   3.9       0.11   11.9   3.9    1.0  1  Ccrux.Trinity.11810  
+       0.12   11.8   7.1       0.13   11.6   7.1    1.1  1  Ccrux.Trinity.39590  
+       0.22   10.9  15.1       0.11   11.9   6.2    2.0  2  Ccrux.Trinity.25104  
+       0.43    9.9   0.2       0.53    9.6   0.2    1.1  1  Ccrux.Trinity.7926   
+       0.48    9.8   0.4       0.65    9.3   0.4    1.2  1  Ccrux.Trinity.44374  
+       0.77    9.1  11.7        3.4    7.0  11.7    1.9  1  Ccrux.Trinity.27264  
+       0.77    9.1  11.7        3.4    7.0  11.7    1.9  1  Ccrux.Trinity.27265  
+       0.77    9.1  11.7        3.4    7.0  11.7    1.9  1  Ccrux.Trinity.27271  
+        1.4    8.2   3.0        1.6    8.0   3.0    1.0  1  Ccrux.Trinity.67183  
+
+
+Domain annotation for each sequence (and alignments):
+>> Ccrux.Trinity.10036  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.8   1.7     4e-35   3.9e-32     718     982 ..      91     347 ..      72     368 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 112.8 bits;  conditional E-value: 4e-35
+       NLR_alignement 718 sldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnk 807
+                           + ++++ +  v+++ +a++lk + +  +l+l gn+   +   G + i+ a  ken  lt+ dls n +    +  +akvL+   +n++ 
+  Ccrux.Trinity.10036  91 AVTMKYHGIGSVGAIPLARALKENTRTDSLNLTGNH---LRAHGGMMIALA-VKENLYLTSVDLSDNFMGAVVGITFAKVLMTN-PNIKI 175
+                          577899******************************...59999999*999.89**************************8876.***** PP
+
+       NLR_alignement 808 LdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdL 897
+                          ++L+ n+ +d+ + + +e lk++k +l eL +s ne + + g   l   l ++  l +L+L  n I  +G+vs++ aLk  k +l kLdL
+  Ccrux.Trinity.10036 176 MKLKGNHFTDKVACAFAEMLKTNK-TLEELDMSYNE-MGERGGLYLGAGLGMNVGLKSLNLRWNSIFSKGAVSMAAALKTNK-NLLKLDL 262
+                          ************************.***********.89*******************************************.999**** PP
+
+       NLR_alignement 898 seneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLylw 982
+                          s n +s  g  +l   lk+ns+lt L++s n i   G+ +l  aL +   + +     n+i +egv +l +a++ n+ +++L l 
+  Ccrux.Trinity.10036 263 SWNGLSYIGCLALGRHLKKNSTLTHLDVSNNRIGSNGAIKLSFALAKHTSIASFKVGLNPIGDEGVDALLSAVRHNAMIKELGLE 347
+                          ****************************************************************************999998764 PP
+
+>> Ccrux.Trinity.10034  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   1.6      0.72   7.2e+02     181     267 ..     110     223 ..     101     247 .. 0.60
+   2 !  111.1   1.5   1.3e-34   1.2e-31     718     982 ..     311     567 ..     293     588 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 0.72
+       NLR_alignement 181 feeky...vfkqhrpv..vslaeylkelkklvksqte..keelfqaseeakt......................vekriklddvftslvl 241
+                          f++++   v +q+  +  +  +  +++ kk+ k+q++  + +l++ + + ++                       + +i + +  +++ +
+  Ccrux.Trinity.10034 110 FQAHFatpVTNQSP-SkaKKSNTIIRKKKKKRKQQQNalTTTLLEED-KMSEkdikpssetegshpntvtegfpSKPSIAWGSRQEDHSP 197
+                          56666554444332.21212222222223333333333322222222.2222466777777888889999999888899*********** PP
+
+       NLR_alignement 242 qtgrakkeftglrrrdqlsylkstsr 267
+                          +++r+++++t++++++ql + +  s 
+  Ccrux.Trinity.10034 198 YPQRKNEKLTEQQQQQQLELERCMSD 223
+                          ************99999876444433 PP
+
+  == domain 2  score: 111.1 bits;  conditional E-value: 1.3e-34
+       NLR_alignement 718 sldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnk 807
+                           + ++++ +  v+++ +a++lk + +  +l+l gn+   +   G + i+ a  ken  lt+ dls n +    +  +akvL+   +n++ 
+  Ccrux.Trinity.10034 311 AVTMKYHGIGSVGAIPLARALKENTRTDSLNLTGNH---LRAHGGMMIALA-VKENLYLTSVDLSDNFMGAVVGITFAKVLMTN-PNIKI 395
+                          577899******************************...59999999*999.89**************************8876.***** PP
+
+       NLR_alignement 808 LdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdL 897
+                          ++L+ n+ +d+ + + +e lk++k +l eL +s ne + + g   l   l ++  l +L+L  n I  +G+vs++ aLk  k +l kLdL
+  Ccrux.Trinity.10034 396 MKLKGNHFTDKVACAFAEMLKTNK-TLEELDMSYNE-MGERGGLYLGAGLGMNVGLKSLNLRWNSIFSKGAVSMAAALKTNK-NLLKLDL 482
+                          ************************.***********.89*******************************************.999**** PP
+
+       NLR_alignement 898 seneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLylw 982
+                          s n +s  g  +l   lk+ns+lt L++s n i   G+ +l  aL +   + +     n+i +egv +l +a++ n+ +++L l 
+  Ccrux.Trinity.10034 483 SWNGLSYIGCLALGRHLKKNSTLTHLDVSNNRIGSNGAIKLSFALAKHTSIASFKVGLNPIGDEGVDALLSAVRHNAMIKELGLE 567
+                          ****************************************************************************999998754 PP
+
+>> Ccrux.Trinity.15378  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.6   9.3   3.7e-34   3.6e-31     791     995 ..      28     229 ..       8     238 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 109.6 bits;  conditional E-value: 3.7e-34
+       NLR_alignement 791 adslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvs 880
+                           + lak+ i+s+k+L+ L+L++++i de    li  l + + +l  L  s n+ i d+++  + + ++  +k+t+L+L  n+I+ +G++ 
+  Ccrux.Trinity.15378  28 CSLLAKA-IRSCKTLRLLQLHQSKINDEKCRVLISHLLDHP-SLVSLDISHNN-IGDGAARAIGKLINGRSKITNLNLCNNKIKSHGASA 114
+                          5678999.999999999999999999999999999999999.99999999999.999999999999999999999999999999999999 PP
+
+       NLR_alignement 881 LceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaeal 970
+                          +++aL++   +l+ L+L+ n isD+g +sl+ +lk+n++lt++++s+ne  +     l ++  ++k ++  dLs n++ ++g ++l e +
+  Ccrux.Trinity.15378 115 IAHALEKNS-TLKILNLRLNRISDEGGQSLCRALKVNQTLTDINISSNELGESFGILLGQVFLKNKCIQRFDLSCNKLGANGGQALQEGI 203
+                          999998776.77779999999999999999999999999999999999999998889999999999999999999999999999999999 PP
+
+       NLR_alignement 971 kvnckltkLy.lwdalteapdttlve 995
+                          + n++l  +    +++++a + +++ 
+  Ccrux.Trinity.15378 204 EENTTLHFIDlRLTEISQANEYNIDR 229
+                          99999988875556677776666555 PP
+
+>> Ccrux.Trinity.42929  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.1   1.3   2.5e-18   2.4e-15     738     971 ..     131     362 ..     114     370 .. 0.90
+   2 !   55.6   4.8   7.4e-18   7.4e-15     804     942 ..     369     504 ..     364     510 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 57.1 bits;  conditional E-value: 2.5e-18
+       NLR_alignement 738 lkvvkalnalelsgnys.rnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliea 826
+                          + v++ l++ +ls + +  ++++  +++ ++ l    c++ +L l   ++d+   +sl  v  k+  + + +dL + ++ +eg+ +l e 
+  Ccrux.Trinity.42929 131 IPVNQLLSEYKLSCEKLkIKVNER-VKKQIQELRATACRVESLILTGVKLDEKACESLEAVFRKV--QFEYIDLENCGLEEEGASALFEM 217
+                          567777888888877652334444.44455556999*****************************..*********************** PP
+
+       NLR_alignement 827 lkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlke 916
+                          ++f + +  +L+ s n++ +  g +  c  lk    l +L   r   td  +      Lkv    l+ L+L+++ ++   +  l  ++k 
+  Ccrux.Trinity.42929 218 IEFYQ-SAYRLNISCNQKLSSRGWQVACRMLKRTPCLYHLDARRTFLTDITMPIFGRCLKVNL-HLRILQLEDSYLTGRPMLLLMTAMKY 305
+                          *****.9999**********************9999************************987.************************** PP
+
+       NLR_alignement 917 nsqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaeal..k 971
+                          n  l +LyL+ n+ t    ++++  L  + +l+ Ld  +n + + g+a++ + l  +
+  Ccrux.Trinity.42929 306 NKYLEELYLGHNDLTHSDGNAICAMLSCNTTLQLLDVRNNSLKDLGIAHIGQGLvnQ 362
+                          **************************************************8877433 PP
+
+  == domain 2  score: 55.6 bits;  conditional E-value: 7.4e-18
+       NLR_alignement 804 nLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskcklt 893
+                           L++L L +n+i+ eg++ l +al + + +l+ L+  +n+   d g+++l   l  ++ + +L L   + +++G+v L+e+L +s  ++t
+  Ccrux.Trinity.42929 369 GLTSLVLWNNGITQEGLANLNDALAKTS-SLKSLNIGQNK-FGDSGMQRLKPGLMRNKSIQKLGLLNTKLGNEGAVALAEVLADSV-SIT 455
+                          5899********************9999.9**********.99******************************************9.*** PP
+
+       NLR_alignement 894 kLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaL 942
+                           +d ++n i  +g+ +++ +lk+n +l  L+L  +   ++G es+ +++
+  Ccrux.Trinity.42929 456 RIDVRGNRINVAGLMAISLALKVNKTLIRLDLDKDLKREQGMESVQQSV 504
+                          *********************************9999999999998876 PP
+
+>> Ccrux.Trinity.5016  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   96.6   6.3   3.1e-30   3.1e-27     672    1000 ..      43     359 ..      18     374 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 96.6 bits;  conditional E-value: 3.1e-30
+      NLR_alignement  672 lvelLevrlltsliektaalllmkcltEynekelaeklikkelflnsldlstedlspvdctavaeflkvvkalnalelsgnysrnisdt 760 
+                              Le++ l+s  +kt+all +   + ++++++  +  ++++   ++d+   ++ p +c a+ e l+v     +l       +   + 
+  Ccrux.Trinity.5016   43 YDTDLEEDFLPS--GKTQALLDIYLKACTRHNTFPMRCFQQQIGEDIVDIRHYNIGPKGCKAICETLRVSYSTIELYFHD---NGFGKD 126 
+                          344456655554..7889999999999999999999999******************************88777776664...55799* PP
+
+      NLR_alignement  761 GlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddg 849 
+                          G r+++ ++ ++   +  +d+s n ++   +d+  ++L      L  L+ +sn  +d+    l   l  sk +l+ L+ s+n   +d+ 
+  Ccrux.Trinity.5016  127 GGRELASLFLEKDNMI-RIDMSCNSLKSSLVDVCDSLLDAR--GLLALNVSSNYATDKHCRVLFTLLAESK-RLQSLSTSKNL-LSDAS 210 
+                          ******9988877777.9*****************996555..****************************.**********9.8**** PP
+
+      NLR_alignement  850 vvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGvesl 938 
+                          ++ + +al  +++l +L ++ n+ +    + L+ aL v + +l+ L++s+n i D g+  l e l +n  l +L++s+n it+ G+  l
+  Ccrux.Trinity.5016  211 ATVIEDALTRNQTLKHLDMSSNHLRHGLGMPLSCALTVNQ-TLQILNISDNGIGDIGADLLGESLLVNNSLIELDISCNRITEIGAVGL 298 
+                          *************************888899*********.************************************************ PP
+
+      NLR_alignement  939 aeaLkeakkltaLdLssneisnegvaslaeal..kvnckltkLylwdalteapdttlvedikrv 1000
+                          a+ L+e+k+l+ L +  n + n+g  ++ +    ++ + l+++y+ + +  ++     e ik+v
+  Ccrux.Trinity.5016  299 AKGLEENKTLQVLHIGRNSLQNHGACAIVDPFfkNSHSALKEVYMKNVVVGQT---FLEVIKKV 359 
+                          ***************************99988777888999999887776554...34444444 PP
+
+>> Ccrux.Trinity.30337  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   8.4   3.2e-16   3.2e-13     726     900 ..     201     374 ..     135     404 .. 0.78
+   2 !   50.5   8.0   2.4e-16   2.4e-13     778     980 ..     459     660 ..     391     678 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 3.2e-16
+       NLR_alignement 726 lspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiks.nknLnkLdLlsne 814
+                          l + +   ++  l+ +   ++l  +     ++s+  +  i++   k+   l +  l+  +++++ a+++a +Li      L+++dL+sn+
+  Ccrux.Trinity.30337 201 LEQRELLPIVATLEYNTWFKKLRCK--S-LKLSSDVIDTIMKV-MKVSQSLEGVTLKDIHLTRDHAQKFATALISNpDSALKEIDLSSNN 286
+                          3333333344444444444444333..2.46888888899998.88999999********************87541458********** PP
+
+       NLR_alignement 815 isdegvksliealkfsksklteLglsgneeitddgvvslcealk....ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLsen 900
+                          + d gv +l+ al   +  l  L ls    ++++g   l++al+     s++lt L+++ n  + + +  Lc+ L + +  l+kLdLs+ 
+  Ccrux.Trinity.30337 287 LEDRGVNHLCGALASLNHGLESLQLSTIG-VSNKGTLMLANALRtnkfISSTLTRLNISNNMLKSESAPVLCDFLANPN-VLRKLDLSNT 374
+                          **************************999.9************732134689***************************.9******975 PP
+
+  == domain 2  score: 50.5 bits;  conditional E-value: 2.4e-16
+       NLR_alignement 778 eLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.....asck 862
+                          + d+s+n+++  g  ++++  i   kn ++LdL  n+i d +++ l+ al++++ ++++L   +n  +    + ++ ea++      +  
+  Ccrux.Trinity.30337 459 GFDFSKNELRSAGSHEISSC-ITNLKNVSHLDLTDNGI-DYDIVNLCIALQKNS-SVKHLAIGQNF-VKTRNISPIMEAIVdlisqENGV 544
+                          67999***************.6666*************.9************99.********999.88999999999986421124556 PP
+
+       NLR_alignement 863 lteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLd 952
+                          l ++ L   + + + +    +aL   + ++ ++dL++n i D+g+  la++l+ n +l t +L  n it +G e +a aLk +  l+++ 
+  Ccrux.Trinity.30337 545 LQSISLAESKLKHEALGF-IDALGTNN-SILEIDLRGNMIGDEGARLLAKALQINTTLRTVQLDRNTITHKGFEDIATALKRNYSLHCIP 632
+                          888888888888777665.59***999.999*********************************************************99 PP
+
+       NLR_alignement 953 Lssneisnegvaslaeal.kvnckltkLy 980
+                          + +  i+   +++  ea  k+++ + kL 
+  Ccrux.Trinity.30337 633 MPASDIA-LCMKHNGEATtKALSEIEKLL 660
+                          9999888.566666666556666666665 PP
+
+>> Ccrux.Trinity.30339  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   8.4   3.2e-16   3.2e-13     726     900 ..     201     374 ..     135     404 .. 0.78
+   2 !   50.5   8.0   2.4e-16   2.4e-13     778     980 ..     459     660 ..     391     678 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 3.2e-16
+       NLR_alignement 726 lspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiks.nknLnkLdLlsne 814
+                          l + +   ++  l+ +   ++l  +     ++s+  +  i++   k+   l +  l+  +++++ a+++a +Li      L+++dL+sn+
+  Ccrux.Trinity.30339 201 LEQRELLPIVATLEYNTWFKKLRCK--S-LKLSSDVIDTIMKV-MKVSQSLEGVTLKDIHLTRDHAQKFATALISNpDSALKEIDLSSNN 286
+                          3333333344444444444444333..2.46888888899998.88999999********************87541458********** PP
+
+       NLR_alignement 815 isdegvksliealkfsksklteLglsgneeitddgvvslcealk....ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLsen 900
+                          + d gv +l+ al   +  l  L ls    ++++g   l++al+     s++lt L+++ n  + + +  Lc+ L + +  l+kLdLs+ 
+  Ccrux.Trinity.30339 287 LEDRGVNHLCGALASLNHGLESLQLSTIG-VSNKGTLMLANALRtnkfISSTLTRLNISNNMLKSESAPVLCDFLANPN-VLRKLDLSNT 374
+                          **************************999.9************732134689***************************.9******975 PP
+
+  == domain 2  score: 50.5 bits;  conditional E-value: 2.4e-16
+       NLR_alignement 778 eLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.....asck 862
+                          + d+s+n+++  g  ++++  i   kn ++LdL  n+i d +++ l+ al++++ ++++L   +n  +    + ++ ea++      +  
+  Ccrux.Trinity.30339 459 GFDFSKNELRSAGSHEISSC-ITNLKNVSHLDLTDNGI-DYDIVNLCIALQKNS-SVKHLAIGQNF-VKTRNISPIMEAIVdlisqENGV 544
+                          67999***************.6666*************.9************99.********999.88999999999986421124556 PP
+
+       NLR_alignement 863 lteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLd 952
+                          l ++ L   + + + +    +aL   + ++ ++dL++n i D+g+  la++l+ n +l t +L  n it +G e +a aLk +  l+++ 
+  Ccrux.Trinity.30339 545 LQSISLAESKLKHEALGF-IDALGTNN-SILEIDLRGNMIGDEGARLLAKALQINTTLRTVQLDRNTITHKGFEDIATALKRNYSLHCIP 632
+                          888888888888777665.59***999.999*********************************************************99 PP
+
+       NLR_alignement 953 Lssneisnegvaslaeal.kvnckltkLy 980
+                          + +  i+   +++  ea  k+++ + kL 
+  Ccrux.Trinity.30339 633 MPASDIA-LCMKHNGEATtKALSEIEKLL 660
+                          9999888.566666666556666666665 PP
+
+>> Ccrux.Trinity.52457  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.9   5.5   1.3e-27   1.2e-24     768     934 ..      76     240 .]      19     240 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 87.9 bits;  conditional E-value: 1.3e-27
+       NLR_alignement 768 alekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslceal 857
+                             ken  + +Ldls n i d ga+++ ++L +   +L+ LdL++nei+ +g  s+++ l+ ++ +l+ L l+gn+ i ++g + l+e+l
+  Ccrux.Trinity.52457  76 T-LKENTFIVGLDLSYNTIGDAGAEHIKNLLLDT-LVLKYLDLSFNEIGPKGGESIAKGLQMNE-TLKVLKLNGNK-IGNQGGMALAEVL 161
+                          4.47888999********************9999.9****************************.***********.************* PP
+
+       NLR_alignement 858 kascklteLyLkrneItdaGvvsLceaLkvskckltkLdLsenei...sDvgvaslaevlkensqlttLyLsyneitdaG 934
+                          +++ +lt++ L+  + + + v  L+ +L+ s  +lt+ +L++  +     +   +la+ lk+n +l +L+L   + t+ G
+  Ccrux.Trinity.52457 162 QVNTTLTTICLESTDLKTESVIALSTVLNSSS-SLTSVNLNRPLLfsvQGETTVHLAKMLKVNTKLRQLHLAKHDLTNDG 240
+                          ********************************.*********987532456678***********************988 PP
+
+>> Ccrux.Trinity.2744  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.0   0.1   0.00082      0.81     846     888 ..      35      77 ..       1      86 [. 0.56
+   2 !   17.9   0.0   1.6e-06    0.0016     766     828 ..     105     168 ..      97     178 .. 0.88
+   3 !   61.4   2.5   1.2e-19   1.2e-16     812     966 ..     190     341 ..     181     359 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.00082
+      NLR_alignement 846 tddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvs 888
+                         +++ + ++ +a++a + l  L+L++n I+ + ++ ++ea+k+ 
+  Ccrux.Trinity.2744  35 SAECAKPVVDAINAAKDLQALRLEGNTIGLEAAKAIAEAIKNH 77 
+                         4555666666677666777777777777777777777776654 PP
+
+  == domain 2  score: 17.9 bits;  conditional E-value: 1.6e-06
+      NLR_alignement 766 tealekenctlteLdlstnqiddegadslakvLiks.nknLnkLdLlsneisdegvksliealk 828
+                          +a++ +  +lt Ldls n +  +g++ + k+L  s + +L+ L+L +n+++ +g   l++al 
+  Ccrux.Trinity.2744 105 GDAVITAGARLTVLDLSDNAFGPDGVKGFQKLLTSSaCYTLHTLKLNNNGLGQVGGRILSKALI 168
+                         567888899************************8874679******************999985 PP
+
+  == domain 3  score: 61.4 bits;  conditional E-value: 1.2e-19
+      NLR_alignement 812 sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLsenei 902
+                          n++ +eg+k+l+ a k+   +l e+ + +n  i  +g++ l++a   +++l  ++L+ n  t++G++ +++a+   + +l  L+L +  +
+  Ccrux.Trinity.2744 190 RNRLENEGAKALATAFKTIG-TLEEIQMPQNG-ILHQGIMALADAFGSNKHLKIINLNDNTATEKGAAAMSKAIPSLT-ELVTLNLGDCLL 277
+                         68999999999999999999.99999999999.999999999999999999999999999999999999999999888.999999999999 PP
+
+      NLR_alignement 903 sDvgvaslaevlk.ensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvasl 966
+                          D g+  +ae+ + +   l +L Lsynei   G+ ++++++  + +l++L+L  n++ +  v+++
+  Ccrux.Trinity.2744 278 KDSGASVIAEASQdAMPCLEELILSYNEIRRDGAMAIVNSMATKDNLKCLNLDGNQLGD-SVEEI 341
+                         99999999999999999999999999999999999999999999999999999999873.34444 PP
+
+>> Ccrux.Trinity.2745  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.0   0.1   0.00082      0.81     846     888 ..      35      77 ..       1      86 [. 0.56
+   2 !   17.9   0.0   1.6e-06    0.0016     766     828 ..     105     168 ..      97     178 .. 0.88
+   3 !   61.4   2.5   1.2e-19   1.2e-16     812     966 ..     190     341 ..     181     359 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 9.0 bits;  conditional E-value: 0.00082
+      NLR_alignement 846 tddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvs 888
+                         +++ + ++ +a++a + l  L+L++n I+ + ++ ++ea+k+ 
+  Ccrux.Trinity.2745  35 SAECAKPVVDAINAAKDLQALRLEGNTIGLEAAKAIAEAIKNH 77 
+                         4555666666677666777777777777777777777776654 PP
+
+  == domain 2  score: 17.9 bits;  conditional E-value: 1.6e-06
+      NLR_alignement 766 tealekenctlteLdlstnqiddegadslakvLiks.nknLnkLdLlsneisdegvksliealk 828
+                          +a++ +  +lt Ldls n +  +g++ + k+L  s + +L+ L+L +n+++ +g   l++al 
+  Ccrux.Trinity.2745 105 GDAVITAGARLTVLDLSDNAFGPDGVKGFQKLLTSSaCYTLHTLKLNNNGLGQVGGRILSKALI 168
+                         567888899************************8874679******************999985 PP
+
+  == domain 3  score: 61.4 bits;  conditional E-value: 1.2e-19
+      NLR_alignement 812 sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLsenei 902
+                          n++ +eg+k+l+ a k+   +l e+ + +n  i  +g++ l++a   +++l  ++L+ n  t++G++ +++a+   + +l  L+L +  +
+  Ccrux.Trinity.2745 190 RNRLENEGAKALATAFKTIG-TLEEIQMPQNG-ILHQGIMALADAFGSNKHLKIINLNDNTATEKGAAAMSKAIPSLT-ELVTLNLGDCLL 277
+                         68999999999999999999.99999999999.999999999999999999999999999999999999999999888.999999999999 PP
+
+      NLR_alignement 903 sDvgvaslaevlk.ensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvasl 966
+                          D g+  +ae+ + +   l +L Lsynei   G+ ++++++  + +l++L+L  n++ +  v+++
+  Ccrux.Trinity.2745 278 KDSGASVIAEASQdAMPCLEELILSYNEIRRDGAMAIVNSMATKDNLKCLNLDGNQLGD-SVEEI 341
+                         99999999999999999999999999999999999999999999999999999999873.34444 PP
+
+>> Ccrux.Trinity.24723  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.1  10.4   9.7e-21   9.6e-18     818     985 ..       3     168 ..       1     173 [. 0.97
+   2 !   26.6   0.9   4.2e-09   4.1e-06     761     843 ..     171     254 ..     169     344 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 65.1 bits;  conditional E-value: 9.7e-21
+       NLR_alignement 818 egvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgv 907
+                           gvk+++ al  +  ++t L ls+n  itd+g   ++  l  +c +t   L++n  + + +  L + L   + +l++Ld+s+n++ D+ +
+  Ccrux.Trinity.24723   3 DGVKAVSYALLRNT-TVTTLILSDNV-ITDEGGELVARLLSDNCYITFVDLSANCLGLRTANELWKTLAMNN-SLKHLDISCNNMCDQCI 89 
+                          59********9999.***********.*********************************************.***************** PP
+
+       NLR_alignement 908 aslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLy.lwdal 985
+                          +++++ + +ns l tL+L  +  t +    l   L  +++l  LdLs n++ +eg++ l   +k  + l++L+  w+ l
+  Ccrux.Trinity.24723  90 EKICKGIMKNSSLLTLKLQRSTFTRKSGSVLNSMLSRNCTLIYLDLSWNQLGEEGLQMLVAGIKKWSSLQTLNlAWNGL 168
+                          *************************************************************************667665 PP
+
+  == domain 2  score: 26.6 bits;  conditional E-value: 4.2e-09
+       NLR_alignement 761 GlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsk..sklteLglsgne 843
+                          G ++ +  l  +n tl  Ldls+n+++ ega+ +ak  ++ +  ++ L L +n+   ++v  + +a+ + k  ++l +L  sg +
+  Ccrux.Trinity.24723 171 GSAKFCGRLLSANPTLRTLDLSNNRLKSEGASTIAKT-MEQCIGIKYLALGFNRFKAQDVSLILQAICQIKteLSLEKLEISGVD 254
+                          667788889999*************************.****************************9887711355666666665 PP
+
+>> Ccrux.Trinity.10038  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   1.4       0.5     5e+02     181     267 ..     110     223 ..     100     247 .. 0.61
+   2 !   85.4   0.7   7.3e-27   7.2e-24     718     927 ..     311     512 ..     294     518 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.5
+       NLR_alignement 181 feeky...vfkqhrpv..vslaeylkelkklvksqte..keelfqaseeakt......................vekriklddvftslvl 241
+                          f++++   v +q+  +  +  +  +++ kk+ k+q++  + +l++ + + ++                       + +i + +  +++ +
+  Ccrux.Trinity.10038 110 FQAHFatpVTNQSP-SkaKKSNTIIRKKKKKRKQQQNalTTTLLEED-KMSEkdikpssetegshpntvtegfpSKPSIAWGSRQEDHSP 197
+                          56666554444332.21212222222223333333333322222222.2222466777777888899999999888899*********** PP
+
+       NLR_alignement 242 qtgrakkeftglrrrdqlsylkstsr 267
+                          +++r+++++t++++++ql + +  s 
+  Ccrux.Trinity.10038 198 YPQRKNEKLTEQQQQQQLELERCMSD 223
+                          ************99999876444433 PP
+
+  == domain 2  score: 85.4 bits;  conditional E-value: 7.3e-27
+       NLR_alignement 718 sldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnk 807
+                           + ++++ +  v+++ +a++lk + +  +l+l gn+   +   G + i+ a  ken  lt+ dls n +    +  +akvL+   +n++ 
+  Ccrux.Trinity.10038 311 AVTMKYHGIGSVGAIPLARALKENTRTDSLNLTGNH---LRAHGGMMIALA-VKENLYLTSVDLSDNFMGAVVGITFAKVLMTN-PNIKI 395
+                          577899******************************...59999999*999.89**************************8876.***** PP
+
+       NLR_alignement 808 LdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdL 897
+                          ++L+ n+ +d+ + + +e lk++k +l eL +s ne + + g   l   l ++  l +L+L  n I  +G+vs++ aLk  k +l kLdL
+  Ccrux.Trinity.10038 396 MKLKGNHFTDKVACAFAEMLKTNK-TLEELDMSYNE-MGERGGLYLGAGLGMNVGLKSLNLRWNSIFSKGAVSMAAALKTNK-NLLKLDL 482
+                          ************************.***********.89*******************************************.999**** PP
+
+       NLR_alignement 898 seneisDvgvaslaevlkensqlttLyLsy 927
+                          s n +s  g  +l   lk+ns++t L++  
+  Ccrux.Trinity.10038 483 SWNGLSYIGCLALGRHLKKNSTMTHLDVRL 512
+                          **************************9765 PP
+
+>> Ccrux.Trinity.23546  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   1.8   1.4e-19   1.3e-16     781     914 ..       3     158 ..       1     167 [. 0.80
+   2 !    7.7   0.0    0.0021       2.1     860     886 ..     302     328 ..     290     339 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 1.4e-19
+       NLR_alignement 781 lstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne............e.............i 845
+                          ++ ++id    d++a +L +  ++L+ ++L + ++ d  + +l+  +   + +l+ L l+gn             e             +
+  Ccrux.Trinity.23546   3 IRGWKIDKKMLDVMAAILPHQ-EKLETINLWNVGLDDDTLEALVSLITRLP-SLQTLYLDGNSsvalhrynqlldEnstiqhlslrhsyV 90 
+                          7889*************8887.99***********************9999.9********99555555544444044444555555557 PP
+
+       NLR_alignement 846 tddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevl 914
+                           d+g+  + +al  +++l +L+L +n+It++Gv+ +++ ++  + +l  L+Ls+n i  +g++++a++l
+  Ccrux.Trinity.23546  91 NDAGAELIGNALARNKTLLSLNLAFNKITCEGVKAIAKGMRMNR-TLLILNLSNNRIANEGAQHIAKIL 158
+                          88888888888888888888888888888888888888888888.888888888888888888888887 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0021
+       NLR_alignement 860 scklteLyLkrneItdaGvvsLceaLk 886
+                          +++l +L+L rn I+++G++s++e ++
+  Ccrux.Trinity.23546 302 NQTLINLNLARNSIGEKGLQSISECID 328
+                          556666666666666666666666654 PP
+
+>> Ccrux.Trinity.23548  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   1.8   1.4e-19   1.4e-16     781     914 ..       3     158 ..       1     167 [. 0.80
+   2 !    7.7   0.0    0.0021       2.1     860     886 ..     302     328 ..     290     339 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 1.4e-19
+       NLR_alignement 781 lstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne............e.............i 845
+                          ++ ++id    d++a +L +  ++L+ ++L + ++ d  + +l+  +   + +l+ L l+gn             e             +
+  Ccrux.Trinity.23548   3 IRGWKIDKKMLDVMAAILPHQ-EKLETINLWNVGLDDDTLEALVSLITRLP-SLQTLYLDGNSsvalhrynqlldEnstiqhlslrhsyV 90 
+                          7889*************8887.99***********************9999.9********99555555544444044444555555557 PP
+
+       NLR_alignement 846 tddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevl 914
+                           d+g+  + +al  +++l +L+L +n+It++Gv+ +++ ++  + +l  L+Ls+n i  +g++++a++l
+  Ccrux.Trinity.23548  91 NDAGAELIGNALARNKTLLSLNLAFNKITCEGVKAIAKGMRMNR-TLLILNLSNNRIANEGAQHIAKIL 158
+                          88888888888888888888888888888888888888888888.888888888888888888888887 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.0021
+       NLR_alignement 860 scklteLyLkrneItdaGvvsLceaLk 886
+                          +++l +L+L rn I+++G++s++e ++
+  Ccrux.Trinity.23548 302 NQTLINLNLARNSIGEKGLQSISECID 328
+                          556666666666666666666666654 PP
+
+>> Ccrux.Trinity.11751  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.0   1.8   2.6e-21   2.6e-18     807     973 ..       5     173 ..       1     175 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 67.0 bits;  conditional E-value: 2.6e-21
+       NLR_alignement 807 kLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslceal...kascklteLyLkrn.eItdaGvvsLceaLkvskckl 892
+                           L L+ + + deg++ l+ + ++ + +++ L   +++  +d+g+  ++  l   k +c l eL L +n ++t+ G + L+ a+ ++ c+l
+  Ccrux.Trinity.11751   5 TLFLHGSPLEDEGLAMLMPVFSTHP-NIKALDVGDCN-LSDEGIRLISTLLphsKSKCDLHELTLTGNkNVTQLGWTQLAMAVANG-CTL 91 
+                          6889999******************.***********.8**********9944347899******99967*************998.5** PP
+
+       NLR_alignement 893 tkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea.kkltaLdLssneisnegvaslaealkvn 973
+                          + L +  n++ D g+ ++a +l +  +l  L+L +  itd G+e l++ L      l++++L  n is+  +  + e+++ n
+  Ccrux.Trinity.11751  92 KRLYIDYNNLGDFGAGNFAVALAACRTLQVLDLDCCGITDTGAELLFDLLSTFkLPLQQISLNDNGISEDLLSDIKESIADN 173
+                          **********************99999************************99899*******************9999766 PP
+
+>> Ccrux.Trinity.13970  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.7   0.7   3.2e-21   3.1e-18     801     959 ..       7     164 ..       4     181 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 66.7 bits;  conditional E-value: 3.2e-21
+       NLR_alignement 801 snknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskc 890
+                          +nk L+ Ld++ n + +    +l  a+ +++  lt L+ls+n+    +g+  ++ +lk +  l +L+L+ n  +d G+  + eaLk    
+  Ccrux.Trinity.13970   7 ANKSLKTLDISHNLLEEYAGLHLGPAIGANE-ALTSLNLSWNH-LRRKGACAVALSLKENIFLKSLNLSWNGFGDDGALAIGEALKFNS- 93 
+                          6777888888888888888888888888888.88888888888.678888888888888888888888888888888888888888877. PP
+
+       NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea..kkltaLdLssneis 959
+                          +l +LdLs+n i+ +g++ + + l en+ l  L+++ n +   G+  l  +Lk++    l +LdL   ++s
+  Ccrux.Trinity.13970  94 SLIELDLSNNRITADGAEYIYKGLMENESLQILKVGQNPMQSPGAVRLLSVLKNNpqSALLSLDLTDIQVS 164
+                          77788888888888888888888888888888888888888888888888888887566778887766666 PP
+
+>> Ccrux.Trinity.13956  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.3   0.7   4.3e-21   4.2e-18     801     959 ..       7     164 ..       4     181 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 66.3 bits;  conditional E-value: 4.3e-21
+       NLR_alignement 801 snknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskc 890
+                          +nk L+ Ld++ n + +    +l  a+ +++  lt L+ls+n+    +g+  ++ +lk +  l +L+L+ n  +d G+  + eaLk    
+  Ccrux.Trinity.13956   7 ANKSLKTLDISHNLLEEYAGLHLGPAIGANE-ALTSLNLSWNH-LRRKGACAVALSLKENIFLKSLNLSWNGFGDDGALAIGEALKFNS- 93 
+                          5777888888888888888888888888888.88888888888.678888888888888888888888888888888888888888877. PP
+
+       NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea..kkltaLdLssneis 959
+                          +l +LdLs+n i+ +g++ + + l en+ l  L+++ n +   G+  l  +Lk++    l +LdL   ++s
+  Ccrux.Trinity.13956  94 SLIELDLSNNRITADGAEYIYKGLMENESLQILKVGQNPMQSPGAVRLLSVLKNNpqSALLSLDLTDIQVS 164
+                          77788888888888888888888888888888888888888888888888888887556777887766666 PP
+
+>> Ccrux.Trinity.13976  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.3   0.7   4.3e-21   4.2e-18     801     959 ..       7     164 ..       4     181 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 66.3 bits;  conditional E-value: 4.3e-21
+       NLR_alignement 801 snknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskc 890
+                          +nk L+ Ld++ n + +    +l  a+ +++  lt L+ls+n+    +g+  ++ +lk +  l +L+L+ n  +d G+  + eaLk    
+  Ccrux.Trinity.13976   7 ANKSLKTLDISHNLLEEYAGLHLGPAIGANE-ALTSLNLSWNH-LRRKGACAVALSLKENIFLKSLNLSWNGFGDDGALAIGEALKFNS- 93 
+                          5777888888888888888888888888888.88888888888.678888888888888888888888888888888888888888877. PP
+
+       NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea..kkltaLdLssneis 959
+                          +l +LdLs+n i+ +g++ + + l en+ l  L+++ n +   G+  l  +Lk++    l +LdL   ++s
+  Ccrux.Trinity.13976  94 SLIELDLSNNRITADGAEYIYKGLMENESLQILKVGQNPMQSPGAVRLLSVLKNNpqSALLSLDLTDIQVS 164
+                          77788888888888888888888888888888888888888888888888888887556777887766666 PP
+
+>> Ccrux.Trinity.13983  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.3   0.7   4.3e-21   4.2e-18     801     959 ..       7     164 ..       4     181 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 66.3 bits;  conditional E-value: 4.3e-21
+       NLR_alignement 801 snknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskc 890
+                          +nk L+ Ld++ n + +    +l  a+ +++  lt L+ls+n+    +g+  ++ +lk +  l +L+L+ n  +d G+  + eaLk    
+  Ccrux.Trinity.13983   7 ANKSLKTLDISHNLLEEYAGLHLGPAIGANE-ALTSLNLSWNH-LRRKGACAVALSLKENIFLKSLNLSWNGFGDDGALAIGEALKFNS- 93 
+                          5777888888888888888888888888888.88888888888.678888888888888888888888888888888888888888877. PP
+
+       NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea..kkltaLdLssneis 959
+                          +l +LdLs+n i+ +g++ + + l en+ l  L+++ n +   G+  l  +Lk++    l +LdL   ++s
+  Ccrux.Trinity.13983  94 SLIELDLSNNRITADGAEYIYKGLMENESLQILKVGQNPMQSPGAVRLLSVLKNNpqSALLSLDLTDIQVS 164
+                          77788888888888888888888888888888888888888888888888888887556777887766666 PP
+
+>> Ccrux.Trinity.10037  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   1.4      0.46   4.6e+02     181     267 ..     110     223 ..     100     247 .. 0.61
+   2 !   65.4   0.2   8.1e-21     8e-18     718     891 ..     311     477 ..     293     491 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.1 bits;  conditional E-value: 0.46
+       NLR_alignement 181 feeky...vfkqhrpv..vslaeylkelkklvksqte..keelfqaseeakt......................vekriklddvftslvl 241
+                          f++++   v +q+  +  +  +  +++ kk+ k+q++  + +l++ + + ++                       + +i + +  +++ +
+  Ccrux.Trinity.10037 110 FQAHFatpVTNQSP-SkaKKSNTIIRKKKKKRKQQQNalTTTLLEED-KMSEkdikpssetegshpntvtegfpSKPSIAWGSRQEDHSP 197
+                          56666554444332.21212222222223333333333322222222.2222466777777888899999999888899*********** PP
+
+       NLR_alignement 242 qtgrakkeftglrrrdqlsylkstsr 267
+                          +++r+++++t++++++ql + +  s 
+  Ccrux.Trinity.10037 198 YPQRKNEKLTEQQQQQQLELERCMSD 223
+                          ************99999876444433 PP
+
+  == domain 2  score: 65.4 bits;  conditional E-value: 8.1e-21
+       NLR_alignement 718 sldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnk 807
+                           + ++++ +  v+++ +a++lk + +  +l+l gn+   +   G + i+ a  ken  lt+ dls n +    +  +akvL+   +n++ 
+  Ccrux.Trinity.10037 311 AVTMKYHGIGSVGAIPLARALKENTRTDSLNLTGNH---LRAHGGMMIALA-VKENLYLTSVDLSDNFMGAVVGITFAKVLMTN-PNIKI 395
+                          467889999999999999999999999999999999...588999999999.89999999999999999999999999998876.99999 PP
+
+       NLR_alignement 808 LdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskck 891
+                          ++L+ n+ +d+ + + +e lk++k +l eL +s ne + + g   l   l ++  l +L+L  n I  +G+vs++ aLkv + +
+  Ccrux.Trinity.10037 396 MKLKGNHFTDKVACAFAEMLKTNK-TLEELDMSYNE-MGERGGLYLGAGLGMNVGLKSLNLRWNSIFSKGAVSMAAALKVTPQT 477
+                          999999999999999999999999.99999999999.89999999999999999999999999999999999999999998755 PP
+
+>> Ccrux.Trinity.23545  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   1.8   6.8e-20   6.7e-17     781     914 ..       3     158 ..       1     167 [. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 6.8e-20
+       NLR_alignement 781 lstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne............e.............i 845
+                          ++ ++id    d++a +L +  ++L+ ++L + ++ d  + +l+  +   + +l+ L l+gn             e             +
+  Ccrux.Trinity.23545   3 IRGWKIDKKMLDVMAAILPHQ-EKLETINLWNVGLDDDTLEALVSLITRLP-SLQTLYLDGNSsvalhrynqlldEnstiqhlslrhsyV 90 
+                          7889*************8887.99***********************9999.9*********9555555544444044444555555557 PP
+
+       NLR_alignement 846 tddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevl 914
+                           d+g+  + +al  +++l +L+L +n+It++Gv+ +++ ++  + +l  L+Ls+n i  +g++++a++l
+  Ccrux.Trinity.23545  91 NDAGAELIGNALARNKTLLSLNLAFNKITCEGVKAIAKGMRMNR-TLLILNLSNNRIANEGAQHIAKIL 158
+                          88888888888888888888888888888888888888888888.888888888888888888888887 PP
+
+>> Ccrux.Trinity.13966  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.8   3.7   1.9e-19   1.9e-16     831     958 ..     117     237 ..      75     246 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 60.8 bits;  conditional E-value: 1.9e-19
+       NLR_alignement 831 ksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensql 920
+                          k+++ + gl+    i  dg+  +c +l ++ ++t+L++  n+ +  G +++c+ Lk+ +c +t Ld+s+n+i  +g++sl evl  + +l
+  Ccrux.Trinity.13966 117 KLQMSHHGLD----I--DGAHAICTSLMTNTTVTQLNIADNHLGSLGTSHVCDMLKE-NCYITDLDISDNKIGVEGITSLVEVLLTTKNL 199
+                          3333333333....4..5666666666666666666666666666666666666655.45666666666666666666666666666666 PP
+
+       NLR_alignement 921 ttLyLsyneitdaGveslaeaLkeakkltaLdLssnei 958
+                           +L +  n    + +e+la a++ +k l+ Ld+s n +
+  Ccrux.Trinity.13966 200 KKLCVRGNLLGRKAAEKLAMAIEANKSLKTLDISHNLL 237
+                          66666666666666666666666666666666666554 PP
+
+>> Ccrux.Trinity.11752  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.7   2.4   3.3e-18   3.3e-15     831     973 ..      10     154 ..       2     157 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 56.7 bits;  conditional E-value: 3.3e-18
+       NLR_alignement 831 ksklteLglsgneeitddgvvslceal...kascklteLyLkrn.eItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlke 916
+                          + +++ L   +++  +d+g+  ++  l   k +c l eL L +n ++t+ G + L+ a+ ++ c+l+ L +  n++ D g+ ++a +l +
+  Ccrux.Trinity.11752  10 P-NIKALDVGDCN-LSDEGIRLISTLLphsKSKCDLHELTLTGNkNVTQLGWTQLAMAVANG-CTLKRLYIDYNNLGDFGAGNFAVALAA 96 
+                          3.45566666666.566666666666633224566666666665446666666666666665.366666666666666666666666666 PP
+
+       NLR_alignement 917 nsqlttLyLsyneitdaGveslaeaLkea.kkltaLdLssneisnegvaslaealkvn 973
+                            +l  L+L +  itd G+e l++ L      l++++L  n is+  +  + e+++ n
+  Ccrux.Trinity.11752  97 CRTLQVLDLDCCGITDTGAELLFDLLSTFkLPLQQISLNDNGISEDLLSDIKESIADN 154
+                          6666666666666666666666666666655666666666666666666666666544 PP
+
+>> Ccrux.Trinity.4075  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.2   5.2   3.7e-17   3.7e-14     815     928 ..     181     293 ..     175     320 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 3.7e-17
+      NLR_alignement 815 isdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDv 905
+                         i + ++   i  lk    +l+eL+l++ +++ d+ ++ l++ l+++ +lt+L+L   ++tda ++s c++Lk  + +l +L+L++n i+ +
+  Ccrux.Trinity.4075 181 INELDLEDAISKLKNGDESLKELNLNNHKDVNDETLQFLADNLRHNNHLTTLHLANCKVTDAHIKSFCDSLKSNT-SLESLNLESNLITAE 270
+                         555566666666666666777777777777777777777777777777777777777777777777777777666.777777777777777 PP
+
+      NLR_alignement 906 gvaslaevlkensqlttLyLsyn 928
+                         g++ l + l  n  l +++L  +
+  Ccrux.Trinity.4075 271 GIEDLMNMLAGNKSLREIKLANQ 293
+                         77777777777766666666544 PP
+
+>> Ccrux.Trinity.324  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   0.8   4.1e-17   4.1e-14     862     982 ..       1     120 [.       1     124 [. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 4.1e-17
+     NLR_alignement 862 klteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdL 953
+                        kl+eL+L +n+ ++++   L   ++    ++  LdLs n++  +g++++a  lk+n++l  L+L+ n  ++ G+ +la++L+ +++lt+ +L
+  Ccrux.Trinity.324   1 KLAELNLRGNDLGEKVGIALGPGINAND-SIEVLDLSWNQLRGKGAQEIAIGLKANCTLKVLDLEWNGFSNSGALALADVLRANNTLTEVNL 91 
+                        6788888888888888888888888888.888888888888888888888888888888888888888888888888888888888888888 PP
+
+     NLR_alignement 954 ssneisnegvaslaealkvnckltkLylw 982
+                        s+n+i   g    a+ l++n +l  L ++
+  Ccrux.Trinity.324  92 SNNRIGCDGAIVFAKGLDGNNTLEVLKVS 120
+                        88888888888888888888888877765 PP
+
+>> Ccrux.Trinity.13954  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.9   1.6e-16   1.6e-13     865     972 ..     117     223 ..      78     225 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 1.6e-16
+       NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLs 954
+                          +L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L   
+  Ccrux.Trinity.13954 117 KLQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVR 205
+                          5566666666789999999999999.9999999999999999999999999999999999999999999999999999999999999999 PP
+
+       NLR_alignement 955 sneisnegvaslaealkv 972
+                           n +  ++ ++la a++v
+  Ccrux.Trinity.13954 206 GNLLGRKAAEKLAMAIEV 223
+                          999999999999888765 PP
+
+>> Ccrux.Trinity.13964  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.9   1.6e-16   1.6e-13     865     972 ..     117     223 ..      78     225 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 1.6e-16
+       NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLs 954
+                          +L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L   
+  Ccrux.Trinity.13964 117 KLQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVR 205
+                          5566666666789999999999999.9999999999999999999999999999999999999999999999999999999999999999 PP
+
+       NLR_alignement 955 sneisnegvaslaealkv 972
+                           n +  ++ ++la a++v
+  Ccrux.Trinity.13964 206 GNLLGRKAAEKLAMAIEV 223
+                          999999999999888765 PP
+
+>> Ccrux.Trinity.13969  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.9   1.6e-16   1.6e-13     865     972 ..     117     223 ..      78     225 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 1.6e-16
+       NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLs 954
+                          +L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L   
+  Ccrux.Trinity.13969 117 KLQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVR 205
+                          5566666666789999999999999.9999999999999999999999999999999999999999999999999999999999999999 PP
+
+       NLR_alignement 955 sneisnegvaslaealkv 972
+                           n +  ++ ++la a++v
+  Ccrux.Trinity.13969 206 GNLLGRKAAEKLAMAIEV 223
+                          999999999999888765 PP
+
+>> Ccrux.Trinity.13981  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.9   1.6e-16   1.6e-13     865     972 ..     117     223 ..      78     225 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 1.6e-16
+       NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLs 954
+                          +L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L   
+  Ccrux.Trinity.13981 117 KLQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVR 205
+                          5566666666789999999999999.9999999999999999999999999999999999999999999999999999999999999999 PP
+
+       NLR_alignement 955 sneisnegvaslaealkv 972
+                           n +  ++ ++la a++v
+  Ccrux.Trinity.13981 206 GNLLGRKAAEKLAMAIEV 223
+                          999999999999888765 PP
+
+>> Ccrux.Trinity.13984  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.2   1.9   1.6e-16   1.6e-13     865     972 ..     117     223 ..      78     225 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 51.2 bits;  conditional E-value: 1.6e-16
+       NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLs 954
+                          +L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L   
+  Ccrux.Trinity.13984 117 KLQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVR 205
+                          5566666666789999999999999.9999999999999999999999999999999999999999999999999999999999999999 PP
+
+       NLR_alignement 955 sneisnegvaslaealkv 972
+                           n +  ++ ++la a++v
+  Ccrux.Trinity.13984 206 GNLLGRKAAEKLAMAIEV 223
+                          999999999999888765 PP
+
+>> Ccrux.Trinity.13957  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   5.1   3.3e-16   3.3e-13     866     972 ..       9     114 ..       4     116 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 3.3e-16
+       NLR_alignement 866 LyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLss 955
+                          L+++       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+L++s n+i   G++sl+e+L   k+l++L    
+  Ccrux.Trinity.13957   9 LQMSHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITDLDISDNKIGVEGITSLVEVLLTTKNLKKLCVRG 97 
+                          555555566689999*****9999.9*************************************************************999 PP
+
+       NLR_alignement 956 neisnegvaslaealkv 972
+                          n +  ++ ++la a++v
+  Ccrux.Trinity.13957  98 NLLGRKAAEKLAMAIEV 114
+                          99999999999888765 PP
+
+>> Ccrux.Trinity.51793  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.4   0.9   1.1e-15   1.1e-12     716     974 ..      25     299 ..      15     328 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 48.4 bits;  conditional E-value: 1.1e-15
+       NLR_alignement 716 lnsldlstedlspvdctavaeflkvvkalnalels........................gnysrnisdtGlrsitealekenctlteLdl 781
+                           n ld ++  +   +   +  +l+ ++ l+++ l                         +  sr+++ + +rsi + l  +   l++L l
+  Ccrux.Trinity.51793  25 ENCLDCNVDRIRHSEWVPILAALESNESLTKIALRsywenspkqeelhqkayllkrkppSIRSRDVAFKLCRSIKNCLG-VSDSLASLTL 113
+                          6777788888888888889999999999999999944444444444444444444444433337799999999999965.677899**** PP
+
+       NLR_alignement 782 stnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrn 871
+                          +   + +    +lak L k+ k L++ +L + +i+d g+  l   +k    ++  L+l g++  t +g++ + + +k  ++ t  y  + 
+  Ccrux.Trinity.51793 114 RGILLIEKDLRQLAKGLLKA-KALTHFSLEFCNIGDGGLEVLRSSIKNCV-HILSLNLTGCD-LTSKGATVIGDLIK--SQATRRYGTTW 198
+                          **99999999******9999.***************************99.***********.9*************..77777665554 PP
+
+       NLR_alignement 872 eItdaGvvsLceaLkvskckltkLdLsen.eisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.is 959
+                             ++ +      L++    ++ L + en e  D+g+  la++lk +  + +L+L    i++ G+e + + L+ + +l  Ld+  n+ i 
+  Ccrux.Trinity.51793 199 ---QESLRYRRPDLDQMS-GIRRLTICENpEFGDDGAYILADALKDDLWIKALDLQECGISNDGAERILNMLQFNSTLVVLDIRLNPgID 284
+                          ...466777777787777.79****9998678*******************************************************9** PP
+
+       NLR_alignement 960 negvaslaealkvnc 974
+                          +  v+s+   + +n 
+  Ccrux.Trinity.51793 285 EVLVKSIIGDVLSNG 299
+                          999999976664443 PP
+
+>> Ccrux.Trinity.59167  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.7   0.0   1.7e-15   1.7e-12     862     945 ..       3      85 ..       1      95 [. 0.48
+
+  Alignments for each domain:
+  == domain 1  score: 47.7 bits;  conditional E-value: 1.7e-15
+       NLR_alignement 862 klteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea 945
+                          +lt+L L+ n+I+ +G + L+ aL++   +lt LdL  n+i  +g ++la +l++n +lt L+L y ++ d   es+ + ++++
+  Ccrux.Trinity.59167   3 TLTTLDLGWNDIGAEGGKALAAALEKND-TLTTLDLGWNDIGAEGGKALAAALENNDTLTPLNLRYHDVLDSTYESIEQMIRNN 85 
+                          4444445555555555555555554444.4444555555554444445555554444455555555544444444444444444 PP
+
+>> Ccrux.Trinity.62973  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   4.9e-05     0.049     892     945 ..       3      56 ..       1      61 [. 0.57
+   2 ?   -0.7   0.0      0.71   7.1e+02     803     845 ..      69     111 ..      66     117 .. 0.83
+   3 !   25.3   2.2   9.8e-09   9.7e-06     794     902 ..     122     261 ..      92     275 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 4.9e-05
+       NLR_alignement 892 ltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea 945
+                          l ++dLs+n+  D+g+ +l+  l     l  L+L + ++t  G   +a+a  +a
+  Ccrux.Trinity.62973   3 LESIDLSCNNFGDAGMRHLSPMLCTLPSLLPLQLNCVSMTHSGLSTMANAFAKA 56 
+                          445566666666666666666665555556666666666666666666665554 PP
+
+  == domain 2  score: -0.7 bits;  conditional E-value: 0.71
+       NLR_alignement 803 knLnkLdLlsneisdegvkslieal.kfsksklteLglsgneei 845
+                          + L++L + +n+ s+  +  +   l   ++s l+ L l++++ i
+  Ccrux.Trinity.62973  69 PALRNLAIGFNDFSNPQIGGILALLvDIVSSDLQALDLDSCD-I 111
+                          57999**********99998877662568999*********9.5 PP
+
+  == domain 3  score: 25.3 bits;  conditional E-value: 9.8e-09
+       NLR_alignement 794 lakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne...........e........................itdd 848
+                          l  v ik++++L++L L+ n +s      l ++l      l +++l+g+            +                        i   
+  Ccrux.Trinity.62973 122 LG-VAIKGCEQLSSLVLSGNALSASSWHDLLRVLPMRT--LSQINLNGCVskaesisafqnQlpqlfemghylrilslngmrigsaINSI 208
+                          33.449****************************9987..*********96666655555505555555666666666666666668788 PP
+
+       NLR_alignement 849 gvvslcealkascklteLyLkrneItdaGv.vsLceaLkvskckltkLdLsenei 902
+                           +++l + +   + l eL+L  n+ td+G+ ++L+ aL + +  l+ Ld s+n +
+  Ccrux.Trinity.62973 209 RLQQLISLIANLSVLEELHLADNDLTDRGMpQCLASALSQLN--LRVLDVSGNRM 261
+                          99999999999999***************9679999996655..777****9975 PP
+
+>> Ccrux.Trinity.27400  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.8  14.2   3.4e-12   3.4e-09     876    1053 ..       4     190 ..       2     311 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 36.8 bits;  conditional E-value: 3.4e-12
+       NLR_alignement  876 aGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegv 963 
+                            Gv s++e L   + +l  LdL++n+is + v+ la +l++n  l +L+L  n+    G+ +l+ +Lk++ +l +L Ls n++ n  +
+  Ccrux.Trinity.27400    4 MGVRSIAEGLALNQ-TLIYLDLRNNQISHESVTDLAAALRKNKMLRALDLRWNNAGIIGARALVGTLKHNATLLQLKLSGNNVPNDIL 90  
+                           69************.999********************************************************************** PP
+
+       NLR_alignement  964 aslaealkvnckltkLy.lwdalteapdttlv..edikrvkcyrntvyghanryyqdiqgpfvrrGgggyqaaid.......dlktkC 1041
+                           ++++  l+ n+         ++lt +  +++v  e+++++++ + t+     r++q++ +++++   g++++ ++       +l  kC
+  Ccrux.Trinity.27400   91 QNISTLLARNSERHAAQeKQESLTSTMRNEMValEEVQKLQVSNLTAQLSQERLFQESLSNSTQEKIGNLKSVLEerravaeKLSEKC 178 
+                           ***999999988777776778888776665542278999999999997778899*****99999888888765550000000444455 PP
+
+       NLR_alignement 1042 mvsdfeerykel 1053
+                             +++   + +l
+  Ccrux.Trinity.27400  179 RAAEKALEFAKL 190 
+                           555544444444 PP
+
+>> Ccrux.Trinity.35209  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.4   8.4   1.1e-09   1.1e-06     298     951 ..      90     717 ..      87     718 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 28.4 bits;  conditional E-value: 1.1e-09
+       NLR_alignement 298 GkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgf 387
+                          G  g gKt +c++l+ +Wa+ +  l    + ++v+l++++     +s     +dll   + l+da +          d   ++++l+d  
+  Ccrux.Trinity.35209  90 GPRGSGKTCLCKRLALEWANQQYILT--AQNNIVVLIQLKRSPH-FS---AWQDLLRYDEHLNDADHATL----TRPDVIAQTMLLIDAS 169
+                          56666666666666666666666664..3444455555332211.11...24666664333333332222....2233333455555543 PP
+
+       NLR_alignement 388 dEysaadsilkdldypnnakekmplsALytkLlkGkilrgsvvlitsrpgevdslkeiafdrrveItgftkeevkefvekyfkdda.dtk 476
+                              +  ++++                 ++kLl  + ++ s v++ts   +   l+   fd  v +  ++  +  e   k   +d+ +  
+  Ccrux.Trinity.35209 170 AV--HDGHVIEA----------------VIKLLANQGFH-S-VVLTSANSQP--LALTVFDAVVSMDELSPAQSDELARKTLSRDSyEQW 237
+                          33..22222222................34666666666.3.3444433333..344447777777777777777777776666663344 PP
+
+       NLR_alignement 477 navlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkrhlksnkekdsadeiaassedlpdeventl 566
+                          ++  +++++ ++l+   + P+ c + C  + +   +    +a P   te+ ++vv+ +  r  ++ +    ++++          +e +l
+  Ccrux.Trinity.35209 238 RRDSDDVEVVQQLM---KNPLCCWIACKAYVD---AG---NAYPQAKTELLSIVVKALHSRLKQDDQY--RTTDYSS--------IEIEL 308
+                          45556666655555...777777777765533...22...4667777777777776543332222222..2334433........34444 PP
+
+       NLR_alignement 567 kklkelaangLvedrliFdseeve.nlrasgllerspekrvsaletekkfCFiHltlQEylAArwlakkvenpdl.selvlkcvkkasdt 654
+                           k +    +g        +s      l++ g+l+   e +  +le+ ++       +  + AA+ l ++ +++ + s+l ++ v   +++
+  Ccrux.Trinity.35209 309 AKQGRAVITGDYASTREGPSWNTAgLLVEMGILQ--EEIEGTTLEPSRRLVCSNGAFANFCAAHALINEYSEETKpSKLAIDFVRTRKNR 396
+                          4444433333332222222222222445555555..455555556666655566666777777777777774333344666666555555 PP
+
+       NLR_alignement 655 lvlqFvsGllgkqnekvlvelLevrlltsliektaalllmkcltEynekelaeklikkelflnsldlstedlspvdctavaeflkvvka. 743
+                                 Gll       l + L +     + +    +    cl+E+n+ ++  +  +  ++l  ldl  +dl    +  ++++++ + + 
+  Ccrux.Trinity.35209 397 EACAMAVGLLPRIATALLSDILRG-----ELDTSGVIAICDCLAESNAATIDLSTFHDAVLLLHLDLGWRDLRSSTVKGLVRLMRIIDEs 481
+                          5556789***99888888887776.....445555677789**********99998999**************************99761 PP
+
+       NLR_alignement 744 .lnalels.....................gnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLl 811
+                           +    ls                     gn+   +  +  + i++++     tl +L+ls +++ d+    ++         L+ LdL+
+  Ccrux.Trinity.35209 482 aMRGPRLSidrdstnapdpvadqcqldiqGNV---LRPGSFKLICDLISSTQSTLQSLNLSDTELGDDFLLYMSGRATSERLALSWLDLS 568
+                          14444555655555555555555555544444...5777788899999999999999999999999999999998866666789999999 PP
+
+       NLR_alignement 812 sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyL........krneItdaGvvsLceaLkvskcklt 893
+                          +n+ sd  +   i    +s  +l+++ l++ + i ++ + sl++ l    +l++L +        ++ ++  a v   ++aL   + +l+
+  Ccrux.Trinity.35209 569 ENRFSDDAICKFIATRLAS--NLQHMLLEDVD-IGEKSLRSLTKCLANTITLATLLIgssarartSADKVSAATVEVFADALAINR-SLQ 654
+                          9999998776666544344..59999999999.99999999999999999999997722222222356788889999999999999.999 PP
+
+       NLR_alignement 894 kLdLsenei..sDvgvaslaevlkensqlttLyLsyneitdaGvesla...eaLkeakkltaL 951
+                          +L++++++i      v +l +v   ns l ++++ +++ td  ve +     a+k +++lt L
+  Ccrux.Trinity.35209 655 ALSMNDSHIglGSGRVDNLVKVTAGNSSLRDIQVRMSDATDLTVEDIYmvvMAIKGNRTLTRL 717
+                          999999999755666999999999999999999999999999999875111567777777776 PP
+
+>> Ccrux.Trinity.35207  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   4.3   1.1e-11   1.1e-08     618     954 ..     197     558 ..      20     579 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 1.1e-11
+       NLR_alignement 618 iHltlQEylAArwlakkvenpdl.selvlkcvkkasdtlvlqFvsGllgkqnekvlvelLevrlltsliektaalllmkcltEynekela 706
+                              +  + AA+ l ++ +++ + s+l ++ v   +++       Gll       l + L +     + +    +    cl+E+n+ ++ 
+  Ccrux.Trinity.35207 197 SNGAFANFCAAHALINEYSEETKpSKLAIDFVRTRKNREACAMAVGLLPRIATALLSDILRG-----ELDTSGVIAICDCLAESNAATID 281
+                          44556677888888887774444445666666666655555668899998888777776666.....445555667789**********9 PP
+
+       NLR_alignement 707 eklikkelflnsldlstedlspvdctavaeflkvvka..lnalels.....................gnysrnisdtGlrsitealeken 773
+                           +  +  ++l  ldl  +dl    +  ++++++ + +  +    ls                     gn+   +  +  + i++++    
+  Ccrux.Trinity.35207 282 LSTFHDAVLLLHLDLGWRDLRSSTVKGLVRLMRIIDEsaMRGPRLSidrdstnapdpvadqcqldiqGNV---LRPGSFKLICDLISSTQ 368
+                          9998999**************************9976114445555666665555555555555555554...6777789999**9**** PP
+
+       NLR_alignement 774 ctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkasckl 863
+                           tl +L+ls +++ d+    ++         L+ LdL++n+ sd  +   i    +s  +l+++ l++ + i ++ + sl++ l    +l
+  Ccrux.Trinity.35207 369 STLQSLNLSDTELGDDFLLYMSGRATSERLALSWLDLSENRFSDDAICKFIATRLAS--NLQHMLLEDVD-IGEKSLRSLTKCLANTITL 455
+                          *****************9999998666678999***********9777766544444..699999**999.9*************999** PP
+
+       NLR_alignement 864 teLyL........krneItdaGvvsLceaLkvskckltkLdLsenei..sDvgvaslaevlkensqlttLyLsyneitdaGvesl...ae 940
+                          ++L +        ++ ++  a v   ++aL   + +l++L++++++i      v +l +v   ns l ++++ +++ td  ve +   + 
+  Ccrux.Trinity.35207 456 ATLLIgssarartSADKVSAATVEVFADALAINR-SLQALSMNDSHIglGSGRVDNLVKVTAGNSSLRDIQVRMSDATDLTVEDIymvVM 544
+                          99987222222224568999999999*****999.***********975566799***************************99832246 PP
+
+       NLR_alignement 941 aLkeakkltaLdLs 954
+                          a+k +++lt L+L 
+  Ccrux.Trinity.35207 545 AIKGNRTLTRLELD 558
+                          89999999999996 PP
+
+>> Ccrux.Trinity.57567  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   1.4   2.2e-11   2.2e-08     774     842 ..       4      71 ..       1      72 [] 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 2.2e-11
+       NLR_alignement 774 ctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgn 842
+                           tl  +dls n+i ++ga+ la++L +  + L+ L+L+sn+i d g++++++ l   +++l+ + l +n
+  Ccrux.Trinity.57567   4 MTLRYIDLSSNKISRDGASCLAQLLAEN-TPLEYLNLSSNRIEDDGAIAISKSLARLNTSLQTIALCSN 71 
+                          3444455555555555555555554333.4455555555555555555555555555555554444433 PP
+
+>> Ccrux.Trinity.35212  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   4.2   8.5e-11   8.5e-08     618     951 ..     197     555 ..      20     556 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 8.5e-11
+       NLR_alignement 618 iHltlQEylAArwlakkvenpdl.selvlkcvkkasdtlvlqFvsGllgkqnekvlvelLevrlltsliektaalllmkcltEynekela 706
+                              +  + AA+ l ++ +++ + s+l ++ v   +++       Gll       l + L +     + +    +    cl+E+n+ ++ 
+  Ccrux.Trinity.35212 197 SNGAFANFCAAHALINEYSEETKpSKLAIDFVRTRKNREACAMAVGLLPRIATALLSDILRG-----ELDTSGVIAICDCLAESNAATID 281
+                          44556677888888887774444345666666666655555668899998888777776666.....445555667789**********9 PP
+
+       NLR_alignement 707 eklikkelflnsldlstedlspvdctavaeflkvvka..lnalels.....................gnysrnisdtGlrsitealeken 773
+                           +  +  ++l  ldl  +dl    +  ++++++ + +  +    ls                     gn+   +  +  + i++++    
+  Ccrux.Trinity.35212 282 LSTFHDAVLLLHLDLGWRDLRSSTVKGLVRLMRIIDEsaMRGPRLSidrdstnapdpvadqcqldiqGNV---LRPGSFKLICDLISSTQ 368
+                          9998999**************************9976114444555655555555555555555544444...57777888999999999 PP
+
+       NLR_alignement 774 ctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkasckl 863
+                           tl +L+ls +++ d+    ++         L+ LdL++n+ sd  +   i    +s  +l+++ l++ + i ++ + sl++ l    +l
+  Ccrux.Trinity.35212 369 STLQSLNLSDTELGDDFLLYMSGRATSERLALSWLDLSENRFSDDAICKFIATRLAS--NLQHMLLEDVD-IGEKSLRSLTKCLANTITL 455
+                          999999999999999999999988666667899999999999998776666544344..59999999999.9999999999999999999 PP
+
+       NLR_alignement 864 teLyL........krneItdaGvvsLceaLkvskckltkLdLsenei..sDvgvaslaevlkensqlttLyLsyneitdaGvesla...e 940
+                          ++L +        ++ ++  a v   ++aL   + +l++L++++++i      v +l +v   ns l ++++ +++ td  ve +     
+  Ccrux.Trinity.35212 456 ATLLIgssarartSADKVSAATVEVFADALAINR-SLQALSMNDSHIglGSGRVDNLVKVTAGNSSLRDIQVRMSDATDLTVEDIYmvvM 544
+                          9997722222222356788889999999999999.9999999999997556669999999999999999999999999999998751115 PP
+
+       NLR_alignement 941 aLkeakkltaL 951
+                          a+k +++lt L
+  Ccrux.Trinity.35212 545 AIKGNRTLTRL 555
+                          67777777776 PP
+
+>> Ccrux.Trinity.64509  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   3.1   7.5e-10   7.5e-07     789     914 ..      27     151 ..      11     152 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 7.5e-10
+       NLR_alignement 789 egadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGv 878
+                          +  ds+ + L++s      LdL++ ++sd +   + + l+ ++   t ++  ++   t+   + l  +l  +  + +L+ k+n+++ +G+
+  Ccrux.Trinity.64509  27 DVSDSVLSCLSRSVSSDDYLDLSACNLSDSDCSVIGKCLSEDS-FFTSINFTDCL-LTESCCQMLLRSLCSNNVVRKLNFKGNNVRLSGA 114
+                          4445555566999889999999999999999999999999999.99999999999.8999999999999999999999999999999999 PP
+
+       NLR_alignement 879 vsLceaLkvskckltkLdLsenei..sDvgvaslaevl 914
+                            +++ Lk+ k  l +L+++ n +     gv ++ae l
+  Ccrux.Trinity.64509 115 EEISKLLKQTK-YLAHLSIEWNALgmWEMGVRAIAEGL 151
+                          99999999999.99999999998865677888888765 PP
+
+>> Ccrux.Trinity.14183  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   1.3   7.7e-05     0.077     834     938 ..     106     203 ..      92     212 .. 0.86
+   2 !   19.9   6.3   4.2e-07   0.00042     784     966 ..     219     413 ..     209     422 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 7.7e-05
+       NLR_alignement 834 lteLglsgneeitddgvvslcealkascklteLyL.krneItdaGvvsLceaLkvskckltkLdL.seneisDvgvaslaevlkensqlt 921
+                          l++L+l+g++ ++dd++   ++  k   ++ eL L + n  t++   sL+    +   +l+ Ld+ s+  i D+g+  la+     s+l 
+  Ccrux.Trinity.14183 106 LKRLNLQGCQSVADDALRTFAHQCK---NIEELILrDCNRLTNRTCESLS----KYAARLQYLDIeSCAAIDDQGLSRLADGC---SKLE 185
+                          789*******************998...899***9446999998755555....44558999**955789***********99...99** PP
+
+       NLR_alignement 922 tLyLs.yneitdaGvesl 938
+                           L++s +  +t  Gv+++
+  Ccrux.Trinity.14183 186 YLNISwCHRVTTEGVKAI 203
+                          ****9799*******987 PP
+
+  == domain 2  score: 19.9 bits;  conditional E-value: 4.2e-07
+       NLR_alignement 784 nqiddegadslakvLiksnknLnkLdLls.neisdegvksliealkfsksklteLglsgne..........................eit 846
+                           +i+deg++ +a      ++ L+kL L++ ++i+de vk+++         l   + sg++                          + t
+  Ccrux.Trinity.14183 219 ANIRDEGVQLVAVN----CTALKKLVLQNcSNITDEAVKAVSSHCT----DLEFASVSGCDaltdnclkyfgdgchelrtleaarcsQFT 300
+                          68999999977765....789******87699***99998865443....3445568888866666666666666666666666666589 PP
+
+       NLR_alignement 847 ddgvvslcealkascklteLyLkr.neItdaGvvsLceaLkvskckltkLdLs.eneisDvgvaslaevlk..ensqlttLyLsyneitd 932
+                          d+g + l+   +   +l  + L+    Itd+ + sL+    + + +l++L Ls +++i+D+g+ +l+       n ++ +L+  + +itd
+  Ccrux.Trinity.14183 301 DNGFMALTRGCH---ELQRMDLEEcVLITDNTLNSLAY---NCP-RLRALTLShCEQITDEGIRHLCAGQCaiDNLEVVELD-NCPSITD 382
+                          999888866655...56677776524599999999875...445.7899999746899999999999754312444444444.5788999 PP
+
+       NLR_alignement 933 aGveslaeaLkeakkltaLdLssne.isnegvasl 966
+                          a  e l+    + + l+ ++L+  + i+ +g+  +
+  Ccrux.Trinity.14183 383 ASLEYLR----HCQSLQRIELYDCHlITRGGIRRI 413
+                          8776654....446666666665444666666655 PP
+
+>> Ccrux.Trinity.20843  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   3.3   9.9e-08   9.8e-05     784     942 ..      72     241 ..      32     249 .. 0.76
+   2 !    9.4   4.6   0.00062      0.62     761     940 ..     299     504 ..     271     509 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 9.9e-08
+       NLR_alignement 784 nqiddegadslakvLiksnknLnkLdLls.neisdegvksliealkfsksklteLglsgne.....................eitddgvv 851
+                           q+dde  ++la+      ++L++ ++ +  e+sd+g++s+++  +  k +lt   ls+ +                     +    +vv
+  Ccrux.Trinity.20843  72 YQVDDELLEKLASC----GCQLEHVKIVAcKEVSDHGIQSICRMQRGMK-SLTLRRLSKFNgkgfetsflpeleyldlkgndNLEGSAVV 156
+                          58889988888888....48999999876378**********9988877.7777777766666888888888877777555423334444 PP
+
+       NLR_alignement 852 slcealk.ascklteLyLkr.neItdaGvvsLceaLkvskckltkLdLsenei.sDvgvaslaevlkensqlttLyLsyneitdaGvesl 938
+                               l   s+++  L+L++  ++ d  v  ++  L+ s++++  L+Ls+ +i +D+ +  +ae   +  q+ +L +++n +t +G+++l
+  Ccrux.Trinity.20843 157 V----LTrSSSRIKVLNLSKcFKVNDVAVINISRQLN-SRLEI--LKLSDVNIlTDAALYGVAEFCSNVKQI-KL-FGCNRVTKQGINAL 237
+                          4....44468899999997636999999999999997.55466..999998888998777777766333333.33.79999999999999 PP
+
+       NLR_alignement 939 aeaL 942
+                          +e L
+  Ccrux.Trinity.20843 238 CECL 241
+                          9987 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.00062
+       NLR_alignement 761 GlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsn.eisdegvksliealkfsksklteLglsgnee..... 844
+                          Gl  it   +k  +++                   ++  ++   L++ d++    i+d+   s++ +++    +l++L l  ++      
+  Ccrux.Trinity.20843 299 GLCGITSVTDKSVKKI------------------MEI--RG-ADLKEVDFSGCrTITDK---SIAAVVEHCT-ELQKLALCFCDSvegkp 363
+                          5555555544444444..................444..22.24444444432124443...2233333333.44444444444222333 PP
+
+       NLR_alignement 845 .................................................itddgvvslcealkascklteLyLkr.neItdaGvvsLcea 884
+                                                                           i+ +g   l    ++ +klt  +Lk+  +Itd+Gv  L++ 
+  Ccrux.Trinity.20843 364 lqllkspdrkkqalrlkqlllggcrkfsynvlldfipscsnletfkiagISSAGDDLLFLMSEHLSKLTLVNLKGcVQITDSGVCELANR 453
+                          333333333333333333333444446666666666666777777777755555444443333445999999987369*****9999976 PP
+
+       NLR_alignement 885 LkvskckltkLdLse.neisDvgvaslaevlkensqlttLyLs.yneitdaGveslae 940
+                              +  l+ L Ls+   ++D  v  la+++    +l +Ly+s + +it   v+ l +
+  Ccrux.Trinity.20843 454 F---P--LRILVLSGiHSVTDRCVFVLASTV--SATLKSLYVSgCAQITTPAVNYLKD 504
+                          5...3..555899974679*********999..7899999995489999888887765 PP
+
+>> Ccrux.Trinity.13967  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.1   2.6e-08   2.6e-05     833     924 ..      38      94 ..      20     100 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 2.6e-08
+       NLR_alignement 833 klteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqltt 922
+                          ++                                  +       G+  +c +L   + ++t+L++ +n++   g  ++++ lken+ +t+
+  Ccrux.Trinity.13967  38 QM----------------------------------SHHGLDIDGAHAICTSLMTNT-TVTQLNIADNHLGSLGTSHVCDMLKENCYITD 92 
+                          33..................................333333345555555555554.55555555555555555555555555555555 PP
+
+       NLR_alignement 923 Ly 924
+                          L 
+  Ccrux.Trinity.13967  93 LV 94 
+                          54 PP
+
+>> Ccrux.Trinity.59768  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.7   8.5    0.0081       8.1     798     882 ..      99     176 ..      77     195 .. 0.47
+   2 !   20.2  18.5   3.6e-07   0.00035     755     980 ..     230     438 ..     172     446 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 5.7 bits;  conditional E-value: 0.0081
+       NLR_alignement 798 LiksnknLnkLdLl.sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLc 882
+                          L+ ++  Ln+L+L    +isd gv sl++   + + +    +l +    td g+++    +ka+ +l eL  +   +t++ v+ L 
+  Ccrux.Trinity.59768  99 LSTVCSRLNSLQLEgCCRISDRGVLSLAKSCTTLQ-S---VNLLDTL-TTDVGLTE---LIKANRNLEELTSSSASVTQSTVSYLT 176
+                          34444444444443123444444444444333333.2...2222222.23333322...233444444444444444444444443 PP
+
+  == domain 2  score: 20.2 bits;  conditional E-value: 3.6e-07
+       NLR_alignement 755 rnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgnee 844
+                          +n+++t l  +++        l   +++ ++++    +sl ++  +  knL++Ld+l  + s++ + +l+      k     L+l g  +
+  Ccrux.Trinity.59768 230 NNLTNTTLEILAKC----CPMLEAVEVRMWNLTYSAEESLTNM-ARQLKNLQHLDILDAQASNQTLLALASCCPHLK----SLSLMGYSH 310
+                          66666666555544....456778899****************.7778*******************9998876555....555555557 PP
+
+       NLR_alignement 845 itddgvvslcealk..ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyL.syneit 931
+                           td+gv++l++  +      l + y +   Itd+ v ++++     ++++ +L++ +  ++D g+  l+++lk    l  L++ ++++ +
+  Ccrux.Trinity.59768 311 FTDAGVMELSKKCRelEVLCLESGYNSLESITDKSVFCIAN----NNLSILELNMGSWGVTDIGLLMLSKTLK---LLKHLNIeGCENLS 393
+                          99*******998873222234444555678********997....47788899*******************5...56778885799*** PP
+
+       NLR_alignement 932 daGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkLy 980
+                            G   l+ aL++ ++l  LdLs+ + i+    a+la+  +++  l +L 
+  Ccrux.Trinity.59768 394 HDG---LVAALENWQTLATLDLSQTKcIT--SNAELARVADSLVSLDNLI 438
+                          999...899*****************977..5566666667776666665 PP
+
+>> Ccrux.Trinity.6732  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   6.1   1.2e-07   0.00012     805     958 ..      66     216 ..       5     259 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 1.2e-07
+      NLR_alignement 805 LnkLdLlsneisdegvksliealkfsksklteLglsgne..eitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskcklt 893
+                          ++L L  +++ d +++ l++ + + + +l  L+ls n   e++  +v sl+++l+   +l +++L +n   ++ +  +  +L  s+c+l+
+  Ccrux.Trinity.6732  66 FRNLALPMSNLDDDDIVKLSDYIGKFQ-NLEDLNLSYNRmnESSTYAVESLSHSLEELRNLKTIRLTGNRL-CSLLDRIITSL--SNCRLK 152
+                         5799*******************9999.9*******987667999***********999999999999997.67788888777..678899 PP
+
+      NLR_alignement 894 kLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea.kkltaLdLssnei 958
+                          + L +  +  + ++ l e  k++ +l  ++L++n i       l++ L +  + l++L L    +
+  Ccrux.Trinity.6732 153 TIGLGCCGVRGKQLKLLTES-KATDTLEFIDLGCNTIKQH-FSRLIKFLSKTrQSLQCLKLDCIGL 216
+                         9****************998.5***************765.88999999999999***99976554 PP
+
+>> Ccrux.Trinity.60153  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   3.7   8.3e-07   0.00082     660     967 ..     281     571 ..     279     588 .. 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 8.3e-07
+       NLR_alignement 660 vsGllgkqnekvlvelLevrlltsliektaalllmkcltEynekelaekli....kkelflnsldlstedlspvdctavaeflkvvkaln 745
+                          +sG+++++ ++v+ e Le  l   +     a l+++ ++    ++l  +           l +l++s+++   +d   +a +l + ++l+
+  Ccrux.Trinity.60153 281 ISGIVHHNADHVFLEILER-L---SCSSPYACLEVRTIAAASCQTLTDNTLslisRRCPELQKLNISYCQAITGDG--LAAMLSNCPNLE 364
+                          6899999999999998774.2...2223345566666665555555555533332333456667777776666664..557888999999 PP
+
+       NLR_alignement 746 alelsgnysrnisdtGlrsiteal...ekenctlteLdlstnqiddegadslakvLiksnknLnkLdLls.neisdegvksliealkfsk 831
+                          +l  +g     +++  ++    +    +  + +l  +d+s     d+   sl +++ +s+  L+ L+L   ++i+d+ v+ ++  l+  +
+  Ccrux.Trinity.60153 365 SLAFAGCQG--VDSLDCVLGNGLSfgeNASFFQLQLIDMSDCASFDD---SLLQLIARSCSYLKFLYLRRcSQITDQSVIDIS--LHCRS 447
+                          998885543..333333322222100012344444444444433333...344444555666666666432566666555554..44443 PP
+
+       NLR_alignement 832 sklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdL.seneisDvgvaslaevlkensql 920
+                            l+e++l ++ ++ d+g+  l++       l  + L +  Itd G++ ++   +    kl+  +   ++ ++D+gva++a+      +l
+  Ccrux.Trinity.60153 448 --LREISLCDCYNVQDAGIKALAKRCP---DLRYISLAKCAITDYGLKYVARYCR----KLRYFNAhMCEGVTDAGVAKIAQNC---PRL 525
+                          ..6666666666666666665554443...5556666666666666555543322....2222222025556666666666544...455 PP
+
+       NLR_alignement 921 ttLyLs.yneitdaGveslaeaLkea.kkltaLdLssne.isnegvasla 967
+                           +L+++ + +i+d   + l     +   +l+ L+++    i++ g+ +la
+  Ccrux.Trinity.60153 526 RSLDVGkCGDISDRSLNYL----SVHsAQLRRLSIKGCSrITDSGLRKLA 571
+                          5666543556666544433....222245555555555555555555553 PP
+
+>> Ccrux.Trinity.66021  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.5   4.8   5.5e-07   0.00055     803     981 ..      75     261 ..      63     287 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 19.5 bits;  conditional E-value: 5.5e-07
+       NLR_alignement 803 knLnkLdLlsneisdegvksl....iealkfsk....sklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvv..sLc 882
+                           +L++L ++++ ++d+++  l     +a    +    ++lteL l g+      gv  l   l+ + +l  L L+rn+  ++++    L 
+  Ccrux.Trinity.66021  75 IQLQHLAIKNSAMTDNDLLLLkgylFNAADMASshhaVSLTELVLTGCG-LDRVGVNDL---LQGEIRLERLELERNHLLCEVMEmpNLM 160
+                          589999999999999999865111145554444111157**********.767777766...88999************99987622466 PP
+
+       NLR_alignement 883 eaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneit.daGveslaeaLkea..kkltaLdLssneisnegvaslaea 969
+                            L+  +  l++L+L +  +      +  ev+++ s+lttL+++   ++ +  ++ l++++ +     l  L  s+  +s+e+ ++l +a
+  Ccrux.Trinity.66021 161 TLLRRNT--LRALNLCHTGVGKLFEGEAGEVFRASSRLTTLNIGNLRVSlNSLAAILCDSIGSIglHGLAHLKRSVISTSEEEATALYRA 248
+                          6666665..899999888888777778899******************955567789****9987789********************** PP
+
+       NLR_alignement 970 l.kvnckltkLyl 981
+                          l ++n +l++L+l
+  Ccrux.Trinity.66021 249 LrRSNRTLSTLHL 261
+                          **********986 PP
+
+>> Ccrux.Trinity.28589  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.7   0.0   0.00013      0.12     795     858 ..     190     250 ..     127     265 .. 0.72
+   2 !    6.2   0.0    0.0056       5.6     921    1005 ..     274     358 ..     255     363 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00013
+       NLR_alignement 795 akvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealk 858
+                            +    ++nL+ Ld ++  +sd g+k l +  k  +  l++L lsg+ +itdd + +l++a +
+  Ccrux.Trinity.28589 190 YRL-LSQCPNLEYLDVSQTIVSDLGLKGLFKD-KGGQ-WLKHLDLSGCYNITDDTLKRLSSAWV 250
+                          445.4557*********************986.4444.6*********************9965 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.0056
+       NLR_alignement  921 ttLyL.syneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkLylwdalteapdttlvedikrvkcyrn 1005
+                           + L + ++  +t  Gv +la++      ++ LdLs  + +s+ ++ +l ++   n  l + y  d++ e p  +++   ++++c+++
+  Ccrux.Trinity.28589  274 SYLAIsGCYRVTSLGVRALAKV-DAFPAIHHLDLSGCNqVSATALLELVDRC-ENLDLANFYYCDNIVEGPYADMASGCQNLECKNR 358 
+                           55555258899*******9986.44499*******8655**88888886665.6889*************************99865 PP
+
+>> Ccrux.Trinity.47028  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   2.8   7.1e-06    0.0071     824     925 ..     129     239 ..     102     245 .. 0.59
+   2 !   15.0   1.0   1.2e-05     0.012     772     843 ..     175     243 ..     165     267 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 7.1e-06
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47028 129 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 214
+                          445554134578888888888622222222223333333333334445777777777777777777777777754....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47028 215 VTDDGVKALVSDKSvCRASLSELQL 239
+                          5777777776544334445555555 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 1.2e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47028 175 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 243
+                          566666666666666666666666662....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.47035  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   2.8   7.1e-06    0.0071     824     925 ..     129     239 ..     102     245 .. 0.59
+   2 !   15.0   1.0   1.2e-05     0.012     772     843 ..     175     243 ..     165     267 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 7.1e-06
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47035 129 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 214
+                          445554134578888888888622222222223333333333334445777777777777777777777777754....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47035 215 VTDDGVKALVSDKSvCRASLSELQL 239
+                          5777777776544334445555555 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 1.2e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47035 175 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 243
+                          566666666666666666666666662....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.47039  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   2.8   7.1e-06    0.0071     824     925 ..     129     239 ..     102     245 .. 0.59
+   2 !   15.0   1.0   1.2e-05     0.012     772     843 ..     175     243 ..     165     267 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 7.1e-06
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47039 129 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 214
+                          445554134578888888888622222222223333333333334445777777777777777777777777754....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47039 215 VTDDGVKALVSDKSvCRASLSELQL 239
+                          5777777776544334445555555 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 1.2e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47039 175 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 243
+                          566666666666666666666666662....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.47047  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.8   2.8   7.1e-06    0.0071     824     925 ..     129     239 ..     102     245 .. 0.59
+   2 !   15.0   1.0   1.2e-05     0.012     772     843 ..     175     243 ..     165     267 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 15.8 bits;  conditional E-value: 7.1e-06
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47047 129 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 214
+                          445554134578888888888622222222223333333333334445777777777777777777777777754....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47047 215 VTDDGVKALVSDKSvCRASLSELQL 239
+                          5777777776544334445555555 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 1.2e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47047 175 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 243
+                          566666666666666666666666662....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.4345  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.7     1e-06     0.001     805     900 ..       2      94 ..       1      99 [] 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 1e-06
+      NLR_alignement 805 LnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItd.aGvvsLceaLkvskckltk 894
+                         L++ +++s +++ + v  +++ ++ ++  ++ L+l g+    d+  ++l+e+lk ++ l++L+L+   +     ++ L+ aL   + ++  
+  Ccrux.Trinity.4345   2 LSSVQISSEDVGPVEVNDICDSMRSNS--IRFLSLRGCS-LEDKYFQRLTESLKSNSSLAQLNLNLGIVNSkDRIQWLASALLSNR-SIAT 88 
+                         445555556666666666666665555..6666666666.5566666666666666666666555443332023455555554333.5555 PP
+
+      NLR_alignement 895 LdLsen 900
+                         L L+++
+  Ccrux.Trinity.4345  89 LFLHGS 94 
+                         555544 PP
+
+>> Ccrux.Trinity.28587  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   0.0   0.00023      0.23     796     858 ..     343     402 ..     280     417 .. 0.73
+   2 ?    5.3   0.0     0.011        10     923    1005 ..     428     510 ..     409     515 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00023
+       NLR_alignement 796 kvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealk 858
+                           +    ++nL+ Ld ++  +sd g+k l +  k  +  l++L lsg+ +itdd + +l++a +
+  Ccrux.Trinity.28587 343 RL-LSQCPNLEYLDVSQTIVSDLGLKGLFKD-KGGQ-WLKHLDLSGCYNITDDTLKRLSSAWV 402
+                          45.4557*********************986.4444.6*********************9965 PP
+
+  == domain 2  score: 5.3 bits;  conditional E-value: 0.011
+       NLR_alignement  923 LyL.syneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkLylwdalteapdttlvedikrvkcyrn 1005
+                           L + ++  +t  Gv +la++      ++ LdLs  + +s+ ++ +l ++   n  l + y  d++ e p  +++   ++++c+++
+  Ccrux.Trinity.28587  428 LAIsGCYRVTSLGVRALAKV-DAFPAIHHLDLSGCNqVSATALLELVDRC-ENLDLANFYYCDNIVEGPYADMASGCQNLECKNR 510 
+                           555258899*******9986.44499*******8655**88888886665.6889************************999865 PP
+
+>> Ccrux.Trinity.26513  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   5.8     6e-06    0.0059     706     959 ..      66     314 ..       4     340 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 6e-06
+       NLR_alignement 706 aeklikkelflnsldlstedlspvdctavaefl.kvvkalnalelsgnys.....................rnisdtGlrsitealeken 773
+                          +e++     f  +  ls+ dls  + t++a fl + ++++++++ls n                        +++++   s ++++   +
+  Ccrux.Trinity.26513  66 LEAV-LSDSFPINSSLSFLDLSFNNLTSIAGFLgTSLPNVTHIKLSHNRIkilssftrfprqtknykslevLELDHN-EISSAKLYFMHF 153
+                          2333.334455556788888888888888888844678888888884443344444444433333333222112221.122233444555 PP
+
+       NLR_alignement 774 ctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkasckl 863
+                            l +L ls+n+++     +l  v       L++L+L +n i      ++ +     k  l+ L+ls+n  i   g+ s++        l
+  Ccrux.Trinity.26513 154 PSLKKLFLSFNKFQTITPGVLVGV-----ASLQELHLDNNLID-----AVTNQWFYMKDDLKFLNLSNNR-I--RGIDSMA--FTRTPSL 228
+                          566666666666655554444444.....34777777666653.....3333333344456777777666.6..7777765..4455788 PP
+
+       NLR_alignement 864 teLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdL 953
+                           ++ L++ne    G +s +  L     kl++L L+ n+is v va++         l  ++Ls n+i+  G+ +l +a    k+l+ LdL
+  Ccrux.Trinity.26513 229 QTIDLSQNELPKLGPKSFAA-L----TKLQHLYLNMNKISFVDVAAFTG----LDSLRFMNLSRNSIS-LGAWELNDAFLPLKTLQILDL 308
+                          88888999988888888873.2....36777888889998888887654....467888888888887.788889999998899999999 PP
+
+       NLR_alignement 954 ssneis 959
+                          s n i 
+  Ccrux.Trinity.26513 309 SFNDII 314
+                          888864 PP
+
+>> Ccrux.Trinity.13959  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.1   5.7e-06    0.0057     831     888 ..       9      64 ..       5      64 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 5.7e-06
+       NLR_alignement 831 ksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvs 888
+                          k +l+ L  s n    + +  +l  a+ a+  lt+L+L+ n+ + +G+  ++ +Lkvs
+  Ccrux.Trinity.13959   9 K-SLKTLDISHNL-LEEYAGLHLGPAIGANEALTSLNLSWNHLRRKGACAVALSLKVS 64 
+                          3.67788888777.66777778888888888888888888888888888888888876 PP
+
+>> Ccrux.Trinity.13980  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.1   5.7e-06    0.0057     831     888 ..       9      64 ..       5      64 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 5.7e-06
+       NLR_alignement 831 ksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvs 888
+                          k +l+ L  s n    + +  +l  a+ a+  lt+L+L+ n+ + +G+  ++ +Lkvs
+  Ccrux.Trinity.13980   9 K-SLKTLDISHNL-LEEYAGLHLGPAIGANEALTSLNLSWNHLRRKGACAVALSLKVS 64 
+                          3.67788888777.66777778888888888888888888888888888888888876 PP
+
+>> Ccrux.Trinity.47032  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   2.5   1.2e-05     0.012     824     925 ..     241     351 ..     214     357 .. 0.59
+   2 !   14.5   0.7   1.8e-05     0.018     772     843 ..     287     355 ..     275     379 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 1.2e-05
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47032 241 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 326
+                          445554134578888888888622222222223333333333334445777777777777777777777777654....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47032 327 VTDDGVKALVSDKSvCRASLSELQL 351
+                          5777777776544334444555555 PP
+
+  == domain 2  score: 14.5 bits;  conditional E-value: 1.8e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47032 287 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 355
+                          566666666666666666666666662....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.47043  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.7   2.6   1.6e-05     0.016     824     925 ..     280     390 ..     253     396 .. 0.59
+   2 !   14.0   0.9   2.6e-05     0.025     772     843 ..     326     394 ..     316     418 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 1.6e-05
+       NLR_alignement 824 iealkf.sksklteLglsgnee.........itddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs.ene 901
+                          + al + s+s+lt+L l ++e+          ++ +  s +   k   c+l eL L +  +td+ +  +++ L      ltkL+Ls +  
+  Ccrux.Trinity.47043 280 AAALATvSSSRLTHLDLAWCEDvtdvvlcvvLSPPAFGSSSTRRKsRFCRLEELDLTGCAVTDNTLERIAKHLPL----LTKLNLShCHC 365
+                          445554134578888888888622222222223333333333334445777777777777777777777777654....55667762344 PP
+
+       NLR_alignement 902 isDvgvaslaevlk.ensqlttLyL 925
+                          ++D+gv++l +        l++L+L
+  Ccrux.Trinity.47043 366 VTDDGVKALVSDKSvCRASLSELQL 390
+                          5777777776544334444555555 PP
+
+  == domain 2  score: 14.0 bits;  conditional E-value: 2.6e-05
+       NLR_alignement 772 enctlteLdlstnqiddegadslakvLiksnknLnkLdLlsne.isdegvksliealkfsksklteLglsgne 843
+                           +c+l eLdl    ++d+  + +ak L    + L+kL+L+  + ++d gvk+l+   +  +++l eL l+g+ 
+  Ccrux.Trinity.47043 326 RFCRLEELDLTGCAVTDNTLERIAKHL----PLLTKLNLSHCHcVTDDGVKALVSDKSVCRASLSELQLEGCR 394
+                          566666666666666666666666652....345666665443256666666666666666666666666665 PP
+
+>> Ccrux.Trinity.25102  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   4.6   2.3e-05     0.023     833     977 ..     583     718 ..     538     760 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 2.3e-05
+       NLR_alignement 833 klteLglsgneeitddgvvslcealkascklteLyLkr.neItdaGvvsLceaLkvskckltkLdL.seneisDvgvaslaevlkensql 920
+                          +l     s+++ + ++ +vsl++a+k   +l  L+L++  e  da ++++c++ + + +k+  L+L  + ++s + + ++ae      +l
+  Ccrux.Trinity.25102 583 NLVSVDISWCT-VDAADAVSLADAIK---RLEVLRLNGcQELNDATIQHICQV-QGGSLKV--LELfGCFKLSNAAMYHIAENC---RHL 662
+                          57778899999.88899999999999...899999986257999999999997.5555588..665267899999999999877...678 PP
+
+       NLR_alignement 921 ttLyLs.yneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvncklt 977
+                           tL+++ + +i + Gv++++    +   l +LdL   + + +++v+++a++l ++++l 
+  Ccrux.Trinity.25102 663 ETLKIGqCHKICENGVDHII---WKTIGLLELDLRGVKkLVDNAVKKIAKNLLSLSTLV 718
+                          88999658999999999984...566778899999877799999999999887777764 PP
+
+>> Ccrux.Trinity.15377  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0     2e-05      0.02     773     839 ..      41     104 ..      14     109 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2e-05
+       NLR_alignement 773 nctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLgl 839
+                          nc + + + +  +++    + lak+ i+s+k+L+ L+L++++i de    li  l + + +l  Lgl
+  Ccrux.Trinity.15377  41 NCGM-NFEWNLFEFTPRDCSLLAKA-IRSCKTLRLLQLHQSKINDEKCRVLISHLLDHP-SLVSLGL 104
+                          5555.55555556666677889***.***************************999999.9999998 PP
+
+>> Ccrux.Trinity.6480  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   1.8   4.1e-05     0.041     824     930 ..     174     277 ..     163     311 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 4.1e-05
+      NLR_alignement 824 iealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevl 914
+                          +alk  k+++  ++ +  e   +d   ++  +l  +  l +L L      d++++ L e++   +  l  L+L++n is   +  l +++
+  Ccrux.Trinity.6480 174 KRALKEGKVSVITINNQ-PE-LENDVFEEILMSLDENGSLRHLSLANTGMNDKVAKALVESVACNT-VLETLNLESNYISPGSLLDLVKAV 261
+                         55555555444444433.22.344444555555555555555555555555555555555555444.455555555555555555555555 PP
+
+      NLR_alignement 915 kensqlttLyLsynei 930
+                          +n+ + +L++  +++
+  Ccrux.Trinity.6480 262 CQNESMRELRIANQKV 277
+                         5555555555544444 PP
+
+>> Ccrux.Trinity.70485  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   5.5   3.7e-05     0.037     790     962 ..     137     291 ..      75     299 .. 0.76
+   2 ?    4.7   0.9     0.016        16     839     944 ..     256     361 ..     249     402 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 3.7e-05
+       NLR_alignement 790 gadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrne.ItdaGv 878
+                          + + l+++    ++ L++L+L    isd+ +      l+  + +l eL+ls +  itd+gv  +++  +    l +++L++ + It   +
+  Ccrux.Trinity.70485 137 SNETLSSL--SHCRHLQRLNLEGCPISDHSLLL----LEPLN-NLVELNLSHCVGITDEGVSYIAKHFR---LLEKINLDGIQwITGISI 216
+                          44577777..55699999999999999987753....34444.8999******99**********9999...89999**99877999999 PP
+
+       NLR_alignement 879 vsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.isneg 962
+                          ++L      s  +lt+  L + e+ D+ ++ ++     n ++  L ++ ++ td  v    e + +  +l+ L L++   +s e+
+  Ccrux.Trinity.70485 217 QHLVS-FCGS--TLTNVALDGIELVDEDIKLISMCP--NIRVFGLSFC-DNLTDEIV----EWIANMSTLKRLKLKKGInLSREA 291
+                          99974.4444..59***************9887665..8899999985.67888655....555556777777776655555555 PP
+
+  == domain 2  score: 4.7 bits;  conditional E-value: 0.016
+       NLR_alignement 839 lsgneeitddgvvslcealkascklteLyLk.rneItdaGvvsLceaL....kvskckltkLdL.seneisDvgvaslaevlk..ensql 920
+                          ls +++ td+ v  +++     ++l  L+Lk + +   + +  L +      +  + ++t+++L +++e+ Dv v sl++  +  +++ l
+  Ccrux.Trinity.70485 256 LSFCDNLTDEIVEWIAN----MSTLKRLKLKkGINLSREALLKLTNDFgwtaELHRKNMTHINLaECSELCDVCVSSLSQSCPmlVECDL 341
+                          55555555544444443....234445555312344455555554433111122233466666633566666666666666542233333 PP
+
+       NLR_alignement 921 ttLyLsyneitdaGveslaeaLke 944
+                          +     +  +td G+++l+++ ++
+  Ccrux.Trinity.70485 342 SW----CWLVTDDGIQELFNSCHS 361
+                          22....334666666666665544 PP
+
+>> Ccrux.Trinity.3621  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.1   5.6e-05     0.055     288     312 ..       4      28 ..       1      39 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 12.9 bits;  conditional E-value: 5.6e-05
+      NLR_alignement 288 etnpkrilitGkagigKtlfcqkli 312
+                         + +++++litG +gigKt+ ++kli
+  Ccrux.Trinity.3621   4 KAARRHLLITGAPGIGKTTIIKKLI 28 
+                         56899******************98 PP
+
+>> Ccrux.Trinity.3623  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.1   6.5e-05     0.064     288     312 ..       4      28 ..       1      38 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 6.5e-05
+      NLR_alignement 288 etnpkrilitGkagigKtlfcqkli 312
+                         + +++++litG +gigKt+ ++kli
+  Ccrux.Trinity.3623   4 KAARRHLLITGAPGIGKTTIIKKLI 28 
+                         56899******************98 PP
+
+>> Ccrux.Trinity.7930  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.2   9.8e-05     0.097     877     961 ..      36     110 ..      24     167 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 9.8e-05
+      NLR_alignement 877 GvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisne 961
+                          +++L +aLk    +l++LdLs+n +      s+ + l +   l tL+L yn+++    ++l++ L+++k+l++LdL  n+++++
+  Ccrux.Trinity.7930  36 KIAHLGNALKGFS-RLKHLDLSKNCV------SILDGLDHLDLLETLNLYYNNVAS--LKELFK-LHNNKHLKELDLRLNPVTKN 110
+                         5789999999888.899999999987......46667777778999******9965..688886.9999***********97754 PP
+
+>> Ccrux.Trinity.11810  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   3.9   0.00011      0.11     820     893 ..      58     124 ..       7     130 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00011
+       NLR_alignement 820 vksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskcklt 893
+                          ++  + a    + +l   + sg+ ++td  + sl+    +s +l +L  ++ +ItdaGv  L+++   sk+++t
+  Ccrux.Trinity.11810  58 IQKFASAC---Q-HLHTVNISGCIDVTDTSLESLAA---HSNHLEKLDASKTKITDAGVLILANSRCASKMTVT 124
+                          33333332...3.67788888888888888888775...46688888888888888888888888888888877 PP
+
+>> Ccrux.Trinity.39590  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   7.1   0.00013      0.13     827     981 ..      37     169 ..      10     198 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00013
+       NLR_alignement 827 lkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlke 916
+                          +k+ +  lt L+l     ++d+gv  l   +     l  L L++  +tda +  ++  ++  +     LdLs+  +sD+gva l +    
+  Ccrux.Trinity.39590  37 IKDFP--LTSLSLATFIAVSDQGVGLLHGTMS----LRCLSLEGLRVTDACLPLISALINLEE-----LDLSKTLVSDAGVALLKD---- 111
+                          44444..8888888877899999999988887....778999999999999988887777666.....999999999999997655.... PP
+
+       NLR_alignement 917 nsqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLyl 981
+                            +l  L Ls+  it a +     +L+  + l +L+Ls    s+ g+ +l     +++ l+ L+l
+  Ccrux.Trinity.39590 112 LWRLKVLSLSSTRITSACASD--GTLNAFRILDQLNLSCTDFSDTGLRHL-----SLPCLRMLNL 169
+                          459999999999999998876..677777999999999999999999888.....5566666555 PP
+
+>> Ccrux.Trinity.25104  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   6.2   0.00011      0.11     833     976 ..     583     717 ..     542     738 .. 0.82
+   2 ?    2.9   5.6     0.058        58     711     843 ..     704     827 ..     697     842 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00011
+       NLR_alignement 833 klteLglsgneeitddgvvslcealkascklteLyLkr.neItdaGvvsLceaLkvskckltkLdL.seneisDvgvaslaevlkensql 920
+                          +l     s+++ + ++ +vsl++a+k   +l  L+L++  e  da ++++c++ + + +k+  L+L  + ++s + + ++ae      +l
+  Ccrux.Trinity.25104 583 NLVSVDISWCT-VDAADAVSLADAIK---RLEVLRLNGcQELNDATIQHICQV-QGGSLKV--LELfGCFKLSNAAMYHIAENC---RHL 662
+                          57778899999.88999999999999...899999986257999999999997.5555588..665268899999999999977...678 PP
+
+       NLR_alignement 921 ttLyLs.yneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckl 976
+                           tL+++ + +i + Gv++++    +   l +LdL   + + +++v+++a++l ++++l
+  Ccrux.Trinity.25104 663 ETLKIGqCHKICENGVDHII---WKTIGLLELDLRGVKkLVDNAVKKIAKNLLSLSTL 717
+                          88999768999999999984...56678889999987779999999999998777776 PP
+
+  == domain 2  score: 2.9 bits;  conditional E-value: 0.058
+       NLR_alignement 711 kkelflnsldlsted......lspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadsl 794
+                           k++ +n l lst        +s++ + avae ++ ++ l            ++d+ +++++ +       + +Ld+s ++++  ++  l
+  Ccrux.Trinity.25104 704 VKKIAKNLLSLSTLVlancplISDAAVFAVAERMEYIRVLDVCGC---C--RVTDKSMQRLAAS----CPAIESLDVSSTKVTSSSVYAL 784
+                          344444444444444000001345555555555555544444422...2..4566666665555....5578999999999999999999 PP
+
+       NLR_alignement 795 akvLiksnknLnkLdLls.neisdegvksliealkfsksklteLglsgne 843
+                          a+    s+k+L++L+L++ ++i    + sl+e +   k +l+ L l g++
+  Ccrux.Trinity.25104 785 ANG---SCKKLSSLKLSFcSKI---TLSSLVELVTSCK-SLRLLHLFGCK 827
+                          999...9999999999762455...5788888888888.88899888887 PP
+
+>> Ccrux.Trinity.7926  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.2   0.00053      0.53     878     961 ..      37     110 ..      27     178 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00053
+      NLR_alignement 878 vvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisne 961
+                         +++L +aLk    +l++LdLs+n +      s+ + l +   l tL+L yn+++    ++l++ L+++k+l++LdL  n+++++
+  Ccrux.Trinity.7926  37 IAHLGNALKGFS-RLKHLDLSKNCV------SILDGLDHLDLLETLNLYYNNVAS--LKELFK-LHNNKHLKELDLRLNPVTKN 110
+                         789999999888.899999999987......466667777788999*****9965..688886.99999*******99997754 PP
+
+>> Ccrux.Trinity.44374  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.3   0.4   0.00065      0.65     896     985 ..      19     101 ..       3     137 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.00065
+       NLR_alignement 896 dLseneisDvgvaslaev..lkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLy.lw 982
+                          +L e ++ D g+ +la+v  l +   +t+L Ls n  t     s+  ++ e  +l+ L+L +neis     +l  +l  ++kl+ L+   
+  Ccrux.Trinity.44374  19 ELTEVDLADRGIGNLADVpfLTQLRAVTSLTLSHNRLT-----SVPPSISELTNLEMLNLFNNEIS-----ELPTTLCNLPKLKFLNlAL 98 
+                          57777899*********976779999**********98.....56899******************.....4544555667777776444 PP
+
+       NLR_alignement 983 dal 985
+                          ++l
+  Ccrux.Trinity.44374  99 NNL 101
+                          555 PP
+
+>> Ccrux.Trinity.27264  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0  11.7    0.0034       3.4     804     987 ..      78     245 ..       1     256 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0034
+       NLR_alignement 804 nLnkLdLl.sneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskck 891
+                          +++++ L   ++isd g+k ++   k    kl++++l +++ it  g+ ++c+     +  +    L     t + +++    + + k k
+  Ccrux.Trinity.27264  78 EMEEIILEdCSRISDDGLKWISTKCK----KLKHINLTNCNSITRTGLEQICQGCSdIETFVCGGTLAWT--TPNEMQC----MTNLK-K 156
+                          55555554248999999998876433....5779999999999999999999988856655655555443..3333444....34456.7 PP
+
+       NLR_alignement 892 ltkLdLsen.eisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkL 979
+                          l+ LdL++n +i D+ +++l     ++ +  +L+ +  +itd+      eaL +  +l++L +s    i++ g++ +    +v  kl++L
+  Ccrux.Trinity.27264 157 LRMLDLHHNnDINDDFITELVAHC-NELRSVNLEACHGDITDVSL----EALSSLPDLECLIISYLSkITDAGLKCI----SVHGKLKEL 237
+                          888999865169********8888.5667779**********975....6788999999999998777999999988....888999999 PP
+
+       NLR_alignement 980 ylwdalte 987
+                          y    lt 
+  Ccrux.Trinity.27264 238 YCRGCLTL 245
+                          98777765 PP
+
+>> Ccrux.Trinity.27265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0  11.7    0.0034       3.4     804     987 ..      78     245 ..       1     256 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0034
+       NLR_alignement 804 nLnkLdLl.sneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskck 891
+                          +++++ L   ++isd g+k ++   k    kl++++l +++ it  g+ ++c+     +  +    L     t + +++    + + k k
+  Ccrux.Trinity.27265  78 EMEEIILEdCSRISDDGLKWISTKCK----KLKHINLTNCNSITRTGLEQICQGCSdIETFVCGGTLAWT--TPNEMQC----MTNLK-K 156
+                          55555554248999999998876433....5779999999999999999999988856655655555443..3333444....34456.7 PP
+
+       NLR_alignement 892 ltkLdLsen.eisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkL 979
+                          l+ LdL++n +i D+ +++l     ++ +  +L+ +  +itd+      eaL +  +l++L +s    i++ g++ +    +v  kl++L
+  Ccrux.Trinity.27265 157 LRMLDLHHNnDINDDFITELVAHC-NELRSVNLEACHGDITDVSL----EALSSLPDLECLIISYLSkITDAGLKCI----SVHGKLKEL 237
+                          888999865169********8888.5667779**********975....6788999999999998777999999988....888999999 PP
+
+       NLR_alignement 980 ylwdalte 987
+                          y    lt 
+  Ccrux.Trinity.27265 238 YCRGCLTL 245
+                          98777765 PP
+
+>> Ccrux.Trinity.27271  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0  11.7    0.0034       3.4     804     987 ..      78     245 ..       1     256 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0034
+       NLR_alignement 804 nLnkLdLl.sneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLkvskck 891
+                          +++++ L   ++isd g+k ++   k    kl++++l +++ it  g+ ++c+     +  +    L     t + +++    + + k k
+  Ccrux.Trinity.27271  78 EMEEIILEdCSRISDDGLKWISTKCK----KLKHINLTNCNSITRTGLEQICQGCSdIETFVCGGTLAWT--TPNEMQC----MTNLK-K 156
+                          55555554248999999998876433....5779999999999999999999988856655655555443..3333444....34456.7 PP
+
+       NLR_alignement 892 ltkLdLsen.eisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaealkvnckltkL 979
+                          l+ LdL++n +i D+ +++l     ++ +  +L+ +  +itd+      eaL +  +l++L +s    i++ g++ +    +v  kl++L
+  Ccrux.Trinity.27271 157 LRMLDLHHNnDINDDFITELVAHC-NELRSVNLEACHGDITDVSL----EALSSLPDLECLIISYLSkITDAGLKCI----SVHGKLKEL 237
+                          888999865169********8888.5667779**********975....6788999999999998777999999988....888999999 PP
+
+       NLR_alignement 980 ylwdalte 987
+                          y    lt 
+  Ccrux.Trinity.27271 238 YCRGCLTL 245
+                          98777765 PP
+
+>> Ccrux.Trinity.67183  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.0   3.0    0.0016       1.6     773     899 ..      22     141 ..       5     149 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.0016
+       NLR_alignement 773 nctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkasck 862
+                           + lt Ldl + q+  e  + l ++     +nL +L L   +++    + l++a+  + ++lt L+ls+ +   d+ +  + e + ++c+
+  Ccrux.Trinity.67183  22 SKSLTRLDLTHVQLSVEQMEWLNSL-----PNLVSLCLR--GVTHLK-ANLVKAIAVNCVHLTSLNLSDSDGWIDQDLCAI-ETISVNCR 102
+                          5778888888888877777766666.....566666654..555544.468899999999999999997775445555444.67888886 PP
+
+       NLR_alignement 863 .lteLyLkrneItda.Gvv.sLceaLkvskckltkLdLse 899
+                           l eL+L + +I    G++  Lc  L   + +l++L L  
+  Ccrux.Trinity.67183 103 yLRELNLTGVHIHPTlGAKnKLCILLSTME-SLRALGLPA 141
+                          589999999999754355426888888877.888887755 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1486 nodes)
+Target sequences:                      74577  (16745720 residues searched)
+Passed MSV filter:                      2579  (0.0345817); expected 1491.5 (0.02)
+Passed bias filter:                     1326  (0.0177803); expected 1491.5 (0.02)
+Passed Vit filter:                       214  (0.00286952); expected 74.6 (0.001)
+Passed Fwd filter:                        76  (0.00101908); expected 0.7 (1e-05)
+Initial search space (Z):              74577  [actual number of targets]
+Domain search space  (domZ):              75  [number of targets reported over threshold]
+# CPU time: 2.30u 0.05s 00:00:02.34 Elapsed: 00:00:01.15
+# Mc/sec: 21455.27
+//
+[ok]

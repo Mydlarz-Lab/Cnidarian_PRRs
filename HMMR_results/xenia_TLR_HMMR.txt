@@ -1,0 +1,2567 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  TLR.hmm
+# target sequence database:        ../proteomes/Xenia_proteome.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Human_TLR  [M=911]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+      9e-52  176.8  33.6      3e-31  108.9  21.5    2.6  2  Xe_003238-T1  Xe_003238
+      3e-43  148.6  52.7    6.5e-11   41.6   5.7    5.1  5  Xe_000603-T1  Xe_000603
+    3.7e-41  141.6  13.5    1.4e-20   73.6   2.3    2.1  2  Xe_013791-T1  Xe_013791
+    9.9e-39  133.6  48.9    2.4e-14   52.9  11.6    4.8  5  Xe_021778-T1  Xe_021778
+    5.7e-38  131.1   0.6      3e-18   65.8   0.0    2.1  2  Xe_012259-T1  Xe_012259
+    9.7e-38  130.3  46.5    2.4e-14   52.9   3.8    3.5  4  Xe_023560-T1  Xe_023560
+    9.4e-37  127.1  34.9    4.8e-15   55.2   1.5    4.2  3  Xe_018605-T1  Xe_018605
+      1e-34  120.3  62.3    6.7e-10   38.2  15.4    5.1  5  Xe_002448-T1  Xe_002448
+    8.1e-31  107.4  34.4      6e-15   54.9   9.2    2.3  3  Xe_014466-T1  Xe_014466
+    3.3e-30  105.4   0.1    5.6e-30  104.7   0.1    1.2  1  Xe_015592-T1  Xe_015592
+    3.4e-30  105.4   0.1    5.2e-30  104.7   0.1    1.2  1  Xe_015592-T2  Xe_015592
+    1.3e-28  100.2  20.4    2.8e-16   59.3   5.3    3.2  3  Xe_013468-T1  Xe_013468
+    1.4e-28  100.0  19.7    3.4e-12   45.8   6.2    3.4  3  Xe_013413-T1  Xe_013413
+    4.7e-28   98.3  43.6    9.7e-18   64.2  27.7    3.5  3  Xe_016382-T1  Xe_016382
+    8.6e-28   97.4   2.8    8.6e-28   97.4   2.8    1.6  2  Xe_000193-T1  Xe_000193
+    1.5e-27   96.7  22.8    2.7e-15   56.1   1.5    2.9  2  Xe_002676-T1  Xe_002676
+    2.8e-27   95.7   1.4    3.3e-27   95.5   1.4    1.0  1  Xe_000197-T1  Xe_000197
+    8.7e-27   94.1  28.7    1.1e-12   47.5   7.3    4.2  4  Xe_003064-T1  Xe_003064
+    3.6e-23   82.1   7.4    3.9e-09   35.7   0.1    3.1  3  Xe_020042-T1  Xe_020042
+    4.2e-23   81.9  27.1    1.7e-10   40.2   6.0    2.7  2  Xe_022158-T1  Xe_022158
+    1.4e-22   80.1  21.7    2.2e-14   53.0   9.1    2.0  2  Xe_010035-T1  Xe_010035
+      3e-22   79.1  12.1    1.4e-13   50.4   0.7    2.0  2  Xe_021270-T1  Xe_021270
+      3e-22   79.1  26.1    3.3e-13   49.1   6.2    2.1  2  Xe_002052-T1  Xe_002052
+    9.2e-22   77.5  12.6    3.9e-21   75.4  12.5    1.7  1  Xe_010036-T1  Xe_010036
+    6.2e-21   74.7   7.8    5.4e-19   68.3   7.8    2.3  1  Xe_013231-T1  Xe_013231
+    8.4e-21   74.3  10.4      5e-16   58.5  11.2    2.1  2  Xe_014308-T1  Xe_014308
+    2.2e-20   72.9  33.9    8.5e-11   41.2  18.8    2.4  2  Xe_021557-T1  Xe_021557
+    5.3e-20   71.6   0.9      7e-20   71.2   0.9    1.3  1  Xe_001272-T1  Xe_001272
+    9.1e-20   70.9  31.3    3.8e-14   52.3  14.0    3.1  3  Xe_009673-T1  Xe_009673
+    1.6e-19   70.1   0.0    4.3e-11   42.1   0.0    2.2  2  Xe_021294-T1  Xe_021294
+    4.8e-19   68.5   9.0      6e-19   68.2   9.0    1.1  1  Xe_016590-T1  Xe_016590
+    5.9e-19   68.2  37.1    9.5e-18   64.2  24.0    2.0  2  Xe_012642-T1  Xe_012642
+      1e-18   67.4  26.8    6.7e-10   38.2   4.6    2.3  2  Xe_005930-T1  Xe_005930
+    2.1e-18   66.4   8.6    2.1e-18   66.4   8.6    2.0  2  Xe_006320-T1  Xe_006320
+    2.1e-18   66.3  34.5    5.1e-10   38.6  21.1    2.4  2  Xe_017104-T1  Xe_017104
+    3.4e-18   65.7  16.6    6.2e-05   21.8   1.7    4.1  4  Xe_011005-T1  Xe_011005
+    3.9e-18   65.4  14.9    4.3e-17   62.0  13.7    2.1  2  Xe_010037-T1  Xe_010037
+    4.6e-18   65.2  25.0    8.5e-09   34.6   0.5    3.3  3  Xe_024720-T1  Xe_024720
+    8.9e-18   64.3  20.6    2.2e-11   43.1   5.0    2.1  2  Xe_009602-T1  Xe_009602
+    2.7e-17   62.7  23.4    3.8e-12   45.6  13.1    2.1  2  Xe_021548-T1  Xe_021548
+    3.2e-17   62.4  13.7    1.1e-16   60.6  13.7    1.7  1  Xe_010060-T1  Xe_010060
+    4.6e-17   61.9  23.1    1.4e-12   47.1  12.4    2.0  2  Xe_014192-T1  Xe_014192
+      2e-16   59.8  19.7    1.1e-10   40.8   8.2    3.0  2  Xe_007486-T1  Xe_007486
+    2.6e-16   59.4   3.3    2.9e-16   59.3   3.3    1.1  1  Xe_015988-T1  Xe_015988
+    6.1e-16   58.2   0.4    8.7e-16   57.7   0.4    1.1  1  Xe_013683-T1  Xe_013683
+      7e-16   58.0  21.2    4.5e-14   52.0  11.0    2.0  2  Xe_012568-T1  Xe_012568
+      6e-15   54.9  19.7      1e-14   54.1  19.7    1.3  1  Xe_012336-T1  Xe_012336
+    7.3e-15   54.6  31.3    3.8e-09   35.7  14.3    2.3  2  Xe_003259-T1  Xe_003259
+    1.1e-14   54.0  13.6    2.2e-11   43.1   4.4    2.2  2  Xe_021866-T2  Xe_021866
+    3.3e-14   52.5  11.5    2.7e-11   42.8   4.5    2.1  2  Xe_021866-T1  Xe_021866
+      5e-14   51.9  15.5      5e-14   51.9  15.5    2.9  2  Xe_009004-T1  Xe_009004
+      5e-14   51.9  15.5      5e-14   51.9  15.5    2.9  2  Xe_009004-T2  Xe_009004
+    1.1e-13   50.7  12.1    5.6e-05   21.9   0.4    3.1  3  Xe_010957-T1  Xe_010957
+    1.9e-13   50.0  34.1    1.1e-08   34.2  10.6    2.1  2  Xe_003918-T1  Xe_003918
+    2.9e-13   49.3  20.1    8.8e-08   31.2   9.8    2.5  2  Xe_007461-T1  Xe_007461
+      1e-12   47.6   4.9    1.1e-12   47.4   4.9    1.0  1  Xe_010065-T1  Xe_010065
+    3.5e-12   45.8   9.7    4.6e-12   45.4   9.7    1.0  1  Xe_011872-T1  Xe_011872
+    8.2e-12   44.5  10.9    8.2e-12   44.5  10.9    1.7  2  Xe_021675-T1  Xe_021675
+    9.7e-12   44.3   2.6    1.2e-11   44.0   2.6    1.0  1  Xe_017757-T1  Xe_017757
+    1.3e-11   43.9   2.5    2.3e-05   23.2   0.0    3.1  3  Xe_021451-T1  Xe_021451
+    1.4e-11   43.8  13.7    1.4e-11   43.8  13.7    1.8  2  Xe_022713-T2  Xe_022713
+    3.1e-11   42.6  20.2    7.7e-07   28.1   6.3    2.2  2  Xe_014743-T1  Xe_014743
+      5e-11   41.9   3.7    3.2e-05   22.7   0.0    3.3  4  Xe_021459-T1  Xe_021459
+    1.2e-10   40.7  27.0    3.5e-06   25.9  10.0    2.1  2  Xe_014740-T1  Xe_014740
+    2.6e-10   39.6   5.0    3.6e-10   39.1   5.0    1.1  1  Xe_005860-T1  Xe_005860
+    3.3e-10   39.2   5.0    4.2e-10   38.9   5.0    1.1  1  Xe_007173-T1  Xe_007173
+    3.3e-10   39.2   3.9    4.6e-10   38.7   3.9    1.1  1  Xe_024224-T1  Xe_024224
+    3.4e-10   39.2  21.6    6.9e-10   38.2  20.6    1.8  2  Xe_022713-T1  Xe_022713
+      4e-10   39.0   4.7    2.6e-09   36.3   4.9    2.1  2  Xe_014129-T1  Xe_014129
+    6.7e-10   38.2   4.4    8.6e-10   37.8   4.4    1.1  1  Xe_020465-T1  Xe_020465
+    3.6e-09   35.8  12.9    3.4e-06   26.0   4.5    2.1  2  Xe_000174-T1  Xe_000174
+    6.7e-09   34.9   0.1    8.3e-09   34.6   0.1    1.1  1  Xe_010104-T1  Xe_010104
+    7.1e-09   34.8   0.1    9.3e-09   34.4   0.1    1.1  1  Xe_025395-T1  Xe_025395
+      9e-09   34.5   0.9    1.5e-08   33.7   0.9    1.3  1  Xe_012104-T1  Xe_012104
+    1.5e-08   33.7   4.7    2.2e-08   33.2   4.7    1.3  1  Xe_004471-T1  Xe_004471
+    2.3e-08   33.2   4.6    2.8e-08   32.8   4.6    1.1  1  Xe_014583-T2  Xe_014583
+    2.4e-08   33.1   6.0    3.1e-08   32.7   6.0    1.1  1  Xe_014583-T1  Xe_014583
+      1e-07   31.0  16.0    5.6e-06   25.2  16.0    2.1  1  Xe_024531-T1  Xe_024531
+    1.2e-07   30.8   3.5    1.8e-07   30.2   3.5    1.3  1  Xe_009205-T1  Xe_009205
+    1.7e-07   30.3   9.2    1.7e-07   30.3   9.2    3.2  1  Xe_009292-T1  Xe_009292
+    1.7e-07   30.2   2.1    2.3e-07   29.8   2.1    1.1  1  Xe_002769-T1  Xe_002769
+    7.4e-07   28.1   7.9    1.2e-06   27.4   7.9    1.4  1  Xe_008475-T1  Xe_008475
+    7.5e-07   28.1   0.1      1e-06   27.7   0.1    1.1  1  Xe_021448-T1  Xe_021448
+    1.1e-06   27.6   0.2    1.5e-06   27.2   0.2    1.1  1  Xe_021458-T1  Xe_021458
+    1.2e-06   27.5  19.1    5.3e-05   22.0   5.7    1.9  2  Xe_015721-T1  Xe_015721
+    1.7e-06   27.0   9.2    4.5e-06   25.6   9.2    1.6  1  Xe_007201-T1  Xe_007201
+    1.8e-06   26.9   5.9    2.7e-06   26.3   5.9    1.2  1  Xe_011881-T1  Xe_011881
+      4e-06   25.7   0.2    8.1e-06   24.7   0.1    1.4  2  Xe_021450-T1  Xe_021450
+    5.1e-06   25.4   1.9    6.6e-06   25.0   1.9    1.3  1  Xe_015167-T1  Xe_015167
+      1e-05   24.4   0.0    1.3e-05   24.0   0.0    1.1  1  Xe_020342-T1  Xe_020342
+    1.5e-05   23.8  16.1    0.00012   20.8  16.2    1.8  1  Xe_003108-T1  Xe_003108
+    1.9e-05   23.5   6.8    7.5e-05   21.5   6.8    1.8  1  Xe_014341-T1  Xe_014341
+    4.1e-05   22.4   2.9    5.2e-05   22.0   2.9    1.3  1  Xe_012570-T1  Xe_012570
+    6.1e-05   21.8   1.4    7.5e-05   21.5   1.4    1.1  1  Xe_022711-T1  Xe_022711
+    8.3e-05   21.4   1.0    8.5e-05   21.3   1.0    1.1  1  Xe_027350-T1  Xe_027350
+     0.0038   15.9   5.3      0.005   15.5   0.9    2.3  3  Xe_004364-T1  Xe_004364
+     0.0047   15.6   0.2     0.0049   15.5   0.2    1.1  1  Xe_024472-T1  Xe_024472
+     0.0055   15.3   0.7     0.0086   14.7   0.7    1.2  1  Xe_012531-T1  Xe_012531
+  ------ inclusion threshold ------
+      0.027   13.0   0.4      0.026   13.1   0.4    1.0  1  Xe_027350-T3  Xe_027350
+      0.085   11.4   0.4      0.079   11.5   0.4    1.0  1  Xe_027350-T2  Xe_027350
+
+
+Domain annotation for each sequence (and alignments):
+>> Xe_003238-T1  Xe_003238
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.0   6.2   4.5e-24   1.3e-21      20     217 ..      17     199 ..       2     201 .. 0.87
+   2 !  108.9  21.5   1.1e-33     3e-31     450     702 ..     184     451 ..     181     461 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 77.0 bits;  conditional E-value: 4.5e-24
+     Human_TLR  20 algvlpeilpcls..eerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafksl.keLeeLdLsh 113
+                   a+       +c s    ++ +v+c +++L + Pk lpk vt+ d s N ++ + +  f ++ +L +L+ls n +    + ++  +l k+L+ L+Ls 
+  Xe_003238-T1  17 ASD------LCPStcVCDNYFVKCPQQHLLHFPKWLPKDVTNIDFSGNELSLIDNDTFIEFTNLVELNLSDN-QFD--DIRSLGKLpKTLKFLYLSR 104
+                   333......33333344699****************************************************.777..55666666268******** PP
+
+     Human_TLR 114 nklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLs 210
+                   nkl+++   ++ ++ ++L  + n+i  ++ed+++ + +nL++L Ls+Nn+ks+ +++ ++ +++L+iL+l gn++       l+ +++k++++l Ls
+  Xe_003238-T1 105 NKLKSVN--GVWNQFVKLDFSGNDIV-KIEDNTFVGAQNLEELILSDNNIKSI-SPKAMADMKKLRILKLDGNNLTV-----LPPIHCKSVHTLDLS 192
+                   *******..7888888*******998.9************************9.5899**************88766.....9999***9******9 PP
+
+     Human_TLR 211 lsslskv 217
+                    ++l+k+
+  Xe_003238-T1 193 GNKLKKI 199
+                   9999765 PP
+
+  == domain 2  score: 108.9 bits;  conditional E-value: 1.1e-33
+     Human_TLR 450 ekLetLdLrknslktl..ekvthsl....klslsdNniaslvsltlelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefk.sl 538
+                   ++  tLdL+ n+lk++    +++++    +l ls+N+i+sl +  l++  L++L l+g+  +      + gL+ Le+L+l++N + ++s+   + + 
+  Xe_003238-T1 184 KSVHTLDLSGNKLKKIdtLAIGKIVpsieTLILSNNEIMSLADAALSSVTLKYLYLNGNmLKSIDRTWMFGLNALEHLNLENNVIVNISSSSWRtNC 280
+                   56789*********994223444447888************99999************76665455667799************9999887765267 PP
+
+     Human_TLR 539 peslkeLnLssnmL..........swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                    ++lk LnL++n+L          +   l  l +L  L Lssn++  ++++++n+l++L++L+l++N+l+ ++k+ +++l +L+ L l +N +  +s
+  Xe_003238-T1 281 CNNLKFLNLAHNKLgqilfendksKGANLANLGSLISLNLSSNEISHISDGSFNSLKSLKTLDLNSNKLSLVKKSTFKELWKLEKLFLYQNPLVDFS 377
+                   899*****************9887778899999**************************************************************** PP
+
+     Human_TLR 626 kdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksldls..sCkeealiv 702
+                   +d+f s+  +L+ L l+    +C C ++ f++wl++ ++ v    ++++kC  P +l G+ + +++ +  +C+++ +++
+  Xe_003238-T1 378 EDAFSSFE-HLSYLHLSSDVVHCGCKIQGFIKWLKT-SSFV---HSTHLKCGQPIKLAGSDLTKISYKdlKCDTTRPVI 451
+                   ******99.**************************7.4444...58*******************999999*9998776 PP
+
+>> Xe_000603-T1  Xe_000603
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   8.3     9e-13   2.5e-10     541     625 ..      79     163 ..      64     166 .. 0.88
+   2 !   38.7   7.7   1.8e-12   4.9e-10     513     624 ..     168     276 ..     166     285 .. 0.88
+   3 !   32.2   1.5   1.6e-10   4.3e-08     560     639 ..     284     362 ..     275     366 .. 0.88
+   4 !   41.6   5.7   2.3e-13   6.5e-11     517     625 ..     426     533 ..     416     533 .. 0.89
+   5 !   26.5   3.5   8.2e-09   2.3e-06     556     639 ..     512     595 ..     511     598 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 9e-13
+     Human_TLR 541 slkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                   +l++L L+sn+L      ++ l+ L vLDL++n+++ l p+++  l+ L++Lnls N+ltsLp   + +lssL +L +++N+++   
+  Xe_000603-T1  79 QLNKLILASNQLstITAGIQLLEALVVLDLHDNEINCL-PGEIGDLQHLKKLNLSYNKLTSLPI-EIGNLSSLVSLMVQHNQLNVLT 163
+                   6899********7556668888****************.99**********************9.89***************98765 PP
+
+  == domain 2  score: 38.7 bits;  conditional E-value: 1.8e-12
+     Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                   +L +Le+Ld+s N + +l+   + sl  +l+++n+s+n L    s +  l+ L  +DLs+n+l+sl p+ +++ls+L +L+   Nsl+++p   l++
+  Xe_000603-T1 168 KLDKLEELDVSYNLMGKLPI-SLGSLI-NLRKFNISNNCLkyFLSNIAGLSDLYEMDLSNNKLESL-PEDLSELSRLERLDCRYNSLRKVPL--LKS 259
+                   689************75544.444555.8***********665688999*****************.7899*********************..*** PP
+
+     Human_TLR 608 lssLkvLdlssNaiktv 624
+                    s+Lk+L l  N+i + 
+  Xe_000603-T1 260 CSRLKELYLGYNQIGSL 276
+                   *************9765 PP
+
+  == domain 3  score: 32.2 bits;  conditional E-value: 1.6e-10
+     Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqs.lqskLkvL 639
+                   l ++ +LDL++n++  l pk + +ls L +L++s+N l++Lp   + ++++Lk+  l+ N + ++ +d + + ++  Lk L
+  Xe_000603-T1 284 LTSVMILDLRDNKIDRL-PKDITALSMLERLDISNNDLSELPY-QMGNMNKLKSIVLDGNPLRSIRRDIIMKgTAALLKHL 362
+                   68899************.99**********************9.99*********************99887566556655 PP
+
+  == domain 4  score: 41.6 bits;  conditional E-value: 2.3e-13
+     Human_TLR 517 LeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssL 611
+                     ++d s+N l+e +  ++++  e+l+++nL  n+L      +  l +L+ LD+++n++ sl p++++ l++Lre++ls N++t Lp+ +l  l +L
+  Xe_000603-T1 426 ISNIDFSKNLLEEVPL-KLCTFEETLVSVNLGCNRLtkIPPEFCLLLRLTDLDIRKNNISSL-PEEFKLLTQLREIILSYNRFTILPD-VLFTLPKL 519
+                   5789*******87766.6999***************5333455556****************.88***********************.888999** PP
+
+     Human_TLR 612 kvLdlssNaiktvs 625
+                   +v    +N+i+t++
+  Xe_000603-T1 520 EVILAANNQITTIN 533
+                   ***********986 PP
+
+  == domain 5  score: 26.5 bits;  conditional E-value: 8.2e-09
+     Human_TLR 556 vlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqs.lqskLkvL 639
+                   vl  l+kLev+  ++nq++++    v kl+ L  L+ls+N+++++p   l +++sL++L+l+ N+   +    +++ ++  L+ L
+  Xe_000603-T1 512 VLFTLPKLEVILAANNQITTINVAGVLKLKLLSCLDLSNNNISNVPP-ELGNANSLRSLQLEGNLFRNPRPAILNKgTTALLQYL 595
+                   67789****************999***********************.9*********************999998655555655 PP
+
+>> Xe_013791-T1  Xe_013791
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.4   4.5   5.5e-23   1.6e-20      23     169 ..      25     174 ..       4     188 .. 0.85
+   2 !   73.6   2.3   4.9e-23   1.4e-20     575     698 ..     181     305 ..     176     312 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 73.4 bits;  conditional E-value: 5.5e-23
+     Human_TLR  23 vlpeilpcls..eerevivd.csklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnkl 116
+                     p+  +c+     ++v +d  s ++Lt  P + p   +s +L  Nri++++a+ f++l +L++L+l++n   qt++ ++f++l+ Le+L+Ls+n+l
+  Xe_013791-T1  25 DCPAQCSCAMewMYKKVYCDlVSRRRLTVMPRKFPADAESISLQGNRIATIPAEAFANLTNLRHLNLGSN-DLQTLQSNVFNNLTALESLNLSNNRL 120
+                   44556667666655566666347899********************************************.************************** PP
+
+     Human_TLR 117 sklss..fallssLteLslvennikasledgallnlknLklLdLsfNnlkslpke 169
+                   ++l+s    +l+sL +L l  n ++ +l ++ +++l +L++L L  N++ ++ + 
+  Xe_013791-T1 121 KTLPSglLRGLNSLKHLYLDGNVLE-NLPKDFFKGLVALQRLLLDRNKFYTFLSG 174
+                   *****99999999*****9999666.***********************998643 PP
+
+  == domain 2  score: 73.6 bits;  conditional E-value: 4.9e-23
+     Human_TLR 575 sltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnealevvipglp 671
+                    l+p  +++ s+L eL l  N + ++++  ++k+s+Lk L l++N i++  +  f  ++ +L++L l +NpF+CtC l+++ +w++++++ v +  p
+  Xe_013791-T1 181 NLSPLTISNHSSLVELLLHYNGIEQVAHDSFNKMSQLKRLTLNNNNISKLPRGIFRDMK-SLRMLSLYKNPFQCTCSLKWLKHWIKHNRKSVTVFYP 276
+                   5778889999***********************************************99.****************************99999999* PP
+
+     Human_TLR 672 sdvkCasPeslrGlsvksldls..sCkee 698
+                   + ++C+ P  lrG ++ +++     C++e
+  Xe_013791-T1 277 QLIQCKEPARLRGRELLNVKDDefGCDKE 305
+                   ***************99998656778776 PP
+
+>> Xe_021778-T1  Xe_021778
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.7  10.6   6.3e-15   1.8e-12     511     644 ..      99     228 ..      78     228 .. 0.60
+   2 !   35.9   8.8   1.2e-11   3.4e-09     514     644 ..     217     345 ..     214     348 .. 0.86
+   3 !   52.9  11.6   8.7e-17   2.4e-14     492     624 ..     335     466 ..     330     470 .. 0.87
+   4 !   36.1   2.6     1e-11   2.8e-09     559     644 ..     426     507 ..     422     508 .. 0.90
+   5 !   12.1   0.6   0.00019     0.053      75     138 ..     470     533 ..     466     555 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 46.7 bits;  conditional E-value: 6.3e-15
+     Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl 605
+                   +k+L++L++L +  N+l++l+  e+ +l+  l+ L L++n L    + l  l++L+vLDL++n+lk + p++v +l +L  L+l +N++t ++   +
+  Xe_021778-T1  99 IKELKKLTELFVYGNKLESLPI-EIGTLN-HLNTLALNENSLttLPDNLVNLSSLKVLDLRHNKLKEI-PSVVYELVSLTVLYLRFNRITYVDP-AI 191
+                   5667777777777777764443.344444.67777777777755456666677777777777777777.6677777777777777777777777.66 PP
+
+     Human_TLR 606 sklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                   s+l     L l +N+i  +  +    l  +L +Ld+++N
+  Xe_021778-T1 192 SNLRLITKLSLRENKIREIPCEIGY-LI-HLMTLDVSHN 228
+                   7777777777777777766554333.33.4666666665 PP
+
+  == domain 2  score: 35.9 bits;  conditional E-value: 1.2e-11
+     Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl 608
+                   L +L  Ld+s+N l+ l  +e+ +   ++ +L L++n L    ++l  l  L+ L L+ nql ++ p+ + + + L e n++ N++t+Lp+++l ++
+  Xe_021778-T1 217 LIHLMTLDVSHNHLE-LIPQEIGNCI-KMISLDLQHNELlaLPDSLGNLIALTRLGLRYNQLSTI-PHTLANCTFLEEFNIEGNHVTELPGSLLANF 310
+                   679***********6.7777888888.899*********998999********************.78899999*********************** PP
+
+     Human_TLR 609 ssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                   ++L++  ls+N+   +     ++l  ++++ +l +N
+  Xe_021778-T1 311 KQLNSVTLSRNKFVNFPSGPPKQLE-TVTSFNLDHN 345
+                   ***********98776554444444.5566666666 PP
+
+  == domain 3  score: 52.9 bits;  conditional E-value: 8.7e-17
+     Human_TLR 492 esLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnkls 585
+                   e  +  +l ++  ++ +  +l + + L +Ldls+N + +l++ +f +++ +l+eLnL  n++    + ++ l +LevL Ls+n lk l p+ + +l+
+  Xe_021778-T1 335 ETVTSFNLDHNsIQKIPFGILCRAKYLCKLDLSNNVILSLPV-DFGTWT-TLVELNLGTNQItkINDDIHSLANLEVLNLSNNLLKKL-PRGIGALK 428
+                   555666777875666889999999************964444.466776.************8877889*******************.99****** PP
+
+     Human_TLR 586 aLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                   +L++L+++ N+l sLp+  ++ l+sL++L+ +sN ++t 
+  Xe_021778-T1 429 KLKTLDVEENQLESLPT-EIEYLKSLEILNAQSNRLQTL 466
+                   *****************.99****************986 PP
+
+  == domain 4  score: 36.1 bits;  conditional E-value: 1e-11
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644
+                    lkkL++LD+++nql+sl p++++ l++L  Ln ++N+l++Lp   +  ls+L  L + +N i+ + + ++++l  +L+ L l++N
+  Xe_021778-T1 426 ALKKLKTLDVEENQLESL-PTEIEYLKSLEILNAQSNRLQTLPR-SIGYLSNLTKLSIGENVISYIPE-EIGTLE-SLEQLYLNDN 507
+                   79****************.99***********************.89****************99865.566666.8888888888 PP
+
+  == domain 5  score: 12.1 bits;  conditional E-value: 0.00019
+     Human_TLR  75 fqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshn.klsklss.fallssLteLslvenni 138
+                   +  ls+L++L ++ n  i +i  e    l++Le+L+L++n +l  l+   al+ssL+ +s++++ +
+  Xe_021778-T1 470 IGYLSNLTKLSIGEN-VISYIP-EEIGTLESLEQLYLNDNeNLHYLPYeLALCSSLQIMSIENCPL 533
+                   556788888888888.666664.4457788888888887734777877788888888888877755 PP
+
+>> Xe_012259-T1  Xe_012259
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.8   0.0   1.1e-20     3e-18     754     852 ..     453     549 ..     420     559 .. 0.93
+   2 !   63.4   0.2     6e-20   1.7e-17     754     896 ..     939    1066 ..     922    1071 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 65.8 bits;  conditional E-value: 1.1e-20
+     Human_TLR 754 dAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhqrlleensdviILilLe 850
+                   d f++ys+k+ dWV n L++nl e  q+++      df+ G++i eni+++i+ SrKt+fVlsk  +ks + + e++ A +   +  + ++I +l e
+  Xe_012259-T1 453 DVFVCYSSKNRDWVHNTLLANLRE--QHFQTFVDFVDFEIGVSIHENIVKGIYGSRKTIFVLSKDSIKSYYARSELSQALNAGRKTGRHQVIVVLYE 547
+                   78**********************..46******************************************************************999 PP
+
+     Human_TLR 851 pi 852
+                   + 
+  Xe_012259-T1 548 KY 549
+                   86 PP
+
+  == domain 2  score: 63.4 bits;  conditional E-value: 6e-20
+     Human_TLR  754 dAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhqrlleensdviIL.i 847 
+                    d f++ys+k++dWV n L ++l++++  +k+ +   df+ Gk+i +n+i +i+ SrKt+f+lsk  +ks +   e+y+A       +  + +L i
+  Xe_012259-T1  939 DVFVCYSSKNKDWVHNTLFPKLKTQD--FKVFIDFIDFEIGKTIDDNMIRGIYGSRKTLFILSKDSLKSIFAMKELYHALAA---GKTGHQVLtI 1028
+                    77**********************77..**************************************************9764...4455555505 PP
+
+     Human_TLR  848 lLepiekyqlskalrklkrllkkksyLeWPkdkskrglFwakLraalls 896 
+                    l e+    + + a     +l+    yL W +++ k++ Fw++L  a+ +
+  Xe_012259-T1 1029 LYEKC---KTPAA---VSNLV----YLDWTDEE-KKERFWERLFHAIRR 1066
+                    55555...56665...56777....****7765.5567*****999975 PP
+
+>> Xe_023560-T1  Xe_023560
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   9.4   9.3e-16   2.6e-13     473     616 ..       6     153 ..       1     159 [. 0.89
+   2 !   52.9   3.8   8.4e-17   2.4e-14      49     179 ..     116     267 ..     115     268 .. 0.96
+   3 !   40.0   9.1   6.7e-13   1.9e-10     488     627 ..     162     301 ..     156     310 .. 0.85
+   4 !   31.5   1.2   2.5e-10   6.9e-08      64     145 ..     315     391 ..     306     410 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 9.3e-16
+     Human_TLR 473 klslsdNniasl.vsltlelesLreLdlsgkadnrylsll.kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLe 564
+                    ++l++N  + + ++ +++l +L++L+++g++  ++ ++  k  ++Le+Ldls+N+  ++s       ++ lk L+L+ + L   s  vlr l++L+
+  Xe_023560-T1   6 SITLNENIFSGIpFETLAKLPNLTTLEMKGNNLTEIGKFPpKMFQHLEKLDLSSNQYLSNSWMSSLPNLKRLKALSLRGTSLtniSEFVLRGLNNLK 102
+                   5789999999999****************98555777775256699*********987666666666667************999999********* PP
+
+     Human_TLR 565 vLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdl 616
+                   +LDL+s +l s+ +   +kl +L  L+ls N l++Lp+ +   + +L+ L l
+  Xe_023560-T1 103 TLDLKSSKLISF-DVPRSKLASLTDLYLSENPLSKLPTAVTYRMPNLRTLHL 153
+                   ************.9999********************************987 PP
+
+  == domain 2  score: 52.9 bits;  conditional E-value: 8.4e-17
+     Human_TLR  49 vPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriq......................tiekeafkslkeLeeLdLshnklsklssfa 123
+                   vP     + t L Ls+N +++l+++   r+++L+ L+l     ++                      +ie +af +++ L+eL+ ++  l++ ++f 
+  Xe_023560-T1 116 VPRSKLASLTDLYLSENPLSKLPTAVTYRMPNLRTLHLPPLNIPNyafrsskirtlvlerigsarkhNIEVKAFAEMPRLRELEITDVSLKEFPDFT 212
+                   777666899*****************************98757779*************************************************** PP
+
+     Human_TLR 124 llssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLk 179
+                   + +++ +L l+++n++ ++ ++  + lknL +L+L +N++k +++ e+  +L +L+
+  Xe_023560-T1 213 GSKKIEKLLLTSTNLS-NVPEKLCKVLKNLSHLQLNHNKIKDVKALEYCTKLEELQ 267
+                   **************99.9**********************************9998 PP
+
+  == domain 3  score: 40.0 bits;  conditional E-value: 6.7e-13
+     Human_TLR 488 tlelesLreLdlsg....kadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlkslt 577
+                      + ++r+L+l+     ++ n  ++ + +++ L +L++   sl+e   ++f    +++++L L s+ L     ++ ++lk+L  L L++n++k + 
+  Xe_023560-T1 162 AFRSSKIRTLVLERigsaRKHNIEVKAFAEMPRLRELEITDVSLKEF--PDFTGS-KKIEKLLLTSTNLsnvPEKLCKVLKNLSHLQLNHNKIKDV- 254
+                   5578889999999888865777788899999***********99744..444444.489999999999988778999999****************. PP
+
+     Human_TLR 578 pklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskd 627
+                    k+++  ++L eL+ + N++t+Lpk  ls+ ++L +  ++sN+i+  +++
+  Xe_023560-T1 255 -KALEYCTKLEELQANDNKITKLPK--LSNCKNLVIIMVDSNEIQFLDQS 301
+                   .89**********************..*****************987765 PP
+
+  == domain 4  score: 31.5 bits;  conditional E-value: 2.5e-10
+     Human_TLR  64 sNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledg 145
+                   +N+i+ + ++df  l ++++L lshn +i+ i  +af+  k+ ++L+Ls+nk  +l+   +l+ L e+s+  n    +l+d+
+  Xe_023560-T1 315 YNKIQIIAENDFRGLVKMNSLFLSHN-QIISIHSNAFSDFKNIKKLQLSYNKFPNLPT-RGLEFLEEISVKGN---HKLKDF 391
+                   6*************************.9999**************************6.99999999998877...455554 PP
+
+>> Xe_018605-T1  Xe_018605
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.8   9.1   9.9e-14   2.8e-11     490     622 ..      50     176 ..      12     180 .. 0.79
+   2 !   55.2   1.5   1.7e-17   4.8e-15      74     212 ..     158     292 ..     158     305 .. 0.84
+   3 !   48.6  13.5   1.8e-15     5e-13     510     647 ..     313     446 ..     298     448 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 42.8 bits;  conditional E-value: 9.9e-14
+     Human_TLR 490 elesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsa 586
+                   +l +++ L++  ++ ++  + + +L++ ++     N l ++s+  f + + +l+e++L++n L+      l+kLe L+L +n l+ l p+++ +l+a
+  Xe_018605-T1  50 NLAKITGLNFDFNDLQELPESILTLKNIKKFSAVGNCLTTISSG-FGKFV-NLEEIRLNENCLC--AYLGLSKLEELYLDENVLQEL-PENIGCLRA 141
+                   34444445555443333444456788899999999999766654.44444.799*******995..56689****************.88******* PP
+
+     Human_TLR 587 LreLnlslNsltsLpkgflsklssLkvLdlssNaik 622
+                   Lr L++s N+l sLp+  + +l +L+vL+ls+N i+
+  Xe_018605-T1 142 LRILDISENKLISLPD-SFGELDHLEVLNLSRNNIS 176
+                   ****************.89***************97 PP
+
+  == domain 2  score: 55.2 bits;  conditional E-value: 1.7e-17
+     Human_TLR  74 dfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnlknLklLdLsfNnlkslpke 169
+                   +f +l++L+vL+ls+n +i  + +e+f +l++L++ dLs+n + kl++ f+    L +L   +n   + + +  + +l n+  L+L++N+l+  p++
+  Xe_018605-T1 158 SFGELDHLEVLNLSRN-NIS-VLPESFGFLSKLRKVDLSDNDIAKLPEeFKSAPRLESLYFDNN--VVGVLPAWFGKLSNILNLSLKDNKLQGCPLP 250
+                   6889999********9.777.78999********************999999999999988877..44699999*********************99 PP
+
+     Human_TLR 170 eefgnLtn..LkiLdlSgnkiqrcdlaplallelkelsnlsLsls 212
+                   e f + +   Lk+L+++gn i +   +p a+ el +l+ l L ++
+  Xe_018605-T1 251 ELFPKVSDktLKKLEVGGNAISQ---LPSAFGELGQLEELHLGST 292
+                   99999998889999999987777...5555556666677766654 PP
+
+  == domain 3  score: 48.6 bits;  conditional E-value: 1.8e-15
+     Human_TLR 510 llkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgf 604
+                    + +L s ++L l++N+l  ++ +  +  +++l+ + L +n L    +++ cl  Le   Ls+nqlksl p+++  l++L+ L l  N l +Lp+  
+  Xe_018605-T1 313 SFSKLHSINKLYLDENQL--IKLPCRFGDLHNLTWIDLGQNLLtyLPDSFCCLVLLEYCQLSKNQLKSL-PENFGRLESLKDLRLDYNLLEDLPE-S 405
+                   478899999999******..666666666669***********766799********************.889**********************.7 PP
+
+     Human_TLR 605 lsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                   + +l+ L+ Ldl sN++++v  +++ +l+ +Lk Ldl +N+F+
+  Xe_018605-T1 406 CCNLKALHTLDLFSNKLTKVP-KWLSKLT-SLKRLDLDKNNFH 446
+                   778999***********9985.6999998.9**********97 PP
+
+>> Xe_002448-T1  Xe_002448
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.8  11.7   2.5e-11     7e-09     506     647 ..     449     587 ..     417     589 .. 0.81
+   2 !   19.9   0.4     8e-07   0.00023     557     624 ..     671     734 ..     659     737 .. 0.90
+   3 !   29.9   5.3   7.5e-10   2.1e-07      75     181 ..     737     842 ..     733     858 .. 0.91
+   4 !   18.9   0.5   1.6e-06   0.00045     560     629 ..     880     949 ..     873     957 .. 0.87
+   5 !   38.2  15.4   2.4e-12   6.7e-10      55     203 ..     971    1134 ..     962    1207 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 34.8 bits;  conditional E-value: 2.5e-11
+     Human_TLR 506 rylsllkgL.ssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsL 600
+                   ++++l   L ++L  L+ls+  +  l+  e  + ++s+  LnL +  L + + + +l +Le L +s n ++ l    + +l++L+ L++s N lt+L
+  Xe_002448-T1 449 DIVNLKPSLqPQLRLLELSEDLF--LKRCE-VQSTKSISTLNLHDCGLtHLKNIDQLVNLENLTISFNAVTKL--DDIANLHSLKFLDVSYNCLTTL 540
+                   55555555524789999999998..34444.34456899*********55588999*****************..56999***************** PP
+
+     Human_TLR 601 pkgflsklssLkvLdlssNaiktvskdv..fqslqskLkvLdlgaNpFe 647
+                   ++  l++ + Lk+L++s N+++ +  +v  + + + ++++L+l++Np +
+  Xe_002448-T1 541 DG--LKSCAVLKILNISGNKLQNIRIEVgiLRKHAPSITSLNLSHNPWQ 587
+                   **..99***************9987664339998889*********975 PP
+
+  == domain 2  score: 19.9 bits;  conditional E-value: 8e-07
+     Human_TLR 557 lrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                   +  +k +++L L++  +  l+  +++kl+aL+  + s+Ns++++++  l++ + L++Ldls+N i++ 
+  Xe_002448-T1 671 TYWMKYITTLHLEGQGISKLS--NLEKLTALKWASFSRNSINKVEG--LENCKTLEELDLSKNMITKT 734
+                   5567999*************5..59*********************..*****************975 PP
+
+  == domain 3  score: 29.9 bits;  conditional E-value: 7.5e-10
+     Human_TLR  75 fqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeee 171
+                   +++l +L+ Ldls n  i  ++ ++ +++ +Le+L  ++n++ +l+s +  +sL+e+ + +n+i    e ++l++l+ L+  d+s+N l s +++  
+  Xe_002448-T1 737 LSNLVNLKRLDLSYN-DITALDGSVMENMLNLEYLCVESNYMTSLQSLKKSTSLQEIYAGNNEIANTREIFYLKELRFLEIIDVSKNPLMSSKENTR 832
+                   67899**********.************************************************999999*******************99998877 PP
+
+     Human_TLR 172 fgnLtnLkiL 181
+                   +  + +L +L
+  Xe_002448-T1 833 MFVIYHLSLL 842
+                   7666666655 PP
+
+  == domain 4  score: 18.9 bits;  conditional E-value: 1.6e-06
+     Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv..skdvf 629
+                   ++ L+ +DL +++l+s+  ++ +  ++Lr +nl++N+lt+  +  l +l +L+vL l+ N i++v  +k+ f
+  Xe_002448-T1 880 FSALQEIDLPHCELRSIDVGNGEMFRNLRSINLEHNNLTNFGG--LIHLINLRVLCLNYNRIESVfpKKKTF 949
+                   578999***********9999**********************..99***************9862255555 PP
+
+  == domain 5  score: 38.2 bits;  conditional E-value: 2.4e-12
+     Human_TLR   55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennikasledgal 147 
+                    ++ ++L L +N i+++++ +++r+++ ++L l+ n +i   + e  +sl+eL+eL L++n++++ls+    +  +L+eL+l+en ++   +   +
+  Xe_002448-T1  971 EQLEVLHLGFNGISNMKSLQLSRIPNIKALFLQGN-EIS--KVEGLQSLTELRELVLDQNRIKTLSEtsLIGQRKLIELHLEENRLR---NLSNF 1059
+                    45677888888888888888888888888888888.666..4566788888888888888888888766555566888888888766...34567 PP
+
+     Human_TLR  148 lnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgn.kiqrcdlaplallelk..................e 203 
+                    + l nL++L L  N+++ + + ++++++++L  + l +n   +r+ + p+ +  ++                  e
+  Xe_002448-T1 1060 EALLNLQRLYLGMNKIQDMCELQKLEKMNSLFEISLINNpITRRMLHRPVLVYRQPnivcidgipvknderakaE 1134
+                    788888888888888888888888888888888888887444555555555555556666666666666665442 PP
+
+>> Xe_014466-T1  Xe_014466
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   2.8   1.7e-14   4.9e-12     543     645 ..      37     138 ..      21     140 .. 0.91
+   2 !   54.9   9.2   2.2e-17     6e-15     513     646 ..     102     231 ..      98     233 .. 0.90
+   3 !   34.2   6.7     4e-11   1.1e-08     559     646 ..     148     231 ..     146     276 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 1.7e-14
+     Human_TLR 543 keLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskL 636
+                   ++L Ls n++   s   l  +++Le+LD+ssnql+ l p  + kl++L++L l +N l++Lp+  + ++  L++L++s N+ + +  +v++ +   L
+  Xe_014466-T1  37 TYLDLSGNQMkcfSGGDLSSFHSLETLDISSNQLECL-PCGLCKLNKLKRLFLRNNALFELPQ-CITSVRCLEILNISGNKFENFPLEVLDLCR--L 129
+                   789999999987777789999****************.88999********************.8999***********************887..* PP
+
+     Human_TLR 637 kvLdlgaNp 645
+                   k+L lg+N 
+  Xe_014466-T1 130 KELHLGGNS 138
+                   *******96 PP
+
+  == domain 2  score: 54.9 bits;  conditional E-value: 2.2e-17
+     Human_TLR 513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                    +  LeiL++s N++++ + e+++     lkeL+L  n +    + l +l++Le L+L +n+lk l p ++ kl++L+ Lnls N +  Lp+  l k
+  Xe_014466-T1 102 SVRCLEILNISGNKFENFPLEVLDLC--RLKELHLGGNSItqIPKDLAMLSSLEYLYLGGNKLKEL-PVEIGKLTNLKFLNLSDNDIDILPN-ELAK 194
+                   6778***********87777666555..5***********766789********************.99***********************.8999 PP
+
+     Human_TLR 608 lssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                   l +L++L l +N ++      ++ l ++L+++ +++Np+
+  Xe_014466-T1 195 LHKLESLSLHNNNLTVLPSGIIK-L-KNLQEISVRGNPL 231
+                   **************999999988.5.59*********97 PP
+
+  == domain 3  score: 34.2 bits;  conditional E-value: 4e-11
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                   +l++Le L+L +n+lk l p ++ kl++L+ Lnls N +  Lp+  l kl +L++L l +N ++      ++ l ++L+++ +++Np+
+  Xe_014466-T1 148 MLSSLEYLYLGGNKLKEL-PVEIGKLTNLKFLNLSDNDIDILPN-ELAKLHKLESLSLHNNNLTVLPSGIIK-L-KNLQEISVRGNPL 231
+                   455566666666666666.5566666666666666666666665.555556666666666666555555555.3.3566666666654 PP
+
+>> Xe_015592-T1  Xe_015592
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.7   0.1     2e-32   5.6e-30     712     896 ..     413     587 ..     392     603 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 104.7 bits;  conditional E-value: 2e-32
+     Human_TLR 712 vlvvavlvlllywdlwyylrlllakvktykrlsaresrnleYdAfisysekD.sdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiek 807
+                   ++v++ +++l+ ++     + l + ++ +  ++ +++ +  +dAfisyse D    V+  L++ le+e    kl L+ Rdf  Gkai++ i++si+ 
+  Xe_015592-T1 413 CAVMVAAFVLVVFHR----KKLKKYTRFFYPRNEQDETAALFDAFISYSEADgGRFVRTVLIPLLEDEC-GYKLTLHFRDFAVGKAIVDSIVSSIYD 504
+                   223333333333332....223333333333333479999************99*************85.69************************* PP
+
+     Human_TLR 808 SrKtvfVlskkfvksewckyefylAhqrlleensdviILilLepiekyqlskalrklkrllkkksyLeWPkdkskrglFwakLraalls 896
+                   Sr++v +++ +f+ksewck+e++     ++  + + ++ ++L+ i+k++l+k+   l++++++ +yL W + +++    ++kL++al  
+  Xe_015592-T1 505 SRRIVTIITSEFLKSEWCKFEVDQGLRCAI-KKPNRLVVVMLQDIPKNKLPKS---LRSFMSHVTYLVWDDHRRN--QMREKLKKALGP 587
+                   ***********************9986666.56789999*************9...999**********887654..467888888754 PP
+
+>> Xe_015592-T2  Xe_015592
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.7   0.1   1.9e-32   5.2e-30     712     896 ..     392     566 ..     371     582 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 104.7 bits;  conditional E-value: 1.9e-32
+     Human_TLR 712 vlvvavlvlllywdlwyylrlllakvktykrlsaresrnleYdAfisysekD.sdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiek 807
+                   ++v++ +++l+ ++     + l + ++ +  ++ +++ +  +dAfisyse D    V+  L++ le+e    kl L+ Rdf  Gkai++ i++si+ 
+  Xe_015592-T2 392 CAVMVAAFVLVVFHR----KKLKKYTRFFYPRNEQDETAALFDAFISYSEADgGRFVRTVLIPLLEDEC-GYKLTLHFRDFAVGKAIVDSIVSSIYD 483
+                   223333333333332....223333333333333479999************99*************85.69************************* PP
+
+     Human_TLR 808 SrKtvfVlskkfvksewckyefylAhqrlleensdviILilLepiekyqlskalrklkrllkkksyLeWPkdkskrglFwakLraalls 896
+                   Sr++v +++ +f+ksewck+e++     ++  + + ++ ++L+ i+k++l+k+   l++++++ +yL W + +++    ++kL++al  
+  Xe_015592-T2 484 SRRIVTIITSEFLKSEWCKFEVDQGLRCAI-KKPNRLVVVMLQDIPKNKLPKS---LRSFMSHVTYLVWDDHRRN--QMREKLKKALGP 566
+                   ***********************9986666.56789999*************9...999**********887654..467888888754 PP
+
+>> Xe_013468-T1  Xe_013468
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   5.3   9.9e-19   2.8e-16     506     623 ..     221     341 ..     173     350 .. 0.83
+   2 !   29.6   5.7   9.3e-10   2.6e-07     520     622 ..     308     421 ..     307     429 .. 0.58
+   3 !   29.9   0.1   7.6e-10   2.1e-07     508     607 ..     429     530 ..     422     539 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 9.9e-19
+     Human_TLR 506 rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksl.tpklvnklsaLreLnlslNslt 598
+                   r   + ++L s e+Ldls+N+l el++    ++   lk+L Ls+n+L    ++++ c ++Le LDLs+n+++    pk+  k+s + +Lnls+Ns++
+  Xe_013468-T1 221 RSTTISRHLFSVENLDLSKNKLIELPSGLYNNME-RLKKLVLSHNQLasiPDDIFYCCHHLEWLDLSHNYIEKAeKPKNHFKTSFISHLNLSHNSIR 316
+                   4557888999************999888777776.************9999********************987246777888999*********** PP
+
+     Human_TLR 599 sLpkgflsklssLkvLdlssNaikt 623
+                   + p+++ +++  L +Ldls N i+ 
+  Xe_013468-T1 317 EFPTYVSECFPLLTHLDLSYNYINF 341
+                   *********************9975 PP
+
+  == domain 2  score: 29.6 bits;  conditional E-value: 9.3e-10
+     Human_TLR 520 LdlsqNslselsneefkslpeslkeLnLssnmL............swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgf 604
+                   L+ls+Ns+ e +  +  + ++ l++L Ls+n++              +++  l +L++L L +n +  ++++ ++ l++L   +  +N l++Lp+ +
+  Xe_013468-T1 308 LNLSHNSIREFPTYV-SECFPLLTHLDLSYNYInflpeskydrspAGKSTINLGRLQTLILCHNSISNIPESFLKYLTNLNAFYARHNLLNQLPDKV 403
+                   566666665444333.333446666666666666666666666555555566666666666666666666666666666666666666666666666 PP
+
+     Human_TLR 605 lsklssLkvLdlssNaik 622
+                   +  ls+L + +lssN+++
+  Xe_013468-T1 404 APLLSKLGIVKLSSNKLT 421
+                   666666666666666665 PP
+
+  == domain 3  score: 29.9 bits;  conditional E-value: 7.6e-10
+     Human_TLR 508 lsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.........swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnls.l 594
+                    +++ +L++ + +d+s+N l+++  + + s    lk Ln+++n +         s       + L+ LDLs+n+l+ + p+ + + ++L +Ln+s +
+  Xe_013468-T1 429 TKFVLTLPNVHTVDMSENDLKSIAAPSIWSSQ-RLKDLNVAKNDIrfvdltggaS-----KWSFLTRLDLSENNLREI-PRGIGEMKSLGQLNISgN 518
+                   56888888888888888888888888888877.8888888888886554333221.....224477788888888888.788888888888888845 PP
+
+     Human_TLR 595 NsltsLpkgflsk 607
+                   N+++ Lp+  l +
+  Xe_013468-T1 519 NRISALPN-ELGN 530
+                   67888887.4444 PP
+
+>> Xe_013413-T1  Xe_013413
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.8   6.2   1.2e-14   3.4e-12     542     645 ..     730     842 ..     714     843 .. 0.89
+   2 !   32.4   4.7   1.3e-10   3.8e-08     518     621 ..     834     948 ..     828     953 .. 0.50
+   3 !   30.0   0.1   7.4e-10   2.1e-07     508     606 ..     957    1057 ..     949    1066 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 45.8 bits;  conditional E-value: 1.2e-14
+     Human_TLR 542 lkeLnLssnmL.........swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvf 629
+                   ++ L Ls n +         s ++ r l ++e LDLs+n+l  l+++l n+ ++L++L ls+N+l s+p+ ++ +  +L+ Ldls+N+i++ +k   
+  Xe_013413-T1 730 VRCLDLSRNEIinadvlaarSTTISRHLFSVENLDLSKNKLVELPSGLYNNMERLKKLVLSHNQLASIPNDIFYCCHHLEWLDLSHNFIEKAEKPKN 826
+                   567889999988999999989999999***************************************************************9997554 PP
+
+     Human_TLR 630 qslqskLkvLdlgaNp 645
+                   +  +s ++ L+l++N 
+  Xe_013413-T1 827 HFKTSFISHLNLSHNS 842
+                   4335559999999996 PP
+
+  == domain 2  score: 32.4 bits;  conditional E-value: 1.3e-10
+     Human_TLR 518 eiLdlsqNslselsneefkslpeslkeLnLssnmL............swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                    +L+ls+Ns+ e +  +  + ++ l++L Ls+n++              +++  l +L++L L +n +  ++++ ++ l++L   +  +N l++Lp+
+  Xe_013413-T1 834 SHLNLSHNSIREFPTYV-SECFPLLTHLDLSYNYInflpeskydrspAGKSTINLGRLQTLILCHNSISNIPESFLKYLTNLNAFYARHNLLNQLPD 929
+                   34555555554333333.3333355555555555555555555555444455555555555555555555555555555555555555555555555 PP
+
+     Human_TLR 603 gflsklssLkvLdlssNai 621
+                    ++  ls+L + +lssN++
+  Xe_013413-T1 930 KVAPLLSKLGIVKLSSNKL 948
+                   5555555555555555555 PP
+
+  == domain 3  score: 30.0 bits;  conditional E-value: 7.4e-10
+     Human_TLR  508 lsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.........swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnls 593 
+                     +++ +L++ + +d+s+N l+++  + + s    lk Ln+++n +         s       + L+ LDLs+n+l+ + p+ + + ++L +Ln+s
+  Xe_013413-T1  957 TKFVLTLPNVHTVDMSENDLKSIAAPSIWSSQ-RLKDLNVAKNDIrfvdltggaS-----KWSFLTRLDLSENNLREI-PRGIGEMKSLGQLNIS 1044
+                    56888888888888888888888888888877.8888888888886554333221.....224477788888888888.8888888888888888 PP
+
+     Human_TLR  594 .lNsltsLpkgfls 606 
+                     +N+++ Lp+  l 
+  Xe_013413-T1 1045 gNNRISALPN-ELG 1057
+                    4567888887.444 PP
+
+>> Xe_016382-T1  Xe_016382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   8.0   1.2e-09   3.5e-07     520     623 ..      12     118 ..       6     119 .. 0.88
+   2 !   64.2  27.7   3.5e-20   9.7e-18     448     646 ..     102     304 ..      98     307 .. 0.90
+   3 !   19.2   0.8   1.3e-06   0.00037     489     576 ..     289     378 ..     281     386 .. 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 1.2e-09
+     Human_TLR 520 LdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNslts..LpkgflsklssLk 612
+                   +d sqN ++  s +e    +++l+ L+L +++L    + +  lkkLe L +++nql+sl ++ + +ls+L+ +n   N+l++  +p+g++s l++L 
+  Xe_016382-T1  12 VDFSQNDFEDKSFPERVGNMPNLRWLKLDKTKLheLPDEISHLKKLEHLSVKKNQLNSLHNGDLTALSNLKVINARKNQLKNsgIPNGVFS-LEELL 107
+                   689*****9999999999999************7767889999*************************************75448998886.57788 PP
+
+     Human_TLR 613 vLdlssNaikt 623
+                     d s+N++k 
+  Xe_016382-T1 108 TVDFSHNQLKE 118
+                   88*****9986 PP
+
+  == domain 2  score: 64.2 bits;  conditional E-value: 3.5e-20
+     Human_TLR 448 elekLetLdLrknslktl.ekvthsl...klslsdNniasl.vsltlelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefksl 538
+                    le+L t d+++n+lk+  e++++     +lsl++N i ++  +l+++ ++L +Ldls +  d      l++L +L++L l++N l + +  ++ +l
+  Xe_016382-T1 102 SLEELLTVDFSHNQLKEVpEELENAHslcVLSLANNRIENIpNQLFINCTDLMYLDLSDNqLDSL-PPQLRRLVNLQVLILNNNPLMHAQLRQLPNL 197
+                   68999***********9988876554668************99***************9856644.455799************************* PP
+
+     Human_TLR 539 peslkeLnLssnmL....swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqs 631
+                   +  l+ L+L++++       ++l  l kL+ +DLs n l  + p+ +  ls+L++Lnls+Ns+++L++ +     +++vL++s+N++++    ++ +
+  Xe_016382-T1 198 M-ALHTLHLRNTQRtitnMPNKLDSLTKLTDVDLSYNDLPRV-PEPIYRLSSLKRLNLSHNSISELSN-LTGTWTEMEVLNISRNQLTSLPS-ALCK 290
+                   *.9*******998767877899********************.889**********************.99****************99865.5555 PP
+
+     Human_TLR 632 lqskLkvLdlgaNpF 646
+                   l  +L+ L +++N+ 
+  Xe_016382-T1 291 LV-NLRKLYISGNNI 304
+                   66.899999999985 PP
+
+  == domain 3  score: 19.2 bits;  conditional E-value: 1.3e-06
+     Human_TLR 489 lelesLreLdlsgk.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksl 576
+                    +l +Lr+L +sg+  +   +   + +L +Lei   + N+l+ +  e ++  + +lk+L L sn L    + +++l++++ LD+++n   ++
+  Xe_016382-T1 289 CKLVNLRKLYISGNnINFeGIPTGVSKLYKLEIFAAACNKLE-CIPEGLCRCL-KLKKLILHSNCLvtLPEAIHFLPNMKELDVHNNPNLTM 378
+                   445555555555431221122222233333333333455553.4445555555.55555555555554445555555555555555554444 PP
+
+>> Xe_000193-T1  Xe_000193
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.9   0.0       6.1   1.7e+03     236     272 ..     502     538 ..     498     560 .. 0.69
+   2 !   97.4   2.8   3.1e-30   8.6e-28     714     902 ..     650     829 ..     631     836 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -2.9 bits;  conditional E-value: 6.1
+     Human_TLR 236 LdlsenflakeivktslktlaqLellnlklklfsnsl 272
+                    +++e fl+k  v  ++  l++L+ +n+ ++l + ++
+  Xe_000193-T1 502 VETTEGFLNKSYVLSCFDELECLQWHNIGQQLITVDN 538
+                   5677788888888889999999999999666644444 PP
+
+  == domain 2  score: 97.4 bits;  conditional E-value: 3.1e-30
+     Human_TLR 714 vvavlvlllywdlwyylrlllakvktykrlsaresrnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrK 810
+                   ++av +++ +  +  ++ ++l k k  +r       +l++d f+sy++kD++WVk eL k le+   +l +CL++Rd++ G+++++n+ +s++ SrK
+  Xe_000193-T1 650 ALAVGSVFAGVSV-VVFVFCLRKRKLKRRYLNESDVELRWDVFVSYNSKDFAWVK-ELCKLLENAPFNLTVCLHQRDWEVGRTVVDNMAESVYFSRK 744
+                   5667777777777.56678888888855555457889*****************8.7********889***************************** PP
+
+     Human_TLR 811 tvfVlskkfvksewckyefylAhq.rlleensdviILilLepiekyqlskalrklkrllkkksyLeWPkdkskrglFwakLraallsknsvkk 902
+                   t+ V+sk ++ s++c  e+++A +    +  +d iILi L++ + ++l+k+       l+kksyL    d+++r++F +kL +al  +  +k+
+  Xe_000193-T1 745 TLLVVSKDYLLSPFCLQELNIALEfEKRKALKDRIILIKLDNASLKRLPKS-------LQKKSYLDFS-DEQQRKYFKEKLLQALRVQDRAKE 829
+                   **********************8625667789***********77777777.......679*****96.568899**********99776664 PP
+
+>> Xe_002676-T1  Xe_002676
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.1   1.5   9.6e-18   2.7e-15     451     624 ..    1357    1535 ..    1343    1539 .. 0.80
+   2 !   39.9   9.1   7.2e-13     2e-10     513     644 ..    1541    1668 ..    1538    1670 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 56.1 bits;  conditional E-value: 9.6e-18
+     Human_TLR  451 kLetLdLrknslktl.ekvthsl.........klslsdNniaslvsltlelesLreLdlsgkadn.rylsllkgLssLeiLdlsqNslselsnee 534 
+                    + +tLdL   s   l ++   s+         +l lsdN+ia l  +  +l++L+e d+s + d  ++ + +k  + L i+d s N ls    + 
+  Xe_002676-T1 1357 DTQTLDLPGTSNGLLqSE---SPaffrlfnltHLGLSDNEIARLPPEIGNLTNLQEFDISRN-DIcDIPENIKFCKDLMIVDFSGNPLSR-LPDG 1446
+                    557888876666666333...22345888889999*********8888899********964.3235555555566799*********74.3444 PP
+
+     Human_TLR  535 fkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624 
+                    f +l + l++L L++  L      +  l +L+vL+L++n +k++ p ++++l++L +L+l +N+l +Lp+ ++ +l +L +L l+ N++ t 
+  Xe_002676-T1 1447 FTQL-KCLTSLCLNDVSLvrLPPDIGSLAELQVLELRENLIKFI-PVSLSFLTKLERLDLGCNELEDLPD-IIGSLPELIELWLDGNLLRTL 1535
+                    5554.59********9998766789999****************.88999*******************9.99999*********9999875 PP
+
+  == domain 2  score: 39.9 bits;  conditional E-value: 7.2e-13
+     Human_TLR  513 gLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl 605 
+                    +L+ L+i d s+N+++    +e+  l+ sl+ ++Ls+n L    + +  lk+L++L + +n+l +lt+ ++     L eL l  N l +Lp+  +
+  Xe_002676-T1 1541 NLKRLQIFDCSENRIE-DLPDEINGLV-SLTDFHLSQNLLevIPDTIDELKNLQLLKIDQNRLVQLTD-SIGGVITLTELVLTENILEDLPS-SI 1631
+                    89*************6.7788999999.************9888999*******************77.8889999****************.89 PP
+
+     Human_TLR  606 sklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaN 644 
+                     kl++L+v ++++N++++   + +++++ kL+v  l++N
+  Xe_002676-T1 1632 GKLENLSVFNVDRNQLQALPVE-IGNCT-KLSVFSLREN 1668
+                    *****************98665.67788.9999999998 PP
+
+>> Xe_000197-T1  Xe_000197
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.5   1.4   1.2e-29   3.3e-27     747     866 ..      10     130 ..       2     159 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 95.5 bits;  conditional E-value: 1.2e-29
+     Human_TLR 747 esrnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhq.rllee.ns 841
+                   e+ +l++d f+sys++D+ WV+n L + le    +l +C ++Rd++ G++i++n+++s++ SrKt++++sk++v+s +c  e+++A +  l+++  +
+  Xe_000197-T1  10 EEPELRWDVFVSYSSHDFSWVEN-LCQLLESPPFNLIVCVHQRDWELGRSIVDNMVDSVYCSRKTLIIVSKNYVQSDYCLQELQIAMHsELMSDiLN 105
+                   67899****************98.99*****9878999************************************************66267877347 PP
+
+     Human_TLR 842 dviILilLepiekyqlskalrklkr 866
+                   + i+Li ++ ++  ql++a+r++  
+  Xe_000197-T1 106 ERIVLIKIDDVSMQQLPRAIRQRSY 130
+                   78*********99999999887754 PP
+
+>> Xe_003064-T1  Xe_003064
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   1.0   1.6e-10   4.5e-08     562     645 ..     279     359 ..     235     361 .. 0.86
+   2 !   10.6   1.0   0.00054      0.15     584     623 ..     386     424 ..     376     431 .. 0.55
+   3 !   47.5   7.3   3.8e-15   1.1e-12     517     598 ..     433     516 ..     430     525 .. 0.92
+   4 !   17.2   0.2   5.2e-06    0.0014     562     605 ..     554     596 ..     546     619 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 1.6e-10
+     Human_TLR 562 kLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNp 645
+                    L  LDLs+nql  + pk++ +l aL+e + s N+l++Lp+ ++ + s+L+    ssN ++tv  + fq   + L  L+ ++N+
+  Xe_003064-T1 279 CLVKLDLSKNQLANI-PKEIINLPALKEVDFSDNNLFELPEVYNLEDSRLEDIRASSNRLQTVPLSYFQ--LRLLIHLNFSRNE 359
+                   56679**********.99***********************99999***********************..4468899998886 PP
+
+  == domain 2  score: 10.6 bits;  conditional E-value: 0.00054
+     Human_TLR 584 lsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                    + L+ Lnl +N+l+ Lp+  +s l sL++L+l  N+++ 
+  Xe_003064-T1 386 CHLLKSLNLMHNKLKILPA-AISALTSLEMLQLCDNELSD 424
+                   4445555555555555555.55555555555555555443 PP
+
+  == domain 3  score: 47.5 bits;  conditional E-value: 3.8e-15
+     Human_TLR 517 LeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNslt 598
+                   L iL+++qN+l   ++ +f ++ ++l+ LnLs n+L   sw++  +l+ L++LDLs n ++ ++ k + + s+Lr+Lnls+N+l 
+  Xe_003064-T1 433 LRILNIAQNQLTDFKQSVFANWSQTLVDLNLSANQLthiSWDI-CQLQMLQILDLSRNSIENMPAKGFWACSNLRKLNLSNNKLC 516
+                   99**********************************7755554.569************************************96 PP
+
+  == domain 4  score: 17.2 bits;  conditional E-value: 5.2e-06
+     Human_TLR 562 kLevLDLssnqlksltpklvnklsaLreLnlslNs.ltsLpkgfl 605
+                   +Le+LDLs n+l ++ p ++ kl++L  Lnls N+ l++Lp+  l
+  Xe_003064-T1 554 SLEILDLSYNKLLAI-PDSLCKLTSLEDLNLSWNRkLKTLPAN-L 596
+                   79*************.77999*************559999983.3 PP
+
+>> Xe_020042-T1  Xe_020042
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.6   0.5   4.8e-10   1.3e-07      53     184 ..     100     237 ..      85     244 .. 0.86
+   2 !   35.7   0.1   1.4e-11   3.9e-09     507     637 ..     245     382 ..     238     391 .. 0.82
+   3 !   18.8   0.2   1.8e-06    0.0005     404     474 ..     406     475 ..     397     487 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 30.6 bits;  conditional E-value: 4.8e-10
+     Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriq.tiekeafkslkeLeeLdLshnkls.klssfallssLteLslvenni.......ka 140
+                   ++ +++s dL+ N +++ +  +f r+ +Lq L ls n ++  +i + + ++++ L+   Ls+  ++ +++ ++l+ +  +L++ +          k 
+  Xe_020042-T1 100 ISGYIKSIDLTANLVKN-TPPNFWRFRNLQGLCLSQNNKMTgKISDILSSNMTRLRRVSLSYTGVKrEIP-WKLIMQFSDLEILQLCCmtgkrfyK- 193
+                   6789*********9998.5679***************777689*********************983688.9***999999987755557876542. PP
+
+     Human_TLR 141 sledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlS 184
+                   +  +  l  l++L++L++  N+++ + +++++ n tnL +Ldl 
+  Xe_020042-T1 194 NDLPANLGSLRKLQVLSIGRNQISKVHLPQSIRNATNLWFLDLE 237
+                   33356799999*******************************96 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 1.4e-11
+     Human_TLR 507 ylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnq.lksltpklvnklsaLreLnlslNslts 599
+                    l  ++++++L+ L++++ +l+ +  ++f    +++ eL +  n+L     s +  +k++e + L sn+ l+ + p+ + +   L+eL+ls N++t 
+  Xe_020042-T1 245 NLTYFNNMKHLKYLNIKNCRLKGIVPKDFGLTHPEMIELDMFGNRLkgdISSCFFGFKNIERISLGSNKrLTGIIPNIFGEFGVLKELDLSGNNFTG 341
+                   4788******************************************65555566667*********997699999********************** PP
+
+     Human_TLR 600 LpkgflsklssLkvLdlssNaiktvsk....dvfqslqskLk 637
+                   L++  +   ++ ++L +++N    v      ++f ++++kL+
+  Xe_020042-T1 342 LDA-NFMFGKQFQSLYIDQNVNLNVRVenfiSAFRHCHEKLR 382
+                   **9.55567888999999998777665112234566666666 PP
+
+  == domain 3  score: 18.8 bits;  conditional E-value: 1.8e-06
+     Human_TLR 404 evLnLseNllsqelfg.seflgltelkyldLskNkldll.tsssftelekLetLdLrknslktl.ekvthslkl 474
+                    + +Ls N+l+ el +        +l yl+Ls+N++     ++ f+ l+ L+ LdLr n   ++ + v++ ++l
+  Xe_020042-T1 406 MYIDLSTNVLTGELPSlV----ASDLLYLNLSNNNFTEFsSRNFFASLKTLKYLDLRGNPYLFQdKPVDKWMDL 475
+                   567778888777777731....4567788887777654404445677788888888877777775656555544 PP
+
+>> Xe_022158-T1  Xe_022158
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.3   5.7   5.9e-10   1.6e-07     523     626 ..      32     137 ..      29     150 .. 0.79
+   2 !   40.2   6.0   6.2e-13   1.7e-10     514     621 ..     210     316 ..     206     341 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 30.3 bits;  conditional E-value: 5.9e-10
+     Human_TLR 523 sqNslselsneefkslpeslkeLnLssnmL......swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkv 613
+                   s+N l++ ++++  ++ e++ + ++ +  L      + + ++ ++kL+ LDLs nq++ +  ++++k  +Lr L+l +N++++++   l+ l++L  
+  Xe_022158-T1  32 SWNDLEYSKQKKSPTMREEVGSERIYEVNLhaseivKIDNFEKFPKLRCLDLSCNQIEVI--EALDKNVELRVLKLYSNKIKNIER--LETLKELCN 124
+                   678888888888888877766555555555555558999999999999999999999999..789999999999999999999999..999999999 PP
+
+     Human_TLR 614 LdlssNaiktvsk 626
+                   L+l+ N+++ +  
+  Xe_022158-T1 125 LQLQDNELSYIGD 137
+                   9999999987754 PP
+
+  == domain 2  score: 40.2 bits;  conditional E-value: 6.2e-13
+     Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvl.rclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg..flsk 607
+                    ++Le+Ld+s+N+ls  s  +++slp s+++L+L++n++++  + r +++Le L+L +n++ s+ +++ +   +L  L++++N+l +L++   +ls+
+  Xe_022158-T1 210 CKKLEELDISHNKLS--SAVKLQSLP-SIRVLHLEYNKICDFNTsRPVPTLEQLYLGNNKIGSI-KEVPSMFPSLEVLDVQSNNLDNLDELtlPLSQ 302
+                   589***********6..444555665.************765551666****************.77888999************999975226789 PP
+
+     Human_TLR 608 lssLkvLdlssNai 621
+                     +L++L +  N  
+  Xe_022158-T1 303 CIHLQELTIIGNPC 316
+                   99999999988854 PP
+
+>> Xe_010035-T1  Xe_010035
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   9.1   7.9e-17   2.2e-14     301     463 ..     204     365 ..     193     368 .. 0.78
+   2 !   38.7   9.0   1.7e-12   4.8e-10     382     465 ..     357     439 ..     357     451 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 53.0 bits;  conditional E-value: 7.9e-17
+     Human_TLR 301 ddsllqvLqlLetlslelnfikqaklklF...kafkglkylelsnnkisglgelkakdfeydktsrfylfsq..svvyellkklkilnLtknkifkv 392
+                   +++ l++L++  + +     i+q + +     k f+g k l+++ n +s++   ++ +++ +++++  +  +    ++++l  +k+ nL+ n ++ +
+  Xe_010035-T1 204 ENCTLDILRCTGNYT-----IPQTNYSCVlsnKDFTGCKDLKMKHNYTSQVQICDNAKIDESEKKVQRICGDvfRQKEKCLVTVKAFNLAGNGLKEI 295
+                   556677777777666.....4444433321116677888888888888888666555555555544444423358899******************* PP
+
+     Human_TLR 393 eseafsklsslevLnLseNllsqelfg.seflgltelkyldLskNkldlltsssftelekLetLdLrknslk 463
+                     ++f+ l++l++L+Ls+N ls  l + + f gl el+ l+L  N l  +  + f+ l++L++LdL++n+l 
+  Xe_010035-T1 296 PTDCFKSLTNLKHLDLSNNKLS--LQNcEMFNGLIELENLNLAGNSLNKIPTDCFKSLTNLKHLDLSNNNLS 365
+                   **********************..5554789**************************************986 PP
+
+  == domain 2  score: 38.7 bits;  conditional E-value: 1.7e-12
+     Human_TLR 382 lnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktl 465
+                   l+L++n++++ ++e+f+ l++le Ln++ N + +   +  f++lt+lk ldLs+Nkl l + + f+ l +Le L +++ + +++
+  Xe_010035-T1 357 LDLSNNNLSLQNCEMFNGLTELENLNIAGNGIKEIAAD-CFKSLTNLKLLDLSNNKLSLQNCEMFNGLIELENLSFNSKETEVQ 439
+                   79******************************965555.78*********************************9998766655 PP
+
+>> Xe_021270-T1  Xe_021270
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.4   0.7   5.1e-16   1.4e-13      33     137 ..      15     120 ..       2     125 .. 0.91
+   2 !   33.2   4.8   7.7e-11   2.2e-08     559     647 ..     130     215 ..     125     217 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 50.4 bits;  conditional E-value: 5.1e-16
+     Human_TLR  33 eerevivdcsklkLtevPk...dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fall 125
+                    ++  + +cs +kL+evP     l ++v++ dLs Nr+++++ + + r+ eL++L++++n +i ++ +e++  +k+Le+L+L  n++ ++++ f+ l
+  Xe_021270-T1  15 AKKTRVLNCSGRKLKEVPVvvlSLATTVRTIDLSRNRLSKIPPA-LGRFTELKQLNVERN-EIDQLANEMC-GMKKLESLQLGFNRIREIPKsFSQL 108
+                   6678899***********9888899****************986.9**************.********99.5899********************* PP
+
+     Human_TLR 126 ssLteLslvenn 137
+                   ++L +  l +n+
+  Xe_021270-T1 109 KNLKSVYLQSND 120
+                   *****9999985 PP
+
+  == domain 2  score: 33.2 bits;  conditional E-value: 7.7e-11
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNai..ktvskdvfqslqskLkvLdlgaNpFe 647
+                    lk+L v+DLs+n+++ l p+ ++kl+ + eLn++ N+l+sLp   ls+  +LkvL +++N++  +++  d+++s q  + vL + +N F+
+  Xe_021270-T1 130 ELKQLDVVDLSENKIREL-PQDIEKLQCI-ELNMNANQLSSLPV-SLSSCPRLKVLRVEENLLelSSITSDFLKSSQ--ICVLAVDGNLFR 215
+                   68****************.7677777655.9************9.89999***********8622678899999766..999999999885 PP
+
+>> Xe_002052-T1  Xe_002052
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.7  12.9   3.5e-12   9.9e-10      57     184 ..      23     144 ..      10     146 .. 0.83
+   2 !   49.1   6.2   1.2e-15   3.3e-13     514     630 ..     135     250 ..     132     266 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 37.7 bits;  conditional E-value: 3.5e-12
+     Human_TLR  57 vtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnlkn 152
+                    tsL+Ls+  ++ l  s+++rl +L+vL l+ n +i+ + ++   sl++Le+L L+hn+l  l+  f+ l +L+ Lsl++nn+     +  + +l+ 
+  Xe_002052-T1  23 YTSLNLSHQNLTIL-PSSISRLIKLKVLMLNDN-NII-MPPGELVSLTNLEHLLLDHNQLTMLPTgFGELMNLIVLSLSHNNLA--FLPSEIGKLNH 114
+                   599*******9865.689***************.777.8******************************************997..56667777777 PP
+
+     Human_TLR 153 LklLdLsfNnlkslpkeeefgnLtnLkiLdlS 184
+                   L +L L + +l    ++ee+  L++L +L+++
+  Xe_002052-T1 115 LSELWLVNVQLI--ALPEEICLLKKLIKLGVG 144
+                   777777655554..455667777777777766 PP
+
+  == domain 2  score: 49.1 bits;  conditional E-value: 1.2e-15
+     Human_TLR 514 LssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl 608
+                   L++L +L + +N ls    +e++s ++ l+ L+L++n++    + l++lk+L+++D+s+n+l+ + p++++ +++L  L+ls+N+l+  p+ f + +
+  Xe_002052-T1 135 LKKLIKLGVGENLLS--GLPENFSYLQALEWLSLRKNQItsLPNDLHQLKHLTFVDVSENRLQHI-PNSLQRSKSLSYLKLSHNNLSIRPGDFSKGF 228
+                   899***********7..6677888888************776789********************.779**************************** PP
+
+     Human_TLR 609 ssLkvLdlssNaiktvskdvfq 630
+                    sL+ Ldl +  ++t  k +++
+  Xe_002052-T1 229 PSLHKLDLRHTNVETLPKGSLK 250
+                   *************999888776 PP
+
+>> Xe_010036-T1  Xe_010036
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4  12.5   1.4e-23   3.9e-21     299     517 ..     160     382 ..     147     387 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 75.4 bits;  conditional E-value: 1.4e-23
+     Human_TLR 299 etddsllqvLqlLetlsl.elnfikqaklklFkafkglk..ylelsnnkisglgelkakdfeydktsrfylfsq..svvyellkklkilnLtknkif 390
+                   + +++ l++L++  ++++ ++n     + k+F++ k l+  + + s+++i   +++++++ ++   +r +   +    ++++l  +k+l+L++n+++
+  Xe_010036-T1 160 TDENCTLDILRCTGNITIpQTNYSCVLSNKDFTGCKDLEmrHTYTSQVQICDNAKIDESEKKI---QRICG--DvfRQKEKCLVTVKALDLSNNNLS 251
+                   566788999999999993245555555566666555443114555555555555555555322...44443..2237899***************** PP
+
+     Human_TLR 391 kveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktlekvthsl....klslsdNnias 483
+                   + ++e+f+ l +le LnL+ N + +   +  f++lt+lk ldLs+Nkl l + + f+ l kLe LdL+   l+  ++  +++    +l++s+N+i+ 
+  Xe_010036-T1 252 LQNCEMFNGLIELENLNLAGNGIKEIAAD-CFKSLTNLKHLDLSNNKLSLQNCEMFNGLIKLENLDLSATTLEIPKGCFKTFnklrNLNISHNEIKK 347
+                   ************************65555.79*************************************99999999777779999*********** PP
+
+     Human_TLR 484 l.vsltlelesLreLdlsgkadn.rylsllkgLssL 517
+                   +    + +l sL++L ++ ++ + r+  +++ L +L
+  Xe_010036-T1 348 IdRHTFDGLCSLEMLSFNSNKAKvRPRDIFT-LRNL 382
+                   *7788889**********9744447777764.3444 PP
+
+>> Xe_013231-T1  Xe_013231
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.3   7.8   1.9e-21   5.4e-19      39     653 ..      45     202 ..       5     310 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 68.3 bits;  conditional E-value: 1.9e-21
+     Human_TLR  39 vdcsklkLtevPk..dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteL 131
+                   v+c ++ Lt+v +  +lpkn++ LdL +N ir ++   ++   +L+ L l+ n +i+ +e++af  l  L++L+  +n+l++l    f +l +L  L
+  Xe_013231-T1  45 VNCRSRGLTKVFAqsELPKNTQILDLAKNSIRVIKRGFLEDHFKLERLYLQKN-KIKLLEEKAFVGLDGLKVLNIGQNELKNLEAraFLGLRELKIL 140
+                   66777777777554567777777777777777777777777777777777777.6664444444444444444444444444444444444444444 PP
+
+     Human_TLR 132 slvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkel 228
+                    l +n+ik +++++a+ +l++L+ L+L++ nl+++                                                              
+  Xe_013231-T1 141 DLKHNEIK-NIDKDAFVGLESLTKLNLQNSNLSTI-------------------------------------------------------------- 174
+                   44444444.44444444444444444444444433.............................................................. PP
+
+     Human_TLR 229 nlklhlvLdlsenflakeivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqak 325
+                                                                                                                    
+  Xe_013231-T1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+     Human_TLR 326 lklFkafkglkylelsnnkisglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgsef 422
+                                                                                                                    
+  Xe_013231-T1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+     Human_TLR 423 lgltelkyldLskNkldlltsssftelekLetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsgkadnrylsllkgLssLei 519
+                                                                                                                    
+  Xe_013231-T1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+     Human_TLR 520 LdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdl 616
+                                                                                                                    
+  Xe_013231-T1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+     Human_TLR 617 ssNaiktvskdvfqslqskLkvLdlgaNpFeCtCela 653
+                            +  +  l  +L+ ++++ Np++C C l+
+  Xe_013231-T1 175 --------ANGTLRGLS-TLEKINIKYNPLRCDCRLN 202
+                   ........333333222.3333333333333333333 PP
+
+>> Xe_014308-T1  Xe_014308
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0     9e-05     0.025     564     624 ..      19      79 ..       3      83 .. 0.81
+   2 !   58.5  11.2   1.8e-18     5e-16     512     647 ..      83     212 ..      79     214 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 9e-05
+     Human_TLR 564 evLDLssnqlksltpk.lvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                    +LDLs+ +lk +++  +  +l    e ++s N++t+Lp+ ++ +++ L+ L+  +Nai ++
+  Xe_014308-T1  19 GTLDLSGRNLKEFPEYpEECELIDVIECDISKNRFTELPT-VVCEFVVLERLNCHHNAIRSI 79 
+                   58***********875133457788899************.7778999***********987 PP
+
+  == domain 2  score: 58.5 bits;  conditional E-value: 1.8e-18
+     Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfls 606
+                    +L+sL++L+ls+N+l+    e+++ lp  l++L +s+n+L    + +  lk+++ L +ssn++ sl p+ + +ls LreLn+  N+l +Lp+ +++
+  Xe_014308-T1  83 SRLTSLTWLNLSKNQLQ-TLPEHICGLP--LQVLIVSNNRLscIPNEICNLKHIQYLNISSNEIVSL-PSTIGQLSTLRELNIHQNHLEQLPDEICK 175
+                   689*************8.66789*****..***********8656778889****************.88***********************6665 PP
+
+     Human_TLR 607 klssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                      +L+ Ld ssN i+ +   vf  l+ +L++L l +Np++
+  Xe_014308-T1 176 --LKLEKLDFSSNRITVI-PIVFRYLT-TLTELVLANNPLQ 212
+                   ..68***********877.67888777.9*********986 PP
+
+>> Xe_021557-T1  Xe_021557
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.9   7.1   5.8e-12   1.6e-09     485     601 ..      68     187 ..      45     190 .. 0.55
+   2 !   41.2  18.8     3e-13   8.5e-11     511     624 ..     190     301 ..     188     313 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 36.9 bits;  conditional E-value: 5.8e-12
+     Human_TLR 485 vsltlelesLreLdlsg....kadn.ryl..sllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnq 572
+                    + +   ++L+ L+l      +++n  ++  + + +Ls+L++Ldl +N l   +  ++  l  +l+eL +s+ +L    +++  l++Le+LD+s+n 
+  Xe_021557-T1  68 LGGM---KNLEHLVLCRceneNEENpPFIipKSFVNLSQLKVLDLRNNNLGAFPA-HLTRLI-NLEELCISNCQLtgLPELFAYLQNLEILDISNNV 159
+                   3333...334444433333332333222222456677777777777777753333.333333.5777777777776556777777777777777777 PP
+
+     Human_TLR 573 lksltpklvnklsaLreLnlslNsltsLp 601
+                   lk l p+ +  ls+Lr+L++s   l+++p
+  Xe_021557-T1 160 LKHL-PSCITRLSNLRKLYVSDIDLQDIP 187
+                   7777.667777777777777766666665 PP
+
+  == domain 2  score: 41.2 bits;  conditional E-value: 3e-13
+     Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl 605
+                   +k+L++Le+L+l +N+ls+l+n  f     +lk+L L+sn L   ++ l  l +L+ L L++n+lk+l pk++ +l++Lr Lnl  N l+sLp   +
+  Xe_021557-T1 190 IKNLKKLERLQLTKNKLSTLPNGLFELT--NLKKLYLNSNLLmaLHENLGNLVNLRYLVLNQNKLKTL-PKSIGQLKELRYLNLHENLLSSLPR-SI 282
+                   589**************99888776544..6***********999***********************.99***********************.89 PP
+
+     Human_TLR 606 sklssLkvLdlssNaiktv 624
+                   ++l +++ L  ++N ++ +
+  Xe_021557-T1 283 KHLGQMETLFCDNNPLQVP 301
+                   **************99876 PP
+
+>> Xe_001272-T1  Xe_001272
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.2   0.9   2.5e-22     7e-20     571     717 ..      51     196 ..      18     197 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 71.2 bits;  conditional E-value: 2.5e-22
+     Human_TLR 571 nqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwlnea..lev 665
+                    +lk + p +v++ ++ ++L+l  Ns+  ++   l++ ++L++Ldls+N+i+    +vf++    L++++++ NpF+C C+ + f++ ++ +  +  
+  Xe_001272-T1  51 ANLKIV-P-VVKFANNVKRLILRGNSIERVNPKRLKQYKNLEYLDLSENKITILPSKVFKHNP-LLREIKISSNPFRCDCGQKGFIERMKMYedRGR 144
+                   577888.3.789999*********************************************998.9*********************99886511567 PP
+
+     Human_TLR 666 vipglpsdvkCasPeslrGlsvksldlssCkeealivtlfvlsllvvlvvav 717
+                    i + +++ kCa+P+++ G++++ ++ ++ + ++ ++   + + ++v++v v
+  Xe_001272-T1 145 LILKDSQHTKCATPQAFVGKPIMFISYQKPEVTLQVKNAAFCLSFIVTIVNV 196
+                   99999*********************99999998888765555555566654 PP
+
+>> Xe_009673-T1  Xe_009673
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3  14.0   1.4e-16   3.8e-14     489     625 ..     201     330 ..     180     333 .. 0.86
+   2 !   33.2   9.3   7.6e-11   2.1e-08      73     185 ..     286     397 ..     285     447 .. 0.73
+   3 ?    3.1   0.5     0.099        28     154     211 ..     534     590 ..     503     633 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 1.4e-16
+     Human_TLR 489 lelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnk 583
+                   ++  s r L+++++  +   ++ l +L+ L  Ld   N l+++s     s + sl++L L +n++ + + l  l +L vLDL++n+l  ++  ++++
+  Xe_009673-T1 201 EGEDSVRLLNFQHNfIT--KMENLSQLKRLIFLDFYDNHLEKISG---LSALTSLRVLMLGKNRIrTIENLDALTNLDVLDLHGNKLSNIS--NLSH 290
+                   4567889999*996444..4555899999***********86654...4445599**********999**********************5..5*** PP
+
+     Human_TLR 584 lsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                   l++Lr Lnl+ N +t++ +  ++ ++ L +L+l +N+i+tv 
+  Xe_009673-T1 291 LTELRVLNLAGNDITEVRN--IQGMQALAELNLRRNKISTVA 330
+                   *******************..******************986 PP
+
+  == domain 2  score: 33.2 bits;  conditional E-value: 7.6e-11
+     Human_TLR  73 sdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasled.gallnlknLklLdLsfNn..lksl 166
+                   s++++l eL+vL+l  n  i   e +  + ++ L eL+L  nk+s++++++ l +L++L l++n+i+ s +d + l + k L +L+L  N   +++ 
+  Xe_009673-T1 286 SNLSHLTELRVLNLAGN-DIT--EVRNIQGMQALAELNLRRNKISTVAEMEHLPNLQRLFLSFNSIQ-SFDDiKSLSQCKLLCELSLDGNPiaFDVS 378
+                   67888888888888888.776..77888888888888888888888888888888888888888887.44331567777888888888886224677 PP
+
+     Human_TLR 167 pkeeefgnLtnLkiLdlSg 185
+                   +k++ ++n+++L+ Ld+  
+  Xe_009673-T1 379 YKHSILKNISSLRQLDMRR 397
+                   7888888888888888754 PP
+
+  == domain 3  score: 3.1 bits;  conditional E-value: 0.099
+     Human_TLR 154 klLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLsl 211
+                   + L+ s  n+kslp+ + ++ +++L++L +S  +   c+++    l   +l  lsL+ 
+  Xe_009673-T1 534 QKLEFSSTNIKSLPQINALAVIKHLESLTISDDNPVTCFHLWKSYLLF-RLAHLSLQY 590
+                   456677777777777777777777777777777666666666555554.556555554 PP
+
+>> Xe_021294-T1  Xe_021294
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.1   0.0   1.5e-13   4.3e-11      10     139 ..      64     218 ..      56     221 .. 0.86
+   2 !   32.1   0.0   1.6e-10   4.6e-08      55     139 ..     205     352 ..     199     500 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 42.1 bits;  conditional E-value: 1.5e-13
+     Human_TLR  10 lltlllamvlalgvlpeilpcls.......eerevivdcsklkLtevPkdlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriq...... 93 
+                   ++ ++l  +++++  p    c++         +  +v+c  ++L++ P +++  vt+L+L +N i++l+    + l++L    + ++   +      
+  Xe_021294-T1  64 TISCALGRMFLENECPGKCFCDVkgdlgsnLSSVYFVRCDGRHLKSFPRNISDRVTHLSLRNNSISYLEPRVVSGLPNLG---FDWKLAYVhlkrwp 157
+                   466788899999999999999998888876567789**********************************9999998874...33332222335777 PP
+
+     Human_TLR  94 ...............tiekeafkslkeLeeLdLshnklsklssfallssLteLslvennik 139
+                                  tie +af++l++L++LdLs+  +++ ++f   ss+ +L l  +ni+
+  Xe_021294-T1 158 fktdvssilkdnpiqTIESGAFENLTSLNILDLSKTLIKTFPNFTTRSSIRHLYLDWTNIE 218
+                   88999*****************************************************996 PP
+
+  == domain 2  score: 32.1 bits;  conditional E-value: 1.6e-10
+     Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvenni........... 138
+                    ++++L L    i+el+a+++ +++ L++L+l+   ri+++  ++f+   +L+ L + ++ l  + +  f +++ L  L l  +ni           
+  Xe_021294-T1 205 SSIRHLYLDWTNIEELKAKSLIFCPTLKSLHLEGS-RIKQLHSGVFQYTRNLKFLLMRNSSLEFIEDgaFDGVQ-LRALDLCGTNIrsnpirgfqds 299
+                   45666677777777777777777777777777777.77777777777777777777777777777777777777.7777777777766666666666 PP
+
+     Human_TLR 139 ....................................................k 139
+                                                                       k
+  Xe_021294-T1 300 vhlsvhdihslwllhatkvlrvrkflqsyrfhckyisdgfvdrnsrfakgtrK 352
+                   55555555555555555555555555555554444444444444444444441 PP
+
+>> Xe_016590-T1  Xe_016590
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.2   9.0   2.1e-21     6e-19     475     662 ..      42     239 ..      26     252 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 68.2 bits;  conditional E-value: 2.1e-21
+     Human_TLR 475 slsdNniasl.vsltlelesLreLdlsg..kadnrylsllkg..Ls.sLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkk 562
+                    l + n+as+  + + +l++++e+ +    + +  +  +++g  ++  L+ ++l+ N l++l+++ f + p +l+ + L +n+L     + lr+l+k
+  Xe_016590-T1  42 VLKNTNVASIpLDSFKNLTNIVEIHIDKnrRIKSLPYGVFQGsnVKnTLKYIKLNRNGLESLPENFFTNFP-NLQRILLDDNKLskiPENFLRQLPK 137
+                   5889999999999999*******99998532444777788762243269**********977766666665.************988899******* PP
+
+     Human_TLR 563 LevLDLssnqlksltpklvnkls.aLreLnlslNsltsLpkgflskl.ssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefvq 657
+                   L v  +++nql s+++ l++k++  Lr   l  N+l+sL+   ++ + ++L +L ++sN+      +vf  l++   +++++ Np  C C +aef+ 
+  Xe_016590-T1 138 LLVFSIRDNQLSSIPDDLFDKSMvHLRSVFLDANKLSSLSVETFEPVkKNLYELHIQSNLFHYLPMNVFRILKNDTLEVKVTLNPVYCNCSIAEFIV 234
+                   *******************988648***************9888876268***********************99999******************* PP
+
+     Human_TLR 658 wlnea 662
+                   w + +
+  Xe_016590-T1 235 WGKSQ 239
+                   *6654 PP
+
+>> Xe_012642-T1  Xe_012642
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.2  24.0   3.4e-20   9.5e-18     430     625 ..      21     211 ..       2     214 .. 0.87
+   2 !   10.3   5.0   0.00064      0.18     512     573 ..     214     276 ..     209     290 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 64.2 bits;  conditional E-value: 3.4e-20
+     Human_TLR 430 yldLskNkldlltsssftelekLetLdLrknslktlekvthsl...klslsdNniaslvsltlelesLreLdlsgkadn.rylsllkgLssLeiLdl 522
+                   +ld    + ++ + +++ +l+k etL Lr+n  +++e+++  +   +l+l dN+i  + +l  +l +L+ Ldls   +  ++++ +  L++L++L  
+  Xe_012642-T1  21 ELDVDLTHRQIEKIENLDHLHKIETLCLRRNVIQKIEGLETLVtleDLDLYDNQIEKIENLE-SLVNLKVLDLSF--NTiKVIENIGSLTKLQKLFF 114
+                   5666666667777899*********************988777999*********9987776.99*********4..4448999999********** PP
+
+     Human_TLR 523 sqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlss 618
+                    qN++s ++  ++ +l+ sl+ L+L  n++   + l+ l +Le L L +n++  l  +++  l++Lr L++++N++t+L++  l++l++L++L +s+
+  Xe_012642-T1 115 VQNRISRIK--NLTNLT-SLTMLELGANKIrVIDGLNSLVNLESLFLGKNKISKL--ENLGRLKKLRLLSIQSNRITKLEG--LEDLENLEELYISH 204
+                   *****8555..556666.99**********888999*******************..679*********************..************** PP
+
+     Human_TLR 619 Naiktvs 625
+                   N ik ++
+  Xe_012642-T1 205 NGIKVIE 211
+                   ***9875 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00064
+     Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrcl...kkLevLDLssnql 573
+                   ++L +L+ Ldl++N +  +   e+ s +++++e+  ++n L sw+ l+ l   ++L++++L++n +
+  Xe_012642-T1 214 EKLVNLNTLDLASNEITRI---ENLSHLNKIEEFWFNNNLLsSWNDLESLtkiETLQTIYLEGNPI 276
+                   5666777777777777433...23333336677777777776666555553224555566666655 PP
+
+>> Xe_005930-T1  Xe_005930
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1  14.5   4.2e-11   1.2e-08     543     646 ..      15     117 ..       8     120 .. 0.91
+   2 !   38.2   4.6   2.4e-12   6.7e-10     512     641 ..     125     253 ..     122     255 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 4.2e-11
+     Human_TLR 543 keLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLk 637
+                   k++nLs+  L    +++  l+k++ +DL++n++ sl pk ++  ++L +Lnl +N l +Lp+  l +l++Lk L l +N+i   s  v+  lq +L+
+  Xe_005930-T1  15 KSVNLSNRNLpsVPNLIGKLSKVKSIDLKNNKICSL-PKDFSVITQLENLNLGNNILEELPA-ELGHLVNLKKLHLFANHIIILSSFVLSALQ-HLT 108
+                   56788888887777889999****************.99**********************9.99*******************999999888.*** PP
+
+     Human_TLR 638 vLdlgaNpF 646
+                   +L+l++N++
+  Xe_005930-T1 109 FLNLNDNKL 117
+                   *******97 PP
+
+  == domain 2  score: 38.2 bits;  conditional E-value: 2.4e-12
+     Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfls 606
+                   ++L sL+ L  ++N+l+++  +e+++l+  l+eL+L++n L    + + +lk+L+ L L +n+l+ l p+ ++k  +L  L++s+N ++  p  f+ 
+  Xe_005930-T1 125 ERLVSLQFLSANKNRLQSI-PDEICHLT-HLTELHLADNFLesLPENIGFLKNLTRLILYKNRLTEL-PQGLSKCCKLEYLDVSCNFIKYFPVNFY- 217
+                   57999***********966.57899999.9***********87778999******************.667788889***************9555. PP
+
+     Human_TLR 607 klssLkvLdlssNaikt...vskdvfqslqskLkvLdl 641
+                    +  L++L  + N + +    + ++++++  +Lk+L +
+  Xe_005930-T1 218 -ALPLRELYCEGNNLLKhlpLHSEQVEEVL-SLKELTA 253
+                   .56799999998776541223556666666.6776665 PP
+
+>> Xe_006320-T1  Xe_006320
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.4   8.6   7.4e-21   2.1e-18     540     722 ..      84     262 ..      62     267 .. 0.90
+   2 ?   -2.8   0.0       6.1   1.7e+03     426     523 ..     275     365 ..     272     370 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 66.4 bits;  conditional E-value: 7.4e-21
+     Human_TLR 540 eslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslq 633
+                    + + + Ls+n L   +++ +  l+ +e + L++n l +l ++++++l ++r +nls+N l ++p g +  +s+L+ Ld s+N++     + + ++ 
+  Xe_006320-T1  84 SNFHLIDLSDNFLktiEQDTFSNLQLVESISLANNVLDTLQNSSFKNLPSIRMINLSNNYLWEIPIGSFVGVSQLECLDFSNNLLHILPWKGISKFP 180
+                   4667789******99999999999999********************************************************************** PP
+
+     Human_TLR 634 skLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksldls...sCkeealivtlfvlsllvvlvvavlvlll 722
+                    kLkvL l++N  +C+C++++ +  +n+     ++g  s+  C++P sl+G+ + +l  +    C +e  +   ++ls+l+  +++v ++l+
+  Xe_006320-T1 181 -KLKVLVLKGNMWNCSCDMSDVLY-VNN----LVAG--SNASCHYPASLKGMFLADLGPRhfeHCPIESSLHPSIFLSFLI--IIPVCIYLI 262
+                   .********************998.454....5666..999***************9655556******999999999999..666666654 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 6.1
+     Human_TLR 426 telkyldLskNkldlltsssfte.lek.LetLdLrknslktlekvthslklslsdNniasl.vsltlelesLreLdlsgkadnrylsllkgLssLei 519
+                   +++ ++++ +N+l+  t + f+  l++  + L +++   +  ++    l l+l d +++s  ++++   ++L+    + k +  +l++++gL+ L+ 
+  Xe_006320-T1 275 KHVGEIEFDYNELLGTTGNVFKGkLKDgRQYLWFEHKDNN--KF--MYLALELCDGDLHSAiIDYN---KDLVG---QFKPEICFLHIARGLNYLHT 361
+                   5666677777777777777776313331344555542222..22..23588888888888877887...44443...22344488888888888888 PP
+
+     Human_TLR 520 Ldls 523
+                   L ++
+  Xe_006320-T1 362 LGIQ 365
+                   8775 PP
+
+>> Xe_017104-T1  Xe_017104
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.2   5.6   1.5e-10   4.3e-08     555     623 ..      95     161 ..      49     164 .. 0.83
+   2 !   38.6  21.1   1.8e-12   5.1e-10     487     623 ..     165     299 ..     162     311 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 32.2 bits;  conditional E-value: 1.5e-10
+     Human_TLR 555 svlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                   ++l  l++L+vLDL++n+l ++ p  +  l +L eL +s+ +lt Lp+ ++  l++L++Ld+s N++k+
+  Xe_017104-T1  95 KSLGNLSQLKVLDLRNNNLGTF-PAHLTRLINLEELCISNCQLTGLPE-LFAYLQNLEILDISYNLLKH 161
+                   6788899999999999999999.8899999999999999999999999.88899999999999999987 PP
+
+  == domain 2  score: 38.6 bits;  conditional E-value: 1.8e-12
+     Human_TLR 487 ltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklv 581
+                   +   l +Lr+L ++  + +++ + +k+L++Le+L+l +N+ls+l+n  f  ++  lk+L L+sn L   ++ l  l +L+ L L++n+lk l p+++
+  Xe_017104-T1 165 CITRLSNLRKLYVNDSDLQDIPEDIKKLKKLEQLQLTKNKLSTLPNGLFELIN--LKKLYLNSNLLmaLHENLGNLVNLRYLVLNQNKLKIL-PRSI 258
+                   5667889999999976555788889****************999988777666..***********999***********************.99** PP
+
+     Human_TLR 582 nklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                    +l++L+ Lnl  N l+sLp   +++l + k L   +N ++ 
+  Xe_017104-T1 259 GQLKELQYLNLHENLLSSLPR-NIKHLGEIKALLCGNNPLQV 299
+                   ********************9.88999999999888887775 PP
+
+>> Xe_011005-T1  Xe_011005
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   1.7   2.2e-07   6.2e-05     561     602 ..     405     445 ..     392     454 .. 0.88
+   2 !   11.6   0.0   0.00026     0.073     540     601 ..     474     536 ..     460     544 .. 0.62
+   3 !   21.7   0.3   2.3e-07   6.3e-05     563     624 ..     621     681 ..     611     687 .. 0.88
+   4 !   18.9   0.5   1.6e-06   0.00045     540     602 ..     730     802 ..     720     835 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 2.2e-07
+     Human_TLR 561 kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                   + ++ LDLs+n+l+sl p ++ +ls+Lr+Ln+s+N+l+ Lp 
+  Xe_011005-T1 405 SLITNLDLSNNRLQSL-PIEIFQLSSLRHLNVSHNELSMLPV 445
+                   55788***********.999********************96 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00026
+     Human_TLR 540 eslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLp 601
+                   + l+e++L++n L      l  l+ L+++D ++n l+ l p  + ++ +Lr  + s+N + ++p
+  Xe_011005-T1 474 PHLEEIELQYNNLttLPGCLFLLPALRIVDANNNDLNGL-PYDIWHSPNLRIAIFSNNYIDNVP 536
+                   456666666666632223333446777777777777777.666666777776666666666666 PP
+
+  == domain 3  score: 21.7 bits;  conditional E-value: 2.3e-07
+     Human_TLR 563 LevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl.ssLkvLdlssNaiktv 624
+                   +e LDLs nql+ ++ +l+    +L +L ls+N + + p   ++++ + L++Ldls N+i+t 
+  Xe_011005-T1 621 IEKLDLSYNQLTKFPIGLTCLAPKLSKLLLSNNGIDEFPP--IQEIpELLSHLDLSFNKIQTC 681
+                   788***********9999999*******************..666505679*********985 PP
+
+  == domain 4  score: 18.9 bits;  conditional E-value: 1.6e-06
+     Human_TLR 540 eslkeLnLssnmL..........swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                     lk L+L++n L          + ++  c+ ++L  L Ls+n+l+ lt+ ++ kl +L  L++s N lt +pk
+  Xe_011005-T1 730 RHLKRLELNNNLLsrihfayntpNADSDICVyPNLMSLTLSHNKLEYLTE-ELGKLVKLGSLDVSYNPLTRVPK 802
+                   36777777777777777777777444444555888888888888888855.77788888888888888887776 PP
+
+>> Xe_010037-T1  Xe_010037
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.0  13.7   1.5e-19   4.3e-17     299     498 ..     400     601 ..     388     603 .. 0.76
+   2 !    7.9   0.4    0.0034      0.94     142     189 ..     563     608 ..     561     621 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 62.0 bits;  conditional E-value: 1.5e-19
+     Human_TLR 299 etddsllqvLqlLetlsl.elnfikqaklklFkafkglkylelsnnkisglgelkakdfeydktsrfylfsq.svvyellkklkilnLtknkifkve 393
+                   + +++ l++L++ e++++ ++n     + k+   f+g k l+++   +s++   ++ +++ +k +r +       ++++l  +k+l+L++nk+++ +
+  Xe_010037-T1 400 TDENCTLDILRCTENITIpQTNYSCVLSNKD---FTGCKDLKMKHTYTSQVQICDNGEIDEEKVQRICGD-VfRQKEKCLVTVKTLDLSNNKLSLQN 492
+                   5678899********9932444444444455...555556666666666665444444444444555552.248899******************** PP
+
+     Human_TLR 394 seafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktl.ekvthsl....klslsdNniasl. 484
+                   +e+f+ l++le LnL+ N l +  ++  f++lt+lk ldLs+Nkl l + + f+ l +Le L L  nsl+++     +sl    +ls++ N+ +   
+  Xe_010037-T1 493 CEMFNGLTELENLNLAGNDLKEIPTD-CFKSLTNLKHLDLSNNKLSLQNCEMFNGLIELENLNLAGNSLNKIpTDCFKSLtnlkHLSFNSNKAKVRp 588
+                   *********************66666.78*****************************************996665555578888888888877774 PP
+
+     Human_TLR 485 vsltlelesLreLd 498
+                    + +  l++L+  +
+  Xe_010037-T1 589 RDIF-TLRNLKFVE 601
+                   3333.666666555 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0034
+     Human_TLR 142 ledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiq 189
+                   +  + ++ l+nLk+L+   N+ k+   + ++  L nLk++++S  ++ 
+  Xe_010037-T1 563 IPTDCFKSLTNLKHLSFNSNKAKV--RPRDIFTLRNLKFVEISCENCC 608
+                   667899********9988888776..5679999**********98875 PP
+
+>> Xe_024720-T1  Xe_024720
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.5     3e-11   8.5e-09      55     211 ..      89     250 ..      85     259 .. 0.82
+   2 !   29.3   1.5   1.2e-09   3.3e-07     488     620 ..     237     349 ..     232     377 .. 0.47
+   3 !   21.8   2.0   2.2e-07   6.1e-05      99     167 ..     386     454 ..     365     471 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 3e-11
+     Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriq.tiekeafkslkeLeeLdLshnkls.klssfallssLteLslvenni........kas 141
+                    +v+s dL+ N +++ +  +f r+ +Lq L l++n     +i +    +++ L+   Ls   ++ k++ ++l+ +L +L+  +           +  
+  Xe_024720-T1  89 SYVKSIDLTGNMVQY-QPPNFWRFRNLQCLCLTRNNGLYgQISDIISVNMTRLRRVSLSFTGVYgKVP-WHLILELYNLEKLQLCCmtskwkrlS-- 181
+                   579********9876.889****************655489******************999984788.99999888886444333377665331.. PP
+
+     Human_TLR 142 le.dgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLsl 211
+                    e +  +  l +L++L+L +Nn++ + +++++gnL nL +Ldl   k+++ dl+ ++ +    l+ l L +
+  Xe_024720-T1 182 GElPRDIGRLSKLQVLSLGENNISNTDLPKSIGNLVNLWFLDLEYVKLRSGDLTYFQNMTH--LQELHLTN 250
+                   22256799**************************************999988887777766..66666654 PP
+
+  == domain 2  score: 29.3 bits;  conditional E-value: 1.2e-09
+     Human_TLR 488 tlelesLreLdlsgk.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL....swsvlrclkkLevLDLssnqlksltp 578
+                   + ++++L+eL l     +   +  + ++ ++L +  l  N ls  +  + +s ++ +k++ L sn+L       +l  l++LevLDLs n+ + + +
+  Xe_024720-T1 237 FQNMTHLQELHLTNCgLNGtIPDDFGRTHPKLIQFHLYGNHLS-GELGTCFSGLKIIKQIVLGSNRLltgkLPRSLCGLHTLEVLDLSRNNFTGM-E 331
+                   3344455555555422222233345555555555555555554.444444444445555555555555444344455555555555555555555.5 PP
+
+     Human_TLR 579 klvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNa 620
+                   +++ ++++L++L++  N                         
+  Xe_024720-T1 332 ENFTFGKQLQNLYIHEN------------------------V 349
+                   55555555555555555........................3 PP
+
+  == domain 3  score: 21.8 bits;  conditional E-value: 2.2e-07
+     Human_TLR  99 afkslkeLeeLdLshnkls.klssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslp 167
+                    f + ++  + dLs+n l   ++s + ++sL+ L+l +nn   sl +  l  lk+L++L+L+ N+l + +
+  Xe_024720-T1 386 KFWNFPKVMYIDLSNNTLTgAVPS-YIMASLFYLKLASNNFTGSLSKLFLSSLKTLTYLNLQGNDLMTSK 454
+                   577778888888888888734564.888888888888888888888888888888888888888887655 PP
+
+>> Xe_009602-T1  Xe_009602
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   6.6   2.4e-09   6.8e-07     541     623 ..      16     100 ..       4     106 .. 0.46
+   2 !   43.1   5.0     8e-14   2.2e-11     513     604 ..     107     200 ..     103     226 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 2.4e-09
+     Human_TLR 541 slkeLnLssnmL....swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                   +l+e+ L++  +    s  +l +l++L+ L Ls+n+l+++ p++++ l +L +Lnl +N + +Lp+  +  ls+Lk L++  N +++
+  Xe_009602-T1  16 ELTEIDLADREIkslnSVPILLQLRQLTKLTLSHNKLTAI-PSSIVDLWNLEHLNLFNNFIEELPT-SITTLSKLKFLNVGVNRLSS 100
+                   3444444444444333334444444444444444444444.4444444444444444444444444.34444444444444444433 PP
+
+  == domain 2  score: 43.1 bits;  conditional E-value: 8e-14
+     Human_TLR 513 gLssLeiLdlsqNslselsnee.fkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgf 604
+                    L+ LeiLdl  N l+e+s ++ f+ l esl+ L L +n     +  +  lkkL+vL L++n l  l p+++ +l +L+eL++++N+lt Lp ++
+  Xe_009602-T1 107 SLPCLEILDLTYNNLNENSLPAnFFLLAESLRALYLGDNDFekLQPDFGKLKKLQVLVLRDNDLIEL-PEELGELANLKELHIQNNRLTALPPSL 200
+                   6899*************998761567889************776788********************.88**********************954 PP
+
+>> Xe_021548-T1  Xe_021548
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.6  13.1   1.4e-14   3.8e-12     495     625 ..      14     147 ..       4     164 .. 0.80
+   2 !   30.4   3.9   5.3e-10   1.5e-07     560     646 ..     130     212 ..     127     214 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 45.6 bits;  conditional E-value: 1.4e-14
+     Human_TLR 495 reLdlsg.....k.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvn 582
+                    eL+l+g     + a+n   l ++ +L +L+ L++sq  l el+  e+ sl+ +l+ L L +n+L    s +  l+ L++LDLs+n+l  l p ++ 
+  Xe_021548-T1  14 YELVLHGreiseRiAENgLDLAIF-TLINLNFLQISQTGLIELP-AEIGSLV-NLRTLDLHQNQLsvLPSTVGKLNDLKFLDLSHNNLVEL-PLELT 106
+                   556666666665667775556666.589************6444.4566666.9***********8778999*******************.99*** PP
+
+     Human_TLR 583 klsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                    l++L +Ln+s+N++ sLp+  + kl++L   d s+N+++   
+  Xe_021548-T1 107 DLTNLHTLNVSCNQIVSLPS--FIKLQNLCKFDCSHNKLEDLP 147
+                   ********************..999*************98765 PP
+
+  == domain 2  score: 30.4 bits;  conditional E-value: 5.3e-10
+     Human_TLR 560 lkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                   l++L   D s+n+l+ l p  +++l+aL eL  + N +  L++  +s+  sLk+Ldls+N++ktv  ++++++q kLk+L l +Np 
+  Xe_021548-T1 130 LQNLCKFDCSHNKLEDL-PYGIHQLQALYELRAKGNIICILSG-EISSNISLKILDLSENQLKTVP-QELGQCQ-KLKELLLLNNPI 212
+                   7888889**********.889*********************9.7888999*************96.66888**.*******99995 PP
+
+>> Xe_010060-T1  Xe_010060
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6  13.7     4e-19   1.1e-16     299     497 ..     131     335 .]     118     335 .] 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 4e-19
+     Human_TLR 299 etddsllqvLqlLetls.lelnfikqaklklFkafkgl..kylelsnnkisglgelkakdfeydktsrfylfsq.svvyellkklkil.nLtknkif 390
+                   + +++ l++L++  +++  ++n     + k+F++ k l  k+ + s+++i  +ge+++++ +++   r +       ++++l  +k+l +L++n+++
+  Xe_010060-T1 131 TDENCTLDILRCTGNITiPQTNYSCVLSNKDFTGCKDLemKHTYTSQVQICDSGEIDESEKKIQ---RICGD-VfRQKEKCLVTVKALkDLSNNELS 223
+                   5667889999999999933666667777778887765422567777888888887777774443...43332.12556777777776538******* PP
+
+     Human_TLR 391 kveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktl.ekvthsl....klslsdNnia 482
+                   + ++e+f+ l +le LnL+ N l +  ++  f++lt+lk ldLs+N+l l + + f+ l +Le L L  n lk++     +sl    +l+ls+N+++
+  Xe_010060-T1 224 LQNCEMFNGLIELENLNLAGNDLKEIPTD-CFKSLTNLKHLDLSNNELSLQNCEMFNGLIELENLNLAGNGLKEIpTDCFKSLtdlkHLDLSNNKLS 319
+                   ***********************966666.789****************************************99777555558999*********9 PP
+
+     Human_TLR 483 sl.vsltlelesLreL 497
+                    +  +++ +l +L+ L
+  Xe_010060-T1 320 LQnCKMFNGLIELENL 335
+                   9999999999998875 PP
+
+>> Xe_014192-T1  Xe_014192
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1  12.4     5e-15   1.4e-12      55     186 ..     198     323 ..     162     324 .. 0.88
+   2 !   28.6   2.9   1.9e-09   5.4e-07     559     620 ..     288     346 ..     284     350 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 47.1 bits;  conditional E-value: 5e-15
+     Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnl 150
+                      t+LdL   +i++l++ ++  l++L+v++ls+n +   i  + f +lk+L +L+L +n +++l++  a+l++L+ L+++++ i+    +  l +l
+  Xe_014192-T1 198 RCCTNLDLKAHFISRLPNIELL-LQKLTVVNLSFN-NFRVIPSQIF-KLKNLVHLNLRNNPIKELPHaIAGLQQLQLLVVSFCFIS--CIPISLFTL 289
+                   5679****************96.9***********.9998888888.59*****************88888888888888888776..667789999 PP
+
+     Human_TLR 151 knLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgn 186
+                   ++L++LdLs+N+l+ lp  +++gnL++L+ L++ gn
+  Xe_014192-T1 290 RKLTFLDLSYNKLSFLP--KDIGNLSSLRELNVEGN 323
+                   **************997..79**********99885 PP
+
+  == domain 2  score: 28.6 bits;  conditional E-value: 1.9e-09
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNa 620
+                    l+kL++LDLs n+l +l pk + +ls+LreLn++ N+l  Lp+     l +L++L + +N+
+  Xe_014192-T1 288 TLRKLTFLDLSYNKLSFL-PKDIGNLSSLRELNVEGNELGALPT--GLLLLNLRHLRMVNNF 346
+                   699***************.99***********************..5678899999988775 PP
+
+>> Xe_007486-T1  Xe_007486
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   8.2     4e-13   1.1e-10     543     623 ..      57     139 ..      32     140 .. 0.85
+   2 !   33.5   3.6   6.2e-11   1.7e-08     558     630 ..     122     192 ..     119     204 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 4e-13
+     Human_TLR 543 keLnLssnmL....swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt 623
+                   ++L L +n +    s   l+ l +L+vLDL++n ++ l p+++++l++L+ L++++Nsl+++pk  ++klssL+ L+++ N++k+
+  Xe_007486-T1  57 EVLLLHDNSIkdlkSGGDLKNLAQLRVLDLHGNLIQEL-PEEIKFLTSLQVLDVANNSLKFVPK-EINKLSSLQTLNVQGNKLKM 139
+                   579999999977666677999*****************.88***********************.899**************997 PP
+
+  == domain 2  score: 33.5 bits;  conditional E-value: 6.2e-11
+     Human_TLR 558 rclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfq 630
+                   + l++L++L +++n+lk+l p ++ + ++Lr+Ln+s+N +t Lp   l +++ L+ L +++N++  +s++   
+  Xe_007486-T1 122 NKLSSLQTLNVQGNKLKML-PDEIGNMKSLRTLNISHNFVTRLPI-SLANVKTLENLIVDANSMVFPSQEIAT 192
+                   6799***************.779*********************9.8999**************999987655 PP
+
+>> Xe_015988-T1  Xe_015988
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   3.3     1e-18   2.9e-16      58     168 ..      18     133 ..       9     187 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 1e-18
+     Human_TLR  58 tsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.fallssLteLslvennikasledgallnlknL 153
+                   ++LdLs   +++++  ++++l + ++Ldls+n  i ti + +f+ l++L +LdLs+n l +l++ f+ l+++ +L l+ n +  ++ +    +lk L
+  Xe_015988-T1  18 NELDLSLSNLAKVPVREIASLTKVTSLDLSCN--ILTILPATFSMLTQLTKLDLSKNMLTELPDdFGRLVNIEKLDLYCNKLT-EI-PVSCYQLKRL 110
+                   589*****************************..999*******************************************665.33.4556789*** PP
+
+     Human_TLR 154 klLdLsfNnlkslp........k 168
+                   k LdL++N +++l         +
+  Xe_015988-T1 111 KWLDLKENPIQTLMhevvgdclN 133
+                   ***********998555555550 PP
+
+>> Xe_013683-T1  Xe_013683
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.7   0.4   3.1e-18   8.7e-16     751     852 ..     208     310 ..     193     331 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 57.7 bits;  conditional E-value: 3.1e-18
+     Human_TLR 751 leYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsiekSrKtvfVlskkfvksewckyefylAhqrllee....nsdv 843
+                    +Yd fi+y++k+sd V  eL   le+e   lk+C+   +f+PG ++++ni +si+ S  t+f+ls+ f  ++w k+e++ A     ++    +  +
+  Xe_013683-T1 208 SKYDTFICYAKKNSD-VAVELKTFLENEY--LKVCIDFENFIPGATVLDNICESINSSGSTIFLLSPAFHTKKWAKFELEKAILDYNKSrelgKLKK 301
+                   58***********99.***********76..***********************************************9988644433311113466 PP
+
+     Human_TLR 844 iILilLepi 852
+                   iI +lLe+ 
+  Xe_013683-T1 302 IIPVLLEEC 310
+                   777777766 PP
+
+>> Xe_012568-T1  Xe_012568
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.9   2.5   0.00021     0.059     566     631 ..      60     121 ..      42     139 .. 0.53
+   2 !   52.0  11.0   1.6e-16   4.5e-14      58     214 ..     144     294 ..     138     324 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.00021
+     Human_TLR 566 LDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqs 631
+                   LD+++ +++ +  + +n+   Lr +++s+N l+++++  ls+l +L  L+ ++N++ +   d +  
+  Xe_012568-T1  60 LDIHDREITDI--SILNCFIHLRYIDISSNMLKDISS--LSSLTHLLTLKADKNLLASAGLDKLPY 121
+                   44444444444..344555555555555555555555..555555555555555554444444332 PP
+
+  == domain 2  score: 52.0 bits;  conditional E-value: 1.6e-16
+     Human_TLR  58 tsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLk 154
+                   ++L+Ls+N i e+s+ d + ls L+ L+l+ n   q i  +    l++L++L+L +n ++ l +   l++Lt+++l  n+i+    dg   n+k L+
+  Xe_012568-T1 144 ENLNLSFNNIYEISDFDSSALSRLTTLELRNN---QLISTQGIGMLPNLQKLYLAGNSIKFLENLDRLEHLTSIHLRDNEIE--KLDGFSSNMKHLQ 235
+                   79******************************...9999****************************************987..3478889****** PP
+
+     Human_TLR 155 lLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnl.sLslssl 214
+                   +L+L  N ++ +++ e+++ L  L+ L +  n+    d   +++l    l+ l +L+++++
+  Xe_012568-T1 236 YLNLRGNIISDIKEIEKLKCLPLLRALVIMENHAADEDDYRIEVLIA--LRRLeRLDKDEY 294
+                   *************************9999888877777777777655..443324555555 PP
+
+>> Xe_012336-T1  Xe_012336
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.1  19.7   3.7e-17     1e-14     512     647 ..     181     312 ..     133     333 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 54.1 bits;  conditional E-value: 3.7e-17
+     Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlr.cl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfls 606
+                     Ls+L +L+ls+N+l+el  +   + + +l++LnLssn L+w   r cl  kL  LDLs+n+l  l p ++ + ++L +L+l++N++ sLp   + 
+  Xe_012336-T1 181 LSLSNLVELNLSNNKLKEL--NFSLDHLRKLRNLNLSSNELQWIPSRfCLnIKLIALDLSHNKLVYL-PVAFGCITSLVNLKLNNNNIVSLPYNTC- 273
+                   5789999999999999744..3445555689999999999998766635667777899999999999.8899999999999999999999998554. PP
+
+     Human_TLR 607 klssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFe 647
+                   +l++L+ Ld+s+N ++    +v  +l  kL+ Ld+ aN+F 
+  Xe_012336-T1 274 ELVNLRLLDVSNNNLTILPWTVASNL--KLQKLDIAANKFL 312
+                   57789999999999988877777755..5999999999995 PP
+
+>> Xe_003259-T1  Xe_003259
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1  10.0   4.4e-08   1.2e-05     545     624 ..      79     157 ..      22     177 .. 0.77
+   2 !   35.7  14.3   1.3e-11   3.8e-09     493     640 ..     165     315 ..     159     321 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 4.4e-08
+     Human_TLR 545 LnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                   L L  n L     s l+c k+L+++ Ls+nql  l  +++++  +L +L++s+N+lt L +  ++  +sL   ++ +N+i+ +
+  Xe_003259-T1  79 LTLTLNNLglhDVSFLKCYKHLQTIILSQNQLSDL--TVLDNMDSLVKLDVSRNKLTRLLN--FKPSKSLVDVNYAHNLIQDI 157
+                   4555555555666789999****************..78**********************..*****************976 PP
+
+  == domain 2  score: 35.7 bits;  conditional E-value: 1.3e-11
+     Human_TLR 493 sLreLdlsg......k.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpkl 580
+                   sL++L l        + ++n + +  l    sL++L ls N+++  + e + +lp  +  LnLs+n++   + l+ lk L+vLDLs n ++sl  k 
+  Xe_003259-T1 165 SLVTLILDYnvfpqhAtDNNiDKIDGLSSCCSLKNLHLSYNKIE--RIEGLLNLP--IAFLNLSNNKIkRIENLESLKYLKVLDLSYNFIRSL--KG 255
+                   55555444444555443566677777888889999999999996..778899999..999999999997788999999999999999999999..78 PP
+
+     Human_TLR 581 vnklsaLreLnlslNsltsLpkg.flsklssLkvLdlssNaiktvskdvfqslqskLkvLd 640
+                   ++    L+e+nl++N++ ++++  ++ +l+ L++L+ ++N i+  +   +  l+  L++L 
+  Xe_003259-T1 256 LQGHDFLQEINLESNQIIDIADIrYIRELKLLRMLNFNHNPIQELNDYRLSILF-RLQMLT 315
+                   889999999999999999999852578899999999999999999999998777.788875 PP
+
+>> Xe_021866-T2  Xe_021866
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   2.3   1.3e-05    0.0036     102     167 ..      10      97 ..       4     108 .. 0.77
+   2 !   43.1   4.4   7.7e-14   2.2e-11      55     139 ..     104     189 ..      98     213 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 1.3e-05
+     Human_TLR 102 slkeLeeLdLshnklsklssfallssLteLslvenni........................kasledgallnlknLklLdLsfNnlkslp 167
+                   + k L++L  +++ +  +   +l+++  eL++++  i                        + ++++gal nl  L +L L +N+lks+p
+  Xe_021866-T2  10 FYKRLKVLRIEKSTIIDMR--ELPENVEELRIYSSTIksvighespnyvldvlsisdsnitNSKIKPGALDNLFDLIHLILDNNKLKSVP 97 
+                   4567777777777777777..5777777777777777777777777777777777777775599************************99 PP
+
+  == domain 2  score: 43.1 bits;  conditional E-value: 7.7e-14
+     Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennik 139
+                   k+ ++ dL +N i+++ +++f+++s L+ L+ls n +i+ + +++f  +++L +LdLshn + ++ +  f++l  Lt L l + ni+
+  Xe_021866-T2 104 KKLRKVDLRNNNIEKVDSESFKKISVLNDLNLSYN-KIKILPNNLFPVNSSLAILDLSHNPITSIEPsaFKGLRCLTTLYLDSINIE 189
+                   56667788888888888888888888888888888.888888888888888888888888888887778888888888888777764 PP
+
+>> Xe_021866-T1  Xe_021866
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   1.0   9.2e-05     0.026     105     167 ..      28      92 ..       4     101 .. 0.75
+   2 !   42.8   4.5   9.7e-14   2.7e-11      55     139 ..      99     184 ..      95     207 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 9.2e-05
+     Human_TLR 105 eLeeLdLshnklsklss.fallssLteLslvennik.asledgallnlknLklLdLsfNnlkslp 167
+                   + eeL   ++ ++++    ++   L  Ls++  ni   ++++gal nl  L +L L +N+lks+p
+  Xe_021866-T1  28 NVEELRIYSSTIKSVIGhESPNYVLDVLSISDSNITnSKIKPGALDNLFDLIHLILDNNKLKSVP 92 
+                   45677777777777766334445577888888888889999999999999999999999999998 PP
+
+  == domain 2  score: 42.8 bits;  conditional E-value: 9.7e-14
+     Human_TLR  55 knvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslvennik 139
+                   k+ ++ dL +N i+++ +++f+++s L+ L+ls n +i+ + +++f  +++L +LdLshn + ++ +  f++l  Lt L l + ni+
+  Xe_021866-T1  99 KKLRKVDLRNNNIEKVDSESFKKISVLNDLNLSYN-KIKILPNNLFPVNSSLAILDLSHNPITSIEPsaFKGLRCLTTLYLDSINIE 184
+                   55667788888888888888888888888888888.888888888888888888888888888887778888888888888877774 PP
+
+>> Xe_009004-T1  Xe_009004
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9  15.5   1.8e-16     5e-14     496     639 ..      49     198 ..      19     202 .. 0.78
+   2 ?   -3.5   1.8       9.9   2.8e+03     616     632 ..     994    1010 ..     923    1103 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 1.8e-16
+     Human_TLR 496 eLdlsg...k.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsa 586
+                    L ++    k +++ ++++ l++L+ L+iL+ls+N ++  + +++ sl+ +l+eLnLs+n + + + l  l  LevLDLs n ++ ++  +++kl++
+  Xe_009004-T1  49 SLTINLpkdKlNKKiKFIENLEKLKRLKILNLSHNMIE--KIQKLESLV-ELRELNLSNNLIkNIEGLDSLVVLEVLDLSCNGITCIPRAVMKKLRS 142
+                   333333545434445888889999999**********7..667788888.89**********88899****************************** PP
+
+     Human_TLR 587 LreLnlslNsltsLpkg.flsklssLkvLdlssNaiktvsk..dvfqslqskLkvL 639
+                   L+eL+ls N++tsL +   l +l+ L  Ldl++N ++   +  +++    ++L++L
+  Xe_009004-T1 143 LKELKLSDNQVTSLFEVtKLRCLQDLTTLDLQRNPVTNLPHyrEFIVYHLRSLNML 198
+                   **********999977414899*************998654213444344555555 PP
+
+  == domain 2  score: -3.5 bits;  conditional E-value: 9.9
+     Human_TLR  616 lssNaiktvskdvfqsl 632 
+                    l + +i+  +++ ++++
+  Xe_009004-T1  994 LLQDEISELQEQHLKEI 1010
+                    22222222222222221 PP
+
+>> Xe_009004-T2  Xe_009004
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.9  15.5   1.8e-16     5e-14     496     639 ..      49     198 ..      19     202 .. 0.78
+   2 ?   -3.5   1.8       9.9   2.8e+03     616     632 ..     994    1010 ..     923    1103 .. 0.52
+
+  Alignments for each domain:
+  == domain 1  score: 51.9 bits;  conditional E-value: 1.8e-16
+     Human_TLR 496 eLdlsg...k.adn.rylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsa 586
+                    L ++    k +++ ++++ l++L+ L+iL+ls+N ++  + +++ sl+ +l+eLnLs+n + + + l  l  LevLDLs n ++ ++  +++kl++
+  Xe_009004-T2  49 SLTINLpkdKlNKKiKFIENLEKLKRLKILNLSHNMIE--KIQKLESLV-ELRELNLSNNLIkNIEGLDSLVVLEVLDLSCNGITCIPRAVMKKLRS 142
+                   333333545434445888889999999**********7..667788888.89**********88899****************************** PP
+
+     Human_TLR 587 LreLnlslNsltsLpkg.flsklssLkvLdlssNaiktvsk..dvfqslqskLkvL 639
+                   L+eL+ls N++tsL +   l +l+ L  Ldl++N ++   +  +++    ++L++L
+  Xe_009004-T2 143 LKELKLSDNQVTSLFEVtKLRCLQDLTTLDLQRNPVTNLPHyrEFIVYHLRSLNML 198
+                   **********999977414899*************998654213444344555555 PP
+
+  == domain 2  score: -3.5 bits;  conditional E-value: 9.9
+     Human_TLR  616 lssNaiktvskdvfqsl 632 
+                    l + +i+  +++ ++++
+  Xe_009004-T2  994 LLQDEISELQEQHLKEI 1010
+                    22222222222222221 PP
+
+>> Xe_010957-T1  Xe_010957
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   1.7     2e-07   5.7e-05     561     602 ..     442     482 ..     429     491 .. 0.88
+   2 !   21.9   0.4     2e-07   5.6e-05     563     624 ..     599     659 ..     589     673 .. 0.88
+   3 !   12.9   0.1   0.00011      0.03     559     603 ..     701     745 ..     672     779 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 21.9 bits;  conditional E-value: 2e-07
+     Human_TLR 561 kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                   + ++ LDLs+n+l+sl p ++ +ls+Lr+Ln+s+N+l+ Lp 
+  Xe_010957-T1 442 SLITNLDLSNNRLQSL-PIEIFQLSSLRHLNVSHNELSMLPV 482
+                   55788***********.999********************96 PP
+
+  == domain 2  score: 21.9 bits;  conditional E-value: 2e-07
+     Human_TLR 563 LevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl.ssLkvLdlssNaiktv 624
+                   +e LDLs nql+ ++ +l+    +L +L ls+N + + p   ++++ + L++Ldls N+i+t 
+  Xe_010957-T1 599 IEKLDLSYNQLTKFPIGLTCLAPKLSKLLLSNNGIDEFPP--IQEIpELLSHLDLSFNKIQTC 659
+                   788***********9999999*******************..666505679*********986 PP
+
+  == domain 3  score: 12.9 bits;  conditional E-value: 0.00011
+     Human_TLR 559 cl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg 603
+                   c+ ++L  L Ls+n+l+ lt+ ++ kl +L  L++s N lt +pk 
+  Xe_010957-T1 701 CVyPNLMSLTLSHNKLEYLTE-ELGKLVKLGSLDVSYNPLTRVPKL 745
+                   444777788888888888855.777788888888888888877763 PP
+
+>> Xe_003918-T1  Xe_003918
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.5  15.5   2.6e-10   7.3e-08     472     626 ..     207     386 ..     187     417 .. 0.57
+   2 !   34.2  10.6   3.9e-11   1.1e-08      54     168 ..     301     430 ..     280     700 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 31.5 bits;  conditional E-value: 2.6e-10
+     Human_TLR 472 l...........klslsdNniaslvsltlelesLreLdlsg................kadn.rylsllkgL.ssLeiLdlsqNslselsneefkslp 539
+                   +           +l++s+ n+  l +  l  e+L++L+++                  +d     sl   + + L+ +d s N +s++  ++  +l+
+  Xe_003918-T1 207 IffdlsifkklnVLQISKCNVEKLKGIYLLQENLEKLVVHDslhrlkdvlidrevcmYKDIfLQGSLNASMwKLLTDVDFSRNHISYI--DDSVTLL 301
+                   4455555555555566666666665555555555555555555566665554444421221111222222313466777777777644..4444555 PP
+
+     Human_TLR 540 eslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk 626
+                     l  LnLs+n +   + l+ l++L+ LDLs n  +sl ++   kl ++  L l+ N+l+ + +  l kl+sL  Ldls+N+i+ vs 
+  Xe_003918-T1 302 RALSRLNLSYNNIrDVEHLQDLPNLRKLDLSYNLFESL-ESIHRKLGNIESLRLAGNKLNAVGD--LPKLFSLVNLDLSENSISEVSD 386
+                   66777777777775556677777777777777777777.6677777777777777777777777..7777777777777777776653 PP
+
+  == domain 2  score: 34.2 bits;  conditional E-value: 3.9e-11
+     Human_TLR  54 pknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnl 150
+                     +  +L+Ls+N ir+++   +q l++L++Ldls n   + +e +  ++l + e+L L +nkl  + +   l+sL++L l+en+i+ + +   l +l
+  Xe_003918-T1 301 LRALSRLNLSYNNIRDVE--HLQDLPNLRKLDLSYN-LFESLE-SIHRKLGNIESLRLAGNKLNAVGDLPKLFSLVNLDLSENSISEVSDVIRLAKL 393
+                   344455666666666653..4566666666666666.444443.45666666666666666666666655555666666666666533333445566 PP
+
+     Human_TLR 151 knLklLdLsfNnlkslp...................k 168
+                     L+ L L  N+++ +p                    
+  Xe_003918-T1 394 PCLENLILLANSVRYVPmyrmlmlvafedrvsqiclD 430
+                   6666666666666666655555555544444444440 PP
+
+>> Xe_007461-T1  Xe_007461
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.0   7.1   7.2e-10     2e-07      68     215 ..     453     585 ..     425     588 .. 0.77
+   2 !   31.2   9.8   3.1e-10   8.8e-08     515     645 ..     550     677 ..     546     679 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 30.0 bits;  conditional E-value: 7.2e-10
+     Human_TLR  68 relsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlk 164
+                     +sa+ f+++++L +L+ls n  iq   +  +++l +L   d + n+l +++   ++ +   L l  n i   + ++ ++      +L+L  N+l 
+  Xe_007461-T1 453 GVISAAGFESCKHLLELNLSDN-AIQ---NICCQNLDSLHLVDFKRNQLASIHGLDGCCNVRALLLDDNKIT-RVGKFSFN---RVMHLSLRSNQLI 541
+                   4578888999999999999999.444...5688999999999999999999998888888999999999775.77777775...5778999999987 PP
+
+     Human_TLR 165 slpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslssls 215
+                   +++    ++  + L+iLd S n+++r+d  +l++ +l  ls l+L+ ++l+
+  Xe_007461-T1 542 TTK---GLSTWKYLQILDCSDNHLNRID--ELECCPL--LSILRLKGNNLQ 585
+                   764...6777788999999999999954..7788888..888888888775 PP
+
+  == domain 2  score: 31.2 bits;  conditional E-value: 3.1e-10
+     Human_TLR 515 ssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkk...LevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflskl 608
+                   + L+iLd s N l+ + + e + l+     L+L+ n L  +   cl++   L+ + L +n + sl + + n l  L++L+l+ Nsl+++++  ++++
+  Xe_007461-T1 550 KYLQILDCSDNHLNRIDELECCPLL---SILRLKGNNL--QTPPCLSNhvlLREVHLGENSISSLEEFVNNWLPLLQHLYLNDNSLSTVSH--MKNF 639
+                   6799999999999888877777776...8899999999..444455321226777899999999988888999999999999999999999..9999 PP
+
+     Human_TLR 609 ssLkvLdlssNaiktvskdvfqs...lqskLkvLdlgaNp 645
+                    +L+ Ldl++N+i+  ++ v++    +q +L+vL +++Np
+  Xe_007461-T1 640 PMLETLDLKNNLITDEEN-VLNGiagCQ-ELRVLIVEGNP 677
+                   999999999999987655.443323377.99999999997 PP
+
+>> Xe_010065-T1  Xe_010065
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   4.9   3.9e-15   1.1e-12     370     455 ..      21     105 .]       3     105 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 3.9e-15
+     Human_TLR 370 svvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfg.seflgltelkyldLskNkldlltsssftelekLetL 455
+                     ++++l  +k+l+L++nk+++ ++e+f+ l +le L+Ls+N+ls  l + + f gltel+ l+L  N l+ +  + f+ l++L++L
+  Xe_010065-T1  21 RQKEKCLVTVKALDLSNNKLSLQNCEMFNGLIELENLDLSNNELS--LQNcEMFNGLTELENLNLAGNSLKKIPTDCFKSLTNLKHL 105
+                   56789****************************************..5554789*******************************98 PP
+
+>> Xe_011872-T1  Xe_011872
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   9.7   1.6e-14   4.6e-12     532     646 ..      40     152 ..      37     154 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 1.6e-14
+     Human_TLR 532 neefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk. 626
+                   +++  s +++ ++L+Ls n + +   l+ lkkL++L L  n++k l ++l   +  L eL +s N++ +L++  ++ l++LkvL +s+N++k++++ 
+  Xe_011872-T1  40 MDASLSTLANCEKLSLSTNCIeKIANLNGLKKLRILSLGRNNIKNL-NGLEAVSDTLEELWISYNNIEKLKG--INVLKKLKVLYMSNNQVKSFDEf 133
+                   56677788899**********99999********************.9************************..*******************9864 PP
+
+     Human_TLR 627 dvfqslqskLkvLdlgaNpF 646
+                   + +  l  +L++L + +Np+
+  Xe_011872-T1 134 QKLADLP-QLQELLMVGNPL 152
+                   6677788.9*********98 PP
+
+>> Xe_021675-T1  Xe_021675
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.5  10.9   2.9e-14   8.2e-12     512     646 ..      93     224 ..      55     246 .. 0.79
+   2 ?   -2.8   0.8         6   1.7e+03     340     401 ..     315     372 ..     289     376 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 44.5 bits;  conditional E-value: 2.9e-14
+     Human_TLR 512 kgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkg.fls 606
+                    + + L+ L l++N +++++   ++++   l+ L L +n + + + l+ l+ L +L +s+n +k +  +++ +l +L +L++++N+l+++++   l 
+  Xe_021675-T1  93 DDYTGLKCLWLESNGIKTIEGLINQTE---LRCLYLHQNLIeKLENLEHLQFLDTLNVSNNSIKRI--ENIACLPKLNTLQVAHNRLKTVEDIeELR 184
+                   555778889999999987666555554...589999999996667777777777778999999999..56999999999999999999998842467 PP
+
+     Human_TLR 607 klssLkvLdlssNaiktvsk.dvfqslqskLkvLdlgaNpF 646
+                   + + L+vLdls+N+++ ++  +vf s+  kL+v++l +Np 
+  Xe_021675-T1 185 SCKYLSVLDLSHNHLEDPDIiNVFSSME-KLSVINLMGNPV 224
+                   7788999999999999998625566566.999999999985 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 6
+     Human_TLR 340 lsnnkisglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafskls 401
+                   +s+nk+ ++    ++d +yd+++  +  +++++ e+ ++ ++++L+k +  +   ++ ++++
+  Xe_021675-T1 315 MSDNKLCERK---KED-QYDEQTSMFERNTNKNNEIDEEQHTVKLSKQQQILTTTLSDEDIE 372
+                   5555555552...333.566654444336778888888888888887776555555555555 PP
+
+>> Xe_017757-T1  Xe_017757
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.0   2.6   4.1e-14   1.2e-11     509     602 ..     111     206 ..      83     215 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 44.0 bits;  conditional E-value: 4.1e-14
+     Human_TLR 509 sllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpk 602
+                   sllk L +L+ L l qN l++l+n++f +   +l+ L+L++n L    + +++ l+kL+ LD+s n+l+s++++l++ +s+L+  + ++  l ++++
+  Xe_017757-T1 111 SLLKSLLNLKMLSLRQNALKNLENNVFSKRK-KLRFLFLEYNLLseiGDGMFHGLSKLKSLDISYNRLQSIPDGLFKYTSSLQFVYEKHTFLWTISG 206
+                   6899999999999999999987777776655.99999999999988889999999999999999999999999999999999988877777766665 PP
+
+>> Xe_021451-T1  Xe_021451
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.0   8.1e-08   2.3e-05     637     691 ..      16      70 ..       4      82 .. 0.81
+   2 ?    0.3   0.0      0.69   1.9e+02     661     696 ..     376     410 ..     371     417 .. 0.75
+   3 !   17.8   0.5   3.4e-06   0.00096     622     697 ..     703     779 ..     694     791 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 8.1e-08
+     Human_TLR 637 kvLdlgaNpFeCtCelaefvqwl..nealevvipglpsdvkCasPeslrGlsvksld 691
+                   kv++l +Np+ C C +++f+++l  ++++++  ++  +++kC+ P+ lrG  + +l+
+  Xe_021451-T1  16 KVIKLAKNPYVCDCQISWFLRKLrlKDYTQKI-ID-LKRMKCHKPKRLRGRLIYELK 70 
+                   899*****************986226665555.55.69************9998875 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 0.69
+     Human_TLR 661 ealevvipglpsdvkCasPeslrGlsvksldls.sCk 696
+                   +++++ i++  +++kC+ P ++rG+ + +l+    C 
+  Xe_021451-T1 376 DYTQK-IID-LKKMKCHAPAKMRGKLIYKLKEAdVCP 410
+                   54444.444.689**************9997555665 PP
+
+  == domain 3  score: 17.8 bits;  conditional E-value: 3.4e-06
+     Human_TLR 622 ktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwln..ealevvipglpsdvkCasPeslrGlsvksldls.sCke 697
+                   +++  d f++  ++L vL  + Np++C C +++f+ ++    +  +  +g  +d+ C+ P  l+ +++ +l++s  C +
+  Xe_021451-T1 703 TSIPYDLFEPPNENLFVL--STNPYNCNCKMHWFITEVRlnYTKVKEKVGYLKDMRCDKPARLHRKRIYKLNVSdVCPN 779
+                   556666777766666655..79*************98762132222335779********************9988965 PP
+
+>> Xe_022713-T2  Xe_022713
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.2       2.1   5.8e+02     300     341 ..     243     283 ..     202     330 .. 0.48
+   2 !   43.8  13.7   4.9e-14   1.4e-11     517     645 ..     334     459 ..     327     463 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 2.1
+     Human_TLR 300 tddsllqvLqlLetlslelnfikqaklklFkafkglkylels 341
+                    + + + +++ L++l++e   +  ++ +l++  k+l ++ ++
+  Xe_022713-T2 243 NQAFDISLFKSLKKLQIEKCHVGVIN-GLYRIQKQLTHVTIK 283
+                   33333444444444442222222222.222333333333333 PP
+
+  == domain 2  score: 43.8 bits;  conditional E-value: 4.9e-14
+     Human_TLR 517 LeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrcl..kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssL 611
+                   L+++++s+N +s  s ++  ++++sl++L Ls+n   +  l++l  ++L++L Ls nq++ + ++ +  l++L+ L l +N+l++L++  l++l  L
+  Xe_022713-T2 334 LTHINMSHNNIS--SFDHSLKVLPSLEQLDLSYNNFVHLNLEQLssSTLTFLNLSYNQIHYV-SSTSRDLRNLKSLLLFNNKLQNLDG--LDCLRGL 425
+                   899********7..5566667777********************9889**************.77999********************..******* PP
+
+     Human_TLR 612 kvLdlssNaiktvskdvfqs.lqskLkvLdlgaNp 645
+                    +Ld+ sN + +v + +  s l+ +L++L l +Np
+  Xe_022713-T2 426 VELDVRSNDVAHVTEVAKVSsLF-HLRILALAGNP 459
+                   ************98876555266.9*******998 PP
+
+>> Xe_014743-T1  Xe_014743
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.2   5.9   6.7e-07   0.00019     496     614 ..     145     269 ..     115     274 .. 0.66
+   2 !   28.1   6.3   2.8e-09   7.7e-07      87     199 ..     485     588 ..     471     607 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 20.2 bits;  conditional E-value: 6.7e-07
+     Human_TLR 496 eLdlsg...k.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsa 586
+                    L+  g   +  d+++  l k+ s+L+ Ldl +N+++ l++ e ++l     e++L +n +   +  l  l++L++L + +  lk +  +++++l +
+  Xe_014743-T1 145 RLVADGnniTlSDEDVEILKKNFSKLKYLDLRSNKIKILPELESDHLI----EMQLGKNEIsdIYLNLDKLPNLTILLVGDTDLKDVKWEKLVQLPK 237
+                   344444444434556666778888888888888888877777777766....888888888333345567888888888888888888888888888 PP
+
+     Human_TLR 587 LreLnlslNs....ltsLpkgflsklssLkvL 614
+                   L+ Ln+   +    ++ L+  ++++ +sL+ L
+  Xe_014743-T1 238 LQGLNVRDLQmdspIKYLDPKIFHEHESLQFL 269
+                   88888865431112455666666666666665 PP
+
+  == domain 2  score: 28.1 bits;  conditional E-value: 2.8e-09
+     Human_TLR  87 shntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdl 183
+                   s n     + +++f+ + +L++L+L++nkl+k    a ++      +++n+++ +l +++++ l+nL  L+++ N+++ ++  + f+ L nL+ Ld+
+  Xe_014743-T1 485 SNN-GLSWLSDGVFQ-IDSLKVLNLKGNKLQKAV--AIIT-----DISSNSLS-ELPEFVFQPLGNLLNLSMQLNAFSEFKHDNIFDPLVNLNYLDI 571
+                   445.55567777776.689999999999999988..6777.....67788777.99***************************************** PP
+
+     Human_TLR 184 Sgn....kiqrcdlaplall 199
+                   Sg+    +i+r   + ++l+
+  Xe_014743-T1 572 SGMeslnQINR---LWFRLM 588
+                   **984444444...444443 PP
+
+>> Xe_021459-T1  Xe_021459
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.0        10   2.8e+03     674     692 ..       1      19 [.       1      29 [. 0.81
+   2 !   22.7   0.0   1.2e-07   3.2e-05     637     691 ..     296     350 ..     283     362 .. 0.81
+   3 ?   -0.1   0.0      0.89   2.5e+02     661     696 ..     637     671 ..     632     678 .. 0.75
+   4 !   17.4   0.5   4.5e-06    0.0013     622     697 ..     964    1040 ..     955    1052 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 10
+     Human_TLR 674 vkCasPeslrGlsvksldl 692
+                   +kC+ P  lrG+ + +l+ 
+  Xe_021459-T1   1 MKCDKPARLRGQLIYKLKE 19 
+                   79***********999874 PP
+
+  == domain 2  score: 22.7 bits;  conditional E-value: 1.2e-07
+     Human_TLR 637 kvLdlgaNpFeCtCelaefvqwl..nealevvipglpsdvkCasPeslrGlsvksld 691
+                   kv++l +Np+ C C +++f+++l  ++++++  ++  +++kC+ P+ lrG  + +l+
+  Xe_021459-T1 296 KVIKLAENPYVCDCQISWFLRKLrlKDYTQKI-ID-LKRMKCHKPKRLRGRLIYELK 350
+                   899*****************986226665555.55.69************9998875 PP
+
+  == domain 3  score: -0.1 bits;  conditional E-value: 0.89
+     Human_TLR 661 ealevvipglpsdvkCasPeslrGlsvksldls.sCk 696
+                   +++++ i++  +++kC+ P ++rG+ + +l+    C 
+  Xe_021459-T1 637 DYTQK-IID-LKKMKCHAPAKMRGKLIYKLKEAdVCP 671
+                   54444.444.689**************9997555665 PP
+
+  == domain 4  score: 17.4 bits;  conditional E-value: 4.5e-06
+     Human_TLR  622 ktvskdvfqslqskLkvLdlgaNpFeCtCelaefvqwln..ealevvipglpsdvkCasPeslrGlsvksldls.sCke 697 
+                    +++  d f++  ++L vL  + Np++C C +++f+ ++    +  +  +g  +d+ C+ P  l+ +++ +l++s  C +
+  Xe_021459-T1  964 TSIPYDLFEPPNENLFVL--STNPYNCNCKMHWFITEVRlnYTKVKEKVGYLKDMRCDKPARLHRKRIYKLNVSdVCPN 1040
+                    556666777766666655..79*************98762132222335779********************9988965 PP
+
+>> Xe_014740-T1  Xe_014740
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6  10.9     5e-07   0.00014     512     626 ..      23     131 ..      13     133 .. 0.84
+   2 !   25.9  10.0   1.3e-08   3.5e-06     488     591 ..     130     247 ..     127     254 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 20.6 bits;  conditional E-value: 5e-07
+     Human_TLR 512 kgLssLe.iLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsk 607
+                   k++ssL  iL++ + s+  ++n ++  l++  +++ Ls+  +   + + ++kL+ LDL+sn++k l++    ++  L e++l+ N+++++    l+k
+  Xe_014740-T1  23 KKISSLRdILNMTNGSF--CQNGTIERLVADGNNITLSDEDV-EILKKNFSKLKYLDLRSNKIKILPE---LESYHLIEMQLEKNEISDIYL-NLDK 112
+                   56667742688888888..89999999999999999999999.45556779***************88...6667788999********998.89** PP
+
+     Human_TLR 608 lssLkvLdlssNaiktvsk 626
+                   l +L +L+l++N++k + k
+  Xe_014740-T1 113 LPNLAILNLKENKLKNFTK 131
+                   **************99887 PP
+
+  == domain 2  score: 25.9 bits;  conditional E-value: 1.3e-08
+     Human_TLR 488 tlelesLreLdlsg.......kadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL....swsvlrclkkLevLDLssn.. 571
+                   t +l +L++Ldl+g         +n  +  + gL++Le Ld+s+Nslsel++ +f+ l  +l +L+++ n      +++++  l +L+ LD+s+   
+  Xe_014740-T1 130 TKNLGKLKALDLKGiklqeavDITNGNITWFFGLKNLESLDISSNSLSELPEFVFQPLG-NLLNLSMQLNLFskfkHDNIFDPLVNLNYLDISEIpt 225
+                   66788999999999999987546778899999999999999999999999988888887.9999999999999998899999999999999997433 PP
+
+     Human_TLR 572 ..qlksltpklvnklsaLreLn 591
+                     +++ l ++l+ +l +L++L+
+  Xe_014740-T1 226 liYINRLWNRLMRNLVNLKHLK 247
+                   3378888888888888888876 PP
+
+>> Xe_005860-T1  Xe_005860
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.1   5.0   1.3e-12   3.6e-10     511     640 ..      89     217 ..      67     221 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 39.1 bits;  conditional E-value: 1.3e-12
+     Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl 605
+                   + +L sL+ L  ++N+l+++  +e+++l+  l+eL+L++n L    + + +lk+L+ L L +n+l+ l p+ ++k  +L  L++s+N ++  p  f+
+  Xe_005860-T1  89 IDKLVSLQFLSANKNRLQSI-PDEICHLT-HLTELHLADNFLesLPENIGFLKNLTRLILYKNRLTEL-PQGLSKCCKLEYLDVSCNFIKYFPVNFY 182
+                   56788999999999999865.47788888.89999999999976678889999999999999999999.6677777889999999999999999554 PP
+
+     Human_TLR 606 sklssLkvLdlssNaikt...vskdvfqslqskLkvLd 640
+                     +  L++L  + N + +    + ++++++  +Lk+L 
+  Xe_005860-T1 183 --ALPLRELYCEGNNLLKhlpLHSEQVEEVL-SLKELT 217
+                   ..55688888887766541223455566666.666665 PP
+
+>> Xe_007173-T1  Xe_007173
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   5.0   1.5e-12   4.2e-10     398     619 ..      56     165 ..      15     192 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 38.9 bits;  conditional E-value: 1.5e-12
+     Human_TLR 398 sklsslevLnLseNllsqelfgseflgltelkyldLskNkldlltsssftelekLetLdLrknslktlekvthsl.......klslsdNniasl... 484
+                    +l +l++L+Ls N++  +++g +   l  lkyl+Ls N + +   + +++l +L +LdL++n  ++l ++++         +l l +N+i s+   
+  Xe_007173-T1  56 DALGKLKHLDLSSNSIE-VISGLD--NLVCLKYLNLSCNAITT--TKGLENLRQLVKLDLSYNTINSLLGLKSLAstgsslsTLYLQGNDIRSIdhi 147
+                   34555555555555554.444422..35555555555555444..4455555555555555555555544343334445455555555555554444 PP
+
+     Human_TLR 485 vsltlelesLreLdlsgkadnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrclkkLevLDLssnqlksltpklv 581
+                   ++++ e  +L+e+++s                                                                                 
+  Xe_007173-T1 148 INCLSEFIQLKEIVFSQ-------------------------------------------------------------------------------- 164
+                   44444444555555554................................................................................ PP
+
+     Human_TLR 582 nklsaLreLnlslNsltsLpkgflsklssLkvLdlssN 619
+                                                        N
+  Xe_007173-T1 165 -------------------------------------N 165
+                   .....................................4 PP
+
+>> Xe_024224-T1  Xe_024224
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.7   3.9   1.7e-12   4.6e-10     511     645 ..      61     192 ..      35     202 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 38.7 bits;  conditional E-value: 1.7e-12
+     Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL..swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgfl 605
+                   +++L +   L+++ N ++ +s  +f s++++lk+L+Ls+  +    ++   l +L+ L ++++ l  l    +++l +++eL+l+ N + +++   l
+  Xe_024224-T1  61 IQDLDEVVFLEMKVNTVQ-NSLGNFGSMVQNLKQLKLSNSVIssIRDLGTSLVNLQSLWMAKCGLSDL--DGISSLCSIKELYLAYNDICEVSP--L 152
+                   5778888889*******7.999********************8656777889****************..57999*******************..* PP
+
+     Human_TLR 606 sklssLkvLdlssNaiktvskdvfqs.lqskLkvLdlgaNp 645
+                     l  L+vLdl+ N++  + + +f   +  +Lk L l++Np
+  Xe_024224-T1 153 TMLDTLEVLDLEGNLLDDIAQVEFLVlCP-ELKRLTLEGNP 192
+                   *****************998877777366.**********9 PP
+
+>> Xe_022713-T1  Xe_022713
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.5       1.4   4.1e+02     295     339 ..     238     281 ..      98     331 .. 0.64
+   2 !   38.2  20.6   2.4e-12   6.9e-10     517     645 ..     334     459 ..     170     473 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 1.4
+     Human_TLR 295 aelketddsllqvLqlLetlslelnfikqaklklFkafkglkyle 339
+                   +el   + + + +++ L++l++e   +  ++ +l++  k+l ++ 
+  Xe_022713-T1 238 QELIVNQAFDISLFKSLKKLQIEKCHVGVIN-GLYRIQKQLTHVT 281
+                   3333333344444444444443333222222.2233333333333 PP
+
+  == domain 2  score: 38.2 bits;  conditional E-value: 2.4e-12
+     Human_TLR 517 LeiLdlsqNslselsneefkslpeslkeLnLssnmLswsvlrcl..kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssL 611
+                   L+++++s+N +s  s ++  ++++sl++L Ls+n   +  l++l  ++L++L Ls nq++ + ++ +  l++L+ L l +N+l++L++  l++l  L
+  Xe_022713-T1 334 LTHINMSHNNIS--SFDHSLKVLPSLEQLDLSYNNFVHLNLEQLssSTLTFLNLSYNQIHYV-SSTSRDLRNLKSLLLFNNKLQNLDG--LDCLRGL 425
+                   89999****997..55666667779*********999999999998899************9.7799999******************..9****** PP
+
+     Human_TLR 612 kvLdlssNaiktvskdvfqs.lqskLkvLdlgaNp 645
+                    +Ld+ sN + +v + +  s l+ +L++L l +Np
+  Xe_022713-T1 426 VELDVRSNDVAHVTEVAKVSsLF-HLRILALAGNP 459
+                   *********99998766555255.99999999998 PP
+
+>> Xe_014129-T1  Xe_014129
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   4.9   9.2e-12   2.6e-09     502     626 ..     128     263 ..      90     277 .. 0.73
+   2 ?   -1.3   0.0         2   5.7e+02     603     622 ..     672     691 ..     658     716 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 36.3 bits;  conditional E-value: 9.2e-12
+     Human_TLR 502 k.adnrylsllkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsa.......L 587
+                   + ++n  l  +++ +sL+ L+l  N +   ++  + + + sl  L +s n L       l +l+ L+vL L +nql+sl+ + ++  s+       L
+  Xe_014129-T1 128 AgENNLQLDNFREFPSLKSLELPLNNIGG-KVVINEKDFTSLDTLDMSCNSLtenDILALGVLPALKVLHLTGNQLESLPTGMSKPKSSkyipfvnL 223
+                   32455888889999999999999999974.4445555555999999999999753334577889999999999999999876654433223333339 PP
+
+     Human_TLR 588 reLnlslNsltsLpkgfl.sklssLkvLdlssNaiktvsk 626
+                    +L l  N lt+ +++ +  +l++Lk+L+l +N+i++v  
+  Xe_014129-T1 224 EKLWLDQNYLTDKDTFSClADLKRLKYLNLAHNKISSVPY 263
+                   9999999999999996542788999999999999998865 PP
+
+  == domain 2  score: -1.3 bits;  conditional E-value: 2
+     Human_TLR 603 gflsklssLkvLdlssNaik 622
+                    ++s +ssL++ +l +N+ik
+  Xe_014129-T1 672 RYMSPFSSLRIINLANNHIK 691
+                   33334444444444444443 PP
+
+>> Xe_020465-T1  Xe_020465
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   4.4   3.1e-12   8.6e-10      84     200 ..      24     137 ..       8     150 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 37.8 bits;  conditional E-value: 3.1e-12
+     Human_TLR  84 LdlshntriqtiekeafkslkeLeeLdLshnklsklssfallssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLki 180
+                   L+l  + +  ++ +++ ++  +L +L L++  l +l++f  l +L +L+l+ n i+  l    l++ ++L++L+Ls N++k ++  + + +L+nLk+
+  Xe_020465-T1  24 LNLDNCRTTGQV-EGLTENFVNLDYLSLNNAGLTSLKNFPKLPNLRRLELSDNRISSGL--HHLQGFQKLTHLNLSGNKIKDFETLKPLTELSNLKS 117
+                   555555333344.467788899****************999999*********998555..4689999***************************** PP
+
+     Human_TLR 181 LdlSgnkiqrcdlaplalle 200
+                   Ldl + ++ ++ +   ++++
+  Xe_020465-T1 118 LDLYNCEVTNVENYRSEVFK 137
+                   ***99877777766666665 PP
+
+>> Xe_000174-T1  Xe_000174
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   4.5   1.2e-08   3.4e-06     530     625 ..      19     111 ..      14     142 .. 0.77
+   2 !   15.0   1.3   2.5e-05    0.0069     104     164 ..     235     296 ..     201     337 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 26.0 bits;  conditional E-value: 1.2e-08
+     Human_TLR 530 lsneefkslpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvs 625
+                    ++e++ + ++ l++++L++  + + + l + ++L vL+L +n++  +  +++ +  +L +L+l+ N++t++++  ls++++L+ L l +N i+ v+
+  Xe_000174-T1  19 KKSETTLQYLKRLTHVFLAERFVdEINNLSMCRNLSVLYLYDNNICKI--ENLGFAANLTHLYLQKNNITKIEG--LSNMKRLSKLYLGQNCITVVE 111
+                   566777788888888888888886666777778888888888888888..457888888888888888888888..888888888888888888765 PP
+
+  == domain 2  score: 15.0 bits;  conditional E-value: 2.5e-05
+     Human_TLR 104 keLeeLdLshnklsklssfallssLteLslvennik.asledgallnlknLklLdLsfNnlk 164
+                   + L++++ s+n++ +l + + lss+++L++  nni  ++   + l+n  +L  LdL  N + 
+  Xe_000174-T1 235 SCLNVMNISGNNIDNLDDLHSLSSIIQLNAQDNNITsTKGLMKSLNNWPSLIKLDLTGNPVC 296
+                   45777777777777777777777777777777777655555566666777777777777654 PP
+
+>> Xe_010104-T1  Xe_010104
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.1     3e-11   8.3e-09     749     857 ..     114     219 ..      96     252 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 3e-11
+     Human_TLR 749 rnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsie.kSrKtvfVlskkfvksewckyefylAhqrlleensdvi 844
+                   ++  +dAfi+y+++D    +  L   le      k+C+ +Rd+vPG+ +i+   + ie +  + + +ls++f  s    +++ +A +   + ++  +
+  Xe_010104-T1 114 SDEIFDAFICYAKEDRSFAYKIL-TTLESPPFCRKICIDYRDYVPGNCRIDQTAKIIEhRCIRLIAILSPNFTSSSSAGFQVRIALNLSPDFQQRRV 209
+                   5668************9988765.67898755669********************9973689***********************999988888899 PP
+
+     Human_TLR 845 ILilLepiekyql 857
+                   I il e+    ++
+  Xe_010104-T1 210 IPILYEEC---EI 219
+                   99998876...33 PP
+
+>> Xe_025395-T1  Xe_025395
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1   3.3e-11   9.3e-09     749     856 ..     124     228 ..     107     261 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 3.3e-11
+     Human_TLR 749 rnleYdAfisysekDsdWVkneLvknleeekqslklCLeeRdfvPGkaiieniiqsie.kSrKtvfVlskkfvksewckyefylAhqrlleensdvi 844
+                   ++  +dAfi+y+++D    +  L   le      k+C+ +Rd+vPG+ +i+   + ie +  + + +ls++f  s    +++ +A +   + ++  +
+  Xe_025395-T1 124 SDEIFDAFICYAKEDRSFAYKIL-TTLESPPFCRKICIDYRDYVPGNCRIDQTAKIIEhRCIRLIAILSPNFTSSSSAGFQVRIALNLSPDFQQRRV 219
+                   5568************9988765.67898755669********************9973689***********************999888888899 PP
+
+     Human_TLR 845 ILilLepiekyq 856
+                   I il e+    +
+  Xe_025395-T1 220 IPILYEEC---E 228
+                   99988876...3 PP
+
+>> Xe_012104-T1  Xe_012104
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   0.9   5.5e-11   1.5e-08     472     646 ..     146     358 ..     105     373 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 5.5e-11
+     Human_TLR 472 l.......klslsdNniasl.....vsltlelesLreLdlsg....k.adnrylsllkgLssLeiLdlsqNslselsn...eefkslpeslkeLnLs 548
+                   l        l+l dNni  l      +++ e   ++ Ldls     + +  ++  +l++   L+ L++++N ++        e+ + +++l +Ln+s
+  Xe_012104-T1 146 LvtnttvlRLDLHDNNIGDLgashvCEMMKENCYITSLDLSSnkisHvGCAAICDMLNNSGILQDLNIANNAFDDKDAimfSEIIKNNDQLIKLNMS 242
+                   1555555577777777755443233444555555666777665554223346666666666677777777777654431114444555567777777 PP
+
+     Human_TLR 549 snmL.......swsvlrclkkLevLDLssnqlks.....ltpklvnklsaLreLnlslNslts.....LpkgflsklssLkvLdlssNaiktvskdv 628
+                    n+           ++    ++e+LDLs n+++      +  + +++   ++  nls N l +     L++  l+  + L +Ld+s+N i+t+ +++
+  Xe_012104-T1 243 GNKFceeggvaLGASIAANDSVEILDLSWNHIRRrgaigI-ATGLKNNYTIKVFNLSWNGLEDegaraLSD-ALKANNTLTELDISNNRISTIGATF 337
+                   7777666555444445555677777777777765222212.344556666777777777776433332555.5666677777777777777777777 PP
+
+     Human_TLR 629 fqs...lqskLkvLdlgaNpF 646
+                   + +   +  ++++L++g+Np 
+  Xe_012104-T1 338 IAKsleANVTIEILKIGDNPI 358
+                   765422233456677777764 PP
+
+>> Xe_004471-T1  Xe_004471
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   4.7   7.7e-11   2.2e-08     535     640 ..      20     126 ..      10     227 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 7.7e-11
+     Human_TLR 535 fkslpeslkeLnLssnmL...swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssN.aiktvskd 627
+                    ++ ++++ +L+L    L   +  vl+ l +L+ LD+s+n++ sl       l  L+eLn ++N+lt++++  +  + +L++ d+s+N +++ v++ 
+  Xe_004471-T1  20 SCNSLKEIYKLSLPGVNLasvNEAVLKKLTNLRELDISNNKISSL-GFHGITLGLLKELNCASNNLTTVDD--FALFPNLEMVDVSNNvSLEVVDRY 113
+                   566777777788777777777888888888888888888888888.6677778888888888888888888..888888888888888557778888 PP
+
+     Human_TLR 628 vfqslqskLkvLd 640
+                    + s+  kLkvLd
+  Xe_004471-T1 114 KLVSMLPKLKVLD 126
+                   8888777888876 PP
+
+>> Xe_014583-T2  Xe_014583
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.8   4.6     1e-10   2.8e-08     557     646 ..      14     101 ..       6     129 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 32.8 bits;  conditional E-value: 1e-10
+     Human_TLR 557 lrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk..dvfqslqskLkvLdlgaNpF 646
+                   l  +k+L+ L L++n+l+ +    ++   +L eL+l++N l s+++  l +l +L+vL l+ N++k   +  ++f  ++  L+vL+l +Np+
+  Xe_014583-T2  14 LGKFKNLQRLWLNQNKLRKV--DCLHDNFRLTELYLQHNLLVSITG-CLRHLTELQVLMLQGNQLKYLTEviQEFVRMH-RLRVLNLFGNPL 101
+                   44444444555555555544..334444444555555555555444.44444455555555554444332113333333.444444444444 PP
+
+>> Xe_014583-T1  Xe_014583
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   6.0   1.1e-10   3.1e-08     537     646 ..      18     126 ..       9     147 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 1.1e-10
+     Human_TLR 537 slpeslkeLnLssnmL.swsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvsk..dvfq 630
+                   +  + ++eL      L + ++l  +k+L+ L L++n+l+ +    ++   +L eL+l++N l s+++  l +l +L+vL l+ N++k   +  ++f 
+  Xe_014583-T1  18 QNQNVVVELYFGLRGLqQIDSLGKFKNLQRLWLNQNKLRKV--DCLHDNFRLTELYLQHNLLVSITG-CLRHLTELQVLMLQGNQLKYLTEviQEFV 111
+                   45555566666666666667788888888888888888888..466777788888888888888887.77888888888888888876654225566 PP
+
+     Human_TLR 631 slqskLkvLdlgaNpF 646
+                    ++  L+vL+l +Np+
+  Xe_014583-T1 112 RMH-RLRVLNLFGNPL 126
+                   566.788888888876 PP
+
+>> Xe_024531-T1  Xe_024531
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.2  16.0     2e-08   5.6e-06      43     346 ..       3     371 ..       2     377 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 25.2 bits;  conditional E-value: 2e-08
+     Human_TLR  43 klkLtevPk...dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss..fallssLteLslv 134
+                   +++Lt++Pk   dl  + ++L Ls N i+++   +++ l++ +vL+l  n + qti +++   l++Le+L+ ++n+  k+        ++       
+  Xe_024531-T1   3 DCHLTSIPKgifDL-AKLEELHLSRNLIKKIDV-EISALKNVKVLRLDNN-KLQTIAPNSLTRLENLESLNIEGNHDLKMDAprEVSKKNF------ 90 
+                   589******55555.7899***********975.799*************.************************8777774321111222...... PP
+
+     Human_TLR 135 enni.............................kasledgallnlknLklLdLsfNnlkslp................keeefgnLtn.LkiLdlSg 185
+                      i                             +  ++   +l  ++L lL L +N l  lp                 ++ f n+++  ++L+  +
+  Xe_024531-T1  91 ---IeitevvtdhkihsgykcfvssecgkrattNSFVNMWIILFIEALWLLIL-DNFLLKLPltssvietfvhlvmacYNSPFLNFAApFTFLQSNS 183
+                   ...12233355557799999999999999998734555556666666665544.5666666644444444446666665555555555566666555 PP
+
+     Human_TLR 186 nkiqrcdlaplallelk....................................elsnlsLslsslskvsae.wfkslkelnlk.lhlvLdlsenfla 244
+                   nk q   +                                             +l+ +   ++  +k+s+  + k    ++l  l + L ++ n+l 
+  Xe_024531-T1 184 NKTQGYVNI-------SidnpvdltdhdqlynvdflpdntspivlmglydkvqTLKDIISTSHPIKKISNLyTIKDV--FQLPsLIIFLVININYL- 270
+                   555554444.......0444444558889999999999999999999999777666665555555444332023444..77776667777777777. PP
+
+     Human_TLR 245 keivktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLql..LetlslelnfikqaklklFkafkglkyle 339
+                    + +k+ +++++ L + n k+ +  ++l++++ ++ l  +   +lk +++ +l+ +   ++++L +  L tl++    ++  +++ F +++glk l+
+  Xe_024531-T1 271 -KDMKNTMRFVHFLSKENKKKIV-AHALSKEFPVKGLQ-TSLDELKALSFTNLPGIPLGIFDQLICenLLTLNIIKYTLEEDDFHNFDKLIGLKSLS 364
+                   .6788899999999999977666.78888888888777.666778999**************997622556666667788899************** PP
+
+     Human_TLR 340 lsnnkis 346
+                   + n+ ++
+  Xe_024531-T1 365 IVNCGLK 371
+                   ***9876 PP
+
+>> Xe_009205-T1  Xe_009205
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   3.5   6.3e-10   1.8e-07     446     572 ..      14     150 ..       5     182 .. 0.54
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 6.3e-10
+     Human_TLR 446 ftelekLetLdLrknslktlekvthsl....klslsdNniaslvsltlelesLreLdlsgk.adnrylsllkgLssLeiLdlsqNslselsneefks 537
+                   ft+  k    dLr  +  ++e+++ +l    ++++sdN+i+ l +    l++L+ L ++ +   +    l++ L++Le L l +Ns++ ls  +  +
+  Xe_009205-T1  14 FTNALKDREIDLRGYKISVIENLGATLdqfdTINFSDNDIKKLEGFP-LLKRLKSLIMNNNrVCRIGEGLATCLPNLETLVLTNNSMNDLSDLDALK 109
+                   44444444555555555555555555555555555555555553322.3344444444432122222344455555555555555555555555555 PP
+
+     Human_TLR 538 lpeslkeLnLssnmL......swsvlrclkkLevLDLssnq 572
+                    +++l++L+L  n +         v++ l++++vLD +  +
+  Xe_009205-T1 110 SVKTLRYLSLMRNPIlnkpnyRLYVIHSLPQIRVLDFQRIK 150
+                   55555555555555555554444555555555555555444 PP
+
+>> Xe_009292-T1  Xe_009292
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.3   9.2   5.9e-10   1.7e-07     565     724 ..      10     160 ..       2     186 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 30.3 bits;  conditional E-value: 5.9e-10
+     Human_TLR 565 vLDLssnqlksltpklvnklsaL...r..eLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpFeCtCelaefv 656
+                   +L L   + + +  k++ +  +L   +  +L+ s+ +lt++p+   +  s  k+  l+ N+i + s+++f ++  +L+ Ldl++N+++C C l++  
+  Xe_009292-T1  10 ILFLTAANANLIKTKNSTSCDRLcvcQdfKLDCSSQNLTTVPN---DLPSTAKIILLNDNEIRSLSANFFSKFP-NLTLLDLSNNKLNCNCSLNWTK 102
+                   4444444444444344444444422242257777888888888...9999999999999999999999999999.9999999999999999987654 PP
+
+     Human_TLR 657 qwlnealevvipglpsdvkCasPeslrGlsvksldls.sCkeealivtlfvlsllvvlvvavlvlllyw 724
+                     +n     +i     +  C++P+ l+G s+ +++ s  C  +  i    +   +v   v ++++ ++ 
+  Xe_009292-T1 103 D-VN----SKIR---LSARCETPSWLKGRSLSNISSSdLCGVDRNIRETTARANVV---VSLTSHSVGS 160
+                   4.45....3433...36689999999999999999889999888887777666665...3344444333 PP
+
+>> Xe_002769-T1  Xe_002769
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.8   2.1   8.1e-10   2.3e-07      53     157 ..      32     150 ..      16     159 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 29.8 bits;  conditional E-value: 8.1e-10
+     Human_TLR  53 lpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss......fallssLteLslvenni..... 138
+                      n+ +LdLs+Nr+r+l+   +q + eL++L l  n +i   ++  f  l++L +L +++nk+  l s       +l+ sL  Lsl  n       
+  Xe_002769-T1  32 YGPNIHRLDLSFNRLRNLE--GIQGFTELRELILDGN-EID--DNVIFPVLNHLHTLTMNKNKITDLESllekikLHLP-SLRYLSLLGNTAcpnel 122
+                   35799***********996..699*************.777..7788*******************9987666433333.47777777766688888 PP
+
+     Human_TLR 139 .........kasledgallnlknLklLd 157
+                                + ++l++l+ L++Ld
+  Xe_002769-T1 123 sdlekdeedYQRYRYFVLHKLQDLQFLD 150
+                   8888887742456667777777777777 PP
+
+>> Xe_008475-T1  Xe_008475
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   7.9   4.4e-09   1.2e-06     559     646 ..      48     131 ..       5     182 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 4.4e-09
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktvskdvfqslqskLkvLdlgaNpF 646
+                    l+ L++L L++ +l+ + p ++ kl++L++L+ls+N+l+sLp+  + +l +L +L l++N++ +  ++ ++ l+ ++++L l +Np+
+  Xe_008475-T1  48 SLNFLTTLKLNDINLTRV-PAEIGKLTSLQKLDLSSNKLRSLPT-EIGDLINLIELYLNNNSLHSLPHE-LGRLF-QIQILGLDGNPL 131
+                   333344444444446666.5566666666666666666666666.556666666666666666555443.44444.466666666655 PP
+
+>> Xe_021448-T1  Xe_021448
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.7   0.1   3.7e-09     1e-06     637     704 ..      61     129 ..      44     133 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 27.7 bits;  conditional E-value: 3.7e-09
+     Human_TLR 637 kvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksldls.sCkeealivtl 704
+                   +++ l++Np+ C C +++f++ l  +  + +   + ++kC+ Pe lrG+++ +l+ +  C ++ ++  +
+  Xe_021448-T1  61 TSIFLRNNPYVCDCKMSWFLKRLRLKDYTQLLVDVRRMKCHEPERLRGKRIYKLKEEdVCSKKMIMNEC 129
+                   567899***************99877777888889*******************988899998877666 PP
+
+>> Xe_021458-T1  Xe_021458
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.2   5.2e-09   1.5e-06     634     704 ..      50     121 ..      31     125 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 27.2 bits;  conditional E-value: 5.2e-09
+     Human_TLR 634 skLkvLdlgaNpFeCtCelaefvqwlnealevvipglpsdvkCasPeslrGlsvksldls.sCkeealivtl 704
+                   +  +++ l++Np+ C C +++f++ l  +  + +   + ++kC+ Pe lrG+ + +l+    C ++ ++  +
+  Xe_021458-T1  50 TPYTSIFLRNNPYVCDCKMSWFLKRLRLKDYTQLLVDVRRMKCHEPERLRGKLIYKLKEDdVCSKKMIMNEC 121
+                   45578889****************99877777888889*******************977899988877665 PP
+
+>> Xe_015721-T1  Xe_015721
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   5.7   1.9e-07   5.3e-05     468     619 ..     116     286 ..      79     289 .. 0.66
+   2 !   19.6   5.4     1e-06   0.00029     106     241 ..     208     342 ..     198     395 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1.9e-07
+     Human_TLR 468 vthsl....klslsdNniasl..vsltlel..esLreLdlsgk..adn.rylsllkgLssLeiLdlsqNslselsne..efkslpeslkeLnLssnm 551
+                   ++ +l     ++ls+  ++ +   +  l++   +++eLdls +   d  ++++++++L+ L +L++s  +l+  s +  ++ s++  l+ L L++ +
+  Xe_015721-T1 116 IDEILqhvdRVTLSGDRVSYMssHGKSLGSiaPNIVELDLSKTllSDWlDVIKIVNELPRLYHLNVSGLRLNRSSFDgtVTSSETCHLRTLVLNYMQ 212
+                   4444444456677777665552233333331146788999985545657899999999999999999888876665511455666678888888888 PP
+
+     Human_TLR 552 Lsws...vlrcl.kkLevLDLssnqlksltpklv.nklsaLreLnlslNsltsLpkgf.lsklssLkvLdlssN 619
+                   L+w+    l c  + L+ L  s n++  + +       ++L +Lnl+ N+l s ++ f l+ + sL+ L ++ N
+  Xe_015721-T1 213 LNWNqalALSCTfRGLQELHASFNNISNINDCDAgTLCTSLIKLNLEGNNLHSWNDVFsLDAFLSLEFLIVNGN 286
+                   86652224677668888888888888888765541445788888888888888877553567778888887777 PP
+
+  == domain 2  score: 19.6 bits;  conditional E-value: 1e-06
+     Human_TLR 106 LeeLdLshnklsklssfallssLteLslvennikasledgallnl.knLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallel 201
+                   L++++L+ n+   ls + +   L+eL++++nni+ +++d    +l ++L  L+L  Nnl+s +   +++ + +L++L + gn +   ++ p   l+ 
+  Xe_015721-T1 208 LNYMQLNWNQALALS-CTFRG-LQELHASFNNIS-NINDCDAGTLcTSLIKLNLEGNNLHSWNDVFSLDAFLSLEFLIVNGNPLGD-FVFPGDPLKS 300
+                   778888888888999.66666.99*********9.8888877776589***************88888888888888888864444.5555555555 PP
+
+     Human_TLR 202 k....elsnlsLslssl.skvsaewfkslkelnlklhlvLdlsen 241
+                        +l+++ L +    ++ s    + l+ l+   +l L  +  
+  Xe_015721-T1 301 IdifvKLQTFGLVSVGIsKWRS---VNQLNRLKVLQKLFLKSNPL 342
+                   4455534444444333311221...12221111112222332222 PP
+
+>> Xe_007201-T1  Xe_007201
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   9.2   1.6e-08   4.5e-06     511     620 ..      29     149 ..      16     175 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 1.6e-08
+     Human_TLR 511 lkgLssLeiLdlsqNslselsneefkslpeslkeLnLssnmL........swsvlrc.l.kkLevLDLssnqlkslt..pklvnklsaLreLnlslN 595
+                   l  L +L++Ldls+Ns++ +s   +++l+  lk+LnLs n +          +v rc l ++L  LDLs n ++sl   ++l + +s+L +L+l+ N
+  Xe_007201-T1  29 LDALGKLKHLDLSSNSIEVISG--LDNLV-CLKYLNLSCNAItttkglenLRQVCRCrLsRQLVKLDLSYNTINSLLglKSLASTGSSLSTLYLQGN 122
+                   5667889999999999976554..55555.6799999999998888888767777774588899999999999887422556677889999999999 PP
+
+     Human_TLR 596 sltsLpkgf..lsklssLkvLdlssNa 620
+                    ++s+++ +  ls++ +Lk+   s+N+
+  Xe_007201-T1 123 DIRSIDHIIncLSEFIQLKEIVFSQNE 149
+                   999999854225777788888888885 PP
+
+>> Xe_011881-T1  Xe_011881
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.3   5.9   9.6e-09   2.7e-06     534     645 ..      14     122 ..       3     126 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 26.3 bits;  conditional E-value: 9.6e-09
+     Human_TLR 534 efkslpeslkeLnLssnmL.swsvlrcl.kkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv.skd 627
+                   ++++l  +l+e++L +  +   + l  + ++L++L+L+sn +  +  ++v  l++L  Lnl+lN++  +++  l+  +sL+ Ldl  N++ +  s +
+  Xe_011881-T1  14 NNCELS-TLEEVSLHQLDIeRLEFLDKIcRELKILYLQSNLISKI--ENVGRLKKLEYLNLALNNIEIIEN--LEGCESLQKLDLTVNFVGKLtSVK 105
+                   444444.88888888887766678888899***************..679*********************..*****************7651566 PP
+
+     Human_TLR 628 vfqslqskLkvLdlgaNp 645
+                    +q +  +L+++ l++Np
+  Xe_011881-T1 106 CLQ-ANYHLREVYLTGNP 122
+                   777.55589999999998 PP
+
+>> Xe_021450-T1  Xe_021450
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.0       2.6   7.3e+02      14      54 ..      13      55 ..       3      61 .. 0.65
+   2 !   24.7   0.1   2.9e-08   8.1e-06     636     698 ..      59     122 ..      39     131 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 2.6
+     Human_TLR 14 llamvlalgvlpeilpcls..eerevivdcsklkLtevPkdlp 54
+                  l+++ l++   +++  c s     +v+ +c k  +++vP d+ 
+  Xe_021450-T1 13 LIVFSLLQVSGFSWRKCPSrdWLYSVLLRCDKTGFKSVPTDIV 55
+                  233333333344477777754557999************9985 PP
+
+  == domain 2  score: 24.7 bits;  conditional E-value: 2.9e-08
+     Human_TLR 636 LkvLdlgaNpFeCtCelaefvqwl..nealevvipglpsdvkCasPeslrGlsvksldls.sCkee 698
+                    +++ l +Np+ C C +++f+++l  +++  ++i+g  + +kC+ P  lrG+ + +l+    C ++
+  Xe_021450-T1  59 YTEIRLDNNPYVCDCKISWFLRKLrlKDY-TQKIVG-LKTMKCDKPARLRGQLIYKLKEDeVCFNK 122
+                   468999***************98622554.556677.899**************999866667555 PP
+
+>> Xe_015167-T1  Xe_015167
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   1.9   2.3e-08   6.6e-06     578     646 ..      84     151 ..      46     190 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 2.3e-08
+     Human_TLR 578 pklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv.skdvfqslqskLkvLdlgaNpF 646
+                   + l+++ s L  L+ls+N+lt+++kg+l ++s+Lkv +l  N i++  + d + slq kL++L +++Np 
+  Xe_015167-T1  84 EALLVNPSHLSWLDLSFNNLTTIDKGIL-QFSELKVFNLHGNGIEKLtDIDKLASLQ-KLRSLTVHGNPV 151
+                   4445555555666666666666666333.4566666666666665431445566555.666666666654 PP
+
+>> Xe_020342-T1  Xe_020342
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   0.0   4.6e-08   1.3e-05      47     139 ..      28     132 ..      14     158 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 4.6e-08
+     Human_TLR  47 tevPk....dlpknvtsLdLssNrirelsasdfqrlseLqvLdlshntriqtiekeafkslkeLeeLdLshnklsklss.....fallssLteLslv 134
+                   tevP+    +   + t+LdLs+N+  +++  +++ + +L+ + l hn  +      +f +l + e+L  +hn++ +ls       +   +L  Ls++
+  Xe_020342-T1  28 TEVPHrfveKYGDSATELDLSYNKFFDMK--SLSGFIKLNTIILDHNLLSA---RTTFPALDTVEILWVNHNQITNLSIfietiSKSYPNLRYLSMI 119
+                   56666555555566777777777777664..56777777777777774333...6777777777777777777777776444443445556666666 PP
+
+     Human_TLR 135 enni........k 139
+                   +n           
+  Xe_020342-T1 120 NNKAspsyfnggT 132
+                   6655444444441 PP
+
+>> Xe_003108-T1  Xe_003108
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8  16.2   4.3e-07   0.00012     381     536 ..      18     183 ..      13     203 .. 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 4.3e-07
+     Human_TLR 381 ilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldllts.ssftelekLetLdLrknslktlekvthsl.... 472
+                    lnL+ n i+       ++l++l +L+LseN +s  l g e  gl +l++ld s N +  ++s + + +l+ Le L L + ++   + v ++     
+  Xe_003108-T1  18 YLNLSENRISN--LTLLANLKDLTCLDLSENQIS-CLDGLE--GLVSLEVLDVSGNLISSIESlHPLVNLKFLENLCLLDKKKCLTNPVCQTQpkyk 109
+                   34555555433..333445555555555555555.444433..555555555555555544432445555555555555533333333333324555 PP
+
+     Human_TLR 473 .........klslsdNniasl.vsltlelesLre.L.dlsgkadn.rylsllkgLssLeiLdlsqNslselsneefk 536
+                            + +l + +i+ +  +++    +L e L dl+++++n + l+++++   L++Ld +qN + + +  +  
+  Xe_003108-T1 110 icvctllpnISMLDGEKIVGQgSEVFKVFGNLAEkLdDLEHNKNNdNDLHMAEK---LKNLDTKQNAILSVKTAQKV 183
+                   555555554444455555555433333333433212134444333344444444...44445555555444444444 PP
+
+>> Xe_014341-T1  Xe_014341
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.5   6.8   2.7e-07   7.5e-05     451     567 ..       3     129 ..       1     168 [. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 21.5 bits;  conditional E-value: 2.7e-07
+     Human_TLR 451 kLetLdLrknslktlekvthsl.......klslsdNniaslvsltlelesLreLdlsgk..adn.rylsllkgLssLeiLdlsqNslselsneefks 537
+                   +L +L+L++ + k+   v+  l       +l l  N    + ++    es + L ++g+  +d  ++ +l k  ++Le L + +N ls+++ ++ ++
+  Xe_014341-T1   3 SLSKLVLNNTKIKFS-IVPTLLqhfpnlvELYLCMNSYCIIPEEKKTCESVKRLHFNGNyiEDWaEVEKLGKIFPNLETLIIMENPLSNIERKDGQN 98 
+                   555566655444443.222222333466666666666666655555566677777777443333456666666667777777777777777777777 PP
+
+     Human_TLR 538 lpeslkeLnLssnmL.swsvlrclkkLevLD 567
+                       lk+L+L ++ L sw+ +  lkk  +LD
+  Xe_014341-T1  99 SYTRLKSLSLTKTNLnSWEDIDNLKKFLILD 129
+                   7777777777777776666666666666665 PP
+
+>> Xe_012570-T1  Xe_012570
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   2.9   1.9e-07   5.2e-05     537     639 ..     138     243 ..      29     247 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1.9e-07
+     Human_TLR 537 slpesl...keLnLssnmLswsvlrclkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaikt...vskd 627
+                    ++++l   ++L+L +n L++     l++ + L L+ n+l  +  k+++k+  L +L+l+ N++ s ++  +    s  +L+l+ N i+      k 
+  Xe_012570-T1 138 AVLQKLircESLQLMDNGLTDLRNIYLPRCKHLCLQRNYLSNF--KKLPKTPMLEHLSLQKNNIASYEGLSALRKTSIVSLNLKDNPIEFdpwYRKR 232
+                   3333332225677777777666666677777777777777777..6677777777777777777777776666666777777777777632224566 PP
+
+     Human_TLR 628 vfqslqskLkvL 639
+                   vfq +  +L++L
+  Xe_012570-T1 233 VFQIIP-SLQFL 243
+                   666555.66665 PP
+
+>> Xe_022711-T1  Xe_022711
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.5   1.4   2.7e-07   7.5e-05     125     213 ..      21     106 ..       2     141 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 21.5 bits;  conditional E-value: 2.7e-07
+     Human_TLR 125 lssLteLslvennikasledgallnlknLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslss 213
+                   l +L +L l +n ++   + + l  l+ L +Ld+  N++ ++ +  +++ L +L+iL l gn + ++    ++++  ++ + + L+  +
+  Xe_022711-T1  21 LRNLKSLLLFNNKLQ---NLDGLDCLRGLVELDVRSNDFAHVTEVAKVSSLFHLRILALAGNPCVSSKSHRIQIFSHFKAREFILDRVK 106
+                   456666666666555...44567777778888888888888888888888888888888888777777666666666666666666555 PP
+
+>> Xe_027350-T1  Xe_027350
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   1.0     3e-07   8.5e-05     559     621 ..      39      99 ..       6     102 .] 0.48
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 3e-07
+     Human_TLR 559 clkkLevLDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNai 621
+                    l +  ++  s+n +k l  + ++ l++L+ L++++N++  + +g++ +l +L+ L l +N++
+  Xe_027350-T1  39 TLDQFDTINFSDNDIKKL--EGFPLLKRLKSLIMNNNRVCRIGEGLATCLPNLETLVLTNNSM 99 
+                   333333444444444444..3344444444444444444444444444444444444444433 PP
+
+>> Xe_004364-T1  Xe_004364
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.0       6.1   1.7e+03     153     179 ..      41      67 ..      31      86 .. 0.63
+   2 !   15.5   0.9   1.8e-05     0.005     146     201 ..     340     395 ..     302     434 .. 0.76
+   3 !   14.5   2.1   3.6e-05      0.01     151     501 ..     345     435 ..     340     466 .. 0.43
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 6.1
+     Human_TLR 153 LklLdLsfNnlkslpkeeefgnLtnLk 179
+                   L+ L ++fN++k+ ++ e+   Lt+Lk
+  Xe_004364-T1  41 LHSLYVAFNQFKHHEEIENKYILTKLK 67 
+                   555556666666655555555555554 PP
+
+  == domain 2  score: 15.5 bits;  conditional E-value: 1.8e-05
+     Human_TLR 146 allnlknLklLdLsfNnlkslpkeeefgnL..tnLkiLdlSgnkiqrcdlaplallel 201
+                   +l   knL++LdLs+Nn++ l ++  f +   ++L++LdlSg  + ++    l+ l l
+  Xe_004364-T1 340 MLSYCKNLEHLDLSQNNISDLGLNGLFRKNggQKLRHLDLSG--CSKITDRTLKKLTL 395
+                   677789*******************997652266********..77766555555544 PP
+
+  == domain 3  score: 14.5 bits;  conditional E-value: 3.6e-05
+     Human_TLR 151 knLklLdLsfNnlkslpkeeefgnLtnLkiLdlSgnkiqrcdlaplallelkelsnlsLslsslskvsaewfkslkelnlklhlvLdlsenflakei 247
+                   knL++LdLs+Nn++ l ++  f +                                                                         
+  Xe_004364-T1 345 KNLEHLDLSQNNISDLGLNGLFRK------------------------------------------------------------------------- 368
+                   455555555555555555555543......................................................................... PP
+
+     Human_TLR 248 vktslktlaqLellnlklklfsnslnlsqafssllslknlklkgfvlaelketddsllqvLqlLetlslelnfikqaklklFkafkglkylelsnnk 344
+                                                                                                                    
+  Xe_004364-T1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+     Human_TLR 345 isglgelkakdfeydktsrfylfsqsvvyellkklkilnLtknkifkveseafsklsslevLnLseNllsqelfgseflgltelkyldLskNkldll 441
+                                                                                                  g ++l+ ldLs    ++ 
+  Xe_004364-T1 369 ------------------------------------------------------------------------------NGGQKLRHLDLSGCSKIT- 386
+                   ..............................................................................355555555555433322. PP
+
+     Human_TLR 442 tsssftelekLetLdLrknslktlekvthslklslsdNniaslvsltlelesLreLdlsg 501
+                    +++   l+kL tL L      + ++       s+ + + +  +++  +++ Lr+L lsg
+  Xe_004364-T1 387 -DRT---LKKL-TLALTPRTDSVGQN------ASVEGDKQSRCDERISSSRGLRYLSLSG 435
+                   .222...2222.33333322333333......2334444444455555555555555555 PP
+
+>> Xe_024472-T1  Xe_024472
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.2   1.8e-05    0.0049     590     621 ..       8      39 ..       3      83 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 1.8e-05
+     Human_TLR 590 LnlslNsltsLpkgflsklssLkvLdlssNai 621
+                    n+s N+l++++ g lskl++Lk+Ld+s+N  
+  Xe_024472-T1   8 VNVSDNKLQDIDPGSLSKLENLKSLDISENPN 39 
+                   45555555555555555555555555555532 PP
+
+>> Xe_012531-T1  Xe_012531
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.7   0.7   3.1e-05    0.0086     537     597 ..     297     363 ..     273     396 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 3.1e-05
+     Human_TLR 537 slpeslkeLnLssnmL....swsvlrcl.kkLevLDLssnqlksltp.klvnklsaLreLnlslNsl 597
+                   +  ++lk++nL+ n+L    s + l+   + + +LDL +n+++ l + +++++l++L+ L l+ N l
+  Xe_012531-T1 297 EHCQQLKKINLRGNRLfsldSLKDLHEAaPGIVTLDLGENNIRHLNElRKLKSLKELKSLVLNGNPL 363
+                   4445666777777777655533333333466777777777777663323344444444445555544 PP
+
+>> Xe_027350-T3  Xe_027350
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.4   9.4e-05     0.026     566     624 ..      23      78 ..       1      84 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 9.4e-05
+     Human_TLR 566 LDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNaiktv 624
+                   +DL++ ++  + +++   l +  ++n s N +++L++  +  l++Lk+L +++N + ++
+  Xe_027350-T3  23 IDLRGYKIPVI-ENVGATLDQFDTINFSDNDIKKLEG--FPLLKRLKSLIMNNNRVWKM 78 
+                   58888888888.7788888888888888888888888..88888888888888887554 PP
+
+>> Xe_027350-T2  Xe_027350
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.4   0.00028     0.079     566     620 ..      23      74 ..       1      75 [] 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00028
+     Human_TLR 566 LDLssnqlksltpklvnklsaLreLnlslNsltsLpkgflsklssLkvLdlssNa 620
+                   +DL++ ++  + +++   l +  ++n s N +++L++  +  l++Lk+L +++N 
+  Xe_027350-T2  23 IDLRGYKIPVI-ENVGATLDQFDTINFSDNDIKKLEG--FPLLKRLKSLIMNNNR 74 
+                   58888888888.7788888888888888888888888..7888888888888886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (911 nodes)
+Target sequences:                      28010  (11725647 residues searched)
+Passed MSV filter:                      2199  (0.0785077); expected 560.2 (0.02)
+Passed bias filter:                      565  (0.0201714); expected 560.2 (0.02)
+Passed Vit filter:                       154  (0.00549804); expected 28.0 (0.001)
+Passed Fwd filter:                       102  (0.00364156); expected 0.3 (1e-05)
+Initial search space (Z):              28010  [actual number of targets]
+Domain search space  (domZ):             100  [number of targets reported over threshold]
+# CPU time: 1.73u 0.03s 00:00:01.76 Elapsed: 00:00:01.50
+# Mc/sec: 7089.26
+//
+[ok]

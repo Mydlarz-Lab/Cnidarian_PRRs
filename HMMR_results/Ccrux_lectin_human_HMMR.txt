@@ -1,0 +1,1807 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  human_C_lectins.hmm
+# target sequence database:        ../proteomes/Ccrux.Trinity.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       human_Clectins  [M=1428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+   3.2e-272  908.6 102.7    5.1e-42  145.8   7.4   10.9 11  Ccrux.Trinity.18449  
+   2.1e-246  823.1  94.7    3.7e-42  146.2   7.6   10.7 11  Ccrux.Trinity.18452  
+   9.8e-192  641.9  76.5    4.5e-42  146.0   8.0    8.0  8  Ccrux.Trinity.18443  
+    4.3e-84  285.2  18.7    3.4e-32  113.2   0.1    3.0  3  Ccrux.Trinity.18445  
+    1.8e-47  163.9   7.3    2.2e-47  163.6   7.3    1.0  1  Ccrux.Trinity.62416  
+    1.2e-45  157.8   6.2    2.7e-23   83.7   0.4    2.9  3  Ccrux.Trinity.64956  
+    1.2e-40  141.2   6.1    1.7e-19   71.1   1.7    3.2  3  Ccrux.Trinity.65799  
+    3.1e-40  139.9  20.8    1.4e-22   81.4   9.5    2.1  2  Ccrux.Trinity.39765  
+    3.7e-40  139.6  20.9    1.1e-22   81.7  10.3    2.3  2  Ccrux.Trinity.39763  
+    9.7e-40  138.2  24.5    4.6e-21   76.3  14.3    2.0  2  Ccrux.Trinity.16461  
+    6.4e-33  115.6   0.0    2.2e-32  113.9   0.0    1.7  1  Ccrux.Trinity.45290  
+    6.4e-33  115.6   0.0    2.2e-32  113.9   0.0    1.7  1  Ccrux.Trinity.45295  
+    1.3e-31  111.3   2.8    1.4e-23   84.6   0.4    2.0  2  Ccrux.Trinity.64957  
+      3e-31  110.1  13.3    1.5e-18   68.0   3.4    2.1  2  Ccrux.Trinity.16464  
+    2.8e-30  106.9  18.9    1.2e-16   61.7   3.2    3.0  3  Ccrux.Trinity.52176  
+    2.7e-28  100.3  15.6    1.7e-21   77.8  14.2    2.0  2  Ccrux.Trinity.16465  
+    8.4e-25   88.7   0.1    1.2e-24   88.2   0.1    1.1  1  Ccrux.Trinity.21184  
+    8.4e-25   88.7   0.1    1.2e-24   88.2   0.1    1.1  1  Ccrux.Trinity.21187  
+    8.4e-25   88.7   0.1    1.2e-24   88.2   0.1    1.1  1  Ccrux.Trinity.21188  
+    4.6e-24   86.3   3.9    2.6e-13   50.7   0.5    2.0  2  Ccrux.Trinity.71459  
+    1.6e-23   84.5   6.1    2.1e-23   84.1   6.1    1.1  1  Ccrux.Trinity.8191   
+    3.1e-23   83.5   0.3    4.6e-23   83.0   0.3    1.2  1  Ccrux.Trinity.55921  
+    3.4e-23   83.4   0.1    5.5e-23   82.7   0.1    1.3  1  Ccrux.Trinity.15495  
+    1.6e-22   81.2   8.4    3.6e-22   80.0   8.4    1.4  1  Ccrux.Trinity.2131   
+    3.5e-22   80.1   3.3    3.9e-22   79.9   3.3    1.0  1  Ccrux.Trinity.53208  
+    2.4e-21   77.3   2.7    7.1e-12   45.9   0.7    2.0  2  Ccrux.Trinity.63471  
+    1.2e-20   75.0   0.4    1.4e-20   74.8   0.4    1.0  1  Ccrux.Trinity.15969  
+    1.2e-20   75.0   1.9    1.4e-20   74.7   1.9    1.0  1  Ccrux.Trinity.59807  
+    8.1e-20   72.2   0.3    1.1e-19   71.8   0.3    1.1  1  Ccrux.Trinity.3561   
+    8.1e-20   72.2   0.3    1.1e-19   71.8   0.3    1.1  1  Ccrux.Trinity.3563   
+    1.9e-19   71.0   0.3    2.7e-19   70.5   0.3    1.1  1  Ccrux.Trinity.3565   
+    2.7e-19   70.5   1.0    3.3e-19   70.2   1.0    1.0  1  Ccrux.Trinity.59074  
+    2.1e-18   67.5   1.2    2.4e-18   67.3   1.2    1.0  1  Ccrux.Trinity.67573  
+    3.1e-17   63.7   5.1    7.9e-17   62.3   5.1    1.6  1  Ccrux.Trinity.67409  
+    3.4e-17   63.5   7.0    3.6e-17   63.4   7.0    1.0  1  Ccrux.Trinity.60373  
+    4.5e-17   63.1   4.6    1.7e-08   34.7   0.0    2.0  2  Ccrux.Trinity.63289  
+    2.3e-14   54.1   0.1    2.5e-14   54.0   0.1    1.0  1  Ccrux.Trinity.8190   
+    1.1e-12   48.6   4.8    1.4e-12   48.2   4.8    1.1  1  Ccrux.Trinity.2403   
+    1.9e-12   47.8   3.1    3.8e-12   46.8   3.1    1.3  1  Ccrux.Trinity.29253  
+    2.3e-12   47.5   3.1    3.7e-12   46.9   3.1    1.2  1  Ccrux.Trinity.29254  
+    3.8e-12   46.8   0.1    4.6e-12   46.5   0.1    1.0  1  Ccrux.Trinity.15496  
+    3.9e-11   43.5  13.5    1.7e-05   24.7   0.9    2.0  2  Ccrux.Trinity.12302  
+      9e-11   42.3  15.9    5.8e-06   26.3   2.3    2.0  2  Ccrux.Trinity.12300  
+    3.4e-10   40.4   1.1    3.7e-10   40.2   1.1    1.1  1  Ccrux.Trinity.16459  
+    3.7e-10   40.2  13.4    4.2e-05   23.4   0.8    2.0  2  Ccrux.Trinity.12301  
+      9e-10   38.9   0.6    9.8e-10   38.8   0.6    1.0  1  Ccrux.Trinity.68657  
+    8.6e-09   35.7   5.0    1.3e-08   35.1   5.0    1.3  1  Ccrux.Trinity.20413  
+    1.5e-08   34.9   0.0    1.5e-08   34.9   0.0    1.0  1  Ccrux.Trinity.60980  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31260  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31261  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31267  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31271  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31275  
+    5.4e-08   33.0   9.5    5.4e-08   33.0   9.5    1.8  2  Ccrux.Trinity.31278  
+    5.4e-08   33.0   7.7    7.5e-08   32.6   7.7    1.1  1  Ccrux.Trinity.68883  
+      1e-07   32.1   0.3      1e-07   32.1   0.3    1.1  1  Ccrux.Trinity.16460  
+    5.4e-05   23.1   2.3     0.0001   22.2   2.4    1.3  2  Ccrux.Trinity.68857  
+    6.1e-05   22.9   0.1    6.1e-05   22.9   0.1    1.1  1  Ccrux.Trinity.63727  
+  ------ inclusion threshold ------
+      0.012   15.3   0.7      0.013   15.2   0.7    1.0  1  Ccrux.Trinity.68513  
+      0.013   15.2   0.0      0.013   15.2   0.0    1.0  1  Ccrux.Trinity.58167  
+      0.031   14.0   2.2      0.029   14.1   2.2    1.0  1  Ccrux.Trinity.51868  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45298  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45303  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45305  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45311  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45316  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45319  
+       0.15   11.6   0.0       0.16   11.6   0.0    1.0  1  Ccrux.Trinity.45323  
+       0.31   10.6   0.0       0.32   10.6   0.0    1.0  1  Ccrux.Trinity.60128  
+       0.51    9.9   0.0       0.57    9.8   0.0    1.0  1  Ccrux.Trinity.60208  
+
+
+Domain annotation for each sequence (and alignments):
+>> Ccrux.Trinity.18449  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.4   2.1   1.6e-29   1.7e-26     926    1069 ..      27     171 ..      14     182 .. 0.88
+   2 !  109.8   0.1   3.4e-34   3.6e-31     925    1063 ..     181     314 ..     176     318 .. 0.95
+   3 !   81.0   4.8   1.7e-25   1.8e-22     926    1066 ..     314     457 ..     312     493 .. 0.84
+   4 !   82.9   1.5   4.5e-26   4.8e-23     221     384 ..     603     767 ..     601     777 .. 0.85
+   5 !   87.4   7.4   1.9e-27   2.1e-24     926    1067 ..     975    1111 ..     941    1132 .. 0.87
+   6 !   80.7   3.8   2.1e-25   2.2e-22     915    1075 ..    1199    1361 ..    1136    1366 .. 0.78
+   7 !   84.7   2.3   1.3e-26   1.4e-23     377     505 ..    1364    1492 ..    1360    1497 .. 0.93
+   8 !   87.5   0.5   1.9e-27     2e-24     920    1068 ..    1507    1652 ..    1493    1663 .. 0.87
+   9 !  145.8   7.4   4.7e-45   5.1e-42     926    1213 ..    1662    1959 ..    1652    1959 .. 0.86
+  10 !  105.7   8.3   5.9e-33   6.3e-30     926    1159 ..    1954    2172 ..    1946    2197 .. 0.80
+  11 ?    0.3   0.0      0.39   4.1e+02    1357    1398 ..    2662    2714 ..    2632    2733 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 94.4 bits;  conditional E-value: 1.6e-29
+       human_Clectins  926 aasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                           a  ++C ++Wi +++ Cylf       + k w++ + aC+  g+ L++i  q+eq f+t++ +  +++  +WiGLsd+a+e+++ W d
+  Ccrux.Trinity.18449   27 AVNGQCTSPWIGNGEFCYLFNnvsatVKGKGWQDGRVACKALGGDLLSILDQKEQTFITDIQTADQRTQHYWIGLSDQATEGTYVWSD 114 
+                           56799***************86777656788******************************555568********************* PP
+
+       human_Clectins 1009 gtplasqysnwap..gepsnsgsredCavilassetgkwndesCserklgliCektaevlsre 1069
+                           ++ l+  ++nw+   gep+n g +edCa i+   ++g wnd+ C ++ +g+iC++ ++v+s+ 
+  Ccrux.Trinity.18449  115 KSILN--FTNWNTqyGEPNNWGGNEDCAEIH---HSGMWNDNACFRE-FGYICKRAKDVVSPT 171 
+                           ***99..77777522677788*********9...89**********9.6**********9983 PP
+
+  == domain 2  score: 109.8 bits;  conditional E-value: 3.4e-34
+       human_Clectins  925 kaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                           +++s  C+ gW++f+++Cy f  s ++w ea+e+C+ +g++L+ i+++ eq  l  +l  +  ++++WiGLsd++ e++f Wvdg+ l
+  Ccrux.Trinity.18449  181 SPDSVICEVGWKPFGGSCYKFVISYRSWREAKEDCETRGGALAIINNEPEQLYLAGTLASI--KRDFWIGLSDNTFEGHFFWVDGSVL 266 
+                           578899****************************************************999..9************************ PP
+
+       human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                           +  y++w pgepsn+   edC+ + +  ++g+wnd+ C++r+  +iCek+ 
+  Ccrux.Trinity.18449  267 N--YTQWGPGEPSNAFGGEDCVEMYSVYNAGTWNDNLCTTRR-PYICEKKN 314 
+                           *..************999******9877************97.*****986 PP
+
+  == domain 3  score: 81.0 bits;  conditional E-value: 1.7e-25
+       human_Clectins  926 aasspCpkgWisfqnkCylf.s..essktwseaeeaCise.gatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkWv 1007
+                           + +s+Cp++Wis++++Cy++ s   ++ +w++a+ aC+   ga Lv+i++ +eq  l++  +d+ g  +  +W+GL+dr++e++f W 
+  Ccrux.Trinity.18449  314 NGESMCPEDWISYGGSCYQVnShpGQKTNWQSARAACQAFdGADLVTIDTMNEQTMLLQAFNDV-GivSSFFWTGLNDRDKEGQFVWA 400 
+                           6789****************55665688**********973789*************9997777.446889***************** PP
+
+       human_Clectins 1008 dgtplasqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevl 1066
+                           d+++ +  + nwap +ps+    ++dC+  +   ++g w+ ++C +++  ++Cek+ ++ 
+  Ccrux.Trinity.18449  401 DKSKRK--MNNWAPRQPSTVlTLSYDCVRSSIALKSGAWSVSTCYRSY-HYVCEKKRAYG 457 
+                           *****9..**********5556789***998655************96.*****987654 PP
+
+  == domain 4  score: 82.9 bits;  conditional E-value: 4.5e-26
+       human_Clectins 221 ekwGfCpkkengcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkeklesitki...lWiglNdlssaagw 307
+                          e +G    ++  c  +W +d+ ++lcYq   +  L+W+ a++ c +Q+adL+S+  +aE  y++ +l+ +++    +W glNd +++  +
+  Ccrux.Trinity.18449 603 ELYGCLAVPTSKCGRNWLQDPASGLCYQVGHK-RLAWQTARANCLMQNADLVSLRTVAEMSYVERLLKNYSSRyndFWFGLNDRDNVGIH 691
+                          57888889*********************987.67*****************************999988876567*********9999* PP
+
+       human_Clectins 308 qwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvekdvwayvktrceagw 384
+                           wsd +p+    w+  +p ++ + + +a  +   g w  + c++ +pY+c+ k    s   ++ +  + ++  +a w
+  Ccrux.Trinity.18449 692 RWSDGSPVSLVKWQTRNPMDDKDVKDCASISSADGSWTERPCSSMMPYLCRMKVPS-SAQSKRAITGNWISATDAYW 767
+                          *******************9966555555666789****************88776.45555555555565555555 PP
+
+  == domain 5  score: 87.4 bits;  conditional E-value: 1.9e-27
+       human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                           ++ ++C  +Wi f+++Cy+f  +s +w +a+++C+s+++tL++i s+ +qaf+  +++++  +   WiGL+ r +++ ++W++g+p+ 
+  Ccrux.Trinity.18449  975 SEMGGCRLDWIEFGGNCYQFNLASASWYTAQRSCQSQQSTLASISSSVQQAFVHLNTGKYGLNSVTWIGLNSRHKNHMYNWTNGSPVL 1062
+                           56789***************************************************888877999*********************** PP
+
+       human_Clectins 1014 sqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevls 1067
+                             ++nwa+ ep+n   +redC vi     +g+wnde C +r+  + C k++  + 
+  Ccrux.Trinity.18449 1063 --FTNWAKNEPNNYgSKREDCTVIW---ANGRWNDEMCWTRQ-AYACIKPKGLVP 1111
+                           ..**********775779******9...99**********98.9***99876544 PP
+
+  == domain 6  score: 80.7 bits;  conditional E-value: 2.1e-25
+       human_Clectins  915 pl.cqrkketpkaasspCpkgWisf..qnkCylfsessktwseaeeaCiseg..atLvkiqsqeeqafltsllkdmtgelelWiGLsd 997 
+                           ++ c    e +k+  ++Cp gW  +  q++Cy ++  +k w+ a+ +C+  g  ++L++i+s  eq+    ll d  +  ++WiGLsd
+  Ccrux.Trinity.18449 1199 NYtC---VEDSKRTTEGCPDGWVTLpqQSTCYKVFFLKKDWEGASGFCKAFGnsGNLISINSTGEQMIANTLLVDALDVDDIWIGLSD 1283
+                           2334...344668999******8644499******99***********98765599****************999999********** PP
+
+       human_Clectins  998 rasekpfkWvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlal 1075
+                           ++s ++++W d++ ++  y+nw +g+p+++ ++++Ca+++  +   +  +w+d++Cs+++ ++iCe+ ++ +sr  n++++
+  Ccrux.Trinity.18449 1284 KTSRGTYQWADESAVT--YTNWYNGQPDDAARTTSCAAMHFANgyqSFPRWSDRDCSDKR-SFICEMLKTGKSRPTNPTTT 1361
+                           ****************..*********************9877999779*********87.******99999997777755 PP
+
+  == domain 7  score: 84.7 bits;  conditional E-value: 1.3e-26
+       human_Clectins  377 ktrceagwlptngfcYklqkeekswdeAlkkckaees..dlisihslaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtl 462 
+                           k +c +gw +++g+cY+ ++++ +w +A +kc+ e+s  dl+si s +e ++v   L n  ++e+w+gl+d  i+    Wsd s+V++
+  Ccrux.Trinity.18449 1364 KGNCASGWAKYKGYCYHFHNDSMTWLDAREKCRSEGSstDLVSIWSQEENDFVFGLLMNSSASEIWMGLTDKGIFKGQFWSDSSPVSF 1451
+                           568******************************9987568************************************************ PP
+
+       human_Clectins  463 TkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkk 505 
+                           T+Wd  EPn   n+l  C +++++ g+w+d+ c  k ++ Ck 
+  Ccrux.Trinity.18449 1452 TRWDASEPNSYLNQL-VCGVMNNN-GYWRDEDCTLKSPFFCKS 1492
+                           *********999987.68888777.****************97 PP
+
+  == domain 8  score: 87.5 bits;  conditional E-value: 1.9e-27
+       human_Clectins  920 kketpkaasspCpkgWisfqnk..Cylf..sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekp 1003
+                            ++t +++++ C k+++  +++  Cy+f   ++ + w++a+ aC + g++L +i+ ++eq fl+  l    +    WiGLsd  +e  
+  Ccrux.Trinity.18449 1507 TPSTATQDPTICLKNYKHWRGNgmCYYFgnVSDARDWHQAKAACLKDGGSLTSIRDKNEQLFLQNELSRR-SISRSWIGLSDLGTESG 1593
+                           457788999999999887655444****6549999*******************************8774.6899************* PP
+
+       human_Clectins 1004 fkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                           f+W+dgtp +  y n++ g+p++  + edC+ ++     g+wnd+ Cs + + ++C+++ +++ +
+  Ccrux.Trinity.18449 1594 FEWTDGTPAT--YMNFEDGQPDDWHNMEDCVEMR---YGGEWNDKVCSIK-FPFVCKRNNNTVIV 1652
+                           **********..**********9999*******9...9***********7.6******9998876 PP
+
+  == domain 9  score: 145.8 bits;  conditional E-value: 4.7e-45
+       human_Clectins  926 aasspCpkgWisfqnkCylfs...essktwseaeeaCiseg.....atLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfk 1005
+                           ++ + C  gW  +++kCy+f    +   tw+ea+ aC+  g     + Lv+i+s+ e+af++s+l+      +++iGL+d + e++f+
+  Ccrux.Trinity.18449 1662 PDIGFCDAGWHAYGSKCYQFNtgkSNLLTWQEAKMACAASGtkqnpGDLVSIHSSYENAFVLSHLGLA--MESVFIGLNDLQIERTFT 1747
+                           56678***************757677889********98775555589****************8665..89**************** PP
+
+       human_Clectins 1006 WvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsyk 1090
+                           W d+++++  y +w + +p+n   +edC+ +   +    +g wnd++C++ + g++C+k ++ +++ + t      ++ ++yg+  y+
+  Ccrux.Trinity.18449 1748 WSDQSSTD--YIKWFRRQPDNFDGKEDCVEFM--PyfnYKGAWNDMRCDSLR-GYVCQKGSSKTKPSKPTPPNDCPSNYQPYGEDCYA 1830
+                           ********..************99******97..677899**********97.********999986666655556899********* PP
+
+       human_Clectins 1091 iiraplswhsAkkeclksna..qlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrftrWae..eegdlledCvy 1174
+                           i   p+sw  A   c+k +a  +l+s+  p +qafl     ++  ++wIgl  q  +  fgWsD+  + +++W    +  + +e C  
+  Ccrux.Trinity.18449 1831 IKTIPMSWKDARDVCKKDHAqgELVSVHSPHEQAFLFSYFVQHATEIWIGLKRQIGGDSFGWSDRSPVDYSHWGTvgTYKSDKEYCSH 1918
+                           ***************997651279*************************************************872244567888996 PP
+
+       human_Clectins 1175 ld....adgfwktvdCndnlqGaiCevsgeetetevpedpvrc 1213
+                            d    ++g+w + dC  + + ++C+v+ +  e  +pe+p+ c
+  Ccrux.Trinity.18449 1919 SDlakhMEGRWLSGDCSAKRK-FACKVT-KAGESGTPEHPGIC 1959
+                           6522226899*********99.*****9.44455557777655 PP
+
+  == domain 10  score: 105.7 bits;  conditional E-value: 5.9e-33
+       human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                           ++++ C  gW+++++ Cy++s+ +  w +a+++C ++g+ Lv+i+++eeq+f+++l +      ++W+GL+dr++e +f+W d ++ +
+  Ccrux.Trinity.18449 1954 EHPGICTAGWKKLSKHCYMLSSYRGRWIQARQKCRDAGGDLVSIHNKEEQNFIQHLSRTL--MESVWLGLNDRQKEMSFQWSDASSKD 2039
+                           56789***************************************************6555..89*********************999 PP
+
+       human_Clectins 1014 sqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr.esntlalsnapetvkygnrsykiiraplswhs 1100
+                             ++nw+  ep++++ +e+Ca ++  s+tgkwnd+sCs+  l++iC++  e+ s  + ++ ++ +a+ t + ++ +     a l    
+  Ccrux.Trinity.18449 2040 --FTNWKGTEPNDNNGQENCAEMN--SQTGKWNDNSCSNY-LRYICKRSLECASAlGLENGTIADASLTASSSDDTHFPALARLNA-- 2120
+                           ..9*********9999*******8..69***********7.6*********99872334444455555555555444222233333.. PP
+
+       human_Clectins 1101 AkkeclksnaqlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrft 1159
+                                  + +  a +td  ++ fl++ l +++    I+l    d+ n  +    r+ ++
+  Ccrux.Trinity.18449 2121 -----PAKDGWCANVTD--SNQFLQIDLGTSQRITRIALQGVTDGYNRMYVQTYRVLYS 2172
+                           .....333444555555..4568888888888888888888888888877777777776 PP
+
+  == domain 11  score: 0.3 bits;  conditional E-value: 0.39
+       human_Clectins 1357 k............spsedvisavvvlklliltvlglvalflykkssghlarves 1398
+                           +            s s +v+  vv + l++l v+    + +y+k+s hl + + 
+  Ccrux.Trinity.18449 2662 QgkatgnrddngmSHSGKVALIVVFMALIVL-VIAGGLFWFYRKRSHHLGQFKP 2714
+                           3344444455543445566666777776666.5666667789999998876542 PP
+
+>> Ccrux.Trinity.18452  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0      0.16   1.7e+02    1045    1069 ..       2      25 ..       1      34 [. 0.81
+   2 !  110.1   0.2   2.7e-34   2.9e-31     923    1062 ..      33     167 ..      15     170 .. 0.93
+   3 !   81.2   4.9   1.5e-25   1.6e-22     926    1067 ..     168     312 ..     166     362 .. 0.84
+   4 !   83.0   1.5   4.2e-26   4.5e-23     221     384 ..     457     621 ..     455     631 .. 0.85
+   5 !   87.5   7.4   1.8e-27   1.9e-24     926    1067 ..     829     965 ..     795     986 .. 0.87
+   6 !   80.8   3.8   1.9e-25   2.1e-22     915    1075 ..    1053    1215 ..     990    1220 .. 0.78
+   7 !   84.8   2.4   1.2e-26   1.3e-23     377     505 ..    1218    1346 ..    1213    1351 .. 0.93
+   8 !   87.5   0.6   1.8e-27     2e-24     920    1068 ..    1361    1506 ..    1347    1517 .. 0.87
+   9 !  146.2   7.6   3.5e-45   3.7e-42     926    1213 ..    1516    1813 ..    1506    1814 .. 0.87
+  10 !  105.8   8.4   5.7e-33   6.1e-30     926    1159 ..    1808    2026 ..    1800    2051 .. 0.80
+  11 ?    0.4   0.0      0.37   3.9e+02    1357    1398 ..    2516    2568 ..    2486    2587 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 1.5 bits;  conditional E-value: 0.16
+       human_Clectins 1045 wndesCserklgliCektaevlsre 1069
+                           wnd+ C ++ +g+iC++ ++v+s+ 
+  Ccrux.Trinity.18452    2 WNDNACFRE-FGYICKRAKDVVSPT 25  
+                           999999998.599999999999883 PP
+
+  == domain 2  score: 110.1 bits;  conditional E-value: 2.7e-34
+       human_Clectins  923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgt 1010
+                           t +++s  C+ gW++f+++Cy f  s ++w ea+e+C+ +g++L+ i+++ eq  l  +l  +  ++++WiGLsd++ e++f Wvdg+
+  Ccrux.Trinity.18452   33 TASPDSVICEVGWKPFGGSCYKFVISYRSWREAKEDCETRGGALAIINNEPEQLYLAGTLASI--KRDFWIGLSDNTFEGHFFWVDGS 118 
+                           45689999****************************************************999..9********************** PP
+
+       human_Clectins 1011 plasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                            l+  y++w pgepsn+   edC+ + +  ++g+wnd+ C++r+  +iCek+
+  Ccrux.Trinity.18452  119 VLN--YTQWGPGEPSNAFGGEDCVEMYSVYNAGTWNDNLCTTRR-PYICEKK 167 
+                           ***..************999******9877************97.*****97 PP
+
+  == domain 3  score: 81.2 bits;  conditional E-value: 1.5e-25
+       human_Clectins  926 aasspCpkgWisfqnkCylf.s..essktwseaeeaCise.gatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkWv 1007
+                           + +s+Cp++Wis++++Cy++ s   ++ +w++a+ aC+   ga Lv+i++ +eq  l++  +d+ g  +  +W+GL+dr++e++f W 
+  Ccrux.Trinity.18452  168 NGESMCPEDWISYGGSCYQVnShpGQKTNWQSARAACQAFdGADLVTIDTMNEQTMLLQAFNDV-GivSSFFWTGLNDRDKEGQFVWA 254 
+                           6789****************55665688**********973789*************9997777.446889***************** PP
+
+       human_Clectins 1008 dgtplasqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevls 1067
+                           d+++ +  + nwap +ps+    ++dC+  +   ++g w+ ++C +++  ++Cek+ ++  
+  Ccrux.Trinity.18452  255 DKSKRK--MNNWAPRQPSTVlTLSYDCVRSSIALKSGAWSVSTCYRSY-HYVCEKKRAYGR 312 
+                           *****9..**********5556789***998655************96.*****9876543 PP
+
+  == domain 4  score: 83.0 bits;  conditional E-value: 4.2e-26
+       human_Clectins 221 ekwGfCpkkengcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkeklesitki...lWiglNdlssaagw 307
+                          e +G    ++  c  +W +d+ ++lcYq   +  L+W+ a++ c +Q+adL+S+  +aE  y++ +l+ +++    +W glNd +++  +
+  Ccrux.Trinity.18452 457 ELYGCLAVPTSKCGRNWLQDPASGLCYQVGHK-RLAWQTARANCLMQNADLVSLRTVAEMSYVERLLKNYSSRyndFWFGLNDRDNVGIH 545
+                          57888889*********************987.67*****************************999988876567*********9999* PP
+
+       human_Clectins 308 qwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvekdvwayvktrceagw 384
+                           wsd +p+    w+  +p ++ + + +a  +   g w  + c++ +pY+c+ k    s   ++ +  + ++  +a w
+  Ccrux.Trinity.18452 546 RWSDGSPVSLVKWQTRNPMDDKDVKDCASISSADGSWTERPCSSMMPYLCRMKVPS-SAQSKRAITGNWISATDAYW 621
+                          *******************9966555555666789****************88776.45555555555566555555 PP
+
+  == domain 5  score: 87.5 bits;  conditional E-value: 1.8e-27
+       human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                           ++ ++C  +Wi f+++Cy+f  +s +w +a+++C+s+++tL++i s+ +qaf+  +++++  +   WiGL+ r +++ ++W++g+p+ 
+  Ccrux.Trinity.18452  829 SEMGGCRLDWIEFGGNCYQFNLASASWYTAQRSCQSQQSTLASISSSVQQAFVHLNTGKYGLNSVTWIGLNSRHKNHMYNWTNGSPVL 916 
+                           56789***************************************************888877999*********************** PP
+
+       human_Clectins 1014 sqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevls 1067
+                             ++nwa+ ep+n   +redC vi     +g+wnde C +r+  + C k++  + 
+  Ccrux.Trinity.18452  917 --FTNWAKNEPNNYgSKREDCTVIW---ANGRWNDEMCWTRQ-AYACIKPKGLVP 965 
+                           ..**********775779******9...99**********98.9***99876544 PP
+
+  == domain 6  score: 80.8 bits;  conditional E-value: 1.9e-25
+       human_Clectins  915 pl.cqrkketpkaasspCpkgWisf..qnkCylfsessktwseaeeaCiseg..atLvkiqsqeeqafltsllkdmtgelelWiGLsd 997 
+                           ++ c    e +k+  ++Cp gW  +  q++Cy ++  +k w+ a+ +C+  g  ++L++i+s  eq+    ll d  +  ++WiGLsd
+  Ccrux.Trinity.18452 1053 NYtC---VEDSKRTTEGCPDGWVTLpqQSTCYKVFFLKKDWEGASGFCKAFGnsGNLISINSTGEQMIANTLLVDALDVDDIWIGLSD 1137
+                           2334...344668999******8644499******99***********98765599****************999999********** PP
+
+       human_Clectins  998 rasekpfkWvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlal 1075
+                           ++s ++++W d++ ++  y+nw +g+p+++ ++++Ca+++  +   +  +w+d++Cs+++ ++iCe+ ++ +sr  n++++
+  Ccrux.Trinity.18452 1138 KTSRGTYQWADESAVT--YTNWYNGQPDDAARTTSCAAMHFANgyqSFPRWSDRDCSDKR-SFICEMLKTGKSRPTNPTTT 1215
+                           ****************..*********************9877999779*********87.******99999997777755 PP
+
+  == domain 7  score: 84.8 bits;  conditional E-value: 1.2e-26
+       human_Clectins  377 ktrceagwlptngfcYklqkeekswdeAlkkckaees..dlisihslaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtl 462 
+                           k +c +gw +++g+cY+ ++++ +w +A +kc+ e+s  dl+si s +e ++v   L n  ++e+w+gl+d  i+    Wsd s+V++
+  Ccrux.Trinity.18452 1218 KGNCASGWAKYKGYCYHFHNDSMTWLDAREKCRSEGSstDLVSIWSQEENDFVFGLLMNSSASEIWMGLTDKGIFKGQFWSDSSPVSF 1305
+                           678******************************9987568************************************************ PP
+
+       human_Clectins  463 TkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkk 505 
+                           T+Wd  EPn   n+l  C +++++ g+w+d+ c  k ++ Ck 
+  Ccrux.Trinity.18452 1306 TRWDASEPNSYLNQL-VCGVMNNN-GYWRDEDCTLKSPFFCKS 1346
+                           *********999987.68888777.****************97 PP
+
+  == domain 8  score: 87.5 bits;  conditional E-value: 1.8e-27
+       human_Clectins  920 kketpkaasspCpkgWisfqnk..Cylf..sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekp 1003
+                            ++t +++++ C k+++  +++  Cy+f   ++ + w++a+ aC + g++L +i+ ++eq fl+  l    +    WiGLsd  +e  
+  Ccrux.Trinity.18452 1361 TPSTATQDPTICLKNYKHWRGNgmCYYFgnVSDARDWHQAKAACLKDGGSLTSIRDKNEQLFLQNELSRR-SISRSWIGLSDLGTESG 1447
+                           457788999999999887655444****6549999*******************************8774.6899************* PP
+
+       human_Clectins 1004 fkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                           f+W+dgtp +  y n++ g+p++  + edC+ ++     g+wnd+ Cs + + ++C+++ +++ +
+  Ccrux.Trinity.18452 1448 FEWTDGTPAT--YMNFEDGQPDDWHNMEDCVEMR---YGGEWNDKVCSIK-FPFVCKRNNNTVIV 1506
+                           **********..**********9999*******9...9***********7.6******9998876 PP
+
+  == domain 9  score: 146.2 bits;  conditional E-value: 3.5e-45
+       human_Clectins  926 aasspCpkgWisfqnkCylfs...essktwseaeeaCiseg.....atLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfk 1005
+                           ++ + C  gW  +++kCy+f    +   tw+ea+ aC+  g     + Lv+i+s+ e+af++s+l+      +++iGL+d + e++f+
+  Ccrux.Trinity.18452 1516 PDIGFCDAGWHAYGSKCYQFNtgkSNLLTWQEAKMACAASGtkqnpGDLVSIHSSYENAFVLSHLGLA--MESVFIGLNDLQIERTFT 1601
+                           56678***************757677889********98775555589****************8665..89**************** PP
+
+       human_Clectins 1006 WvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsyk 1090
+                           W d+++++  y +w + +p+n   +edC+ +   +    +g wnd++C++ + g++C+k ++ +++ + t      ++ ++yg+  y+
+  Ccrux.Trinity.18452 1602 WSDQSSTD--YIKWFRRQPDNFDGKEDCVEFM--PyfnYKGAWNDMRCDSLR-GYVCQKGSSKTKPSKPTPPNDCPSNYQPYGEDCYA 1684
+                           ********..************99******97..677899**********97.********999986666655556899********* PP
+
+       human_Clectins 1091 iiraplswhsAkkeclksna..qlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrftrWae..eegdlledCvy 1174
+                           i   p+sw  A   c+k +a  +l+s+  p +qafl     ++  ++wIgl  q  +  fgWsD+  + +++W    +  + +e C  
+  Ccrux.Trinity.18452 1685 IKTIPMSWKDARDVCKKDHAqgELVSVHSPHEQAFLFSYFVQHATEIWIGLKRQIGGDSFGWSDRSPVDYSHWGTvgTYKSDKEYCSH 1772
+                           ***************997651279*************************************************872244567888996 PP
+
+       human_Clectins 1175 ld....adgfwktvdCndnlqGaiCevsgeetetevpedpvrc 1213
+                            d    ++g+w + dC  + + ++C+v+ +  e  +pe+p+ c
+  Ccrux.Trinity.18452 1773 SDlakhMEGRWLSGDCSAKRK-FACKVT-KAGESGTPEHPGIC 1813
+                           6522226899*********99.*****9.55555568888777 PP
+
+  == domain 10  score: 105.8 bits;  conditional E-value: 5.7e-33
+       human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                           ++++ C  gW+++++ Cy++s+ +  w +a+++C ++g+ Lv+i+++eeq+f+++l +      ++W+GL+dr++e +f+W d ++ +
+  Ccrux.Trinity.18452 1808 EHPGICTAGWKKLSKHCYMLSSYRGRWIQARQKCRDAGGDLVSIHNKEEQNFIQHLSRTL--MESVWLGLNDRQKEMSFQWSDASSKD 1893
+                           56789***************************************************6555..89*********************999 PP
+
+       human_Clectins 1014 sqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr.esntlalsnapetvkygnrsykiiraplswhs 1100
+                             ++nw+  ep++++ +e+Ca ++  s+tgkwnd+sCs+  l++iC++  e+ s  + ++ ++ +a+ t + ++ +     a l    
+  Ccrux.Trinity.18452 1894 --FTNWKGTEPNDNNGQENCAEMN--SQTGKWNDNSCSNY-LRYICKRSLECASAlGLENGTIADASLTASSSDDTHFPALARLNA-- 1974
+                           ..9*********9999*******8..69***********7.6*********99872334444455555555555444222233333.. PP
+
+       human_Clectins 1101 AkkeclksnaqlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrft 1159
+                                  + +  a +td  ++ fl++ l +++    I+l    d+ n  +    r+ ++
+  Ccrux.Trinity.18452 1975 -----PAKDGWCANVTD--SNQFLQIDLGTSQRITRIALQGVTDGYNRMYVQTYRVLYS 2026
+                           .....333444555555..4568888888888888888888888888877777777776 PP
+
+  == domain 11  score: 0.4 bits;  conditional E-value: 0.37
+       human_Clectins 1357 k............spsedvisavvvlklliltvlglvalflykkssghlarves 1398
+                           +            s s +v+  vv + l++l v+    + +y+k+s hl + + 
+  Ccrux.Trinity.18452 2516 QgkatgnrddngmSHSGKVALIVVFMALIVL-VIAGGLFWFYRKRSHHLGQFKP 2568
+                           3344444455543445566666777776666.5666667789999998876542 PP
+
+>> Ccrux.Trinity.18443  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.3   1.5   3.5e-26   3.8e-23     221     384 ..     115     279 ..     113     289 .. 0.85
+   2 !   87.8   7.4   1.5e-27   1.6e-24     926    1067 ..     487     623 ..     453     644 .. 0.87
+   3 !   81.0   3.8   1.6e-25   1.8e-22     916    1075 ..     712     873 ..     650     878 .. 0.78
+   4 !   85.5   2.1   7.4e-27   7.9e-24     377     506 ..     876    1005 ..     870    1012 .. 0.93
+   5 !   87.5   0.6   1.9e-27     2e-24     921    1068 ..    1020    1164 ..    1010    1176 .. 0.87
+   6 !  146.0   8.0   4.2e-45   4.5e-42     927    1213 ..    1175    1471 ..    1169    1472 .. 0.87
+   7 !  105.5   8.5   6.7e-33   7.1e-30     927    1159 ..    1467    1684 ..    1461    1698 .. 0.79
+   8 ?    0.6   0.0      0.31   3.3e+02    1357    1398 ..    2174    2226 ..    2144    2245 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 83.3 bits;  conditional E-value: 3.5e-26
+       human_Clectins 221 ekwGfCpkkengcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkeklesitki...lWiglNdlssaagw 307
+                          e +G    ++  c  +W +d+ ++lcYq   +  L+W+ a++ c +Q+adL+S+  +aE  y++ +l+ +++    +W glNd +++  +
+  Ccrux.Trinity.18443 115 ELYGCLAVPTSKCGRNWLQDPASGLCYQVGHK-RLAWQTARANCLMQNADLVSLRTVAEMSYVERLLKNYSSRyndFWFGLNDRDNVGIH 203
+                          57888889*********************987.67*****************************999988876567*********9999* PP
+
+       human_Clectins 308 qwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvekdvwayvktrceagw 384
+                           wsd +p+    w+  +p ++ + + +a  +   g w  + c++ +pY+c+ k    s   ++ +  + ++  +a w
+  Ccrux.Trinity.18443 204 RWSDGSPVSLVKWQTRNPMDDKDVKDCASISSADGSWTERPCSSMMPYLCRMKVPS-SAQSKRAITGNWISATDAYW 279
+                          *******************9966555555666789****************88776.45555555555566555555 PP
+
+  == domain 2  score: 87.8 bits;  conditional E-value: 1.5e-27
+       human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpla 1013
+                           ++ ++C  +Wi f+++Cy+f  +s +w +a+++C+s+++tL++i s+ +qaf+  +++++  +   WiGL+ r +++ ++W++g+p+ 
+  Ccrux.Trinity.18443  487 SEMGGCRLDWIEFGGNCYQFNLASASWYTAQRSCQSQQSTLASISSSVQQAFVHLNTGKYGLNSVTWIGLNSRHKNHMYNWTNGSPVL 574 
+                           56789***************************************************888877999*********************** PP
+
+       human_Clectins 1014 sqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektaevls 1067
+                             ++nwa+ ep+n   +redC vi     +g+wnde C +r+  + C k++  + 
+  Ccrux.Trinity.18443  575 --FTNWAKNEPNNYgSKREDCTVIW---ANGRWNDEMCWTRQ-AYACIKPKGLVP 623 
+                           ..**********775779******9...99**********98.9***99876544 PP
+
+  == domain 3  score: 81.0 bits;  conditional E-value: 1.6e-25
+       human_Clectins  916 l.cqrkketpkaasspCpkgWisf..qnkCylfsessktwseaeeaCiseg..atLvkiqsqeeqafltsllkdmtgelelWiGLsdr 998 
+                           + c    e +k+  ++Cp gW  +  q++Cy ++  +k w+ a+ +C+  g  ++L++i+s  eq+    ll d  +  ++WiGLsd+
+  Ccrux.Trinity.18443  712 YtC---VEDSKRTTEGCPDGWVTLpqQSTCYKVFFLKKDWEGASGFCKAFGnsGNLISINSTGEQMIANTLLVDALDVDDIWIGLSDK 796 
+                           334...344668999******8644499******99***********98765599****************999999*********** PP
+
+       human_Clectins  999 asekpfkWvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlal 1075
+                           +s ++++W d++ ++  y+nw +g+p+++ ++++Ca+++  +   +  +w+d++Cs+++ ++iCe+ ++ +sr  n++++
+  Ccrux.Trinity.18443  797 TSRGTYQWADESAVT--YTNWYNGQPDDAARTTSCAAMHFANgyqSFPRWSDRDCSDKR-SFICEMLKTGKSRPTNPTTT 873 
+                           ***************..*********************9877999779*********87.******99999997777755 PP
+
+  == domain 4  score: 85.5 bits;  conditional E-value: 7.4e-27
+       human_Clectins  377 ktrceagwlptngfcYklqkeekswdeAlkkckaees..dlisihslaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtl 462 
+                           k +c +gw +++g+cY+ ++++ +w +A +kc+ e+s  dl+si s +e ++v   L n  ++e+w+gl+d  i+    Wsd s+V++
+  Ccrux.Trinity.18443  876 KGNCASGWAKYKGYCYHFHNDSMTWLDAREKCRSEGSstDLVSIWSQEENDFVFGLLMNSSASEIWMGLTDKGIFKGQFWSDSSPVSF 963 
+                           678******************************9987568************************************************ PP
+
+       human_Clectins  463 TkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkkk 506 
+                           T+Wd  EPn   n+l  C +++++ g+w+d+ c  k ++ Ck  
+  Ccrux.Trinity.18443  964 TRWDASEPNSYLNQL-VCGVMNNN-GYWRDEDCTLKSPFFCKSV 1005
+                           *********999987.68888777.****************975 PP
+
+  == domain 5  score: 87.5 bits;  conditional E-value: 1.9e-27
+       human_Clectins  921 ketpkaasspCpkgWisfqnk..Cylf..sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpf 1004
+                           ++t +++++ C k+++  +++  Cy+f   ++ + w++a+ aC + g++L +i+ ++eq fl+  l    +    WiGLsd  +e  f
+  Ccrux.Trinity.18443 1020 PSTATQDPTICLKNYKHWRGNgmCYYFgnVSDARDWHQAKAACLKDGGSLTSIRDKNEQLFLQNELSRR-SISRSWIGLSDLGTESGF 1106
+                           56788999999999877654444****6549999*******************************8774.6899************** PP
+
+       human_Clectins 1005 kWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                           +W+dgtp +  y n++ g+p++  + edC+ ++     g+wnd+ Cs + + ++C+++ +++ +
+  Ccrux.Trinity.18443 1107 EWTDGTPAT--YMNFEDGQPDDWHNMEDCVEMR---YGGEWNDKVCSIK-FPFVCKRNNNTVIV 1164
+                           *********..**********9999*******9...9***********7.6******9998877 PP
+
+  == domain 6  score: 146.0 bits;  conditional E-value: 4.2e-45
+       human_Clectins  927 asspCpkgWisfqnkCylfs...essktwseaeeaCiseg.....atLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkW 1006
+                           + + C  gW  +++kCy+f    +   tw+ea+ aC+  g     + Lv+i+s+ e+af++s+l+      +++iGL+d + e++f+W
+  Ccrux.Trinity.18443 1175 DIGFCDAGWHAYGSKCYQFNtgkSNLLTWQEAKMACAASGtkqnpGDLVSIHSSYENAFVLSHLGLA--MESVFIGLNDLQIERTFTW 1260
+                           5678***************757677889********98775555589****************8665..89***************** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsyki 1091
+                            d+++++  y +w + +p+n   +edC+ +   +    +g wnd++C++ + g++C+k ++ +++ + t      ++ ++yg+  y+i
+  Ccrux.Trinity.18443 1261 SDQSSTD--YIKWFRRQPDNFDGKEDCVEFM--PyfnYKGAWNDMRCDSLR-GYVCQKGSSKTKPSKPTPPNDCPSNYQPYGEDCYAI 1343
+                           *******..************99******97..677899**********97.********999986666655556899********** PP
+
+       human_Clectins 1092 iraplswhsAkkeclksna..qlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrftrWae..eegdlledCvyl 1175
+                              p+sw  A   c+k +a  +l+s+  p +qafl     ++  ++wIgl  q  +  fgWsD+  + +++W    +  + +e C   
+  Ccrux.Trinity.18443 1344 KTIPMSWKDARDVCKKDHAqgELVSVHSPHEQAFLFSYFVQHATEIWIGLKRQIGGDSFGWSDRSPVDYSHWGTvgTYKSDKEYCSHS 1431
+                           **************997651279*************************************************8722445678889966 PP
+
+       human_Clectins 1176 d....adgfwktvdCndnlqGaiCevsgeetetevpedpvrc 1213
+                           d    ++g+w + dC  + + ++C+v+ +  e  +pe+p+ c
+  Ccrux.Trinity.18443 1432 DlakhMEGRWLSGDCSAKRK-FACKVT-KAGESGTPEHPGIC 1471
+                           522226899*********99.*****9.55555568888777 PP
+
+  == domain 7  score: 105.5 bits;  conditional E-value: 6.7e-33
+       human_Clectins  927 asspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                           +++ C  gW+++++ Cy++s+ +  w +a+++C ++g+ Lv+i+++eeq+f+++l +      ++W+GL+dr++e +f+W d ++ + 
+  Ccrux.Trinity.18443 1467 HPGICTAGWKKLSKHCYMLSSYRGRWIQARQKCRDAGGDLVSIHNKEEQNFIQHLSRTL--MESVWLGLNDRQKEMSFQWSDASSKD- 1551
+                           6789***************************************************6555..89*********************999. PP
+
+       human_Clectins 1015 qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr.esntlalsnapetvkygnrsykiiraplswhsA 1101
+                            ++nw+  ep++++ +e+Ca ++  s+tgkwnd+sCs+  l++iC++  e+ s  + ++ ++ +a+ t + ++ +     a l     
+  Ccrux.Trinity.18443 1552 -FTNWKGTEPNDNNGQENCAEMN--SQTGKWNDNSCSNY-LRYICKRSLECASAlGLENGTIADASLTASSSDDTHFPALARLNA--- 1632
+                           .9*********9999*******8..69***********7.6*********99872334444455555555554444222233333... PP
+
+       human_Clectins 1102 kkeclksnaqlasitdpyqqaflsvqlellnsslwIglfsqddelnfgWsDgkrlrft 1159
+                                 + +  a +td  ++ fl++ l +++    I+l    d+ n  +    r+ ++
+  Ccrux.Trinity.18443 1633 ----PAKDGWCANVTD--SNQFLQIDLGTSQRITRIALQGVTDGYNRMYVQTYRVLYS 1684
+                           ....333444555555..4567888888888888888888888887777777777776 PP
+
+  == domain 8  score: 0.6 bits;  conditional E-value: 0.31
+       human_Clectins 1357 k............spsedvisavvvlklliltvlglvalflykkssghlarves 1398
+                           +            s s +v+  vv + l++l v+    + +y+k+s hl + + 
+  Ccrux.Trinity.18443 2174 QgkatgnrddngmSHSGKVALIVVFMALIVL-VIAGGLFWFYRKRSHHLGQFKP 2226
+                           3344444455543445566666777776666.5666667789999998876543 PP
+
+>> Ccrux.Trinity.18445  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.9   2.1   1.3e-30   1.4e-27     926    1069 ..      27     171 ..      20     182 .. 0.87
+   2 !  113.2   0.1   3.2e-35   3.4e-32     925    1063 ..     181     314 ..     175     317 .. 0.95
+   3 !   83.6   5.4   2.9e-26   3.1e-23     925    1064 ..     313     455 ..     311     477 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 97.9 bits;  conditional E-value: 1.3e-30
+       human_Clectins  926 aasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                           a  ++C ++Wi +++ Cylf       + k w++ + aC+  g+ L++i  q+eq f+t++ +  +++  +WiGLsd+a+e+++ W d
+  Ccrux.Trinity.18445   27 AVNGQCTSPWIGNGEFCYLFNnvsatVKGKGWQDGRVACKALGGDLLSILDQKEQTFITDIQTADQRTQHYWIGLSDQATEGTYVWSD 114 
+                           56789***************86777656788******************************555568********************* PP
+
+       human_Clectins 1009 gtplasqysnwap..gepsnsgsredCavilassetgkwndesCserklgliCektaevlsre 1069
+                           ++ l+  ++nw+   gep+n g +edCa i+   ++g wnd+ C ++ +g+iC++ ++v+s+ 
+  Ccrux.Trinity.18445  115 KSILN--FTNWNTqyGEPNNWGGNEDCAEIH---HSGMWNDNACFRE-FGYICKRAKDVVSPT 171 
+                           ***99..77777522677788*********9...89**********9.6**********9983 PP
+
+  == domain 2  score: 113.2 bits;  conditional E-value: 3.2e-35
+       human_Clectins  925 kaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                           +++s  C+ gW++f+++Cy f  s ++w ea+e+C+ +g++L+ i+++ eq  l  +l  +  ++++WiGLsd++ e++f Wvdg+ l
+  Ccrux.Trinity.18445  181 SPDSVICEVGWKPFGGSCYKFVISYRSWREAKEDCETRGGALAIINNEPEQLYLAGTLASI--KRDFWIGLSDNTFEGHFFWVDGSVL 266 
+                           578999****************************************************999..9************************ PP
+
+       human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                           +  y++w pgepsn+   edC+ + +  ++g+wnd+ C++r+  +iCek+ 
+  Ccrux.Trinity.18445  267 N--YTQWGPGEPSNAFGGEDCVEMYSVYNAGTWNDNLCTTRR-PYICEKKN 314 
+                           *..************999******9877************97.*****985 PP
+
+  == domain 3  score: 83.6 bits;  conditional E-value: 2.9e-26
+       human_Clectins  925 kaasspCpkgWisfqnkCylf.s..essktwseaeeaCise.gatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkW 1006
+                           k+ +s+Cp++Wis++++Cy++ s   ++ +w++a+ aC+   ga Lv+i++ +eq  l++  +d+ g  +  +W+GL+dr++e++f W
+  Ccrux.Trinity.18445  313 KNGESMCPEDWISYGGSCYQVnShpGQKTNWQSARAACQAFdGADLVTIDTMNEQTMLLQAFNDV-GivSSFFWTGLNDRDKEGQFVW 399 
+                           57889****************55665688**********973789*************9997777.446889**************** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgepsns.gsredCavilassetgkwndesCserklgliCektae 1064
+                            d+++ +  + nwap +ps+    ++dC+  +   ++g w+ ++C +++  ++Cek+  
+  Ccrux.Trinity.18445  400 ADKSKRK--MNNWAPRQPSTVlTLSYDCVRSSIALKSGAWSVSTCYRSY-HYVCEKKRG 455 
+                           ******9..**********5556789***998655************96.*****9875 PP
+
+>> Ccrux.Trinity.62416  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  163.6   7.3   2.1e-50   2.2e-47     255     506 ..       1     253 [.       1     259 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 163.6 bits;  conditional E-value: 2.1e-50
+       human_Clectins 255 LsWkeayvscqeQga..dLLSiteiaEqtylkeklesitkilWiglNdlssaagwqwsdnkplnfLNwlpdkpsapieescva...llda 339
+                          ++Wk+a+++c    a  +L+S+ + +E  +l       + ++Wigl   s   +++wsd++ l ++Nw   +    +++  ++   +++ 
+  Ccrux.Trinity.62416   1 MTWKDARAACRADHAqgELVSVHSPQEGAFLFSYYVQHATEIWIGLQRPSRGNEFEWSDKTSLDYINWGGSRRRYLGNKAYCThsdFSKH 90 
+                          58********87654228***************************************************999987766665551225566 PP
+
+       human_Clectins 340 esglwenlsceakLpYvckkklnntsivvekdvwayvktrceagwlptngfcYklqkeekswdeAlkkckaeesdlisihslaelevvvt 429
+                           +g+w   +c+ k  + ck    +     e+ ++ +++  c+agw++ n+fcY+    + +w  A + c++ ++dl sih  +e +++  
+  Ccrux.Trinity.62416  91 VEGQWMPGDCNVKRTFACKITKEA-----EQSIIPDYPGDCKAGWQKRNKFCYLFPSSSGKWIHARQYCRDAGGDLASIHNEEEQDFILH 175
+                          789***************988877.....5677888*****************************************************9 PP
+
+       human_Clectins 430 kLdned.keelwIglkdikiptnfeWsdgseVtlTkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkkk 506
+                                 +++lwIgl+d ++ ++f+Wsdgs   +T+W e+EP++  n+ + C  +++  g w+ +sc ++L +iCkk 
+  Ccrux.Trinity.62416 176 LTRRSTwESLLWIGLNDRHVEMKFQWSDGSANDFTNWMENEPHNSDNEYNFCAAMDPFLGMWSSSSCYDNLRFICKKS 253
+                          99999899********************************************************************96 PP
+
+>> Ccrux.Trinity.64956  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.1   0.1   3.7e-16   3.9e-13     420     506 ..       3      87 ..       1      92 [. 0.92
+   2 !   26.1   0.1   6.3e-09   6.7e-06     926     992 ..     107     178 ..      92     179 .. 0.80
+   3 !   83.7   0.4   2.5e-26   2.7e-23     292     421 ..     182     319 ..     179     322 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 50.1 bits;  conditional E-value: 3.7e-16
+       human_Clectins 420 slaelevvvtkLdnedkeelwIglkdikiptnfeWsdgseVtlTkWdelEPnvernkledCVslkgeegqwkdksceekLkyiCkkk 506
+                          s +e ++v + L n  + e+w gl+d  i+    Wsd s+V++T+Wd lEP+   n+l  C  ++ + g+w+d+ c+ + ++iCk +
+  Ccrux.Trinity.64956   3 SQEENDFVFSLLMNSSATEVWTGLTDRGIFRGHFWSDSSPVSFTNWDALEPSSYLNQL-ACGAINSN-GYWRDEDCNLRSQFICKSA 87 
+                          678889**********************************************999887.69888776.*****************87 PP
+
+  == domain 2  score: 26.1 bits;  conditional E-value: 6.3e-09
+       human_Clectins 926 aasspCpkgWisfqnk..Cylfs...essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelW 992
+                          ++++ C  ++++ +++  Cy+f    ++++ w++a+ aC + g++L +i+ ++eq  l++ +k   ++++ W
+  Ccrux.Trinity.64956 107 QDPGICLYKYTYWHGNgmCYYFGdkrQVTRDWHQANAACLKDGGSLTSIRDKNEQLYLQQEIKRRYRTRYSW 178
+                          566667766666554334****6678999******************************9987776666666 PP
+
+  == domain 3  score: 83.7 bits;  conditional E-value: 2.5e-26
+       human_Clectins 292 kilWiglNdlssaagwqwsdnkplnfLNwlpdkpsap.ieescvalldaesglwenlsceakLpYvckkklnnt.sivvekdvwayvktr 379
+                          +++WiglNdl  + +++w d +p+ +LN++ ++p++    e cv++   + glw    c++k  Y+ck+++n++ +  +           
+  Ccrux.Trinity.64956 182 SQIWIGLNDLRRENNFEWTDGTPVTYLNFSAEQPDDLyRMEDCVQMG--SMGLWIDTPCSIKAHYICKRNNNTVtAQTTIATTVEPDVGS 269
+                          579*******************************9997778898875..579*******************9985444444445555678 PP
+
+       human_Clectins 380 ceagwlptngfcYk..lqkeeks.wdeAlkkckaees.....dlisihsl 421
+                          ce+gw  + + cY+  + k +++ w+eA k+c+a++s     dl+sihs 
+  Ccrux.Trinity.64956 270 CEPGWHLYRRKCYQfnIGKGSRTtWKEARKACEAHGSeqnpgDLVSIHSS 319
+                          *************72256788889********998764444489999985 PP
+
+>> Ccrux.Trinity.65799  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.1   0.0    0.0017       1.8     948    1061 ..       6     107 ..       4     119 .. 0.70
+   2 !   71.1   1.7   1.6e-22   1.7e-19     922    1060 ..     115     257 ..     103     263 .. 0.86
+   3 !   63.4   0.1   3.5e-20   3.7e-17     926    1068 ..     262     412 ..     258     425 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.0017
+       human_Clectins  948 ssktwseaeeaCisegatLvkiqsqeeqafltsl..lkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredC 1033
+                           s  tw++a+  C+ ++++L+ ++  + +  l     l + + +  +W+G            ++g++l+  ++++a+  +++s  +  C
+  Ccrux.Trinity.65799    6 SGVTWHDASAICQLRNGHLPLVTDLNLMTVLANVsrLSGLSFQKHFWVGK----------ATEGKQLD--STTSASIPTNSSLAADLC 81  
+                           5679******************9987776666663333333344555554..........44555566..44444444556667899* PP
+
+       human_Clectins 1034 avilassetgkwnde..sCserklgliCek 1061
+                            +++    +g ++ +  +C++ + g+iC+ 
+  Ccrux.Trinity.65799   82 PYVS---GDGPFQAAtgKCNNAY-GFICQS 107 
+                           ***8...5666666666999985.****95 PP
+
+  == domain 2  score: 71.1 bits;  conditional E-value: 1.6e-22
+       human_Clectins  922 etpkaasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtg....elelWiGLsdras 1000
+                           + p + ++ C  +Wi ++n+Cyl+      +   +w++a++ C    + L++i++  eq++lt+l  +  +    + ++WiGL+d ++
+  Ccrux.Trinity.65799  115 KLPPHLWQSCHPNWINLNNTCYLLYnithvSNGVSWHDANKVCRFLSSDLASITNHTEQNALTALAFGH-RfshlNPNYWIGLNDLQK 201 
+                           5667999*****************8799888889*******************************4443.23555889********** PP
+
+       human_Clectins 1001 ekpfkWvdgtplasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCe 1060
+                            k+f+W d t+l+  y++w+p   +  ++ + + Ca +     +g w+d++C e    ++C 
+  Ccrux.Trinity.65799  202 GKTFNWSDATRLE--YTFWQPAVKEpdDAAQGYFCAKVA---PDGFWEDADCLEAL-PYVCS 257 
+                           *************..****996444337799*******8...89**********85.****7 PP
+
+  == domain 3  score: 63.4 bits;  conditional E-value: 3.5e-20
+       human_Clectins  926 aasspCpkgWisfqnkCylfs......essktwseaeeaCisegatLvkiqsqeeqafltsl....lkdmtgelelWiGLsdrasekp 1003
+                           +a s+Cp +W+ f+n Cy+         +s  wsea+++C  +g+ L++ +   +   l+      + + ++  ++WiG ++++++  
+  Ccrux.Trinity.65799  262 NATSVCPLPWKNFGNVCYYGGtntatsVASLPWSEARKQCLAYGGDLASLKDAVDWTPLQLAlpipVDP-NSRGYFWIGFQKKDQKSA 348 
+                           6889***************8646666667788***************************9998875334.5699************** PP
+
+       human_Clectins 1004 fkWvdgtplasqysnwapgeps....nsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                           ++W dg+++   y+nw+    +     sgs+++C++  +   +g w ++ C+ ++ g+iC+k+a+   +
+  Ccrux.Trinity.65799  349 YTWSDGSSVG--YKNWRTIVGQpvtdASGSKQECVATTT--PKGYWANTFCDLSR-GFICKKKAALAPN 412 
+                           **********..****986555557667*********84..88**********97.*******976554 PP
+
+>> Ccrux.Trinity.39765  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.8   5.7   1.4e-20   1.4e-17     931    1069 ..     671     803 ..     566     815 .. 0.63
+   2 !   81.4   9.5   1.3e-25   1.4e-22     928    1062 ..     798     924 ..     796     933 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 64.8 bits;  conditional E-value: 1.4e-20
+       human_Clectins  931 CpkgWis....fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                           C +gW      f+  Cy + + +  + +a ++C++ +++L ++ +  e++ l ++      + ++WiG +d+a +++++W+d+ +   
+  Ccrux.Trinity.39765  671 CGEGWDGatgdFGTFCYKMMNMKVAFDDALKQCKKVNSNLFSVLNAYENRYLADN---F--HEKFWIGYRDKAMDGSWNWTDNARSI- 752 
+                           4444432111134446666565666666666666666666666666666666555...2..44566666666666666666666655. PP
+
+       human_Clectins 1015 qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsre 1069
+                            y+nw + +  ++g+r+dC+v+ +  ++g+w+de+C+ + +g++C+++++ ++r+
+  Ccrux.Trinity.39765  753 -YTNWGSNNGPDNGNRKDCVVMDT--KQGSWKDEKCDGK-FGYLCKQKKASTCRD 803 
+                           .55665554445555666666653..5556666666654.366665555444442 PP
+
+  == domain 2  score: 81.4 bits;  conditional E-value: 1.3e-25
+       human_Clectins  928 sspCpkgWisfq....nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtp 1011
+                            s+C  gW++++    + Cy +++++ktw+eae++C++ +++L++i sqeeq  l++      ++ ++WiG +dr+se+++ W d ++
+  Ccrux.Trinity.39765  798 ASTCRDGWKKLKldsvSGCYRLFNENKTWEEAEQSCAEGEGHLASILSQEEQTMLYQV----YSTSSFWIGYNDRESEGDWLWSDRST 881 
+                           678999999886444456****************************************....789*********************** PP
+
+       human_Clectins 1012 lasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                            +  y+nw   +p+n g   +Ca++    etgkw desCs ++  ++C+++
+  Ccrux.Trinity.39765  882 SS--YTNWDDQSPNNGG--ISCAALT---ETGKWHDESCSASY-PFMCKRK 924 
+                           99..******9999865..99****9...************96.****986 PP
+
+>> Ccrux.Trinity.39763  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   5.8   1.6e-20   1.7e-17     931    1069 ..     842     974 ..     738     986 .. 0.63
+   2 !   81.7  10.3   1.1e-25   1.1e-22     925    1062 ..     966    1095 ..     965    1104 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 1.6e-20
+       human_Clectins  931 CpkgWis....fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                           C +gW      f+  Cy + + +  + +a ++C++ +++L ++ +  e++ l ++      + ++WiG +d+a +++++W+d+ +   
+  Ccrux.Trinity.39763  842 CGEGWDGatgdFGTFCYKMMNMKVAFDDALKQCKKVNSNLFSVLNAYENRYLADN---F--HEKFWIGYRDKAMDGSWNWTDNARSI- 923 
+                           4444432111134445666555666666666666666666666666666666555...2..44566666666666666666666555. PP
+
+       human_Clectins 1015 qysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsre 1069
+                            y+nw + +  ++g+r+dC+v+ +  ++g+w+de+C+ + +g++C+++++ ++r+
+  Ccrux.Trinity.39763  924 -YTNWGSNNGPDNGNRKDCVVMDT--KQGSWKDEKCDGK-FGYLCKQKKASTCRD 974 
+                           .55665554445555666666653..5556666666654.366665555444442 PP
+
+  == domain 2  score: 81.7 bits;  conditional E-value: 1.1e-25
+       human_Clectins  925 kaasspCpkgWisfq....nkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                           +++ s+C  gW++++    + Cy +++++ktw+eae++C++ +++L++i sqeeq  l++      ++ ++WiG +dr+se+++ W d
+  Ccrux.Trinity.39763  966 QKKASTCRDGWKKLKldsvSGCYRLFNENKTWEEAEQSCAEGEGHLASILSQEEQTMLYQV----YSTSSFWIGYNDRESEGDWLWSD 1049
+                           567899999**9987444456****************************************....789******************** PP
+
+       human_Clectins 1009 gtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                            ++ +  y+nw   +p+n g   +Ca++    etgkw desCs ++  ++C+++
+  Ccrux.Trinity.39763 1050 RSTSS--YTNWDDQSPNNGG--ISCAALT---ETGKWHDESCSASY-PFMCKRK 1095
+                           ***99..******9999865..99****9...************96.****986 PP
+
+>> Ccrux.Trinity.16461  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.3  14.3   4.4e-24   4.6e-21     879    1064 ..      32     245 ..       7     256 .. 0.70
+   2 !   67.2   3.2   2.5e-21   2.7e-18     941    1067 ..     260     392 ..     248     451 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 76.3 bits;  conditional E-value: 4.4e-24
+       human_Clectins  879 qllswateevrtldaecvyltaktg.............................rllwkalk..vklp.lcqr..kketpkaasspCp 932 
+                           ++++w+  ++ +++++   +  ++g                             ++ w  ++    ++  + +    + + ++ + Cp
+  Ccrux.Trinity.16461   32 NVITWKKDSQFIQSNS--RMHMSEGrlhisdisledgayyeveiinkdknvverTDFWLNVRgcR-DNeAE-EssGTSCNPSCVEKCP 115 
+                           4555552222222222..11111122344444444445444444444444666655666666531.22122.13433444477789** PP
+
+       human_Clectins  933 kgWis..fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysn 1018
+                           ++W++   ++kCy   +  ktw+ ++++C+ ++++L++ ++++++++l sl++      + WiGL+d ++e++++W  +++ + qy++
+  Ccrux.Trinity.16461  116 SDWLYesSGSKCYKYVSTLKTWQLSQRECSTMNGQLATADNEKQNRALGSLIQ---TASGAWIGLNDITKERKYTWNYESSSS-QYEA 199 
+                           ***8622568*****************************************74...4699****************8777777.9*** PP
+
+       human_Clectins 1019 wapgeps..ns.gsredCavilassetgkwndesCserklgliCektae 1064
+                           wa gep+  n  ++ e+C++++  ++tg+w+d  C+ +   ++Cek   
+  Ccrux.Trinity.16461  200 WATGEPNnfNRgCNVENCVMME--AKTGSWSDVICNMNL-AFVCEKSLL 245 
+                           *******6633799*******9..5************96.*****9865 PP
+
+  == domain 2  score: 67.2 bits;  conditional E-value: 2.5e-21
+       human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq..ysnwapgeps. 1025
+                            C+ f ++ k w++a  +C+s g++L+ i+++++++ +++l        + WiG++d+ + ++f W  ++ ++++  y nw++gep+ 
+  Ccrux.Trinity.16461  260 RCFRFEKQPKRWTDAVLYCQSVGGKLARIHNRKDNDIVMKLS-----IGNTWIGVNDKWEAGSFVWSGDNDTDASasYFNWRSGEPNd 342 
+                           5****************************************2.....3468***************97666665345**********8 PP
+
+       human_Clectins 1026 .........nsgsredCavilassetgkwndesCserklgliCektaevls 1067
+                                    +s+s edC+ i++++++ +w+d +C+++   +iC+kt e   
+  Ccrux.Trinity.16461  343 khfnsaefgSSCSGEDCVQIKNLQDKIGWYDLDCQTQL-PFICQKTNESFR 392 
+                           88866655555*************************86.******998655 PP
+
+>> Ccrux.Trinity.45290  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.9   0.0   2.1e-35   2.2e-32     314     904 ..       2     691 ..       1     724 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 113.9 bits;  conditional E-value: 2.1e-35
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvekd......vwayvktrceagwlp....tngfcYk 393
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L+++++++ +n si+v+k+      v+ay+++++++++l+    t +f+++
+  Ccrux.Trinity.45290   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSLYFLLSNNHVN-SIIVNKFdftneeVLAYYISFLKTLSLKlnlhTINFFFN 87 
+                          578888888888...99*********************************.8****999********************9998889**** PP
+
+       human_Clectins 394 lqkeeks.wdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIg.lkdikiptnfeWsdgseVtlTkWdelEPnvernkledCV 481
+                           q +++  ++eA+k++++ e+++++++++ +l+v++  ++n+ +++ +I  +++ ++++n++W++g +               ++l+dCV
+  Ccrux.Trinity.45290  88 AQLNDFPlYTEAIKFFNHSEGMVRIAVRTLTLNVYK--VGND-AMLNFICdKTADPYFSNLVWFIGKHA--------------IELDDCV 160
+                          **********************************96..5785.5*****99*****************9..............9****** PP
+
+       human_Clectins 482 slkgeegqw...kdks.........ceekLkyiCkkkgevlndalldkekgcreGWkrHgetCYkigedlvvfseanqdkaderpklvti 559
+                          + + ++ +    kd +         ++++L    +  ++ l+d+ll+                 ++  +l+v+s  + + ++++ +l   
+  Ccrux.Trinity.45290 161 VKESDHLKCgklKDIVadhldhlhyLQDILLLENEHMNRILTDHLLN-----------------RLLIPLYVYSLPSVKEENKNDRLRVS 233
+                          999988555433666699999**************************.................*************8777777777655 PP
+
+       human_Clectins 560 tnrfeqafllslvkkvvkskekyfwtgLqdvdstgeyawte..eeeVtfthwnidepgak..ggcvamstgeavgkwevk..kcrsfkar 643
+                            r  + flls+  +++   +k ++  L  v   +  +  +  +   + + + + ++g+   ++ ++ +     +++e +   ++s + +
+  Ccrux.Trinity.45290 234 --RKVALFLLSQHLLIMS--HKQLMSTLVSVICNEDMSVSSqrKGSPEESRKGHSKSGSVgsIRAFIPPSDTLESQLEASgiTRDSYNLN 319
+                          ..88999*****997776..9999999999944444444442222334455666666665569999999888889999999977777777 PP
+
+       human_Clectins 644 sickkmse.plgpeeek.......gpteecpedwesekgtescyKvf........................eaekvvmkrswleaerfCq 701
+                            +++ s   + +++++       +p  + +   ++ k++ s +  +                        + +   +  +++++ + C 
+  Ccrux.Trinity.45290 320 QKLQHLSKdRMSQRKNNstfyvadSPRAKRNSSLKKTKSS-SASASLraspapspnlmefketssldlpdtSLDVTTESVTSVDG-ESC- 406
+                          7777777744444442223443333333333333333332.22333378888888888888888888888644444444555555.445. PP
+
+       human_Clectins 702 alGahlasfasveeekt........vaelltesfm.ldededsyqklfwiglnkrspenkg..pnaasstqwsdrlpvstare....... 773
+                              +++s  s e+++t          ++l++ f+  d ++ + +++f ++l ++  +n+g  ++  +s+  s +l+ +  +e       
+  Ccrux.Trinity.45290 407 ----DVSSTDSLEKQETesvaqeahDRNFLNDIFDtIDCSTSDDEAFFAVCLIYALLQNQGveKELLESVGISPPLESVPYNEllverli 492
+                          ....567777777776677665555567788887559999999******************99888888888888888877767777777 PP
+
+       human_Clectins 774 .dlrncaalkl..kialatlelltlllwv......vipkgrtpkledareeq.ellrlilegeeaflaelkeelenaealcss....... 846
+                            l+ +a+ +   +++  +++++ l  +v       +++ +++ +e++re +  +lr+++++ e+f++++++e+++ +  +++       
+  Ccrux.Trinity.45290 493 gVLEFGARDGSqvRLVTYEMAINVLKILVisgsqsRLRDHHLAMIENVREAStLQLRNFYKNDEIFVDMFEDEYNR-MKSKPMnvqyvmm 581
+                          74444444443223444444444444443477888899999999999999888*********************94.4555668889999 PP
+
+       human_Clectins 847 .........hselaeIqvel.......ealkekiqkl..keqewwiktdg...qllswateevrt......ldae......cvyltaktg 903
+                                    ++l++I++ +       e++++ i  +  +++  +  +dg   +l  +++e++        l  +      c  + a+++
+  Ccrux.Trinity.45290 582 daalllpptTTPLTGIEFPKrlpcgeeERARRAIRVFllTRELSLLLRDGeetDLPLSKVERPVAendvldL--NnsdliaCTIINADRH 669
+                          999999999999999966665666666777777766677666666655543332222222222222233221..1334444545555555 PP
+
+       human_Clectins 904 .....................r 904
+                                               +
+  Ccrux.Trinity.45290 670 nvrrflvidsnqfilvepdtnK 691
+                          5555555555555555555554 PP
+
+>> Ccrux.Trinity.45295  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.9   0.0   2.1e-35   2.2e-32     314     904 ..       2     691 ..       1     724 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 113.9 bits;  conditional E-value: 2.1e-35
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsivvekd......vwayvktrceagwlp....tngfcYk 393
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L+++++++ +n si+v+k+      v+ay+++++++++l+    t +f+++
+  Ccrux.Trinity.45295   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSLYFLLSNNHVN-SIIVNKFdftneeVLAYYISFLKTLSLKlnlhTINFFFN 87 
+                          578888888888...99*********************************.8****999********************9998889**** PP
+
+       human_Clectins 394 lqkeeks.wdeAlkkckaeesdlisihslaelevvvtkLdnedkeelwIg.lkdikiptnfeWsdgseVtlTkWdelEPnvernkledCV 481
+                           q +++  ++eA+k++++ e+++++++++ +l+v++  ++n+ +++ +I  +++ ++++n++W++g +               ++l+dCV
+  Ccrux.Trinity.45295  88 AQLNDFPlYTEAIKFFNHSEGMVRIAVRTLTLNVYK--VGND-AMLNFICdKTADPYFSNLVWFIGKHA--------------IELDDCV 160
+                          **********************************96..5785.5*****99*****************9..............9****** PP
+
+       human_Clectins 482 slkgeegqw...kdks.........ceekLkyiCkkkgevlndalldkekgcreGWkrHgetCYkigedlvvfseanqdkaderpklvti 559
+                          + + ++ +    kd +         ++++L    +  ++ l+d+ll+                 ++  +l+v+s  + + ++++ +l   
+  Ccrux.Trinity.45295 161 VKESDHLKCgklKDIVadhldhlhyLQDILLLENEHMNRILTDHLLN-----------------RLLIPLYVYSLPSVKEENKNDRLRVS 233
+                          999988555433666699999**************************.................*************8777777777655 PP
+
+       human_Clectins 560 tnrfeqafllslvkkvvkskekyfwtgLqdvdstgeyawte..eeeVtfthwnidepgak..ggcvamstgeavgkwevk..kcrsfkar 643
+                            r  + flls+  +++   +k ++  L  v   +  +  +  +   + + + + ++g+   ++ ++ +     +++e +   ++s + +
+  Ccrux.Trinity.45295 234 --RKVALFLLSQHLLIMS--HKQLMSTLVSVICNEDMSVSSqrKGSPEESRKGHSKSGSVgsIRAFIPPSDTLESQLEASgiTRDSYNLN 319
+                          ..88999*****997776..9999999999944444444442222334455666666665569999999888889999999977777777 PP
+
+       human_Clectins 644 sickkmse.plgpeeek.......gpteecpedwesekgtescyKvf........................eaekvvmkrswleaerfCq 701
+                            +++ s   + +++++       +p  + +   ++ k++ s +  +                        + +   +  +++++ + C 
+  Ccrux.Trinity.45295 320 QKLQHLSKdRMSQRKNNstfyvadSPRAKRNSSLKKTKSS-SASASLraspapspnlmefketssldlpdtSLDVTTESVTSVDG-ESC- 406
+                          7777777744444442223443333333333333333332.22333378888888888888888888888644444444555555.445. PP
+
+       human_Clectins 702 alGahlasfasveeekt........vaelltesfm.ldededsyqklfwiglnkrspenkg..pnaasstqwsdrlpvstare....... 773
+                              +++s  s e+++t          ++l++ f+  d ++ + +++f ++l ++  +n+g  ++  +s+  s +l+ +  +e       
+  Ccrux.Trinity.45295 407 ----DVSSTDSLEKQETesvaqeahDRNFLNDIFDtIDCSTSDDEAFFAVCLIYALLQNQGveKELLESVGISPPLESVPYNEllverli 492
+                          ....567777777776677665555567788887559999999******************99888888888888888877767777777 PP
+
+       human_Clectins 774 .dlrncaalkl..kialatlelltlllwv......vipkgrtpkledareeq.ellrlilegeeaflaelkeelenaealcss....... 846
+                            l+ +a+ +   +++  +++++ l  +v       +++ +++ +e++re +  +lr+++++ e+f++++++e+++ +  +++       
+  Ccrux.Trinity.45295 493 gVLEFGARDGSqvRLVTYEMAINVLKILVisgsqsRLRDHHLAMIENVREAStLQLRNFYKNDEIFVDMFEDEYNR-MKSKPMnvqyvmm 581
+                          74444444443223444444444444443477888899999999999999888*********************94.4555668889999 PP
+
+       human_Clectins 847 .........hselaeIqvel.......ealkekiqkl..keqewwiktdg...qllswateevrt......ldae......cvyltaktg 903
+                                    ++l++I++ +       e++++ i  +  +++  +  +dg   +l  +++e++        l  +      c  + a+++
+  Ccrux.Trinity.45295 582 daalllpptTTPLTGIEFPKrlpcgeeERARRAIRVFllTRELSLLLRDGeetDLPLSKVERPVAendvldL--NnsdliaCTIINADRH 669
+                          999999999999999966665666666777777766677666666655543332222222222222233221..1334444545555555 PP
+
+       human_Clectins 904 .....................r 904
+                                               +
+  Ccrux.Trinity.45295 670 nvrrflvidsnqfilvepdtnK 691
+                          5555555555555555555554 PP
+
+>> Ccrux.Trinity.64957  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   0.1   2.7e-09   2.9e-06     926     992 ..      32     103 ..      10     108 .. 0.81
+   2 !   84.6   0.4   1.4e-26   1.4e-23     292     421 ..     107     244 ..     104     247 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 2.7e-09
+       human_Clectins 926 aasspCpkgWisfqnk..Cylfs...essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelW 992
+                          ++++ C  ++++ +++  Cy+f    ++++ w++a+ aC + g++L +i+ ++eq  l++ +k   ++++ W
+  Ccrux.Trinity.64957  32 QDPGICLYKYTYWHGNgmCYYFGdkrQVTRDWHQANAACLKDGGSLTSIRDKNEQLYLQQEIKRRYRTRYSW 103
+                          667777777666654444****6678999******************************9988777777777 PP
+
+  == domain 2  score: 84.6 bits;  conditional E-value: 1.4e-26
+       human_Clectins 292 kilWiglNdlssaagwqwsdnkplnfLNwlpdkpsap.ieescvalldaesglwenlsceakLpYvckkklnnt.sivvekdvwayvktr 379
+                          +++WiglNdl  + +++w d +p+ +LN++ ++p++    e cv++   + glw    c++k  Y+ck+++n++ +  +           
+  Ccrux.Trinity.64957 107 SQIWIGLNDLRRENNFEWTDGTPVTYLNFSAEQPDDLyRMEDCVQMG--SMGLWIDTPCSIKAHYICKRNNNTVtAQTTIATTVEPDVGS 194
+                          579*******************************9997778898875..579*******************9985444444445555678 PP
+
+       human_Clectins 380 ceagwlptngfcYk..lqkeeks.wdeAlkkckaees.....dlisihsl 421
+                          ce+gw  + + cY+  + k +++ w+eA k+c+a++s     dl+sihs 
+  Ccrux.Trinity.64957 195 CEPGWHLYRRKCYQfnIGKGSRTtWKEARKACEAHGSeqnpgDLVSIHSS 244
+                          *************72256788889********998764444489999985 PP
+
+>> Ccrux.Trinity.16464  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.6   2.7   2.1e-15   2.2e-12     962    1064 ..       1      99 [.       1     110 [. 0.88
+   2 !   68.0   3.4   1.4e-21   1.5e-18     941    1067 ..     114     246 ..     106     304 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.6 bits;  conditional E-value: 2.1e-15
+       human_Clectins  962 egatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps..ns.gsredCavilassetgkwn 1046
+                           ++++L++ ++++++++l sl++      + WiGL+d ++e++++W  +++ + qy++wa gep+  n  ++ e+C++++  ++tg+w+
+  Ccrux.Trinity.16464    1 MNGQLATADNEKQNRALGSLIQ---TASGAWIGLNDITKERKYTWNYESSSS-QYEAWATGEPNnfNRgCNVENCVMME--AKTGSWS 82  
+                           689*****************74...4699****************8777777.9**********6633799*******9..5****** PP
+
+       human_Clectins 1047 desCserklgliCektae 1064
+                           d  C+ +   ++Cek   
+  Ccrux.Trinity.16464   83 DVICNMNL-AFVCEKSLL 99  
+                           ******86.*****9865 PP
+
+  == domain 2  score: 68.0 bits;  conditional E-value: 1.4e-21
+       human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq..ysnwapgeps. 1025
+                            C+ f ++ k w++a  +C+s g++L+ i+++++++ +++l        + WiG++d+ + ++f W  ++ ++++  y nw++gep+ 
+  Ccrux.Trinity.16464  114 RCFRFEKQPKRWTDAVLYCQSVGGKLARIHNRKDNDIVMKLS-----IGNTWIGVNDKWEAGSFVWSGDNDTDASasYFNWRSGEPNd 196 
+                           5****************************************2.....3468***************97666665345**********8 PP
+
+       human_Clectins 1026 .........nsgsredCavilassetgkwndesCserklgliCektaevls 1067
+                                    +s+s edC+ i++++++ +w+d +C+++   +iC+kt e   
+  Ccrux.Trinity.16464  197 khfnsaefgSSCSGEDCVQIKNLQDKIGWYDLDCQTQL-PFICQKTNESFR 246 
+                           88866655555*************************86.******998655 PP
+
+>> Ccrux.Trinity.52176  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   1.4      0.13   1.3e+02    1029    1067 ..       4      42 ..       1      96 [. 0.82
+   2 !   61.7   3.2   1.1e-19   1.2e-16     927    1069 ..     133     268 ..      85     279 .. 0.84
+   3 !   52.6   1.1   6.3e-17   6.7e-14     929    1064 ..     319     452 ..     293     461 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 1.9 bits;  conditional E-value: 0.13
+       human_Clectins 1029 sredCavilassetgkwndesCserklgliCektaevls 1067
+                           + e+C+ ++++ ++ ++ d  C++++ ++iC++++++  
+  Ccrux.Trinity.52176    4 QVENCVWMEQNVNPPTFHDILCHTQNSRFICNYPITIEA 42  
+                           5699****9888********************9986554 PP
+
+  == domain 2  score: 61.7 bits;  conditional E-value: 1.1e-19
+       human_Clectins  927 asspCpkgWisfqnkCylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                              +C+ ++++f+++C+l++  +   t++ea e+C+++ga+L++i sqee+  l ++   ++ +  +WiGL  ++s  + +W+dg+ +
+  Ccrux.Trinity.52176  133 LVPQCSAPFTYFNSSCWLIKddSPVGTFQEAHEYCQGQGASLASILSQEENLYLSENA--VSPNNMYWIGLVYDESTASLSWTDGSLV 218 
+                           5568***************84444579******************************3..344889*********************9 PP
+
+       human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserk.lgliCektaevlsre 1069
+                           +    ++ +g+ps+s   ++Ca+++    +  w+ + C+  + + ++C+++++++ +e
+  Ccrux.Trinity.52176  219 E---FKSLSGSPSTSD-GKHCATFS----ASIWYMTLCDPGNlNAILCKMPQAIVLEE 268 
+                           9...477899999986.8******6....78999999996441678899998877664 PP
+
+  == domain 3  score: 52.6 bits;  conditional E-value: 6.3e-17
+       human_Clectins  929 spCpkgWisfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq 1015
+                             C +++  ++ +C+ +  +s  + ++a+ +C + ga L++i+s+ee af+  l +++++ ++++iG+ ++ + +++ W dgt  +  
+  Ccrux.Trinity.52176  319 LRCNNSYVLNGTSCWRLdNRSIASKTTARSNCNQDGADLATIKSEEETAFIATLFNESKNLTYYYIGMDNTVDVNEYVWDDGTGSEMM 406 
+                           569999***********8899*********************************9999999*********************997766 PP
+
+       human_Clectins 1016 ysnwapgepsnsgsredCavilassetgkwndesCserk.lgliCektae 1064
+                           ysnwap +p+ ++   +C+++    e+g w d +C   + ++ +C++t++
+  Ccrux.Trinity.52176  407 YSNWAPHYPNRTN-GVRCVAVM---EPGLWVDIECAAATqISGLCKYTIA 452 
+                           **********886.89*****9...9*******99865416779998865 PP
+
+>> Ccrux.Trinity.16465  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   77.8  14.2   1.6e-24   1.7e-21     879    1064 ..      32     245 ..       8     258 .. 0.71
+   2 !   22.0   0.0   1.1e-07   0.00011     941     998 ..     260     312 ..     251     323 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 77.8 bits;  conditional E-value: 1.6e-24
+       human_Clectins  879 qllswateevrtldaecvyltaktg.............................rllwkalk..vklp.lcqr..kketpkaasspCp 932 
+                           ++++w+  ++ +++++   +  ++g                             ++ w  ++    ++  + +    + + ++ + Cp
+  Ccrux.Trinity.16465   32 NVITWKKDSQFIQSNS--RMHMSEGrlhisdisledgayyeveiinkdknvverTDFWLNVRgcR-DNeAE-EssGTSCNPSCVEKCP 115 
+                           4555552222222222..11111122344444444445544444444444666656666666531.22122.13433444477789** PP
+
+       human_Clectins  933 kgWis..fqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysn 1018
+                           ++W++   ++kCy   +  ktw+ ++++C+ ++++L++ ++++++++l sl++      + WiGL+d ++e++++W  +++ + qy++
+  Ccrux.Trinity.16465  116 SDWLYesSGSKCYKYVSTLKTWQLSQRECSTMNGQLATADNEKQNRALGSLIQ---TASGAWIGLNDITKERKYTWNYESSSS-QYEA 199 
+                           ***8622568*****************************************74...4699****************8777777.9*** PP
+
+       human_Clectins 1019 wapgeps..ns.gsredCavilassetgkwndesCserklgliCektae 1064
+                           wa gep+  n  ++ e+C++++  ++tg+w+d  C+ +   ++Cek   
+  Ccrux.Trinity.16465  200 WATGEPNnfNRgCNVENCVMME--AKTGSWSDVICNMNL-AFVCEKSLL 245 
+                           *******6633799*******9..5************96.*****9865 PP
+
+  == domain 2  score: 22.0 bits;  conditional E-value: 1.1e-07
+       human_Clectins 941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdr 998
+                           C+ f ++ k w++a  +C+s g++L+ i+++++++ +++l        + WiG++d+
+  Ccrux.Trinity.16465 260 RCFRFEKQPKRWTDAVLYCQSVGGKLARIHNRKDNDIVMKLS-----IGNTWIGVNDK 312
+                          5****************************************2.....3468****995 PP
+
+>> Ccrux.Trinity.21184  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.1   1.1e-27   1.2e-24     924    1062 ..     770     907 ..     698     913 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.1e-27
+       human_Clectins  924 pkaasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkW 1006
+                            +  ++ C+ gW++f+++     Cy +++   +w+ a+++C   +a L++i++  eq+f+ + l        +W+GL+d++se+++ W
+  Ccrux.Trinity.21184  770 GDGSKELCKPGWLKFEDTaeglaCYKVKDNYFNWHGARDDCLTNQADLLSITTNTEQNFVSHKLL---AGNFMWLGLTDKDSEGRWAW 854 
+                           4577899********98555555***************************************963...3579**************** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCekt 1062
+                            d+t+++  ++nw  g+p+  +  ++edCa+++    +gkwnd +C+++ +++iC+++
+  Ccrux.Trinity.21184  855 SDNTTTS-AFRNWDGGDPNdgGYLHNEDCALLK---PDGKWNDYPCEDK-FKYICKRK 907 
+                           *****99.999********665589*******9...99**********7.6****975 PP
+
+>> Ccrux.Trinity.21187  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.1   1.1e-27   1.2e-24     924    1062 ..     770     907 ..     698     913 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.1e-27
+       human_Clectins  924 pkaasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkW 1006
+                            +  ++ C+ gW++f+++     Cy +++   +w+ a+++C   +a L++i++  eq+f+ + l        +W+GL+d++se+++ W
+  Ccrux.Trinity.21187  770 GDGSKELCKPGWLKFEDTaeglaCYKVKDNYFNWHGARDDCLTNQADLLSITTNTEQNFVSHKLL---AGNFMWLGLTDKDSEGRWAW 854 
+                           4577899********98555555***************************************963...3579**************** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCekt 1062
+                            d+t+++  ++nw  g+p+  +  ++edCa+++    +gkwnd +C+++ +++iC+++
+  Ccrux.Trinity.21187  855 SDNTTTS-AFRNWDGGDPNdgGYLHNEDCALLK---PDGKWNDYPCEDK-FKYICKRK 907 
+                           *****99.999********665589*******9...99**********7.6****975 PP
+
+>> Ccrux.Trinity.21188  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.1   1.1e-27   1.2e-24     924    1062 ..     770     907 ..     698     913 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1.1e-27
+       human_Clectins  924 pkaasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkW 1006
+                            +  ++ C+ gW++f+++     Cy +++   +w+ a+++C   +a L++i++  eq+f+ + l        +W+GL+d++se+++ W
+  Ccrux.Trinity.21188  770 GDGSKELCKPGWLKFEDTaeglaCYKVKDNYFNWHGARDDCLTNQADLLSITTNTEQNFVSHKLL---AGNFMWLGLTDKDSEGRWAW 854 
+                           4577899********98555555***************************************963...3579**************** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCekt 1062
+                            d+t+++  ++nw  g+p+  +  ++edCa+++    +gkwnd +C+++ +++iC+++
+  Ccrux.Trinity.21188  855 SDNTTTS-AFRNWDGGDPNdgGYLHNEDCALLK---PDGKWNDYPCEDK-FKYICKRK 907 
+                           *****99.999********665589*******9...99**********7.6****975 PP
+
+>> Ccrux.Trinity.71459  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.7   0.2     2e-12   2.1e-09    1001    1061 ..       4      61 ..       1      65 [. 0.94
+   2 !   50.7   0.5   2.4e-16   2.6e-13     927    1001 ..      64     143 ..      61     144 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 37.7 bits;  conditional E-value: 2e-12
+       human_Clectins 1001 ekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                           e++f W+dg +++  y+nw p epsns   edC+ +++  ++g+w+d+ C++r+  +iCek
+  Ccrux.Trinity.71459    4 EGHFFWIDGLEFN--YTNWGPDEPSNSFGVEDCVEMKSVVNPGTWSDNICTKRQ-PYICEK 61  
+                           789**********..************99*******9877*************8.*****8 PP
+
+  == domain 2  score: 50.7 bits;  conditional E-value: 2.4e-16
+       human_Clectins  927 asspCpkgWisfqnkCylf.s..essktwseaeeaCise.gatLvkiqsqeeqafltsllkdmtg.elelWiGLsdrase 1001
+                            +s+Cp++Wis++++Cy++ s  e++k+w++a+ +C+s  ga Lv+i++ +eq  l++  +dm   +  +W+GL+d ++e
+  Ccrux.Trinity.71459   64 GQSMCPENWISYKSSCYQInShpEQKKSWESARLSCTSFdGADLVTIDTIKEQLMLVQAFNDMGIeNSFFWTGLNDIRKE 143 
+                           689****************5589999************73689************99998888434999******97776 PP
+
+>> Ccrux.Trinity.8191  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.1   6.1     2e-26   2.1e-23     912    1061 ..      25     178 ..       3     179 .] 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 84.1 bits;  conditional E-value: 2e-26
+      human_Clectins  912 vklpl.cqrkketpkaasspCpkgWisf..qnkCylfsessktwseaeeaCiseg..atLvkiqsqeeqafltsllkdmtgelelWiGL 995 
+                          ++ ++ c   ++  k   + Cp gW+ +  +++Cy  +  +ktw+ ++++C+  g  ++L++i+s +eq+    ll d  ++ ++WiGL
+  Ccrux.Trinity.8191   25 MSVNYtCI-EDTDAKGMTKDCPDGWTTLprHSTCYKTFYLKKTWEGSSRFCKAFGnsSNLISINSMNEQMIANTLLVDAVDTDDIWIGL 112 
+                          22224344.4566779999******87644789*******************8774479****************999999******** PP
+
+      human_Clectins  996 sdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCek 1061
+                          +d+ s +++kW+dg+p++  ++nw +g+p++s ++++Ca+++  +   +  +w+d++Cs+++ g+iCe+
+  Ccrux.Trinity.8191  113 NDKMSRGTYKWIDGSPVT--FTNWYNGQPDDSARSSSCAAMHFDNgyqSFPRWSDRDCSDKH-GFICEM 178 
+                          ******************..*********************9877999778*********98.****97 PP
+
+>> Ccrux.Trinity.55921  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.0   0.3   4.3e-26   4.6e-23     922    1065 ..     288     428 ..     190     445 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 83.0 bits;  conditional E-value: 4.3e-26
+       human_Clectins  922 etpkaasspCpkgWisfqnk....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfk 1005
+                            t+ +  ++Cp  W +f nk    Cy +  +  +ws+a ++C++e+++L++i+++eeq+f+++++   + +  +WiG++d+++e++++
+  Ccrux.Trinity.55921  288 LTQVSSIQQCPVLWRKFDNKgspyCYRLIAKFLSWSDALDFCEQEDSSLLSIANEEEQEFVLDTV---KLNGFVWIGMNDQKTEGSYS 372 
+                           35668889***********99999****************************************4...44889*************** PP
+
+       human_Clectins 1006 Wvdgtplasqysnwapgepsns..gsredCavilassetgkwndesCserklgliCektaev 1065
+                           W+d+ + +  y+nw++ge  ++   + edC ++     +g+w  ++C +++  +iC+k+   
+  Ccrux.Trinity.55921  373 WTDNLHSN--YTNWKKGESYDEvqMHYEDCTTMD---REGSWFMANCANKN-FFICKKKLPK 428 
+                           ***99999..*******9996666889******9...99**********86.*****99754 PP
+
+>> Ccrux.Trinity.15495  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.7   0.1   5.2e-26   5.5e-23     929    1061 ..      13     136 ..      10     173 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 82.7 bits;  conditional E-value: 5.2e-26
+       human_Clectins  929 spCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqy 1016
+                           ++Cp+g++  ++ Cy ++++s++w++a  +C  + ++Lv+++s ee+ f+ s+l+        WiGL+dr se++f+Wvdg pl+  +
+  Ccrux.Trinity.15495   13 GTCPQGYQASGYYCYKIFTESRSWKDAVFQCNAQRGSLVSVTSDEENFFVSSMLQTH-TVSRTWIGLNDRLSEGSFTWVDGMPLS--F 97  
+                           68***************************************************9886.5999***********************..7 PP
+
+       human_Clectins 1017 snwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                             w    p  sg +++C++++   ++ +w d++C +r   +iC++
+  Ccrux.Trinity.15495   98 NGWLT--PPRSGVDKNCVMLS---SDLGWVDSPCINRM-PFICKT 136 
+                           76665..6778899******9...99**********96.****96 PP
+
+>> Ccrux.Trinity.2131  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   80.0   8.4   3.4e-25   3.6e-22     729    1062 ..     513     899 ..     367     909 .. 0.48
+
+  Alignments for each domain:
+  == domain 1  score: 80.0 bits;  conditional E-value: 3.4e-25
+      human_Clectins  729 ldededsyqklfwiglnkrspenkgpnaasstqwsdrlpvstaredlrncaalklkialatlelltlllwvvipkgrtpkleda..... 812 
+                           d+ + + ++   ig +++ ++ +++na  s++  + ++ +  ++   n   +  k+  ++ ++        i +++  k e+      
+  Ccrux.Trinity.2131  513 ADHGNATVNAS--IGSQHKHNASNEKNAYTSLN--ETASARNSNS-TSNRTLVASKMLQRNVTV-------SITENVALKREGSrlrgv 589 
+                          22222223332..33333333333333333332..1222222221.111111111222222222.......222222222222211111 PP
+
+      human_Clectins  813 ..reeqellrlilegeeaflaelkeelenaealcss.....hselaeI.......qvelealkekiqklkeqewwik............ 875 
+                            r++q++l+++l+ +++++ ++  e+ +++ +  +     +     I       + ++++l++   +++ +   +k            
+  Ccrux.Trinity.2131  590 klRNKQSGLKENLRRKSQES-NT-REMLQFRDIARKnlgrkQ-----IdelrmlfFNHQKSLGKGNRTFAASGNSVKrfelpgslalrn 671 
+                          22333334444433333333.11.122222222222233221.....222233444444666666665555555555666666666666 PP
+
+      human_Clectins  876 ...tdgqllswateevrt......ldaecvyltaktg...................................rllwkalkvklplcqr. 919 
+                             +++ ll  +t +++                 + g                                   r              r 
+  Ccrux.Trinity.2131  672 sfnMRDILLAYSTLNPSEksqfltT-------VHQGGdevsssnslsegdawekpavsrsgdygsdasetspR--------------Rn 739 
+                          6664444444343333331121211.......11111333333334444434444433333333222222220..............02 PP
+
+      human_Clectins  920 ..................kketpkaasspCpkgWisfqnk.CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgel 989 
+                                              e p+   +  +   +  +++ ++ + ++s tw+ea+++C+s+g+ Lv+i  +ee +f+t+++ +     
+  Ccrux.Trinity.2131  740 sshgdvfpetadgdkknkVGELPEGLTGAMSY-TNRDGREfLFAVGTESLTWAEARTKCKSHGGDLVSIGDKEEHEFVTMNVVPE--PG 825 
+                          22223333333444222333444333333322.2222333134446***********************************8777..88 PP
+
+      human_Clectins  990 elWiGLsdrasekpfkWvdgtplasqysnwapgeps.......nsgsredCavilassetgkwndesCserklgliCekt 1062
+                          ++WiG +d+a e++++W+dgtp+   +snw+++ep+       ++ ++edCa+++    t  w+d +C +++ ++iC+ +
+  Ccrux.Trinity.2131  826 NYWIGFTDQAIEGTWEWTDGTPVR--FSNWSNLEPDdgnmksgEAAHNEDCAILQ---RTLDWSDVPCWSKY-KYICKLY 899 
+                          ************************..**********98875544499*******9...9***********86.****965 PP
+
+>> Ccrux.Trinity.53208  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   3.3   3.7e-25   3.9e-22     222     366 ..      43     187 ..      40     208 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 3.7e-25
+       human_Clectins 222 kwGfCpkkengcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkeklesitki...lWiglNdlssaagwq 308
+                           +G   k +  c + W kd+ +++cY       L+W+ a++ c +Q+adL+S    aE  y++ +++ +++    +W+glNd ++   + 
+  Ccrux.Trinity.53208  43 LYGCLAKATSKCGQTWIKDPASGSCYHVGH-ERLAWQSARANCLMQNADLVSFRTKAEMSYVERLVQNYSSRyheFWLGLNDRDNDDIYR 131
+                          6776666779****************9876.578***************************99988877764445*********9999** PP
+
+       human_Clectins 309 wsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnntsi 366
+                          wsd +p+   N    +   +    c ++  + sg w    c+ kLpY+c+kk n+ + 
+  Ccrux.Trinity.53208 132 WSDGSPFSVVNDRGRRT-RQDFMDCTSI-RTISGTWIYNVCSRKLPYLCRKKGNADNY 187
+                          ***********555555.4444556665.57899*****************9987544 PP
+
+>> Ccrux.Trinity.63471  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.9   0.7   6.6e-15   7.1e-12     991    1081 ..       3      86 ..       1      90 [. 0.82
+   2 !   33.8   0.0     3e-11   3.2e-08     923     967 ..      85     129 ..      75     130 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 45.9 bits;  conditional E-value: 6.6e-15
+       human_Clectins  991 lWiGLsdrasekpfkWvdgtplasqysnw..apgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlals 1076
+                           +WiGLsd+  e+++ W d+++l+  ++nw  ++gep+n g +edC  i+    +g+w ++ C ++ +g+iC+++++   +   t+++ 
+  Ccrux.Trinity.63471    3 FWIGLSDQGVEGTYVWSDKSNLN--FTNWntKSGEPDNGGGNEDCTEIH---GNGTWTNNGCFRE-FGYICKRRKDAITP---TTTAL 81  
+                           9********************99..6666115788889999*******9...89**********8.5********99988...33344 PP
+
+       human_Clectins 1077 napet 1081
+                           ++p t
+  Ccrux.Trinity.63471   82 QTPTT 86  
+                           55554 PP
+
+  == domain 2  score: 33.8 bits;  conditional E-value: 3e-11
+       human_Clectins 923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLv 967
+                          t ++++  C+ gW++f+++Cy f  s ++w+ea+e+C+ +g+tLv
+  Ccrux.Trinity.63471  85 TTNTDPVICEVGWKPFGGSCYKFVLSYRSWTEAKEDCETRGGTLV 129
+                          3458999*************************************8 PP
+
+>> Ccrux.Trinity.15969  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.8   0.4   1.3e-23   1.4e-20     920    1062 ..     207     347 ..      84     365 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 74.8 bits;  conditional E-value: 1.3e-23
+       human_Clectins  920 kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWv 1007
+                                ++++  Cp gW  ++++Cy ++++  +w ++ ++C   +++Lv+++  +e   +  l+++  g  ++WiGLsd a ++++++v
+  Ccrux.Trinity.15969  207 TGAGDNECQYKCPDGWETAGCACYRLFKDLTSWPDSVDRCNVLKGSLVSVEDANEDTTIRGLVTKN-GVKGVWIGLSDYANKGTYQFV 293 
+                           33445678999***************************************************8775.79******************* PP
+
+       human_Clectins 1008 dgtplasqysnwapgeps.....nsgsredCavilassetgkwndesCserklgliCekt 1062
+                           dg+p+   ys+w     +     ++++r +C + +    t++w+ ++C+e++  +iC+++
+  Ccrux.Trinity.15969  294 DGSPYV--YSAWTYDAYNwvamhPNENRGKCIFHN---GTQGWEYKECTEKR-PFICKMR 347 
+                           ****99..777777766676666667899***998...8***********87.****986 PP
+
+>> Ccrux.Trinity.59807  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.7   1.9   1.3e-23   1.4e-20     922    1063 ..      29     167 ..       2     173 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 74.7 bits;  conditional E-value: 1.3e-23
+       human_Clectins  922 etpkaasspCpkgWisfqnkCylfs...essktwseaeeaCis.egatLvkiqsqeeqafltsl.lkdmtgelelWiGLsdr.asekp 1003
+                           +   ++ s Cp gWi+++n+Cy       +  + ++ae++C+   g++L++i+s++e++fl ++  +   +  +lWiGL++r +s ++
+  Ccrux.Trinity.59807   29 SPLVPDASRCPFGWIYYNNACYHAAkglFDYGNQTTAEQYCTLvDGGHLASINSKAENDFLWKTfYQCGIKRNNLWIGLNNRmRSGED 116 
+                           444578899**************97467566799*******973589**************999633334599******986256688 PP
+
+       human_Clectins 1004 fkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                            +W+dg+p++  ++n ++g    + s+++C+ +    + g w +e+C +r+ g++C+ ++
+  Ccrux.Trinity.59807  117 PNWTDGSPFT--FKNLKQG---FNASAKHCVQMT---SGGHWIQEDCGSRY-GYLCKLKI 167 
+                           9*********..9887776...456689*****9...9***********97.****9765 PP
+
+>> Ccrux.Trinity.3561  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   0.3     1e-22   1.1e-19     927    1064 ..      40     167 ..      14     187 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 71.8 bits;  conditional E-value: 1e-22
+      human_Clectins  927 asspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq 1015
+                          + s C ++W  +++kCy + +    + +a ++C+++ ++Lv+i+s+ee++f+++l+k +t++ e WiGL+++    p +Wvd t ++  
+  Ccrux.Trinity.3561   40 ETSAC-SDWHGYGEKCYKVLPTFDYFDTADKTCQQHHGHLVSIHSEEENKFVYELIKLYTRDKEAWIGLRKQHFRLPVSWVDYTDVD-- 125 
+                          56778.8****************************************************************9999************.. PP
+
+      human_Clectins 1016 ysnwapgepsnsgsredCavilassetgkwndesCserklgliCektae 1064
+                          y+nw p   s + ++ +C  +      g w+ + C  ++ +++C++ + 
+  Ccrux.Trinity.3561  126 YTNWIP---SATPEDGRCTGMI---PGGYWSGNICFYQR-QSVCKRDKP 167 
+                          *****9...5666789***999...99**********97.****98764 PP
+
+>> Ccrux.Trinity.3563  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   71.8   0.3     1e-22   1.1e-19     927    1064 ..      40     167 ..      14     187 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 71.8 bits;  conditional E-value: 1e-22
+      human_Clectins  927 asspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq 1015
+                          + s C ++W  +++kCy + +    + +a ++C+++ ++Lv+i+s+ee++f+++l+k +t++ e WiGL+++    p +Wvd t ++  
+  Ccrux.Trinity.3563   40 ETSAC-SDWHGYGEKCYKVLPTFDYFDTADKTCQQHHGHLVSIHSEEENKFVYELIKLYTRDKEAWIGLRKQHFRLPVSWVDYTDVD-- 125 
+                          56778.8****************************************************************9999************.. PP
+
+      human_Clectins 1016 ysnwapgepsnsgsredCavilassetgkwndesCserklgliCektae 1064
+                          y+nw p   s + ++ +C  +      g w+ + C  ++ +++C++ + 
+  Ccrux.Trinity.3563  126 YTNWIP---SATPEDGRCTGMI---PGGYWSGNICFYQR-QSVCKRDKP 167 
+                          *****9...5666789***999...99**********97.****98764 PP
+
+>> Ccrux.Trinity.3565  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.5   0.3   2.6e-22   2.7e-19     930    1064 ..      20     144 ..      17     165 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 70.5 bits;  conditional E-value: 2.6e-22
+      human_Clectins  930 pCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysn 1018
+                           C ++W  +++kCy + +    + +a ++C+++ ++Lv+i+s+ee++f+++l+k +t++ e WiGL+++    p +Wvd t ++  y+n
+  Ccrux.Trinity.3565   20 AC-SDWHGYGEKCYKVLPTFDYFDTADKTCQQHHGHLVSIHSEEENKFVYELIKLYTRDKEAWIGLRKQHFRLPVSWVDYTDVD--YTN 105 
+                          56.89***************************************************************9999************..*** PP
+
+      human_Clectins 1019 wapgepsnsgsredCavilassetgkwndesCserklgliCektae 1064
+                          w p   s + ++ +C  +      g w+ + C  ++ +++C++ + 
+  Ccrux.Trinity.3565  106 WIP---SATPEDGRCTGMI---PGGYWSGNICFYQR-QSVCKRDKP 144 
+                          **9...5666789***999...99**********97.****98764 PP
+
+>> Ccrux.Trinity.59074  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   1.0   3.1e-22   3.3e-19     929    1063 ..       5     140 ..       3     164 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 70.2 bits;  conditional E-value: 3.1e-22
+       human_Clectins  929 spCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl..lkdmtgelelWiGLsdrase..kpfkWvdgtpl 1012
+                           + C+ gW+ f++ Cy+f ++  +ws+a+ +C+s++++Lv+i s+ +qaf+  +  + +   +++ WiG + ++++  + ++W+dg+p+
+  Ccrux.Trinity.59074    5 GECKVGWLEFGGVCYQFNSEVLSWSAAKIKCQSQQGSLVSIVSSVQQAFVHLNigMFGL--NRTTWIGFKLDRYSslDVYNWTDGSPV 90  
+                           57***************************************************555555..9******988777777889******** PP
+
+       human_Clectins 1013 asqysnwapgeps.....nsgsredCavilassetgkwndesCserklgliCekta 1063
+                              ++nw + ep       s++r+ C ++     +g w  +sC e++  + C +++
+  Ccrux.Trinity.59074   91 L--FTNWGRKEPIytyyrFSYRRQYCTSFM---VNGMWHLKSCYESH-ACACIQPK 140 
+                           *..**********766555599*******9...89**********98.88887665 PP
+
+>> Ccrux.Trinity.67573  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.3   1.2   2.3e-21   2.4e-18     929    1062 ..      39     173 ..      17     180 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 67.3 bits;  conditional E-value: 2.3e-21
+       human_Clectins  929 spCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl..........lkdmtgelelWiGLsdrasekpfkW 1006
+                            +C kg+  ++n Cy++ +++ +w++a  +C  + ++Lv+    +e  f++ l          ++d  + + +WiGL++ ++ ++ +W
+  Ccrux.Trinity.67573   39 PVCRKGFVLHNNHCYFVNTARLSWNDALWQCYRKSSSLVSLLDAKEFLFVYGLanaapglvdiTQDF-EGRRIWIGLRK-NQTGSLEW 124 
+                           57***************************************************99999976655554.5899******9.99999*** PP
+
+       human_Clectins 1007 vdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekt 1062
+                            dg+p++  ys+w +   s+++ + +C+ ++    ++ w+++sC+++   ++C++ 
+  Ccrux.Trinity.67573  125 KDGSPFN--YSAWPS---SPKNAPGNCVEMRF-YRNQAWYNASCTSKL-ASVCKYD 173 
+                           *******..***998...4556679*****84.5889*********85.****974 PP
+
+>> Ccrux.Trinity.67409  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.3   5.1   7.4e-20   7.9e-17     916    1063 ..      24     163 ..       1     167 [] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 62.3 bits;  conditional E-value: 7.4e-20
+       human_Clectins  916 l.cqrkketpkaasspCpkgWisfqnkCylf.s...essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdr 998 
+                           + c ++   +++   +C  g+  ++ +C+ + s   + +  w++a++ C++++++L++i++++e+ f+  +l   t++ +++iGL+dr
+  Ccrux.Trinity.67409   24 YiCRKP---SNHFTFQCDHGFELHGMTCWHVeSrgnRTELDWEDANRWCQEHDSKLATINNEDENSFINLNL---TESGSYFIGLTDR 105 
+                           445554...3466789***************5588878899******************************8...6678********* PP
+
+       human_Clectins  999 asekpfkWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCekta 1063
+                            +e+ ++Wv g+  +  +++wa+g p++ g +++C+v++    +g+w + +Cs     ++C++++
+  Ccrux.Trinity.67409  106 MTEGVYEWVGGSGSN--FTAWANGPPNQDG-AKNCVVMR----NGEWLNVNCSYIVDEILCKYEI 163 
+                           *************99..*******999987.9******6....8***********99****9876 PP
+
+>> Ccrux.Trinity.60373  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.4   7.0   3.4e-20   3.6e-17     938    1066 ..      11     134 ..       1     155 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 63.4 bits;  conditional E-value: 3.4e-20
+       human_Clectins  938 fqnkCylfs..essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapge 1023
+                           + ++C+lf   ++  tw+ a+ +C ++g++L +i++ ee + +  ++  ++g  ++WiGL+d+++e++f+Wvdg ++   y++w    
+  Ccrux.Trinity.60373   11 LPYTCWLFVedSEASTWTVAQANCRQKGSNLTSIRNYEEYKWVRFNILMTNGLDYYWIGLTDSRTEGNFQWVDGASMV--YTPWLTQP 96  
+                           567899997557788****************************99955556699************************..******87 PP
+
+       human_Clectins 1024 psnsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                           ++++g ++dC++++    + +w + +Cs +  + iC + +  +
+  Ccrux.Trinity.60373   97 VDHTG-NSDCVYMN----SVGWHNIPCSIQLSRHICRYDIVLS 134 
+                           77776.*******5....89****************9887444 PP
+
+>> Ccrux.Trinity.63289  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   1.5   7.3e-10   7.8e-07    1131    1202 ..      14      84 ..       2      97 .. 0.82
+   2 !   34.7   0.0   1.6e-11   1.7e-08     931    1006 ..     138     211 ..     136     212 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 7.3e-10
+       human_Clectins 1131 lnsslwIglfsqddelnfgWsDgkrlrftrWaeeegdlledCvyldadgfwktvdCndnlqGaiCevsgeet 1202
+                            +++ +Igl  + ++  f W Dg  + f +W+  +++  e+C +++ d + ++ +C+d+   aiC+++  +t
+  Ccrux.Trinity.63289   14 YRKKQYIGLRYNSNNDSFYWIDGSEVTFLEWKSGNPKPNEQCTVAK-DEVFESEKCEDEETRAICKYTIGIT 84  
+                           5778899999999999999999999999999999999999999875.7889999999999999999985554 PP
+
+  == domain 2  score: 34.7 bits;  conditional E-value: 1.6e-11
+       human_Clectins  931 CpkgWisfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkW 1006
+                           C +g++  +++C+++ s+ + +w +a+++C + gatL+ i++++++  +t++l+      ++ iG+ dr  e++++W
+  Ccrux.Trinity.63289  138 CNTGFTLISQQCWYIySDIWLSWIAANNKCMEDGATLAIIRNEKDLLSITAMLPT---VHNYHIGVDDRLNEGDYRW 211 
+                           999*********99989***********************************855...699**************** PP
+
+>> Ccrux.Trinity.8190  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   0.1   2.4e-17   2.5e-14     987    1061 ..      12      86 ..       2      87 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 2.4e-17
+      human_Clectins  987 gelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass...etgkwndesCserklgliCek 1061
+                          ++ ++WiGL+d+ s +++kW+dg+p++  ++nw +g+p++s ++++Ca+++  +   +  +w+d++Cs+++ g+iCe+
+  Ccrux.Trinity.8190   12 DTDDIWIGLNDKMSRGTYKWIDGSPVT--FTNWYNGQPDDSARSSSCAAMHFDNgyqSFPRWSDRDCSDKH-GFICEM 86  
+                          46799**********************..*********************9877999778*********98.****97 PP
+
+>> Ccrux.Trinity.2403  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.2   4.8   1.3e-15   1.4e-12     177     236 ..     144     202 ..     121     226 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 48.2 bits;  conditional E-value: 1.3e-15
+      human_Clectins 177 ikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkkengcedl 236
+                           GNs  + c fPF+y + ++  Ct ++ e + WCaTT +Y+ D++wGfC +   g+e  
+  Ccrux.Trinity.2403 144 YGGNSENNCCVFPFLYKDVFYSKCTTTDGE-QSWCATTPNYNDDKQWGFCSDDGFGSELS 202
+                         46***********************98665.67******************999999865 PP
+
+>> Ccrux.Trinity.29253  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.8   3.1   3.5e-15   3.8e-12     174     227 ..      73     125 ..      64     128 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 46.8 bits;  conditional E-value: 3.5e-15
+       human_Clectins 174 lyTikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCp 227
+                          + T +GNs+G  c fPF y+ k + +C++ g     WCaTT +Y+kD kwG+C 
+  Ccrux.Trinity.29253  73 VLTSQGNSNGSACVFPFTYQSKSYTGCVR-GSLFRYWCATTGNYDKDGKWGYCV 125
+                          6799***********************97.555789*****************6 PP
+
+>> Ccrux.Trinity.29254  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   3.1   3.4e-15   3.7e-12     174     227 ..      73     125 ..      64     128 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 3.4e-15
+       human_Clectins 174 lyTikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCp 227
+                          + T +GNs+G  c fPF y+ k + +C++ g     WCaTT +Y+kD kwG+C 
+  Ccrux.Trinity.29254  73 VLTSQGNSNGSACVFPFTYQSKSYTGCVR-GSLFRYWCATTGNYDKDGKWGYCV 125
+                          6799***********************97.555789*****************6 PP
+
+>> Ccrux.Trinity.15496  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   0.1   4.3e-15   4.6e-12     929     998 ..      13      81 ..      10      86 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 4.3e-15
+       human_Clectins 929 spCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdr 998
+                          ++Cp+g++  ++ Cy ++++s++w++a  +C  + ++Lv+++s ee+ f+ s+l+        WiGL+dr
+  Ccrux.Trinity.15496  13 GTCPQGYQASGYYCYKIFTESRSWKDAVFQCNAQRGSLVSVTSDEENFFVSSMLQTH-TVSRTWIGLNDR 81 
+                          68***************************************************9886.5999******95 PP
+
+>> Ccrux.Trinity.12302  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.8   6.0   3.1e-08   3.3e-05     181     235 ..       4      59 ..       2      63 .. 0.78
+   2 !   24.7   0.9   1.6e-08   1.7e-05     183     227 ..      65     110 .]      61     110 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 23.8 bits;  conditional E-value: 3.1e-08
+       human_Clectins 181 syGkpcefPFky..dnkWhh..dCtsdgresllWCaTTldYekDekwGfCpkkengced 235
+                          + G  c fPF++  d+ +h   +Ct   +++++WCaTT+++  D  +G+C +  + ce+
+  Ccrux.Trinity.12302   4 TDGCCCVFPFQIpvDEGYHTvqQCTTF-QSEQPWCATTSNFPSDGLYGICET--DACET 59 
+                          67999******8556777743367755.4589******************64..56776 PP
+
+  == domain 2  score: 24.7 bits;  conditional E-value: 1.6e-08
+       human_Clectins 183 GkpcefPFkydnkWhhdCtsdgre.sllWCaTTldYekDekwGfCp 227
+                          G  c fPF y++    +C+      +  +C+ T++Y++D ++GfCp
+  Ccrux.Trinity.12302  65 GDCCVFPFIYNGIQRSECVPYPIGtGRTFCGLTSNYDRDLQFGFCP 110
+                          899****************999888********************8 PP
+
+>> Ccrux.Trinity.12300  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   5.9   1.4e-07   0.00015     181     235 ..     150     205 ..     141     210 .. 0.79
+   2 !   26.3   2.3   5.5e-09   5.8e-06     183     234 ..     211     263 ..     208     267 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 1.4e-07
+       human_Clectins 181 syGkpcefPFky..dnkWhh..dCtsdgresllWCaTTldYekDekwGfCpkkengced 235
+                          + G  c fPF++  d+ +h   +Ct   +++++WCaTT+++  D  +G+C +  + ce+
+  Ccrux.Trinity.12300 150 TDGCCCVFPFQIpvDEGYHTvqQCTTF-QSEQPWCATTSNFPSDGLYGICET--DACET 205
+                          67999******8556777743367755.4589******************64..56766 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 5.5e-09
+       human_Clectins 183 GkpcefPFkydnkWhhdCtsdgre.sllWCaTTldYekDekwGfCpkkengce 234
+                          G  c fPF y++    +C+      +  +C+ T++Y++D ++GfCp  + +c+
+  Ccrux.Trinity.12300 211 GDCCVFPFIYNGIQRSECVPYPIGtGRTFCGLTSNYDRDLQFGFCPPGTYDCD 263
+                          899****************999888**************************98 PP
+
+>> Ccrux.Trinity.16459  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   1.1   3.5e-13   3.7e-10     991    1068 ..       8      96 ..       4     159 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 3.5e-13
+       human_Clectins  991 lWiGLsdrasekpfkWvdgtplasq..ysnwapgeps..........nsgsredCavilassetgkwndesCserklgliCektaevl 1066
+                            WiG++d+ + ++f W  ++ ++++  y nw++gep+          +s+s edC+ i++++++ +w+d +C+++   +iC+kt e  
+  Ccrux.Trinity.16459    8 TWIGVNDKWEAGSFVWSGDNDTDASasYFNWRSGEPNdkhfnsaefgSSCSGEDCVQIKNLQDKIGWYDLDCQTQL-PFICQKTNESF 94  
+                           7***************97666665345**********888866655555*************************86.******99866 PP
+
+       human_Clectins 1067 sr 1068
+                            +
+  Ccrux.Trinity.16459   95 RV 96  
+                           55 PP
+
+>> Ccrux.Trinity.12301  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.5   6.2   1.5e-07   0.00016     181     235 ..     150     205 ..     137     209 .. 0.79
+   2 !   23.4   0.8     4e-08   4.2e-05     183     227 ..     211     256 ..     207     259 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 21.5 bits;  conditional E-value: 1.5e-07
+       human_Clectins 181 syGkpcefPFky..dnkWhh..dCtsdgresllWCaTTldYekDekwGfCpkkengced 235
+                          + G  c fPF++  d+ +h   +Ct   +++++WCaTT+++  D  +G+C +  + ce+
+  Ccrux.Trinity.12301 150 TDGCCCVFPFQIpvDEGYHTvqQCTTF-QSEQPWCATTSNFPSDGLYGICET--DACET 205
+                          67999******8556777743367755.4589******************64..55666 PP
+
+  == domain 2  score: 23.4 bits;  conditional E-value: 4e-08
+       human_Clectins 183 GkpcefPFkydnkWhhdCtsdgre.sllWCaTTldYekDekwGfCp 227
+                          G  c fPF y++    +C+      +  +C+ T++Y++D ++GfCp
+  Ccrux.Trinity.12301 211 GDCCVFPFIYNGIQRSECVPYPIGtGRTFCGLTSNYDRDLQFGFCP 256
+                          899****************999888********************9 PP
+
+>> Ccrux.Trinity.68657  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.8   0.6   9.2e-13   9.8e-10     955    1062 ..       2      96 ..       1      97 [] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 38.8 bits;  conditional E-value: 9.2e-13
+       human_Clectins  955 aeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilasset 1042
+                           a+++C ++g+ Lv+i+s++e++f+ sl      +   WiGL  + ++++ +W d ++ +  +++ + +      ++ +C ++    e 
+  Ccrux.Trinity.68657    2 AKDKCREHGSDLVSIHSESENEFVSSL------TSMAWIGLFYNSTSEEVEWSDRSKRD--FTEEHYLGDRRISEQGRCGLL----EL 77  
+                           89*************************......678*******999999*****99955..3333333333445688*****....58 PP
+
+       human_Clectins 1043 gkwndesCserklgliCekt 1062
+                            +w ++ C+  +  +iC ++
+  Ccrux.Trinity.68657   78 TGWTSAMCNALH-PFICSYQ 96  
+                           99********98.****976 PP
+
+>> Ccrux.Trinity.20413  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   5.0   1.2e-11   1.3e-08     177     224 ..     313     359 .]     303     359 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 1.2e-11
+       human_Clectins 177 ikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwG 224
+                           +GN yG+ c+fPF+y +k h  C+ + +++ lWC+ T++++ D  wG
+  Ccrux.Trinity.20413 313 KNGNGYGMCCHFPFQYGGKIHTSCIGH-DSDALWCSVTSNFDVDGLWG 359
+                          58**********************965.679****************9 PP
+
+>> Ccrux.Trinity.60980  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.9   0.0   1.4e-11   1.5e-08     922     981 ..      30      94 ..       4      96 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 34.9 bits;  conditional E-value: 1.4e-11
+       human_Clectins 922 etpkaasspCpkgWisfqnkCylfs.....essktwseaeeaCisegatLvkiqsqeeqafltsl 981
+                          ++ +a  ++C  +W   +n Cylf       + k+w++a+ aC   g+ L++i  q+eq f+  +
+  Ccrux.Trinity.60980  30 QQGSAVLGQCGGQWVGKGNFCYLFNnvsatVQGKSWQDARLACRALGGDLLSILDQKEQTFINNI 94 
+                          4567899*****************8788877789***************************9876 PP
+
+>> Ccrux.Trinity.31260  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31260 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31260 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.31261  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31261 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31261 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.31267  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31267 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31267 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.31271  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31271 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31271 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.31275  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31275 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31275 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.31278  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   3.2         4   4.3e+03     805     853 ..     277     325 ..     164     415 .. 0.43
+   2 !   33.0   9.5   5.1e-11   5.4e-08     185     228 ..     426     468 ..     410     473 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 4
+       human_Clectins 805 rtpkledareeqellrlilegeeaflaelkeelenaealcsshselaeI 853
+                           t   ++a + +++ ++++ +++++++e+++  + +e +++s+ + +++
+  Ccrux.Trinity.31278 277 STVDEKQASSFSQKSQRSIFDKKWNSEEQEQGAKISENVQHSKPQMTKV 325
+                          1111111111113333333333333333333333333333333333333 PP
+
+  == domain 2  score: 33.0 bits;  conditional E-value: 5.1e-11
+       human_Clectins 185 pcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpk 228
+                           c+fPF + n+   dC+ +gr+ + WC+TT +Y+ D++w +C  
+  Ccrux.Trinity.31278 426 CCTFPFMFKNQSIDDCVTEGRH-HAWCGTTRNYDDDQQWAYCCL 468
+                          69*******************9.78*****************75 PP
+
+>> Ccrux.Trinity.68883  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   7.7     7e-11   7.5e-08     183     236 ..      19      71 ..      14      76 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 7e-11
+       human_Clectins 183 GkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkkengcedl 236
+                          G+ c +PF y +  + +Ct ++ + +lWC+TT +Ye+D+ w  C  + + c + 
+  Ccrux.Trinity.68883  19 GQCCSIPFVYWGVTYYGCTATN-HRGLWCSTTDNYERDRLWENCRPPWKQCSTT 71 
+                          999****************875.678***********************99885 PP
+
+>> Ccrux.Trinity.16460  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   0.3   9.8e-11     1e-07    1002    1068 ..       7      84 ..       2     147 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 9.8e-11
+       human_Clectins 1002 kpfkWvdgtplasq..ysnwapgeps..........nsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                           ++f W  ++ ++++  y nw++gep+          +s+s edC+ i++++++ +w+d +C+++   +iC+kt e   +
+  Ccrux.Trinity.16460    7 GSFVWSGDNDTDASasYFNWRSGEPNdkhfnsaefgSSCSGEDCVQIKNLQDKIGWYDLDCQTQL-PFICQKTNESFRV 84  
+                           55666544443332348888888888777655444466*************************86.******9986655 PP
+
+>> Ccrux.Trinity.68857  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.1      0.12   1.2e+02    1006    1063 ..       1      55 [.       1      58 [. 0.63
+   2 !   22.2   2.4   9.8e-08    0.0001     923     979 ..      52     111 ..      21     112 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.12
+       human_Clectins 1006 Wvdgtplasqysnwapgeps...nsgsredCavilassetgkwndesCse.rklgliCekta 1063
+                           W+d++++ + y  w  ++ s   +sg  e+C++++     +++ +++C++ r   +iCe +a
+  Ccrux.Trinity.68857    1 WYDNSTIVP-Y-SWYGFYRSvpgHSG-VEECVALS----GKNLLSNPCKTvRWSHYICEHQA 55  
+                           899999884.2.34555555442554.999****7....66777777765233467777766 PP
+
+  == domain 2  score: 22.2 bits;  conditional E-value: 9.8e-08
+       human_Clectins 923 tpkaasspCpkgWisfqnkCylf.s..essktwseaeeaCisegatLvkiqsqeeqaflt 979
+                          +++a+ + C +g++ f  kCy+  s  ++  + ++ae +C   ++tL+ki++  e+ f+ 
+  Ccrux.Trinity.68857  52 EHQAQDGRCTSGFTLFLTKCYYAcSsaSKYLSANNAEMECNIINSTLAKIKTDTELTFIA 111
+                          466999*****************65344445678999*********************96 PP
+
+>> Ccrux.Trinity.63727  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.1   5.7e-08   6.1e-05     260     313 ..      36      76 .]       6      76 .] 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 5.7e-08
+       human_Clectins 260 ayvscqeQgadLLSiteiaEqtylkeklesitki.lWiglNdlssaagwqwsdnk 313
+                          +  +++e             + +l+e+l+si++i +W+++Nd+  ++++++++n+
+  Ccrux.Trinity.63727  36 T--TVNET-----------NKGLLVETLRSIAEIlIWGDQNDST-VFDFFLEKNM 76 
+                          4..44444...........4559*******************99.********97 PP
+
+>> Ccrux.Trinity.68513  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.7   1.2e-05     0.013     928     970 ..      24      67 ..      15      68 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.2e-05
+       human_Clectins 928 sspCpkgWisfqnkCylf.sessktwseaeeaCisegatLvkiq 970
+                           + C +g+i ++++C+++  + + t +ea  +C+s+g+tL +i+
+  Ccrux.Trinity.68513  24 TQECVQGYIRHNSSCWFLqNNPNYTLKEATASCESHGSTLGSIR 67 
+                          57899*************5588899***************9998 PP
+
+>> Ccrux.Trinity.58167  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.0   1.2e-05     0.013     513     557 ..      20      64 ..       9      88 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.2e-05
+       human_Clectins 513 alldkekgcreGWkrHgetCYkigedlvvfseanqdkaderpklv 557
+                          a+l+++  c +GW+ Hg +CYk   +   f  a + +a    +++
+  Ccrux.Trinity.58167  20 AVLNNKIACFHGWELHGDYCYKPELNGTEFTLADRACAIVDGRIS 64 
+                          5788999******************99999999999887666655 PP
+
+>> Ccrux.Trinity.51868  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   2.2   2.7e-05     0.029    1005    1064 ..       1      55 [.       1      77 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 2.7e-05
+       human_Clectins 1005 kWvdgtplasqysnwapgepsnsgsredCavilassetgkwndesCse.rklgliCektae 1064
+                           kW+dg++++  y+ w   ep++ ++ e C++ +    + +w d +C++  ++  iC +++e
+  Ccrux.Trinity.51868    1 KWIDGSEYS--YQYWDGAEPNGPERGEFCVFGK----SSGWFDFNCNDlAANIAICRYQIE 55  
+                           588888888..8888888888777788888885....567777777551445677777766 PP
+
+>> Ccrux.Trinity.45298  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45298   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45303  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45303   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45305  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45305   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45311  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45311   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45316  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45316   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45319  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45319   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.45323  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00015      0.16     314     353 ..       2      38 ..       1      44 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00015
+       human_Clectins 314 plnfLNwlpdkpsapieescvalldaesglwenlsceakL 353
+                           l+fL +  +     + ++ v+ll++ ++l+en+ +e++L
+  Ccrux.Trinity.45323   2 LLFFLKIMMQDC---GTYVTVQLLQTLNILFENIRHETSL 38 
+                          688999998888...99*********************99 PP
+
+>> Ccrux.Trinity.60128  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0    0.0003      0.32    1335    1385 ..      46      94 ..      25      95 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0003
+       human_Clectins 1335 kelicKieiviykeeystalpqkspsedvisavvvlklliltvlglvalfl 1385
+                           ++++cK+e    +++    +p+  +s ++is+v v +++il v  ++ +++
+  Ccrux.Trinity.60128   46 RQIVCKTEHLTFTANKTRSIPE--DSRSIISSVYVWIVVILAVFFYLLFCF 94  
+                           5699***999988886667775..78899999999999***********98 PP
+
+>> Ccrux.Trinity.60208  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00053      0.57    1360    1427 ..     111     177 ..      75     178 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00053
+       human_Clectins 1360 sedvisavvvlklliltvlglvalflykkssghlarvesfepslyledivkr.llseenelessleksd 1427
+                           +  ++  ++v+++++l  + +v+ ++ +k+sg +++ +s+    +  +++k+ l+s++   +s+++ +d
+  Ccrux.Trinity.60208  111 NMGLVIGIIVAVIVVLAIIIIVIVVIKRKKSGSFKKTHSISARAGARQQSKQdLTSDMS--MSNINGND 177 
+                           5555666788888999999999999********************99999993355544..45666555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1428 nodes)
+Target sequences:                      74577  (16745720 residues searched)
+Passed MSV filter:                      3782  (0.0507127); expected 1491.5 (0.02)
+Passed bias filter:                     1452  (0.0194698); expected 1491.5 (0.02)
+Passed Vit filter:                       180  (0.00241361); expected 74.6 (0.001)
+Passed Fwd filter:                        71  (0.000952036); expected 0.7 (1e-05)
+Initial search space (Z):              74577  [actual number of targets]
+Domain search space  (domZ):              70  [number of targets reported over threshold]
+# CPU time: 2.58u 0.07s 00:00:02.65 Elapsed: 00:00:01.56
+# Mc/sec: 15298.75
+//
+[ok]

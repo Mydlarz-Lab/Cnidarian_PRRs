@@ -1,0 +1,1916 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  RLR.hmm
+# target sequence database:        ../proteomes/Ofav_proteome.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RLR  [M=917]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   4.5e-191  637.9  16.4   1.2e-190  636.5  16.4    1.5  1  XP_020611351.1  probable ATP-dependent RNA helicase DDX58 [Or
+   1.2e-188  629.9  20.9   3.1e-100  337.3  13.4    2.4  2  XP_020627278.1  probable ATP-dependent RNA helicase DHX58 [Or
+   3.5e-159  532.4  13.8   4.6e-159  532.0  13.8    1.0  1  XP_020611575.1  probable ATP-dependent RNA helicase DDX58 [Or
+    3.6e-55  188.2   0.3    7.5e-27   94.5   0.0    2.1  2  XP_020618184.1  endoribonuclease Dicer-like [Orbicella faveol
+    1.1e-53  183.3   0.1    1.1e-28  100.6   0.2    2.1  2  XP_020615803.1  endoribonuclease Dicer-like [Orbicella faveol
+    1.2e-51  176.5   0.2    1.2e-51  176.5   0.2    2.1  2  XP_020624213.1  uncharacterized protein LOC110061705 [Orbicel
+    1.5e-41  143.2   0.0    1.8e-26   93.2   0.0    2.3  2  XP_020603829.1  endoribonuclease Dicer homolog 3a-like isofor
+    1.5e-41  143.1   0.0    1.8e-26   93.2   0.0    2.3  2  XP_020603828.1  endoribonuclease Dicer homolog 3a-like isofor
+    1.7e-41  143.0   0.0    1.9e-26   93.1   0.0    2.3  2  XP_020603827.1  endoribonuclease Dicer homolog 1-like isoform
+    3.8e-32  112.0   0.3    4.2e-17   62.2   0.1    2.2  2  XP_020603509.1  Fanconi anemia group M protein-like isoform X
+    3.8e-32  112.0   0.3    4.2e-17   62.2   0.1    2.2  2  XP_020603508.1  Fanconi anemia group M protein-like isoform X
+    2.1e-18   66.6   0.0    4.5e-08   32.3   0.0    2.2  2  XP_020627484.1  probable ATP-dependent RNA helicase DDX52 iso
+      3e-18   66.0   0.1    5.4e-08   32.1   0.0    2.2  2  XP_020627483.1  probable ATP-dependent RNA helicase DDX52 iso
+    3.9e-18   65.6   0.1    6.6e-08   31.8   0.0    2.2  2  XP_020627482.1  probable ATP-dependent RNA helicase DDX52 iso
+    1.2e-15   57.4   1.3    6.1e-07   28.6   0.0    2.2  2  XP_020611156.1  probable ATP-dependent RNA helicase DDX27 iso
+    1.3e-15   57.3   1.1    6.9e-07   28.4   0.0    2.2  2  XP_020611155.1  probable ATP-dependent RNA helicase DDX27 iso
+    1.3e-15   57.2   1.1    6.9e-07   28.4   0.0    2.2  2  XP_020611154.1  probable ATP-dependent RNA helicase DDX27 iso
+    1.4e-13   50.5   0.0      5e-07   28.9   0.0    2.6  2  XP_020632927.1  ATP-dependent RNA helicase dbp2-like [Orbicel
+    2.1e-13   50.0   0.5    5.7e-08   32.0   0.2    3.1  3  XP_020612728.1  U5 small nuclear ribonucleoprotein 200 kDa he
+    4.4e-12   45.6   8.0    1.3e-07   30.9   0.0    2.7  2  XP_020600699.1  probable ATP-dependent RNA helicase DDX46 [Or
+    4.5e-12   45.6   0.1    3.4e-08   32.7   0.0    2.2  2  XP_020627886.1  probable ATP-dependent RNA helicase DDX47 [Or
+      5e-12   45.4   0.3    1.3e-05   24.2   0.4    3.0  3  XP_020625544.1  activating signal cointegrator 1 complex subu
+    6.2e-11   41.8   0.0    2.2e-05   23.4   0.0    2.2  2  XP_020613633.1  probable ATP-dependent RNA helicase DDX43 [Or
+    6.7e-11   41.7   0.0    8.7e-05   21.5   0.0    2.1  2  XP_020600740.1  DEAD-box ATP-dependent RNA helicase 22-like i
+    1.4e-10   40.6   0.0    0.00019   20.4   0.0    2.1  2  XP_020600741.1  DEAD-box ATP-dependent RNA helicase 22-like i
+    3.4e-09   36.1   0.1    3.4e-05   22.8   0.0    2.0  2  XP_020628575.1  probable ATP-dependent RNA helicase ddx6 [Orb
+    4.5e-09   35.7   1.6    6.3e-08   31.9   0.8    2.3  2  XP_020605355.1  eukaryotic initiation factor 4A-I-like [Orbic
+    6.1e-09   35.2   0.0      1e-05   24.5   0.0    2.3  2  XP_020623258.1  nucleolar RNA helicase 2-like isoform X2 [Orb
+    6.3e-09   35.2   0.0      1e-05   24.5   0.0    2.3  2  XP_020623257.1  nucleolar RNA helicase 2-like isoform X1 [Orb
+    6.4e-09   35.1   0.1    0.00013   20.9   0.1    2.3  2  XP_020618873.1  probable ATP-dependent RNA helicase DDX49 [Or
+    7.2e-09   35.0   1.1      2e-07   30.2   0.0    2.8  3  XP_020627805.1  eukaryotic initiation factor 4A-III [Orbicell
+    9.9e-09   34.5   0.0    0.00016   20.6   0.0    2.2  2  XP_020602543.1  ATP-dependent RNA helicase DDX54-like [Orbice
+      2e-08   33.5   0.7    1.3e-07   30.8   0.7    2.4  2  XP_020602345.1  ATP-dependent RNA helicase DDX51-like [Orbice
+    2.2e-08   33.4   0.4     0.0011   17.8   0.2    2.3  2  XP_020629225.1  spliceosome RNA helicase Ddx39b [Orbicella fa
+    2.2e-08   33.4   0.4     0.0011   17.8   0.2    2.3  2  XP_020629226.1  spliceosome RNA helicase Ddx39b [Orbicella fa
+    4.3e-08   32.4   0.0    1.9e-05   23.7   0.0    2.1  2  XP_020624779.1  probable ATP-dependent RNA helicase DDX4 [Orb
+    7.5e-08   31.6   0.0    1.2e-07   31.0   0.0    1.1  1  XP_020631443.1  uncharacterized protein LOC110068407 [Orbicel
+    4.7e-07   29.0   0.0    3.4e-06   26.1   0.0    2.1  2  XP_020603001.1  ATP-dependent RNA helicase DDX3X-like [Orbice
+      5e-07   28.9   2.6    0.00044   19.1   0.0    2.4  3  XP_020619213.1  probable ATP-dependent RNA helicase DDX56 iso
+      7e-07   28.4   0.0     0.0025   16.7   0.0    2.1  2  XP_020623783.1  LOW QUALITY PROTEIN: uncharacterized protein 
+    1.1e-06   27.8   0.3    3.1e-06   26.3   0.1    1.8  2  XP_020609235.1  LOW QUALITY PROTEIN: probable ATP-dependent R
+    1.4e-06   27.4   0.0    0.00052   18.9   0.0    2.8  3  XP_020608171.1  ATP-dependent RNA helicase ded1-like [Orbicel
+    2.1e-06   26.8   0.0    8.2e-06   24.9   0.0    1.7  2  XP_020608030.1  probable ATP-dependent RNA helicase DDX4 [Orb
+    2.7e-06   26.5   0.0    0.00058   18.7   0.0    2.7  3  XP_020623043.1  ATP-dependent RNA helicase ddx24-like [Orbice
+    4.2e-06   25.8   0.0    0.00018   20.4   0.0    2.2  2  XP_020625703.1  probable ATP-dependent RNA helicase DDX41 [Or
+    5.1e-06   25.5   0.1    5.2e-06   25.5   0.1    1.0  1  XP_020627284.1  mitochondrial antiviral-signaling protein-lik
+    5.9e-06   25.3   0.0    1.1e-05   24.4   0.0    1.4  1  XP_020630470.1  ATP-dependent RNA helicase DDX19A-like [Orbic
+    6.1e-06   25.3   0.0    7.7e-06   25.0   0.0    1.0  1  XP_020628576.1  probable ATP-dependent RNA helicase ddx6 [Orb
+    7.1e-06   25.1   0.0    9.9e-06   24.6   0.0    1.1  1  XP_020606841.1  probable ATP-dependent DNA helicase HFM1 [Orb
+    9.7e-06   24.6   0.0     0.0032   16.3   0.0    2.1  2  XP_020618826.1  LOW QUALITY PROTEIN: endoribonuclease Dicer-l
+      1e-05   24.5   3.0    0.00052   18.9   0.0    2.5  2  XP_020618505.1  LOW QUALITY PROTEIN: putative ATP-dependent D
+    1.9e-05   23.6   0.1    2.5e-05   23.3   0.1    1.1  1  XP_020606045.1  uncharacterized protein LOC110044797 [Orbicel
+    3.6e-05   22.8   0.0       0.21   10.3   0.1    2.2  2  XP_020625902.1  probable ATP-dependent RNA helicase DDX59 [Or
+    6.1e-05   22.0   0.3    0.00025   20.0   0.1    1.8  2  XP_020606054.1  uncharacterized protein LOC110044807, partial
+    0.00011   21.1   0.1    0.00018   20.4   0.1    1.2  1  XP_020606035.1  uncharacterized protein LOC110044786 [Orbicel
+    0.00014   20.7   0.1    0.00023   20.1   0.1    1.4  1  XP_020611242.1  ATP-dependent RNA helicase DDX54-like [Orbice
+    0.00015   20.7   0.0     0.0038   16.0   0.0    2.1  2  XP_020607370.1  ATP-dependent RNA helicase HAS1-like [Orbicel
+    0.00017   20.5   0.5    0.00027   19.9   0.0    1.5  2  XP_020619212.1  probable ATP-dependent RNA helicase DDX56 iso
+     0.0002   20.3   0.1    0.00021   20.2   0.1    1.0  1  XP_020627285.1  uncharacterized protein LOC110064565 isoform 
+    0.00024   20.0   0.2      0.084   11.6   0.1    2.2  2  XP_020623084.1  helicase POLQ-like [Orbicella faveolata]
+    0.00055   18.8   0.0       0.01   14.6   0.1    2.1  2  XP_020620814.1  ATP-dependent DNA helicase Q1-like [Orbicella
+     0.0014   17.5   0.1     0.0039   16.0   0.0    1.7  2  XP_020603286.1  ATP-dependent RNA helicase DDX1-like [Orbicel
+      0.002   17.0   0.0      0.002   17.0   0.0    1.1  1  XP_020607369.1  ATP-dependent RNA helicase HAS1-like [Orbicel
+     0.0046   15.8   0.0     0.0066   15.2   0.0    1.2  1  XP_020617732.1  probable Werner syndrome ATP-dependent helica
+     0.0048   15.7   0.0     0.0083   14.9   0.0    1.3  1  XP_020628480.1  probable ATP-dependent RNA helicase DDX60 [Or
+     0.0065   15.3   0.0      0.012   14.4   0.0    1.3  1  XP_020617730.1  probable Werner syndrome ATP-dependent helica
+     0.0076   15.1   0.0      0.017   13.9   0.0    1.5  2  XP_020617731.1  probable Werner syndrome ATP-dependent helica
+     0.0083   14.9   0.0      0.012   14.4   0.0    1.2  1  XP_020620929.1  ATP-dependent RNA helicase DDX42-like [Orbice
+  ------ inclusion threshold ------
+      0.013   14.2   0.0      0.056   12.2   0.0    1.8  2  XP_020610817.1  uncharacterized protein LOC110049368 [Orbicel
+      0.017   13.9   0.0       0.84    8.3   0.2    2.0  2  XP_020606398.1  uncharacterized protein LOC110045144 [Orbicel
+      0.032   13.0   0.0      0.032   13.0   0.0    1.1  1  XP_020627885.1  probable ATP-dependent RNA helicase DDX47 [Or
+      0.043   12.6   0.0      0.045   12.5   0.0    1.0  1  XP_020601360.1  ATP-dependent DNA helicase Q1-like [Orbicella
+      0.065   12.0   0.0      0.086   11.6   0.0    1.1  1  XP_020607397.1  ATP-dependent rRNA helicase RRP3-like [Orbice
+       0.12   11.1   0.0       0.13   11.0   0.0    1.1  1  XP_020611964.1  uncharacterized protein LOC110050387 [Orbicel
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_020611351.1  probable ATP-dependent RNA helicase DDX58 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  636.5  16.4  2.8e-193  1.2e-190      17     910 ..      20     972 ..      11     976 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 636.5 bits;  conditional E-value: 2.8e-193
+             RLR  17 kktldveyvldylaflreevkeqiqaekatkGnmeavelllkt.ekelqelG..wtreflealdraGssllar..aieltdlk....keekldey 102
+                      k + ++ +l yl  l +  ke+i+ + ++kG+ ea+  ll+  +k+   +G   + +++ al++ Gs   a   ++  + ++     ++ ++ y
+  XP_020611351.1  20 MKEVAPTKLLPYLN-LSNGDKENIRCDETNKGKTEAALTLLDKlKKQNGPNGrkAFDGLVRALRNVGSQQSALllDP-HFKVPsateDIQDKNSY 112
+                     57788999999997.678899*************9987666652554444442268999********9877663322.22333443355556666 PP
+
+             RLR 103 llllkllqpe..lkdkllvrdvlddlse...ellt....iedrerlaiae..tkGneaGvrkllkrlvdkenwfkalklvlrke........rnk 178
+                     +l +     e  ++ +ll  +  + +++    +l+    i ++  l++ +   k    G+     +   k+n + + + v  k          n 
+  XP_020611351.1 113 RLGILGTAAEigVRIRLLNEETKKYCVKgerDILNkyedIRSDSTLQLRDqlHKDLPEGAAFSAVCQETKDNLPACKLRVSLKSaadqiwedYNN 207
+                     65443333330133344444444433322122222100011223333333113445556655556666777777654443333358888888899 PP
+
+             RLR 179 ekelwiveknikesetedlev.veesdislaeedvecldlse..............dsdeesvvadasleselklrsyqlevalPaleGkniiic 258
+                      k + i++kn     t+ ++      di   e d  c  l+               +   + v  d   ++elklrsyq e+  PaleGkn iic
+  XP_020611351.1 208 GKLVAILKKNLLSGMTAISSHlRMRIDIMKEEYDRACYILAGgnqthssdetqklkKDRIPPVFLDQRADPELKLRSYQHELSCPALEGKNSIIC 302
+                     999999***9999999999984456799888999999985544555555555555433344567788999************************* PP
+
+             RLR 259 lPtGsGktrvavyiakdhLekvkk......a..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqi 345
+                     +Pt sGkt+va+ iak hLek k+      +   + kv+++vnkv+lv q +++ f ++l + y ++ +sG+ a++  ++e+++ nD+i+ltaqi
+  XP_020611351.1 303 APTNSGKTYVALGIAKAHLEKQKEigskrpTevSHPKVLFVVNKVNLVLQ-QRQRFDYYLSNSYDITDISGANAQEKLLDEIIQENDVIVLTAQI 396
+                     ********************9885222222112457**************.78999*************************************** PP
+
+             RLR 346 LensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.......saiPLPqvlGLtaspGvGgakkldealehilkLCanLD 433
+                     L+ +Lk+      v + +fsL+i+DeChht+k ++yn im nyLe k+           + LPq++GLtas GvG a++++ea ehil+LCanLD
+  XP_020611351.1 397 LVDALKS----RRVAINDFSLLIFDECHHTDKGHPYNDIMLNYLEIKFPFrggrnkaVKERLPQIIGLTASLGVGKARNKNEAQEHILQLCANLD 487
+                     ******9....99**********************************96555777756678********************************** PP
+
+             RLR 434 afviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk........mselsrefGtqkyeqwvvklekaaaveglkkervy 520
+                     ++vi tv++  ++Lk    +  +  + +     D f e+++++m  ie ++          ++   + G q+y+qw+ +le+ ++  + ++++  
+  XP_020611351.1 488 CSVIVTVEKYKKDLKGMTGRCERICHEIPDGEADYFDEIVRNVMITIEGMMPqlpagrngRPQ--MNHGSQQYQQWLKELERSSVALKSRDQFTL 580
+                     ********************9999999999******************999878888864444..589*************************** PP
+
+             RLR 521 aehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeLkrlaed.penenekLekLrfkilqeeyrl......ee 608
+                      +hL  yn aL i+   r++Dal+++ +f++++ ++kf+ i  dr+L  l+e+ k+ L++  ++  e  n+kLe +  ++l+ +y++      ++
+  XP_020611351.1 581 VQHLMVYNTALSIKKSCRVKDALKYVTEFHDRQSENKFKDI--DRKLRMLYEKAKQDLDSERRKkGELKNPKLEAVA-QLLRTKYQAcveeggQQ 672
+                     ***************************************99..566************98776516789*******9.59998887533333356 PP
+
+             RLR 609 sargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtn 703
+                      a+g++ft+tr+ ++aLk W++en  la+  ++a+ L+G Gk +   gmtq +q+evi  f+sG++nlL++t+v eeG+Di++C  viry++ +n
+  XP_020611351.1 673 TAKGMLFTQTRENTKALKAWLDENSDLAF--IRAERLVGTGKGE--DGMTQCQQEEVIASFRSGRINLLVSTTVGEEGIDIPDCKYVIRYDVRGN 763
+                     79***************************..**********986..59*********************************************** PP
+
+             RLR 704 eiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrekilelqtqellerkakekrkiakrqkndkelvklLC 798
+                     eia vq+rGr r +e +y +va +++gvieke++n ++e++me+ai  v+ md ++y++kil+lq +++ +r+ ke  k+ ++ k ++++vkl+C
+  XP_020611351.1 764 EIASVQSRGRVRDKEGQYEVVAGKETGVIEKENLNVIREEMMEEAIGEVKAMDGDQYNRKILDLQLRAVHQRQRKETSKKCEKDKRQHDKVKLFC 858
+                     *********************************************************************************************** PP
+
+             RLR 799 knCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrnCgeaWGiqvvykslelPvlkirsfvvedkats.vkk.. 890
+                     ++C+v acsg+D+r i e hhv++  +f   +  ++ k  ++++++ +  g + C +C  +WG++++y+s e+P++k   f  e+ ++  vk+  
+  XP_020611351.1 859 RKCQVFACSGNDIRCIKEAHHVVIDKDFTSKFHFKKSKS-PRVLNEIELTGPLHCLDCDAEWGVMLKYQSKEMPCIKASCFGFEFENEAgVKTtl 952
+                     **************************************9.********************************************99875134322 PP
+
+             RLR 891 qykkWkelpfevpdlDyael 910
+                      +kkWk++ ++v  +++ ++
+  XP_020611351.1 953 SFKKWKDVRMNVESFEHCQT 972
+                     68*********999987765 PP
+
+>> XP_020627278.1  probable ATP-dependent RNA helicase DHX58 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  337.3  13.4  7.1e-103  3.1e-100      12     609 ..      13     693 ..       3     696 .. 0.85
+   2 !  296.6   0.8   1.5e-90   6.4e-88     609     914 ..     826    1129 ..     811    1132 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 337.3 bits;  conditional E-value: 7.1e-103
+             RLR  12 frdrvkktldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllar.aieltdlkkeeklde.... 101
+                       ++ +  l +  vl yl+ l++  ke i+a+++ +G+ +a  +l++  k  ++ G +++f++al+r+G+   a      +d++ e + de    
+  XP_020627278.1  13 RLQYFQEELIPVDVLPYLSCLQKVDKEAIEATQKIEGPTRANSVLVDRIKR-RHRG-FQDFVQALRRCGFEHTALlLDPYYDYPVEAADDEsadt 105
+                     5567778888999******************************99987664.6777.68**********99887743446677744444332222 PP
+
+             RLR 102 ......yllllkllqpelkdkllvrdv...lddlse.elltiedrerlaiaetkGneaGvrkllkrl.....vdkenwfkalklvlrke...... 175
+                           ++++   +  ++k +l++++     + +se e    e  +  + +e+k +    ++ll +      + k     +++l  +k       
+  XP_020627278.1 106 desgvgFKKIGTAIDVTIKGNLIPQNSqepAETCSElETYLAEKFKTPSSTESKKMRKELQELLPKGavfvnTAKGSIIATFRLSSEKAakelwe 200
+                     223333677778889999999999876222467777766667777777888888888888888865333555678888888888888889***** PP
+
+             RLR 176 ..........................................rnkekelwiveknikesetedlevveesdis.laeedvecldlsedsdeesvv 227
+                                                               ++ +k+l  +e  +++    +l+++ +s  +  ae+d +  d+  d  +    
+  XP_020627278.1 201 mytegkfestlqkvlventlkedhkvlekpmelklslgedrfHQIQKKLAEIE--SEQEVAGNLQNILTSKQEdSAEDDGSVPDIEIDIPPVFLG 293
+                     ***********************************999665544444444444..3333344566677777666899999999999999999888 PP
+
+             RLR 228 adasl..eselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka.e...kg.......kvvvlvnkvllveqlkskefkrf 309
+                     ++a+     el+lr+yq e+a Pa+ Gkn+iic+Pt sGkt+va+ iak+hL+ +    e   +g       +vv++v  ++lv q +++ f+ f
+  XP_020627278.1 294 SNANSfgRCELELREYQKELAAPAIAGKNTIICAPTNSGKTYVAIEIAKQHLDSFSAEaEiaaPGnttrkepRVVFIVSTLNLVLQ-QKERFEAF 387
+                     8888623579*******************************************98642222222222232338*************.67889*** PP
+
+             RLR 310 lkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.saiPLPqv 403
+                     l ++y+v  +sG+ a++++++ + ++++i+++taqiL+n+L + ++++ veLs+ +L+++DeChh++ke+ yn im +yL +k ++ +   LPqv
+  XP_020627278.1 388 LGDKYTVGEISGANATEIPLKYLLQNQNIVVMTAQILVNALNNRNKEERVELSDITLLLFDECHHADKEHSYNRIMEKYLALKSQAgTQHSLPQV 482
+                     ***********************************************************************************99747789**** PP
+
+             RLR 404 lGLtaspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk......mselsre 492
+                     +G+tas G+G a+  ++a++hil + anLDa vi tvk+n  +Lk   + P ++ a v++  eDpf +++ ++m++ie ++k       +   ++
+  XP_020627278.1 483 VGFTASLGTGKAQSVEKAEKHILLVSANLDAEVISTVKKNQSELKMYANVPEREIAYVQKSNEDPFVKIVSQVMSKIEALIKrvkgksFKAGPQD 577
+                     **********************************************************************************8888773444457 PP
+
+             RLR 493 fGtqkyeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeLkr.laedpe 586
+                        q+y qwv ++ k ++  g + +  yaehLr y  aL i+    m++a + Lk +++   + kf  i ++  L +lf+   k L++ + e+ e
+  XP_020627278.1 578 KAGQQYRQWVEEFYKDSVADGERFLVTYAEHLREYHIALTINASTTMKNAKKSLKRYFDSLDEDKFLSIDEQ--LKSLFQCAMKILDKfIEENGE 670
+                     77899**************************************************************99988..************883567899 PP
+
+             RLR 587 nenekLekLrfkilqeeyrlees 609
+                     +en+ L++L+  il++++ l+++
+  XP_020627278.1 671 PENPLLKHLKELILKNYTDLDPQ 693
+                     *****************999876 PP
+
+  == domain 2  score: 296.6 bits;  conditional E-value: 1.5e-90
+             RLR  609 sargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglv 701 
+                       ++gi+ft+tr+s++aL+ Wi+e ++l+   ++++ L+G G+   + gmtq+eq  vi++f++G+ nlL+atsvaeeGlDik+Cn viry+++
+  XP_020627278.1  826 GPKGILFTRTRESTEALLDWIKETKELNA-VLRPEPLVGSGDG--NIGMTQNEQDRVIQRFHTGEKNLLLATSVAEEGLDIKDCNYVIRYNMM 915 
+                      579*************************9.59*********87..589********************************************* PP
+
+             RLR  702 tneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrekilelqtqellerkakekrkiakrqkndkelv 794 
+                      +nei+ vq+rGr rade ky +++ ++sg +++e+  +f+e lm +a+ +vq md++ + ++++++q ++l  r  k++   + + ++ +  v
+  XP_020627278.1  916 GNEISTVQSRGRVRADEGKYSVLVGQDSGALKREKTSQFRESLMIEALSQVQSMDPKTFMQRVKDIQRKNLQDRFLKKHVIATLKSEHLPGDV 1008
+                      ***************************************************************************999998888999999*** PP
+
+             RLR  795 klLCknCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrnCgeaWGiqvvykslelPvlkirsfvvedkats 887 
+                      ++ C++C+v ac+++D+r + e hhv+++ +f +  v +++   +k + d +++ ki+C++C  +WG++    ++e  ++ki sfv+e+  ++
+  XP_020627278.1 1009 TFRCRKCNVEACQAHDIRTVKESHHVVINRDFAKSKVDKKKHPNPKIIDDIEMNKKIYCKECHADWGVTALISGVEWMCIKICSFVLEFPDPN 1101
+                      ********************************998887655445*********************************************8876 PP
+
+             RLR  888 .vkkqykkWkelpfevpdlDyaelckes 914 
+                        +k++kkWkelpf +p+ +  e+c+++
+  XP_020627278.1 1102 pRRKMFKKWKELPFGIPEANVDEICQHA 1129
+                      267899*******************865 PP
+
+>> XP_020611575.1  probable ATP-dependent RNA helicase DDX58 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  532.0  13.8    1e-161  4.6e-159     313     910 ..      13     621 ..       2     625 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 532.0 bits;  conditional E-value: 1e-161
+             RLR 313 ryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.......saiPL 400
+                      y ++ +sG+ a++  ++e+++ nD+i+ltaqiL+ +Lk+      v + +fsL+i+DeChht+k ++yn im nyLe k+           + L
+  XP_020611575.1  13 SYDITDISGANAQEKLLDEIIQENDVIVLTAQILVDALKS----RRVAINDFSLLIFDECHHTDKGHPYNDIMLNYLEIKFPFrggrnkaVKERL 103
+                     699************************************9....99**********************************96555777756678* PP
+
+             RLR 401 PqvlGLtaspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk........ms 487
+                     Pq++GLtas GvG a++++ea ehil+LCanLD++vi tv++  ++Lk    +  +  + +     D f e+++++m  ie ++          +
+  XP_020611575.1 104 PQIIGLTASLGVGKARNKNEAQEHILQLCANLDCSVIVTVEKYKKDLKGMTGRCERICHEIPDGEADYFDEIVRNVMITIEGMMPqlpagrngRP 198
+                     *****************************************************9999999999******************99987888886444 PP
+
+             RLR 488 elsrefGtqkyeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeLkrla 582
+                     +   + G q+y+qw+ +le+ ++  + ++++   +hL  yn aL i+   r++Dal+++ +f++++ ++kf+ i  dr+L  l+e+ k+ L++  
+  XP_020611575.1 199 Q--MNHGSQQYQQWLKELERSSVALKSRDQFTLVQHLMVYNTALSIKKSCRVKDALKYVTEFHDRQSENKFKDI--DRKLRMLYEKAKQDLDSER 289
+                     4..589******************************************************************99..566************9877 PP
+
+             RLR 583 ed.penenekLekLrfkilqeeyrl......eesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfk 670
+                     ++  e  n+kLe +  ++l+ +y++      ++ a+g++ft+tr+ ++aLk W++en  la+  ++a+ L+G Gk +   gmtq +q+evi  f+
+  XP_020611575.1 290 RKkGELKNPKLEAVA-QLLRTKYQAcveeggQQTAKGMLFTQTRENTKALKAWLDENSDLAF--IRAERLVGTGKGE--DGMTQCQQEEVIASFR 379
+                     6516789*******9.5999888753333335679***************************..**********986..59************** PP
+
+             RLR 671 sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrekil 765
+                     sG++nlL++t+v eeG+Di++C  viry++ +neia vq+rGr r +e +y +va +++gvieke++n ++e++me+ai  v+ md ++y++kil
+  XP_020611575.1 380 SGRINLLVSTTVGEEGIDIPDCKYVIRYDVRGNEIASVQSRGRVRDKEGQYEVVAGKETGVIEKENLNVIREEMMEEAIGEVKAMDGDQYNRKIL 474
+                     *********************************************************************************************** PP
+
+             RLR 766 elqtqellerkakekrkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrnCgeaW 860
+                     +lq +++ +r+ ke  k+ ++ k ++++vkl+C++C+v acsg+D+r i e hhv++  +f   +  ++ k  ++++++ +  g + C +C  +W
+  XP_020611575.1 475 DLQLRAVHQRQRKETSKKCEKDKRQHDKVKLFCRKCQVFACSGNDIRCIKEAHHVVIDKDFTSKFHFKKSKS-PRVLNEIELTGPLHCLDCDAEW 568
+                     ***********************************************************************9.********************** PP
+
+             RLR 861 GiqvvykslelPvlkirsfvvedkats.vkk..qykkWkelpfevpdlDyael 910
+                     G++++y+s e+P++k   f  e+ ++  vk+   +kkWk++ ++v  +++ ++
+  XP_020611575.1 569 GVMLKYQSKEMPCIKASCFGFEFENEAgVKTtlSFKKWKDVRMNVESFEHCQT 621
+                     **********************9987513432268*********999987765 PP
+
+>> XP_020618184.1  endoribonuclease Dicer-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.8   0.1   1.1e-28     5e-26     229     457 ..      15     234 ..       1     259 [. 0.76
+   2 !   94.5   0.0   1.7e-29   7.5e-27     590     728 ..     366     517 ..     358     542 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 91.8 bits;  conditional E-value: 1.1e-28
+             RLR 229 dasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgk.vvvlvnkvllveqlkskefk.rflkkryrvigl 319
+                     + + e ++  r+yq+e+   a + +n+i+cl tG+Gkt+++v++ k+  ++v  +  ++gk   +lvn v+l  q+ +   k + lk ++ v  +
+  XP_020618184.1  15 EQEQEEKFLARPYQVELLERA-KERNTIVCLGTGTGKTFISVMLIKELAHEVRGTykKGGKrTFFLVNTVPLASQQAKAIEKhTDLKVKHYVGEM 108
+                     4556778999*******9998.569********************997777765554556626789*******9987765551557778889999 PP
+
+             RLR 320 sGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGg 414
+                       d   k + e+  +  +++++taqi++  L +      v+Ls   L+i+DeChh++k+ +y +im+ + +   +   +  P+v+GLtas   G 
+  XP_020618184.1 109 GVDFWDKPTWEREFNESNVLVMTAQIFVDLLCH----GYVRLSQVNLLIFDECHHAKKNDPYKQIMQFF-DCCRR---EAHPKVMGLTASIVNGK 195
+                     99**************************99988....89***************************755.44333...5779********97766 PP
+
+             RLR 415 akkldealehilkLCanLDafviktvkenleqLkeqvqkPckk 457
+                       k  + +  i +L   L + + ++  e +e++     kP+ +
+  XP_020618184.1 196 V-KPYKIESEIRELEKTLRSTCETSHDEDVEKF---AAKPKEE 234
+                     5.5567777787777777777766666555544...3444444 PP
+
+  == domain 2  score: 94.5 bits;  conditional E-value: 1.7e-29
+             RLR 590 ekLekLrfkilqeeyrl......eesargiiftktrqsadaLkqWieenekla..evdvkaqlLiGaG.....kssqstgmtqreqkevidkfks 671
+                     +kL+kL   + + +y+l      e+   gi+f+  r +a  L++ i+   kl      +k++++iG G     + s  t+m  ++q+ev+ kf+ 
+  XP_020618184.1 366 PKLQKLLSVLRESKYSLskdsgeENTLCGIVFVERRYTALVLSRQINIAAKLDpeLTSIKSDFVIGHGtggkvNYSSHTEMNFKKQEEVLRKFRR 460
+                     67777776444555655111111445579******************99999633578********98333333577899*************** PP
+
+             RLR 672 GklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsg 728
+                      ++nlLiatsv eeGlDi++Cn+v r+++  n  + vq++Grara++s+y +++ + 
+  XP_020618184.1 461 REFNLLIATSVVEEGLDIPKCNVVCRFDFPKNFRSYVQSKGRARAKDSRYYMLVDEK 517
+                     **************************************************8777654 PP
+
+>> XP_020615803.1  endoribonuclease Dicer-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.6   0.2   2.5e-31   1.1e-28     220     420 ..       8     203 ..       2     262 .. 0.80
+   2 !   80.5   0.0   2.9e-25   1.3e-22     590     733 ..     370     525 ..     358     544 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 100.6 bits;  conditional E-value: 2.5e-31
+             RLR 220 dsdees.vvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgk.vvvlvnkvllveqlkskefkrf. 309
+                     +s+e s   a+ +++  + +r+yq+e+   a + +n+i+cl tG+Gkt+++v++ k+  ++v  +  ++gk   +lvn v l  q+ ++  k+  
+  XP_020615803.1   8 ESSESSeSEAEVEPQVSMAPRPYQVELLERA-KERNTIVCLGTGTGKTFISVMLIKEMAHQVRATykNGGKrTFFLVNTVSLASQQAKVIDKHTd 101
+                     34443304567888899**********9998.569********************998777776554666626789*********9999888762 PP
+
+             RLR 310 lkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvl 404
+                     lk ++ v  +  d  ++   e+  + n+++++taqi+   L +    + ++Ls   L+i+DeChh++k+++y +im+ +       +    P+++
+  XP_020615803.1 102 LKVKHYVGEMGVDFWNESEWEKEFNENNVLVMTAQIFLDLLNH----SYIQLSQVNLLIFDECHHAKKKHPYRQIMQVFDG-----KRADHPKIM 187
+                     566777888999999*********************9876655....9****************************87644.....44458**** PP
+
+             RLR 405 GLtaspGvGgakklde 420
+                     GLtas+     k+l +
+  XP_020615803.1 188 GLTASVVNKKVKDLGN 203
+                     *****97666665555 PP
+
+  == domain 2  score: 80.5 bits;  conditional E-value: 2.9e-25
+             RLR 590 ekLekLrfkilq....eeyrle..esargiiftktrqsadaLkqWi....eeneklaevdvkaqlLiGaG.....kssqstgmtqreqkevidkf 669
+                     +kL+kL   +l+     +y+++  ++  gi+f+  r +a  L++ i    e++++l++  vk+++++G G     + s+  +m  + q+ev+ +f
+  XP_020615803.1 370 PKLQKLLS-VLKgdrnSKYETDqaHKLCGIVFVERRYTALVLSEQInifaEHDPELTF--VKSKFVTGHGtggkvNYSNEAEMDFKTQEEVLRQF 461
+                     67777764.66411112333331144579********999998876333368999999..8999999887333334577889************* PP
+
+             RLR 670 ksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvie 733
+                     +  k+nlLiat v eeGlDi++Cn+v r+++     + vq++Gra a++s y +++  + +v +
+  XP_020615803.1 462 RRHKFNLLIATCVVEEGLDIPKCNVVCRFDFPKSFRSYVQSKGRAHAKDSSYYILVDREEQVEK 525
+                     ************************************************9999555544444433 PP
+
+>> XP_020624213.1  uncharacterized protein LOC110061705 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.1       2.7   1.2e+03     850     909 ..      68     132 ..       5     139 .. 0.62
+   2 !  176.5   0.2   2.8e-54   1.2e-51     234     753 ..     161     687 ..     112     696 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 2.7
+             RLR 850 kiiCrnCgeaWGiqvvykslelPvlkirsfvved.....katsvkkqykkWkelpfevpdlDyae 909
+                     k++C++C +  G+  +     l ++ki+++  +      + +  k+   k  +  +ev+++ +++
+  XP_020624213.1  68 KVLCKHCNDYVGTISIVEENTLICFKIENVHFKRgyeeiRGKRLKQIKDKLLQYGLEVVNVSFSQ 132
+                     68899999999999999999999999998765431100022223333345555556666666665 PP
+
+  == domain 2  score: 176.5 bits;  conditional E-value: 2.8e-54
+             RLR 234 selklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk.vvvlvnkvllveqlkskefkrflkkryrvig.......ls 320
+                     ++  +r yq e+ l al+G n++++lPtGsGkt +a+++       +kk ++ k +v+lv++++lv q+      ++ +   rv         + 
+  XP_020624213.1 161 TKQVPRGYQHELFLQALHG-NTLVYLPTGSGKTLIAAMVL----SCMKKLNPNKlMVFLVDRIPLVYQQSDYVKSQVPD--LRVEIlagdigrFP 248
+                     44568*************9.99***********9999884....444555566626889********966555545544..45555001111244 PP
+
+             RLR 321 Gdtaekvs.feevvksn.DiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvG 413
+                     Gd +  +s ++ + +++ D++++t qiL n +    +    ++s  s++++De hh   ++ yn+imr++ +    n+ +PL  vl Ltasp   
+  XP_020624213.1 249 GDKSRWIStVQALTENKiDLLVMTHQILLNLMSG--DCPVLRMSNISVLVFDEAHHCLGNHCYNQIMRDFYKGT-SNRFKPL--VLALTASPA-- 336
+                     555566762566777645**********986665..6677899**************************98765.4477766..9*******6.. PP
+
+             RLR 414 gakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearr.eDpfkellaelmtdiesylk....mselsrefG..tqkyeqw 501
+                     ga   +     + +L +nL a++ + v+    +L+   ++P   +++v   + +  ++  +   +t +  +++     +    ++     +y   
+  XP_020624213.1 337 GADTPQATSTKLEELLSNLSASARMPVRS--TDLEVYWNRPETAYEVVSMNTkQQLLQSYVETYLTSLTVLIEmeakCPRALDKLHvlKPNYRGA 429
+                     4444455566788999***********97..5999***********9987550555666677777777777762222333323333114579999 PP
+
+             RLR 502 vvklekaaaveglkkerv.yaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdviedd.......rfLlalfeekkkeLkrlae..dpe 586
+                     + kl +++   +++ + +   eh  +    + +++ +    a++ L++   + +++   + +            l  +e    +L+r+++    +
+  XP_020624213.1 430 LRKLIERCYGDKNRVKGLaLGEHAMHMLSVIEVNNILGNEYAVECLEECIRQLQQATSPMEQLKkrligrsE-QLRALESSIANLRRVSKffSSS 523
+                     999999999999986655267999999999999999999999999999888877665444333422333211.2333456667788888722234 PP
+
+             RLR 587 nenekLek.LrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiat 680
+                        + L+k Lr+  + +++++++ +rgiif+k r++a+ L + ++++ ++ae ++ + +L+G G+ s+  +  + eq+e+++kf+sG++ lL++t
+  XP_020624213.1 524 DRYQHLTKeLRN--FIRRVEMDQTSRGIIFVKMRKTAYKLCERLRQETGIAE-GLNPAFLVGHGQGSDGMDW-RGEQEEILKKFRSGEVKLLVST 614
+                     445666643776..55789999******************************.************9976543.569******************* PP
+
+             RLR 681 svaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsgsgvieketinefkeklmekailavq 753
+                      v eeGlD++ Cn+vir++      a+vq+rGra r  +s++v++  + s   +       ke+ me+a++  q
+  XP_020624213.1 615 NVLEEGLDVPVCNLVIRFDSAMTLRALVQSRGRAsRRPDSRFVVICSDPSEQTNAS-DAIRKEQNMEQAMKLRQ 687
+                     *********************************85667899977776666555443.34457888888887666 PP
+
+>> XP_020603829.1  endoribonuclease Dicer homolog 3a-like isoform X3 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.2   0.0   4.1e-29   1.8e-26     235     471 ..     504     746 ..     493     768 .. 0.76
+   2 !   47.4   0.0   2.9e-15   1.3e-12     589     744 ..     874    1029 ..     869    1036 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 93.2 bits;  conditional E-value: 4.1e-29
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkr.............yrv 316
+                       ++ +yq+e+   a++  n + +lPtG+Gkt va ++  + L   +   + +vv+lv++vllv q++    k++ + r              r+
+  XP_020603829.1 504 RTQPCDYQMELYCKAMKA-NGVCFLPTGTGKTLVASLVIGHMLALNP---SRQVVFLVDRVLLVLQQRDYLRKELAHVRvadergpfkgtrpIRI 594
+                     568899**********96.78899*****************999999...889*************87554444432111111122111122467 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL   +    +  P++lGLtasp
+  XP_020603829.1 595 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLREDVL--LGHRPKILGLTASP 682
+                     78889888776666665.58**************99....77899************************9846766655..7889*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqk.P....ckkfalvearreDpfke 471
+                        g   ld+  + + +L  nL    +  v +n+ +L+e+  + P       +a +e    D + e
+  XP_020603829.1 683 A--GEISLDKTTKRLQRLLGNLGEAQLLIVTNNVRELEEKTSRaPpdciSASYANCECELMDVLVE 746
+                     5..55679*****************************99865424221123455555555554444 PP
+
+  == domain 2  score: 47.4 bits;  conditional E-value: 2.9e-15
+             RLR  589 nekLekLrfkilqeeyrleesarg..iiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLia 679 
+                      n  +e+L  ++lq ++    s     ++++k  ++a  L  ++ +  +l   +vk+  + G G  s  +g+t + q+ v  +  +G++ +++ 
+  XP_020603829.1  874 NSGIEQLMKQLLQINWTGTSSGVNfvLVLVKRARTARYLASYLSN-SGLLR-GVKTTSFAGHGSGSADNGLTYPPQRDVYLQILEGRFQIVVT 964 
+                      666788888899988877666655114567777788899999975.56666.7**************************************** PP
+
+             RLR  680 tsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                      tsvaeeG+D++  ++vi+ +  + + a+vq rGra  +e+++v +  ++ +  + e + +  e++
+  XP_020603829.1  965 TSVAEEGFDLPVPDLVIQMDPSSSVSALVQIRGRAPLNEARFVAICRNDEQAKKIEDLLKREENM 1029
+                      ******************************************99988777766666666666655 PP
+
+>> XP_020603828.1  endoribonuclease Dicer homolog 3a-like isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.2   0.0   4.2e-29   1.8e-26     235     471 ..     519     761 ..     508     783 .. 0.76
+   2 !   47.3   0.0     3e-15   1.3e-12     589     744 ..     889    1044 ..     884    1051 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 93.2 bits;  conditional E-value: 4.2e-29
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkr.............yrv 316
+                       ++ +yq+e+   a++  n + +lPtG+Gkt va ++  + L   +   + +vv+lv++vllv q++    k++ + r              r+
+  XP_020603828.1 519 RTQPCDYQMELYCKAMKA-NGVCFLPTGTGKTLVASLVIGHMLALNP---SRQVVFLVDRVLLVLQQRDYLRKELAHVRvadergpfkgtrpIRI 609
+                     568899**********96.78899*****************999999...889*************87554444432111111122111122467 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL   +    +  P++lGLtasp
+  XP_020603828.1 610 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLREDVL--LGHRPKILGLTASP 697
+                     78889888776666665.58**************99....77899************************9846766655..7889*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqk.P....ckkfalvearreDpfke 471
+                        g   ld+  + + +L  nL    +  v +n+ +L+e+  + P       +a +e    D + e
+  XP_020603828.1 698 A--GEISLDKTTKRLQRLLGNLGEAQLLIVTNNVRELEEKTSRaPpdciSASYANCECELMDVLVE 761
+                     5..55679*****************************99865424221123455555555554444 PP
+
+  == domain 2  score: 47.3 bits;  conditional E-value: 3e-15
+             RLR  589 nekLekLrfkilqeeyrleesarg..iiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLia 679 
+                      n  +e+L  ++lq ++    s     ++++k  ++a  L  ++ +  +l   +vk+  + G G  s  +g+t + q+ v  +  +G++ +++ 
+  XP_020603828.1  889 NSGIEQLMKQLLQINWTGTSSGVNfvLVLVKRARTARYLASYLSN-SGLLR-GVKTTSFAGHGSGSADNGLTYPPQRDVYLQILEGRFQIVVT 979 
+                      666788888899988877666655114567777788899999975.56666.7**************************************** PP
+
+             RLR  680 tsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                      tsvaeeG+D++  ++vi+ +  + + a+vq rGra  +e+++v +  ++ +  + e + +  e++
+  XP_020603828.1  980 TSVAEEGFDLPVPDLVIQMDPSSSVSALVQIRGRAPLNEARFVAICRNDEQAKKIEDLLKREENM 1044
+                      ******************************************99988777766666666666655 PP
+
+>> XP_020603827.1  endoribonuclease Dicer homolog 1-like isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1   0.0   4.4e-29   1.9e-26     235     471 ..     547     789 ..     536     811 .. 0.76
+   2 !   47.3   0.0   3.1e-15   1.4e-12     589     744 ..     917    1072 ..     912    1079 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 4.4e-29
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkr.............yrv 316
+                       ++ +yq+e+   a++  n + +lPtG+Gkt va ++  + L   +   + +vv+lv++vllv q++    k++ + r              r+
+  XP_020603827.1 547 RTQPCDYQMELYCKAMKA-NGVCFLPTGTGKTLVASLVIGHMLALNP---SRQVVFLVDRVLLVLQQRDYLRKELAHVRvadergpfkgtrpIRI 637
+                     568899**********96.78899*****************999999...889*************87554444432111111122111122467 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL   +    +  P++lGLtasp
+  XP_020603827.1 638 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLREDVL--LGHRPKILGLTASP 725
+                     78889888776666665.58**************99....77899************************9846766655..7889*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqk.P....ckkfalvearreDpfke 471
+                        g   ld+  + + +L  nL    +  v +n+ +L+e+  + P       +a +e    D + e
+  XP_020603827.1 726 A--GEISLDKTTKRLQRLLGNLGEAQLLIVTNNVRELEEKTSRaPpdciSASYANCECELMDVLVE 789
+                     5..55679*****************************99865424221123455555555554444 PP
+
+  == domain 2  score: 47.3 bits;  conditional E-value: 3.1e-15
+             RLR  589 nekLekLrfkilqeeyrleesarg..iiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLia 679 
+                      n  +e+L  ++lq ++    s     ++++k  ++a  L  ++ +  +l   +vk+  + G G  s  +g+t + q+ v  +  +G++ +++ 
+  XP_020603827.1  917 NSGIEQLMKQLLQINWTGTSSGVNfvLVLVKRARTARYLASYLSN-SGLLR-GVKTTSFAGHGSGSADNGLTYPPQRDVYLQILEGRFQIVVT 1007
+                      666788888899988877666655114567777788899999975.56666.7**************************************** PP
+
+             RLR  680 tsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                      tsvaeeG+D++  ++vi+ +  + + a+vq rGra  +e+++v +  ++ +  + e + +  e++
+  XP_020603827.1 1008 TSVAEEGFDLPVPDLVIQMDPSSSVSALVQIRGRAPLNEARFVAICRNDEQAKKIEDLLKREENM 1072
+                      ******************************************99988777766666666666655 PP
+
+>> XP_020603509.1  Fanconi anemia group M protein-like isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.0   2.9e-15   1.3e-12     237     386 ..     123     263 ..     111     275 .. 0.92
+   2 !   62.2   0.1   9.6e-20   4.2e-17     561     735 ..     462     641 ..     433     683 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 2.9e-15
+             RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfee 331
+                      +r+yq++++  al  kn+++ lPtG Gkt++a+ i  +     +   +gkv++++   +lv q+ +  ++ +   +     ++G++a++   + 
+  XP_020603509.1 123 PIRNYQYNIVEQALF-KNTLVTLPTGLGKTFIAAVIMYNFYRWYP---QGKVIFMAPTKPLVAQQIEACYNIMGIPQSDTAEMTGNMAPNKR-QS 212
+                     58***********95.*************************9999...89***************************************965.78 PP
+
+             RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimr 386
+                     + +s  +  lt+q+L+n L +       +     L++ De h++  ++ y +++r
+  XP_020603509.1 213 MWQSRRVFFLTPQVLQNDLNR----GSCKAEEVVLLVADEAHKALGNHAYCQVVR 263
+                     99*****************99....5566677889***************98876 PP
+
+  == domain 2  score: 62.2 bits;  conditional E-value: 9.6e-20
+             RLR 561 ieddrfLlalfeekkkeLkrlaedpe..nenekLekLrfkilqeeyr....lees.....argiiftktrqsadaLkqWieeneklaevdvkaql 644
+                       ++  L ++f  +++ L ++ +     +  +kL kL+  +l++  +    + e+     +r +if + r s++ +   + +++      v+   
+  XP_020603509.1 462 SANESLLFSQFSPRRRALMNVPKPSTtfKSHPKLLKLKEIVLEHFEKfqdkSGEEkkgvaTRVMIFSQYRDSVNEIAAMLSHHKP----AVRVMS 552
+                     44557899999999999999976543225789*****987777533211112232233336889************999987653....468899 PP
+
+             RLR 645 LiGaGkssqst.gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsgsgvieke 735
+                     +iG+  + +st g+tq+eq +v+++f++G +n L+at v eeGlDi e ++++ ++  +  i++vq  Gr +r ++ ++v+++t+g      e
+  XP_020603509.1 553 FIGQQSTGKSTrGLTQKEQLQVVQRFRQGGYNTLVATCVGEEGLDIGEVDLIVCFDAHASPIRLVQRMGRtGRKRDGRIVILVTEGKE----E 641
+                     9**9998877538*********************************************************6699**********9954....3 PP
+
+>> XP_020603508.1  Fanconi anemia group M protein-like isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.4   0.0   2.9e-15   1.3e-12     237     386 ..     123     263 ..     111     275 .. 0.92
+   2 !   62.2   0.1   9.6e-20   4.2e-17     561     735 ..     462     641 ..     433     683 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 47.4 bits;  conditional E-value: 2.9e-15
+             RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfee 331
+                      +r+yq++++  al  kn+++ lPtG Gkt++a+ i  +     +   +gkv++++   +lv q+ +  ++ +   +     ++G++a++   + 
+  XP_020603508.1 123 PIRNYQYNIVEQALF-KNTLVTLPTGLGKTFIAAVIMYNFYRWYP---QGKVIFMAPTKPLVAQQIEACYNIMGIPQSDTAEMTGNMAPNKR-QS 212
+                     58***********95.*************************9999...89***************************************965.78 PP
+
+             RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimr 386
+                     + +s  +  lt+q+L+n L +       +     L++ De h++  ++ y +++r
+  XP_020603508.1 213 MWQSRRVFFLTPQVLQNDLNR----GSCKAEEVVLLVADEAHKALGNHAYCQVVR 263
+                     99*****************99....5566677889***************98876 PP
+
+  == domain 2  score: 62.2 bits;  conditional E-value: 9.6e-20
+             RLR 561 ieddrfLlalfeekkkeLkrlaedpe..nenekLekLrfkilqeeyr....lees.....argiiftktrqsadaLkqWieeneklaevdvkaql 644
+                       ++  L ++f  +++ L ++ +     +  +kL kL+  +l++  +    + e+     +r +if + r s++ +   + +++      v+   
+  XP_020603508.1 462 SANESLLFSQFSPRRRALMNVPKPSTtfKSHPKLLKLKEIVLEHFEKfqdkSGEEkkgvaTRVMIFSQYRDSVNEIAAMLSHHKP----AVRVMS 552
+                     44557899999999999999976543225789*****987777533211112232233336889************999987653....468899 PP
+
+             RLR 645 LiGaGkssqst.gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsgsgvieke 735
+                     +iG+  + +st g+tq+eq +v+++f++G +n L+at v eeGlDi e ++++ ++  +  i++vq  Gr +r ++ ++v+++t+g      e
+  XP_020603508.1 553 FIGQQSTGKSTrGLTQKEQLQVVQRFRQGGYNTLVATCVGEEGLDIGEVDLIVCFDAHASPIRLVQRMGRtGRKRDGRIVILVTEGKE----E 641
+                     9**9998877538*********************************************************6699**********9954....3 PP
+
+>> XP_020627484.1  probable ATP-dependent RNA helicase DDX52 isoform X3 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.0   1.3e-10   5.7e-08     236     372 ..      55     189 ..      10     196 .. 0.84
+   2 !   32.3   0.0     1e-10   4.5e-08     657     717 ..     315     376 ..     298     400 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 1.3e-10
+             RLR 236 lklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe 330
+                      ++ + q++ +   ++ + ++ c+PtGsGkt + ++   +hL+     e+ + vv+     l +q + ++ +    +++r+  l+   a   sf+
+  XP_020627484.1  55 QQPTPIQMQAIPLIIHKREVLCCAPTGSGKTAAFILPILHHLKSSR-KEGFRAVVVSPTRELAQQIYHEFCHLSNGRMFRIHLLTKSKASSNSFG 148
+                     567778888777778889999*********************9987.5777788888888999999999888889999***********999998 PP
+
+             RLR 331 e.vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         +  Di+++t++ L+  L +  +  +++L     +i+De 
+  XP_020627484.1 149 SkSSQKFDILVTTPNRLVHLLSQ--DPPGIQLHNVEWLILDEA 189
+                     6156789***********99988..88999**********997 PP
+
+  == domain 2  score: 32.3 bits;  conditional E-value: 1e-10
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                      tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++ t  +a +   Gr +ra 
+  XP_020627484.1 315 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPTSSVAYIHRIGRtGRAG 376
+                     6999999*********************************************9999844664 PP
+
+>> XP_020627483.1  probable ATP-dependent RNA helicase DDX52 isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   0.0   1.2e-10   5.4e-08     230     372 ..     190     330 ..      96     337 .. 0.82
+   2 !   31.8   0.0   1.5e-10   6.6e-08     657     717 ..     456     517 ..     439     541 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 1.2e-10
+             RLR 230 asleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta 324
+                      +     ++ + q++ +   ++ + ++ c+PtGsGkt + ++   +hL+     e+ + vv+     l +q + ++ +    +++r+  l+   a
+  XP_020627483.1 190 VTKRGYQQPTPIQMQAIPLIIHKREVLCCAPTGSGKTAAFILPILHHLKSSR-KEGFRAVVVSPTRELAQQIYHEFCHLSNGRMFRIHLLTKSKA 283
+                     44445567788899888778889999**********************9987.5777788888888999999999888889999*********** PP
+
+             RLR 325 ekvsfee.vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        sf+    +  Di+++t++ L+  L +  +  +++L     +i+De 
+  XP_020627483.1 284 SSNSFGSkSSQKFDILVTTPNRLVHLLSQ--DPPGIQLHNVEWLILDEA 330
+                     9999986156789***********99988..88999**********997 PP
+
+  == domain 2  score: 31.8 bits;  conditional E-value: 1.5e-10
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                      tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++ t  +a +   Gr +ra 
+  XP_020627483.1 456 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPTSSVAYIHRIGRtGRAG 517
+                     6999999*********************************************9999844664 PP
+
+>> XP_020627482.1  probable ATP-dependent RNA helicase DDX52 isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.7   0.0   1.6e-10   7.2e-08     234     372 ..     196     332 ..     120     339 .. 0.83
+   2 !   31.8   0.0   1.5e-10   6.6e-08     657     717 ..     458     519 ..     441     543 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 31.7 bits;  conditional E-value: 1.6e-10
+             RLR 234 selklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                        ++ + q++ +   ++ + ++ c+PtGsGkt + ++   +hL+     e+ + vv+     l +q + ++ +    +++r+  l+   a   s
+  XP_020627482.1 196 GYQQPTPIQMQAIPLIIHKREVLCCAPTGSGKTAAFILPILHHLKSSR-KEGFRAVVVSPTRELAQQIYHEFCHLSNGRMFRIHLLTKSKASSNS 289
+                     44567788888777778889999*********************9987.5777788888888999999999888889999***********9999 PP
+
+             RLR 329 fee.vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     f+    +  Di+++t++ L+  L +  +  +++L     +i+De 
+  XP_020627482.1 290 FGSkSSQKFDILVTTPNRLVHLLSQ--DPPGIQLHNVEWLILDEA 332
+                     986156789***********99988..88999**********997 PP
+
+  == domain 2  score: 31.8 bits;  conditional E-value: 1.5e-10
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                      tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++ t  +a +   Gr +ra 
+  XP_020627482.1 458 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPTSSVAYIHRIGRtGRAG 519
+                     6999999*********************************************9999844664 PP
+
+>> XP_020611156.1  probable ATP-dependent RNA helicase DDX27 isoform X3 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.6   0.0   1.4e-09   6.1e-07     240     374 ..      28     160 ..      22     177 .. 0.87
+   2 !   27.5   0.5   3.1e-09   1.3e-06     655     782 ..     280     408 ..     219     424 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.6 bits;  conditional E-value: 1.4e-09
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv 333
+                     + q   +  al Gk+i  c+ tG+Gkt + ++ i ++ + + ++a  ++v++l     l  q +s+     ++   +v   +G  + k     + 
+  XP_020611156.1  28 PIQTSTIPVALMGKDICACAATGTGKTAAYMLpILERLIYRPQQASVTRVLILTPTRELAIQIHSVTKALSKHTNIQVCLATGGLDGKSQEAALR 122
+                     567777778******************998765889999999999*****************99987666666678888889************* PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     k  Di+i+t+  L+  L++       +L    +i++De  +
+  XP_020611156.1 123 KGPDIVIATPGRLVDHLHN---TPSFNLQTVEIIVLDEADR 160
+                     ******************9...889999999******9765 PP
+
+  == domain 2  score: 27.5 bits;  conditional E-value: 3.1e-09
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades.kyvlvatsgsgvieketinefkeklmek 747
+                      ++tq ++ e + kfk G++++L+at  a  GlDi     vi  +l     + +   Gr ara  s + v ++ +  + + ke +  +k  +  +
+  XP_020611156.1 280 GNLTQLQRLEALRKFKAGEVDILVATDLASRGLDILGVKTVINANLPPTLKQYIHRVGRtARAGRSgRSVSLVGEKERKLLKEIVKLAKTPVKSR 374
+                     568999999*************************************99999999999986788777245668889999999**999888766544 PP
+
+             RLR 748 ailavqkmdeaeyrekilelqt..qellerkakekrk 782
+                      i  v +   ++y+ ki  l +  +e+l+++++ek+ 
+  XP_020611156.1 375 -I--VPTEVIEKYKSKIQGLEKdlKEILKQESEEKEL 408
+                     .4..445556789999988865226788888877764 PP
+
+>> XP_020611155.1  probable ATP-dependent RNA helicase DDX27 isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.4   0.0   1.6e-09   6.9e-07     240     374 ..      79     211 ..      71     228 .. 0.88
+   2 !   27.3   0.4   3.5e-09   1.5e-06     655     782 ..     331     459 ..     271     475 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.4 bits;  conditional E-value: 1.6e-09
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv 333
+                     + q   +  al Gk+i  c+ tG+Gkt + ++ i ++ + + ++a  ++v++l     l  q +s+     ++   +v   +G  + k     + 
+  XP_020611155.1  79 PIQTSTIPVALMGKDICACAATGTGKTAAYMLpILERLIYRPQQASVTRVLILTPTRELAIQIHSVTKALSKHTNIQVCLATGGLDGKSQEAALR 173
+                     567777778******************998765889999999999*****************99987666666678888889************* PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     k  Di+i+t+  L+  L++       +L    +i++De  +
+  XP_020611155.1 174 KGPDIVIATPGRLVDHLHN---TPSFNLQTVEIIVLDEADR 211
+                     ******************9...889999999******9765 PP
+
+  == domain 2  score: 27.3 bits;  conditional E-value: 3.5e-09
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades.kyvlvatsgsgvieketinefkeklmek 747
+                      ++tq ++ e + kfk G++++L+at  a  GlDi     vi  +l     + +   Gr ara  s + v ++ +  + + ke +  +k  +  +
+  XP_020611155.1 331 GNLTQLQRLEALRKFKAGEVDILVATDLASRGLDILGVKTVINANLPPTLKQYIHRVGRtARAGRSgRSVSLVGEKERKLLKEIVKLAKTPVKSR 425
+                     568999999*************************************99999999999986788777245668889999999**999888766544 PP
+
+             RLR 748 ailavqkmdeaeyrekilelqt..qellerkakekrk 782
+                      i  v +   ++y+ ki  l +  +e+l+++++ek+ 
+  XP_020611155.1 426 -I--VPTEVIEKYKSKIQGLEKdlKEILKQESEEKEL 459
+                     .4..445556789999988865226788888877764 PP
+
+>> XP_020611154.1  probable ATP-dependent RNA helicase DDX27 isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.4   0.0   1.6e-09   6.9e-07     240     374 ..      79     211 ..      71     228 .. 0.88
+   2 !   27.3   0.4   3.5e-09   1.5e-06     655     782 ..     331     459 ..     271     475 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 28.4 bits;  conditional E-value: 1.6e-09
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv 333
+                     + q   +  al Gk+i  c+ tG+Gkt + ++ i ++ + + ++a  ++v++l     l  q +s+     ++   +v   +G  + k     + 
+  XP_020611154.1  79 PIQTSTIPVALMGKDICACAATGTGKTAAYMLpILERLIYRPQQASVTRVLILTPTRELAIQIHSVTKALSKHTNIQVCLATGGLDGKSQEAALR 173
+                     567777778******************998765889999999999*****************99987666666678888889************* PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     k  Di+i+t+  L+  L++       +L    +i++De  +
+  XP_020611154.1 174 KGPDIVIATPGRLVDHLHN---TPSFNLQTVEIIVLDEADR 211
+                     ******************9...889999999******9765 PP
+
+  == domain 2  score: 27.3 bits;  conditional E-value: 3.5e-09
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades.kyvlvatsgsgvieketinefkeklmek 747
+                      ++tq ++ e + kfk G++++L+at  a  GlDi     vi  +l     + +   Gr ara  s + v ++ +  + + ke +  +k  +  +
+  XP_020611154.1 331 GNLTQLQRLEALRKFKAGEVDILVATDLASRGLDILGVKTVINANLPPTLKQYIHRVGRtARAGRSgRSVSLVGEKERKLLKEIVKLAKTPVKSR 425
+                     568999999*************************************99999999999986788777245668889999999**999888766544 PP
+
+             RLR 748 ailavqkmdeaeyrekilelqt..qellerkakekrk 782
+                      i  v +   ++y+ ki  l +  +e+l+++++ek+ 
+  XP_020611154.1 426 -I--VPTEVIEKYKSKIQGLEKdlKEILKQESEEKEL 459
+                     .4..445556789999988865226788888877764 PP
+
+>> XP_020632927.1  ATP-dependent RNA helicase dbp2-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   1.5e-06   0.00065     219     372 ..     130     283 ..      74     287 .. 0.76
+   2 !   28.9   0.0   1.1e-09     5e-07     658     742 ..     409     495 ..     342     511 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 1.5e-06
+             RLR 219 edsdeesvvadasleselk.lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk...vvvlvnkvllveqlkskefkrf 309
+                     e+++ ++ v d+  +  ++ +   q +    al G++++ ++ tGsGkt   ++ a  h+++ +  ++g     +vl     l +q +s+ f++ 
+  XP_020632927.1 130 EEANYPNYVMDTIRKEGFQePTVIQAQGWPVALSGRDLVGIAQTGSGKTISFILPAIVHINNQPLLQPGDgpvALVLCPTRELAQQVQSVAFQYG 224
+                     45566666666665555542445566666669******************************9977665432257899999************** PP
+
+             RLR 310 lkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                      + + r + + G   +   + e+ +  +i i+t+  L   L       + +L   +++++De 
+  XP_020632927.1 225 RNSKVRSVCIYGGAPKGPQIRELERGVEICIATPGRLIDMLEA----RKTNLRRCTFLVLDEA 283
+                     **********************************988887766....7888889999999986 PP
+
+  == domain 2  score: 28.9 bits;  conditional E-value: 1.1e-09
+             RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad..eskyvlvatsgsgvieketinefke 742
+                      q+e+  v+++f++G+  +L+at va  GlDi++   vi +++ +     v   Gr ar+d  ++ y++  t +++   k++i   ke
+  XP_020632927.1 409 SQPERDWVLNEFRKGNAPILVATDVASRGLDISDIKFVINFDFPSCSEDYVHRIGRtARSDrtGTSYTFFTTGNAKQA-KDLISVLKE 495
+                     579999***************************************999999999996687722467888888887764.556655555 PP
+
+>> XP_020612728.1  U5 small nuclear ribonucleoprotein 200 kDa helicase-like, partial [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.2   1.3e-10   5.7e-08     245     378 ..      33     168 ..      19     200 .. 0.78
+   2 ?   -0.8   0.0         1   4.6e+02     636     697 ..     313     374 ..     302     381 .. 0.86
+   3 !   13.9   0.0   3.9e-05     0.017     253     374 ..     889    1003 ..     875    1026 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 1.3e-10
+             RLR 245 valPaleG.kniiiclPtGsGktrvavyiakd....h..LekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeev 332
+                     +   al+   n+++c+PtG+Gkt va++   +    h  L+ + + e+ k ++++    lv+ +  ++ kr+   + +v  l+Gd +++   +e 
+  XP_020612728.1  33 LSNTALNTdENLLLCAPTGAGKTNVALLTILRevgkHinLDGTINLEEFKAIYVAPMKSLVQEMVANFTKRLSTYGVTVSELTGDHNLN---KEQ 124
+                     55666654269***************98653311114224555556999************************************9887...455 PP
+
+             RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtske 378
+                     ++s+ +i++t++  +   +k  e +  +L    LiiiDe h  + +
+  XP_020612728.1 125 INSTQVIVCTPEKWDIITRKGGERTFTQLV--RLIIIDEIHLLHDD 168
+                     78999*******999999998899998885..79*******76655 PP
+
+  == domain 2  score: -0.8 bits;  conditional E-value: 1
+             RLR 636 aevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                     + v++  + L+  G + +  gmt+ ++  v d f + ++ +L++t+    G++++   ++i+
+  XP_020612728.1 313 QAVNLELKDLLPYGFAIHHAGMTRVDRTLVEDLFADRHIQVLVSTATLAWGVNLPAHTVIIK 374
+                     56777777888889999999***************************999*99999999887 PP
+
+  == domain 3  score: 13.9 bits;  conditional E-value: 3.9e-05
+             RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlksk.efkrflkkryrviglsGdtaekvsfeevvksnDiiiltaq 344 
+                       n++i +PtGsGkt  a +   + L++ +   + + v++     l +q +   ++k  l+ +  v+ l+G+t+  +    ++   ++i++t++
+  XP_020612728.1  889 ENVLIGAPTGSGKTICAEFAVLRLLQQLP---ECRCVFVTPLQSLADQVYADwQSKFALQLGKNVVKLTGETSADLK--LLA-KGNVIVSTPE 975 
+                      69*************************99...8899999999999999987724566688999********997764..455.567999**99 PP
+
+             RLR  345 iLensLkkleedaiveLsvfsLiiiDeChh 374 
+                        +   ++   ++  ++    L i+De h 
+  XP_020612728.1  976 QWDV--LSRRWKQRKNVQNVHLFILDEAHL 1003
+                      5543..444456666777888999999995 PP
+
+>> XP_020600699.1  probable ATP-dependent RNA helicase DDX46 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   0.0     9e-07    0.0004     240     372 ..     738     872 ..     729     877 .. 0.82
+   2 !   30.9   0.0   2.9e-10   1.3e-07     656     729 ..     993    1069 ..     967    1078 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 9e-07
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdh.Lekvkka.ekgkv.vvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfee 331
+                     + q + +   + G+++i ++ tGsGkt + ++   +h L++ +   e+g + +++     l  q +++  k  +    rv+ + G t+    + e
+  XP_020600699.1 738 PIQAQAIPTIMSGRDMIGIAKTGSGKTLAFLLPMYRHvLDQPDLDrEDGPIgIIMTPTRELALQIYRECKKFCKPLNLRVVCVYGGTGISEQIAE 832
+                     56777777789******************9998777736665544566665377888888999988777777777899***************** PP
+
+             RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     + +  +ii++t+  +   L+  +++   +    + +++De 
+  XP_020600699.1 833 LKRGAEIIVCTPGRMIDMLTA-NNGRVTNCRRCTYLVLDEA 872
+                     ************988888887.7888888888889999886 PP
+
+  == domain 2  score: 30.9 bits;  conditional E-value: 2.9e-10
+             RLR  656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr...aradeskyvlvatsgs 729 
+                      gm q ++   i  fk+G  nl+iatsva  GlD+k+  +v+ y+        v   Gr   a  +++ y++v  ++ 
+  XP_020600699.1  993 GMDQFDRDSTIADFKNGVTNLMIATSVAARGLDVKQLILVVNYDCPNHYEDYVHRCGRtgrAGRKGTSYTFVTSEQG 1069
+                      7999999************************************9877666666655543005557888999987765 PP
+
+>> XP_020627886.1  probable ATP-dependent RNA helicase DDX47 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.8   0.0   0.00033      0.15     240     371 ..      38     164 ..      16     171 .. 0.67
+   2 !   32.7   0.0   7.8e-11   3.4e-08     656     799 ..     285     428 ..     275     438 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00033
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeev 332
+                     + q e +  al+Gk+ii  + tGsGkt + ++ + +  Le+ +  ++   ++l     l  q  s++f+ +    + +   + G ++       +
+  XP_020627886.1  38 KIQREAIPVALQGKDIIGLAETGSGKTGAFALpVLQTLLEN-P--QRLYALILTPTRELAFQ-ISEQFEALgSSIGVKCAVIVGGIDMMSQALML 128
+                     568899999******************87655144444443.3..35555666666666666.34444444134456666666666666666666 PP
+
+             RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                      k   iii+ +  L   L +    ++ +L  +  +i+De
+  XP_020627886.1 129 SKKPHIIIASPGRLIDHLEN---TKGFNLRTLKYLIMDE 164
+                     67777777777666666655...6666666666666666 PP
+
+  == domain 2  score: 32.7 bits;  conditional E-value: 7.8e-11
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv..lvatsgsgvieketinefkeklmek 747
+                     +m q ++   ++kfks +  lLiat va  GlDi++ ++vi +++ t     +   Gr ara  s     +v + +      e + +  e+l+ k
+  XP_020627886.1 285 QMNQSKRLGALNKFKSKDRSLLIATDVASRGLDIPHVDVVINFDIPTHSKDYIHRVGRtARAGRSGRSitFVTQYDV-----E-LYQRIEQLIGK 373
+                     6888888899*********************************************9*97799888653003333222.....2.23345777777 PP
+
+             RLR 748 ailavqkmdeaey..rekilelqtqelle.rkakekrkiakrqkndkelvklLCk 799
+                      +    +++e++    e++ e q  +++e r+ +ek+k   + + d +++++  k
+  XP_020627886.1 374 KLPLYPTVEEEVMllMERVTEAQRYAKMElREIQEKKKRPLEDEADSQEIRMPSK 428
+                     7777777777764226778888877777657777777766666666666666555 PP
+
+>> XP_020625544.1  activating signal cointegrator 1 complex subunit 3-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.4     3e-08   1.3e-05     253     409 ..     508     665 ..     491     667 .. 0.77
+   2 ?   -1.2   0.0       1.4     6e+02     648     697 ..     792     841 ..     780     847 .. 0.89
+   3 !   17.1   0.0   4.2e-06    0.0018     253     374 ..    1187    1301 ..    1164    1327 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 3e-08
+             RLR 253 kniiiclPtGsGktrvavyiakdhLek.....vkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiilt 342
+                      n++i +PtG+Gkt +a++   + +++     v k +k k+++++    l   + +++ kr+   +  v  l+Gd+++     e+ k+  ++++t
+  XP_020625544.1 508 ENLLISAPTGAGKTNIAMLTILREIKQnieegVIKKDKFKIIYVAPMKALAAEMVQNFGKRLASLGIAVRELTGDMQLTK--SEILKT-QMLVTT 599
+                     699**************9977666554211123455888999999999999999**********************9865..588886.588999 PP
+
+             RLR 343 aqiLensLkkleedaiveLs.vfsLiiiDeCh..htskeavynvimrnyLeqkLknsaiPLPqvlGLtas 409
+                     ++  +   +k      v L+    L+iiDe h  h ++ +v   ++ + L q   +s++ + +++GL a+
+  XP_020625544.1 600 PEKWDVVTRK--STGDVALAqLVKLLIIDEVHllHDDRGSVIECLVARTLRQV--ESSQSMIRIVGLSAT 665
+                     9988877766..333444541468********444455577888888887764..368889999999885 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 1.4
+             RLR 648 aGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                      G s +  gm ++++  v + f  G + +L+ t+    G++++   +vi+
+  XP_020625544.1 792 DGFSIHHAGMLRQDRTMVEQLFSRGLIRVLVCTATLAWGVNLPAHAVVIK 841
+                     577788899**********************************9999997 PP
+
+  == domain 3  score: 17.1 bits;  conditional E-value: 4.2e-06
+             RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevvksnDiiiltaq 344 
+                       n+++ +PtGsGkt +a +   + +++ +   ++k v+++    lv  +      rf++k +  v+ l+Gdt++ +   + v   D+i++t++
+  XP_020625544.1 1187 HNVLLGAPTGSGKTLAAELAIFRIFNQYP---GTKAVYIAPLKALVRERMDDWKVRFQQKlGRSVVELTGDTTPDM---RAVAKADVIVTTPE 1273
+                      6999**************99999998888...89999999866666665665555565551678********9986...456778******** PP
+
+             RLR  345 iLensLkkleedaiveLsvfsLiiiDeChh 374 
+                        +   ++   ++   +   +L++iDe h 
+  XP_020625544.1 1274 KWDGISRS--WQTRNYVKAVTLLVIDEIHL 1301
+                      98876666..6777778899*******995 PP
+
+>> XP_020613633.1  probable ATP-dependent RNA helicase DDX43 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.0   7.3e-06    0.0032     242     372 ..     341     470 ..     265     474 .. 0.81
+   2 !   23.4   0.0     5e-08   2.2e-05     659     738 ..     596     677 ..     568     698 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 7.3e-06
+             RLR 242 qlevalPaleGkniiiclPtGsGktrvavyiakdhLekvk..ka.ekg.kvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeev 332
+                     q +     l G ++i ++ tG+Gkt + ++ a  h++  +  +  ++g  v++l     l  q  + e k+f  ++ r + + G  + k  ++ v
+  XP_020613633.1 341 QCQAWPVILSGMDLIGIAQTGTGKTLAFLLPAFLHIDGQEipREsRGGpTVLILSPTRELALQ-IEAEVKKFHYRGIRSVCVYGGGSRKGQIQVV 434
+                     5554445689999***********************976522443555246666666677777.8999*************************** PP
+
+             RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                      k  +i+i+t+  L+  L++    +i+++   + +++De 
+  XP_020613633.1 435 QKGVEIVIATPGRLNDLLMN----EIMDVKSVTYLVLDEA 470
+                     **************998888....7888888899999986 PP
+
+  == domain 2  score: 23.4 bits;  conditional E-value: 5e-08
+             RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr...aradeskyvlvatsgsgvieketin 738
+                     q ++++ +d fk+G   +Liat va  GlDi+    v+ +++  n    v   Gr   a  +++  ++v  ++ +   + +in
+  XP_020613633.1 596 QVDREQALDDFKTGLAKILIATDVASRGLDIRGVTCVLNFDFPRNIEDYVHRIGRtgrAGRKGTSLTFVTRDDWRQ-AHKLIN 677
+                     5677889**********************************98887766666555300555666667777766655.345566 PP
+
+>> XP_020600740.1  DEAD-box ATP-dependent RNA helicase 22-like isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.0   2.2e-06   0.00095     242     312 ..      72     143 ..      57     178 .. 0.81
+   2 !   21.5   0.0     2e-07   8.7e-05     662     722 ..     512     573 ..     505     587 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 2.2e-06
+             RLR 242 qlevalPaleGkniiiclPtGsGktrvavy..iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk 312
+                     q     P leGkn++i + tGsGkt   ++  + k  ++k   +++   +vl   + l  q   + f+ + ++
+  XP_020600740.1  72 QEKALGPVLEGKNTVINAETGSGKTLCYLLpiVNKLLVDKEVLSKPPYALVLLPSIELCHQ-VANVFQSLTDD 143
+                     556667*******************9998752444455666667999999*********99.56666766654 PP
+
+  == domain 2  score: 21.5 bits;  conditional E-value: 2e-07
+             RLR 662 qkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv 722
+                     + e + kf sG+  +Li t  a  GlDi++   vi+ ++ +n  +++   Gr ara  s  v
+  XP_020600740.1 512 RIETLRKFTSGEWRVLICTDLASRGLDIPDVSHVIQLDFASNAAQVLHRTGRtARAGASGKV 573
+                     557899******************************************99996688776443 PP
+
+>> XP_020600741.1  DEAD-box ATP-dependent RNA helicase 22-like isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.0   2.1e-06   0.00092     242     312 ..      72     143 ..      57     178 .. 0.81
+   2 !   20.4   0.0   4.3e-07   0.00019     662     719 ..     512     570 ..     505     595 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 2.1e-06
+             RLR 242 qlevalPaleGkniiiclPtGsGktrvavy..iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk 312
+                     q     P leGkn++i + tGsGkt   ++  + k  ++k   +++   +vl   + l  q   + f+ + ++
+  XP_020600741.1  72 QEKALGPVLEGKNTVINAETGSGKTLCYLLpiVNKLLVDKEVLSKPPYALVLLPSIELCHQ-VANVFQSLTDD 143
+                     556667*******************9998752444455666667999999*********99.56666766654 PP
+
+  == domain 2  score: 20.4 bits;  conditional E-value: 4.3e-07
+             RLR 662 qkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades 719
+                     + e + kf sG+  +Li t  a  GlDi++   vi+ ++ +n  +++   Gr ara  s
+  XP_020600741.1 512 RIETLRKFTSGEWRVLICTDLASRGLDIPDVSHVIQLDFASNAAQVLHRTGRtARAGAS 570
+                     557899******************************************99996687544 PP
+
+>> XP_020628575.1  probable ATP-dependent RNA helicase ddx6 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.3   0.0   0.00024       0.1     238     347 ..      71     179 ..      66     202 .. 0.72
+   2 !   22.8   0.0   7.7e-08   3.4e-05     586     712 ..     246     374 ..     227     380 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00024
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeev 332
+                     + + q e +  al Gk i+  +  G+Gkt + +    +  ++ k   +g v+v   ++ l + +  ke  + l+   +v+  +G t++k  + ++
+  XP_020628575.1  71 PSPIQEESIPMALAGKHILARAKNGTGKTAAYLIPLLEKCDREKPHIQGLVLVPTRELALQTSQICKELGKHLEI--QVMVTTGGTSLKDDIMRL 163
+                     56778899999******************7766655555555555566666666666666666666666555554..566667************ PP
+
+             RLR 333 vksnDiiilta.qiLe 347
+                          iii+t+ +iL+
+  XP_020628575.1 164 YSDVHIIIATPgRILD 179
+                     **********834554 PP
+
+  == domain 2  score: 22.8 bits;  conditional E-value: 7.7e-08
+             RLR 586 enenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstg..mtqreqkevidkfksGklnlLi 678
+                      +e + +e+L+ k + ++y   e+ + +    t  s   ++q i   + ++ v++ a+ ++  G s  + +  m q +++ v + f+ G+   L+
+  XP_020628575.1 246 AYEINLMEELTLKGITQYYVFLEERQKVHCLNTLFSKLQVTQSIIFCNSVQRVELLAKKITELGYSCFFIHarMDQSHRNRVFHDFRRGETRTLV 340
+                     3555555555555555555555555555555555555556666666778999**************987644499******************** PP
+
+             RLR 679 atsvaeeGlDikeCniviryglvtneiamvqarG 712
+                     +      G+Di+  n+vi +++  n  + +   G
+  XP_020628575.1 341 SSDLFTRGIDIQSVNVVINFDFPKNSETYLHRIG 374
+                     ********************99888766555555 PP
+
+>> XP_020605355.1  eukaryotic initiation factor 4A-I-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.19        84     239     292 ..      66     117 ..      36     157 .. 0.77
+   2 !   31.9   0.8   1.4e-10   6.3e-08     586     733 ..     264     395 ..     228     413 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.19
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlv 292
+                      + q   + P  +G ++i  +  G+Gkt        + L+ +   ++ + +vl+
+  XP_020605355.1  66 SAIQQRAIAPCCKGYDVIAQAQSGTGKTATFSIAILEQLDVTF--RGCQALVLA 117
+                     566888899*******************764444444455444..344444555 PP
+
+  == domain 2  score: 31.9 bits;  conditional E-value: 1.4e-10
+             RLR 586 enenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiat 680
+                     e+e  kLe+L+       y++   ++++if  tr+ +d L+  ++e++ ++              s+   +m q+e+  ++++f+sG+  +Li t
+  XP_020605355.1 264 EKEEWKLETLCD-----LYETLTITQAVIFLNTRRKVDWLTLKMREKD-FTI-------------SAMHGDMDQKERDVIMKEFRSGSSRVLITT 339
+                     677788888884.....5666777888999999999886665554432.222.............344468************************ PP
+
+             RLR 681 svaeeGlDikeCniviryglvtneiamvqarGra.r..adeskyvlvatsgsgvie 733
+                          G+D+++  +vi y+l +n  + +   Gr+ r   ++  + +v +++ + ++
+  XP_020605355.1 340 DLLARGIDVQQVSLVINYDLPGNRENYIHRIGRGgRfgRKGVAINFVTNDDVRTLK 395
+                     **********************9988888777752211344455577777766665 PP
+
+>> XP_020623258.1  nucleolar RNA helicase 2-like isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.4   0.0    0.0017      0.77     243     372 ..      99     226 ..      59     263 .. 0.83
+   2 !   24.5   0.0   2.3e-08     1e-05     658     703 ..     357     402 ..     267     437 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.0017
+             RLR 243 levalPaleGkniiiclPtGsGkt..rvavyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv 333
+                      e      +G ++i  + tG+Gkt  +v  +i k  L+k  +   +   v+vl     l +q  s ef ++ k    +  l G ++     + + 
+  XP_020623258.1  99 SETFDYIYNGEDLIAQARTGTGKTlsFVLPLIEKLKLQKLSHKrgRAPMVLVLTPTRELAKQ-VSDEFDYL-KSDLAMHCLYGGVSYGPQAGAIR 191
+                     555555678999***********944455579999999975432277789999999999999.89999875.6678999999*9999999999*9 PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +  Di++ t+  +   + +     + +L+ +  ++iDe 
+  XP_020623258.1 192 NGLDIVVGTPGRIIDHMVN----GTLDLTQLKHVVIDEV 226
+                     *********9877777777....5778888888999886 PP
+
+  == domain 2  score: 24.5 bits;  conditional E-value: 2.3e-08
+             RLR 658 tqreqkev.idkfksGklnlLiatsvaeeGlDikeCniviryglvtn 703
+                     + +eq+e+ ++ f++Gk+  L+at va  GlDi+e ++v++ +   +
+  XP_020623258.1 357 A-QEQREItLKSFRDGKVRCLVATDVAARGLDIPEVDLVVLTEPPKD 402
+                     3.4566654899****************************9875444 PP
+
+>> XP_020623257.1  nucleolar RNA helicase 2-like isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.4   0.0    0.0018      0.79     244     372 ..     101     227 ..      63     264 .. 0.83
+   2 !   24.5   0.0   2.3e-08     1e-05     658     703 ..     358     403 ..     268     438 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 8.4 bits;  conditional E-value: 0.0018
+             RLR 244 evalPaleGkniiiclPtGsGkt..rvavyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvk 334
+                     e      +G ++i  + tG+Gkt  +v  +i k  L+k  +   +   v+vl     l +q  s ef ++ k    +  l G ++     + + +
+  XP_020623257.1 101 ETFDYIYNGEDLIAQARTGTGKTlsFVLPLIEKLKLQKLSHKrgRAPMVLVLTPTRELAKQ-VSDEFDYL-KSDLAMHCLYGGVSYGPQAGAIRN 193
+                     55555678999***********944455579999999975432277789999999999999.89999875.6678999999*9999999999*9* PP
+
+             RLR 335 snDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                       Di++ t+  +   + +     + +L+ +  ++iDe 
+  XP_020623257.1 194 GLDIVVGTPGRIIDHMVN----GTLDLTQLKHVVIDEV 227
+                     ********9877777777....5778888888999886 PP
+
+  == domain 2  score: 24.5 bits;  conditional E-value: 2.3e-08
+             RLR 658 tqreqkev.idkfksGklnlLiatsvaeeGlDikeCniviryglvtn 703
+                     + +eq+e+ ++ f++Gk+  L+at va  GlDi+e ++v++ +   +
+  XP_020623257.1 358 A-QEQREItLKSFRDGKVRCLVATDVAARGLDIPEVDLVVLTEPPKD 403
+                     3.4566654899****************************9875444 PP
+
+>> XP_020618873.1  probable ATP-dependent RNA helicase DDX49 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.0   0.00013     0.057     240     372 ..      34     161 ..      18     164 .. 0.74
+   2 !   20.9   0.1     3e-07   0.00013     666     723 ..     292     350 ..     280     417 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00013
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGdtaekvsfeevv 333
+                     + q + + P l G++ i c+ tGsGkt + ++   + L + +   +   vvl     l  q    +f+ + k  + +   + G  +       ++
+  XP_020618873.1  34 EIQQNCIPPILAGRDCIGCAKTGSGKTAAFALPILQKLCEDPY--GIFAVVLTPTRELAYQ-ICDQFRVLGKpIGLKEAVIIGGLDMMKQALTLA 125
+                     56889999*******************9988776666766664..4445666666666666.344445444412444444555555555566789 PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +   ++i+t+  L   Lk+    ++v+L    ++++De 
+  XP_020618873.1 126 EKPHVVIATPGRLADHLKS---TDTVDLKRIKFLVLDEA 161
+                     9999999999999999999...78899999999999996 PP
+
+  == domain 2  score: 20.9 bits;  conditional E-value: 3e-07
+             RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                     +  fksG + +L+at va  GlDi++  +vi  ++ +     +   Gr ara    ++l
+  XP_020618873.1 292 LATFKSGIVKILVATDVASRGLDIPQVELVINSNVPASPKDYIHRVGRtARAGRGGMAL 350
+                     678****************************9988888777887777755776555554 PP
+
+>> XP_020627805.1  eukaryotic initiation factor 4A-III [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.1      0.13        59     240     268 ..      55      83 ..      47     117 .. 0.84
+   2 ?   -1.1   0.0       1.3   5.6e+02     781     821 ..     112     152 ..      90     157 .. 0.73
+   3 !   30.2   0.0   4.6e-10     2e-07     651     714 ..     297     360 ..     230     394 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 2.2 bits;  conditional E-value: 0.13
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrv 268
+                     + q   + P ++G+++i  +  G+Gkt  
+  XP_020627805.1  55 AIQQRAIKPIVKGRDVIAQAQSGTGKTAT 83 
+                     56788899******************964 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 1.3
+             RLR 781 rkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvn 821
+                     ++i+k      + + + C+ C   +  geD+r+++   hv+
+  XP_020627805.1 112 QQIQKVILALGDYMSIQCHACIGGTNVGEDIRKLDYGQHVV 152
+                     444445555556778889999999999******99888886 PP
+
+  == domain 3  score: 30.2 bits;  conditional E-value: 4.6e-10
+             RLR 651 ssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                     ss   +m q+e+  +++ f++G+  +Li+t v   G+D+++  +vi y+l  n    +   Gr+
+  XP_020627805.1 297 SSMHGDMPQKERDAIMKDFRTGQSRVLISTDVWARGIDVQQVSLVINYDLPNNRELYIHRIGRS 360
+                     667789********************************************99986666666654 PP
+
+>> XP_020602543.1  ATP-dependent RNA helicase DDX54-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.7   0.0   0.00018     0.079     246     371 ..     126     247 ..     112     251 .. 0.73
+   2 !   20.6   0.0   3.7e-07   0.00016     648     723 ..     360     438 ..     326     450 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00018
+             RLR 246 alPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvn..kvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                     +   ++Gk+++ ++ tGsGkt + +    + L++     +++ ++l    ++ l + +++ke  rf   +  v  l Gd +++  f  +  + Di
+  XP_020602543.1 126 IPVIMDGKDVVAMARTGSGKTAAFLIPMFERLKTHSAKVGARGLILSPtrELALQTLKFTKELGRFTGLKAAV-VLGGD-SLEGQFAALHGNPDI 218
+                     44569****************9988888999999987677777777651155666666777777776555544.36666.57789********** PP
+
+             RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     i++t+  +   +++       +L+    +++De
+  XP_020602543.1 219 IVATPGRFLHVMME----MDLKLTAVEYVVFDE 247
+                     ****9755444444....456666666677766 PP
+
+  == domain 2  score: 20.6 bits;  conditional E-value: 3.7e-07
+             RLR 648 aGkssqs..tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                     aG  s +   ++ q ++k  i kf++ k n+++ t va  G+Di+  + vi y++ +     +   Gr ara  s  ++
+  XP_020602543.1 360 AGIESSFvySTLDQAARKINIGKFQHKKTNVMVVTDVAARGIDIPMLDNVINYNFPAKPKLFIHRVGRvARAGRSGTAY 438
+                     55545441145567889999***********************************999999999999877888776544 PP
+
+>> XP_020602345.1  ATP-dependent RNA helicase DDX51-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.3   0.0   0.00091       0.4     254     372 ..     281     403 ..     276     422 .. 0.74
+   2 !   30.8   0.7     3e-10   1.3e-07     653     786 ..     578     714 ..     565     730 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.00091
+             RLR 254 niiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvk..sn......Dii 339
+                     +i + +PtGsGkt + v+ i +  L +v    ++  v+l     l +q k+++    +    rv   sG  +     e++v+  s+      Di+
+  XP_020602345.1 281 DICVSAPTGSGKTLAYVLpIVQSLLRRVVCHLRAL-VIL-PTKDLANQVKQVFEMFAEGTNLRVGLASGSKSFAKDQEQLVNpsSCgsssrvDIL 373
+                     578899********998857888888887434443.344.4447889966666666666778888889*99999999999863311333344*** PP
+
+             RLR 340 iltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     i+t+  L+  + +        L    +++iDe 
+  XP_020602345.1 374 ICTPGRLVDHISS---TPNFTLHHVRFLVIDEA 403
+                     *****99999988...66677778888888886 PP
+
+  == domain 2  score: 30.8 bits;  conditional E-value: 3e-10
+             RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad.eskyvlvatsgsgvieketinef.kekl 744
+                      s ++t r++k ++  fk Gkl lLi       G+Di++   vi y++   + + +   Gr ara  + + + +++s+     ke+i +  +ek+
+  XP_020602345.1 578 YSSSLTPRQRKGILRDFKIGKLQLLICSDAMARGMDIQDVSYVISYDVPNYVRSYIHRVGRtARAGnKGTAITLLHSDEVHHFKELIQKTgREKI 672
+                     4678999***************************************9877777888888885677514566678899988889999987559*** PP
+
+             RLR 745 mekail..avqkmdeaeyrekilelqtqellerkakekrkiakr 786
+                      +  i+  ++q m  ++y++ +  l+ + +le + k+++k  ++
+  XP_020602345.1 673 AKYNIKdeKLQSMV-EKYQDTLERLRDAVKLESQKKSQQK-GRH 714
+                     **999644799996.68********999998877776666.333 PP
+
+>> XP_020629225.1  spliceosome RNA helicase Ddx39b [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   2.6e-06    0.0011     239     374 ..      69     200 ..       7     206 .. 0.82
+   2 !   13.8   0.0   4.2e-05     0.018     654     702 ..     318     366 ..     271     409 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 2.6e-06
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk..kryrviglsGdtaekvsfee 331
+                      + q e +  a+ G +ii  +  G Gkt v v+ + + Le+++   +  v+v+     l  q  ske++rf k  +  +v  + G ++ k   + 
+  XP_020629225.1  69 SEVQHECIPQAILGMDIICQAKSGMGKTAVFVLATLQQLEQID--GQVSVLVMCHTRELAFQ-ISKEYERFSKymNNIKVSVFFGGISIKKDQQT 160
+                     5679999*9*********************************9..45667777777788888.78888888872245688889999999999999 PP
+
+             RLR 332 vvksn.Diiilta.qiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     +  ++  i++ t+ +iL  +L +   ++  +L      i+DeC +
+  XP_020629225.1 161 LKTNCpHIVVGTPgRIL--ALAR---EKSLNLKHIKHFILDECDK 200
+                     98777257777773455..4555...779999999999*****76 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 4.2e-05
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702
+                      +gm q+e+     +fk+ +  +L+at     G+Di++ niv  y++  
+  XP_020629225.1 318 HRGMEQEERLSRYRQFKDFSKRMLVATNLFGRGMDIERVNIVFNYDMPE 366
+                     567888888888899******************************9754 PP
+
+>> XP_020629226.1  spliceosome RNA helicase Ddx39b [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   2.6e-06    0.0011     239     374 ..      69     200 ..       7     206 .. 0.82
+   2 !   13.8   0.0   4.2e-05     0.018     654     702 ..     318     366 ..     271     409 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 2.6e-06
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk..kryrviglsGdtaekvsfee 331
+                      + q e +  a+ G +ii  +  G Gkt v v+ + + Le+++   +  v+v+     l  q  ske++rf k  +  +v  + G ++ k   + 
+  XP_020629226.1  69 SEVQHECIPQAILGMDIICQAKSGMGKTAVFVLATLQQLEQID--GQVSVLVMCHTRELAFQ-ISKEYERFSKymNNIKVSVFFGGISIKKDQQT 160
+                     5679999*9*********************************9..45667777777788888.78888888872245688889999999999999 PP
+
+             RLR 332 vvksn.Diiilta.qiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     +  ++  i++ t+ +iL  +L +   ++  +L      i+DeC +
+  XP_020629226.1 161 LKTNCpHIVVGTPgRIL--ALAR---EKSLNLKHIKHFILDECDK 200
+                     98777257777773455..4555...779999999999*****76 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 4.2e-05
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702
+                      +gm q+e+     +fk+ +  +L+at     G+Di++ niv  y++  
+  XP_020629226.1 318 HRGMEQEERLSRYRQFKDFSKRMLVATNLFGRGMDIERVNIVFNYDMPE 366
+                     567888888888899******************************9754 PP
+
+>> XP_020624779.1  probable ATP-dependent RNA helicase DDX4 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.6   0.0    0.0061       2.7     245     372 ..     343     473 ..     318     476 .. 0.71
+   2 !   23.7   0.0   4.2e-08   1.9e-05     657     714 ..     598     655 ..     570     697 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 6.6 bits;  conditional E-value: 0.0061
+             RLR 245 valPaleGkniiiclPtGsGktrvavy.iakdhLe....kvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeev 332
+                      +   l G++++ c+ tGsGkt + ++ + +  L+      + +  +  + + +     l +q +++  k   + + r     G ++    + ++
+  XP_020624779.1 343 AIPCILAGRDVMACAQTGSGKTAAFLLpVMDGMLNsgltSSELSatQTPQALCISPTRELTTQIYNEARKFSHQTMLRPAVAYGGVSVAHQLRHI 437
+                     4444689***************9988744444443111133322247778888888888888876666555566677777778888888889999 PP
+
+             RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                      + ++++++t+  L    ++  e  +v+L     +i+De 
+  XP_020624779.1 438 ERGCNLLVATPGRL----LDFVERGKVSLQCIQYLILDEA 473
+                     99999999998654....3444557888888888888885 PP
+
+  == domain 2  score: 23.7 bits;  conditional E-value: 4.2e-08
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                       q+e++e +  f+ G+  +Liat va  GlDi +   v+ y+l +   + v   Gr+
+  XP_020624779.1 598 RYQQEREEALRDFRRGSCPVLIATNVAARGLDIDNVKHVVNYDLPSEIHEFVHRIGRT 655
+                     5689999************************************988888888877774 PP
+
+>> XP_020631443.1  uncharacterized protein LOC110068407 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   0.0   2.6e-10   1.2e-07     600     691 ..      13     103 ..       8     104 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 2.6e-10
+             RLR 600 lqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDike 691
+                     l  + r +e +rg+i +  r++++ L + i+  +++++  + ++ ++G G+ s      ++eq+ ++++f+sG   lL+ t v eeGlD++e
+  XP_020631443.1  13 LMSRAREDETSRGMIVVSMRKTTYKLCEQIRTIPNVTK-TLNPEPFVGHGQGSYDGMAWREEQEYLLKQFRSGVTKLLVCTGVLEEGLDVPE 103
+                     5556788999**************************99.9***********9987666677888899**********************986 PP
+
+>> XP_020603001.1  ATP-dependent RNA helicase DDX3X-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0       0.5   2.2e+02     245     269 ..     217     242 ..     148     352 .. 0.86
+   2 !   26.1   0.0   7.8e-09   3.4e-06     651     714 ..     473     536 ..     430     571 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 0.5
+             RLR 245 valPaleGk.niiiclPtGsGktrva 269
+                      a+P ++ k +++ c+ tGsGkt + 
+  XP_020603001.1 217 YAIPIVKSKrDLMACAQTGSGKTAAF 242
+                     47788888735788*********764 PP
+
+  == domain 2  score: 26.1 bits;  conditional E-value: 7.8e-09
+             RLR 651 ssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                     +s   +  qre++  ++ fksG+  +L+at+va  GlDi++   v+ +++ t+  + v   Gr+
+  XP_020603001.1 473 TSIHGDRSQREREAALQSFKSGRTPILVATAVAARGLDIPNVRHVVNFDMPTDIEEYVHRIGRT 536
+                     444555679999**************************************99988888888874 PP
+
+>> XP_020619213.1  probable ATP-dependent RNA helicase DDX56 isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.0   0.00075      0.33     246     304 ..      40     102 ..       6     112 .. 0.74
+   2 !   19.1   0.0     1e-06   0.00044     247     371 ..     123     249 ..     111     253 .. 0.72
+   3 ?   -3.6   0.1       7.6   3.4e+03     538     584 ..     512     560 ..     511     566 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00075
+             RLR 246 alPaleGkniiiclPtGsGktrv.avyiakdhLekvkka...ekgkvvvlvnkvllveqlksk 304
+                     +  aleGk+i+  + tGsGkt + a+ + ++ L+ ++      + + +vlv    l +q +++
+  XP_020619213.1  40 IPLALEGKDILARAKTGSGKTAAyAIPLIQRILQDKQTNsssTGVRALVLVPTKELSKQAHRN 102
+                     5569*****************874666778888665543233455778888888888886654 PP
+
+  == domain 2  score: 19.1 bits;  conditional E-value: 1e-06
+             RLR 247 lPaleGkniiiclPtGsGktrv.avyiakdhLekvkka...ekgkvvvlvnkvllveqlks..kefkrflkkryrvigls.Gdtaekvsfeevvk 334
+                       aleGk+i+  + tGsGkt + a+ + ++ L+ ++      + + +vlv    l +q ++  ke   +  +  rv  ++ G+ a   s   +++
+  XP_020619213.1 123 PLALEGKDILARAKTGSGKTAAyAIPLIQRILQDKQTNsssTGVRALVLVPTKELSKQAHRniKELSSYCSREVRVADVAqGNLASTKS--LLME 215
+                     459*****************874666788888766544233566889***********8873345666777777777764245444443..489* PP
+
+             RLR 335 snDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     + Di+i t+  L   ++  + d + +L +   ++iDe
+  XP_020619213.1 216 CPDIVIGTPSALLGHVQAKNLDLKASLQI---LVIDE 249
+                     *********99988888766666666654...55665 PP
+
+  == domain 3  score: -3.6 bits;  conditional E-value: 7.6
+             RLR 538 rmvDalaaLkdf.ysee..kakkfdvieddrfLlalfeekkkeLkrlaed 584
+                     r+ Dal a+ +   +e   k+ k ++++ + +L a fe++ + L+ l +d
+  XP_020619213.1 512 RAQDALRAVTKSaVKEArlKEIKSEILNSE-KLKAYFEDNPRDLQVLRHD 560
+                     666777665443033331134455566665.9999999999999888665 PP
+
+>> XP_020623783.1  LOW QUALITY PROTEIN: uncharacterized protein LOC110061278 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   0.0   5.6e-06    0.0025     251     376 ..     167     283 ..     161     329 .. 0.79
+   2 !    9.4   0.0   0.00087      0.38     608     698 ..     435     530 ..     398     555 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 5.6e-06
+             RLR 251 eGkniiiclPtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaq 344
+                     e  n++  +Pt +Gkt+va +++ k+ Le++      k +++   + +   +     + +++ + rv g  G  a+  +f     s Di ++t +
+  XP_020623783.1 167 ENSNLVYSAPTSAGKTMVAeLLMLKRVLETKR-----KALFILPFISVAREKMFYLQRLYQEAGVRVEGYMGSHAPPGGFV----SVDIAVCTIE 252
+                     6789999***********94567799999988.....88999999999998777777778888999998888888877775....569*****99 PP
+
+             RLR 345 iLensLkkleedaiveLsvfsLiiiDeChhts 376
+                        nsL++   ++   Ls + ++++De h   
+  XP_020623783.1 253 K-ANSLLNRLLEENKALSSLGIVVVDEMHMIG 283
+                     6.56666666667789*************754 PP
+
+  == domain 2  score: 9.4 bits;  conditional E-value: 0.00087
+             RLR 608 esargiiftktrqsa....daLkqWieeneklaevdvkaql..LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivi 696
+                     ++ +g  f+k+ +++     aL++ ie+ ++ ++v++ + l  ++  G + +  g+t +e+  +  +f++G++ +L+ats    G++++   ++i
+  XP_020623783.1 435 NNVQGGGFVKASALVtfdyAALREVIEQLKR-TQVGLDSMLarMVPHGVAFHHAGLTFDERDIIEGAFRQGSIRVLVATSTLSSGVNLPARRVII 528
+                     5555555677666663332356666655544.55577665422788999999999***99999999**************************999 PP
+
+             RLR 697 ry 698
+                     r 
+  XP_020623783.1 529 RT 530
+                     95 PP
+
+>> XP_020609235.1  LOW QUALITY PROTEIN: probable ATP-dependent RNA helicase DDX23 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0       3.6   1.6e+03     248     268 ..     412     432 ..     396     437 .. 0.80
+   2 !   26.3   0.1   7.1e-09   3.1e-06     659     731 ..     691     767 ..     661     775 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 3.6
+             RLR 248 PaleGkniiiclPtGsGktrv 268
+                       l+ ++ii ++ tGsGkt +
+  XP_020609235.1 412 IGLQNRDIIGVAETGSGKTAA 432
+                     4688999************75 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 7.1e-09
+             RLR 659 qreqke.vidkfksGklnlLiatsvaeeGlDikeCniviryglvtne...iamvqarGraradeskyvlvatsgsgv 731
+                      +eq+e  ++ +ksG  ++L+at va  G+Dik+  +vi y++        + +   Gra   +  ++++ +++s v
+  XP_020609235.1 691 NQEQREfALSSLKSGAKDILVATDVAGRGIDIKDVSLVINYDMAKSIegyTHRIGRTGRAGKTGVAVTFLTQEDSAV 767
+                     345555269********************************986543111445555566666666777888887776 PP
+
+>> XP_020608171.1  ATP-dependent RNA helicase ded1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0     0.024        11     238     270 ..      95     127 ..      71     160 .. 0.86
+   2 ?   -0.4   0.0      0.82   3.6e+02     312     371 ..     248     303 ..     235     307 .. 0.81
+   3 !   18.9   0.0   1.2e-06   0.00052     662     702 ..     433     473 ..     403     496 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.024
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                     + + q++     + G++ii  + tGsGkt +  
+  XP_020608171.1  95 PTAIQMQALSCVMSGRDIIGLAETGSGKTLAYS 127
+                     66779999999******************8754 PP
+
+  == domain 2  score: -0.4 bits;  conditional E-value: 0.82
+             RLR 312 kryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                      +y+ +g+ G +     ++e+    D++i+t+  L    ++l +    +L   s +++De
+  XP_020608171.1 248 TKYQSVGICGGVPISSQVQELKTGVDVVIATPGRL----LDLCDRGLLSLDKVSYLVMDE 303
+                     68999**************************9654....334445677777777777777 PP
+
+  == domain 3  score: 18.9 bits;  conditional E-value: 1.2e-06
+             RLR 662 qkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702
+                     + +++++f++Gk+++L+at v   GlD +e   vi y+l  
+  XP_020608171.1 433 RFKLVSAFREGKVDVLVATDVGSRGLDFPEVTHVINYDLPD 473
+                     45789********************************9855 PP
+
+>> XP_020608030.1  probable ATP-dependent RNA helicase DDX4 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       1.3   5.5e+02     297     372 ..     464     535 ..     455     538 .. 0.88
+   2 !   24.9   0.0   1.9e-08   8.2e-06     653     713 ..     657     717 ..     646     765 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -1.0 bits;  conditional E-value: 1.3
+             RLR 297 lveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     l  q ++++ k   +   +     G ++ +  ++++ + + ++++t+  L+  +++    ++v+Ls    +i+De 
+  XP_020608030.1 464 LAVQIHREFCKFSNETVITAAVCYGGVSVQHQLDRLRRGCHVLVATPGRLDDFVTR----NKVSLSNVRYLILDEA 535
+                     56688888888888888888888999999*********************999998....89************96 PP
+
+  == domain 2  score: 24.9 bits;  conditional E-value: 1.9e-08
+             RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                      s + tq+e++  +  f+sG+  +L+atsva  GlDi++   vi ++l  +  + v   Gr
+  XP_020608030.1 657 ISGDRTQQEREAALRDFRSGRAPVLVATSVAARGLDIPDVKHVINFDLPQDIEEYVHRIGR 717
+                     556779****************************************997766666666665 PP
+
+>> XP_020623043.1  ATP-dependent RNA helicase ddx24-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.0       1.4   6.2e+02     246     280 ..     164     199 ..      83     206 .. 0.68
+   2 ?    4.2   0.0     0.034        15     300     374 ..     252     325 ..     242     337 .. 0.81
+   3 !   18.7   0.0   1.3e-06   0.00058     656     717 ..     468     530 ..     465     550 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 1.4
+             RLR 246 alPal.eGkniiiclPtGsGktrvavyiakdhLekv 280
+                       Pa+ + ++ii  + tGsGkt +  +   +h+ + 
+  XP_020623043.1 164 LPPAIfHHQDIIGAAETGSGKTLAFGLPILHHILQR 199
+                     456652456777788999999988666555554444 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.034
+             RLR 300 qlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     q +++  +  ++    ++++ G +a++     + k+ +ii++t+  L   L +  e+   +L ++  ++iDe  +
+  XP_020623043.1 252 QIRNHLQQAAKHTSLEIVAVVGGMAPQKQQRLLRKCPEIIVATPGRLWD-LISEGEEHVSRLEDLRYLVIDEADR 325
+                     5444555555666789999**************************9976.55546888899***********865 PP
+
+  == domain 3  score: 18.7 bits;  conditional E-value: 1.3e-06
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                     +m qr++ + +d+fks +  lL+at va  GlDi+    vi y++  +    +   Gr ara 
+  XP_020623043.1 468 SMQQRQRLKNLDRFKSSSSGLLLATDVAARGLDIPAVEHVIHYQVPKDPDLYIHRSGRtARAS 530
+                     6899999999*********************************98777766777777644554 PP
+
+>> XP_020625703.1  probable ATP-dependent RNA helicase DDX41 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0     0.071        31     241     371 ..     205     343 ..     187     348 .. 0.62
+   2 !   20.4   0.0     4e-07   0.00018     658     724 ..     465     534 ..     437     551 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 3.1 bits;  conditional E-value: 0.071
+             RLR 241 yqlevalPaleGkniiiclPtGsGktrvavy.iakdhLek.....vkkaekgkvvvlvnkvllveqlk...skefkrflkkry...rviglsGdt 323
+                      q++ +   l G+++i ++ tGsGkt v  + i    Le+     ++k e+   +++v    l  q +   s++ + ++ +++   r     G t
+  XP_020625703.1 205 IQIQGIPAVLTGRDMIGIAFTGSGKTLVFTLpIIMFSLEQekvlpFQKQEGPYGLIVVPSRELARQTFeviSEFTRALELDGFpslRSALCIGGT 299
+                     56666666799***************996443555555541111133444444555555556666655222345566666665322344445777 PP
+
+             RLR 324 aekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     + k  +e v +   ++++t+  L   L k    ++v+L +   +++De
+  XP_020625703.1 300 SVKDQLEIVKRGVHMMVATPGRLMDLLEK----KMVNLDICRYLVLDE 343
+                     77777777777777777777766555444....777777777777777 PP
+
+  == domain 2  score: 20.4 bits;  conditional E-value: 4e-07
+             RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlv 724
+                      q+e++  +  f++Gk ++++at va  GlD ++   vi y++   + n ++ +   Gr    +   +++
+  XP_020625703.1 465 DQEERESAMRSFREGKKDVMVATDVASKGLDFPDIQHVINYDMpedIENYVHRIGRTGRCGKTGVATTFI 534
+                     5778888999*******************************87444666666666666665555555555 PP
+
+>> XP_020627284.1  mitochondrial antiviral-signaling protein-like isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.1   1.2e-08   5.2e-06       4     187 ..       4      91 ..       1     119 [. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 25.5 bits;  conditional E-value: 1.2e-08
+             RLR   4 efrrllsafrdrvkktldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllar..aieltdlkke 96 
+                     e+r l++ + + +   + +  +l yl+ l ++ ke i+ e +++G+m+a++ l++  + +++   ++ef+ al+++G   la+            
+  XP_020627284.1   4 EQRELIRRYISSLVDDVIPVDMLPYLSCLTSNDKEEIRCEETNHGPMRATQKLVE--RLIRRPNAFQEFIRALRETGCEHLAEllY--------- 87 
+                     5666666665555555556667777777777777777777777777777776654..44566667777777777777777665331......... PP
+
+             RLR  97 ekldeyllllkllqpelkdkllvrdvlddlseelltiedrerlaiaetkGneaGvrkllkrlvdkenwfkalklvlrkernkekelwivek 187
+                                                                                                              e+
+  XP_020627284.1  88 ---------------------------------------------------------------------------------------PQEE 91 
+                     .......................................................................................2222 PP
+
+>> XP_020630470.1  ATP-dependent RNA helicase DDX19A-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0   2.5e-08   1.1e-05     655     700 ..     364     409 ..     345     412 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 24.4 bits;  conditional E-value: 2.5e-08
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                      ++t +++  v+++f++Gk  lLi t v   G+D+++  +v+ y++
+  XP_020630470.1 364 GEITVEQRIAVLNRFRDGKEKLLITTNVCARGIDVEQVTVVVNYDM 409
+                     5678888899**********************************85 PP
+
+>> XP_020628576.1  probable ATP-dependent RNA helicase ddx6 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   1.7e-08   7.7e-06     586     713 ..      42     171 ..      23     176 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 1.7e-08
+             RLR 586 enenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstg..mtqreqkevidkfksGklnlLi 678
+                      +e + +e+L+ k + ++y   e+ + +    t  s   ++q i   + ++ v++ a+ ++  G s  + +  m q +++ v + f+ G+   L+
+  XP_020628576.1  42 AYEINLMEELTLKGITQYYVFLEERQKVHCLNTLFSKLQVTQSIIFCNSVQRVELLAKKITELGYSCFFIHarMDQSHRNRVFHDFRRGETRTLV 136
+                     3555555555555555555555555555555666666666666666778999**************98764449********************* PP
+
+             RLR 679 atsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                     +      G+Di+  n+vi +++  n  + +   Gr
+  XP_020628576.1 137 SSDLFTRGIDIQSVNVVINFDFPKNSETYLHRIGR 171
+                     ********************998887666555555 PP
+
+>> XP_020606841.1  probable ATP-dependent DNA helicase HFM1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.0   2.2e-08   9.9e-06     255     379 ..       7     129 ..       3     140 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 2.2e-08
+             RLR 255 iiiclPtGsGktrvavyiakdhLekvkka.ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLen 348
+                     +++c+PtGsGkt +  +   + L +  ++  k+kvv+++    l   +++  + +f+  + r   ++Gd ++   +e   ++  i+++t++  + 
+  XP_020606841.1   7 LVVCAPTGSGKTVIFELAIIRLLMNSGQGtSKAKVVYMAPMKALCSERFTDWSTKFEPFGLRCKEVTGDSELDDYYE--LQNVHIVMTTPEKWDS 99 
+                     689**********998888888888888889*********999**999*********************99987665..57889******98876 PP
+
+             RLR 349 sLkkleedaiveLsvfsLiiiDeChhtskea 379
+                       +k   d+   +    L +iDe h  + +a
+  XP_020606841.1 100 MTRK-WRDNRSLVQSVKLFLIDEVHLLNDDA 129
+                     5555.667777777889********877665 PP
+
+>> XP_020618826.1  LOW QUALITY PROTEIN: endoribonuclease Dicer-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.0   7.3e-06    0.0032     258     410 ..     199     339 ..     126     362 .. 0.73
+   2 !    6.0   0.0    0.0092       4.1     663     732 ..     616     685 ..     562     701 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 7.3e-06
+             RLR 258 clPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta.ekvsf....eevvksnDiiiltaqiLe 347
+                     c+     kt++a  + ++   +     +++       vllv+  k    k+fl +     ++s +t   ++ +    + +   +Di+++t q++ 
+  XP_020618826.1 199 CVARKESKTFIACKVFQEFWRRNI---PARG-----MVLLVDDEKAGIVKPFLSGISNQSTMSVETCfSEAEVadggGCLPSDCDIVVTTGQVFL 285
+                     555555556555555555444433...3332.....24466666777777777776666666666541223331111456778***********9 PP
+
+             RLR 348 nsLkkleedaiveLsvfsLiiiDeChh.tskeavynvimrnyLeqkLknsaiPLPqvlGLtasp 410
+                     + Lk            fsLi++De h   +k +++ +i+ +  e  L+    P P ++GLt+++
+  XP_020618826.1 286 QILKA------GIYKFFSLIVFDESHLaIDKGHPFAIILNHIDEYGLD----PRPHIVGLTSAV 339
+                     99998......44678**********6269***********9999999....*********876 PP
+
+  == domain 2  score: 6.0 bits;  conditional E-value: 0.0092
+             RLR 663 kevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvi 732
+                      +v++  ++G++n+Liat   e  l  ++C + ir g+     +  + + + ++ ++k v++++++s+  
+  XP_020618826.1 616 DNVMECVQDGSVNVLIATFEIEHELYARRCSLLIRVGMPRVYENYFRVKSKLKSAGAKLVILVKEESRAE 685
+                     5689999****************************99877777777777777777777777777777765 PP
+
+>> XP_020618505.1  LOW QUALITY PROTEIN: putative ATP-dependent DNA helicase Q1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0      0.01       4.4     232     307 ..      25      96 ..       4     122 .. 0.65
+   2 !   18.9   0.0   1.2e-06   0.00052     661     720 ..     316     377 ..     300     407 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.01
+             RLR 232 leselklrsyqlevalPa.leGkniiiclPtGsGktrv..avyiakdhLekvkkaekgkvvvlvn.kvllveqlkskefk 307
+                          +l +yq   +  a +e  +i + lPtGsGk  +  a+ +  dh+ +v+    g +vv+v   v l++       k
+  XP_020618505.1  25 KFKIAELNAYQKLAIRKAvFERDDIFVNLPTGSGKSLIyqALPLVFDHVSNVN----GHIVVVVSpLVSLMDD----XVK 96 
+                     44455788999655555516889999*********976447888899999988....5555555404555444....444 PP
+
+  == domain 2  score: 18.9 bits;  conditional E-value: 1.2e-06
+             RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesk 720
+                     ++++++  f+  +G++ lLiat     G+D k    vi yg   n+ a +q  Gra  d+ +
+  XP_020618505.1 316 NKEKILLSFQsvTGTIRLLIATIAFGMGVDCKGVHRVIHYGPAKNVEAYIQETGRAGRDGIQ 377
+                     3456888999899******************************************9877543 PP
+
+>> XP_020606045.1  uncharacterized protein LOC110044797 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.3   0.1   5.7e-08   2.5e-05     653     725 ..     147     219 ..     126     227 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 5.7e-08
+             RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlva 725
+                     + ++mt  ++ e+  +f++ ++ +L+at   e G   ++ nivir g   n  a+ q  Gra  +e +  +v+
+  XP_020606045.1 147 HGRDMTVSAKVEIERAFRNKEIQVLVATESFELGTHSPHVNIVIRVGCARNMRAVGQELGRAAREENNGHFVL 219
+                     5578*********************************************************977776655554 PP
+
+>> XP_020625902.1  probable ATP-dependent RNA helicase DDX59 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.3   0.1   0.00048      0.21     205     279 ..     232     310 ..     144     346 .. 0.67
+   2 !   10.3   0.0   0.00048      0.21     658     720 ..     533     595 ..     525     627 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00048
+             RLR 205 islaeedvecldlsedsdeesvvadasle..selklrsyqlevalPaleGkniiiclPtGsGktrvav..yiakdhLek 279
+                     i++  +dv+   l  + ++ s++ + +l     + + + q++v+   l  ++++ c+ tGsGkt + +   i k hLe 
+  XP_020625902.1 232 IKVKGDDVSKPILEFQQCQLSETLNENLThsGYITPTPVQMQVIPLVLSSRDVLACAQTGSGKTAAFLvpIIQKIHLEI 310
+                     4455555555555557777777666665411458999***************************876523588889875 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00048
+             RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesk 720
+                      q e+  v++ f  G+  +L+ t+    G+D+++   vi +++ + + + v   Gra   +s+
+  XP_020625902.1 533 SQSERSRVLESFLAGECPVLVCTALLGRGIDLPNVSQVINFDMPSSVEEYVHQVGRAGRLGST 595
+                     6889999************************************99999999999998666655 PP
+
+>> XP_020606054.1  uncharacterized protein LOC110044807, partial [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.0         1   4.5e+02     192     268 ..      11      91 ..       2      96 .. 0.54
+   2 !   20.0   0.1   5.6e-07   0.00025     654     725 ..     327     398 ..     306     406 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 1
+             RLR 192 setedlevveesdis.laeedv.ecldlsedsdeesvvadasle..selklrsyqlevalPaleGkn.iiiclPtGsGktrv 268
+                      ete+++ ++es i+   +e+  +   + + s+ e +  +  l        r++q+  a+ a+e kn ++++  tGsGk  v
+  XP_020606054.1  11 QETEETNAIDESHIQsQRKENYkSPASVLQPSETEVILWKGYLTkfGLTSFRDFQIA-AINAVEKKNdVVVIQRTGSGKSLV 91 
+                     556666666666666322232202223333443333333332220023356888886.5678999984566778*****977 PP
+
+  == domain 2  score: 20.0 bits;  conditional E-value: 5.6e-07
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlva 725
+                      ++mt  ++ e+  +f++ ++ +L+at   e G   ++ nivir g   n  a+ q  Gra  +e +  +v+
+  XP_020606054.1 327 GRDMTVSAKVEIERAFRNKEIQVLVATESFELGTHSPHVNIVIRVGCARNMRAVGQELGRAAREENNGHFVL 398
+                     578*********************************************************977776655554 PP
+
+>> XP_020606035.1  uncharacterized protein LOC110044786 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   0.1     4e-07   0.00018     654     725 ..     169     240 ..     148     248 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 4e-07
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlva 725
+                      ++mt  ++ e+  +f++ ++ +L+at   e G   ++ nivir g   n  a+ q  Gra  +e +  +v+
+  XP_020606035.1 169 GRDMTVSAKVEIERAFRNKEIQVLVATESFELGTHSPHVNIVIRVGCARNMRAVGQELGRAAREENNGHFVL 240
+                     578*********************************************************977776655554 PP
+
+>> XP_020611242.1  ATP-dependent RNA helicase DDX54-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.1   5.2e-07   0.00023     647     700 ..     106     161 ..      65     169 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 5.2e-07
+             RLR 647 GaGkssqs..tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                      aG  s +   ++ q ++k  i kf++ k n+++ t va  G+Di+  + vi y++
+  XP_020611242.1 106 VAGIESSFvySTLDQAARKINIGKFQHKKTNVMVVTDVAARGIDIPMLDNVINYNF 161
+                     455555541145667889999*********************************86 PP
+
+>> XP_020607370.1  ATP-dependent RNA helicase HAS1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.0   8.7e-06    0.0038     239     371 ..     124     255 ..      27     260 .. 0.82
+   2 ?    2.6   0.0       0.1        45     659     699 ..     380     422 ..     374     444 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 8.7e-06
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfee 331
+                      + q   ++P l+G++++  + tGsGkt + +  a + L k      +++ v+++     l  q +++    ++ + ++   + G  + k   e+
+  XP_020607370.1 124 MEIQHKSIVPLLKGRDLLGAARTGSGKTLAFLIPAVELLYKLSFKprNGTGVIIISPTRELSLQTYGVARDLLKYHSHTFGIVMGGANRKGEAER 218
+                     45688899*********************999999999998764334777788888899999999999888888899998889999********* PP
+
+             RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     + k  +++i+t+  L   L++    ++  +  +  +iiDe
+  XP_020607370.1 219 LQKGVNLVIATPGRLLDHLQN---TQGFIFKNLQCLIIDE 255
+                     ************999999999...5555566666677777 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.1
+             RLR 659 qreqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryg 699
+                     q++qk     f   + +   L+ t va  GlDi+e + +++++
+  XP_020607370.1 380 QKQQKRTTTFFEfcNASSGTLLCTDVAARGLDIPEVDWIVQFD 422
+                     566666665555447788899***************9999886 PP
+
+>> XP_020619212.1  probable ATP-dependent RNA helicase DDX56 isoform X1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.0     6e-07   0.00027     246     371 ..      40     167 ..       6     171 .. 0.74
+   2 ?   -3.1   0.2       5.1   2.2e+03     538     584 ..     430     478 ..     428     486 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 6e-07
+             RLR 246 alPaleGkniiiclPtGsGktrv.avyiakdhLekvkka...ekgkvvvlvnkvllveqlks..kefkrflkkryrvigls.Gdtaekvsfeevv 333
+                     +  aleGk+i+  + tGsGkt + a+ + ++ L+ ++      + + +vlv    l +q ++  ke   +  +  rv  ++ G+ a   s   ++
+  XP_020619212.1  40 IPLALEGKDILARAKTGSGKTAAyAIPLIQRILQDKQTNsssTGVRALVLVPTKELSKQAHRniKELSSYCSREVRVADVAqGNLASTKS--LLM 132
+                     5569*****************874666788888766544233566889***********8873345666777777777764245444443..489 PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     ++ Di+i t+  L   ++  + d + +L +   ++iDe
+  XP_020619212.1 133 ECPDIVIGTPSALLGHVQAKNLDLKASLQI---LVIDE 167
+                     **********99988888766666666654...55665 PP
+
+  == domain 2  score: -3.1 bits;  conditional E-value: 5.1
+             RLR 538 rmvDalaaLkdf.ysee..kakkfdvieddrfLlalfeekkkeLkrlaed 584
+                     r+ Dal a+ +   +e   k+ k ++++ + +L a fe++ + L+ l +d
+  XP_020619212.1 430 RAQDALRAVTKSaVKEArlKEIKSEILNSE-KLKAYFEDNPRDLQVLRHD 478
+                     677777766543033331134455566665.9999999999999988766 PP
+
+>> XP_020627285.1  uncharacterized protein LOC110064565 isoform X2 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.2   0.1   4.8e-07   0.00021      12     102 ..      13      97 ..       2     119 .. 0.59
+
+  Alignments for each domain:
+  == domain 1  score: 20.2 bits;  conditional E-value: 4.8e-07
+             RLR  12 frdrvkktldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllaraieltdlkkeekldey 102
+                     f + v+ ++ +  +l yl+ l    ke+i+ e  + G+++a++ ll+ +  +++   +++++ al+++G   l++   +   + ee+ +e 
+  XP_020627285.1  13 FMELVNNVI-PVDMLPYLSCLTPTDKERIKCEERNYGPIQAAQELLDRL--VRRRDAFQDLIRALRHTGCGHLVELLYS---QEEEAAEED 97 
+                     333444433.445678888888888888888888888888888777654..5667778888888888887766552222...223333332 PP
+
+>> XP_020623084.1  helicase POLQ-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.1   0.00019     0.084     245     407 ..     210     363 ..     194     378 .. 0.69
+   2 !    6.2   0.0    0.0084       3.7     652     725 ..     512     592 ..     503     603 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00019
+             RLR 245 valPaleG.kniiiclPtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnD 337
+                     + lPa++  +n+i  lPt  Gkt va ++i k+ L + k       +++   v +v+ + +   +   + ++ v   + +   k++     k + 
+  XP_020623084.1 210 LNLPAVKErRNLIYSLPTSGGKTLVAeILIFKELLLQEK-----DALFVLPFVSIVQEKVKSLTQFAVELGFLVAEYA-ASRGKIPPRSRRKKKS 298
+                     56899975279999**********995678888776666.....3455556677777766677777777788887765.5566888888888888 PP
+
+             RLR 338 iiilt...aqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLt 407
+                     + i+t   a+ L+nsL         ++s + L+++De h    e+v    +   L  kL   +    q++G+ 
+  XP_020623084.1 299 VYIATiekANALVNSLIG-----ESRISTLGLVVVDELHML-GETVRGATLEMCLA-KLM-FVSSTTQIIGMS 363
+                     888883335566666666.....46789999******9964.34555544444443.333.344455666655 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.0084
+             RLR 652 sqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtnei.......amvqarGraradeskyvlva 725
+                      +  g+t++e+k + d + +G l lL  ts    G++++   ++ir  +v+  i       +m+   Gra  d s   +++
+  XP_020623084.1 512 YHHSGLTMDERKLIEDGYSQGVLCLLTCTSTLAAGVNLPAKRVIIRAPYVGISIlsqsqykQMIGRAGRAGIDTSGESILI 592
+                     567789********************************************9888555555458888888888887655554 PP
+
+>> XP_020620814.1  ATP-dependent DNA helicase Q1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.1   2.4e-05      0.01     210     409 ..      57     252 ..      32     276 .. 0.72
+   2 ?    1.8   0.0      0.17        74     664     723 ..     352     413 ..     330     419 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 2.4e-05
+             RLR 210 edvecldlsedsdeesvvadaslesel...klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveql 301
+                     ++ + ++ s +    s+  d++ +  +   k r+ qle +   + G + i+++PtG Gk     +        v    kg  +v+   + l+e +
+  XP_020620814.1  57 KNENGQNWSANNFSWSKKVDTARKDIFkieKFRPLQLECINATIAGTDCILIMPTGGGKSLCFQL------PAVI--SKGVTLVVSPLISLIEDQ 143
+                     45555666665555444444444444411168***************************875433......3333..467778888889999999 PP
+
+             RLR 302 kskefkrflkkryrviglsGdtaekvsfeevvksnDi..iiltaqiLensLkkle.edaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkL 393
+                          +   +  +     s d  + v    v k+ D+  + +t++ + +s + +   +++ e   +s i+iDe h ts+         +y  + +
+  XP_020620814.1 144 LMALNELKIDSSFLNSNCSKDEVNAVHHAMVDKNSDLklLYVTPEKIAKSKRFMAkLEKTYEGGRLSRIVIDEVHCTSQWGH--DFRPDYKILGI 236
+                     8888888899999999999999999999999999996336789987777655444367777888899999999999986332..23344544444 PP
+
+             RLR 394 knsaiPLPqvlGLtas 409
+                      ++  P   +lGLta+
+  XP_020620814.1 237 LKRQFPGVPILGLTAT 252
+                     4456666667777765 PP
+
+  == domain 2  score: 1.8 bits;  conditional E-value: 0.17
+             RLR 664 evidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarad..eskyvl 723
+                     +v  ++ s ++ +++at     G+D ++   vi + l     +  q  Gra  d  es ++l
+  XP_020620814.1 352 QVHRAWSSNTIQVVVATVAFGMGIDKPDVRFVIHHSLSKSMENFYQESGRAGRDdkESHCIL 413
+                     5667788999********99******************************854413566755 PP
+
+>> XP_020603286.1  ATP-dependent RNA helicase DDX1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.0       4.4   1.9e+03     242     268 ..      30      56 ..      24      68 .. 0.83
+   2 !   16.0   0.0   8.9e-06    0.0039     600     717 ..     503     616 ..     475     631 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 4.4
+             RLR 242 qlevalPaleGkniiiclPtGsGktrv 268
+                     q e +   l G ++++ + tGsGkt +
+  XP_020603286.1  30 QAEAIPLILGGGDVLMAAETGSGKTGA 56 
+                     7777777889999***********965 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 8.9e-06
+             RLR 600 lqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCni 694
+                     l   ++ ++  ++iif +t+   d ++q++    +  +  v     +   +s+       +e+k  +++fk+G++ +Li t va  G+Di+    
+  XP_020603286.1 503 LVTAIKEHKMDQAIIFCRTKLDCDNVEQYLVSLGGGPKAMVNEYSCV-CLHSD----RSPQERKANLQAFKEGEVRFLICTDVAARGIDITGVPY 592
+                     55555555566666666666666666666655444333222222222.12222....234688999*************************9999 PP
+
+             RLR 695 viryglvtneiamvqarGr.arad 717
+                     v+   +  ++ + v   Gr +ra+
+  XP_020603286.1 593 VVNVTFPDDKQNYVHRIGRvGRAE 616
+                     998888777777777666644655 PP
+
+>> XP_020607369.1  ATP-dependent RNA helicase HAS1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0   4.4e-06     0.002     238     351 ..     123     238 ..      11     257 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 4.4e-06
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe 330
+                     + + q   ++P l+G++++  + tGsGkt + +  a + L k      +++ v+++     l  q +++    ++ + ++   + G  + k   e
+  XP_020607369.1 123 MMEIQHKSIVPLLKGRDLLGAARTGSGKTLAFLIPAVELLYKLSFKprNGTGVIIISPTRELSLQTYGVARDLLKYHSHTFGIVMGGANRKGEAE 217
+                     445688899*********************9999999999987643347777888888999999999998888888899988899999******* PP
+
+             RLR 331 evvksnDiiiltaqiLensLk 351
+                     ++ k  +++i+t+  L   L+
+  XP_020607369.1 218 RLQKGVNLVIATPGRLLDHLQ 238
+                     ************976655553 PP
+
+>> XP_020617732.1  probable Werner syndrome ATP-dependent helicase homolog 1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   0.0   1.5e-05    0.0066     663     721 ..      86     146 ..      64     159 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1.5e-05
+             RLR 663 kevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                      +v++ +   +G++ l+iats    G++i++   v+ +g+  n  + +qa Gr+  d+s +
+  XP_020617732.1  86 DNVLSDLMspNGNIHLVIATSALGMGVNIPNIKRVVIFGVPENMESYLQAVGRGGRDGSDV 146
+                     46777766568*******************************************9999976 PP
+
+>> XP_020628480.1  probable ATP-dependent RNA helicase DDX60 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.9   0.0   1.9e-05    0.0083     238     373 ..     884    1013 ..     859    1020 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 1.9e-05
+             RLR  238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkry.rviglsGdtaekvsf 329 
+                      + ++q e+     +    +i++Pt sGkt+++ y  ++ L + +   +g vv++     lv+q     + rf +k+     ++ G  +    +
+  XP_020628480.1  884 PDTWQRELLDAVDQNESAVIVAPTSSGKTYASYYCMEKVLRQSN---DGVVVYVSPTKALVNQVAATIYARFHRKQLpEGRAVYGVFTRDYRL 973 
+                      566777777766677889******************99998777...888888888899******9999999998762345666666666666 PP
+
+             RLR  330 eevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373 
+                      + +  +  i+++ ++ Le  ++++  ++  +      +i+De h
+  XP_020628480.1  974 NTL--NSQILVTVPECLEILFLSPRRQEWTK--NIKYVIFDEVH 1013
+                      655..55677777777777766666555443..33446666666 PP
+
+>> XP_020617730.1  probable Werner syndrome ATP-dependent helicase homolog 1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   2.7e-05     0.012     663     721 ..     210     270 ..     188     282 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2.7e-05
+             RLR 663 kevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                      +v++ +   +G++ l+iats    G++i++   v+ +g+  n  + +qa Gr+  d+s +
+  XP_020617730.1 210 DNVLSDLMspNGNIHLVIATSALGMGVNIPNIKRVVIFGVPENMESYLQAVGRGGRDGSDV 270
+                     46777766568*******************************************9999976 PP
+
+>> XP_020617731.1  probable Werner syndrome ATP-dependent helicase homolog 1 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.8   0.0       8.8   3.9e+03     251     267 ..      45      61 ..      32      65 .. 0.82
+   2 !   13.9   0.0   3.9e-05     0.017     663     721 ..     302     362 ..     280     374 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -3.8 bits;  conditional E-value: 8.8
+             RLR 251 eGkniiiclPtGsGktr 267
+                      G ++ + lPtG Gk  
+  XP_020617731.1  45 SGTDTFVSLPTGHGKSL 61 
+                     688999********986 PP
+
+  == domain 2  score: 13.9 bits;  conditional E-value: 3.9e-05
+             RLR 663 kevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                      +v++ +   +G++ l+iats    G++i++   v+ +g+  n  + +qa Gr+  d+s +
+  XP_020617731.1 302 DNVLSDLMspNGNIHLVIATSALGMGVNIPNIKRVVIFGVPENMESYLQAVGRGGRDGSDV 362
+                     46777766568*******************************************9999976 PP
+
+>> XP_020620929.1  ATP-dependent RNA helicase DDX42-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   2.6e-05     0.012     235     372 ..     241     377 ..     183     380 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2.6e-05
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk..vvvlvnkvllveqlkskefkrflkkryrv..iglsGdtae 325
+                       ++ + q + +  al G++ii ++ tGsGkt + ++ a  h+   ++ e+g   + ++      + q+  +e +rf k  y +   ++ G  ++
+  XP_020620929.1 241 YTQPTPIQCQAIPIALSGRDIIGIAKTGSGKTAAFLWPALVHIMDQPELEPGDgpIALICAPTRELCQQIFVEARRFGK-VYNIhaAAVFGGGNK 334
+                     46788999999999*****************************999988766432555555565556667788888875.444411567777777 PP
+
+             RLR 326 kvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         + + +  +i+++t+  L   +k     +  +L   + +++De 
+  XP_020620929.1 335 YEQSKALQEGAEIVVATPGRLIDHVKA----KSTNLQRVTYLVFDEA 377
+                     778888999999999999988888877....6778888888888885 PP
+
+>> XP_020610817.1  uncharacterized protein LOC110049368 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0      0.85   3.8e+02     249     272 ..     220     243 ..     154     332 .. 0.82
+   2 ?   12.2   0.0   0.00013     0.056     659     713 ..     490     544 ..     453     572 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -0.5 bits;  conditional E-value: 0.85
+             RLR 249 aleGkniiiclPtGsGktrvavyi 272
+                      ++ k ++i   tGsGkt v ++ 
+  XP_020610817.1 220 IFKRKSLLIQSETGSGKTLVFLLP 243
+                     568899999*********998765 PP
+
+  == domain 2  score: 12.2 bits;  conditional E-value: 0.00013
+             RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                      +e k+ +  f++Gk+n+++ t     GlD ke n v + ++  n  + +   Gr
+  XP_020610817.1 490 HEEYKKFLTDFRTGKINVVVGTEETVRGLDFKELNHVYLTEVAKNIDEYLHLAGR 544
+                     5788999******************************999998887666666665 PP
+
+>> XP_020606398.1  uncharacterized protein LOC110045144 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0      0.02         9     131     237 ..      16     171 ..       5     175 .. 0.79
+   2 ?    8.3   0.2    0.0019      0.84     603     724 ..     171     295 ..     150     306 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.02
+             RLR 131 ltiedrerlaiaet..kGneaGvrkllkrlvdkenwfkalklvlrke........................................rnkekelw 183
+                     +ti d+e ++i ++  +Gn   v    k+l   e w + +     ke                                        +   + + 
+  XP_020606398.1  16 ITITDKEDVEIIQQvmNGNYVLVYGSPKCLLSTESWRSIFDCQSFKEmligvaideahciaqwglsgskkvpfrkwygclgelrsliPTASRLVI 110
+                     66666666665543227888888888999999999999999888888899999999999999999999999999999999999999877777788 PP
+
+             RLR 184 iveknikesetedlev..veesdislaeedvecldlse.....dsdeesvvadasleselk 237
+                      +  ++k ++ e l+   +++ di++ e++++c ++       d +e+ +++ ++l  elk
+  XP_020606398.1 111 LMATATKATKGEILNTlhLSKEDIKFIEQSPDCPNIKYcaqylDKNEPLEASFSTLIEELK 171
+                     8888887777766665448999*************76666677778888888777777766 PP
+
+  == domain 2  score: 8.3 bits;  conditional E-value: 0.0019
+             RLR 603 eyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGks.sqstgm....tq.reqkevidkfk..sGklnlLiatsvaeeGlDi 689
+                     ++   + +r++i+ +t++    L +         ev ++ +++ G  k  ++  +m    t  r ++ ++d++   +G++ +Li+t     G++ 
+  XP_020606398.1 171 KTMRGNTPRTLIYCQTKKQCSVLFHVF-------EVFLRHGIFQGTTKQpNRIVEMyhacTSsRVKEHIVDNMAcdEGHIRILISTISFGMGVNC 258
+                     445566777777777777777665543.......3445555555554431223333222233134556888876669****************** PP
+
+             RLR 690 keCniviryglvtneiamvqarGrarade..skyvlv 724
+                     k+   vi +g        vq  G ar d+  s++vl+
+  XP_020606398.1 259 KKVRQVIHFGCSKSMEMYVQECGSARRDGlpSTCVLL 295
+                     **********99888888*********9766899665 PP
+
+>> XP_020627885.1  probable ATP-dependent RNA helicase DDX47 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   7.3e-05     0.032     240     270 ..      38      68 ..       4      84 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.0 bits;  conditional E-value: 7.3e-05
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvav 270
+                     + q e +  al+Gk+ii  + tGsGkt + +
+  XP_020627885.1  38 KIQREAIPVALQGKDIIGLAETGSGKTGAFA 68 
+                     678999999******************7644 PP
+
+>> XP_020601360.1  ATP-dependent DNA helicase Q1-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0    0.0001     0.045     661     729 ..      12      83 ..       5     112 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 0.0001
+             RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsgs 729
+                     +q+ ++d +   +G++ +L+at     G+D k+  +v+ yg   +  + +q  Gra r   +++  v+  +s
+  XP_020601360.1  12 NQEHILDSMAvaDGSVCVLLATIAYGMGIDCKDVKVVLHYGPSYDLETYLQESGRAgRYVSATCKAVMLYSS 83 
+                     7899999877679*****************************9999999*****974555556655544444 PP
+
+>> XP_020607397.1  ATP-dependent rRNA helicase RRP3-like [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00019     0.086     237     372 ..     234     372 ..     191     381 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00019
+             RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkae.......kgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta 324
+                     k+   q+  + P l+   ++  + tG+Gkt + +    +hL + ++++       + +  ++v    l  q  ++      + r++ +g+ G  +
+  XP_020607397.1 234 KPTVIQMVTIPPILKREHVLCAAQTGTGKTLAYLAPVVHHLREDERTHgvitrlkRPRACIVVPCRELAVQVLEVAKSLSHHARFKSVGIIGGRK 328
+                     56667999999****9999999**********999999***9887654111111133445555555666675555555556679*********** PP
+
+             RLR 325 ekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +k    ++    D+++ t+  L    ++  e+a   +s++s ++iDe 
+  XP_020607397.1 329 KKFMKVDLQSPVDLVVGTPGTL----LQFCEKARLFFSDLSYLVIDEA 372
+                     ***999************9865....4555679999**********96 PP
+
+>> XP_020611964.1  uncharacterized protein LOC110050387 [Orbicella faveolata]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   0.00028      0.13     227     304 ..      21      97 ..       2     126 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00028
+             RLR 227 vadasleselklrsyqlevalPaleGkniiiclPtGsGktrv..avyiakdhLekvkkaekgkvvvlvnkvllveqlksk 304
+                        ++l    klr+ q + +   l Gk+++ +lPtG Gk  +   + + k+ +  ++   ++ vvv   +  +++ql + 
+  XP_020611964.1  21 KHLCELGMSRKLRTEQKDSISTLLAGKDLLAVLPTGFGKSLIfqMLVLVKQIMTGKP---SSAVVVCPLQSIVYDQLAEA 97 
+                     445566667799***************************976213334455454444...66778877888888887655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (917 nodes)
+Target sequences:                      32587  (16554995 residues searched)
+Passed MSV filter:                      1653  (0.0507257); expected 651.7 (0.02)
+Passed bias filter:                      617  (0.0189339); expected 651.7 (0.02)
+Passed Vit filter:                       117  (0.00359039); expected 32.6 (0.001)
+Passed Fwd filter:                        76  (0.00233222); expected 0.3 (1e-05)
+Initial search space (Z):              32587  [actual number of targets]
+Domain search space  (domZ):              74  [number of targets reported over threshold]
+# CPU time: 1.45u 0.06s 00:00:01.51 Elapsed: 00:00:01.28
+# Mc/sec: 11796.63
+//
+[ok]

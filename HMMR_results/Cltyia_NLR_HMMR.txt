@@ -1,0 +1,1643 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  NLR.hmm
+# target sequence database:        ../proteomes/Clytia_hemisphaerica_proteome.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NLR_alignement  [M=1486]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    9.3e-39  133.2  13.9    1.7e-27   95.9   6.8    2.0  2  TCONS_00068247-protein  
+    5.2e-38  130.7   9.9    6.8e-38  130.3   9.9    1.1  1  TCONS_00048504-protein  
+    6.6e-38  130.4  14.1    3.2e-34  118.2  10.8    2.2  2  TCONS_00058987-protein  
+    4.5e-36  124.3   7.8    5.5e-36  124.0   7.8    1.0  1  TCONS_00072663-protein  
+    5.1e-35  120.8   9.7    6.3e-35  120.5   9.7    1.0  1  TCONS_00004302-protein  
+    5.9e-35  120.6   9.1    9.5e-35  119.9   9.1    1.2  1  TCONS_00038639-protein  
+    1.5e-34  119.2  17.7    1.7e-31  109.1   9.5    2.3  2  TCONS_00031619-protein  
+    1.1e-33  116.3  10.4    3.6e-17   61.7   1.9    2.0  2  TCONS_00050261-protein  
+    2.6e-32  111.8   8.4    3.1e-32  111.6   8.4    1.0  1  TCONS_00059382-protein  
+    5.7e-32  110.7   9.3    7.9e-26   90.3   3.5    2.6  3  TCONS_00026585-protein  
+    1.8e-30  105.7  11.7    2.9e-20   71.9   1.8    2.1  2  TCONS_00008843-protein  
+    2.3e-29  102.1   7.0    2.3e-29  102.1   7.0    2.1  2  TCONS_00045725-protein  
+    7.6e-29  100.3   8.6    1.1e-28   99.8   8.6    1.1  1  TCONS_00001838-protein  
+    9.4e-29  100.0   0.9    1.5e-28   99.3   0.6    1.2  1  TCONS_00056195-protein  
+    3.1e-27   95.0  11.8    4.6e-27   94.4  11.8    1.2  1  TCONS_00049595-protein  
+    7.5e-27   93.7   9.7    7.8e-14   50.6   3.0    2.3  2  TCONS_00066723-protein  
+    9.3e-27   93.4   7.3    1.1e-26   93.1   7.3    1.0  1  TCONS_00059189-protein  
+    1.8e-26   92.5   3.2    2.5e-26   92.0   3.2    1.1  1  TCONS_00007975-protein  
+    2.6e-26   91.9   8.7    2.6e-26   91.9   8.7    1.5  1  TCONS_00006364-protein  
+    9.1e-26   90.1   9.0    5.3e-24   84.3   3.3    2.1  2  TCONS_00007736-protein  
+    1.3e-25   89.6  21.4    2.2e-14   52.4   0.9    2.2  2  TCONS_00031185-protein  
+    1.8e-25   89.1   6.7    2.1e-25   88.9   6.7    1.0  1  TCONS_00045336-protein  
+    4.7e-25   87.8  32.1    5.3e-14   51.1  13.9    2.4  2  TCONS_00050300-protein  
+    7.1e-25   87.2   4.4    7.8e-25   87.0   4.4    1.1  1  TCONS_00057966-protein  
+    6.3e-24   84.0   3.9    2.4e-22   78.8   3.9    2.0  1  TCONS_00026393-protein  
+    9.9e-24   83.4  20.6    2.9e-23   81.8  20.3    1.6  2  TCONS_00006089-protein  
+    3.1e-23   81.8   4.8    3.6e-23   81.5   4.8    1.0  1  TCONS_00022888-protein  
+    3.9e-23   81.4  10.2    5.3e-23   81.0  10.2    1.1  1  TCONS_00049915-protein  
+    1.6e-22   79.4  12.7    2.5e-22   78.7  12.7    1.3  1  TCONS_00071054-protein  
+    2.5e-20   72.1   2.9    9.7e-17   60.2   0.8    2.0  2  TCONS_00027864-protein  
+    5.9e-19   67.5   5.8    7.9e-19   67.1   5.8    1.1  1  TCONS_00072666-protein  
+    2.4e-18   65.6   6.4    2.9e-18   65.3   6.4    1.2  1  TCONS_00062222-protein  
+    6.5e-16   57.5   0.4    7.2e-16   57.3   0.4    1.1  1  TCONS_00017988-protein  
+    7.6e-16   57.2   0.2    1.3e-07   29.9   0.0    2.3  2  TCONS_00009974-protein  
+    4.5e-11   41.4   8.6    6.3e-11   41.0   8.6    1.1  1  TCONS_00047330-protein  
+    8.7e-11   40.5   0.6    8.7e-11   40.5   0.6    1.4  2  TCONS_00000507-protein  
+    1.8e-08   32.8   6.7      8e-08   30.7   6.2    1.8  2  TCONS_00051434-protein  
+    1.8e-08   32.8   0.3    2.9e-08   32.1   0.3    1.3  1  TCONS_00063275-protein  
+    4.4e-08   31.5   2.0    6.3e-08   31.0   2.0    1.2  1  TCONS_00030411-protein  
+    8.9e-08   30.5   6.5      2e-07   29.3   6.3    1.7  1  TCONS_00069574-protein  
+    1.6e-06   26.4   0.3    2.1e-06   25.9   0.3    1.2  1  TCONS_00009354-protein  
+    4.2e-06   25.0   0.1    9.9e-06   23.7   0.0    1.4  1  TCONS_00022889-protein  
+    8.5e-06   24.0   4.4    8.5e-06   24.0   4.4    2.2  2  TCONS_00061473-protein  
+    3.7e-05   21.8   0.4    7.2e-05   20.9   0.4    1.3  1  TCONS_00041392-protein  
+    0.00013   20.1   4.7    0.00013   20.1   4.7    2.0  2  TCONS_00066942-protein  
+    0.00028   18.9  14.6      0.017   13.0   6.7    2.1  2  TCONS_00062316-protein  
+    0.00031   18.8   0.0    0.00037   18.5   0.0    1.1  1  TCONS_00024933-protein  
+    0.00032   18.7   0.0     0.0004   18.4   0.0    1.1  1  TCONS_00015641-protein  
+    0.00079   17.4   6.1       0.02   12.8   0.2    2.5  2  TCONS_00019572-protein  
+     0.0042   15.0   0.0     0.0043   15.0   0.0    1.0  1  TCONS_00030430-protein  
+     0.0053   14.7   0.1     0.0061   14.5   0.1    1.0  1  TCONS_00012235-protein  
+  ------ inclusion threshold ------
+      0.015   13.2   2.1      0.019   12.8   2.1    1.1  1  TCONS_00073046-protein  
+      0.021   12.7   0.0      0.021   12.7   0.0    1.0  1  TCONS_00002018-protein  
+      0.025   12.4   0.0      0.027   12.4   0.0    1.0  1  TCONS_00033618-protein  
+       0.24    9.2   0.0          2    6.2   0.0    2.1  2  TCONS_00046310-protein  
+       0.36    8.6   3.4        0.2    9.5   1.3    1.6  2  TCONS_00066994-protein  
+        3.5    5.3   5.5        0.4    8.5   0.2    1.8  2  TCONS_00060223-protein  
+
+
+Domain annotation for each sequence (and alignments):
+>> TCONS_00068247-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.8   0.6   3.2e-16   1.4e-13     865     958 ..      89     181 ..      77     185 .. 0.95
+   2 !   95.9   6.8   3.9e-30   1.7e-27     778     985 ..     173     377 ..     173     388 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 49.8 bits;  conditional E-value: 3.2e-16
+          NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaL 951
+                             e++L    I+ +G++ ++ aL v +++l   +L en i  +g  ++++ l+en+ +t+L+Ls+n     G +++++ L+++ +l++L
+  TCONS_00068247-protein  89 EINLAYHGIGTKGAKAVAGALVVNTVTL-TVNLTENSIGFEGTRAISDMLRENCYITDLNLSSNYLGPEGCNNVCDMLQQNLNLRKL 174
+                             56889999********************.69******************************************************** PP
+
+          NLR_alignement 952 dLssnei 958
+                             dLs+n+ 
+  TCONS_00068247-protein 175 DLSKNRF 181
+                             ****985 PP
+
+  == domain 2  score: 95.9 bits;  conditional E-value: 3.9e-30
+          NLR_alignement 778 eLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklt 864
+                             +Ldls+n++ d  ++ la++  k n +L++LdL+sn+++++  ++l   ++++   +  L+ls+n+    ++ v++++ l+a+c+l 
+  TCONS_00068247-protein 173 KLDLSKNRFGDSVGNILAEA-FKNNFKLSHLDLSSNDLGEKAGIALGPGVNAND-AMEYLNLSWNQ-LNRKATVEIAHGLRANCTLK 256
+                             69******************.9999*****************************.***********.89****************** PP
+
+          NLR_alignement 865 eLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkea..kklt 949
+                              L L+ n   d G+v L++aLk  + +lt+L++ +n i D+g+ +la++l  n +l  L+L  n  t++G+  l ++++++    ++
+  TCONS_00068247-protein 257 VLDLSWNGFSDFGAVALADALKANN-TLTELNICNNRIHDDGAVALAKALDFNNTLEILKLNGNPLTEKGALLLLNSINNKsdSAIH 342
+                             ***********************99.****************************************************998656777 PP
+
+          NLR_alignement 950 aLdLssneisnegvaslaealkvnckltkLylwdal 985
+                             +L ++   i   +  +l ++l+ n  +  L  +  l
+  TCONS_00068247-protein 343 ELHIMGVFIQ-DEFLKLYKQLRENKEVIVLADFRDL 377
+                             7777777676.4445566777777666666655555 PP
+
+>> TCONS_00048504-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.3   9.9   1.6e-40   6.8e-38     710     979 ..      79     342 ..      27     372 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 130.3 bits;  conditional E-value: 1.6e-40
+          NLR_alignement 710 i.kkelflnsldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadsla 795
+                                 +++   l++s + l   ++ a+a  l  + +l+al+ls n    + ++G+  i+e    enc ++eLdls+n+i  eg++++ 
+  TCONS_00048504-protein  79 YfLRNMTNVRLNMSHHGLGHKGAKAIAIGLMTNTHLTALDLSDNC---LGSEGVSCICEM-MIENCFISELDLSENNIGYEGVKHIC 161
+                             3567888889********************************888...7**********9.568*********************** PP
+
+          NLR_alignement 796 kvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLc 882
+                              +L++s   L++L L +n +  + ++ l++ lk     l+ + ls+n+   +++  + + ++ ++  l e++L+ n+ +++G+  ++
+  TCONS_00048504-protein 162 ALLMQS-DSLKRLALRKNSLETKSAVILSNTLKSHT-GLRFIDLSNNN-FGEEAGLHFAPVISTNEYLEEINLSWNHLRQKGAFAIA 245
+                             ******.9*************************999.********999.899999******************************** PP
+
+          NLR_alignement 883 eaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaea 969
+                             ++Lk+   +l+kLdLs n   D+g+  l++ l +n  l +L+Ls+n it  G+ +l +aLke++ l+   L  n++  +gv++l + 
+  TCONS_00048504-protein 246 KSLKENY-TLKKLDLSWNGFGDDGIYVLSDSLIQNNSLQQLNLSSNRITHIGAGHLQKALKENEGLQVFKLGHNPLQ-HGVTFLIQG 330
+                             *****99.*******************************************************************99.999999999 PP
+
+          NLR_alignement 970 l..kvnckltkL 979
+                             +  + n++l + 
+  TCONS_00048504-protein 331 IktNLNSTLVEF 342
+                             933445555554 PP
+
+>> TCONS_00058987-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.4   0.1   2.9e-05     0.013      74     154 ..      91     171 ..      61     316 .. 0.81
+   2 !  118.2  10.8   7.2e-37   3.2e-34     238     638 ..     425     798 ..     365     844 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 2.9e-05
+          NLR_alignement  74 lssrkfditllavvlrvlavlyPktsgfdtli.paadttleadiarikcyrntlyGkaseasvddatkkkvwkdiqivgngv 154
+                               s +fd+tl+a + ++ + l P+  g++t+  p +dt+l a + r   +rn +  +     +d   ++k w++   + ng+
+  TCONS_00058987-protein  91 TFSSEFDVTLIAFLIQNFTTLPPPKKGWKTKNpPPTDTSLAAFVIRAREWRNFIN-HIDAKTIDLLLFQKKWQEGCDIINGL 171
+                             55789*************************86489*****************444.66666789999999999876444454 PP
+
+  == domain 2  score: 118.2 bits;  conditional E-value: 7.2e-37
+          NLR_alignement 238 slvlqtgrakkeftglrrrdqlsylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfcqklirdWaegklfllr 324
+                              ++l ++  +++f++  r d l+    ++r+++     ++elF  ++++       ++  G  g gKt +++    +Wa+g+l  + 
+  TCONS_00058987-protein 425 LTILDSKEYEEQFSNSDR-DVLMRQMFKGREGV----AMNELFRINDEI-------VVARGVGGSGKTSLVEMYNLKWAKGELNTD- 498
+                             333444444444444433.22222222333333....345555555555.......8889*************************8. PP
+
+          NLR_alignement 325 clnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysaadsilkdldypnnakekmp 411
+                               +i+f+f +  r+l++ ++++++L++l++ +     ++  +   l +l +   +v+i+ldg+dE     +i ++    n++   m 
+  TCONS_00058987-protein 499 -FQIEFMFTFACRELNNLVNNKTTLEELFKTCY----PEVFELITLDDLRNLGSRVMIILDGMDE---LHNIYEQ----NKSLITMS 573
+                             .778888888889*****************884....55555666778888899***********...3344433....45667899 PP
+
+          NLR_alignement 412 lsALytkLlkGkilrgsvvlitsrpgevdslke.iaf...drrveItgftkeevkefvekyfkddadtknavlehiktNknllslay 494
+                                ++ kL++ + ++g +  i  rp++ + l++ +      ++ve+ gft+e v e+v k+fk++++  +++++++++ +nl +++ 
+  TCONS_00058987-protein 574 HVHIVRKLIDPNFIPGHKTFICGRPKACQFLQKsLLCarkMKTVEVCGFTEEAVYEYVSKFFKNENEKSDRLIKQLEVSDNLKQMCT 660
+                             9999***************************996443222479******************************************** PP
+
+          NLR_alignement 495 iPvnclliCsll.ekilkesmeddaLPtklteiylevvrlflkrhlksnkekdsadeiaassedlpdeventlkklkelaangLved 580
+                             iPv    +C ++ e+i+ +++e      + teiy+    +fl++h+    ++d  d + +     ++++   + +l +l  +  +e+
+  TCONS_00058987-protein 661 IPVFLWTVCHIFnEEIIPTNLE------TITEIYFYSWLVFLRNHFRIADSSDCLDFYSI---VSSQKILRSIYILMKLSTKLYMEN 738
+                             ***********93457777765......88********************9995554444...55889999**************** PP
+
+          NLR_alignement 581 rliFdseevenlrasgller...spekrvsaletekkfCFiHltlQEylAArwlakkvenp 638
+                             +++F  +e e+++    le+   +  ++  al +e  + F Hl +QE+l    + ++++ +
+  TCONS_00058987-protein 739 KVLFTAKEFEGIQFDFDLEKtgfITRFEGGAL-KEPTYQFAHLVFQEFLTGVFIWITKSTS 798
+                             **********9999988887554444444444.578899**********987555544433 PP
+
+>> TCONS_00072663-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.0   7.8   1.2e-38   5.5e-36     225     637 ..      73     464 ..      42     476 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 124.0 bits;  conditional E-value: 1.2e-38
+          NLR_alignement 225 tvekriklddvftslvlqt.grakkeftglrrrdqlsylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfcqk 310
+                             + ++++  +dvf +lv+ +    +ke ++  r   +   +++   +      ++++F+ +++        + + G  gigKt++++ 
+  TCONS_00072663-protein  73 EDTNSVLREDVFIDLVVLPsSTVDKEWSNSDRAALM---EQQNIPKTSTKRAVNNIFSQKDEL-------VFVRGIGGIGKTTLLEM 149
+                             455556667777777655415567888888665543...333222222223467888877777.......***************** PP
+
+          NLR_alignement 311 lirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysaadsil 397
+                             l ++Wa+g+l  +   ni+fvf ++ r+l+   s+ ++ ++l++    l+ ++ ++   + +l++  e+vLi+++gfdE   +d  l
+  TCONS_00072663-protein 150 LTYKWAKGELDAE--VNIDFVFKFTCRNLNTISSQFTNVQKLFE----LKYPEVMKLISFDDLMEISERVLIVINGFDE--LKDLYL 228
+                             **********997..9***************************9....777888888889*******************..555566 PP
+
+          NLR_alignement 398 kdldypnnakekmplsALytkLlkGk..ilrgsvvlitsrpgevdslke.iafd...rrveItgftkeevkefvekyfkddadtkna 478
+                              +++   +a+++  l   + +L++ k   l++ +v+   rp++v+ lk+ i+++   + +e+ gf +e++ ++++++f + +d +  
+  TCONS_00072663-protein 229 PESS---SASNRDSLNLTVFNLINPKadCLPNHKVIACGRPKAVEFLKKeIPINsnrKNIEVCGFDDENILKYIQNFFGERKDKAFS 312
+                             6654...5555666666678998655227*******************99887544478**************************** PP
+
+          NLR_alignement 479 vlehiktNknllslayiPvnclliCsllek.ilkesmeddaLPtklteiylevvrlflkrhlksnkekdsadeiaassedl..pdev 562
+                             v + i+   nl  +a++Pv   +iC+++e+ ++k  +       + te+y+    +f+++ lk+++++       +++ d+   + v
+  TCONS_00072663-protein 313 VHQLIERSYNLRIMARVPVFLSVICTVFEEdLIKNPI------NTQTELYFFTTLIFIRNYLKRQSQSY------TNLMDItkDKTV 387
+                             ****************************862666665......578****************9999988......333344005679 PP
+
+          NLR_alignement 563 entlkklkelaangLvedrliFdseevenlrasgller...spekrvsaletekkfCFiHltlQEylAArwlakkven 637
+                              + l  l +l  +  ++++++F+ +e+  lr    le+   +  k+     te  f F Hl+l Eyl  + +++++++
+  TCONS_00072663-protein 388 AEILLCLMKLSVTTYMQNKVVFSEAEIASLRCPIPLEEtgfI-TKHQRSNSTEVTFQFRHLILHEYLTGLYISITKDI 464
+                             999****************************99999997744.444444556778***************99998874 PP
+
+>> TCONS_00004302-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.5   9.7   1.4e-37   6.3e-35     274     640 ..      42     389 ..       3     451 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 120.5 bits;  conditional E-value: 1.4e-37
+          NLR_alignement 274 kslqelFisredseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvld 360
+                             ks++++ +s+++        + i G  gigKt ++  l  +Wa+g+ + l    ikf+f ++ r l+   s   +L++l++    l+
+  TCONS_00004302-protein  42 KSIDQVLLSNDEL-------VFIRGIGGIGKTSLLDMLTFKWAKGEIPDL--SAIKFLFKFTCRDLNDTSSKFSNLQELFK----LK 115
+                             3445555666655.......9****************************7..99***************************....44 PP
+
+          NLR_alignement 361 daskvddqllkelldhpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLl..kGkilrgsvvlitsrpgevdslke. 444
+                              ++  +   + +l++  ++vL+++dg dE   +d  ++++     a+    l+ ++ +Ll  kG  l++ +vl   rp++++++k  
+  TCONS_00004302-protein 116 FPEVFESITFDDLMEISDRVLVIVDGIDE--LKDIYVQNKP---GASSAKSLAQIVFNLLdpKGDWLKNHKVLACGRPKAIEHVKTk 197
+                             4444555568999****************..4455555554...56667789*******966699*******************996 PP
+
+          NLR_alignement 445 iaf...drrveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiyl 528
+                             ++    ++++e+ gf +e++ +++e++f ++ + ++ v + i++  nl  +a++Pv  ++iCs+++++l +++    +  + te+y+
+  TCONS_00004302-protein 198 LPTnskQKTIEVCGFDDENIVKYIENFFGENMEKATTVKDLIAQSYNLRLMARVPVFLFVICSVYKDSLLTNS----M-NTQTELYF 279
+                             543222699*********************************************************9988775....3.789***** PP
+
+          NLR_alignement 529 evvrlflkrhlksnkekd.sadeiaassedlpdeventlkklkelaangLvedrliFdseevenlrasgller..spekrvsalete 612
+                                 +f+++h+ks+ ++     +i++       +v + l  + +l  +  +e++++F+   +  l+ +  +e+     k  +  +++
+  TCONS_00004302-protein 280 YSSLIFIRNHFKSKPNQYpNLMSIIE-----DRKVVEMLYSIMQLSVTTYMENKVVFSESDIRSLKCCFPIEEtgFVTKYRAGNQQN 361
+                             *************9998856667777.....5678999******************************9999856455666667777 PP
+
+          NLR_alignement 613 kkfCFiHltlQEylAArwlakkvenpdl 640
+                               + F Hl l E+  A++l  +++++ +
+  TCONS_00004302-protein 362 VTYQFRHLVLHEFFTALHLCVTKDIEPF 389
+                             8899**************9988886665 PP
+
+>> TCONS_00038639-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.9   9.1   2.2e-37   9.5e-35     225     638 ..     417     804 ..     352     818 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 119.9 bits;  conditional E-value: 2.2e-37
+          NLR_alignement 225 tvekriklddvftslvlqt.grakkeftglrrrdqlsylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfcqk 310
+                             + + ++k +dv+ +lv+ +    +ke ++  r       +++ ++  k  k ++++  s+++        + + G agigKt+++  
+  TCONS_00038639-protein 417 EDTTSAKREDVYIDLVVLPsADVDKEWSNSDRAAL--IEQQKYQKREKSTKDINQILPSDNEA-------VFVRGVAGIGKTTLLDM 494
+                             35667788888888876651456888888866553..33445556667788889999988888.......***************** PP
+
+          NLR_alignement 311 lirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysaadsil 397
+                             + ++Wa+ +l +  + +i+f+f +  r+l+   +   sL++l++         +  +  +k+l +  e+vLi++dg+dE       l
+  TCONS_00038639-protein 495 FTYKWAKRELTN--TASIEFMFHFSCRKLNIISNRFNSLEELFQLQ-----Y-PDLNISFKDLKEISERVLIVIDGLDE-------L 566
+                             ********9999..599999999999********99*******933.....2.3333446999999*************.......5 PP
+
+          NLR_alignement 398 kdldypnnakekmplsALytkLl..kGkilrgsvvlitsrpgevdslke.iaf..drrveItgftkeevkefvekyfkddadtknav 479
+                             kdl  + n +       ++ +Ll  kG  l++ +v++  rp++++ +k+ ++    + +e+ gf +e++++++e++f +++d +++v
+  TCONS_00038639-protein 567 KDLYLSENLSTSKTTNQIVFELLnpKGAWLPNHKVITCGRPKASEFVKKqLPKtrRKNIELCGFDDENIRKYIENFFGEQKDEAKKV 653
+                             555555555555555556666764479********************99643311456***************************** PP
+
+          NLR_alignement 480 lehiktNknllslayiPvnclliCsllek.ilkesmeddaLPtklteiylevvrlflkrhlksnkekd.sadeiaassedlpdeven 564
+                              + i++   l  +a++Pv    iCs++++ ++k+ +       + te+ + +  +f+k h++++++   +  +ia       ++v +
+  TCONS_00038639-protein 654 QKRIEQSYDLQIMARVPVFLYSICSVYKEqLIKAPI------NTQTELTFFATLIFIKDHFNKKSKGYkTVRDIAG-----DKNVAK 729
+                             *************************99762667776......478999999999******9998877745555555.....7899** PP
+
+          NLR_alignement 565 tlkklkelaangLvedrliFdseevenlrasgllersp.ekrvsaletekkfCFiHltlQEylAArwlakkvenp 638
+                              l  l el  +  ++++++F + e++ l++   le+    ++ s    e  f F Hl lQE+l  +++  +++++
+  TCONS_00038639-protein 730 VLLCLMELSTTTYMQNKILFRQSEISLLNSPIPLEETGfLSKYSSNLLEPSFQFRHLFLQEFLTGLQICVTKDIK 804
+                             ************************99888888888744134566667899**************99998777654 PP
+
+>> TCONS_00031619-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   1.1   1.1e-05     0.005      76     240 ..      95     278 ..      74     366 .. 0.59
+   2 !  109.1   9.5     4e-34   1.7e-31     284     633 ..     559     895 ..     514     939 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 1.1e-05
+          NLR_alignement  76 srkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntlyGkaseasvddatkkkvwkdiq.iv...gngvdalv 158
+                             s kfditl+++  r  + l  +  g+   +  +d t +a+  r   +rn  + +    +vd a +++ w++ + iv   g+  ++l 
+  TCONS_00031619-protein  95 SDKFDITLIVLAIRSFTTLPSPKGGWSMTPTPTDITPTANTIRARDWRN-FLNHTNPEKVDLALFNQKWNEGVqIVqqiGYAPPDLN 180
+                             679*************9999999**************************.666888899**********985403311144444444 PP
+
+          NLR_alignement 159 vLggiilllaiqdlkkecmDsdfeekyvfkqhrpv...............................vslaeylkelkklvksqteke 214
+                              L  i l     dl    + s +++  v+ q++                                 +        l+k+ ++q+   
+  TCONS_00031619-protein 181 TLRTISLDPKH-DLVLKSLHSLINNV-VLSQQKNQsditalqkevsdhaaannlmkseinknvadvE-------MLNKRFEDQK--- 255
+                             44442222222.23333333333333.5555554447777777754444444444444432222220.......2222222222... PP
+
+          NLR_alignement 215 elfqaseeakt.......vekriklddvftslv 240
+                                       +       +++  +l+d+++++ 
+  TCONS_00031619-protein 256 ----------EdiakcleEQSTKRLEDQVKITK 278
+                             ..........12222222223333333222222 PP
+
+  == domain 2  score: 109.1 bits;  conditional E-value: 4e-34
+          NLR_alignement 284 edseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqll 370
+                             +d+ +   + +++ G ag+gK+  +q l+ +Wa+ + ++  +++i+f+f ++ r+++   +    ++dll+++     ++  +   l
+  TCONS_00031619-protein 559 QDIVKDTDQLVVVRGVAGVGKSSYIQMLALKWAKREIMNTLSNKIDFLFTFTCREINTLPD-LSGIEDLLQKT----YPKIFKYVTL 640
+                             56677778889**************************9999****************9998.4459*****87....4777777789 PP
+
+          NLR_alignement 371 kelldhpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLlkGki..lrgsvvlitsrpgevdslkeiaf.....drr 450
+                             ++l   ++++Li++dg+dE s   +     +++nna+  m       ++++ k   l+g + +   rp++ +++++ af      +r
+  TCONS_00031619-protein 641 SDLQMLTNRILIVVDGLDELSGMYQENPTNQMSNNAQVTM-------QIIDTKNidLKGHKTIACGRPNACEKVQK-AFsktqhTKR 719
+                             999999*************776555555555666666666.......66666542367889999**********99.5511111579 PP
+
+          NLR_alignement 451 veItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkr 537
+                             ve+ gf +  +k +v+++fk+d++  ++vle ik   nl  +a +P+   +iCs++ +  + ++        +te+y   + +flk+
+  TCONS_00031619-protein 720 VEVCGFRNAMIKTYVQSFFKNDTERLEKVLEVIKRSGNLQAMASVPIFLWVICSIYAEDCDIEI------HSVTELYVYGLLVFLKN 800
+                             **********************************************************999998......488************** PP
+
+          NLR_alignement 538 hlksnkekd..sadeiaassedlpdeventlkklkelaangLvedrliFdseevenlrasgllerspekrvsale...tekkfCFiH 619
+                             hlk   + +  + ++ia+     ++ + + +  l +l  +  ++ ++iF ++ +e l+ + +  +   + +  ++    ++ + F H
+  TCONS_00031619-protein 801 HLKGCMDIKnkTLQDIAN-----SPTIGEIVYSLAKLSTKTYMKHQVIFTQDDMESLN-CTIQMQQTGFITKLSTgniYKEWYQFKH 881
+                             **9887766222333333.....6778888899********************99885.5555544444443333111456699*** PP
+
+          NLR_alignement 620 ltlQEylAArwlak 633
+                             l++QE+l A+ l  
+  TCONS_00031619-protein 882 LSFQEFLSALYLCL 895
+                             *********98765 PP
+
+>> TCONS_00050261-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   1.5   3.7e-19   1.6e-16     773     926 ..      52     201 ..      24     204 .. 0.90
+   2 !   61.7   1.9   8.1e-20   3.6e-17     734     873 ..     216     349 ..     209     355 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 3.7e-19
+          NLR_alignement 773 nctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealka 859
+                             n++  + ++   +idd+  + +  +L  +n+ L  +dL +n i+deg+k + + l+  + +l  L ls n+ i   g++ +++ +++
+  TCONS_00050261-protein  52 NKRNDQNEMYRRRIDDNELEIF-TLLFTGNTYLVGIDLGYNLITDEGAKLIGKLLEETP-SLETLILSYND-IGVSGATVIAKGIQM 135
+                             5555666777888888887755.5669******************************99.9*********9.9************** PP
+
+          NLR_alignement 860 scklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLs 926
+                             + +lt L++++n+ +  G   ++ aL+v + +l +Ld+ + e   + + +la vlk+n++l +L ++
+  TCONS_00050261-protein 136 NETLTCLKMDGNKFGRVGGLAIAGALQVNT-TLEELDITNTEQDTQSLIALATVLKSNCHLKKLVIG 201
+                             ******************************.*********999999***************999776 PP
+
+  == domain 2  score: 61.7 bits;  conditional E-value: 8.1e-20
+          NLR_alignement 734 vaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegv 820
+                              a++l+v++ +++++l  n+   + + G+ +i++  +  n tl +Ld+s nq+ ++g +s+ak   ksn+ L+ L+  +n+  d g+
+  TCONS_00050261-protein 216 FARLLEVNRSIKEIHLR-NH--GMVNFGVEQIVNH-IMDNMTLLHLDVSCNQLSRDGMESIAKY-LKSNPPLRILNVGYNRAEDDGA 297
+                             46778888888888887.66..3777888888888.6677777788888888888888888888.7778888888888888888888 PP
+
+          NLR_alignement 821 ksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneI 873
+                             + l++al+  +++l  L   +n   t +g+  l+++l  + +lt+Ly  +ne 
+  TCONS_00050261-protein 298 IVLSNALSHGNINLETLVIRNNS-LTGKGLCALAKSLTLNTTLTQLYVWGNEL 349
+                             88888888888888888888777.78888888888888888888888777765 PP
+
+>> TCONS_00059382-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.6   8.4   6.9e-35   3.1e-32     277     640 ..      45     389 ..       3     452 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 111.6 bits;  conditional E-value: 6.9e-35
+          NLR_alignement 277 qelFisredseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddas 363
+                             +++ +++++        + i G  gigKt ++  l  +Wa+g+ + l    ikf+f ++ r l+       +L++l++    l+ ++
+  TCONS_00059382-protein  45 DQVLLPNDEL-------VFIRGIGGIGKTSLLDMLTFKWAKGEIPDL--SAIKFLFKFTCRDLNDTSGKFSNLQELFE----LKFPE 118
+                             4455555555.......99***************************7..99**************9999999******....44444 PP
+
+          NLR_alignement 364 kvddqllkelldhpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLl..kGkilrgsvvlitsrpgevdslke.iaf 447
+                               +   + +l++  ++vL+++dg+dE   +d  ++++     a+    l+ L+  Ll  kG  l++ +vl   rp++++++k  ++ 
+  TCONS_00059382-protein 119 VFESITFDDLMKISDRVLVIVDGMDE--LKDIYVQNKP---GASSAKSLAQLVFHLLdpKGDWLKNHKVLACGRPKAIEHVKTkLPT 200
+                             4555568999****************..4455555554...56667789*******966699*******************996544 PP
+
+          NLR_alignement 448 d...rrveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevv 531
+                             +   +++e+ gf +e++ +++  +f ++ + ++ v + i +  nl  +a++Pv  ++iCs ++++l +++    +  + te+y+   
+  TCONS_00059382-protein 201 NskrKTIEVCGFDDENIVKYIDIFFGENMEKATTVKDLITQSYNLRLMARVPVFLFVICSAYKDSLLTNS----I-NTQTELYFYSS 282
+                             333389**********************************************************999986....3.789******** PP
+
+          NLR_alignement 532 rlflkrhlksnkekd.sadeiaassedlpdeventlkklkelaangLvedrliFdseevenlrasgller..spekrvsaletekkf 615
+                              +f+++h+ks+ ++     +i++       +v + l  + +l  +  +e++++F+   +  l+    +e+     k  +  e+++ +
+  TCONS_00059382-protein 283 LIFIRNHFKSKPNQYpNLMSIIE-----DRKVVEMLYSIMQLSVTTYMENKVVFNESDIRSLKCRFPIEEtgFITKYRAGNEQKATY 364
+                             **********9998856667777.....56789999************************9999888887565667778889999** PP
+
+          NLR_alignement 616 CFiHltlQEylAArwlakkvenpdl 640
+                              F Hl l E+  A++l  +++++ +
+  TCONS_00059382-protein 365 QFRHLVLHEFFTALHLCVTKDIEPF 389
+                             ***************9998886665 PP
+
+>> TCONS_00026585-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       1.4   6.4e+02     477     530 ..       8      59 ..       5      61 .. 0.84
+   2 !   22.7   0.4   4.7e-08   2.1e-05      76     212 ..      95     286 ..      71     350 .. 0.61
+   3 !   90.3   3.5   1.8e-28   7.9e-26     284     541 ..     513     758 ..     467     771 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 1.4
+          NLR_alignement 477 navlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylev 530
+                             n+v+++++    l  + + P++  l+  + +k  + s+  ++LP++ t++y+e+
+  TCONS_00026585-protein   8 NKVIQEVQHWLRLAVFEHGPLKESLLYVFHNKGNDSSY--VGLPSNPTDLYNEL 59 
+                             77888888888888888889998888888888888886..9**********996 PP
+
+  == domain 2  score: 22.7 bits;  conditional E-value: 4.7e-08
+          NLR_alignement  76 srkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntlyGkaseasvddatkkkvwkdiqiv....gngvdalv 158
+                             s kfditl+++  r  + l P+  g+   +  ad t +a+  r   +rn  + +    +vd a +++ w++ + +    g+  ++l 
+  TCONS_00026585-protein  95 SDKFDITLIVLAIRSFTTLPPPKGGWSMTPAPADITPTANTIRARDWRN-FLNHTNPKNVDLALFNQKWNEGVQIvqqiGYTPPDLN 180
+                             679**********************************************.666888899**********985433011144444544 PP
+
+          NLR_alignement 159 vLggiilllaiqdlkkecmDsdfeekyvfkqhrpv.................................................... 193
+                              L  i l     dl    + s +++ +v+ q++                                                      
+  TCONS_00026585-protein 181 TLRTISLDPKH-DLVLKSLHSLINN-VVLSQQKNQsdikalqkevsdhtaannlmkieinknvadveilnkrfegqkedivkcleee 265
+                             44442222222.2333333333333.3555555443666666665555555555555555444444444444444444444433333 PP
+
+          NLR_alignement 194 ..vslaeylkelkklvksqte 212
+                               + l++ ++  k+l+++ t+
+  TCONS_00026585-protein 266 stKRLEDQVNITKRLEEESTK 286
+                             332233333333333333333 PP
+
+  == domain 3  score: 90.3 bits;  conditional E-value: 1.8e-28
+          NLR_alignement 284 edseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqll 370
+                             +d+ +   + +++ G ag+gK+  +q l+ +Wa+ + ++  +++i+f+f ++ r+++        ++dll ++     ++  +   l
+  TCONS_00026585-protein 513 QDIVKDTDQLVVVRGVAGVGKSSYIQMLALKWAKREIMNTFSNKIDFLFTFTCREINTLPG-LSGIEDLLRKT----YPEIFKYVTL 594
+                             5667777888**************************99999****************9876.3347****987....4778888889 PP
+
+          NLR_alignement 371 kelldhpeevLilldgfdEysaadsilkdldypnnakekmplsA.LytkLlkGki..lrgsvvlitsrpgevdslkeiaf.....dr 449
+                             ++l   ++++L+++dg+dE s          y  n++++m  sA + +++++ k   l+g + +   rp++ + +++ af      +
+  TCONS_00026585-protein 595 SDLQMLTNRILLVVDGLDELSG-------M-YQVNPTDQMTTSArVTMQIIDTKHidLKGHKTIACGRPNACETVQK-AFsktqhTK 672
+                             999999*************443.......3.6678889999999456899999973467999*************99.551111157 PP
+
+          NLR_alignement 450 rveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflk 536
+                             rve+ gf +  +k +v+++fk++++  ++vle ik   nl  +a +P+   +iCs++ +  + ++        +te+y   + +flk
+  TCONS_00026585-protein 673 RVEVCGFCNAMIKTYVQSFFKNATERSEKVLEVIKRSGNLQAMASVPIFLWVICSIYAEDCDVEI------HSVTELYVYGLLVFLK 753
+                             9**********************************************************999998......488************* PP
+
+          NLR_alignement 537 rhlks 541
+                             +hlk 
+  TCONS_00026585-protein 754 NHLKG 758
+                             **985 PP
+
+>> TCONS_00008843-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.9   4.5   1.8e-14   7.9e-12     805     940 ..      20     152 ..      12     164 .. 0.49
+   2 !   71.9   1.8   6.5e-23   2.9e-20     815     947 ..     142     277 ..     142     280 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.9 bits;  conditional E-value: 1.8e-14
+          NLR_alignement 805 LnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneIt.daGvvsLceaLkvskc 890
+                             L++ +++  e++d     ++  l++++  ++ L+  g++   d+   ++ e+lk ++ l++L+L+   +   + v  L+e Lk+ + 
+  TCONS_00008843-protein  20 LGSVQISGEELGDIETNDICSSLRQNS--IRLLSIRGCK-LHDKNYRQIMESLKENSSLSHLNLNLGVVDsKERVIWLSEGLKNNT- 102
+                             445555555555555555555555554..5555555555.4555555555555555555555555444431234455555555555. PP
+
+          NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslae 940
+                              +  L L++n i D+g+  l  +l++ + +++L+L+   i d G ++l+ 
+  TCONS_00008843-protein 103 GIETLLLHGNPIRDEGLSILVPALEKHQGISNLDLGDCLIGDDGLAALCG 152
+                             55555555555555555555555555555555555555555555555553 PP
+
+  == domain 2  score: 71.9 bits;  conditional E-value: 6.5e-23
+          NLR_alignement 815 isdegvksliealkfs...ksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs 898
+                             i+d g+++l+   k s   +s+l +L l gn +it+ g ++l+ al    +l +LyL+ n+I+d G+   + +L  +k +l  +d++
+  TCONS_00008843-protein 142 IGDDGLAALCGLAKPSnkkNSSLLQLTLTGNRDITQSGWAQLAMALAYCTNLNKLYLDYNNIGDFGAGLFAVSLSAAK-SLEYIDFE 227
+                             89********988765222689*************************999****************************.******** PP
+
+          NLR_alignement 899 eneisDvgvaslaevlk.ensqlttLyLsyneitdaGveslaeaLkeakk 947
+                             +  i+D+g++ l+++++  n +l +L+L  n++++  +++l e L+e+k+
+  TCONS_00008843-protein 228 GCGITDAGAELLCDAIEsYNITLHDLNLAENDVSEEIIKELKECLQENKT 277
+                             *****************99****************************986 PP
+
+>> TCONS_00045725-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.1   7.0   5.1e-32   2.3e-29     211     678 ..     189     639 ..      99     661 .. 0.75
+   2 ?    3.4   1.8      0.03        13     863     959 ..     824     923 ..     812     956 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 102.1 bits;  conditional E-value: 5.1e-32
+          NLR_alignement 211 te..keelfqaseeaktvekriklddvftslvlqtgra.kkeftglrrrdqlsylkstsrvsskpikslqelFisredseetnpkri 294
+                             t+   + +++as   +++  + +l+d f +l +++g+  +++f + +r d+     ++           +   is ++ + ++ + +
+  TCONS_00045725-protein 189 TKrfVKPFLGAS--GEKELDDQNLEDAFVELAIIKGKNvDEKFLNSNR-DY---HLQQVLL--------DKQMISLDQLITKDERFV 261
+                             222334444444..3357888899999999887777653788998855.53...2233222........22345777888999999* PP
+
+          NLR_alignement 295 litGkagigKtlfcqklirdWaegklfllr..clnikfvfllefrqlksetsdeisLr..dllnrssvlddaskvddqllkelldhp 377
+                             +i G +gigK+++++k+i dW +  l++ +  ++ni+++f +  r+l+    +e+s +  d+l+r   + d+ +     ++ + d  
+  TCONS_00045725-protein 262 MISGIPGIGKSTLVKKVILDWDKRLLLSGKgpSPNIQILFPILCRELNTIDFTETSSHplDILERL--FPDFLP----HWRLIKDVS 342
+                             **********************99999877999*******9999****987777765522555544..555544....455667778 PP
+
+          NLR_alignement 378 eevLilldgfdEysaadsilkdldypnnakekmplsALytkLlkGkilrgsvvlitsrpgevdslke...iafd...rrveItgftk 458
+                             e+vL+l+dg dE +  ++i   +       ++ p   L + L++ + l + + +   rp  +  +++   + f+   ++ve+ gf++
+  TCONS_00045725-protein 343 EHVLFLVDGIDELKGIEHIQIAS-------KRSPAVNLLYHLMNPQFLLNHKCIFVGRPRTIRMVNSffnLTFQyevKKVEVCGFSR 422
+                             99**********77776665554.......578999999*********************9999988533455455589******** PP
+
+          NLR_alignement 459 eevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkrhlksnkek 545
+                             e+vk++v k fk+  +t++ +l +i++ +    l++iP  + ++ s++++ + +++     P + te+ l    ++++r+ ++  e 
+  TCONS_00045725-protein 423 ENVKNYVLKQFKECPQTGHDILLKIQSSPITDGLSRIPFHAWVLTSIFKDNPFMKI-----PKTATELLLYSFLVYIRRQREKDIEL 504
+                             **************************************************998885.....********999999*****9999998 PP
+
+          NLR_alignement 546 d.sadeiaassedlpdeventlkklkelaangLvedrliFdseeve...nlrasgllerspekrvsaletekkfCFiHltlQEylAA 628
+                             +  a  i+  +    +++++ +  +    ++ L   +++F+    e   ++++ gll     k++ + + +  + F Hl++QE+ AA
+  TCONS_00045725-protein 505 QsEAGGINLKTLANDQSIQQYILSIAHYSFQTLKHSEIVFEAGPTEsflEIEKIGLLV----KSTRRETGVVLYQFQHLIFQELFAA 587
+                             845666655555556789**********************876555333788999999....6677777788999************ PP
+
+          NLR_alignement 629 rwlakkvenpdlselvlkcvkkasdtlvlqFvsGllgkqnekv.lvelLe...v 678
+                              ++    en d ++l  + +  +s   ++  + G+l+ q+e   + + L    +
+  TCONS_00045725-protein 588 IHILRMRENADPKTLNCSIL--QSCLTIVAGLEGILSTQEEPNqILQGLLaqlT 639
+                             ****9888888655554444..44455568888999999874313333332442 PP
+
+  == domain 2  score: 3.4 bits;  conditional E-value: 0.03
+          NLR_alignement 863 lteLyLkrneItda.......GvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaL 942
+                             l +L+L   +It++        ++ L ++Lk+ + +l+kL L +  ++D+ +  l   +     lt L++syn  +    + +   L
+  TCONS_00045725-protein 824 LESLHLCCLDITEKprlrwskNLALLQQSLKQDT-SLKKLTLFKCALTDEIILDLIRDF---RSLTHLDISYNGLSQITLNRILVKL 906
+                             5566666666665322222225778889999999.999999999999999999887777...7899999999999999999988888 PP
+
+          NLR_alignement 943 keakkltaLdLssneis 959
+                                 +++ ++ s n+  
+  TCONS_00045725-protein 907 DPDLTVQVINFSCNHFN 923
+                             88888888888777755 PP
+
+>> TCONS_00001838-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.8   8.6   2.5e-31   1.1e-28     225     636 ..     183     580 ..     148     640 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 99.8 bits;  conditional E-value: 2.5e-31
+          NLR_alignement 225 tvekriklddvftsl.vlqtgrakkeftglrrrdql..sylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfc 308
+                             ++++  + +d++t+l vl+ +  + e+ +  r+  +   y        ++ i +l++lF  ++d+       + + G  g+gKt+++
+  TCONS_00001838-protein 183 QETSYYNSNDMYTDLaVLKANVVDSEIDNSDRKALMeqRY------FDKESI-ELDDLFQQKNDT-------VFVRGVGGMGKTTML 255
+                             5666677778887763666777777877776655433234......333345.678999988888.......*************** PP
+
+          NLR_alignement 309 qklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEys..aa 393
+                             +    +Wa+ +l l+  l ++f+fl+  r+l+  t   +s++dl++       ++  +   l++l++  ++vLi++dg+dE    ++
+  TCONS_00001838-protein 256 EMYTLKWAKKELELD--LPLEFIFLFSCRELNRLTGRITSIEDLFTEK----YPEIFSIVSLENLAQIADRVLIIIDGLDEVHgvYE 336
+                             **************8..9999*************************44....46666667789999999************541123 PP
+
+          NLR_alignement 394 dsilkdldypnnakekmplsALytkLlkGkilrgsvvlitsrpgevdslke..iafdr..........rveItgftkeevkefveky 468
+                             +++ k++    + +    ls L     +G +l+g + +   rp++ d +k+   +++r          +ve+ gf+k +v +++ek+
+  TCONS_00001838-protein 337 TEVSKNSP---SLTSIQILSELIN--TQGPLLKGHKCIACGRPKACDFIKRkiHQMERhstkvatnikTVEVCGFSKANVEKYIEKF 418
+                             33333332...3333344555544..48*********************99844666433333333338****************** PP
+
+          NLR_alignement 469 fkddadtknavlehiktNknllslayiPvnclliCsll.ekilkesmeddaLPtklteiylevvrlflkrhlksnkekdsadeiaas 554
+                             f+++++  n+v e ikt +nl  +a +Pv   +i  ++ e+++ +      L  + te+y+ +  +fl++h+     kd    + + 
+  TCONS_00001838-protein 419 FAGNTEKVNRVREAIKTSENLRVMASVPVFIWVIVNVYsEDLITKP-----L-NTHTELYMYACLVFLRNHMHGVGTKD----YKTL 495
+                             *****************************99888776614555555.....4.688****************9999999....2222 PP
+
+          NLR_alignement 555 sedlpd.eventlkklkelaangLvedrliFdseevenlrasgller..spekrvsale.tekkfCFiHltlQEylAArwlakkve 636
+                              e l d  + + +  l  l  +  ++++++F  + ++ l+    le+  +   + s+ e +e  + F H+ lQE+l  + +  ++ 
+  TCONS_00001838-protein 496 IELLEDnTIFEVVYSLMTLSVKTYMNNKVLFTEQDIKSLNCPIHLEQtgL-IVKYSRGEiQEPIYQFKHIVLQEFLTGLFFCVTKG 580
+                             234443146778888999999**************999988888887532.234455442567899**********9988876555 PP
+
+>> TCONS_00056195-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.3   0.6   3.5e-31   1.5e-28     225     508 ..      96     365 ..      81     376 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 99.3 bits;  conditional E-value: 3.5e-31
+          NLR_alignement 225 tvekriklddvftslvlq.tgrakkeftglrrrdql..sylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfc 308
+                             + ++++  +dvf +lv+  +   +ke ++  r   +  +y+++ts     p  s++++F+ ++d        + + G  gigKt+++
+  TCONS_00056195-protein  96 EDTNSVLREDVFIDLVVLpSSTVDKEWSNSDRAALMeqQYIPKTS-----PKTSVNNIFSQKDDL-------VFVRGIGGIGKTTLL 170
+                             555666667888887765155679999999887775568888885.....44558999*999999.......*************** PP
+
+          NLR_alignement 309 qklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysaads 395
+                             + l ++Wa+g+l  +   ni+fvf ++ r+l+   s+ ++ ++l++    l+ ++ ++   + +l++  e+vLi++dg+dE      
+  TCONS_00056195-protein 171 EMLTYKWAKGDLGAE--VNIDFVFKFTCRNLNTISSQFTNVQELFE----LKYPEVMKLISFDDLMEISERVLIVIDGLDE------ 245
+                             *************98..9****************************....777888888889*******************...... PP
+
+          NLR_alignement 396 ilkdld..ypnnakekmplsALytkLlkGki..lrgsvvlitsrpgevdslke.iafd...rrveItgftkeevkefvekyfkddad 474
+                              l dl   ++ +a+++  l   + +L++ k+  l++ +v+   rp++v+ +k+ i+++   + ve+ gf +e++ ++++++f + +d
+  TCONS_00056195-protein 246 -LRDLYlpVSSSASNRDSLNLTVFNLINPKAdwLPNHKVIACGRPKAVEFVKKeIPINsnrKNVEVCGFDDENIFKYIQNFFGERKD 331
+                             .44444334456666667777788999765433******************999887544478************************ PP
+
+          NLR_alignement 475 tknavlehiktNknllslayiPvnclliCsllek 508
+                              +  v + i++  nl  +a++Pv   +iC+++e+
+  TCONS_00056195-protein 332 KALSVHQLIEQSYNLRIMARVPVFLSVICTVFEE 365
+                             ********************************97 PP
+
+>> TCONS_00049595-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.4  11.8     1e-29   4.6e-27     754     970 ..     890    1118 ..     851    1123 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 94.4 bits;  conditional E-value: 1e-29
+          NLR_alignement  754 s..............rnis.dtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksl 823 
+                              +              rn++ ++Gl +i + +     +l  L+l+  +i+ + a +l ++L+    +L+   L  n +++ g++s+
+  TCONS_00049595-protein  890 LlleerkddienlslRNVElEGGLERI-KHFVMTMNNLKVLNLNDSDINIQQAPHLTDILSTCKSTLTTVALNGNPLGNDGITSV 973 
+                              133333333333334677724555555.555777778889*********************9999******************** PP
+
+          NLR_alignement  824 iealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgva 908 
+                               +a+ +s  +lt L    +e i+d g+ ++ e l++++ + eL ++ n It +G  ++++aLk  + +l+ L++   +i D++++
+  TCONS_00049595-protein  974 LDAVTDSV-TLTSLDIGRCE-IADTGAEQIGELLRKNQSVVELTMGWNTITKEGWIHISNALKCNT-SLKTLSIDACQIADEELN 1055
+                              *****999.***********.*******************************************99.****************** PP
+
+          NLR_alignement  909 slaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssne.isnegvaslaeal 970 
+                               +++ +  n  l   +++ n  td+Gve+l++a+++ ++l    +   e +s e  ++++e l
+  TCONS_00049595-protein 1056 IICQGIADNKSLQGVDMEANIFTDKGVEALIQAIEKCETLLDVTIEPCEnVSHEMQEQVREVL 1118
+                              ************************************999977777665567877777777776 PP
+
+>> TCONS_00066723-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.1   3.3e-15   1.5e-12     770     970 ..     260     456 ..     212     460 .. 0.73
+   2 !   50.6   3.0   1.8e-16   7.8e-14     804     944 ..     466     603 ..     461     642 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 3.3e-15
+          NLR_alignement 770 ekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcea 856
+                              +   + + L l+  ++d+ + + l ++  +   + ++LdL +  + + g+++l e ++f + +  +L+   n +i   g + lc  
+  TCONS_00066723-protein 260 TDLSIRASTLVLRGSRMDNRSCEALESIFRRI--QFENLDLENCSLEEDGATALLEMIEFYH-STCKLNIACNPKIGMRGWQALCRM 343
+                             33344556677777778888888888886666..8888888888888888888888888888.667888887778888888888888 PP
+
+          NLR_alignement 857 lkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLk 943
+                             l++   lt L   r   td  +      Lk  +  l+ L+L++  +s   +  l  ++k n  l +LyL+ n+ +      +   L 
+  TCONS_00066723-protein 344 LRKTPCLTYLDARRTLLTDMTMPTFGRCLKADP-PLKILHLEGVFLSGRPMLILTTAMKYNKILEELYLGDNDLSSSDGSPIGAMLT 429
+                             887777888888888888888888888888777.77778888888888888888888888888888888888888888888888888 PP
+
+          NLR_alignement 944 eakkltaLdLssneisnegvaslaeal 970
+                              + +l+ LdL +n+i + g+a++++ l
+  TCONS_00066723-protein 430 YNTTLQLLDLRNNQIKDVGLAHVCNGL 456
+                             888888888888888888888877655 PP
+
+  == domain 2  score: 50.6 bits;  conditional E-value: 1.8e-16
+          NLR_alignement 804 nLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskc 890
+                              L +L L +n+++ eg++ l e l   + +l+ L+l  n  + d g+++l + l +++ l +L     + + +G+v L+e+L +s  
+  TCONS_00066723-protein 466 GLCSLILWNNGLTHEGMTYLTEGLVHTQ-SLKALNLGHNR-VGDFGIQKLKSGLIKNKSLHKLGFLNTKLGSEGAVALAEVLADSL- 549
+                             578999**********************.***********.9*******************************************9. PP
+
+          NLR_alignement 891 kltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLke 944
+                              +t +d++en+i  +g+ +++ +lk+n+ l  L+L  +   + G e++++++ +
+  TCONS_00066723-protein 550 CITRIDIRENNIQTAGLMAFSMALKVNQSLLRLDLDKDIRKEPGMEQVMQTVLV 603
+                             699********************************9999899999999998765 PP
+
+>> TCONS_00059189-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1   7.3   2.6e-29   1.1e-26     742     973 ..     185     421 ..     123     428 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 2.6e-29
+          NLR_alignement 742 kalnalelsgnys............rnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneis 816
+                             ++l++l+l   y             ++ ++  +  +++a  k  +++    l + +++de a +l +  +   + L+ LdL++n++s
+  TCONS_00059189-protein 185 PNLEELHLC--YGvrdcgmnfewdlFEFTNRDCSMLAKA-VKDCKKIKLFHLHKSKVNDEKARVLISH-MLDHPSLTTLDLSYNKLS 267
+                             445555554..2233444445555567888888888888.5667778788999999999999998777.444479999999999999 PP
+
+          NLR_alignement 817 degvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneis 903
+                             +  + +l + l+  +  l +L l +n+ i ++g++ +++al ++ +l +L+L  n   d+G +s+  +L + + +l +++L +n+i+
+  TCONS_00059189-protein 268 NSSARALGKLLNNRS-ILSHLALVDNN-IGPQGAAAIAHALGKNTTLKTLNLRLNRLEDEGCQSILRVLLKNN-TLEEIHLGSNNIT 351
+                             999999999999888.89999999999.999999999999999999999999999999999999999999998.9999999999999 PP
+
+          NLR_alignement 904 DvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvn 973
+                              +    la+vl  n  + +++Ls+n+  + G + + e +++++++ ++d+    i +e   s+++ lk n
+  TCONS_00059189-protein 352 HKSTPLLAQVLVYNKSVKNMNLSCNKFNEEGGKTIQEGMEDNGTIVQMDMRMTDIGQECEYSISQLLKKN 421
+                             9999999999999999999999999999999999999999999999999999999988888887766665 PP
+
+>> TCONS_00007975-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   3.2   5.6e-29   2.5e-26     229     637 ..      34     424 ..      13     498 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 5.6e-29
+          NLR_alignement 229 riklddvftsl.vlqtgrakkeftglrrrdqlsylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfcqklird 314
+                             + + ++ +t+l vl  +  ++++ +++ r    +l++  +  +  i +l+ l        ++n   + + G  g+gKt +++ ++  
+  TCONS_00007975-protein  34 DNNNNNLYTELaVLRDNEIDQDLDNNSDRSS--LLEQR-HLEKDSI-ELEHLV-------QQNDDVVFVRGVGGMGKTAMLEMFALR 109
+                             5555555555425556666677777766554..43333.3333344.444444.......4555559******************** PP
+
+          NLR_alignement 315 WaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddql.lkelldhpeevLilldgfdEysaadsilkdl 400
+                             Wa+++l  +    ++fvfl+  r++++     +s++dl++     +  +kv d + lk+l+   +++Li++dg dE +   +     
+  TCONS_00007975-protein 110 WARNQLNPD--TPLDFVFLFSCREINLLQGRFVSIEDLFK-----EKYPKVFDRIsLKDLAPIADRILIIVDGVDELQGVYESQ--- 186
+                             ******998..788999999999*****************.....556666655549*******************43333322... PP
+
+          NLR_alignement 401 dypnnakekmplsALytkL.lkGkilrgsvvlitsrpgevdslke.iafd.........rrveItgftkeevkefvekyfkddadtk 476
+                                 n +   p+  ++  +  +G +l+g + +   rp++ d +++ ++ +         ++ve+ gf++ ++ +++ek+f+++++ +
+  TCONS_00007975-protein 187 ----NNSSMSPFQTIFSLInTHGTVLNGHKSIACGRPKACDYIRRfLQTEiglqnrtniKTVEVCGFNDAQIDKYIEKFFAGNKEKA 269
+                             ....233344666655444247********************9975433223334444478************************** PP
+
+          NLR_alignement 477 navlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkrhlksnkekdsadeiaassedl.pdev 562
+                             ++v e i+  +nl  +a  Pv+  +i  ++ + l ++     L  + te+y+ +  +fl++h+  ++ +   ++ ++  e l  de+
+  TCONS_00007975-protein 270 DRVREAIRISDNLRIMASTPVLIWVIAIVYSEDLITK----PL-NTYTELYMYACLVFLRNHMHGTRANY--HKPLI--ELLdDDEI 347
+                             ***********************99998876544444....24.688***************99988887..33333..3341578* PP
+
+          NLR_alignement 563 entlkklkelaangLvedrliFdseevenlrasgller..spekrvsale.tekkfCFiHltlQEylAArwlakkven 637
+                             ++ +  l  l  +  ++d+++F  + +  l+  + le+  +   + s+ e te  + F Hl lQE+l  + l +++ +
+  TCONS_00007975-protein 348 YECVYALMVLSVKTYMNDQVLFTEDDIVTLKCPVHLEQtgL-IVKYSRGEiTEPVYQFKHLVLQEFLTGLYLCITKGI 424
+                             ***************************9**99999998542.234444442567899***********9998887663 PP
+
+>> TCONS_00006364-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   8.7   5.9e-29   2.6e-26     765     989 ..      68     288 ..      40     298 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 5.9e-29
+          NLR_alignement 765 itealekenctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvv 851
+                             i+ +  + n  +t++dl  n++d + a+sla +  + n+ + +L+L +n+i+ eg   l  al+    ++  L+ls+n    d+ + 
+  TCONS_00006364-protein  68 IALS-LRHNTWVTNIDLTDNNLDKNAANSLAVM-FEDNHFIVRLNLTNNHIGQEGTERLLGALSYHT-SIAYLSLSENR-LPDKIAK 150
+                             5555.4678999*******************99.9999****************************9.***********.89***** PP
+
+          NLR_alignement 852 slcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGvesl 938
+                             +l e l ++ +l eL L++ne   +  +   e+L   + +l  LdLs n+   +g+  +a  l +n  l + +L  n  ++ G +++
+  TCONS_00006364-protein 151 PLGEFLSVNNTLLELDLSKNELSTESGSTFKESLPMNR-TLLDLDLSWNQFRGQGAVDVAAGLAQNKSLVNVNLAWNGFSNIGSQAI 236
+                             **************************************.999********************************************* PP
+
+          NLR_alignement 939 aeaLkeakkltaLdLssneisnegvaslaealkvnckltkLy.lwdalteap 989
+                              + +  +k+lt+LdLs n++  +g++++ eal++n++l  L   w++l+ ++
+  TCONS_00006364-protein 237 GKCISMNKTLTQLDLSHNRVGCKGLKEIGEALRTNTTLDVLRlGWNQLKSNS 288
+                             ******************************************6688887655 PP
+
+>> TCONS_00007736-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.3   3.3   1.2e-26   5.3e-24     776     922 ..     174     341 ..     161     366 .. 0.87
+   2 !    9.3   0.5   0.00049      0.22     799     843 ..     466     506 ..     349     526 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 84.3 bits;  conditional E-value: 1.2e-26
+          NLR_alignement 776 lteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgnee.................. 844
+                             + eL ++ +++++   d+la   +   + L+  d+ + +++de v+ l + l++ + +l+ L l+gn +                  
+  TCONS_00007736-protein 174 VKELYIRGWRVEQKVIDVLAIT-MPELERLTLVDFWNAGLTDETVVTLGHCLSAAP-SLKTLRLDGNSHassqrfdiflseksmvqn 258
+                             46899***************99.666699***************************.***********5555555555666666666 PP
+
+          NLR_alignement 845 .......itddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqltt 922
+                                    itd g++++ ++lk + +l++L+L +n+Itd+Gv++L++ L+  + +l +L+L +n+isD+g+++++evl ++ qlt 
+  TCONS_00007736-protein 259 lslknccITDLGAQHIGNSLKDNRNLATLNLCFNKITDEGVSHLAKGLRINR-SLLSLNLGSNQISDDGAKHISEVL-STFQLTH 341
+                             6666777********************************************9.999*********************.8888885 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.00049
+          NLR_alignement 799 iksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne 843
+                             i +nk L +L+L  n is++g+ +l ea+k ++     ++ ++n+
+  TCONS_00007736-protein 466 IPGNKALINLNLARNSISEVGLEHLYEAVKYQS----DMSIESNK 506
+                             567888888888888888888888888888777....44555555 PP
+
+>> TCONS_00031185-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.8  13.6   1.6e-16   6.9e-14     792     984 ..     289     540 ..      99     541 .. 0.76
+   2 !   52.4   0.9     5e-17   2.2e-14     833     970 ..     503     638 ..     494     647 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 50.8 bits;  conditional E-value: 1.6e-16
+          NLR_alignement 792 d................................................................slakvLiksnknL..nkLdLls 812
+                             +                                                                 + +    + k+L  +k+ L++
+  TCONS_00031185-protein 289 SiggdidernqsecsidsthdligansddefdtdieedfpeveeepldpygrtvyreeclrqqiiPITSF---V-KQLpeEKMTLKF 371
+                             2334555566666666666666666666666666666666666666666666666666666633333333...2.333226999999 PP
+
+          NLR_alignement 813 neisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLse 899
+                              +  ++   +l  al++++ ++    ls+n+ +   +  +l e+lk++  +t+L L+ n+ ++a+   L e L   ++ ++ L L++
+  TCONS_00031185-protein 372 RGFNEKASNALTSALSANS-RIEICDLSNNN-MGYTAGLRLVEVLKKNTFITHLDLSENQLGNAVGIKLGEMLLT-NIYIKTLILKG 455
+                             9999999999999999999.99999999999.78888889*******************************9965.559******** PP
+
+          NLR_alignement 900 neisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLylwda 984
+                             n+ +  ++  +aev+k n +l +L+Lsyne  + G   l   L  ++ ++ L+L+ n i  +g  ++a a + n++l+kL l+++
+  TCONS_00031185-protein 456 NKFTNPVARIFAEVFKTNDTLVELDLSYNEFHENGSLYLGAGLALNESIKVLNLKWNSIRGKGGVAIAAAFSKNSTLKKLDLSWN 540
+                             ********************************************************************************97664 PP
+
+  == domain 2  score: 52.4 bits;  conditional E-value: 5e-17
+          NLR_alignement 833 klteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensq 919
+                             +++ L+l +n  i  +g v ++ a  ++++l +L L+ n     G   +   Lk+   +l +Ld+s+n i  +g+++l  +l +   
+  TCONS_00031185-protein 503 SIKVLNLKWNS-IRGKGGVAIAAAFSKNSTLKKLDLSWNGLAFIGCLAIGRHLKKNS-TLEHLDISNNRIGRDGATKLVAALSVHPV 587
+                             67889999999.999999999999999999999999999999999999999999988.99999999999999999999999999999 PP
+
+          NLR_alignement 920 lttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaeal 970
+                             l t +++ n i d Gv+++ +a+++++ ++ L+  +  i ++ ++ + + +
+  TCONS_00031185-protein 588 LETFKIGLNPIGDEGVQKILKAMEKNCSINLLSFEKITICQKTLTMIENLQ 638
+                             999999999999999999999999999999999999999988888885444 PP
+
+>> TCONS_00045336-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.9   6.7   4.9e-28   2.1e-25     376     633 ..      33     284 ..      20     287 .] 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 88.9 bits;  conditional E-value: 4.9e-28
+          NLR_alignement 376 hpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLl..kGkilrgsvvlitsrpgevd....slkeiafdrrveItgf 456
+                               ++v+i++dg dE    + i + ++   +++ +     L+ +L+  kG +l+g + +i  rp++++    slk+  + ++v+I gf
+  TCONS_00045336-protein  33 IADRVMIVVDGVDEL---QDIFQMEQ---KSTSEYHHLRLVQELIdpKGVLLPGHKTVICGRPKAAEfvkcSLKK-NIIKTVVICGF 112
+                             5689**********3...33444443...445556666789999955699**************99833334555.6779******* PP
+
+          NLR_alignement 457 tkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkrhlksnk 543
+                             + e+v e++ek+f ++++ +++v e+ik  +nl  ++ +Pv   +iC ++ + l ++     L t  te+y+    +fl++h   n+
+  TCONS_00045336-protein 113 NPENVAEYIEKFFGENNEKAERVKEEIKNSHNLKVMSSVPVFLWIICHIFSEELITK----PL-TSNTELYFYSCLVFLRNHSRINN 194
+                             **************************************************8877766....37.999***************99999 PP
+
+          NLR_alignement 544 ekdsadeiaassedlpdeventlkklkelaangLvedrliFdseevenlrasgller...spekrvsaletekkfCFiHltlQEylA 627
+                             ++    +   +s    + + + l  l el  +  +e++++F  +e++ +     ++    + + +   +  e +f F Hl lQEyl 
+  TCONS_00045336-protein 195 SQL---KLDLNSIVNDETILKSLYSLMELSTKTYMENKMVFTENEIKSMPFGLQYQDtgfITKYSGIGVSSEVRFQFSHLVLQEYLC 278
+                             988...2222222334568899999********************9988654333334544455666678899*************9 PP
+
+          NLR_alignement 628 Arwlak 633
+                              + +++
+  TCONS_00045336-protein 279 SLYISI 284
+                             999887 PP
+
+>> TCONS_00050300-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.3  10.4   5.6e-14   2.5e-11     773     977 ..     224     426 ..      82     436 .. 0.82
+   2 !   51.1  13.9   1.2e-16   5.3e-14     775     993 ..     434     654 ..     423     779 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 42.3 bits;  conditional E-value: 5.6e-14
+          NLR_alignement 773 nctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksk.lteLglsgneeitddgvvslcealk 858
+                             n    +L ++++++++e ad + kv +k +  +++  + + ++  e +  l++a+ +++ k l+++ ls n+ i ++gv   + a  
+  TCONS_00050300-protein 224 NAWFEKLIVKNTKLTNELADTIIKV-VKRTSSIEEVIIVNCHLNKEHAHRLSQAITTNPNKvLKRIDLSRNN-IEEKGVSGFAGAFS 308
+                             4555689999***************.88879************************99876626789******.************** PP
+
+          NLR_alignement 859 .ascklteLyLkrneItdaGvvsLceaLkvsk...ckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaea 941
+                               s    e++ +   It +G++ L ++Lk+ k    +ltkL+Ls+n++  + ++ l++ l +   l tL+Ls +e      e ++ a
+  TCONS_00050300-protein 309 lLSYGFEEINFSHSGITPKGASLLINSLKNNKnmsSTLTKLSLSGNQLKADAAQPLCDFLAQPNALETLELSNSEC---ALELMFGA 392
+                             99**************************875422249**********************************99765...68999*** PP
+
+          NLR_alignement 942 Lkea..kkltaLdLssneisnegvaslaealkvncklt 977
+                             L     ++l+ LdLs n+ s +++++     +++++++
+  TCONS_00050300-protein 393 LMRGcqQNLKVLDLSGNPFSYKKSKET----QSLPTVQ 426
+                             99876689**********997666554....5555555 PP
+
+  == domain 2  score: 51.1 bits;  conditional E-value: 1.2e-16
+          NLR_alignement 775 tlteLdlstnqiddegadslakvLiksnknLn..kLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealka 859
+                              l  L ls++++  e+++ +   L+ sn+ L+  +LdL+ ne+  + ++ ++ ++ + +  l++L+ls+n    d+ +v +cea+++
+  TCONS_00050300-protein 434 SLNTLSLSNTKLPSESVKAMMVGLM-SNPLLTdfELDLSHNELKSVTAQEVASVIGQIR-CLRKLNLSNNA--LDNDLVTICEAVEK 516
+                             5667888888888888887766644.557666335788888888888888888888888.68888888666..48888888888888 PP
+
+          NLR_alignement 860 scklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDv....gvaslaevlkensqlttLyLsyneitdaGveslaeaL 942
+                             s  + eL  +    + + +  ++e+L +       L L++  i D+    g+ +l + l  n+ + t+++s n i d G+  la+aL
+  TCONS_00050300-protein 517 STSIKELDFSSTITKSKHINAISESLADMA-MTDTLPLEKLFIADNklklGASALFDCLGTNESIRTIDISGNGIGDIGARLLAKAL 602
+                             888888888877777777888888887776.33357777777777633335667777778888888888888888888888888888 PP
+
+          NLR_alignement 943 keakkltaLdLssneisnegvaslaealkvnckltkLy.lwdalteapdttl 993
+                             + + +l++  L  n+is +g++ ++ a++ n +l+ L  + +  ++a + ++
+  TCONS_00050300-protein 603 QINTNLREVLLDRNNISYKGLQDISYAMHRNFTLQSLPlPINDFSQALKHNA 654
+                             8888888888888888888888888888888888887644444444444433 PP
+
+>> TCONS_00057966-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.0   4.4   1.8e-27   7.8e-25     272     538 ..     101     343 ..      17     345 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 87.0 bits;  conditional E-value: 1.8e-27
+          NLR_alignement 272 pikslqelFisredseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssv 358
+                                 +++l  s+ +        +li G  g+gK+++++  +  Waegk       +ikfvfll+fr+l++ t+  +s++++l++   
+  TCONS_00057966-protein 101 T---IDQLLDSNREN-----NMVLIQGAGGVGKSFMLETAALHWAEGKIWP----DIKFVFLLTFRELNLYTN--TSFKEVLSKK-- 171
+                             2...34455555544.....89**************************998....7**************999..889*****65.. PP
+
+          NLR_alignement 359 lddask.vddqllkelldhpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLlkGkilrgsvvlitsrpgevdslke 444
+                                ++       +++l +  ++++il+dg dE+ + ++ l++++     + +  ++  +++L+k + l+g   +it r    d+l++
+  TCONS_00057966-protein 172 ---FKMiFRGLEISDLDSIGDQTVILMDGVDEFAKLNETLSHEH----QSGDNSVASGFYELIKSNFLPGRNLIITGRTSSCDQLRS 251
+                             ...3330334456888888999******************9997....5556679999****************************9 PP
+
+          NLR_alignement 445 iafd....rrveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiy 527
+                              +f     + ++ +gf+++++ +++++yf+ ++  +++++  i++ +nl  +a+ P     +C l ++    + e   +  ++t ++
+  TCONS_00057966-protein 252 -KFKelsiKSLNGLGFNTSQMNQYIKNYFNLNESKAENLIVAIQKHENLKLMAKTPAFLWSLCELHQNTDGFE-E---I-ETVTPLF 332
+                             .6643333667789******************************************99999999887764433.2...2.4567788 PP
+
+          NLR_alignement 528 levvrlflkrh 538
+                                + lf+++h
+  TCONS_00057966-protein 333 ILQLSLFIQEH 343
+                             88888888877 PP
+
+>> TCONS_00026393-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.8   3.9   5.4e-25   2.4e-22      75     483 ..      91     568 ..      58     574 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 78.8 bits;  conditional E-value: 5.4e-25
+          NLR_alignement  75 ssrkfditllavvlrvlavlyPktsgf.dtlipaadttleadiarikcyrntlyGkasea.svddatkkkvwkdiq.ivgngvdalv 158
+                              s  fd+tll ++ r+ + +  ++ g+ d  +pa d ++ a + r   +rn    +++++ ++ +a +++ w + + i++ +    +
+  TCONS_00026393-protein  91 DSSTFDVTLLCILIRNFTTIPAPMNGWsDKNPPAHDLSIAAFVIRAREWRNF--VHHTDPdNITQAIFNQKWLEGEqIIN-N--FGY 172
+                             4678*************8887778899456789******************4..45666626899999999987650333.2..234 PP
+
+          NLR_alignement 159 vLggiilllaiqdlkkecmDsdfeeky.vfkqhrpv................................................... 193
+                              ++ ++l+        + +D+  ++ +  ++q +                                                     
+  TCONS_00026393-protein 173 TFPTAQLQ-------TQSLDPSQDAVLkSLQQYINEikklksqiktiqkkpagstcvkealdhitktitknesrellknlgidddgd 252
+                             45554333.......3334443333332111111113334444455588888*********************************** PP
+
+          NLR_alignement 194 .....................................vslaeylkelkklvksqtekeelfqaseeak..t...vekriklddvfts 238
+                                                                      +++ + +kl++ + e +el+ +  e    +   +++ +  +dvf +
+  TCONS_00026393-protein 253 plkdlvtkledekwldikrelevigrcdvvkhikgktLITKALRSASQKLEE-HYE-DELIRCLIEKPlsEtdgETNYVMREDVFID 337
+                             ******************9999999999999887764333333333333333.333.456666544333314558888888999999 PP
+
+          NLR_alignement 239 lvlqtg.rakkeftglrrrdqlsylkstsrvsskpi.kslqelFisredseetnpkrilitGkagigKtlfcqklirdWaegklfll 323
+                             lv+ +    +k+ ++  r    ++++++ + s+  i ks++++ +++++        + i G  gigKt ++  l  +Wa+g+ + l
+  TCONS_00026393-protein 338 LVVLPStVVDKDWSNSDR---AALMEQE-NLSKTTIhKSIDQVLLPNDEL-------VFIRGIGGIGKTSLLDMLTFKWAKGEIPDL 413
+                             986654145777777755...3456666.444444425667888888888.......*****************************7 PP
+
+          NLR_alignement 324 rclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddql.lkelldhpeevLilldgfdEysaadsilkdldypnnakek 409
+                                 ikf+f ++ r l+       +L++l++       +++v +++ l +l++  ++vL+++dg dE   +d i  +++    a+  
+  TCONS_00026393-protein 414 --SAIKFLFKFTCRDLNDTSGKFSNLQELFE-----LKFPEVFESIdLDDLMEISDRVLVIVDGIDE--LKD-IYIESK--AGASSA 488
+                             ..99**************9999999******.....44555555554899999**************..333.444443..478999 PP
+
+          NLR_alignement 410 mplsALytkLl..kGkilrgsvvlitsrpgevdslke.iafd...rrveItgftkeevkefvekyfkddadtknavlehi 483
+                               l+ L+ kLl  kG  l++ +vl   rp++++++k+ ++ +   +++e+ gf + ++ +++ ++f ++ + ++ v + i
+  TCONS_00026393-protein 489 YSLAQLVFKLLdpKGDWLHNHKVLACGRPKAIEHVKSkLPTNskrKTIEVCGFDDANIVKYIDNFFGENMEKATTVKDSI 568
+                             99********966699********************97544333389**********************99999998877 PP
+
+>> TCONS_00006089-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.1   2.3    0.0024       1.1     792     873 ..      73     150 ..      25     157 .. 0.81
+   2 !   81.8  20.3   6.6e-26   2.9e-23     718    1000 ..      86     357 ..      82     373 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 7.1 bits;  conditional E-value: 0.0024
+          NLR_alignement 792 dslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneI 873
+                             d+++  L+ s    +kL++++ +++ +  + +  +lk     l  ++ls ++    +++ sl+  l+ s ++ +L L++ +I
+  TCONS_00006089-protein  73 DEISRFLKFS--PQEKLEISNKRLTQKQWVLIFTVLKEAD-FLVDINLSYCN-LKLNALISLSVLLQDSVNIKKLDLSGIDI 150
+                             4788888888..7789999999999999999999999999.89999999999.78899999999999999999999988777 PP
+
+  == domain 2  score: 81.8 bits;  conditional E-value: 6.6e-26
+          NLR_alignement  718 sldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksn 802 
+                              +l++s++ l++     +  +lk    l  ++ls  y  n++ + l s+  +l++   ++ +Ldls  +i+  +a+ +  +  +  
+  TCONS_00006089-protein   86 KLEISNKRLTQKQWVLIFTVLKEADFLVDINLS--Y-CNLKLNALISLSVLLQD-SVNIKKLDLSGIDINLVSAKIFNRL-EDT- 164 
+                              678888999999999999999999999999999..8.59999999999888766.567889*************999999.777. PP
+
+          NLR_alignement  803 knLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealk.ascklteLyLkrneItdaGvvsLceaLk 886 
+                                L +  L + ++ d++v sl    k++   l++L ls+n  i  +g +++   l   +  l +L L+ n+I+  G +sL   L 
+  TCONS_00006089-protein  165 -YLVSVCLANCRLDDKDVNSLLTFTKDNA-ILKNLDLSSNM-I--EGKQRILRDLLfENTILETLDLSWNHIRKIGCSSLVLGLI 244 
+                              .9*********************999999.9**********.8..9999998888889*************************** PP
+
+          NLR_alignement  887 vskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealk 971 
+                              + + +l  L+Ls n isD+g++++   l++n++l +L+L  n it++G+e l   L ++++l++Ld+s n i++ g++ +   + 
+  TCONS_00006089-protein  245 KNN-SLLTLNLSFNGISDDGIKEITRMLEVNQTLESLNLRDNRITNQGAERLGYGLSVNNTLRKLDISGNMITAVGMQYILVGVI 328 
+                              999.999************************************************************************988887 PP
+
+          NLR_alignement  972 vnckltkLylwdalteapdttlvedikrv 1000
+                                  l++L++ +  ++++  ++++ +++v
+  TCONS_00006089-protein  329 KSGNLQELHMKQISPDTVCMRAINHLQKV 357 
+                              77888888888777777777777777766 PP
+
+>> TCONS_00022888-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.5   4.8   8.2e-26   3.6e-23     376     628 ..       9     265 ..       2     269 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 81.5 bits;  conditional E-value: 8.2e-26
+          NLR_alignement 376 hpeevLilldgfdEysaadsilkdldypnnakekmplsALytkLl..kGkilrgsvvlitsrpgevdslkeiafd...........r 449
+                               ++vL+++dg+dE ++  ++ +++  pnn     p+  +  +L+  +G+il+g + +   rp++ d lk+  +d           +
+  TCONS_00022888-protein   9 VADKVLLVVDGLDELQDVYECSEKK--PNNNGSLTPFQIV-FDLIntQGHILKGHKSIACGRPKACDFLKKKILDlkasnrkvikiK 92 
+                             5689*****************9999..7888888888755.5665347*********************995555445555555557 PP
+
+          NLR_alignement 450 rveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsllekilkesmeddaLPtklteiylevvrlflk 536
+                             +ve+ gf++e+v ++++k+f+++++   +v e i++ +nl  ++ +Pv + +iC ++ + l ++     L  + te+y+ +  +fl+
+  TCONS_00022888-protein  93 TVEVCGFKEEDVEKYIHKFFNGNIEKISRVQEIIRSSHNLKVMSTVPVFAWVICNVYSEDLITK----PL-NTCTELYMYACLVFLR 174
+                             9*****************************************************9987655544....25.689************* PP
+
+          NLR_alignement 537 rhlksnkekdsadeiaassedlp.deventlkklkelaangLvedrliFdseevenlrasgller..spekrvsaletekkfCFiHl 620
+                             +hl+   ek+  d+ ++    l  ++v + +  l  l  +  ++++++F+ +ev +l+  + le+  +  k       e  + + Hl
+  TCONS_00022888-protein 175 KHLQGVCEKG-CDNLLE---MLNdENVIECIYSLMTLSVKTYMQNQVLFSEDEVRQLKCPVHLEQtgLIVKYNRGEMREPIYQYKHL 257
+                             *******999.777777...4441579999999*******************************96533344444445677899*** PP
+
+          NLR_alignement 621 tlQEylAA 628
+                              lQE+l  
+  TCONS_00022888-protein 258 VLQEFLTG 265
+                             *****975 PP
+
+>> TCONS_00049915-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.0  10.2   1.2e-25   5.3e-23     314     640 ..       5     315 ..       2     330 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 81.0 bits;  conditional E-value: 1.2e-25
+          NLR_alignement 314 dWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysaadsilkdl 400
+                             +Wa+++l+ +   +++f+f ++ r+l++  s   +L++l++    ++      d  + +l++  ++vL+++dg dE       lkd 
+  TCONS_00049915-protein   5 KWAKEELKTD--IKVDFLFKFTCRELNNLSSKFSNLEELFKLN--VKYKDIFRDITFDDLMEISDRVLVVIDGVDE-------LKDI 80 
+                             7********8..88999999999*****************955..466777888899*******************.......6666 PP
+
+          NLR_alignement 401 d.ypnnakekmplsALytkLlkGki..lrgsvvlitsrpgevdslke..iafdrrveItgftkeevkefvekyfkdda.dtknavle 481
+                               ++n ++ k     L ++L++ k+  l++ + ++  rp++ + +k+    + +++e+ gf++e+v ++++k+f +   + + av +
+  TCONS_00049915-protein  81 YlMGN-PSCK---NQLILDLIDPKAiwLPNHKSIVCGRPKACELVKRqfKCYHKTIEVCGFSEENVNNYIKKFFGEHYeQKGVAVQK 163
+                             53333.2222...35889***9986448******************96444579********************8887256678889 PP
+
+          NLR_alignement 482 hiktNknllslayiPvnclliCsllekilkesmeddaLPt.klteiylevvrlflkrhlksnkekdsadeiaassedlpdeventlk 567
+                              i++  nl sl+++Pv   +iC ++++  k      + P  + te+ +    ++lk+h+++++++   ++ +     l +++ + l+
+  TCONS_00049915-protein 164 LIESSYNLRSLSRVPVFLWVICNIYKED-K-----ITAPInTYTELCFYSCLILLKKHFGEKSKNF--TKLMD--VVLDQDIMQVLH 240
+                             9**********************99863.2.....2335415699*9999**********999888..44444..899********* PP
+
+          NLR_alignement 568 klkelaangLvedrliFdseevenlrasgller..spekrvsaletekkfCFiHltlQEylAArwlakkvenpdl 640
+                              +  l  +  ++++++F  + ++ l+ s  le+     k   + + e ++ F Hl lQE+l  + + +++ ++++
+  TCONS_00049915-protein 241 SIVVLSVKTYMDNKVVFTEDDIKSLNYSYHLEEtgFITKYEGTNDIEPNYQFRHLVLQEFLCSLYICITKGISSY 315
+                             *******************************98665677778888999****************99998877764 PP
+
+>> TCONS_00071054-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.7  12.7   5.7e-25   2.5e-22     791    1102 ..      55     377 ..      23     420 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 78.7 bits;  conditional E-value: 5.7e-25
+          NLR_alignement  791 adslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneIt. 874 
+                               ++l+k      + +++ ++    +s+e  k + +a  f+k +l+ L l gn+   + g+  + + lk    +teL+L+ n  + 
+  TCONS_00071054-protein   55 SNVLSKC-FATDNYIEQYHFTDCLLSEESCKIILNAFTFNK-TLKILDLKGNN-LRASGAELVGKLLK-RTSITELFLEWNSLGm 135 
+                              5566666.3444677888999999*****************.***********.89********9999.999*********9765 PP
+
+          NLR_alignement  875 .daGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssnei 958 
+                               d G++ ++e L   + +l+ LdLs+n+is +g +++a++lk n ql  L+L  n+i  aG  ++ +a+ ++k + +L+L  n+i
+  TCONS_00071054-protein  136 wDTGLTAIAEGLALNT-TLRVLDLSNNQISHHGGEEIANALKRNKQLRVLDLRWNNIGMAGGRAFLNAMTHNKYVVSLELAGNNI 219 
+                              59**************.******************************************************************** PP
+
+          NLR_alignement  959 snegvaslaealkvnckltkLylwdalteapdttlvedikrvkcyr.ntvyghan..ryyqdiqgpfvrrGgggyqaaiddlktk 1040
+                                  ++++a ++k n     +y  +  + ++ ++ +++++  k ++ +t+  +    +  q+  +++ r    ++ aai+dlk++
+  TCONS_00071054-protein  220 PSDTMKAIATSVKRNVDYHSIYEEHHAKTQSMRQEIDQLQLEKSMQvSTLIDQLEreKELQENVSQSARDRMEHMRAAIEDLKSE 304 
+                              **********************666666666666666666544444133333333445578888888888899*********975 PP
+
+          NLR_alignement 1041 ......Cmvsdfeerykell.rsvvldevsie........eleddiflslliqkGresvedldmkrrerlrriGrvs 1102
+                                    C +s+ +    el   ++v++e s +        +l+++  +s  +    e  ++    + e lrr+  ++
+  TCONS_00071054-protein  305 nrklkeCFDSQSD----ELKaSESVMKELSNKlentrkegKLREETMVSERLAVAEENTREKAQYQAELLRRVEDIQ 377 
+                              2222224444443....332034555555543333334444556666664444444444444455555555554444 PP
+
+>> TCONS_00027864-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.1   7.2e-05     0.031     771     827 ..       4      61 ..       1      71 [. 0.88
+   2 !   60.2   0.8   2.2e-19   9.7e-17     812     980 ..      84     248 ..      73     268 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 7.2e-05
+          NLR_alignement 771 kenctlteLdlstnqiddegadslakvL.iksnknLnkLdLlsneisdegvkslieal 827
+                              +  +lt Ldls n +  +g+d + k+L ++s+  L+ L+L +n+++  g k l+ea 
+  TCONS_00027864-protein   4 TAGAKLTVLDLSDNAFGPDGVDGIKKLLrSESSYLLHTLKLNNNGLGIGGGKILSEAF 61 
+                             56789**********************966788999***********99999999986 PP
+
+  == domain 2  score: 60.2 bits;  conditional E-value: 2.2e-19
+          NLR_alignement 812 sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLs 898
+                              n++ +eg+k+l++a k    +l e+ + +n  i ++gvv l++a k++++l  ++++ n  t+ G++ L++ +++ + +l  L++ 
+  TCONS_00027864-protein  84 RNRLENEGAKALSKAFKLLG-SLEEITMPQNG-IRPEGVVLLADAFKKNSHLKCININDNTCTETGAKALADCIHHLE-NLETLNIG 167
+                             699****************9.***********.*********************************************.******** PP
+
+          NLR_alignement 899 eneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLy 980
+                             +  + D g++ la  l ++  l t  Ls nei   G+ ++++ +k++  l+ L+L  n++  e ++++ ++++    +  L 
+  TCONS_00027864-protein 168 DCLVRDRGAEILAPSLAATKSLKTVILSFNEIRRDGAMAVVNGMKNKTSLELLNLDGNQLG-ECIEEIQDRMSEFNMINSLG 248
+                             ************************************************************9.99999998886655555555 PP
+
+>> TCONS_00072666-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.1   5.8   1.8e-21   7.9e-19     423     640 ..      33     247 ..       8     291 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 67.1 bits;  conditional E-value: 1.8e-21
+          NLR_alignement 423 kilrgsvvlitsrpgevdslke.iafd...rrveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvnclliCsl 505
+                               l++ +v+   rp++v+ lk+ i+++   + +e+ gf +e++ ++++++f + +d +  v + i+   nl  +a++Pv   +iC++
+  TCONS_00072666-protein  33 DCLPNHKVIACGRPKAVEFLKKeIPINsnrKNIEVCGFDDENILKYIQNFFGERKDKAFSVHQLIERSYNLRIMARVPVFLSVICTV 119
+                             56999***************999887544478******************************************************* PP
+
+          NLR_alignement 506 lek.ilkesmeddaLPtklteiylevvrlflkrhlksnkekd.sadeiaassedlpdeventlkklkelaangLvedrliFdseeve 590
+                             +e+ ++k  +       + te+y+    +f+++hlk+++++     +ia+      + v + l  l +l  +  ++++++F+ +e+ 
+  TCONS_00072666-protein 120 FEEdLIKNPI------NTQTELYFFTTLIFIRNHLKRQSQSYtNLMDIAK-----DKTVAEILLCLMKLSVTTYMQNKVVFNEAEIA 195
+                             *862666665......578*****************99999833333333.....567999************************** PP
+
+          NLR_alignement 591 nlrasgller...spekrvsaletekkfCFiHltlQEylAArwlakkvenpdl 640
+                              lr    le+   +  k+     te  f F Hl+l Eyl  + +++++++  +
+  TCONS_00072666-protein 196 SLRCPIPLEEtgfI-TKHQRSNSTEVTFQFRHLILHEYLTGLYISITKDITPF 247
+                             ***99999997744.444444556778*****************999885443 PP
+
+>> TCONS_00062222-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.3   6.4   6.6e-21   2.9e-18     200     498 ..     208     497 ..     129     500 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 65.3 bits;  conditional E-value: 6.6e-21
+          NLR_alignement 200 lkelkklvksqte..keelfqaseeak..t...vekriklddvftslvlqt.grakkeftglrrrdqlsylkstsrvsskpikslqe 278
+                             +k l++ + + +e   +el+ + +e    +    +  +  +dv+ +lv+ +    +ke ++  r d  ++++++  v+s   k ++ 
+  TCONS_00062222-protein 208 TKDLQRAASHLKEhyLNELIRCLVEQPlsQtdsDIDYVMREDVYIDLVVLPsSTVDKEWSNSDR-D--ALVEQQKLVKSTVEKDIKT 291
+                             5555555555555555556655544433312334555556677777765541456777777755.4..3566666666666667788 PP
+
+          NLR_alignement 279 lFisredseetnpkrilitGkagigKtlfcqklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskv 365
+                             + ++ +++       + i G agigK++++  +  +Wa+++  +    +i+fvf ++ r+l++   +  +L++l++    l+ +  +
+  TCONS_00062222-protein 292 ILLPSDEV-------VFIRGVAGIGKSTLLDMFTLKWAKNEISN----GIDFVFKFTCRELNNVSTNFNNLEQLFK----LKFPDVM 363
+                             88888888.......99**********************99888....9*************99999999******....4444444 PP
+
+          NLR_alignement 366 ddqllkelldhpeevLilldgfdEysaadsilkdld.ypnnakekmplsALytkLl...kGkilrgsvvlitsrpgevdslke.i.. 445
+                             +   +k+l++  e+vLi++dg dE ++  ++ +d+   +n+ ++k+       +Ll    G +l+  + ++  rp +++ +k+ +  
+  TCONS_00062222-protein 364 QVITFKNLMEISERVLIVVDGIDELRDLYEVRNDTVsNGNRISNKV------FELLnpkTGWLLH-HKSIVCGRPRATEFIKKqLpp 443
+                             555699******************9999999999976677766664......4555111577777.7888899********995311 PP
+
+          NLR_alignement 446 .afdrrveItgftkeevkefvekyfkddadtknavlehiktNknllslayiPvn 498
+                                 ++ve+ gf ++++ ++++++f+d ++ +  v   i++   l  +a++Pv 
+  TCONS_00062222-protein 444 sSKRKTVEVCGFDDKNIEKYIQNFFRDKKEKAVSVQTIIESSYDLRIMARVPVF 497
+                             123689**********************************************96 PP
+
+>> TCONS_00017988-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.3   0.4   1.6e-18   7.2e-16     225     392 ..      74     226 ..      21     252 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 57.3 bits;  conditional E-value: 1.6e-18
+          NLR_alignement 225 tvekriklddvftslvlq.tgrakkeftglrrrdql..sylkstsrvsskpikslqelFisredseetnpkrilitGkagigKtlfc 308
+                             + ++++  +dvf +lv+  +   +ke+++  r   +  +y++++s     p  s++++F+ +++        + + G  gigKt+++
+  TCONS_00017988-protein  74 EDTNSVLREDVFIDLVVLpSSTVDKELSNSDRAALMeqQYIPKNS-----PKTSVNNIFSQKDEL-------VFVRGIGGIGKTTLL 148
+                             455566667788877765156679999999887765567777774.....555689999988888.......*************** PP
+
+          NLR_alignement 309 qklirdWaegklfllrclnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddqllkelldhpeevLilldgfdEysa 392
+                             + l ++Wa+g+l  +   ni+fvf ++ r+l+   s+ ++ ++l++    l+ ++ ++ + + +l++  e+vLi++dg+dE ++
+  TCONS_00017988-protein 149 EMLTYKWAKGELDAE--VNIDFVFKFTCRNLNTISSQFTNVQELFE----LKYPEVMKLTSFDDLMEISERVLIVIDGLDELKD 226
+                             ************997..9****************************....8889999999*********************554 PP
+
+>> TCONS_00009974-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.9   0.0     3e-10   1.3e-07     698     887 ..      13     196 ..       9     202 .. 0.91
+   2 !   24.9   0.1   9.8e-09   4.3e-06     804     875 ..     222     292 ..     217     326 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 29.9 bits;  conditional E-value: 3e-10
+          NLR_alignement 698 tEynekelaekli.....kkelflnsldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteL 779
+                             +Ey+ ++l++++       +++ +n l l+   + + +  ++  +l++  +l+++ +s+   ++ s++Gl +             +L
+  TCONS_00009974-protein  13 EEYQRTSLLQNAFplpyvMAHKEDNALYLNADRIRDNEWKSILTALRKDATLKYITISSAW-QKPSHGGLEKFSSQ-------KKKL 91 
+                             79*********99999999999************************************888.67777777665544.......5568 PP
+
+          NLR_alignement 780 dlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteL 866
+                              ++t  ++ +   +l +vLi +n+ L+ L L++  + +e++  l++al ++  +l+ L+ +++  + d+g  +l e +++ ++++++
+  TCONS_00009974-protein  92 PIRTRSLNSQLSRVLKDVLI-GNPCLECLVLQNILLREEDIYILSKALPKVT-TLKFLSFEQCP-VRDKGFNHLMEGIRKAKTISSI 175
+                             9*****************66.66****************************9.***********.9********************* PP
+
+          NLR_alignement 867 yLkrneItdaGvvsLceaLkv 887
+                             +  +   t + +  L+ ++k 
+  TCONS_00009974-protein 176 NFTKCALTWKSMEALASVIKY 196
+                             ********9999999999975 PP
+
+  == domain 2  score: 24.9 bits;  conditional E-value: 9.8e-09
+          NLR_alignement 804 nLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrne.Itd 875
+                              L++  L +n+++deg   l++alk++   l+ L l+++   +dd ++ l e lk +++l  L + rn  I  
+  TCONS_00009974-protein 222 GLRRVALCQNKLGDEGGRILADALKDDI-WLKALDLQQCG-LSDDSATILMETLKWNKNLVVLDIRRNSfISY 292
+                             4667777777777777777777777777.77777777777.67777777777777777777777777753344 PP
+
+>> TCONS_00047330-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.0   8.6   1.4e-13   6.3e-11     819     947 ..     185     314 ..     173     318 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 41.0 bits;  conditional E-value: 1.4e-13
+          NLR_alignement 819 gvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDv 905
+                             ++      lk+   +l eL+l++ +e+t+d ++ + e lk +  l +L+L   + +d+    L+eaLk  + +l  L+L++n +  +
+  TCONS_00047330-protein 185 DMEEALAKLKAGDETLEELNLNNHQEVTEDILMDIVEHLKNNTSLKKLHLANTQMKDHIGEELAEALKSNT-TLEILNLESNFLKAE 270
+                             555556668888889****************************************************9988.*************** PP
+
+          NLR_alignement 906 gvaslaevlkensqlttLyL..syneitdaGveslaeaLkeakk 947
+                              v +l +v+++n+ l +L+L   yn+i  +  +++a++L ++ +
+  TCONS_00047330-protein 271 SVMALLKVIEVNESLKELKLanQYNKIGHKAEQAMAKSLAKNTT 314
+                             *******************944599**99999999999999865 PP
+
+>> TCONS_00000507-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.1   0.0       5.8   2.5e+03     351     389 ..      67     105 ..      58     117 .. 0.76
+   2 !   40.5   0.6     2e-13   8.7e-11     833     998 ..     387     552 ..     352     574 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -4.1 bits;  conditional E-value: 5.8
+          NLR_alignement 351 dllnrssvlddaskvddqllkelldhpeevLilldgfdE 389
+                             ++++ ++   d++k  d+++++++ ++e + ++ldg+  
+  TCONS_00000507-protein  67 KIIEYCHNNGDVAKNVDTVVSHVAAKKELIQLFLDGQLK 105
+                             555555555788888999999999999999999999855 PP
+
+  == domain 2  score: 40.5 bits;  conditional E-value: 2e-13
+          NLR_alignement 833 klteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckltkLdLseneisDvgvasla.evlkens 918
+                             + +e++l g + i ++ +  +++al +   ++++ L    I  +G++   ++L + +  l+ Ld+  n+  D   +  + e + +++
+  TCONS_00000507-protein 387 TFKEINLRGYQMI-NQDIFAISHALSHYHFISTICLRNCGIDSKGLSIFLKSLTDYN-ALKCLDIGMNKHIDSNETGKCfEEFLKTC 471
+                             6789999999965.999999******9999************************999.9999***999877765443332555599* PP
+
+          NLR_alignement 919 qlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLylwd.alteapdttlvedik 998
+                             +l tL+L + +i  +    +  ++ke ++l+++dLs n + +   + ++e ++ n +l kL lw+  lte+p t+l  +++
+  TCONS_00000507-protein 472 KLETLKLMSCDIGSVTFSTFLPVIKEHETLEEIDLSFNDVDDSLCEPISEIISKNNRLAKLVLWHsCLTEEPATKLYGALE 552
+                             *****************************************999****999999********9962699999999987765 PP
+
+>> TCONS_00051434-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   6.2   1.8e-10     8e-08     793     966 ..      48     206 ..       7     218 .. 0.69
+   2 !    5.3   0.1    0.0082       3.6     803     858 ..     185     237 ..     182     244 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 1.8e-10
+          NLR_alignement 793 slakvLiksnknLnkLdLls.neisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGv 878
+                             sl k+L   ++ L+ L+L    ++sd gv  ++e l  sk  ++eL+l ++  ++d  + ++++    s   ++ +    ++tdaG+
+  TCONS_00051434-protein  48 SL-KAL-SQCRSLGVLNLADcVRVSDTGVRYIVEGLPGSK--IRELNLTNCIRVSDVSLLRISQRCF-SLMYAN-FSYCEHVTDAGI 128
+                             33.343.4458999999986259************99988..9******999888877777776554.222222.223567888887 PP
+
+          NLR_alignement 879 vsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLs.yneitdaGveslaeaLkeakkltaLdLssne.isnegv 963
+                               ++    v + +lt+Ld s+ +i+D gv +l     +ns++ +L Ls + ++td+G ++l+  +k    l++Ld+s  + +s++ +
+  TCONS_00051434-protein 129 ELIA----VLP-SLTSLDVSGCNITDTGVVALG----NNSKIRDLMLSeCCSVTDVGLQKLFPNIK---GLENLDISHLNqLSDQTL 203
+                             6554....455.778888888888888887665....47788888885577888888888887665...567777776444777777 PP
+
+          NLR_alignement 964 asl 966
+                             +sl
+  TCONS_00051434-protein 204 KSL 206
+                             666 PP
+
+  == domain 2  score: 5.3 bits;  conditional E-value: 0.0082
+          NLR_alignement 803 knLnkLdLls.neisdegvksliealkfsksklteLglsgneeitddgvvslcealk 858
+                             k L++Ld++  n++sd+ +ksl+        +++ L+  g+ + td+g++ l+ + +
+  TCONS_00051434-protein 185 KGLENLDISHlNQLSDQTLKSLAFCC----RRMRCLNVAGCPQLTDQGIQYLSGVCQ 237
+                             5689999964499*******997554....46889*******9********998876 PP
+
+>> TCONS_00063275-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   0.3   6.7e-11   2.9e-08     868    1012 ..     223     369 ..     190     418 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 32.1 bits;  conditional E-value: 6.7e-11
+          NLR_alignement  868 LkrneItdaGv..vsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGveslaeaLkeakklta 950 
+                                 n+It + +    + + Lk  k ++++L+L + +  D++   + e++ken ++ tL+L++ne t+  +e l+e L+    +++
+  TCONS_00063275-protein  223 VRINNITLEKAilLAIFDTLKTTK-TMRHLSLAGIHFKDEEGLLFNEAMKENTTIETLNLESNELTNICIEPLCEILETHPAIRE 306 
+                              556888866550055669******.*******************************************************99999 PP
+
+          NLR_alignement  951 LdLssne..isnegvaslaealkvnckltkLylwdalteapdttlvedikrvkcyrntvyghan 1012
+                                 s ++  +  +g +++a+al+ n +l k+    +++ a  +    +i++ +++r+ + +++ 
+  TCONS_00063275-protein  307 FKCSHQKhgLGSRGEEAMARALNKNERLLKISYPFKVPSARSVADRCQIRNGEILRQKR-TKGE 369 
+                              888765555999******************99888888887777777777777777666.4444 PP
+
+>> TCONS_00030411-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   2.0   1.4e-10   6.3e-08     492     640 ..       1     142 [.       1     181 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 1.4e-10
+          NLR_alignement 492 layiPvnclliCsllekilkesmeddaLPtklteiylevvrlflkrhlksnkekd.sadeiaassedlpdeventlkklkelaangL 577
+                             +a++Pv  ++iCs++++ l ++     +  + te+y+    +f+++h+ks+ ++     +i++       +v + l  + +l  +  
+  TCONS_00030411-protein   1 MARVPVFLFVICSVYKDDLLTNT----I-KTQTELYFYSSLMFIRNHFKSKPNQYpNLMSIIE-----DRKVIEMLYSIMQLSVTTY 77 
+                             589************98766663....3.789******************9998856677777.....5678899999999****** PP
+
+          NLR_alignement 578 vedrliFdseevenlrasgller..spekrvsaletekkfCFiHltlQEylAArwlakkvenpdl 640
+                             +e++++Fd   +  l     +e+     k   + e+++ + F Hl l E+  A++l  +++++ +
+  TCONS_00030411-protein  78 MENKVVFDESDIRSLGCRFPIEQtgFITKYRIRNEQKATYQFRHLVLHEFFTALHLCVTKDIEPF 142
+                             ***********9999888888885544555566788889****************9988886655 PP
+
+>> TCONS_00069574-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   6.3   4.6e-10     2e-07     728     971 ..      80     529 ..      64     560 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 4.6e-10
+          NLR_alignement 728 pvdctavaeflkvvkalnalels................................................................ 750
+                              v +  v+++l+  +++ +l++s                                                                
+  TCONS_00069574-protein  80 KVTAECVSKLLNRCQNIYNLDISncdqllepeffdclfiqnlkklkingcnrlngsmfekiisqcptlenlsldeccnlggfsstcl 166
+                             556677888888888888888887777777777777777777777777766766666666666666666666667766666666666 PP
+
+          NLR_alignement 751 .....gnysrnisdtGlrsitealekenctlteLdlstnqiddegad........................................ 792
+                                  g  +  is  G++s+ + + ++ c +t  +l+  +i   +ad                                        
+  TCONS_00069574-protein 167 rfqtfGSSLTSISMSGCKSVDNKFVRNLCSVTRSNLKWLDISYTSADclaliylagftlkmacqitnlkelggtilrdvelneelnd 253
+                             66666444467**************************************************************************** PP
+
+          NLR_alignement 793 ....................................................................................... 792
+                                                                                                                    
+  TCONS_00069574-protein 254 lfeydqnmkcaspeikckdclerqreatlledyykigniipcnsktnyedwdvislsqeenllsctckdlqqnkmttipidpglekg 340
+                             *************************************************************************************** PP
+
+          NLR_alignement 793 ........................slakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne...eitddgvvs 852
+                                                     +  ++ ++snk L++  ++ n++ +e +k +    +++ ++l+   l+++        dg  +
+  TCONS_00069574-protein 341 qlfepkliyldinnlefyynefgrKCLELFMDSNKCLEHFFISWNNLDNEMLKCI----SKNDINLKTFHLDNCSgliGLNWDGFGQ 423
+                             ************************99999******************99977765....556778889999999866634579**** PP
+
+          NLR_alignement 853 lcealkascklteLyLkrne.ItdaGvvsLceaLkvskckltkLdLseneisDvgvaslaevlkensqlttLyLsyneitdaGvesl 938
+                              c++l+      +L+L +    td+ +  L   +++ + +++kL Lse  isD++v+ + + l e+ +l +L   +++it+a   +l
+  TCONS_00069574-protein 424 YCHSLV------DLNLTGASfLTDRAIIQL---IQNNQ-NIRKLGLSEASISDEVVHFITDLLSEKLELIDLSW-CENITNAATINL 499
+                             *****9......999987663799987766...78888.9***********************98888888886.688***866555 PP
+
+          NLR_alignement 939 aeaLkeakkltaLdLssneisnegvaslaealk 971
+                                + +  kl + +L + ++s   v+++ + + 
+  TCONS_00069574-protein 500 ---ITKCTKLDCVNLRQGQVSSSTVEAIGKYQT 529
+                             ...677799************999999976663 PP
+
+>> TCONS_00009354-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.3   4.8e-09   2.1e-06     771     881 ..      60     247 ..      27     272 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 4.8e-09
+          NLR_alignement 771 kenctlteLdlstnqiddegad................................................................. 792
+                              e + lt   l+   i d+  +                                                                 
+  TCONS_00009354-protein  60 TEGKYLTRFILRGAPIVDDTTKnllitdinqtqndeekylvkihplikslrnhwyktakefyfwdldiprediselvtylshrsynv 146
+                             455555555555555555555555555555555555555566666555555555555555555555555555555555555555555 PP
+
+          NLR_alignement 793 ................slakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkasckl 863
+                                              +++    +n++L++  L + ++   g++ l++ l+  k ++t+L+l  ++  +++  + l + +  ++++
+  TCONS_00009354-protein 147 eyiefldckiewftlkAFSSC-FAVNETLTSVVLDYTNLKFDGLVGLCDGLQSTK-SVTKLSLCYCQ-LSPKCGAVLGDLVS-KSTI 229
+                             555555555555555567777.777777777777777777777777777777777.77777777777.66776666766555.7777 PP
+
+          NLR_alignement 864 teLyLkrneItdaGvvsL 881
+                             +eLy ++n+  + G+  +
+  TCONS_00009354-protein 230 SELYVDGNQLECVGLIDI 247
+                             777777777777777655 PP
+
+>> TCONS_00022889-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.0   2.3e-08   9.9e-06      57     147 ..      71     162 ..      49     181 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 23.7 bits;  conditional E-value: 2.3e-08
+          NLR_alignement  57 kkvlnPs..gklyvaiksslssrkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntlyGkaseasvddatkk 141
+                             k vl+      l +    +  s+ fditl++v+  + + l P+  g++ +i a d++  a +     +rn+l+ +a   s+d   ++
+  TCONS_00022889-protein  71 KGVLKKDqvDTLLPPNSNQTDSQTFDITLIIVLIINFTTLPPPKNGWNKKIAAGDSSHSAYVILARDWRNRLL-HADAKSIDLNEFN 156
+                             4455444456788888889999***************************************************.999999**99999 PP
+
+          NLR_alignement 142 kvwkdi 147
+                               w++ 
+  TCONS_00022889-protein 157 LRWNEG 162
+                             999864 PP
+
+>> TCONS_00061473-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   4.4   1.9e-08   8.5e-06     791     991 ..       4     216 ..       2     223 .. 0.84
+   2 ?    3.9   3.3     0.021       9.4     800     962 ..     253     360 ..     218     370 .. 0.46
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 1.9e-08
+          NLR_alignement 791 adslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaG 877
+                              d++ +v +   ++L++L+L +  is  ++  +   ++ +  ++t +  s+   i d     l++al    +lt+ + +   It + 
+  TCONS_00061473-protein   4 LDEITEVFSLE-EELRSLSLNNMYISTSDIETVFPCISCNV-HITAIDVSNSY-IGDHNFSILADALCCLPNLTKVNFSSTGITSRS 87 
+                             57899997766.99************************998.********666.**************99***************** PP
+
+          NLR_alignement 878 vvsLceaL............kvskc.kltkLdLseneisDvgv..aslaevlkensqlttLyLsyneitdaGveslaeaLkeakklt 949
+                             ++  ++++            k+ ++ kl+ +++s+n   D++v   sl ++l++ ++l +L++s  + t +  + l  +   + +++
+  TCONS_00061473-protein  88 LKRFSQVVcsqpkdeyklvmKDPPLnKLQYINFSHNTFIDEEVvsDSLLNILQACQTLDDLRMSHCSLTFKSFQRLLVTNTLKSDIH 174
+                             ***99987222221111111333323788899*********994457***************************99988777899** PP
+
+          NLR_alignement 950 aLdLssne.is.negvaslaealkvnckltkLylwdalteapdt 991
+                              LdLs n+ i+ n++v+ +  ++ + + l+ L l++ l+ +p++
+  TCONS_00061473-protein 175 TLDLSYNNfITwNNAVKVV--SIFASPALRFLDLSSVLSRQPQN 216
+                             *********8835555555..77888999999999999999985 PP
+
+  == domain 2  score: 3.9 bits;  conditional E-value: 0.021
+          NLR_alignement 800 ksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLk 886
+                             k  +nL++++++  + s  g+ +  + l +++ +                                                     
+  TCONS_00061473-protein 253 KTLCNLRRISMKRQNGSPLGLNQFLKQLLTVE-T----------------------------------------------------- 285
+                             33344444444444444444444444444444.4..................................................... PP
+
+          NLR_alignement 887 vskckltkLdLseneisDvgv.aslaevlk.ensqlttLyLsyneitdaGveslaeaLkea..kkltaLdLssneisneg 962
+                                  l ++d s++   D+ v + + + l  +n  + +L++   +i+     +++++L +   +kl+ Ld s nei+ ++
+  TCONS_00061473-protein 286 -----LVSIDCSCSSSIDENVfKDFMKYLSlKNHIVEDLRFFGCNISSTLPSEIFDSLSHWkdCKLKLLDVSCNEITSND 360
+                             .....444444444433333324455555555555555555555555555555555555433455555555555544333 PP
+
+>> TCONS_00041392-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.9   0.4   1.6e-07   7.2e-05     730     816 ..      45     163 ..      30     176 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 20.9 bits;  conditional E-value: 1.6e-07
+          NLR_alignement 730 dctavaeflkvvkalnalelsgnys................................rnisdtGlrsitealekenctlteLdlstn 784
+                             d   +a ++k+ ++++ l+l+gn +                                 +i  + l  + e ++ +  +lt Ldls n
+  TCONS_00041392-protein  45 DGEEIANAIKNCRDMETLKLQGNTLgvgaskvisealkqqsafkkalwsdmytgrlrSEIP-KSLELLSEGIITAGAKLTVLDLSDN 130
+                             3344555555555555555554444444444444444444443333333333444433344.4578888888888999999999999 PP
+
+          NLR_alignement 785 qiddegadslakvL.iksnknLnkLdLlsneis 816
+                              +  +g+d + k+L ++s+  L+ L+L +n+++
+  TCONS_00041392-protein 131 AFGPDGVDGIKKLLrSESSYLLHTLKLNNNGLG 163
+                             999999999999985567788888999999765 PP
+
+>> TCONS_00066942-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   3.1     0.016         7     834     938 ..     102     199 ..      88     207 .. 0.86
+   2 !   20.1   4.7   2.9e-07   0.00013     786     997 ..     217     413 ..     205     432 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.016
+          NLR_alignement 834 lteLglsgneeitddgvvslcealkascklteLyL.krneItdaGvvsLceaLkvskckltkLdL.seneisDvgvaslaevlkens 918
+                             l+ L+l g++ i dd++   ++  k   ++ eL L + n+It++    L++    ++ kl  Ld+ s+ ++ D g+a++ +     s
+  TCONS_00066942-protein 102 LKTLNLKGCQGIEDDALRTFAQNCK---NIEELVLcDCNKITNKTCIYLSN---FAN-KLVVLDFeSCTQVDDLGLAKIGSGC---S 178
+                             789*****************99888...8999999678*******999996...688.9999**9557999*******99988...8 PP
+
+          NLR_alignement 919 qlttLyLs.yneitdaGvesl 938
+                             +l  L++  + +++ aG  ++
+  TCONS_00066942-protein 179 RLEHLNIAwCRKVSSAGLIAI 199
+                             899999865888888887666 PP
+
+  == domain 2  score: 20.1 bits;  conditional E-value: 2.9e-07
+          NLR_alignement 786 iddegadslakvLiksnknLnkLdLl.sneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkr. 870
+                             i+deg  +la      +  L+k+ L+   +i+d+g+k l +  +     l  ++ s++e  td+ +  +++  +   +l +L   r 
+  TCONS_00066942-protein 217 IRDEGLRVLAVH----CGGLKKIVLQgCTNITDNGIKPLGDNCN----ALEFINISECEALTDQTLKYIADGCH---ELKTLEAARc 292
+                             677777777655....66899999973689******99955433....34466799999767777776666665...4444443331 PP
+
+          NLR_alignement 871 neItdaGvvsLceaLkvskckltkLdLs.eneisDvgvaslaevlkensqlttLyLs.yneitdaGveslaeaLkeakkltaLdLss 955
+                              + td G + L+   +    +++ LdL+ +  i+D+ ++ l+      s++ +L +s ++ itd G+ +la      +kl+ ++L +
+  TCONS_00066942-protein 293 SQFTDTGFSTLARGCH----SMQRLDLEeCTLITDHTLHCLSYNC---SEIVNLTFShCELITDEGIRHLAGGTCAIEKLEIIELDN 372
+                             5667777766665543....3446666524556776666666544...666666665456667777777776666666666666666 PP
+
+          NLR_alignement 956 ne.isnegvaslaealkvnckltkLylwdalteapdttlvedi 997
+                              + i++++++ l++  +++ +l +Ly  +++t  + ++l   +
+  TCONS_00066942-protein 373 CPlITDQALEYLMN-CRSLNRL-ELYDCHNITRGGIRRLKSRL 413
+                             66677666666622.2222222.34444555555555554444 PP
+
+>> TCONS_00062316-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.9   1.7   0.00067       0.3     825     876 ..      96     144 ..      77     160 .. 0.79
+   2 !   13.0   6.7   3.8e-05     0.017     756     886 ..     202     383 ..     146     403 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 8.9 bits;  conditional E-value: 0.00067
+          NLR_alignement 825 ealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItda 876
+                             + ++ + s+l++L+l+++ +itd g+  l+ a +   ++ +L+     +t++
+  TCONS_00062316-protein  96 RGVSINGSRLQNLNLENCFKITDRGIITLARACQNLRTVNTLN---TLVTEH 144
+                             5556666789********99**********9999888888876...334555 PP
+
+  == domain 2  score: 13.0 bits;  conditional E-value: 3.8e-05
+          NLR_alignement 756 n.............................................................isdtGlrsitealekenctlteLdl 781
+                             +                                                             +sd+G+  +++       +l  Ldl
+  TCONS_00062316-protein 202 QnklvsltnqmiellasnclklqvlilrypitsiddhalwrigsqckriecveigqkthtapLSDNGVIALCTR----STNLLRLDL 284
+                             24444444445555555555555555555555555555666666666666666666666666999999999888....778889*** PP
+
+          NLR_alignement 782 stnqiddegadslakvLiksnknLnkLdLlsn.eisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLy 867
+                             +++ i+d   +++a+     ++ L++L++ +   +sd gv s+++  +   s   + g  +    td  + s++++     +l +L 
+  TCONS_00062316-protein 285 KETFITDFTLQVIAEC----CQSLEHLEFGNTaTVSDLGVMSIMNHCHNLDSFSLRAGVHS-R-LTDLSIFSIAQSPC-ARNLIKLS 364
+                             ****************....666******985279********998877664434444442.3.79********9977.8899**** PP
+
+          NLR_alignement 868 LkrneItdaGvvsLceaLk 886
+                             +k  +Itd G++ +++ L 
+  TCONS_00062316-protein 365 MKDWNITDFGLSVIAKNLP 383
+                             **************99885 PP
+
+>> TCONS_00024933-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.0   8.4e-07   0.00037      55     146 ..      70     162 ..      10     185 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 8.4e-07
+          NLR_alignement  55 qqkkvlnPs..gklyvaiksslssrkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntlyGkaseasvddat 139
+                              +k vl+      l +   ++  s+ fditl++v+  + + l P+  g++ +  a d +  a +     +rn+l+ +a   s+d   
+  TCONS_00024933-protein  70 VKKGVLKQDqvDTLLPPNSTQTDSQTFDITLIIVLIINFTTLPPPKNGWNKKLAAGDISPAAFVILARDWRNRLL-HADAKSIDLNE 155
+                             44555555555678899999999****************************************************.88889999988 PP
+
+          NLR_alignement 140 kkkvwkd 146
+                              +  w++
+  TCONS_00024933-protein 156 LNLRWNE 162
+                             8888876 PP
+
+>> TCONS_00015641-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   9.1e-07    0.0004      72     226 ..      86     229 ..      67     238 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 9.1e-07
+          NLR_alignement  72 sslssrkfditllavvlrvlavlyPktsgfdtli.paadttleadiarikcyrntlyGkaseasvddatkkkvwkdiqivgngvdal 157
+                              + ss+ fditl++ v  + + + P+  g+  +  +  d ++ a i  +   rn+++  a +   d+  +k +w +i  +  g++  
+  TCONS_00015641-protein  86 GKTSSLSFDITLIVFVIINFVNITPPKGGWRIKEpKQGDFSVAAFIIALRQLRNKILHGALKEFKDQNFFKGIWAEIRAALVGINY- 171
+                             567899*************************98637899******************999*****************955555554. PP
+
+          NLR_alignement 158 vvLggiilllaiqdlkkecmDsdfeekyvfkqhrpvvslaeylkelkklvksqte...keelfqaseeaktv 226
+                               L++              +Ds +++k+v++ ++    + ++++ lkk v+++     k++l+ + +e+ ++
+  TCONS_00015641-protein 172 NCLPD--------------FDSLLHDKVVVDIKDGKDHMTDLVEDLKKTVQDEMSkqnKDMLLTVMKEVDKK 229
+                             44554..............66777777888888888888888888888877765545556666666555543 PP
+
+>> TCONS_00019572-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.0   1.5    0.0051       2.3     803     885 ..       8      86 ..       2     112 .. 0.44
+   2 !   12.8   0.2   4.5e-05      0.02     716     870 ..     169     337 ..     137     352 .. 0.55
+
+  Alignments for each domain:
+  == domain 1  score: 6.0 bits;  conditional E-value: 0.0051
+          NLR_alignement 803 knLnkLdLlsn.eisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyL.krneItdaGvvsLceaL 885
+                               L+ LdL+ + +isd  + + +  lk+   +l  L  sg  +itd+ +  ++       +l +L+L + n+ t  G+  L +++
+  TCONS_00019572-protein   8 SRLSVLDLQHSpNISDSSLLAASAILKK---NLVVLKISGASKITDQSLEGITMH---ATNLKKLKLyGCNKLTTDGINTLLKSV 86 
+                             3334444433223444433333333322...123333333333444333333221...112333333122334444444333333 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 4.5e-05
+          NLR_alignement 716 lnsldlsted.lspvdctavaeflkvvkalnalels............gnys...............rnisdtGlrsitealekenc 774
+                             l++ldls++d +s+ +   v++  k ++ l+  + +                               r  +   l ++       ++
+  TCONS_00019572-protein 169 LTKLDLSYCDqVSDSGLEIVVRRFKTLQSLKFQHFQgtggplkqyyeeN--RriqaekmeelcfpacRHFDGHHLEYVLPF----FK 249
+                             4455555542255555555555555555555555553333332222220..022222222222222222344444444433....66 PP
+
+          NLR_alignement 775 tlteLdlstnqiddegadslakvLiksnknLnkLdLls.neisdegvksliealkfsksklteLglsgneeitddgvvslcealkas 860
+                             +lt+Ld+s  +   + +d++  ++   +k L+ L L++  ++sdeg   ++++ +  +  + +L lsgn + td  +  +++ l   
+  TCONS_00019572-protein 250 NLTKLDVSGMK---NVGDNFLRIVAVHCKRLQDLCLKAcKQVSDEG---ICDVFRNGS-PIEKLILSGNPKLTDRSIFTMASHLA-- 327
+                             66666666543...34445555555567777777776524577777...456666655.67777777777777777777777776.. PP
+
+          NLR_alignement 861 cklteLyLkr 870
+                              +l+ Ly+++
+  TCONS_00019572-protein 328 NTLSALYISG 337
+                             6677776654 PP
+
+>> TCONS_00030430-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   0.0   9.7e-06    0.0043      75     148 ..      40     113 ..       7     135 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 9.7e-06
+          NLR_alignement  75 ssrkfditllavvlrvlavlyPktsgf.dtlipaadttleadiarikcyrntlyGkasea.svddatkkkvwkdiq 148
+                              s  fd+tll ++ r+ + +  +  g+ d  +pa d +  a + r   +rn  + +++++  + +a +++ w++ +
+  TCONS_00030430-protein  40 DSSTFDVTLLCILIRNFTAIPAPLKGWnDKNPPAHDLSFAAFVIRAREWRN--FVHHTDPdTITQAIFNQKWQEGE 113
+                             4678*************887777799934567999****************..446777625789999****9854 PP
+
+>> TCONS_00012235-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.1   1.4e-05    0.0061      23     140 ..      29     152 ..      10     163 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 1.4e-05
+          NLR_alignement  23 lvdisslvlretfekkrvlgnld.......kvlsspPvlqqkkvlnPs.gklyvaiksslssrkfditllavvlrvlavlyPktsgf 101
+                             l + s + l + f k+ + + +d       +      +l q++ ++ +   +y+a +    s  fd+tl + + r+l+++  + +g+
+  TCONS_00012235-protein  29 LEEKSQQYLLNVFHKHFPRNPVDlynalllHKRKLKQLLNQRNLKQDQyDLIYPACQRTD-SSLFDVTLTFFMIRTLCGYKKPRTGW 114
+                             555666777778888877777776654333222223345555555555578899988766.667*****************999*** PP
+
+          NLR_alignement 102 dtlipaadttleadiarikcyrntlyGkaseasvddatk 140
+                             d+ +  +dt+  a    +k  rn+l  ++++ ++ +a  
+  TCONS_00012235-protein 115 DAEPDPTDTSDIAYCIILKIERNQLN-HKANRKITKAEY 152
+                             ******99999999999999999777.666666666655 PP
+
+>> TCONS_00073046-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   2.1   4.4e-05     0.019     801     954 ..      85     223 ..      63     258 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 4.4e-05
+          NLR_alignement 801 snknLnkLdLlsn.eisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLk 886
+                             ++++Lnk+d ls+ ++s+     +   lkf   ++ +L l +n+     g + +  ++  +  + +L +++ e+     v L + L 
+  TCONS_00073046-protein  85 GCHKLNKIDVLSSpNLSN----NILPILKFCG-NIEHLALTKNH-----GGQDIYMSMIYNTDVRHLAIQATEVHYFQDVDLIDILL 161
+                             567777777544436666....4677788888.88888888777.....77888888888999999999999999999999999998 PP
+
+          NLR_alignement 887 vskckltkLdLseneisDvgvaslaevlkensqlttLyLs.yneitdaGveslaeaLkeakkltaLdLs 954
+                               + ++t+L++ +  i+D  +a++++ +    +lt L++s + ++td+G  ++ +   + k+l+ L+ +
+  TCONS_00073046-protein 162 ILQ-NITELEITNAGITDIALAEISDEI---TNLTHLNISgCIDVTDVGLREILD---KCKELKHLNVQ 223
+                             888.999999999999999999999888...889999995488999999666654...44555555554 PP
+
+>> TCONS_00002018-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   4.8e-05     0.021      54     131 ..      69     146 ..       4     199 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 4.8e-05
+          NLR_alignement  54 lqqkkvlnPs..gklyvaiksslssrkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntlyGkas 131
+                             l+ kk ln      l ++   +  s kfditl++++    + l P+t g++  +  +d +l a + r   +rn l   + 
+  TCONS_00002018-protein  69 LKGKKLLNKDqiELLLPTGSNQTDSSKFDITLIILLIIDFTNLPPPTNGWKKEPSPTDMSLGAFVLRARRWRNDLI--HG 146
+                             344777666666678899999999************************************************9987..33 PP
+
+>> TCONS_00033618-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   6.1e-05     0.027      54     126 ..      14      87 ..       2     100 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 6.1e-05
+          NLR_alignement  54 lqqkkvlnPs..gklyvaiksslssrkfditllavvlrvlavlyPktsgfdtlipaadttleadiarikcyrntl 126
+                             l++kkvl+      +y++ + +  s  fditl++++ r+l+++  +  g+  ++  ++ t  a    +k  rn +
+  TCONS_00033618-protein  14 LKKKKVLRTDqyELIYPSDR-KTNSEMFDITLVFLLIRTLCGYKAPRNGWSEMPDKTEETKIAHCLTLKILRNEI 87 
+                             66788888876455666654.455889***************************999999988888888888865 PP
+
+>> TCONS_00046310-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       0.3   1.3e+02     292     333 ..      33      75 ..      27     100 .. 0.80
+   2 ?    6.2   0.0    0.0045         2     287     374 ..     348     436 ..     331     442 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.3
+          NLR_alignement 292 krilitGkagigKtlfcqklirdWaegklfllr....clnikfvfl 333
+                             ++++  G+++ + + +c   ++ W+e++++ +r    ++     ++
+  TCONS_00046310-protein  33 AGFVYSGENDTVFCYKCGVAAKGWKEDDDPIKRhedlNK---TCYF 75 
+                             678999************************999443333...3333 PP
+
+  == domain 2  score: 6.2 bits;  conditional E-value: 0.0045
+          NLR_alignement 287 eetnpkrilitGkagigKtlfcqklirdWaegklfllr....clnikfvfllefrqlksetsdeisLrdllnrssvlddaskvddql 369
+                             +e ++++++  G  + +K+ +c   +r+W ++++   +    ++n+k v+ +  ++ +   +++  + +  +  s+l++a+ ++++l
+  TCONS_00046310-protein 348 IELARAGFIYSGTGDAVKCYKCGVSLRNWEPNDNAWAEhekwSPNCKLVIECI-QEAQRIKNTPPHMIQESSY-SSLNEAQIRQNHL 432
+                             688999************************98876555578999***999886.5555555555544343333.3466665555555 PP
+
+          NLR_alignement 370 lkell 374
+                              ++ll
+  TCONS_00046310-protein 433 -QHLL 436
+                             .5555 PP
+
+>> TCONS_00066994-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   1.3   0.00046       0.2     897     980 ..      17      92 ..       2     121 .. 0.75
+   2 ?   -3.9   0.0       4.8   2.1e+03     719     900 ..     157     190 ..     152     205 .. 0.56
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.00046
+          NLR_alignement 897 LseneisDvgvaslaevlk..ensqlttLyLsyneitdaGveslaeaLkeakkltaLdLssneisnegvaslaealkvnckltkLy 980
+                             L+e ++ D+g++++a+v    +  ++ttL Ls n it     +l +a+ +   l++L+L +n +      +l  ++  ++kl+ L+
+  TCONS_00066994-protein  17 LEEIDLVDKGITNIADVPYllNMRNITTLTLSHNRIT-----KLPDAVANLASLENLNLFNNDLE-----TLPLTICNLPKLRFLN 92 
+                             6677789*********954438889***********8.....69999999999999999999855.....2333334444444444 PP
+
+  == domain 2  score: -3.9 bits;  conditional E-value: 4.8
+          NLR_alignement 719 ldlstedlspvdctavaeflkvvkalnalelsgnysrnisdtGlrsitealekenctlteLdlstnqiddegadslakvLiksnknL 805
+                             ++l++  + + d +++ + +  + +l +l+++                                                       
+  TCONS_00066994-protein 157 VNLQVLVVRDNDLISIPKEIGELTKLRELHIQ------------------------------------------------------- 188
+                             44444444444444444444444444444444....................................................... PP
+
+          NLR_alignement 806 nkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneItdaGvvsLceaLkvskckl 892
+                                                                                                                    
+  TCONS_00066994-protein   - ---------------------------------------------------------------------------------------   -
+                             ....................................................................................... PP
+
+          NLR_alignement 893 tkLdLsen 900
+                                   +n
+  TCONS_00066994-protein 189 ------NN 190
+                             ......44 PP
+
+>> TCONS_00060223-protein  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.2   0.00092       0.4     774     875 ..     168     274 ..      88     297 .. 0.75
+   2 ?   -1.4   1.2      0.84   3.7e+02     793     874 ..     412     483 ..     279     508 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.00092
+          NLR_alignement 774 ctlteLdlstnqiddegadslakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgne................. 843
+                              +lt Ldl++n++++     +  vL +  + L++L L +n++   g       + +   +lt L+l +n                  
+  TCONS_00060223-protein 168 RKLTFLDLRHNKFKE-----VPPVLYQL-TSLKQLFLRFNRLCSIG-----SEIGQLT-QLTMLNLRENRltnlpmtigklkylstl 242
+                             467778888777753.....44454444.56999999999986544.....4555555.7899999988877777777777777777 PP
+
+          NLR_alignement 844 eitddgvvslcealkascklteLyLkrneItd 875
+                             +++ + +++l +++    +lt+L+L+ ne ++
+  TCONS_00060223-protein 243 DVAHNHLQHLPDSIGECRQLTTLHLQHNELKE 274
+                             68899999999999988899999999998754 PP
+
+  == domain 2  score: -1.4 bits;  conditional E-value: 0.84
+          NLR_alignement 793 slakvLiksnknLnkLdLlsneisdegvksliealkfsksklteLglsgneeitddgvvslcealkascklteLyLkrneIt 874
+                             +l  +  +  k L +L+ l   +s++ +k + + +   + kl+ L l++n  i       l   ++  + l +L+L++n  t
+  TCONS_00060223-protein 412 QLDVL-LDDIKWLVNLEVLV--LSNNQLKRIPRSIGNLR-KLRVLDLDENL-I-----ECLPTEIEYLKSLEKLFLQTNRLT 483
+                             33333.33334454444442..55555566666666655.66666666555.3.....455555555556666666666655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1486 nodes)
+Target sequences:                      25087  (10474104 residues searched)
+Passed MSV filter:                      1611  (0.0642165); expected 501.7 (0.02)
+Passed bias filter:                      490  (0.019532); expected 501.7 (0.02)
+Passed Vit filter:                        97  (0.00386654); expected 25.1 (0.001)
+Passed Fwd filter:                        57  (0.00227209); expected 0.3 (1e-05)
+Initial search space (Z):              25087  [actual number of targets]
+Domain search space  (domZ):              57  [number of targets reported over threshold]
+# CPU time: 1.69u 0.05s 00:00:01.74 Elapsed: 00:00:00.92
+# Mc/sec: 16804.19
+//
+[ok]

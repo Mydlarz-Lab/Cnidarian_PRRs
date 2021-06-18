@@ -1,0 +1,600 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  human_C_lectins.hmm
+# target sequence database:        ../proteomes/Morbakka_virulenta.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       human_Clectins  [M=1428]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+   4.9e-214  714.4  52.4    6.8e-30  104.3   0.2   11.0 11  scaffold138.g37.t1  
+    6.1e-32  111.0   0.7    9.3e-32  110.4   0.7    1.1  1  scaffold138.g38.t1  
+    2.7e-27   95.6   2.3    3.8e-27   95.1   2.3    1.2  1  scaffold585.g3.t2   
+    2.8e-27   95.6   2.3    3.9e-27   95.1   2.3    1.2  1  scaffold585.g3.t1   
+    1.1e-26   93.7   2.1    1.2e-26   93.5   2.1    1.0  1  scaffold35.g61.t3   
+    1.6e-26   93.1   2.2    1.7e-26   93.0   2.2    1.0  1  scaffold35.g61.t1   
+      2e-25   89.4   1.2    2.4e-25   89.2   1.2    1.0  1  scaffold90.g37.t1   
+    3.1e-23   82.2   9.4    3.1e-23   82.2   9.4    2.8  2  scaffold14.g14.t1   
+    1.1e-22   80.4   0.1    1.5e-22   79.9   0.1    1.1  1  scaffold481.g4.t2   
+    1.1e-22   80.3   0.1    1.5e-22   79.9   0.1    1.1  1  scaffold481.g4.t1   
+    1.5e-21   76.6   2.2    1.5e-21   76.6   2.2    1.8  1  scaffold45.g61.t1   
+    6.2e-21   74.6   0.0    6.2e-21   74.6   0.0    2.1  1  scaffold4.g126.t2   
+    6.3e-21   74.5   0.0    6.3e-21   74.5   0.0    2.1  1  scaffold4.g126.t1   
+    5.1e-19   68.2   4.1      7e-19   67.8   4.1    1.1  1  scaffold10.g13.t1   
+    1.5e-18   66.7  12.3    7.2e-17   61.1   4.7    2.1  2  scaffold3.g19.t1    
+    2.3e-17   62.7  19.1    4.6e-11   41.8  11.3    2.1  2  scaffold178.g4.t1   
+    1.1e-13   50.6   9.1    1.2e-13   50.4   9.1    1.0  1  scaffold290.g29.t4  
+    1.6e-13   50.0   9.0    3.3e-13   49.0   9.0    1.5  1  scaffold203.g33.t1  
+    3.5e-12   45.6   9.3    6.6e-12   44.6   9.3    1.4  1  scaffold290.g29.t1  
+    3.9e-12   45.4  10.3    6.5e-12   44.7   9.3    1.8  2  scaffold290.g29.t2  
+    1.1e-09   37.3   1.2    1.5e-09   36.8   1.2    1.0  1  scaffold358.g7.t2   
+    4.6e-09   35.2   1.2    6.9e-09   34.6   1.2    1.1  1  scaffold358.g7.t1   
+    5.9e-08   31.5   6.4    6.6e-08   31.4   6.4    1.0  1  scaffold356.g13.t1  
+    1.1e-07   30.7   4.3    1.1e-07   30.7   4.3    1.5  2  scaffold244.g20.t1  
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold138.g37.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.7   0.2   2.3e-27   2.7e-24     927    1068 ..      20     160 ..      16     173 .. 0.89
+   2 !  101.0   0.1   5.3e-32   6.4e-29     929    1061 ..     175     305 ..     166     309 .. 0.93
+   3 !   64.8   0.2   4.5e-21   5.4e-18     928    1052 ..     309     443 ..     306     447 .. 0.85
+   4 !   97.7   1.8   5.2e-31   6.3e-28     230     364 ..     550     683 ..     543     694 .. 0.87
+   5 ?    2.6   0.1     0.026        31     340     362 ..     688     710 ..     679     725 .. 0.65
+   6 !  104.3   0.2   5.6e-33   6.8e-30     920    1073 ..     933    1080 ..     853    1101 .. 0.83
+   7 !   77.9   0.2   5.2e-25   6.2e-22     930    1069 ..    1182    1325 ..    1139    1330 .. 0.89
+   8 !   79.9   0.1   1.3e-25   1.6e-22     923    1068 ..    1329    1471 ..    1319    1492 .. 0.86
+   9 !   54.0   0.2   8.2e-18   9.9e-15     292     368 ..    1638    1713 ..    1631    1719 .. 0.92
+  10 !   51.6   0.1   4.3e-17   5.2e-14     430     509 ..    1731    1812 ..    1725    1820 .. 0.86
+  11 !   28.3   1.0   4.7e-10   5.7e-07     984    1063 ..    1827    1902 ..    1810    1913 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 85.7 bits;  conditional E-value: 2.3e-27
+      human_Clectins  927 asspCpkgWisfqnkCylf.s....essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgt 1010
+                          a  +Cp gW+ f++ Cylf s       ++w++a+ +C+ +ga Lv i+ ++e++f+ ++ + + +   +WiG+sd ++e+ +k+vdgt
+  scaffold138.g37.t1   20 AGVGCPLGWKTFKSYCYLFnSanhlYPGQSWKNARLSCQVHGADLVDIRDKSENDFVFKSQTLSLRFQHFWIGISDLETEGVYKFVDGT 108 
+                          5679***************5487775568*******************************555666999******************** PP
+
+      human_Clectins 1011 plasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                          + +  y nw++ ep+n   +edC+  +    +g++nd+ C+++ +g+iC+k++    +
+  scaffold138.g37.t1  109 NAT--YFNWNKNEPNNYLGNEDCVETH---YDGTYNDNICTKQ-FGYICKKKIGAPTP 160 
+                          ***..***********999*******9...9***********8.6******9876555 PP
+
+  == domain 2  score: 101.0 bits;  conditional E-value: 5.3e-32
+      human_Clectins  929 spCpkgWisfqnkCylf.sessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqy 1016
+                          ++C+ gWi f+ +Cylf  +   t+++a+e+C+++g+ Lv  +++e qaf+ts  + +   +++WiGL+d+ +e++f W+dgtpl+s+ 
+  scaffold138.g37.t1  175 TQCEPGWIGFNLTCYLFvEHLPATFKDAREDCQERGGDLVMPKTREVQAFVTSRARLS--YRDFWIGLTDTFKEGTFYWIDGTPLNSTL 261 
+                          79***************557789*******************************5444..89************************99* PP
+
+      human_Clectins 1017 snwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                          +nwap epsns   edC+++ ++   gkwnd++C +++ ++iC+k
+  scaffold138.g37.t1  262 ANWAPREPSNSFGGEDCVLMFSRYVVGKWNDNHCLSKQ-RYICQK 305 
+                          ***********999******876799**********97.*****8 PP
+
+  == domain 3  score: 64.8 bits;  conditional E-value: 4.5e-21
+      human_Clectins  928 sspCpkgWisfqnkCylfs...essktwseaeeaCise.gatLvkiqsqeeqafltsllkdmtg..elelWiGLsdrasekpfkWvdgt 1010
+                          +++Cp gW++fq+ Cy+f     +   w+ea++aC  + g+ Lv+i+s+ee++ ++++l+++ g   +++W+GL+d+++ + f+W dgt
+  scaffold138.g37.t1  309 KTMCPDGWNPFQEHCYQFNvhpAQPLFWAEARKACLAYtGGDLVSITSKEENKMVLKTLQGY-GirYAGVWLGLNDNKTRGVFEWSDGT 396 
+                          789***************757777889********987478*****************9997.335899*******************9 PP
+
+      human_Clectins 1011 plasqysnwapgeps.nsgsredCavilass.....etgkwndesCse 1052
+                              +y+nwa+ +   ++  +++C+  l ++         w+++ C++
+  scaffold138.g37.t1  397 API-KYTNWANNHSIkDTRGNTQCVRGLVRNyrgveAYFAWQSTGCTQ 443 
+                          866.6*****9887756688*****98866677887666788888876 PP
+
+  == domain 4  score: 97.7 bits;  conditional E-value: 5.2e-31
+      human_Clectins 230 engcedlWekdelthlcYqfnvqsaLsWkeayvscqeQgadLLSiteiaEqtylkeklesit...kilWiglNdlssaagwqwsdnkplnf 317
+                         e  c ++W++    ++cY+f ++ a +W  a+++c  Qg+dLLSit+ +Eq +l+ kl+ +      +WiglNd ++++ + wsd +p+ +
+  scaffold138.g37.t1 550 ETSCGKNWDISYTPNICYKFSSRFA-TWTAARAACLSQGGDLLSITSNTEQAFLNKKLNNYKgrfTKFWIGLNDRDNNRVYRWSDGSPMPY 639
+                         478**********************.******************************99766521156************************ PP
+
+      human_Clectins 318 LNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnnt 364
+                         +Nw +   s    + c+ +++  sg w    c +kLpY+ck++    
+  scaffold138.g37.t1 640 INWGRRGLS-VKAKDCGGVMT--SGTWFEETCYTKLPYICKRQAKDC 683
+                         ***998774.46778998885..89****************998765 PP
+
+  == domain 5  score: 2.6 bits;  conditional E-value: 0.026
+      human_Clectins 340 esglwenlsceakLpYvckkkln 362
+                          sg w    c +kLpY+ck++  
+  scaffold138.g37.t1 688 TSGTWFEETCYTKLPYICKRQVQ 710
+                         35667777777777777776654 PP
+
+  == domain 6  score: 104.3 bits;  conditional E-value: 5.6e-33
+      human_Clectins  920 kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvd 1008
+                           ++   a+   C  gWi+f++ Cy+f +++++w+ a+ +C+s+g++L++i+s  eqaf+t  ++      + WiG++ r+ ++ ++W+d
+  scaffold138.g37.t1  933 IQQIFRAEMRKCGPGWIPFGQYCYQFENKKQSWTVASVYCQSQGGQLASITSGVEQAFITLGVGSAGIFKSAWIGINSRQLNHAYNWTD 1021
+                          56677789999***************************************************766555999****************** PP
+
+      human_Clectins 1009 gtplasqysnwapgepsns..gsredCavilassetgkwndesCserklgliCektaevlsresntl 1073
+                          g+p+   y+nwa+gep+n   ++redC  ++   ++g wnde+C  rk  liC+k+++vl    ++ 
+  scaffold138.g37.t1 1022 GNPIL--YTNWASGEPNNMfgYRREDCGDVR---TSGMWNDERCYFRK-PLICKKEKDVLPS--TPV 1080
+                          *****..**********888899*******9...99***********8.*********9877..333 PP
+
+  == domain 7  score: 77.9 bits;  conditional E-value: 5.2e-25
+      human_Clectins  930 pCpkgWisf..qnkCylfsessktwseaeeaCis..egatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplas 1014
+                          +Cp+gW  +  +++Cy ++ ++ktw +a++aC +   ++ Lv+i s++eq f+t ll +   ++++W GLsdr s +++kW d+t+++ 
+  scaffold138.g37.t1 1182 GCPNGWVLHpgGSSCYKLFIETKTWMDARKACRDvvNDGDLVSIGSRAEQVFVTTLLVNDYVNRDIWNGLSDRMSPGHYKWSDNTTVT- 1269
+                          8*****9885578*******************874469******************877778**************************. PP
+
+      human_Clectins 1015 qysnwapgepsnsgsredCavilass....etgkwndesCserklgliCektaevlsre 1069
+                           ysnw +g+p++s + ++C+ ++ ++    +   w d +C++++ +++Ce +++ + r+
+  scaffold138.g37.t1 1270 -YSNWFNGQPDDSTRVQSCVKMN-LQagfsDVLFWTDGDCDRKY-SFMCEVPKKASTRA 1325
+                          .*********************7.55699867779999****86.*****999888775 PP
+
+  == domain 8  score: 79.9 bits;  conditional E-value: 1.3e-25
+      human_Clectins  923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsl.lkdmtg..elelWiGLsdrasekpfkWvd 1008
+                          t+ +  + C++gW+ ++++C+++  ++ +w ea++aC+  ga+L++i   +e++ ++ l +k++++   ++ WiGL+d+   + f Wvd
+  scaffold138.g37.t1 1329 TKGKVNGSCSTGWTMVKDSCFMVNGQRLNWFEAKKACEVSGANLASILDHQENEGVLNLlMKGVNKtsIRDAWIGLTDEGIFRGFIWVD 1417
+                          56788999***********************************************9999744443333899*******9999******* PP
+
+      human_Clectins 1009 gtplasqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsr 1068
+                          g+p++  ++ w   ep++  + + C +i+   ++g+w d++C  +   ++C+k  + + +
+  scaffold138.g37.t1 1418 GSPVS--FTLWDFKEPDSYMNMKACGMIR---NNGNWRDAECGVKL-PFVCKKAPSLVTV 1471
+                          *****..**********9999*******9...89**********85.*****97665554 PP
+
+  == domain 9  score: 54.0 bits;  conditional E-value: 8.2e-18
+      human_Clectins  292 kilWiglNdlssaagwqwsdnkplnfLNwlpdkpsap.ieescvalldaesglwenlsceakLpYvckkklnntsivv 368 
+                          + +Wigl dls++ g+ wsd +p+ fLN++ ++p++  + e cv+l++   g w+ + c+ k pY+ck+++n +s+v+
+  scaffold138.g37.t1 1638 SRIWIGLSDLSNEGGFVWSDGSPVDFLNFEAGQPDDWhGMEDCVELRTI--GYWNDVMCSRKFPYICKRHNNSVSVVT 1713
+                          569*******************************9998999****9975..99********************98776 PP
+
+  == domain 10  score: 51.6 bits;  conditional E-value: 4.3e-17
+      human_Clectins  430 kLdnedkeelwIglkdikiptnfeWsdgseVtlTkWdelEPnvernkledCVslkg...eegqwkdksceekLkyiCkkkgev 509 
+                          +L ++  e lwIgl+d+++   f Wsd s+Vt+T+W+   P+++ n+ edCV l +    +g+w+d +c+    +iCk+   +
+  scaffold138.g37.t1 1731 SLAYNVGESLWIGLSDLQVEKTFGWSDQSSVTFTNWKFRQPDNFGNS-EDCVELAPfyrFHGKWNDLTCNALRGFICKMDVTL 1812
+                          677767899***********************************985.89***98633269*****************97655 PP
+
+  == domain 11  score: 28.3 bits;  conditional E-value: 4.7e-10
+      human_Clectins  984 dmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsnsgsredCavilass.etgkwndesCserklgliCekta 1063
+                          +   ++++WiG +++  + +++W d++p +  y+ w++   s   +++ C +    s ++g+w++++C++++  ++C+ t+
+  scaffold138.g37.t1 1827 EF--TTSMWIGFHRMPNDTKYQWSDNKPAD--YTYWQRAAGSLPSNAKGCTYAYYAShSSGRWMKSTCDKKY-PYMCKVTK 1902
+                          33..55666666666666666666666666..6666666555444466666554433466666666666653.66666443 PP
+
+>> scaffold138.g38.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  110.4   0.7   7.7e-35   9.3e-32     927    1085 ..      14     168 ..      10     181 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 110.4 bits;  conditional E-value: 7.7e-35
+      human_Clectins  927 asspCpkgWisfqnkCylfs...essktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                          ++++Cp gW + ++ Cylf+      ++w+ a+++C   ga+L++i+s+ee++fl  ++++   +l++WiGL+dr+ e++f W+dgt +
+  scaffold138.g38.t1   14 DPGTCPPGWYKRNKHCYLFHtkyYGLEEWAVARQKCRNLGASLASIHSKEELDFLHFHVRGH--HLSVWIGLNDREAEGRFVWTDGTAF 100 
+                          6899***************966656799******************************9998..************************* PP
+
+      human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkyg 1085
+                          +  ++ w   ep+n++  e+C+ +++  ++gkwnd +Cs+++ g++C+k+ +    + ++ a s+a ++ k g
+  scaffold138.g38.t1  101 D--FTYWDTMEPNNKYGLENCVCLNT--HDGKWNDLKCSRPQ-GYVCKKNLDLINFQCLSEADSKAHNVMKSG 168 
+                          *..99*******************85..9************8.********9988887777777777777665 PP
+
+>> scaffold585.g3.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.1   2.3   3.1e-30   3.8e-27     926    1062 ..     633     768 ..     528     779 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 95.1 bits;  conditional E-value: 3.1e-30
+     human_Clectins  926 aasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgt 1010
+                          +++ Cpk+W++f+n+     Cy++++   +w  a+++C   +a Lv++++++eq+f+t+ l +      +W+G +dr+ e+++ W d++
+  scaffold585.g3.t2  633 LKQKDCPKNWKFFENTidgarCYVVKSNYFSWYGARDDCLTNEADLVSVTTKKEQEFVTKELLK---GEFMWLGFTDRDNEGRWAWSDNS 719 
+                         57889********98555555****************************************744...579******************** PP
+
+     human_Clectins 1011 plasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCekt 1062
+                         ++a +y+nw  g+p+  +  ++edCa+++    +gkwnd +C ++ +++iC+++
+  scaffold585.g3.t2  720 TVA-SYTNWDGGDPNdgGYLKNEDCALMK---PDGKWNDYPCGDK-FRYICKRK 768 
+                         ***.9**********665578*******9...99**********7.6****975 PP
+
+>> scaffold585.g3.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.1   2.3   3.2e-30   3.9e-27     926    1062 ..     630     765 ..     529     776 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 95.1 bits;  conditional E-value: 3.2e-30
+     human_Clectins  926 aasspCpkgWisfqnk.....CylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgt 1010
+                          +++ Cpk+W++f+n+     Cy++++   +w  a+++C   +a Lv++++++eq+f+t+ l +      +W+G +dr+ e+++ W d++
+  scaffold585.g3.t1  630 LKQKDCPKNWKFFENTidgarCYVVKSNYFSWYGARDDCLTNEADLVSVTTKKEQEFVTKELLK---GEFMWLGFTDRDNEGRWAWSDNS 716 
+                         57889********98555555****************************************744...579******************** PP
+
+     human_Clectins 1011 plasqysnwapgeps..nsgsredCavilassetgkwndesCserklgliCekt 1062
+                         ++a +y+nw  g+p+  +  ++edCa+++    +gkwnd +C ++ +++iC+++
+  scaffold585.g3.t1  717 TVA-SYTNWDGGDPNdgGYLKNEDCALMK---PDGKWNDYPCGDK-FRYICKRK 765 
+                         ***.9**********665578*******9...99**********7.6****975 PP
+
+>> scaffold35.g61.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.5   2.1   9.6e-30   1.2e-26     923    1077 ..      41     185 ..      12     267 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 93.5 bits;  conditional E-value: 9.6e-30
+     human_Clectins  923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                         + ++ ++ C +gWi ++++Cy++++  + +s a++ C+++gatL++i sq+e++f+ sl+k++t+  e W+GL+ ++++ +++W+d t +
+  scaffold35.g61.t3   41 SLSPSPNSC-NGWIENSDSCYYIFNTFEYFSVAKQLCEKQGATLASISSQKENDFIFSLVKKSTRYSEAWLGLKYNTKKLRYEWLDRTVT 129 
+                         455778899.9******************************************************************************* PP
+
+     human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlalsn 1077
+                         +  y+nw  g+p ++g    C+ +      gkwn+  C++r  ++iCek+++   ++++ l+++ 
+  scaffold35.g61.t3  130 K--YKNWLYGKPGQEG---YCVEMI---PGGKWNNLLCNNRL-QYICEKPKKKILHDNKLLKTII 185 
+                         *..*******999886...9****9...9***********96.********99999888776654 PP
+
+>> scaffold35.g61.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.0   2.2   1.4e-29   1.7e-26     923    1076 ..      41     184 ..      12     267 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 93.0 bits;  conditional E-value: 1.4e-29
+     human_Clectins  923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                         + ++ ++ C +gWi ++++Cy++++  + +s a++ C+++gatL++i sq+e++f+ sl+k++t+  e W+GL+ ++++ +++W+d t +
+  scaffold35.g61.t1   41 SLSPSPNSC-NGWIENSDSCYYIFNTFEYFSVAKQLCEKQGATLASISSQKENDFIFSLVKKSTRYSEAWLGLKYNTKKLRYEWLDRTVT 129 
+                         455778899.9******************************************************************************* PP
+
+     human_Clectins 1013 asqysnwapgepsnsgsredCavilassetgkwndesCserklgliCektaevlsresntlals 1076
+                         +  y+nw  g+p ++g    C+ +      gkwn+  C++r  ++iCek+++   ++++ l+++
+  scaffold35.g61.t1  130 K--YKNWLYGKPGQEG---YCVEMI---PGGKWNNLLCNNRL-QYICEKPKKKILQDNKLLKTI 184 
+                         *..*******999886...9****9...9***********96.********9999888777665 PP
+
+>> scaffold90.g37.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   1.2     2e-28   2.4e-25     273     393 ..      36     158 ..       9     165 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 2e-28
+     human_Clectins 273 SiteiaEqtylkeklesitki.lWiglNdlssaagwqwsdnkplnfLNwlpdkpsapieescvalldaesglwenlsceakLpYvckkklnn 363
+                        Si  +  + +l+e+l+si++i +W+++Nd+  ++++++++n+ l+fL +  ++    + ++ v+ll++ ++l+en+ +e++L+++++++ +n
+  scaffold90.g37.t1  36 SIVTEGNKALLVETLRSIAEIlIWGDQNDSR-VFDFFLEKNMLLFFLKIMTQNC---GSYVTVQLLQTLNILFENIKHETSLYFLLSNNHVN 123
+                        788888999*********************9.********************99...*********************************** PP
+
+     human_Clectins 364 tsivvekd......vwayvktrceagwlptngfcYk 393
+                         si+v+k+      v+ay+++++++++l+ n++  +
+  scaffold90.g37.t1 124 -SIIVHKFdfsneeVLAYYISFLKTLSLKLNRHTIN 158
+                        .9*****99********************9998654 PP
+
+>> scaffold14.g14.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.2   9.4   2.5e-26   3.1e-23     663    1109 ..     801    1334 ..     732    1349 .. 0.62
+   2 ?   -3.2   2.0       1.5   1.8e+03     813     893 ..    3992    4072 ..    3936    4152 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 82.2 bits;  conditional E-value: 2.5e-26
+     human_Clectins  663 eecpedwesekgtescyKvfeaekvvmkrswleaerfCqalGahlasfasveeektvaelltesfmldededsyqklfwiglnkrspenk 752 
+                         e+   d  s +g++   K ++ ++v  + s++ +      lG + + + ++   +  ++++++s++l++ + + q+l w    ++s++++
+  scaffold14.g14.t1  801 ESDTSDSSSPSGLPTANKNLSVDHVSFNVSKEFN--TDWSLGKNQSEIFHKVMVN--NKTVNDSKELEALK-HKQHL-WESTANESKSEN 884 
+                         4444555555555555666665555444433333..2235666666665555554..68888887665555.77777.544444343333 PP
+
+     human_Clectins  753 g.........pnaasstqwsdrlpvstare.......dlrncaalkl.kialatlelltlllw.vvipkgrtpkledareeqellrlile 824 
+                                    n ++ +q+s +l+  ++++        ++n+ +++  ++  a++  + +++  + ++++r+++l ++ + +++  ++ +
+  scaffold14.g14.t1  885 VtmasgvantTNVSQAVQKSFNLSHTQDNKnsentsqTIANGTKANSqNKNEANFGKNKQNKTgIALQRKRMEELAEKTS-NSKSVHSSN 973 
+                         35999999886666666666666666644444555775555544444366667776666666677888888888886544.333344444 PP
+
+     human_Clectins  825 gee.aflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwik..............................tdgqllsw 883 
+                           e  f++e+k++++n +   +   +++      + ++e+++  k++++++k                              +       
+  scaffold14.g14.t1  974 SFEsPFMEETKKSVRNDSGDINTTKKSQ------SIIEETVEFAKGDAKLHKgkdtpqihnvrkkvimglakstavpmipekS------- 1050
+                         4444788777777776632222233333......4444444433444444443111112222222222445554455555550....... PP
+
+     human_Clectins  884 ateevrtldaecvyltaktg...................................................................... 903 
+                                            g                                                                      
+  scaffold14.g14.t1 1051 -------------------Gryalpvnvvitgtlktvvpkeegdldptqkrnfsrheikilkkmyqqvplprdhyklgnaykrtlpqtgs 1121
+                         ...................44444444444445555555555555555555555555554444445555887777776666666666666 PP
+
+     human_Clectins  904 ......rllwkalk..vklplcqr.........kketpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqa 976 
+                               r  w+        p   r         k++ p+   +  +      ++  y + +++ tw ea+ +C+s+ga L++i  +eeq+
+  scaffold14.g14.t1 1122 rkrtlhR--WGWHHheE--P---RhlysrtgekKDDLPEGLTGAISYTNRDGKEFIYAVGTEQLTWGEARVKCQSHGADLLSIGDKEEQE 1204
+                         5554322..22222221..2...0222233344788887877777777766777788888****************************** PP
+
+     human_Clectins  977 fltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgeps....ns...gsredCavilassetgkwndesCserklgliC 1059
+                         f+t ++  +++   +W+G +d+ +e+ ++W+dgt     ysnw+++ep+    ++    ++edCav++   e+  w+d +C +r +++iC
+  scaffold14.g14.t1 1205 FVTTNV--IAEPDRYWMGFTDQVKEGIWEWTDGTINR--YSNWSNLEPDdgtmKTgeiTHNEDCAVMN---EKFDWSDVPCWSR-FRYIC 1286
+                         *****5..56699**********************99..**********87762256799*******8...999*********9.5**** PP
+
+     human_Clectins 1060 ektaevlsresntlalsnapetvkygnrsykiiraplswhsAkkeclksn 1109
+                         + +  +    s      +  ++ +  n+ +++ +++l   +  kec+  +
+  scaffold14.g14.t1 1287 KIYPGCGHAISFGG-QLSYTDVGNGTNQDFTLQNQKLNFKKP-KECTSNV 1334
+                         *9987666655555.555577999999999999999988877.7777665 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 1.5
+     human_Clectins  813 reeqellrlilegeeaflaelkeelenaealcsshselaeIqvelealkekiqklkeqewwiktdgqllswateevrt....lda 893 
+                         ++++e+l + ++  +++ +e++e++++  + +    + + +++ l++ k+k ++  ++++ i+++++  + +t   +t      +
+  scaffold14.g14.t1 3992 EDMNEKLDQKYKAVQEEREEFQENTKKHPTSNM--RHNVRVSKPLKKQKQKHKT-GQKKKVISKRKPTTNIHTSTKETpsrsV-E 4072
+                         223344444444444444444444444433332..3334445445555555543.3444466655554555544444433331.2 PP
+
+>> scaffold481.g4.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   0.1   1.2e-25   1.5e-22     928    1061 ..    1218    1342 ..    1072    1348 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 1.2e-25
+     human_Clectins  928 sspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqys 1017
+                          + Cp+g++ + ++Cy + ++ ++w ea  +C s++++Lv+i+  ee  f+t ++ ++   +++WiGL+dr  e++f+Wvdg pl+  + 
+  scaffold481.g4.t2 1218 VGYCPEGYQANAGNCYKLYSEPMNWIEAVATCNSQKSSLVSIARDEEYYFVTNMMHES-TVTQIWIGLNDRVNEGSFTWVDGMPLS--FN 1304
+                         578***************************************************9998.59*************************..87 PP
+
+     human_Clectins 1018 nwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                          w +  p + g ++dC+ ++    +++w d  C+ r+  +iC+ 
+  scaffold481.g4.t2 1305 GWLS--PPQIGGDRDCVQFN---VEKGWVDVVCNVRQ-AFICKA 1342
+                         7766..566788*******8...899**********8.****85 PP
+
+>> scaffold481.g4.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.9   0.1   1.2e-25   1.5e-22     928    1061 ..    1227    1351 ..    1081    1357 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 79.9 bits;  conditional E-value: 1.2e-25
+     human_Clectins  928 sspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqys 1017
+                          + Cp+g++ + ++Cy + ++ ++w ea  +C s++++Lv+i+  ee  f+t ++ ++   +++WiGL+dr  e++f+Wvdg pl+  + 
+  scaffold481.g4.t1 1227 VGYCPEGYQANAGNCYKLYSEPMNWIEAVATCNSQKSSLVSIARDEEYYFVTNMMHES-TVTQIWIGLNDRVNEGSFTWVDGMPLS--FN 1313
+                         578***************************************************9998.59*************************..87 PP
+
+     human_Clectins 1018 nwapgepsnsgsredCavilassetgkwndesCserklgliCek 1061
+                          w +  p + g ++dC+ ++    +++w d  C+ r+  +iC+ 
+  scaffold481.g4.t1 1314 GWLS--PPQIGGDRDCVQFN---VEKGWVDVVCNVRQ-AFICKA 1351
+                         7766..566788*******8...899**********8.****85 PP
+
+>> scaffold45.g61.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.6   2.2   1.2e-24   1.5e-21     923    1062 ..     228     365 ..      70     374 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 76.6 bits;  conditional E-value: 1.2e-24
+     human_Clectins  923 tpkaasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtpl 1012
+                           ++ +  Cp +W +++++Cy f+++ +tw++a+++C   +++L +i+s+ e+  +++ l+d    +e W GLsd as++++++vdg+p+
+  scaffold45.g61.t1  228 DVDPTQLKCPDEWDQNESNCYKFFQEPMTWNDASDHCNVLKGSLTSIESPFENFYMKAKLQDN-TATEAWFGLSDWASKGTYQFVDGSPF 316 
+                         34567789******************************************************8.58***********************9 PP
+
+     human_Clectins 1013 asqysnwapgeps.....nsgsredCavilassetgkwndesCserklgliCekt 1062
+                            +s w+          + +s+ +C +++    t++w  ++C+ +   +iC+ +
+  scaffold45.g61.t1  317 V--FSDWSYDAYIwlfthQDESKGKCISLN---GTNGWVYQTCDLKL-PFICKSR 365 
+                         9..88888776667776566999******9...8***********85.****986 PP
+
+>> scaffold4.g126.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.6   0.0   5.2e-24   6.2e-21     941    1132 ..     298     475 ..     283     486 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 74.6 bits;  conditional E-value: 5.2e-24
+     human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns..g 1028
+                          C+ + ++ k+w ea+++C++eg++L++i+s ee+ f++++++       +WiGL+dr+ e+ ++W dg++++  y+ w +g   ++   
+  scaffold4.g126.t2  298 YCFRLITKYKSWPEARKECQEEGGELASITSDEELSFVLQTVRT---CGFIWIGLNDRRREGFYEWADGNNIT--YTRWPKGLYYDEvqR 382 
+                         59***************************************644...4689**********************..*******99965568 PP
+
+     human_Clectins 1029 sredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykiiraplswhsAkkeclksnaqlasitdp 1118
+                         + edC+++     +g+w    C+++ + ++C kt +   + ++     + p++ +++   +  + ++ +++ A++   ++ a+++s  + 
+  scaffold4.g126.t2  383 HFEDCVAMD---PEGNWFTFVCQNK-FHFLCRKTLAEPPP-PL----PEIPPASEESPIIF--LAPNYTVPVAAEISPHPAAKEQSQRET 461 
+                         89******9...89**********7.6******9953333.33....34667777766666..45899*****99999999999999999 PP
+
+     human_Clectins 1119 yqqaflsvqlelln 1132
+                         y +    v +++++
+  scaffold4.g126.t2  462 YAEMLTEVAVQQMK 475 
+                         99887777666655 PP
+
+>> scaffold4.g126.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.5   0.0   5.2e-24   6.3e-21     941    1132 ..     304     481 ..     289     492 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 74.5 bits;  conditional E-value: 5.2e-24
+     human_Clectins  941 kCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns..g 1028
+                          C+ + ++ k+w ea+++C++eg++L++i+s ee+ f++++++       +WiGL+dr+ e+ ++W dg++++  y+ w +g   ++   
+  scaffold4.g126.t1  304 YCFRLITKYKSWPEARKECQEEGGELASITSDEELSFVLQTVRT---CGFIWIGLNDRRREGFYEWADGNNIT--YTRWPKGLYYDEvqR 388 
+                         59***************************************644...4689**********************..*******99965568 PP
+
+     human_Clectins 1029 sredCavilassetgkwndesCserklgliCektaevlsresntlalsnapetvkygnrsykiiraplswhsAkkeclksnaqlasitdp 1118
+                         + edC+++     +g+w    C+++ + ++C kt +   + ++     + p++ +++   +  + ++ +++ A++   ++ a+++s  + 
+  scaffold4.g126.t1  389 HFEDCVAMD---PEGNWFTFVCQNK-FHFLCRKTLAEPPP-PL----PEIPPASEESPIIF--LAPNYTVPVAAEISPHPAAKEQSQRET 467 
+                         89******9...89**********7.6******9953333.33....34667777766666..45899*****99999999999999999 PP
+
+     human_Clectins 1119 yqqaflsvqlelln 1132
+                         y +    v +++++
+  scaffold4.g126.t1  468 YAEMLTEVAVQQMK 481 
+                         99887777666655 PP
+
+>> scaffold10.g13.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   4.1   5.8e-22     7e-19     858    1062 ..    1803    2047 ..    1741    2049 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 67.8 bits;  conditional E-value: 5.8e-22
+     human_Clectins  858 ealkekiqklkeqewwik........tdgqllswateevrtldaecvyltaktg..................................rl 905 
+                          ++k   +++ e++ +i+         d+   + +++ +++++++c + ++k                                      
+  scaffold10.g13.t1 1803 TEIKLRRKEISEDKVYIRlkngfntaIDTRRKEIEIKTESIFQNCCDKCKEKPPgrtskknvhkvllptkkhllvelklspdrspdmrP- 1891
+                         34444444555666666665555545333323344555566888887777777788777777666666655444444333333332221. PP
+
+     human_Clectins  906 lwkalkvklplcqr.................kketpkaasspCpkgWisfqnkCylf.sessktwseaeeaCi.segatLvkiqsqeeqa 976 
+                                                        + +++k + ++Cp +W+ f+++Cy+  s +++ w +a + C   ++a+L   q+qee+ 
+  scaffold10.g13.t1 1892 -------------DemglrgsnerevnfndkMTRSKKDKINHCPPEWQEFKGNCYMAfSAKKRPWRKAAKICRlRMKAELSFPQTQEEEH 1968
+                         .............02222223333444444488889999*****************96888999********72689************* PP
+
+     human_Clectins  977 fltsllkdmtgelelWiGLsdrasekpfkWvdgtplasqysnwapgepsns.gsredCavilassetgkwndesCserklgliCekt 1062
+                          + +l    ++   +W+G+++ ++ +++ W dg++++ + ++    + ++s   r+ C +++    +g+w+ ++C++++++++C+k 
+  scaffold10.g13.t1 1969 WISKL----SKGNIIWLGIRR-NKRGQWLWSDGRHVKLNGKKLIDVNAQESgRARSLCGILH---PDGQWSIKDCRSQRYSYVCKKS 2047
+                         *****....56789******9.88888********9954333333333344567899****9...99******************97 PP
+
+>> scaffold3.g19.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.5   1.1   5.5e-05     0.067     461     507 ..       2      49 ..       1      54 [. 0.71
+   2 !   61.1   4.7     6e-20   7.2e-17     926    1065 ..      48     192 ..      46     199 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 5.5e-05
+    human_Clectins 461 tlTkWdelEPnvernk..ledCVslkgeegqwkdksceekLkyiCkkkg 507
+                       t+  W  + P++++ +   ++CV + ++ g+w d  c  +L++iC+k  
+  scaffold3.g19.t1   2 TYSSWGVNQPDNKNSHcnHKNCVEIRKD-GHWGDLYCLAHLPFICQKSA 49 
+                       5667888888877654115688888766.88888888888888888754 PP
+
+  == domain 2  score: 61.1 bits;  conditional E-value: 6e-20
+    human_Clectins  926 aasspCpkgWisfqnkCylfsessktwseaeeaCisegatLvkiqsqeeqafltsllkdmtgelelWiGLsdrasekpfkWvdgtplasq. 1015
+                        +as+   +gW   ++kC+  ++s + w +a + C+++g+ L+ i+s+ e++f+  l   +  e + Wi+L+d ++ + + W  +t   ++ 
+  scaffold3.g19.t1   48 SASGKDTEGWACRNDKCLKYFRSPQIWDDAWKICQEKGGLLAEIRSETENDFVGTL---V--ENSAWIALNDFEEAGVYIWNKKTVNGPKa 133 
+                        56666679************************************************...4..778*******9999999997666643334 PP
+
+    human_Clectins 1016 .ysnwapgeps.......ns..gsredCavilassetgkwndesCserklgliCektaev 1065
+                         y nwa+g+ps        +  +  edC+ i+  +++ +w+d +Cs+r + ++Ce++ e 
+  scaffold3.g19.t1  134 tYFNWANGQPSdmiywegRNikCYGEDCVQIKVMNSRTSWQDIECSRR-IPFVCERNLES 192 
+                        6**********77776651167889*******999************9.5*****99875 PP
+
+>> scaffold178.g4.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.9     3e-09   3.6e-06     963    1070 ..    1014    1124 ..     993    1189 .. 0.70
+   2 !   41.8  11.3   3.8e-14   4.6e-11     174     229 ..    1576    1630 ..    1569    1634 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 3e-09
+     human_Clectins  963 gatLvkiqsqeeqafltsllkdmtg......elelWiGLsdrase..kpfkWvdgtplasq...ysnwapgepsnsgsredCavilasse 1041
+                         +a++v+i  + +q+++ + +    +      + +lW+GL +++++  k + W+  ++++++   ++nw++ +  + +  +dC++++    
+  scaffold178.g4.t1 1014 QAAMVTIIDPVDQEAVEAVT----SeeriilQNSLWLGLYETEYDsnKAWAWLKRSKITNNaemFTNWQNVKQPKWNVLQDCVAMG---I 1096
+                         45566666666666666662....12345667778888877666555778888888777645777777776666667778888886...7 PP
+
+     human_Clectins 1042 tgkwndesCserklgliCektaevlsres 1070
+                         +gkw  ++C++++ + +C++ +++ +++ 
+  scaffold178.g4.t1 1097 DGKWLIKNCDSKA-KALCQRDITTDQVAY 1124
+                         7888888888876.888887776665532 PP
+
+  == domain 2  score: 41.8 bits;  conditional E-value: 3.8e-14
+     human_Clectins  174 lyTikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkk 229 
+                         + T  GN+  + c+fPFky+n  + dCt+     + WCa T +Y+kD+ wGfC   
+  scaffold178.g4.t1 1576 IETFGGNADNNCCRFPFKYENIMYYDCTKFKS-HHAWCAVTHNYDKDKAWGFCCLH 1630
+                         77999***********************9765.589*****************865 PP
+
+>> scaffold290.g29.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.4   9.1   9.9e-17   1.2e-13     178     229 ..      11      61 ..       5      71 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 50.4 bits;  conditional E-value: 9.9e-17
+      human_Clectins 178 kGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkk 229
+                          G  yG+ c+fPF y +k + +Ctsdg  ++ WC+TT+++++D+kwG+C  +
+  scaffold290.g29.t4  11 GGTGYGMCCHFPFVYKGKTYYECTSDGF-DHNWCSTTTNFDNDKKWGYCELQ 61 
+                         5889*********************996.799*****************865 PP
+
+>> scaffold203.g33.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.0   9.0   2.7e-16   3.3e-13     166     226 ..     680     739 .]     670     739 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 49.0 bits;  conditional E-value: 2.7e-16
+      human_Clectins 166 lCdqpyhelyTikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfC 226
+                          C q   el T  G s+G  c+fPF y +k +h C+++  +s +WC+TT++Y++D+kwG+C
+  scaffold203.g33.t1 680 NCVQDNCELRTFGGTSNGGCCKFPFIYKGKTYHSCIKAKFHS-IWCSTTSNYDEDKKWGYC 739
+                         58889999*****************************98886.7***************** PP
+
+>> scaffold290.g29.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6   9.3   5.4e-15   6.6e-12     176     229 ..     644     696 ..     630     706 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 44.6 bits;  conditional E-value: 5.4e-15
+      human_Clectins 176 TikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkk 229
+                            G  yG+ c+fPF y +k + +Ctsdg  ++ WC+TT+++++D+kwG+C  +
+  scaffold290.g29.t1 644 SYGGTGYGMCCHFPFVYKGKTYYECTSDGF-DHNWCSTTTNFDNDKKWGYCELQ 696
+                         556999*********************996.799*****************765 PP
+
+>> scaffold290.g29.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0      0.91   1.1e+03     233     254 ..     241     262 ..     238     266 .. 0.86
+   2 !   44.7   9.3   5.4e-15   6.5e-12     176     229 ..     641     693 ..     627     703 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 0.91
+      human_Clectins 233 cedlWekdelthlcYqfnvqsa 254
+                         c+d W++d  t +c q  + +a
+  scaffold290.g29.t2 241 CDDTWDIDDATVVCRQLGFGTA 262
+                         **************99988877 PP
+
+  == domain 2  score: 44.7 bits;  conditional E-value: 5.4e-15
+      human_Clectins 176 TikGNsyGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkk 229
+                            G  yG+ c+fPF y +k + +Ctsdg  ++ WC+TT+++++D+kwG+C  +
+  scaffold290.g29.t2 641 SYGGTGYGMCCHFPFVYKGKTYYECTSDGF-DHNWCSTTTNFDNDKKWGYCELQ 693
+                         556999*********************996.799*****************765 PP
+
+>> scaffold358.g7.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.8   1.2   1.2e-12   1.5e-09     181     230 ..      91     139 ..      85     144 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 36.8 bits;  conditional E-value: 1.2e-12
+     human_Clectins 181 syGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkke 230
+                        ++G+ c+fPF y +     C+ + +++++WC+ T +Y+ D++ GfC ++ 
+  scaffold358.g7.t2  91 TQGRCCAFPFMYKGVLRDKCITA-DSEWPWCSLTHNYDVDQRSGFCSIPI 139
+                        79******************986.678*******************9986 PP
+
+>> scaffold358.g7.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   1.2   5.7e-12   6.9e-09     181     230 ..     534     582 ..     530     587 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 5.7e-12
+     human_Clectins 181 syGkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCpkke 230
+                        ++G+ c+fPF y +     C+ + +++++WC+ T +Y+ D++ GfC ++ 
+  scaffold358.g7.t1 534 TQGRCCAFPFMYKGVLRDKCITA-DSEWPWCSLTHNYDVDQRSGFCSIPI 582
+                        79******************986.678*******************9986 PP
+
+>> scaffold356.g13.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   6.4   5.4e-11   6.6e-08     194     226 ..      36      67 ..      29      68 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 5.4e-11
+      human_Clectins 194 nkWhhdCtsdgresllWCaTTldYekDekwGfC 226
+                         +kW+hdCt+    +  WC+TT+++++D+kwG+C
+  scaffold356.g13.t1  36 DKWYHDCTKLFL-NEKWCSTTQNFDRDKKWGYC 67 
+                         79******8654.568***************** PP
+
+>> scaffold244.g20.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.7   4.3   9.1e-11   1.1e-07     183     227 ..      76     119 ..      72     122 .. 0.91
+   2 ?   -4.1   0.2       2.8   3.3e+03      61      92 ..    1135    1162 ..    1124    1192 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 30.7 bits;  conditional E-value: 9.1e-11
+      human_Clectins 183 GkpcefPFkydnkWhhdCtsdgresllWCaTTldYekDekwGfCp 227
+                         G  c fP++y +k + +C+++g +  lWC+TT +Y+kD kwG C 
+  scaffold244.g20.t1  76 GPRCVFPYLYRGKKYSQCIKAG-HWRLWCSTTANYDKDGKWGNCV 119
+                         778*****************99.568******************6 PP
+
+  == domain 2  score: -4.1 bits;  conditional E-value: 2.8
+      human_Clectins   61 vvaddCdqetedklwkWVSehrlfnlgskkCL 92  
+                           v d C     + +w++  +  l ++ skkCL
+  scaffold244.g20.t1 1135 GVSDTCS----KDKWQFLKNGALQHISSKKCL 1162
+                          3444444....456666666667777777776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1428 nodes)
+Target sequences:                      28983  (14362356 residues searched)
+Passed MSV filter:                      2170  (0.0748715); expected 579.7 (0.02)
+Passed bias filter:                      499  (0.017217); expected 579.7 (0.02)
+Passed Vit filter:                        73  (0.00251872); expected 29.0 (0.001)
+Passed Fwd filter:                        26  (0.000897078); expected 0.3 (1e-05)
+Initial search space (Z):              28983  [actual number of targets]
+Domain search space  (domZ):              24  [number of targets reported over threshold]
+# CPU time: 1.58u 0.04s 00:00:01.62 Elapsed: 00:00:00.83
+# Mc/sec: 24599.51
+//
+[ok]

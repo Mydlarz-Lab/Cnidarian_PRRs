@@ -1,0 +1,1310 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  RLR.hmm
+# target sequence database:        ../proteomes/Morbakka_virulenta.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RLR  [M=917]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    4.4e-49  167.9   6.3    6.8e-28   97.8   0.5    2.7  3  scaffold105.g36.t1   
+    3.1e-30  105.5   0.0    4.6e-15   55.3   0.0    2.7  3  scaffold236.g21.t1   
+    1.3e-19   70.4   0.0    1.7e-10   40.2   0.0    2.1  2  scaffold245.g23.t1   
+    1.6e-15   56.8   2.8    6.6e-11   41.5   0.1    3.1  4  scaffold183.g29.t1   
+      1e-14   54.1   0.0    2.9e-06   26.2   0.0    2.3  2  scaffold135.g14.t1   
+    5.8e-13   48.4   0.0    4.6e-06   25.5   0.0    2.5  2  scaffold55.g40.t1    
+    4.6e-12   45.4   0.0    4.5e-05   22.3   0.0    2.1  2  scaffold338.g3.t1    
+    2.5e-11   42.9   0.2    6.3e-06   25.1   0.6    2.3  2  scaffold262.g11.t1   
+    1.9e-10   40.1   1.0    1.8e-06   26.9   0.0    2.5  2  scaffold105.g11.t1   
+    2.3e-10   39.8   0.0    2.7e-06   26.3   0.0    2.1  2  scaffold51.g40.t1    
+    6.8e-10   38.2   0.0    1.3e-08   34.0   0.0    2.4  2  scaffold89.g48.t2    
+    9.2e-10   37.8   0.8    1.6e-09   36.9   0.8    1.4  1  scaffold469.g6.t1    
+    3.3e-09   35.9   0.0    4.7e-07   28.8   0.0    2.1  2  scaffold245.g23.t2   
+      6e-09   35.1   0.0    0.00026   19.7   0.0    2.2  2  scaffold311.g10.t1   
+    6.3e-09   35.0   0.0    4.3e-05   22.3   0.0    2.1  2  scaffold72.g57.t1    
+    6.3e-09   35.0   0.0    4.3e-05   22.3   0.0    2.1  2  scaffold72.g57.t2    
+    1.1e-08   34.2   0.0    9.5e-05   21.2   0.0    2.1  2  scaffold51.g45.t3    
+    1.8e-08   33.5   0.0    2.1e-08   33.3   0.0    1.1  1  scaffold260.g8.t1    
+    2.3e-08   33.1   0.0    2.1e-05   23.3   0.0    2.2  2  scaffold316.g26.t2   
+    2.5e-08   33.0   0.0    2.2e-05   23.3   0.0    2.2  2  scaffold316.g26.t1   
+    3.3e-08   32.6   0.0    4.4e-08   32.2   0.0    1.2  1  scaffold260.g8.t2    
+    3.9e-08   32.4   0.0    2.1e-06   26.7   0.0    2.4  2  scaffold20.g87.t1    
+    4.5e-08   32.2   0.1    0.00065   18.4   0.0    2.2  2  scaffold29.g108.t1   
+    5.2e-08   32.0   0.0    5.2e-08   32.0   0.0    1.1  1  scaffold42.g59.t1    
+    1.4e-07   30.6   0.1    2.5e-05   23.1   0.0    2.4  2  scaffold2.g95.t1     
+    1.5e-07   30.5   0.0    4.3e-05   22.3   0.0    2.4  2  scaffold253.g5.t1    
+    2.9e-07   29.5   1.4     0.0016   17.1   0.1    2.4  2  scaffold60.g66.t1    
+    3.4e-07   29.3   2.5      5e-05   22.1   0.2    2.0  2  scaffold68.g7.t1     
+      5e-07   28.7   0.2      7e-07   28.2   0.2    1.2  1  scaffold154.g43.t1   
+    1.8e-06   26.9   0.1    5.1e-06   25.4   0.3    1.6  2  scaffold121.g136.t1  
+    2.9e-06   26.2   0.2    2.3e-05   23.2   0.0    2.1  2  scaffold45.g77.t1    
+    3.7e-06   25.8   0.0    4.1e-06   25.7   0.0    1.1  1  scaffold45.g77.t4    
+    3.7e-06   25.8   0.0    4.1e-06   25.7   0.0    1.1  1  scaffold45.g77.t5    
+    4.7e-06   25.5   0.0    0.00012   20.9   0.0    2.2  2  scaffold39.g87.t1    
+    2.3e-05   23.2   0.1      3e-05   22.8   0.1    1.1  1  scaffold65.g61.t1    
+    2.4e-05   23.2   0.0    2.8e-05   22.9   0.0    1.1  1  scaffold245.g23.t3   
+    2.4e-05   23.2   0.0    2.8e-05   22.9   0.0    1.1  1  scaffold245.g23.t4   
+    5.8e-05   21.9   0.2    0.00047   18.9   0.0    2.0  2  scaffold121.g191.t1  
+    9.1e-05   21.2   0.1    0.00012   20.8   0.1    1.2  1  scaffold154.g42.t1   
+    0.00015   20.5   0.3    0.00027   19.7   0.1    1.5  2  scaffold121.g258.t1  
+    0.00042   19.0   0.0      0.033   12.8   0.0    2.7  2  scaffold89.g48.t3    
+    0.00095   17.9   0.6    0.00095   17.9   0.6    1.9  3  scaffold162.g3.t1    
+     0.0015   17.2   4.0      0.018   13.6   0.0    3.0  3  scaffold303.g22.t1   
+     0.0057   15.3   0.1       0.75    8.3   0.0    2.3  2  scaffold455.g11.t1   
+     0.0063   15.1   0.0     0.0086   14.7   0.0    1.1  1  scaffold265.g33.t1   
+  ------ inclusion threshold ------
+      0.012   14.3   0.1       0.72    8.3   0.0    2.2  2  scaffold25.g90.t1    
+       0.11   11.0   0.3       0.19   10.3   0.0    1.4  1  scaffold149.g58.t4   
+       0.13   10.8   0.2       0.22   10.1   0.0    1.4  1  scaffold149.g58.t5   
+       0.13   10.8   0.0       0.13   10.8   0.0    1.0  1  scaffold58.g18.t1    
+       0.15   10.6   0.0       0.25    9.9   0.0    1.2  1  scaffold41.g35.t3    
+       0.15   10.6   0.0       0.25    9.9   0.0    1.2  1  scaffold41.g35.t4    
+       0.24    9.9   0.0       0.27    9.8   0.0    1.1  1  scaffold222.g25.t1   
+       0.29    9.6   0.3         12    4.3   0.1    2.1  2  scaffold207.g12.t2   
+       0.29    9.6   0.3         12    4.3   0.1    2.1  2  scaffold207.g12.t3   
+        0.3    9.6   0.3         13    4.2   0.1    2.1  2  scaffold207.g12.t4   
+
+
+Domain annotation for each sequence (and alignments):
+>> scaffold105.g36.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.8   0.5   1.3e-30   6.8e-28     231     439 ..       6     215 ..       2     293 .. 0.74
+   2 !   72.3   0.2   6.5e-23   3.4e-20     605     728 ..     393     522 ..     375     531 .. 0.79
+   3 ?   -1.7   0.0       1.5   7.9e+02     357     380 ..     718     741 ..     711     773 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 97.8 bits;  conditional E-value: 1.3e-30
+                 RLR 231 sleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgk.vvvlvnkvllveqlk.skefkrflkkryrvi 317
+                         + +  l++r+yq+e+ + a++ kn+i+cl tG+Gkt+++v++ ++  +++  +  ++g+   +l+ +v+lv q+  + e ++ lk +  v 
+  scaffold105.g36.t1   6 NDQGSLNPRPYQVEIFQEAIQ-KNTIVCLATGTGKTFISVMVIREFAHETRGSlaDGGRrTFFLAPNVPLVYQQSqQIETNTNLKVKAYVG 95 
+                         667889**************7.*********************986655543333777526778999998877651557777788888899 PP
+
+                 RLR 318 glsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLta 408
+                          l  d   k   +e  + ++++++t+qi+   L+      +v++s+  L+i+DeCh++ k++ y +im +yL++  k   + LP  lGLta
+  scaffold105.g36.t1  96 ELGVDFWDKDVWKEELNKHNVLVMTPQIFYDILTV----GHVKISDVNLLIFDECHNATKNHLYVQIM-DYLQLHNK---QKLPHFLGLTA 178
+                         9999*9999999999999***************99....9***************************9.69988766...89********* PP
+
+                 RLR 409 spGvGgakklde.a....lehilk.LCanLDafvikt 439
+                         s+     k +++ a    ++  lk L   L a +i+ 
+  scaffold105.g36.t1 179 SVINRKCKSRAKdAikceIDKGLKiLETTLQAACITC 215
+                         *976665544431311112333442345566666654 PP
+
+  == domain 2  score: 72.3 bits;  conditional E-value: 6.5e-23
+                 RLR 605 rleesargiiftktrqsadaLkqWiee....n.eklaevdvka....qlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeG 686
+                         r +++  +i+ft  r +a  L+  +++    n ek++   + +    +++iG      +  m  + q+ ++++f++ ++n+Li+tsv eeG
+  scaffold105.g36.t1 393 RRNDEMCAIVFTTKRVTAVVLSDAVNDlvnsNiEKFEG--ISSnyilGHFIGSRFNLSNSAMSSKTQQDILNRFRKNEFNVLISTSVIEEG 481
+                         56889999*****9998877776655322113344444..554111156677777777899****************************** PP
+
+                 RLR 687 lDikeCniviryglvtneiamvqarGraradeskyvlvatsg 728
+                         +D+++Cn+vir++ +    + vq++Grara+ sk++ ++ ++
+  scaffold105.g36.t1 482 IDVRKCNLVIRFDGIHTYREYVQSKGRARAKPSKFI-IMDQN 522
+                         ***********************************5.44444 PP
+
+  == domain 3  score: -1.7 bits;  conditional E-value: 1.5
+                 RLR 357 aiveLsvfsLiiiDeChhtskeav 380
+                         +i++L  + +++i eCh+t+  a 
+  scaffold105.g36.t1 718 SIPNLYLYRIVMISECHETDYLAH 741
+                         6889999************86544 PP
+
+>> scaffold236.g21.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   0.0     3e-15   1.6e-12     237     387 ..     116     257 ..     104     275 .. 0.92
+   2 !   55.3   0.0   8.7e-18   4.6e-15     605     740 ..     511     645 ..     459     663 .. 0.83
+   3 ?   -2.4   0.0       2.4   1.3e+03     176     618 ..    1911    1940 ..    1870    1965 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 3e-15
+                 RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekv 327
+                          +r+yq+e++  al   n++++lPtG Gkt+ a+ +  +     +   +gk+v+++   +lv q+ +  f+ +   +     ++G+ a++ 
+  scaffold236.g21.t1 116 PVRTYQFEIIKKALI-SNTLVVLPTGLGKTFLAAVVMYNFYRWYP---RGKIVFMAPTKPLVAQQIEACFNIMGIPQRDTSEMTGNLAPNK 202
+                         57************7.69***********************9999...9**************************9999**********95 PP
+
+                 RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn 387
+                           e + k + +  lt+q+L+n L +          +f  +++De h++  ++ y +++r+
+  scaffold236.g21.t1 203 -REALWKEKRVFFLTPQVLQNDLSR----GSCAAMDFVCLVFDEAHRALGNHAYCQVVRE 257
+                         .699********************9....4556679******************998875 PP
+
+  == domain 2  score: 55.3 bits;  conditional E-value: 8.7e-18
+                 RLR 605 rleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqs.tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCni 694
+                         ++  ++r +if + r s++ ++  +  +  l     k   +iG+  + ++ +g+ q+eq ev+++f++G +n L++tsv eeGlDi + ++
+  scaffold236.g21.t1 511 QTPANTRIMIFSQYRDSVQEITAVLSRHSPLV----KVMSFIGQSSAGKNrKGLSQKEQIEVVNRFRKGGYNTLVSTSVGEEGLDIGDVDL 597
+                         455678999****************9998885....57789998877654289************************************** PP
+
+                 RLR 695 viryglvtneiamvqarGr.aradeskyvlvatsgsg.vieketinef 740
+                         ++ ++     i++vq  Gr +r +  ++v+++t+g    i k  +n  
+  scaffold236.g21.t1 598 IVCFDASHSPIRLVQRMGRtGRKRAGRIVILVTEGKEeQIYKRSLNSK 645
+                         ******************966999999999999986515777777765 PP
+
+  == domain 3  score: -2.4 bits;  conditional E-value: 2.4
+                 RLR  176 rnkekelwiveknikesetedlevveesdislaeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsG 264 
+                          +                                                                                        
+  scaffold236.g21.t1 1911 KG--------------------------------------------------------------------------------------- 1912
+                          33....................................................................................... PP
+
+                 RLR  265 ktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkl 353 
+                                                                                                                   
+  scaffold236.g21.t1    - -----------------------------------------------------------------------------------------    -
+                          ......................................................................................... PP
+
+                 RLR  354 eedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgakkldealehilkLCanLDafviktvke 442 
+                                                                                                                   
+  scaffold236.g21.t1    - -----------------------------------------------------------------------------------------    -
+                          ......................................................................................... PP
+
+                 RLR  443 nleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylkmselsrefGtqkyeqwvvklekaaaveglkkervyaehLrkyndaL 531 
+                                                                                                                   
+  scaffold236.g21.t1    - -----------------------------------------------------------------------------------------    -
+                          ......................................................................................... PP
+
+                 RLR  532 lisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeLkrlaedpenenekLekLrfkilqeeyrleesargiiftkt 618 
+                                                                                     ++ekL+  i +++++++   + iiftk 
+  scaffold236.g21.t1 1913 -----------------------------------------------------------RFEKLCIIIEKDRTKSNAPDKKIIFTKH 1940
+                          ...........................................................4566665444444555555566666663 PP
+
+>> scaffold245.g23.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   0.0   3.3e-13   1.7e-10     238     372 ..     185     317 ..     161     324 .. 0.88
+   2 !   28.0   0.0   1.5e-09   8.1e-07     657     717 ..     443     504 ..     429     529 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 3.3e-13
+                 RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                         + + q++ +   le + ++ c+PtGsGkt + +    + L+k +k ++ + v++     l +q ++++ +  ++ ++r+  l+ + a+  s
+  scaffold245.g23.t1 185 PTPIQMQAISVMLEQRELLACAPTGSGKTLAFIIPILHKLKK-PKRDGFRAVIISPTRELAQQIYREFCRMNKNIGFRIHVLTKAKATSNS 274
+                         5678999999*******************9777666666665.5578889999999999****999999999999**************** PP
+
+                 RLR 329 fee.vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         f+e   k  Di+i+t++ L+  L++  +  +v+Ls    +++De 
+  scaffold245.g23.t1 275 FGEnSSKRFDILISTPNRLVHLLQQ--DPPKVNLSKVEWLVLDEG 317
+                         *87257899***********99999..8899************96 PP
+
+  == domain 2  score: 28.0 bits;  conditional E-value: 1.5e-09
+                 RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                          tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++    ++ +   Gr +ra 
+  scaffold245.g23.t1 443 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPPTAVSYIHRIGRtGRAG 504
+                         5899999*************************************999999999999844664 PP
+
+>> scaffold183.g29.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       2.2   1.1e+03      75     139 ..      82     150 ..      77     170 .. 0.72
+   2 !   41.5   0.1   1.3e-13   6.6e-11     228     408 ..     469     651 ..     328     657 .. 0.81
+   3 ?   -2.9   0.0       3.4   1.8e+03     645     697 ..     775     827 ..     762     829 .. 0.83
+   4 !   14.1   0.0   2.5e-05     0.013     253     375 ..    1342    1457 ..    1326    1508 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 2.2
+                 RLR  75 aldr.aGssllar.aieltdlk....keekldeyllllkllqpelkdkllvrdvlddlseelltiedrerl 139
+                         al++  Gssll++ + +l  ++      e+++ y  ll  +q  l d+  +rd+l   ++e+l +  +e+l
+  scaffold183.g29.t1  82 ALNKvKGSSLLTEdNEDLAGINyrpkTRETKQTYEVLLSFIQAALGDQ--PRDILCGAADEVLIVLKDEKL 150
+                         555425888888855566666555657788999*************98..9****9888755544444444 PP
+
+  == domain 2  score: 41.5 bits;  conditional E-value: 1.3e-13
+                 RLR 228 adasleselklrsyqlevalPaleG.kniiiclPtGsGktrvavy.....iakd.hLekvkkaekgkvvvlvnkvllveqlkskefkrflk 311
+                         a+a+ e   +l   q  +   al+   n+++c+PtG+Gkt va++     i+k+  L+ +   ++ kv++++    lv+ +  +++kr+  
+  scaffold183.g29.t1 469 AQAAFEGYQNLNRIQSRLCDAALKTdDNLLLCAPTGAGKTNVALMtilreISKHiNLDGTISVDEFKVIYIAPMRSLVQEMVANFSKRLSS 559
+                         5556666667777888899999986369***************98322223333224555556999************************* PP
+
+                 RLR 312 kryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtske..avynvimrnyLeqkLknsaiPL 400
+                          +  v  l+Gd +++   +e + ++ ii++t++  +   +k  e +  +L    LiiiDe h  + e   v  +++ + + q  + s++ +
+  scaffold183.g29.t1 560 YGIVVSELTGDHQLN---KEQIDNTQIIVCTPEKWDIITRKAGERTYTQLV--RLIIIDEIHLLHDErgPVLETVVARTIRQI-E-STQEM 643
+                         ************998...4667999*********99999998899999985..79*******665541157777777766653.3.67777 PP
+
+                 RLR 401 PqvlGLta 408
+                          +++GL a
+  scaffold183.g29.t1 644 VRIIGLSA 651
+                         78888877 PP
+
+  == domain 3  score: -2.9 bits;  conditional E-value: 3.4
+                 RLR 645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                         L+  G + +  gmt+ ++  v d f + ++ +L++t+    G++++   ++i+
+  scaffold183.g29.t1 775 LLPYGFAIHHAGMTRVDRTLVEDLFADRHIQVLVSTATLAWGVNLPAHTVIIK 827
+                         555667778899*************************9999999998888775 PP
+
+  == domain 4  score: 14.1 bits;  conditional E-value: 2.5e-05
+                 RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevvksnDiii 340 
+                           n+ i +PtGsGkt  a +   + L +   ++++k v++     l +q +s    +f l+ +  v+ l+G+t+  +    +     i+i
+  scaffold183.g29.t1 1342 DNVFIGAPTGSGKTICAEFAVLRMLSQ---TQDAKCVYVTPLQCLADQIYSDWRSKFgLQLGENVVLLTGETSADLK---LLAKGSIVI 1424
+                          599***************988777665...569****9999999****999876666488899********998764...455678*** PP
+
+                 RLR  341 ltaqiLensLkkleedaiveLsvfsLiiiDeChht 375 
+                          +t++  +   ++   ++  ++    L i+De h  
+  scaffold183.g29.t1 1425 STPDKWDV--LSRRWKQRKNVQNVNLFILDEAHLI 1457
+                          ***86544..3334556667778899999**9965 PP
+
+>> scaffold135.g14.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   0.0   5.5e-09   2.9e-06     180     371 ..      18     200 ..       7     206 .. 0.84
+   2 !   25.4   0.0   9.7e-09   5.1e-06     658     718 ..     330     391 ..     290     411 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 5.5e-09
+                 RLR 180 kelwiveknikesetedlev.veesdislaeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrv. 268
+                         k + ++e+++++ +  d    v++   + ae++    ++s+++  + v+ d +   +++  sy        l G +++  + tG+Gkt   
+  scaffold135.g14.t1  18 KAINGLENGASDESNVDPVPaVSQ---EEAEGSFTKFNISSKTITKLVARDIKYLFPIQAASYE-----SILSGCDVVAQAKTGTGKTLSf 100
+                         566778888777666554332444...4578888999999999999999999999999999986.....4689***************853 PP
+
+                 RLR 269 avyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleeda 357
+                         a+ i+++  e+++++  ++ kv+ l+    l  q  +kef+ ++ +r  v  + G ta +  +  + k  Di++ t+  +   L +    +
+  scaffold135.g14.t1 101 ALPICEKLRETKDETykRSPKVICLAPTRELAMQ-IGKEFELVKAERLSVHCFYGGTAYQPQVTALRKGLDILVGTPGRIIDHLNR----E 186
+                         888*********99976778*************9.9*****************************************988888887....6 PP
+
+                 RLR 358 iveLsvfsLiiiDe 371
+                         + +Ls    i +De
+  scaffold135.g14.t1 187 TLDLSKIRHITLDE 200
+                         67788888888777 PP
+
+  == domain 2  score: 25.4 bits;  conditional E-value: 9.7e-09
+                 RLR 658 tqreqkev.idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arade 718
+                          q  q+ev +++f++G++  L+at va  GlDi+e ++vi+ +   ++   +   Gr +ra  
+  scaffold135.g14.t1 330 SQ-SQREVtLQRFRDGRFRCLVATDVASRGLDIPEVDLVIQTEPPKDVDDYIHRSGRtGRAGR 391
+                         34.4555449******************************99988877777777777446654 PP
+
+>> scaffold55.g40.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.9   0.0   4.3e-07   0.00023     240     372 ..     861     995 ..     837    1000 .. 0.80
+   2 !   25.5   0.0   8.6e-09   4.6e-06     654     735 ..    1114    1197 ..    1089    1224 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 19.9 bits;  conditional E-value: 4.3e-07
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdh.Lek..vkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                        + q + +   + G+++i ++ tGsGkt + ++   +h L++   + +++   ++++    lv q +++  k  ++ + +   + G  +    
+  scaffold55.g40.t1 861 PVQAQAIPAVMSGRDVIGIAKTGSGKTLAFLLPMFRHvLDQpeLDSGDGPVAIIMAPTRELVLQIHKECRKFSKNVGLQAACIYGGSGISEQ 952
+                        556665555699*****************9997777725541134456666789999999****665555555566899************* PP
+
+                RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        + e+ +  +ii++t+  +   L+  +++   +    + +++De 
+  scaffold55.g40.t1 953 IAELKRGAEIIVCTPGRMIDMLTA-NNGRVTNCRRCTYLVLDEA 995
+                        ***************988888887.7888888888889999886 PP
+
+  == domain 2  score: 25.5 bits;  conditional E-value: 8.6e-09
+                RLR  654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvatsgsgvieke 735 
+                           gm q ++   i  fk+G   l++atsva  GlD+k+  +v+ y+      + ++ v   Gra  +++ ++++  +  g i ++
+  scaffold55.g40.t1 1114 HGGMDQFDRDSTIADFKNGVTKLMVATSVAARGLDVKNLILVVNYDCpnhYEDYVHRVGRTGRAGNKGTSFTFITPE-QGRIGHD 1197
+                         5689999**************************************97111445566666777777777777776544.4555555 PP
+
+>> scaffold338.g3.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.0   2.1e-07   0.00011     250     372 ..     220     341 ..     191     345 .. 0.84
+   2 !   22.3   0.0   8.5e-08   4.5e-05     658     722 ..     469     534 ..     455     558 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 21.0 bits;  conditional E-value: 2.1e-07
+                RLR 250 leGkniiiclPtGsGktrvavyiakdhLe..kvkka.ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                        l G +++ ++ tG+Gkt + ++ a  h++     ++ +kg   ++      + q+ ++e ++f+ k+ + i + G  + +  +++v k  +i
+  scaffold338.g3.t1 220 LSGMDMVGIAQTGTGKTLAFLLPAFIHIHgqGLSRGeRKGPSCLVLSPTRELAQQIEQEVRKFKYKGIKSICIYGGGDRRQQINDVKKGVEI 311
+                        6889999999*********99988777751156777666665555555555666699*********************************** PP
+
+                RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        +i t+  L+  L++    +i ++s+ + +++De 
+  scaffold338.g3.t1 312 VIGTPGRLNDLLMN----EIFSVSDVTYLVLDEA 341
+                        ********999888....99************96 PP
+
+  == domain 2  score: 22.3 bits;  conditional E-value: 8.5e-08
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv 722
+                         q+++++ +++f+ G   +Liat va  GlDik+   vi +++     + v   Gr +ra  s ++
+  scaffold338.g3.t1 469 CQEDREQALEEFRVGAARVLIATDVASRGLDIKDVTHVINFDFPKHIEEYVHRIGRtGRAGRSGMA 534
+                        58899999**********************************988888888888885577777665 PP
+
+>> scaffold262.g11.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.1   0.6   1.2e-08   6.3e-06     253     408 ..     496     652 ..     478     655 .. 0.76
+   2 !   14.8   0.0   1.6e-05    0.0083     253     374 ..    1346    1460 ..    1340    1488 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 25.1 bits;  conditional E-value: 1.2e-08
+                 RLR 253 kniiiclPtGsGktrvavyiakdhLek.....vkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                          n+++c+PtG+Gkt +a++   + + k     v k ++ k+++++    l   +  ++ k+++  +  v  l+Gd+++    +e+ k+  +
+  scaffold262.g11.t1 496 ENLLVCAPTGAGKTNIALLTIVQEIRKnivggVLKKDQFKIIYVAPMKALAAEMTANFGKKLEPLGIAVKELTGDMQLT--KGEILKT-QM 583
+                         699**************9966555555222225677889****99999999999**********************975..5799987.58 PP
+
+                 RLR 339 iiltaqiLensLkkleedaiveLs.vfsLiiiDeChhtske..avynvimrnyLeqkLknsaiPLPqvlGLta 408
+                         +++t++  +   +k      v L+    L+iiDe h  + +  +v   ++ + + q   +s++ + +++GL a
+  scaffold262.g11.t1 584 LVTTPEKWDVVTRK--STGDVALAqLVKLLIIDEVHLLHDDrgSVIESLVARTIRQV--ESSQSMIRIIGLSA 652
+                         89999988877666..333444541468********666551156666666666553..36888888888887 PP
+
+  == domain 2  score: 14.8 bits;  conditional E-value: 1.6e-05
+                 RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevvksnDiii 340 
+                           n+++ +PtGsGkt +a +   + +   +   ++kvv+++    lv  +      r++++ + rv  l+Gd+++ +     +   D+i+
+  scaffold262.g11.t1 1346 TNVLLGAPTGSGKTVAAELGIFKAFRDYP---GSKVVYIAPLKALVRERMDDWKIRIERNlKKRVLELTGDVTPDM--RA-IAEADLIV 1428
+                          599999*********99886655566666...99*****9866666665555555555542789********9976..34.5568**** PP
+
+                 RLR  341 ltaqiLensLkkleedaiveLsvfsLiiiDeChh 374 
+                          +t++  +   ++   ++   +   sL++iDe h 
+  scaffold262.g11.t1 1429 TTPEKWDGVSRS--WQTRNYVKAVSLLVIDEIHL 1460
+                          ****99887777..6777778899********95 PP
+
+>> scaffold105.g11.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.3   0.0   0.00017     0.092     241     372 ..      32     158 ..      22     162 .. 0.71
+   2 !   26.9   0.0   3.5e-09   1.8e-06     656     725 ..     279     349 ..     273     416 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 0.00017
+                 RLR 241 yqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfe 330
+                          q++ +   leG++ i c+ tGsGkt + ++   + L + + +  + v  l     l  q    +f+ + k  + + + + G +++     
+  scaffold105.g11.t1  32 IQVQCIPKILEGRDCIGCAKTGSGKTAAFALPIIQRLSEDPYGIFALV--LTPTRELAFQ-IADQFRALGKSiQLKDVVVVGGMDTIEQSI 119
+                         577778889******************998888888999886665555..4444455555.344444444431233333334444433444 PP
+
+                 RLR 331 evvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          + k   i+i+t+  L   Lk     ++ +Ls    +++De 
+  scaffold105.g11.t1 120 ALSKKPHIVIATPGRLAELLKT---ASTFSLSRIKYLVLDEA 158
+                         6788999999999999998888...88899999999999996 PP
+
+  == domain 2  score: 26.9 bits;  conditional E-value: 3.5e-09
+                 RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlva 725
+                          m qr++   + +fk+G + +L+at va  GlDi+   +vi  ++ +n    +   Gr ara     +l +
+  scaffold105.g11.t1 279 VMSQRDRLASLANFKTGIVSILVATDVASRGLDIPAVELVINSNVPANPKDYIHRVGRtARAGRGGLALTL 349
+                         699**************************************************999996688766665544 PP
+
+>> scaffold51.g40.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.4   0.0   0.00016     0.084     235     372 ..     426     562 ..     283     565 .. 0.81
+   2 !   26.3   0.0   5.2e-09   2.7e-06     659     725 ..     687     756 ..     682     771 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.4 bits;  conditional E-value: 0.00016
+                RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekv...kkaekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGd 322
+                          ++ + q + +  al G++ii ++ tGsGkt + v+    h+      k +e+   ++++    l +q +s+  k+f k    r  ++ G 
+  scaffold51.g40.t1 426 YSQPTPIQAQAIPIALSGRDIIGIAKTGSGKTAAFVWPMLVHIMAQrelKDGEGPIGLIIAPTRELCQQIYSE-AKKFGKcYNLRAAAVFGG 516
+                        45788889999999*******************9998888887554111344555556667777777776555.555554167899999999 PP
+
+                RLR 323 taekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         ++    + + k  +i+++t+  L   +k     +  +L   + +++De 
+  scaffold51.g40.t1 517 GNKWEQSKALQKGAEIVVATPGRLIDHVKA----KATNLERVTYLVFDEA 562
+                        999999999999999999999999888887....6778888888888885 PP
+
+  == domain 2  score: 26.3 bits;  conditional E-value: 5.2e-09
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlva 725
+                        q e+++v++ fk G++ +Liat va  GlDi+    vi y++   +t   + +   Gra  ++  y+lv 
+  scaffold51.g40.t1 687 QFERNKVLNGFKRGEFPILIATDVAARGLDIPSIKTVINYDVardITTHTHRIGRTGRAGEKGVAYTLVS 756
+                        667899**********************************983334555566666677777777777765 PP
+
+>> scaffold89.g48.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0      0.21   1.1e+02     281     372 ..      15     102 ..       5     106 .. 0.83
+   2 !   34.0   0.0   2.4e-11   1.3e-08     658     728 ..     228     301 ..     160     314 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 1.1 bits;  conditional E-value: 0.21
+                RLR 281 kkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        k +++  v+vl     l +q   +  +  +  + + + + G       + ++ + ++i+i+t+  L   L +    ++ +L   + +++De 
+  scaffold89.g48.t2  15 KPGDGPIVLVLCPTRELAQQVLAVSVQFGKASKLKSTCIYGGAPRGPQIRDLERGCEIVIATPGRLIDMLES----KKTNLRRVTYLVLDEA 102
+                        445666788888888899998888888888999999999999999999***************999888877....7889999999999996 PP
+
+  == domain 2  score: 34.0 bits;  conditional E-value: 2.4e-11
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad..eskyvlvatsg 728
+                         q+e+  v+++f+sGk  +Liat va  GlDi++ n v+ +++       v   Gr ara+  ++ y++   ++
+  scaffold89.g48.t2 228 SQPERDWVLKEFRSGKAPILIATDVASRGLDIPDINFVVNFDYPNSSEDYVHRIGRtARAErnGTSYTFFTPEN 301
+                        5899999************************************9999999999998567752145666666555 PP
+
+>> scaffold469.g6.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.9   0.8   3.1e-12   1.6e-09     565     715 ..     143     274 ..      86     311 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 36.9 bits;  conditional E-value: 3.1e-12
+                RLR 565 rfLlalfeekkkeLkrlaedpenenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstg 656
+                        r L+++ e  ++ +k+   + ++e  kLe+L+       y++   ++++if  tr+ +d    W++++  + + d           ss   +
+  scaffold469.g6.t1 143 RILVQKDELTLDGIKQFYVNVDKEEWKLETLCD-----LYETLTITQAVIFLNTRRKVD----WLTDK--MHKRDF--------TVSSMHGD 215
+                        67777777777888888889999999*****95.....6777788999********997....66653..333222........23777889 PP
+
+                RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrar 715
+                        m q+e+  ++++f++G+  +Li t     G+D+++  +vi y+l tn  + +   Gr+ 
+  scaffold469.g6.t1 216 MEQKERDVIMKEFRTGSSRVLITTDLLARGIDVQQVSLVINYDLPTNRESYIHRIGRGG 274
+                        ************************************************99999999874 PP
+
+>> scaffold245.g23.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0     0.014       7.2     319     372 ..      85     136 ..      77     144 .. 0.89
+   2 !   28.8   0.0     9e-10   4.7e-07     657     717 ..     262     323 ..     248     348 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 5.0 bits;  conditional E-value: 0.014
+                 RLR 319 lsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         +    + +++ +evv  + i+i+t++ L+  L++  +  +v+Ls    +++De 
+  scaffold245.g23.t2  85 IERKAKDRANWNEVVSREYILISTPNRLVHLLQQ--DPPKVNLSKVEWLVLDEG 136
+                         55567889999******************99999..8999************96 PP
+
+  == domain 2  score: 28.8 bits;  conditional E-value: 9e-10
+                 RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                          tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++    ++ +   Gr +ra 
+  scaffold245.g23.t2 262 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPPTAVSYIHRIGRtGRAG 323
+                         5899999*************************************999999999999844664 PP
+
+>> scaffold311.g10.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   4.9e-05     0.026     245     372 ..     151     281 ..      99     285 .. 0.81
+   2 !   19.7   0.0   4.9e-07   0.00026     656     768 ..     422     538 ..     419     597 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 4.9e-05
+                 RLR 245 valPa.leGkniiiclPtGsGktrvavyiakdhLe....kvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvig.lsGdtaekvsf 329
+                         +a+P+ l G + +i  PtGsGkt + +    + L+    k+k++++   v++     l  q + ++        + v g l G  ++k+  
+  scaffold311.g10.t1 151 MAIPSiLSGSDCLIKSPTGSGKTLAYAIPVIHKLQavapKIKRSDGPYCVIILPTRELALQCYDVFELLCRTYVWIVPGvLIGGEKKKAEK 241
+                         45665389***************998887777777333356777666666666777888998888877778889999884679999***** PP
+
+                 RLR 330 eevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          ++ +  +i+++t+  L   +      +  +Ls    +i+De 
+  scaffold311.g10.t1 242 SRLRRGINILLATPGRLLDHINT---TKCLQLSHIRCLIFDEA 281
+                         **************988777766...8999***********96 PP
+
+  == domain 2  score: 19.7 bits;  conditional E-value: 4.9e-07
+                 RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesk...yvlvatsgsgviek.etinefke 742
+                         +m q+++   +++fk+    +L  t va  GlD++  n +i+y   ++    +   Gr+   +sk   + +++ s+sg i+  ++ n + e
+  scaffold311.g10.t1 422 DMPQKDRVSNLENFKKKGSSVLFCTNVAARGLDLQYVNCIIQYTCSGDIEDYIHRSGRTARMGSKgnaVLFLLPSESGYIDVlQKHNLALE 512
+                         5889999999*****88899*************************************9765555422277999*****9986245677888 PP
+
+                 RLR 743 klmekailavqkmdeaeyrekilelq 768
+                         +l     l++ ++d  e  + i ++ 
+  scaffold311.g10.t1 513 ELKLFDTLSMLTLDSSEKVQNIQDIA 538
+                         87766666677777777666666665 PP
+
+>> scaffold72.g57.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0   0.00028      0.15     238     371 ..     326     460 ..     287     464 .. 0.73
+   2 !   22.3   0.0   8.2e-08   4.3e-05     652     713 ..     581     642 ..     562     675 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00028
+                RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekv..kka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta 324
+                        + + q + +   leG++++ c+ tGsGkt + ++ +  + L++v  +++   +  +++lv    l  q +++  k     +   + l G ++
+  scaffold72.g57.t1 326 PTPVQKNAIPVLLEGRDLMACAQTGSGKTAAFLLpLITHVLNEVidNQSdiAQPLILILVPTRELAVQIFKETKKFSYGTQLSCTVLYGGVN 417
+                        4455666666679****************998873334445544212221245568889999999999887777777778889999999999 PP
+
+                RLR 325 ekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                         +  ++ + k   ++++t+  L   +++    ++++L+    +++De
+  scaffold72.g57.t1 418 IHHHLKLLEKGVSLVVATPGRLADFILR----KKISLARTRYLVLDE 460
+                        9999999999999999999877766665....456666666666666 PP
+
+  == domain 2  score: 22.3 bits;  conditional E-value: 8.2e-08
+                RLR 652 sqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                        s + + tq+e++  + +f sG+  +L+at+va  GlDi++   vi ++l +   + v   Gr
+  scaffold72.g57.t1 581 SLNGDRTQEEREIALREFTSGQAPVLVATAVAARGLDIPDVKHVINFDLPAQIEEYVHRIGR 642
+                        5667789****************************************997766555555555 PP
+
+>> scaffold72.g57.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0   0.00028      0.15     238     371 ..     327     461 ..     288     465 .. 0.73
+   2 !   22.3   0.0   8.2e-08   4.3e-05     652     713 ..     582     643 ..     563     676 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00028
+                RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekv..kka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta 324
+                        + + q + +   leG++++ c+ tGsGkt + ++ +  + L++v  +++   +  +++lv    l  q +++  k     +   + l G ++
+  scaffold72.g57.t2 327 PTPVQKNAIPVLLEGRDLMACAQTGSGKTAAFLLpLITHVLNEVidNQSdiAQPLILILVPTRELAVQIFKETKKFSYGTQLSCTVLYGGVN 418
+                        4455666666679****************998873334445544212221245568889999999999887777777778889999999999 PP
+
+                RLR 325 ekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                         +  ++ + k   ++++t+  L   +++    ++++L+    +++De
+  scaffold72.g57.t2 419 IHHHLKLLEKGVSLVVATPGRLADFILR----KKISLARTRYLVLDE 461
+                        9999999999999999999877766665....456666666666666 PP
+
+  == domain 2  score: 22.3 bits;  conditional E-value: 8.2e-08
+                RLR 652 sqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                        s + + tq+e++  + +f sG+  +L+at+va  GlDi++   vi ++l +   + v   Gr
+  scaffold72.g57.t2 582 SLNGDRTQEEREIALREFTSGQAPVLVATAVAARGLDIPDVKHVINFDLPAQIEEYVHRIGR 643
+                        5667789****************************************997766555555555 PP
+
+>> scaffold51.g45.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.9   0.0   0.00022      0.12     250     372 ..      36     161 ..      20     165 .. 0.74
+   2 !   21.2   0.0   1.8e-07   9.5e-05     654     730 ..     304     383 ..     256     389 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.00022
+                RLR 250 leGkniiiclPtGsGktrvav...yiakdhLekvkka...ekgk.vvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevv 333
+                        l+ ++ii ++ tGsGkt + v   +i    L k+++    +kg   ++l+    l +q  ++e ++f k+ + r +++ G  + +    ++ 
+  scaffold51.g45.t3  36 LQNRDIIGIAETGSGKTAAFViplLIWIVGLPKIERDmdgDKGPyAIILAPTRELAQQ-IEEETQKFAKGlGIRTVSIIGGLSREEQGFQLR 126
+                        788999*9*********76432226777777776654312555426777777777666.888999998864577777777776666666899 PP
+
+                RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          ++i+i+t+  L   L +        L+  s +++De 
+  scaffold51.g45.t3 127 LGCEIVIATPGRLIDVLEN----RYLVLAQCSYVVLDEA 161
+                        99********999888877....7888999999999986 PP
+
+  == domain 2  score: 21.2 bits;  conditional E-value: 1.8e-07
+                RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtne...iamvqarGraradeskyvlvatsgsg 730
+                          g  q++++  ++ +k G  ++L+at va  G+Di++   vi y++        + +   Gra   +  + ++  ++sg
+  scaffold51.g45.t3 304 HGGKSQEAREFALNTLKAGGKDILVATDVAGRGIDIRDVSHVINYDMAKSIedyTHRIGRTGRAGKTGVAVSFLTAEDSG 383
+                        4445667777789999*****************************98654401144555566666666677788888777 PP
+
+>> scaffold260.g8.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.3   0.0     4e-11   2.1e-08     656     723 ..      30      98 ..      23     170 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 33.3 bits;  conditional E-value: 4e-11
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                        +m q ++   ++kfks ++ +L+at va  GlDi++ ++v+ +++ t     +   Gr ara  s   +
+  scaffold260.g8.t1  30 QMSQAKRLGALNKFKSKSISILVATDVASRGLDIPHVDVVVNFDIPTHSKDYIHRVGRtARAGRSGRSI 98 
+                        6889999999********************************************999967888775432 PP
+
+>> scaffold316.g26.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.0    0.0024       1.3     246     372 ..     357     487 ..     329     491 .. 0.75
+   2 !   23.3   0.0     4e-08   2.1e-05     657     713 ..     664     720 ..     616     742 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0024
+                 RLR 246 alP.aleGkniiiclPtGsGktrvavy.....iakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGdtaekv 327
+                         a+P  l+G++++ c+ tGsGkt + ++     + +d L     +  +    +v+     l  q +  e ++f +  + r +   G ++   
+  scaffold316.g26.t2 357 AIPiILDGRDLMACAQTGSGKTAAFLLpvltrMINDGLSGSLLSeiQAPAALVISPTRELACQIYM-EARKFSNgTMLRPVVCYGGVSVSH 446
+                         4442589***************98776422224455555433232356666777777788888655.555555515678888999999999 PP
+
+                 RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          ++++ + + i+++t+  L+  + k    ++v+Ls    +i+De 
+  scaffold316.g26.t2 447 QLNQIRNGCHILVATPGRLKDFVSK----QKVSLSKVKYLILDEA 487
+                         9***************999888877....899**********996 PP
+
+  == domain 2  score: 23.3 bits;  conditional E-value: 4e-08
+                 RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                           q++++e +  f+ G+  +Liat+va  GlDi++   vi y+l     + v   Gr
+  scaffold316.g26.t2 664 RLQQQREEALRDFRAGRCPVLIATAVAARGLDIEDVKQVINYDLPEEIDEYVHRIGR 720
+                         456777899*********************************986555555555555 PP
+
+>> scaffold316.g26.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.0    0.0025       1.3     246     372 ..     373     503 ..     345     507 .. 0.75
+   2 !   23.3   0.0   4.1e-08   2.2e-05     657     713 ..     680     736 ..     632     758 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.0025
+                 RLR 246 alP.aleGkniiiclPtGsGktrvavy.....iakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGdtaekv 327
+                         a+P  l+G++++ c+ tGsGkt + ++     + +d L     +  +    +v+     l  q +  e ++f +  + r +   G ++   
+  scaffold316.g26.t1 373 AIPiILDGRDLMACAQTGSGKTAAFLLpvltrMINDGLSGSLLSeiQAPAALVISPTRELACQIYM-EARKFSNgTMLRPVVCYGGVSVSH 462
+                         4442589***************98776422224455555433232356666777777788888655.555555515678888999999999 PP
+
+                 RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          ++++ + + i+++t+  L+  + k    ++v+Ls    +i+De 
+  scaffold316.g26.t1 463 QLNQIRNGCHILVATPGRLKDFVSK----QKVSLSKVKYLILDEA 503
+                         9***************999888877....899**********996 PP
+
+  == domain 2  score: 23.3 bits;  conditional E-value: 4.1e-08
+                 RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                           q++++e +  f+ G+  +Liat+va  GlDi++   vi y+l     + v   Gr
+  scaffold316.g26.t1 680 RLQQQREEALRDFRAGRCPVLIATAVAARGLDIEDVKQVINYDLPEEIDEYVHRIGR 736
+                         456777899*********************************986555555555555 PP
+
+>> scaffold260.g8.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.2   0.0   8.3e-11   4.4e-08     656     723 ..     101     169 ..      92     240 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 32.2 bits;  conditional E-value: 8.3e-11
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                        +m q ++   ++kfks ++ +L+at va  GlDi++ ++v+ +++ t     +   Gr ara  s   +
+  scaffold260.g8.t2 101 QMSQAKRLGALNKFKSKSISILVATDVASRGLDIPHVDVVVNFDIPTHSKDYIHRVGRtARAGRSGRSI 169
+                        6889999999********************************************999967888775432 PP
+
+>> scaffold20.g87.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0     0.048        25     252     270 ..      99     117 ..      81     163 .. 0.67
+   2 !   26.7   0.0     4e-09   2.1e-06     659     714 ..     441     496 ..     391     510 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.048
+                RLR 252 GkniiiclPtGsGktrvav 270
+                        G+++i + PtGsGkt + +
+  scaffold20.g87.t1  99 GRDVIAISPTGSGKTLAYL 117
+                        999************8755 PP
+
+  == domain 2  score: 26.7 bits;  conditional E-value: 4e-09
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                        q+ + +vi++f+ G++++L+at  a  GlDi+e   vi y+l  n    +   Gr+
+  scaffold20.g87.t1 441 QEYRFKVISAFRRGRVDVLVATDLASRGLDIPEVTHVINYDLPDNIEDYIHRCGRT 496
+                        444558************************************99998888888885 PP
+
+>> scaffold29.g108.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   1.2e-06   0.00065     249     371 ..      89     206 ..      75     210 .. 0.74
+   2 !   11.4   0.0   0.00016     0.085     657     722 ..     330     396 ..     319     408 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.2e-06
+                 RLR 249 aleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGdtaekvsfeevvksnDi 338
+                          ++Gk+++ ++ tGsGkt + +    + L+k   +++++ ++l     l  q   k+ k++ k  + + + + G  + +  f  + ++ Di
+  scaffold29.g108.t1  89 IIDGKDVVAMARTGSGKTAAFLIPMFEKLQKHT-SHGARALILSPTRELALQ-TMKFTKELGKfVGLKATCILGGDKMENQFAAIHENPDI 177
+                         589***************988888889999887.788899999877666666.5555555554236788888888888889********** PP
+
+                 RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                         ii+t+  +         +   +L  +  +++De
+  scaffold29.g108.t1 178 IIATPGRFMHVAV----EMELKLNTMEYVVFDE 206
+                         ****965433332....2445566666666666 PP
+
+  == domain 2  score: 11.4 bits;  conditional E-value: 0.00016
+                 RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv 722
+                         m   ++k    kf++ k+ +++ t +a  G+Di+  + vi y++       v   Gr ara  s  +
+  scaffold29.g108.t1 330 MDPTARKINTAKFQKKKVKVMVVTDIAARGIDIPMLDNVINYDFPPKSKLFVHRVGRvARAGRSGRA 396
+                         55566777789*********************************99999999999987788877654 PP
+
+>> scaffold42.g59.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.0   9.8e-11   5.2e-08     654     724 ..      17      88 ..       4     157 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 9.8e-11
+                RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlv 724
+                        s ++t +++k vi  f  Gk++lLi+t     G+Di++  +vi y+  +n  + +   Gr ara +   +++
+  scaffold42.g59.t1  17 SADLTHPQRKGVIRDFIAGKIDLLISTDAMARGIDIENVKVVISYDPPANIKTYIHRVGRtARAGQKGTAII 88 
+                        5689***********************************************999*99999678877655444 PP
+
+>> scaffold2.g95.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0     0.014       7.6     241     299 ..      54     110 ..      44     150 .. 0.84
+   2 !   23.1   0.0   4.7e-08   2.5e-05     651     714 ..     295     358 ..     228     385 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.014
+               RLR 241 yqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllve 299
+                        q   +lP ++G+++i  +  G+Gkt      a + ++++   ++++v+vl     l  
+  scaffold2.g95.t1  54 IQQRSILPIVKGRDVIAQAQSGTGKTATFSISALQGIDTKV--RETQVLVLSPTRELAV 110
+                       577789********************988888888888776..6777777765555555 PP
+
+  == domain 2  score: 23.1 bits;  conditional E-value: 4.7e-08
+               RLR 651 ssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                       ss   +m q+e++ +++ f+s    +Li t     GlD+++  +vi y+l  n    +   Gr+
+  scaffold2.g95.t1 295 SSMHGDMPQKERESIMKDFRSAATRVLITTDLWARGLDVSQVSLVINYDLPNNRELYIHRIGRS 358
+                       677789********************************************99986666655553 PP
+
+>> scaffold253.g5.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0     0.011       5.9     224     269 ..     212     257 ..     165     264 .. 0.69
+   2 !   22.3   0.0   8.2e-08   4.3e-05     606     714 ..     460     554 ..     444     585 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.011
+                RLR 224 esvvadasleselklrsyqlevalPaleGk.niiiclPtGsGktrva 269
+                        e v ++ +l +  k+ + q   a+P ++Gk +++ c+ tGsGkt + 
+  scaffold253.g5.t1 212 EIVNTNIELSNYTKPTPVQ-KYAIPIIKGKrDLMACAQTGSGKTAAF 257
+                        3334444555556666666.5799*****945788*********875 PP
+
+  == domain 2  score: 22.3 bits;  conditional E-value: 8.2e-08
+                RLR 606 leesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                        + +++ +++f+ t++ adaL+++++++ +++        + G        +  q e++  +  f+ G+  +L+at+va  GlDi++   vi 
+  scaffold253.g5.t1 460 SGPDSLTLVFVETKRGADALHEYLDQE-GYKA-----TSIHG--------DRLQYEREDALMSFRGGRTPILVATAVAARGLDIPNVKHVIN 537
+                        567788889999999999999888754.3333.....33322........345778889999****************************** PP
+
+                RLR 698 yglvtneiamvqarGra 714
+                        +++ t+  + v   Gr+
+  scaffold253.g5.t1 538 FDMPTDIEEYVHRIGRT 554
+                        ***99988888888875 PP
+
+>> scaffold60.g66.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.2   0.00022      0.12     240     373 ..      71     200 ..      61     205 .. 0.80
+   2 !   17.1   0.1     3e-06    0.0016     655     702 ..     320     367 ..     254     409 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.00022
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk..ryrviglsGdtaekvsf 329
+                        + q e +  a+ G +i+  +  G Gkt v v+ + + +e v+  ++  v+vl     l  q  s+e++rf k     +v  + G ++ k   
+  scaffold60.g66.t1  71 EVQHECIPQAILGMDIVCQAKSGMGKTAVFVLATLQQIEPVD--NQVSVLVLCHTRELAFQ-ISREYERFSKYmpVLKVAVFFGGISIKKDE 159
+                        579999999******************************999..8899*****99999999.777788887752257888888988888775 PP
+
+                RLR 330 eevvksn.Diiilta.qiLensLkkleedaiveLsvfsLiiiDeCh 373
+                        + +  ++  i++ t+ +iL  +L +   d   +L      i+DeC 
+  scaffold60.g66.t1 160 QVLKTNCpHIVVGTPgRIL--ALAR---DRALNLKHIKHFILDECD 200
+                        5554444267777872344..4555...889999999999999996 PP
+
+  == domain 2  score: 17.1 bits;  conditional E-value: 3e-06
+                RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702
+                        + m q+e+     +fk+ +  +L+at     G+Di++ nivi y++  
+  scaffold60.g66.t1 320 RVMPQEERLSRYRQFKDFQKRILVATNLFGRGMDIERVNIVINYDMPE 367
+                        56778888888899******************************9854 PP
+
+>> scaffold68.g7.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.1    0.0034       1.8     238     352 ..      71     184 ..      51     201 .. 0.74
+   2 !   22.1   0.2   9.4e-08     5e-05     587     700 ..     247     362 ..     230     376 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.0034
+               RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsf 329
+                       + + q e +  al G++i+  +  G+Gkt + +    + ++  k   ++ v+v   ++ l + +  k   ++ k+ + +v+   G +++k  +
+  scaffold68.g7.t1  71 PSPIQEESIPVALSGRDIMARAKNGTGKTAAYLIPLLERIDAEKDVIQAMVLVPTRELALQTAQICK---ELSKHmGVKVMVTLGGVSLKDDI 160
+                       66789999999******************88877777888888866777777766666666554444...44443146677667888999999 PP
+
+               RLR 330 eevvksnDiiilta.qiLensLkk 352
+                        ++ ++  ++++t+ +iL+   kk
+  scaffold68.g7.t1 161 MRLYQTVHVVVATPgRILDLMRKK 184
+                       999999999999983466544444 PP
+
+  == domain 2  score: 22.1 bits;  conditional E-value: 9.4e-08
+               RLR 587 nenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqs..tgmtqreqkevidkfksGklnlL 677
+                       +e + +e+L+ k + ++y   e+ + +    t      ++q i   + ++ v++ a+ ++  G s       m q +++ v + f++G++  L
+  scaffold68.g7.t1 247 YEINLMEELTLKGITQYYAFVEEKQKVHCLNTLFAKLQINQSIIFCNSVQRVELLAKKITDLGYSCFYihSRMEQSKRNRVFHDFRNGEFRNL 339
+                       666677778878788888888888888888888777788888888889999************9986511679******************** PP
+
+               RLR 678 iatsvaeeGlDikeCnivirygl 700
+                       ++t     G+Di+  n+vi +++
+  scaffold68.g7.t1 340 VSTDLFTRGIDIQAVNVVINFDF 362
+                       *******************9986 PP
+
+>> scaffold154.g43.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.2   1.3e-09     7e-07     666     779 ..       1     115 [.       1     136 [. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 1.3e-09
+                 RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradesk.yvlvatsgsgvieketinefkeklmekailavqk 754
+                         +++fksG +n+Liat  a  GlDi+    vi  ++ t   + +   Gr ara +s   v ++ +  +   ke i   k  + ++ i     
+  scaffold154.g43.t1   1 LENFKSGAINVLIATDLAGRGLDIEGVKTVINMNMPTKLKSYIHRVGRtARAGKSGrAVTLVGEKERKFLKEIIKSSKLPVKNRIIPP--- 88 
+                         579********************************************977**999615567788999999999998887766665532... PP
+
+                 RLR 755 mdeaeyrekilelqt..qellerkake 779
+                            ++y+ k++++    +e+l+ +a e
+  scaffold154.g43.t1  89 EVVEKYKSKLKDISSdiKEILKEEADE 115
+                         223456666666654113444444443 PP
+
+>> scaffold121.g136.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   0.0       3.9     2e+03     317     371 ..      20      70 ..       4      73 .. 0.74
+   2 !   25.4   0.3   9.7e-09   5.1e-06     596     728 ..     146     267 ..     131     288 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 3.9
+                  RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                          + + G     + + ++ +  D++i+t+  L   + +     +v++s + ++++De
+  scaffold121.g136.t1  20 VCIVGGLPYPAQMRNLSRPYDVLIATPGRLIDFINR----RKVNFSRLEVLVLDE 70 
+                          456666677778889999999999999888776665....788888888888888 PP
+
+  == domain 2  score: 25.4 bits;  conditional E-value: 9.7e-09
+                  RLR 596 rfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaee 685
+                          ++++l++  + e+   +i+ft t++ ad L   ++++      d +a  L G        +m qr++   i ++k+ k+ +L+at va  
+  scaffold121.g136.t1 146 KNRLLDHILSQENVDSTIVFTATKRHADKLVIDLRDK------DYRAAALHG--------DMSQRQRTRTITQLKDKKISILVATDVAAR 221
+                          4567888888888899999999999988887655443......567778876........69999999********************** PP
+
+                  RLR 686 GlDikeCniviryglvtne...iamvqarGraradeskyvlvatsg 728
+                          G+D++    vi ++l       ++ +   Gra a ++   + a ++
+  scaffold121.g136.t1 222 GIDVQAITHVINFDLPNSAedyVHRIGRTGRAGATGTALSFAAGKD 267
+                          **************97665111445555566666666655555444 PP
+
+>> scaffold45.g77.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0      0.37   1.9e+02     240     269 ..     191     220 ..     174     233 .. 0.83
+   2 !   23.2   0.0   4.4e-08   2.3e-05     659     713 ..     473     530 ..     442     551 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 0.37
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrva 269
+                        + q++ +   l G+++i ++ tGsGkt v 
+  scaffold45.g77.t1 191 PIQIQGIPTVLSGRDMIGIAFTGSGKTLVF 220
+                        56677777789****************985 PP
+
+  == domain 2  score: 23.2 bits;  conditional E-value: 4.4e-08
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGr 713
+                        q+e+   i+ f++Gk ++L+at va  GlD ++   vi y++   + n ++ +   Gr
+  scaffold45.g77.t1 473 QEERVRAIQSFREGKKDVLVATDVASKGLDFPNIQHVINYDMpedIENYVHRIGRTGR 530
+                        66677789********************************983335555555555555 PP
+
+>> scaffold45.g77.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0   7.7e-09   4.1e-06     658     714 ..      90     149 ..      32     173 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 25.7 bits;  conditional E-value: 7.7e-09
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGra 714
+                         q+e+   i+ f++Gk ++L+at va  GlD ++   vi y++   + n ++ +   Gr 
+  scaffold45.g77.t4  90 DQEERVRAIQSFREGKKDVLVATDVASKGLDFPNIQHVINYDMpedIENYVHRIGRTGRC 149
+                        46677778*********************************9833355555555555554 PP
+
+>> scaffold45.g77.t5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0   7.7e-09   4.1e-06     658     714 ..      90     149 ..      32     173 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 25.7 bits;  conditional E-value: 7.7e-09
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGra 714
+                         q+e+   i+ f++Gk ++L+at va  GlD ++   vi y++   + n ++ +   Gr 
+  scaffold45.g77.t5  90 DQEERVRAIQSFREGKKDVLVATDVASKGLDFPNIQHVINYDMpedIENYVHRIGRTGRC 149
+                        46677778*********************************9833355555555555554 PP
+
+>> scaffold39.g87.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.11        59     298     373 ..     278     352 ..     265     362 .. 0.88
+   2 !   20.9   0.0   2.2e-07   0.00012     658     767 ..     494     610 ..     481     640 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.11
+                RLR 298 veqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373
+                          q + +  k ++  + r i++ G +a    +  + k+ +i+++t+  + + L++  ++   +L     ++iDe  
+  scaffold39.g87.t1 278 AIQVRDHIVKAIKYTKLRCISVVGGMASDKQLRLLKKCPEIVVATPGRFYKLLTD-GQEHLNKLDLIKYLVIDEVD 352
+                        56777788899999999******************************99999998.67778899999999***975 PP
+
+  == domain 2  score: 20.9 bits;  conditional E-value: 2.2e-07
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsgsgv......ieketinefke 742
+                         qr++ + +d+fk+ +  lLiat va  GlDi+    v+ y l  +    +   Gr ara      +v+   s +       +  +in+  e
+  scaffold39.g87.t1 494 QQRQRLKALDRFKEQETGLLIATDVAARGLDIPLIKHVVHYHLPKDPKIYIHRSGRtARATREGLSVVLEGPSDMqaykkiCQLMKINDELE 585
+                        46666689***********************************9998888888898679988777677655443211000022345666666 PP
+
+                RLR 743 klmekailavqkmdeaeyrekilel 767
+                         +  ++   v   ++ e ++ki + 
+  scaffold39.g87.t1 586 IFSVDTSYFVGIKKRIELARKIDKA 610
+                        6666666666666666666666544 PP
+
+>> scaffold65.g61.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.1   5.7e-08     3e-05     662     700 ..      20      58 ..       8      62 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 5.7e-08
+                RLR 662 qkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                        +  ++++f++Gk  +Li t v   G+D+ +  iv+ y+l
+  scaffold65.g61.t1  20 RLAILNRFREGKEKVLITTNVMARGIDVDQVTIVVNYDL 58 
+                        34799********************************97 PP
+
+>> scaffold245.g23.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.0   5.2e-08   2.8e-05     238     331 ..     185     277 ..     123     305 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 5.2e-08
+                 RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                         + + q++ +   le + ++ c+PtGsGkt + +    + L+k +k ++ + v++     l +q ++++ +  ++ ++r+  l+ + a+  s
+  scaffold245.g23.t3 185 PTPIQMQAISVMLEQRELLACAPTGSGKTLAFIIPILHKLKK-PKRDGFRAVIISPTRELAQQIYREFCRMNKNIGFRIHVLTKAKATSNS 274
+                         56789999*********************9777666666665.5578889999999999****999999999999****999999888888 PP
+
+                 RLR 329 fee 331
+                         f+e
+  scaffold245.g23.t3 275 FGE 277
+                         876 PP
+
+>> scaffold245.g23.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.0   5.2e-08   2.8e-05     238     331 ..     185     277 ..     123     305 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 5.2e-08
+                 RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                         + + q++ +   le + ++ c+PtGsGkt + +    + L+k +k ++ + v++     l +q ++++ +  ++ ++r+  l+ + a+  s
+  scaffold245.g23.t4 185 PTPIQMQAISVMLEQRELLACAPTGSGKTLAFIIPILHKLKK-PKRDGFRAVIISPTRELAQQIYREFCRMNKNIGFRIHVLTKAKATSNS 274
+                         56789999*********************9777666666665.5578889999999999****999999999999****999999888888 PP
+
+                 RLR 329 fee 331
+                         f+e
+  scaffold245.g23.t4 275 FGE 277
+                         876 PP
+
+>> scaffold121.g191.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1      0.31   1.7e+02     260     371 ..     580     682 ..     577     687 .. 0.72
+   2 !   18.9   0.0   8.9e-07   0.00047     656     724 ..     796     866 ..     764     887 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.31
+                  RLR 260 PtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdt...aekvsfeevvk.snDiiiltaqi 345
+                            G Gkt va+  a + +       k +v vlv    l  q ++ + +r+ +    +  +s  +   ++k ++e v+k s Di+i t +i
+  scaffold121.g191.t1 580 DVGYGKTEVAMRAAFKAVADG----KKQVAVLVPTTVLSMQHYETFKERMANFPVNIGVVSRFIkpkELKKTLEGVAKgSVDILIGTHRI 665
+                          569999999998775544433....35799999999999998888888888877777777765511156789999999568******999 PP
+
+                  RLR 346 LensLkkleedaiveLsvfsLiiiDe 371
+                          + +          v++ ++ LiiiDe
+  scaffold121.g191.t1 666 VSKD---------VQFKDLGLIIIDE 682
+                          8654.........5555666666665 PP
+
+  == domain 2  score: 18.9 bits;  conditional E-value: 8.9e-07
+                  RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviry.glvtneiamvqarGr.aradeskyvlv 724
+                          +m  +    + ++fk+G+ ++L+ t++ e+G+Di++ n ++           + q rGr +r +   y++ 
+  scaffold121.g191.t1 796 QMPADSIDTIFHAFKQGETDILVTTTIVENGVDIPNANTILIDrADAYGMADLYQLRGRvGRWNRPAYAYF 866
+                          56666778899***************************765430334445567788888557666666655 PP
+
+>> scaffold154.g42.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.1   2.3e-07   0.00012     157     334 ..      88     276 ..      67     295 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 2.3e-07
+                 RLR 157 rlvdkenwfkalklvlrkernkekelwiveknikesetedlevveesdislaeedvecld.............lsedsdeesvvadasles 234
+                         ++ +k    k  k + rk+ n+ ++  + ek++  s+t+ l+  eesd+    e+    +             +s+           +   
+  scaffold154.g42.t1  88 KIQNKRKENKKKKGINRKKDNLIEN--GSEKAMATSDTDGLSSSEESDTASETEEKAKTEfftkpppqvlhekFSQMNLSRPLLKAVNDLG 176
+                         5555544455556666666666654..7788889999999999999999865555555555667777764444333444444556677788 PP
+
+                 RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdta 324
+                          l++ + q   +  al Gk+i  c+ tG+Gkt + ++ i ++ L +  +   ++v+++v    l  q +s+    + k     i l+ d  
+  scaffold154.g42.t1 177 YLHPTPIQSSTIPVALLGKDICACAATGTGKTAAFMLpILERLLFRPRQVPTTRVLIMVPTRELAIQVHSVTT-ALAKYTSVQICLAADEH 266
+                         9*******************************9977658899999999999*********9999999887754.34444444455666666 PP
+
+                 RLR 325 ekvsfeevvk 334
+                          k  ++e+++
+  scaffold154.g42.t1 267 FKDEMDEIIR 276
+                         6666666665 PP
+
+>> scaffold121.g258.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.3   0.0       4.4   2.3e+03     260     275 ..      37      52 ..      28      75 .. 0.80
+   2 !   19.7   0.1   5.1e-07   0.00027     635     735 ..     463     561 ..     436     625 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -3.3 bits;  conditional E-value: 4.4
+                  RLR 260 PtGsGktrvavyiakd 275
+                           tGsGkt+  + + k+
+  scaffold121.g258.t1  37 ITGSGKTFTMAHVIKK 52 
+                          59*****999988875 PP
+
+  == domain 2  score: 19.7 bits;  conditional E-value: 5.1e-07
+                  RLR 635 laevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivi.....ryglvtneiamvqarGra.rade 718
+                          l+e++vka++L          ++   e+  +i+ ++ G +++L+      eGlDi+e  +v+     + g++  e ++vq+ Gra r  e
+  scaffold121.g258.t1 463 LQEIGVKAKYLHS--------DIDTLERVAIIKDLRRGVFDVLVGINLLREGLDIPEVSLVVildadKEGFLRSETSLVQTCGRAaRNAE 544
+                          5555555555532........2333466789****************************998333333589*************648888 PP
+
+                  RLR 719 skyvlvatsgsgvieke 735
+                           ++++ a + ++ ie  
+  scaffold121.g258.t1 545 GRVIMYADKKTKSIEAT 561
+                          88889999999999865 PP
+
+>> scaffold89.g48.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0     0.065        34     281     372 ..      15     102 ..       5     106 .. 0.84
+   2 !   12.8   0.0   6.2e-05     0.033     658     687 ..     228     257 ..     148     259 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.065
+                RLR 281 kkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        k +++  v+vl     l +q   +  +  +  + + + + G       + ++ + ++i+i+t+  L   L +    ++ +L   + +++De 
+  scaffold89.g48.t3  15 KPGDGPIVLVLCPTRELAQQVLAVSVQFGKASKLKSTCIYGGAPRGPQIRDLERGCEIVIATPGRLIDMLES----KKTNLRRVTYLVLDEA 102
+                        455666788888888999999999999889999999*****9999999***************999888877....7889999999999996 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 6.2e-05
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGl 687
+                         q+e+  v+++f+sGk  +Liat va  Gl
+  scaffold89.g48.t3 228 SQPERDWVLKEFRSGKAPILIATDVASRGL 257
+                        5899999********************998 PP
+
+>> scaffold162.g3.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.6   1.8e-06   0.00095     246     352 ..      43     150 ..      33     169 .. 0.72
+   2 ?   -2.6   0.0       2.7   1.4e+03     656     683 ..     289     316 ..     286     319 .. 0.84
+   3 ?   -3.5   0.2       5.2   2.7e+03     540     583 ..     426     471 ..     423     473 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1.8e-06
+                RLR 246 alPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlksk..efkrflkkryrviglsGdtaekvsfeevvk 334
+                        +  aleGk++i  + tGsGkt + +  + +  L+k  +   + v++l  k  l +q +++  e   +  k+ r i + G  + +   + + k
+  scaffold162.g3.t1  43 IPLALEGKDVIAKAKTGSGKTAAYIIpVIETVLKKGREKGITGVIILPSK-ELCKQAHKNilELTAYCTKQVRTIDI-GHHNAQTMKPLLSK 132
+                        5559*****************98765488999998886666678888777.78888888722445566666666666.677777788999** PP
+
+                RLR 335 snDiiiltaqiLensLkk 352
+                        + +ii++t+  L  + k+
+  scaffold162.g3.t1 133 NPNIIVTTPSKLLVAHKH 150
+                        ********9877666554 PP
+
+  == domain 2  score: -2.6 bits;  conditional E-value: 2.7
+                RLR 656 gmtqreqkevidkfksGklnlLiatsva 683
+                        ++ q+ +  ++++f++G +++++at  a
+  scaffold162.g3.t1 289 ELPQNSRVHIVNEFNKGVYDIVVATDEA 316
+                        567888999****************766 PP
+
+  == domain 3  score: -3.5 bits;  conditional E-value: 5.2
+                RLR 540 vDalaaLkdfy...seekakkfdvieddrfLlalfeekkkeLkrlae 583
+                         Dal+a+        + k+ k++ ++ + +L a fe++ k L+ l +
+  scaffold162.g3.t1 426 SDALKAVTRIAireARLKEIKVQLLNSE-KLKAHFEDNPKDLQVLRH 471
+                        5555555554411134467788888888.9999*****999988765 PP
+
+>> scaffold303.g22.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   1.1      0.35   1.9e+02     170     236 ..       6      77 ..       3      90 .. 0.82
+   2 ?    2.0   0.0      0.12        61     238     269 ..     272     303 ..     184     424 .. 0.75
+   3 !   13.6   0.0   3.4e-05     0.018     658     724 ..     544     610 ..     482     621 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 0.4 bits;  conditional E-value: 0.35
+                 RLR 170 lvlrkernkekelwiveknikesetedlev.veesdislaeedvecldlse....dsdeesvvadaslesel 236
+                         +v rk+ nk + + + ++++++s +++++   ++s ++  + +v+ + +s+    +sd  +v + ++ es +
+  scaffold303.g22.t1   6 QVKRKTGNKVDSIDGTNNSSSNSAVKETKRnTSTSTVDQRQISVNSKTISNelfcHSDATNVQTTSTKESRI 77 
+                         57799*******************9998877999*99999****9999998677677777776666666654 PP
+
+  == domain 2  score: 2.0 bits;  conditional E-value: 0.12
+                 RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrva 269
+                         + + q++v   al   n+i+   t sGkt   
+  scaffold303.g22.t1 272 PTAVQMQVLPHALSLHNLIVSSATASGKTLSF 303
+                         56789****9******************9654 PP
+
+  == domain 3  score: 13.6 bits;  conditional E-value: 3.4e-05
+                 RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlv 724
+                          q+++ ++++k+ s ++ +++at v   GlD+ +   vi ++l   + + +   Gra   +sk ++v
+  scaffold303.g22.t1 544 NQKDRFNILEKLSSEEIEIVVATGVLGRGLDLVKVKQVIHFDLPKSVDEFIHRCGRAGRLGSKGTVV 610
+                         4677889************************************999999999999997766665444 PP
+
+>> scaffold455.g11.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.2     0.023        12     254     375 ..     659     770 ..     655     814 .. 0.80
+   2 !    8.3   0.0    0.0014      0.75     645     698 ..     960    1013 ..     929    1037 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.023
+                 RLR 254 niiiclPtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiilt. 342
+                         n++  +P  +Gkt va +++ k+ Le++      k +++   v + + +  +    f++ + +v g+ G   +  +f      +D+ ++t 
+  scaffold455.g11.t1 659 NLVYSAPSSAGKTLVAeILMLKRILETKR-----KAIYILPFVSIAKEKLYHLQSLFEEIGVKVEGFVGSQVPTGGFA----VTDVAVCTi 740
+                         788899********995678899999998.....8899999999999988888889999999*999999887777774....356666661 PP
+
+                 RLR 343 ..aqiLensLkkleedaiveLsvfsLiiiDeChht 375
+                           a+ L+n L +       ++s    +iiDe h  
+  scaffold455.g11.t1 741 ekANSLVNRLID-----EKKMSEIGCLIIDEMHMI 770
+                         115555555555.....45688899999***9975 PP
+
+  == domain 2  score: 8.3 bits;  conditional E-value: 0.0014
+                 RLR  645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviry 698 
+                          +i +G + +  g+t +e++ +  +f++G l +Liats    G++++   ++ir 
+  scaffold455.g11.t1  960 VIRKGIAFHHAGLTFDEREIIEGAFRNGVLKILIATSTLSSGVNLPARRVIIRT 1013
+                          56677777888899988888888************************9999985 PP
+
+>> scaffold265.g33.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.7   0.0   1.6e-05    0.0086     609     717 ..     233     336 ..     165     352 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 14.7 bits;  conditional E-value: 1.6e-05
+                 RLR 609 sargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryg 699
+                         + ++iif +t+   d +++++ e+ + +    ++  +      s+      +e++  +++fk+ +  +Li t va  G+D+k    vi   
+  scaffold265.g33.t1 233 NEQAIIFCRTKLDCDNMERYLVEKGGGNP---RTSKFACVCLHSDRS---PKERQANLQAFKDKRAKFLICTDVAARGIDVKGIPFVINVT 317
+                         45677788888888888777777776665...444444444444433...3677888*******************************999 PP
+
+                 RLR 700 lvtneiamvqarGr.arad 717
+                         l  ++ + +   Gr +ra+
+  scaffold265.g33.t1 318 LPDDKANYIHRIGRvGRAE 336
+                         9877777777777644555 PP
+
+>> scaffold25.g90.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.0     0.032        17     245     277 ..     136     169 ..      61     178 .. 0.78
+   2 ?    8.3   0.0    0.0014      0.72     671     721 ..     413     463 ..     396     499 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.8 bits;  conditional E-value: 0.032
+                RLR 245 valPaleGkniiicl.PtGsGktrvavyiakdhL 277
+                        +a+P +  +n +ic+  tGsGkt + +    + L
+  scaffold25.g90.t1 136 LAIPKILCRNNVICAaQTGSGKTVAYLAPIIHAL 169
+                        78899888988888627******87655444445 PP
+
+  == domain 2  score: 8.3 bits;  conditional E-value: 0.0014
+                RLR 671 sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                        +   nl++ t +a  GlD +   +vi y+    ++  +   Gr+   +s+y
+  scaffold25.g90.t1 413 DSGKNLIVCTDIASRGLDTSYVSLVINYDCPMTVMDYLHRAGRTGRVGSMY 463
+                        5567*************************9999999999999987777777 PP
+
+>> scaffold149.g58.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00036      0.19     230     374 ..     154     278 ..      91     286 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00036
+                 RLR 230 asleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvigls 320
+                          + e ++ l ++q e +    + + +++ + t +Gkt va y     L++++     +v++      l +q++++ +++f      v  ++
+  scaffold149.g58.t4 154 PAKEYPFILDPFQKEAIKCLDNNQSVLVSAHTSAGKTVVAEYAVAMSLQRKQ-----RVIYTTPIKALSNQKYREMYEEFS----DVGLMT 235
+                         4567789999*****9999999999***********************9998.....777776666677776655555555....566678 PP
+
+                 RLR 321 GdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                         Gd++ +        s   ii+t++iL+  L +        +   + +i+De h 
+  scaffold149.g58.t4 236 GDVTINP-------SASAIIMTTEILRSMLYR----GSEMMREVAWVIFDEIHY 278
+                         8887654.......455678888888888887....222345567788888886 PP
+
+>> scaffold149.g58.t5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.0   0.00041      0.22     230     374 ..     154     278 ..      91     286 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00041
+                 RLR 230 asleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvigls 320
+                          + e ++ l ++q e +    + + +++ + t +Gkt va y     L++++     +v++      l +q++++ +++f      v  ++
+  scaffold149.g58.t5 154 PAKEYPFILDPFQKEAIKCLDNNQSVLVSAHTSAGKTVVAEYAVAMSLQRKQ-----RVIYTTPIKALSNQKYREMYEEFS----DVGLMT 235
+                         4567789999*****9999999999***********************9998.....777776666677776655555555....566678 PP
+
+                 RLR 321 GdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                         Gd++ +        s   ii+t++iL+  L +        +   + +i+De h 
+  scaffold149.g58.t5 236 GDVTINP-------SASAIIMTTEILRSMLYR----GSEMMREVAWVIFDEIHY 278
+                         8887654.......455678888888888887....222345567788888886 PP
+
+>> scaffold58.g18.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0   0.00025      0.13     664     698 ..      27      61 ..      17     101 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.00025
+                RLR 664 evidkfksGklnlLiatsvaeeGlDikeCniviry 698
+                          ++ f+sGk+ + +at     GlDike + vi+ 
+  scaffold58.g18.t1  27 GFVKDFQSGKIEMAVATEDIVRGLDIKELDHVILT 61 
+                        56899************************999974 PP
+
+>> scaffold41.g35.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00047      0.25     675     729 ..     295     352 ..     273     364 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00047
+                RLR 675 nlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ara..deskyvlvatsgs 729
+                         lLi t v   G+D++e   vi+y+  +n  a v   Gr ar   ++s  ++++  + 
+  scaffold41.g35.t3 295 GLLICTDVMARGVDVPEVHWVIQYDPPSNASAFVHRCGRtARIgkKGSALAFLLPAEE 352
+                        59************************************94453225677777775554 PP
+
+>> scaffold41.g35.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00047      0.25     675     729 ..     295     352 ..     273     364 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00047
+                RLR 675 nlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ara..deskyvlvatsgs 729
+                         lLi t v   G+D++e   vi+y+  +n  a v   Gr ar   ++s  ++++  + 
+  scaffold41.g35.t4 295 GLLICTDVMARGVDVPEVHWVIQYDPPSNASAFVHRCGRtARIgkKGSALAFLLPAEE 352
+                        59************************************94453225677777775554 PP
+
+>> scaffold222.g25.t1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.0   0.00051      0.27     104     206 ..       7     107 ..       2     205 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.8 bits;  conditional E-value: 0.00051
+                 RLR 104 lllkllqpelkdkllvrdvlddlse.elltiedrerlaiaetkGneaGvrkllkrlvdke.nwfkalklvlrkernkekelwiveknikes 192
+                         + l++ + +++d+l + d+l++l + ++lt+ d +r+++ +t+  +  v+ ll+++  k    +  +  +l+k+    +    ++kni+  
+  scaffold222.g25.t1   7 RTLRQYRVTFRDNLEPLDILSHLYQeKVLTKGDMDRIKAENTR--HERVEMLLDTIPRKGkRAYTKFADILEKTTGYSHLASLLNKNISA- 94 
+                         5678888999***********99765999*******9986665..567999*****66651456779999*9998877777777777764. PP
+
+                 RLR 193 etedlevveesdis 206
+                          t d+ +v +s +s
+  scaffold222.g25.t1  95 -TGDAVDVVDSGVS 107
+                         .3444444444443 PP
+
+>> scaffold207.g12.t2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0     0.045        24     251     374 ..     229     341 ..     199     357 .. 0.60
+   2 ?    4.3   0.1     0.023        12     659     708 ..     517     564 ..     512     572 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.045
+                 RLR 251 eGkniiiclPtGsGkt.rvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv.ksn.Di 338
+                         +   iii   tG+Gkt +v  yi ++ L   + a    vv    ++  +        +r+  +r   ig+s  ++  v f+ +  +s+  i
+  scaffold207.g12.t2 229 KHSVIIIRGATGCGKTtQVPQYILDEALMGRHGAACNVVVTQPRRISAISV-----AERVSTERCEPIGMS--IGYSVRFDSILpRSHgSI 312
+                         3445778889*****73699*****99998884444444444455555444.....233334444445554..344455555542333235 PP
+
+                 RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                           +t  +L  +L +        L+  s +++De h+
+  scaffold207.g12.t2 313 FFCTVGVLLRKLES-------GLTGVSHVVVDEIHE 341
+                         55666666555555.......455556666666665 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.023
+                 RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamv 708
+                         +++q++v +   +G   +++at +ae  + i +   vi  + v  +i+m 
+  scaffold207.g12.t2 517 REDQRKVFQPVPDGVRKIILATNIAETSITIDDVVFVI--DSVKAKIKMF 564
+                         689****************************9866665..6788888885 PP
+
+>> scaffold207.g12.t3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0     0.045        24     251     374 ..     229     341 ..     199     357 .. 0.60
+   2 ?    4.3   0.1     0.023        12     659     708 ..     517     564 ..     512     572 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.045
+                 RLR 251 eGkniiiclPtGsGkt.rvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv.ksn.Di 338
+                         +   iii   tG+Gkt +v  yi ++ L   + a    vv    ++  +        +r+  +r   ig+s  ++  v f+ +  +s+  i
+  scaffold207.g12.t3 229 KHSVIIIRGATGCGKTtQVPQYILDEALMGRHGAACNVVVTQPRRISAISV-----AERVSTERCEPIGMS--IGYSVRFDSILpRSHgSI 312
+                         3445778889*****73699*****99998884444444444455555444.....233334444445554..344455555542333235 PP
+
+                 RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                           +t  +L  +L +        L+  s +++De h+
+  scaffold207.g12.t3 313 FFCTVGVLLRKLES-------GLTGVSHVVVDEIHE 341
+                         55666666555555.......455556666666665 PP
+
+  == domain 2  score: 4.3 bits;  conditional E-value: 0.023
+                 RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamv 708
+                         +++q++v +   +G   +++at +ae  + i +   vi  + v  +i+m 
+  scaffold207.g12.t3 517 REDQRKVFQPVPDGVRKIILATNIAETSITIDDVVFVI--DSVKAKIKMF 564
+                         689****************************9866665..6788888885 PP
+
+>> scaffold207.g12.t4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0     0.046        24     251     374 ..     244     356 ..     214     372 .. 0.60
+   2 ?    4.2   0.1     0.024        13     659     708 ..     532     579 ..     527     587 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 3.3 bits;  conditional E-value: 0.046
+                 RLR 251 eGkniiiclPtGsGkt.rvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv.ksn.Di 338
+                         +   iii   tG+Gkt +v  yi ++ L   + a    vv    ++  +        +r+  +r   ig+s  ++  v f+ +  +s+  i
+  scaffold207.g12.t4 244 KHSVIIIRGATGCGKTtQVPQYILDEALMGRHGAACNVVVTQPRRISAISV-----AERVSTERCEPIGMS--IGYSVRFDSILpRSHgSI 327
+                         3445778889*****73699*****99998884444444444455555444.....233334444445554..344455555542333235 PP
+
+                 RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                           +t  +L  +L +        L+  s +++De h+
+  scaffold207.g12.t4 328 FFCTVGVLLRKLES-------GLTGVSHVVVDEIHE 356
+                         55666666555555.......455556666666665 PP
+
+  == domain 2  score: 4.2 bits;  conditional E-value: 0.024
+                 RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamv 708
+                         +++q++v +   +G   +++at +ae  + i +   vi  + v  +i+m 
+  scaffold207.g12.t4 532 REDQRKVFQPVPDGVRKIILATNIAETSITIDDVVFVI--DSVKAKIKMF 579
+                         689****************************9866665..6788888885 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (917 nodes)
+Target sequences:                      28983  (14362356 residues searched)
+Passed MSV filter:                      1672  (0.057689); expected 579.7 (0.02)
+Passed bias filter:                      448  (0.0154573); expected 579.7 (0.02)
+Passed Vit filter:                        96  (0.00331229); expected 29.0 (0.001)
+Passed Fwd filter:                        55  (0.00189766); expected 0.3 (1e-05)
+Initial search space (Z):              28983  [actual number of targets]
+Domain search space  (domZ):              55  [number of targets reported over threshold]
+# CPU time: 1.08u 0.04s 00:00:01.12 Elapsed: 00:00:00.91
+# Mc/sec: 14363.77
+//
+[ok]

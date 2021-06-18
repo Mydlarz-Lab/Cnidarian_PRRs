@@ -1,0 +1,1219 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../RLR.hmm
+# target sequence database:        ../../transcriptome/HADN/Stella_TSA_HADN_cdhit85.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RLR  [M=917]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+   1.8e-187  626.4   8.6   2.5e-187  625.9   8.6    1.1  1  HADN01053198.1.p1  type:complete len:980 gc:universal HADN010
+   2.4e-186  622.7  16.5   2.6e-185  619.3  12.7    2.1  2  HADN01056494.1.p1  type:complete len:1067 gc:universal HADN01
+    6.8e-56  191.0   0.2      1e-28  101.0   0.0    2.1  2  HADN01069483.1.p1  type:complete len:1517 gc:universal HADN01
+    8.2e-50  170.8   0.5    3.6e-49  168.7   0.0    2.0  2  HADN01066477.1.p3  type:complete len:889 gc:universal HADN010
+    2.6e-31  109.6   0.0    4.4e-15   55.9   0.0    2.3  2  HADN01030611.1.p1  type:internal len:1692 gc:universal HADN01
+    1.3e-20   74.2   1.0    2.7e-19   69.9   0.1    2.5  2  HADN01028774.1.p1  type:complete len:901 gc:universal HADN010
+    7.4e-18   65.1   4.9    1.5e-09   37.6   1.0    2.2  2  HADN01036029.1.p1  type:5prime_partial len:754 gc:universal H
+    7.8e-18   65.0   0.0    5.2e-08   32.5   0.1    2.2  2  HADN01026545.1.p1  type:complete len:594 gc:universal HADN010
+      2e-14   53.7   0.1    9.5e-09   35.0   0.1    2.4  2  HADN01000165.1.p1  type:complete len:2140 gc:universal HADN01
+    2.2e-14   53.6   0.3    5.1e-08   32.6   0.7    2.7  3  HADN01022639.1.p1  type:3prime_partial len:2172 gc:universal 
+    1.6e-12   47.5   0.0    2.5e-06   27.0   0.0    2.1  2  HADN01023508.1.p1  type:complete len:749 gc:universal HADN010
+    1.9e-12   47.2   0.0    4.4e-08   32.8   0.0    3.3  2  HADN01046091.1.p1  type:complete len:1065 gc:universal HADN01
+    1.8e-11   44.0   0.0    4.1e-06   26.2   0.0    2.1  2  HADN01038720.1.p1  type:complete len:783 gc:universal HADN010
+    8.1e-11   41.8   0.1    3.8e-07   29.7   0.0    2.2  2  HADN01043628.1.p2  type:complete len:447 gc:universal HADN010
+    1.1e-10   41.3  10.4    2.8e-08   33.4   0.0    3.0  2  HADN01022924.1.p1  type:complete len:706 gc:universal HADN010
+    5.6e-10   39.0   2.0    3.2e-06   26.6   0.2    2.3  2  HADN01001263.1.p1  type:5prime_partial len:459 gc:universal H
+      7e-10   38.7   0.0    4.5e-08   32.7   0.0    2.5  2  HADN01062427.1.p1  type:5prime_partial len:725 gc:universal H
+      9e-09   35.0   0.4    7.1e-07   28.8   0.0    2.4  2  HADN01102893.1.p1  type:5prime_partial len:421 gc:universal H
+    1.7e-08   34.2   3.0    2.4e-08   33.6   0.8    2.1  2  HADN01061759.1.p1  type:5prime_partial len:419 gc:universal H
+    5.2e-08   32.5   0.0    1.8e-06   27.4   0.0    2.3  2  HADN01065629.1.p1  type:5prime_partial len:714 gc:universal H
+    7.1e-08   32.1   0.0    3.7e-05   23.1   0.0    2.2  2  HADN01058264.1.p1  type:complete len:705 gc:universal HADN010
+    7.4e-08   32.0   0.1    1.1e-06   28.2   0.0    2.1  2  HADN01062565.1.p1  type:5prime_partial len:454 gc:universal H
+    1.5e-07   31.0   0.0    1.5e-05   24.4   0.0    2.1  2  HADN01060954.1.p1  type:5prime_partial len:566 gc:universal H
+    2.1e-07   30.5   0.0    3.4e-05   23.2   0.0    2.2  2  HADN01017283.1.p1  type:5prime_partial len:551 gc:universal H
+    3.1e-07   29.9   0.0     0.0014   17.9   0.0    2.1  2  HADN01015182.1.p1  type:5prime_partial len:686 gc:universal H
+    3.1e-07   29.9   0.8      0.018   14.2   0.3    2.2  2  HADN01042167.1.p1  type:complete len:430 gc:universal HADN010
+      4e-07   29.6   0.1    5.8e-07   29.1   0.1    1.1  1  HADN01056338.1.p1  type:3prime_partial len:386 gc:universal H
+    9.1e-07   28.4   0.0    1.1e-06   28.2   0.0    1.1  1  HADN01002234.1.p3  type:complete len:175 gc:universal HADN010
+    1.4e-06   27.7   0.1     0.0091   15.2   0.0    2.2  2  HADN01029373.1.p1  type:complete len:817 gc:universal HADN010
+    1.5e-06   27.7   0.2     0.0019   17.5   0.0    2.1  2  HADN01044717.1.p1  type:complete len:433 gc:universal HADN010
+    8.2e-06   25.2   0.1      0.035   13.2   0.0    2.1  2  HADN01033145.1.p1  type:5prime_partial len:504 gc:universal H
+    2.9e-05   23.4   0.0      8e-05   22.0   0.0    1.7  2  HADN01039043.1.p1  type:complete len:500 gc:universal HADN010
+    3.1e-05   23.3   0.0     0.0025   17.0   0.0    2.3  2  HADN01046480.1.p1  type:complete len:597 gc:universal HADN010
+    7.9e-05   22.0   0.0    0.00012   21.3   0.0    1.2  1  HADN01056342.1.p2  type:complete len:359 gc:universal HADN010
+    0.00014   21.1   0.0     0.0011   18.2   0.0    1.9  2  HADN01072201.1.p1  type:complete len:643 gc:universal HADN010
+    0.00028   20.2   0.0     0.0011   18.3   0.0    1.8  2  HADN01043934.1.p1  type:5prime_partial len:739 gc:universal H
+    0.00073   18.8   0.0    0.00082   18.6   0.0    1.0  1  HADN01092012.1.p1  type:internal len:137 gc:universal HADN010
+    0.00084   18.6   0.4     0.0097   15.1   0.0    2.2  2  HADN01045341.1.p1  type:5prime_partial len:542 gc:universal H
+     0.0013   17.9   0.0        0.3   10.2   0.0    2.2  2  HADN01024922.1.p1  type:5prime_partial len:643 gc:universal H
+     0.0029   16.8   0.0     0.0038   16.4   0.0    1.2  1  HADN01075572.1.p2  type:complete len:264 gc:universal HADN010
+     0.0041   16.3   0.1     0.0052   16.0   0.1    1.3  1  HADN01068649.1.p2  type:complete len:421 gc:universal HADN010
+     0.0042   16.3   0.1      0.071   12.2   0.0    2.0  2  HADN01016559.1.p1  type:3prime_partial len:775 gc:universal H
+     0.0093   15.1   0.0      0.019   14.1   0.0    1.6  1  HADN01061831.1.p1  type:3prime_partial len:263 gc:universal H
+  ------ inclusion threshold ------
+      0.015   14.4   0.0      0.016   14.4   0.0    1.0  1  HADN01016453.1.p1  type:complete len:101 gc:universal HADN010
+      0.077   12.1   0.0       0.16   11.1   0.0    1.5  1  HADN01010913.1.p1  type:5prime_partial len:1033 gc:universal 
+       0.12   11.5   0.3       0.27   10.3   0.1    1.6  2  HADN01051767.1.p1  type:internal len:1241 gc:universal HADN01
+       0.32   10.1   0.0        0.4    9.7   0.0    1.0  1  HADN01015180.1.p1  type:internal len:235 gc:universal HADN010
+
+
+Domain annotation for each sequence (and alignments):
+>> HADN01053198.1.p1  type:complete len:980 gc:universal HADN01053198.1:3465-526(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  625.9   8.6  2.8e-190  2.5e-187      19     910 ..      19     973 ..       6     978 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 625.9 bits;  conditional E-value: 2.8e-190
+                RLR  19 tldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllar.aieltdlk....keekldeylll 105
+                         l++  +l yl  l +  ke+i+ +  ++G+ +a+  l++ +k+  ++  + ef+ al+++G   +a     l+++      e+ +de    
+  HADN01053198.1.p1  19 DLNPVELLPYLKCLVDTDKEKIECDSRNDGETRATRTLVDRLKKRGNEA-FTEFVRALRETGCDHVAMlLDPLYNVAqgpmEEDSKDECSTR 109
+                        4778899******************************999988877776.569**********99998533344554455567778888888 PP
+
+                RLR 106 lkllqpelkdkllvrdvlddlseelltiedrerlaiaetkGneaGvrkllkrlvdkenwfkalklvlrke...................... 175
+                        ++ +  +  d  l   + d+  + +l+ e    +a + +k      r++ k++++k     +++ +                          
+  HADN01053198.1.p1 110 IRTMG-TAIDVPLQAHITDEDGNRILELEK--EIANTFSKARSQASREIRKKFSEKLPQGATFLHTKSGSivtmfrlskvdaaesllemcng 198
+                        77765.556777889999999999987765..577777888888899999999999999999988777669999****************** PP
+
+                RLR 176 ............................rnkekelwiveknikesetedlevveesdislaeedvecld.lsedsdeesvvadasles..el 236
+                                                     n  k+ +   k+  e+  + l   +e +i+  ++d +  d l +   ++    d + +s  +l
+  HADN01053198.1.p1 199 sqivdiltellltneirgkvpdrepkltLNITKDWFSHAKKKLEVIESGLRSGKEFEIQNCQDDENFTDdLPNFYIPPVLLDDGKSQSvlPL 290
+                        ********************999999988889998888888888888888899999999777776655448888888888877766654489 PP
+
+                RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka.ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekv 327
+                        +lr yq e+   aleG n++ic+Pt sGkt+va+ ia++hL+k+k+  ++gkv+++v  v+lv+q +++ fk +l+++y v  +sG  +  +
+  HADN01053198.1.p1 291 DLRGYQKELSEKALEGHNTVICAPTNSGKTYVALNIARNHLDKKKEQeQEGKVLFIVSTVNLVQQ-QTERFKLYLQDKYIVKDISGSNGCDI 381
+                        9*****************************************9987779**************99.78899********************* PP
+
+                RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.saiPLPqvlGLtaspGvGgakkl 418
+                        ++  +  s  +++ltaqiL+n+Lk+       +Ls  sL+++DeChht+k+++yn im ny+ ++L+  +++P Pq++GLtas GvG ak++
+  HADN01053198.1.p1 382 PLSGLLGSSHVVVLTAQILVNALKD----GSLQLSSVSLLVFDECHHTQKDHPYNKIMENYMTLRLQPaHSMPTPQIVGLTASLGVGKAKNT 469
+                        ***********************98....899***********************************65899******************** PP
+
+                RLR 419 dealehilkLCanLDafviktvke..nleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk.......mselsrefGtqkyeqw 501
+                         ea +hil++Can+Da  + tv++  nle+L+ +v  P++  + v   r D f+ ++ + m+++e y+k       m++     G q+y  w
+  HADN01053198.1.p1 470 LEAQHHILEVCANMDAQHVVTVQDetNLEELRLHVGTPQRTVHSVTCDRTDVFESVIGKAMEQVELYVKgtpvdtdMPPS--GRGSQQYRHW 559
+                        **********************96559******************************************66666444443..56******** PP
+
+                RLR 502 vvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeL.krlaedpenenekL 592
+                          +l  + +++ ++ +  yae Lr yn aL i+d  r +Da+a+L +++++  + +f v+  dr+L + +e+  + + + +  + e+ n+kL
+  HADN01053198.1.p1 560 CETLYTQGIKQSNRYLVTYAEQLRVYNVALTIKDATRSKDAMAHLSNYFNHLDEDRFTVV--DRKLKKIYEKAIEAItEAIQLHGEPRNPKL 649
+                        **********************************************************99..5669999999887762678899******** PP
+
+                RLR 593 ekLrfkilqeeyrle.....esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksG.klnlLi 678
+                         kL+  +l+ + + e     + a+gi+f ktr+s+ aL++Wi+e ++l++ ++ +  L+G  +s+   gmtqreq+evi kf+ G + n++i
+  HADN01053198.1.p1 650 VKLQELLLD-YHKGEtesglDHAKGILFSKTRESTIALEKWIKETPELSQ-ELMPLRLVG--NSDGRGGMTQREQEEVIAKFRAGsECNIII 737
+                        ****75554.44443112224689**************************.999999985..789999***************77368**** PP
+
+                RLR 679 atsvaeeGlDikeCniviryglvtneiamvqarGrarad.eskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrekilelqt 769
+                        at+vaeeGlDi +C  viry++++nei+ vq+rGr r + + +y +v+ + sg + +e+ n ++e lm +ai++vqkmd ++ r+++  lq 
+  HADN01053198.1.p1 738 ATTVAEEGLDIDDCSYVIRYDMMGNEISSVQSRGRVRTKtGGQYSVVVGQTSGALVREQRNLYRESLMADAIARVQKMDTEKRRKQVEALQR 829
+                        *************************************973679************************************************* PP
+
+                RLR 770 qellerkakekrkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvnltpefkelyvvredka.lqkkfadykkrgkiiCrnCgeaW 860
+                         +  er +++ rk   +  +d + v+l C++C+v +c++++++ + + +hv ++++f+e   + e +    k+f  +  + k+ C++C+e  
+  HADN01053198.1.p1 830 LTARERMSRDSRKRGLKSTFDASDVTLNCRKCHVFICQAHEIKRVRDSYHVTIADDFSERVDTEEIPPeHVKVFDGFMFNKKMKCKKCAEPL 921
+                        ************************************************************99998776588********************* PP
+
+                RLR 861 GiqvvykslelPvlkirsfvvedkatsvkk..qykkWkelpfevpdlDyael 910
+                        G +v yk++elP++ki +f v  + ++ +    yk+Wk++pfev d+D+ el
+  HADN01053198.1.p1 922 GAMVNYKGMELPCIKIAQFQVAIMRNGRREfaTYKQWKKVPFEVEDMDFCEL 973
+                        **********************999998853379***************986 PP
+
+>> HADN01056494.1.p1  type:complete len:1067 gc:universal HADN01056494.1:142-3342(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.2   0.1      0.01       9.2       4     105 ..       4     107 ..       1     170 [. 0.72
+   2 !  619.3  12.7  2.8e-188  2.6e-185     230     911 ..     351    1045 ..     246    1050 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 5.2 bits;  conditional E-value: 0.01
+                RLR   4 efrrllsafrdrvkktldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllar....aielt 91 
+                        ++r l++   ++ ++ + ++ +l +l+ l     eq++ + ++kG  +a+  l++ +k  +++  + +f+ a++  G   +a     + e+ 
+  HADN01056494.1.p1   4 KQRELITKRLQYFQHDFRPTELLPHLTCLTGADSEQVECDENNKGATRATWTLIDKLKR-RKN-GFEQFVLAVRCEGLGHIALlldhSFEVS 93 
+                        68888888889999999********************************9888877664.344.4789999999998765554333466666 PP
+
+                RLR  92 dlkkeekldeylll 105
+                        d   ++++++ +++
+  HADN01056494.1.p1  94 DEDIQHEKEDTRRF 107
+                        66644444444443 PP
+
+  == domain 2  score: 619.3 bits;  conditional E-value: 2.8e-188
+                RLR  230 asleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekg...........kvvvlvnkvllveqlkskefkr 308 
+                         ++l  +lklr+yq e+a Pa++G n++ic+Pt sGkt+va+ iak+hL+k     kg           kv+++v   +lv q+++  f+ 
+  HADN01056494.1.p1  351 SALAHDLKLRKYQEELAEPAIQGYNTVICAPTNSGKTFVAMEIAKQHLDKHSDHAKGaveipdqitgpKVIFIVSTQNLVLQQRQ-RFEA 439 
+                         457789*******************************************97643322233333444449************9655.5555 PP
+
+                RLR  309 flkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsai 398 
+                         +l   y v  +sG  +++++++ + k+nD+++ltaqiL n+L++ +e + ++Ls++sL+i+DeChht+k++ yn im++y+++kLk + +
+  HADN01056494.1.p1  440 YL-SNYAVCDISGVNSTEIPLKFLLKANDVVVLTAQILLNALQNKNELSSISLSDLSLLIFDECHHTNKNHSYNKIMHQYIDLKLK-KHK 527 
+                         55.46*********************************************************************************.999 PP
+
+                RLR  399 PLPqvlGLtaspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqk..Pc.kkfalvearreDpfkellaelmtdiesylk 485 
+                          LPqv+GLtas GvG ++  ++a +hil++Can+Da  i+tv+en+++Lk+ v    P  k  ++  +++  pf     ++m++ie+ +k
+  HADN01056494.1.p1  528 GLPQVVGLTASLGVGKSNTVENAHKHILQICANMDAQHINTVRENVNELKDCVTGgvPErKVIRVNTSQSLSPFTRACNQVMDKIEKAAK 617 
+                         9***************************************************98533652556777788889*****************9 PP
+
+                RLR  486 .......mselsrefGtqkyeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLl 568 
+                                      +   q+y qw+  ++k+a   gl+++  y e Lr+y  aLl +dtvrm+Dal+ Lk++++   ++kf   e+d+ L 
+  HADN01056494.1.p1  618 kslpdlqQ--PPCNRVSQQYRQWIEVISKQACALGLRQLTTYIEQLRQYHLALLTNDTVRMKDALTCLKEYFDTLDETKFT--ENDKLLH 703 
+                         88888533..3356679**********************************************************999997..7998888 PP
+
+                RLR  569 alfeekkkeL.krlaedpenenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgm 657 
+                         +l+++ k+ + +++a + e  n+kLe+L+  +l  + + + +++gi+ft tr s+  L +Wi+e e l++ + +++ L+G G+     gm
+  HADN01056494.1.p1  704 NLYHKAKELVeNHVAIHGETPNPKLEELKKLLLGFHENDSRESKGILFTVTRGSTVGLVEWIKESEDLKH-KFRPKALVGGGDG--VVGM 790 
+                         8887766665358****************9888888889999***************************9.9*********976..78** PP
+
+                RLR  658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmek 747 
+                          q+eq+ +i++fk+G +n+LiatsvaeeGlDik+C  viry+  +nei+  qarGr rad+ +yv++a   s+  e+e++n+++e lm +
+  HADN01056494.1.p1  791 SQQEQELIIEEFKKGVVNILIATSVAEEGLDIKDCSFVIRYDTYGNEISSTQARGRIRADQGQYVYLADARSKGHEREKLNQYREILMTD 880 
+                         ****************************************************************************************** PP
+
+                RLR  748 ailavqkmdeaeyrekilelqtqellerkakekrkiakrqkndk.elvklLCknCkvlacsgeDvrvieethhvnltpefkel.yvvred 835 
+                         a++avqk+ ++ey + i +lq+++  +r+ k++ +  kr +n++    ++ C++C+  ac + D r + + h+v+++pefk      +++
+  HADN01056494.1.p1  881 AVAAVQKLTQDEYMKEIDQLQQKDARIRQIKSQLEARKRDVNQHtATARFYCRKCNTFACEACDFRCVSGSHYVVISPEFKRDkIELKPH 970 
+                         *******************************999988888877515689*******************************9751557888 PP
+
+                RLR  836 kalqkkfadykkrgkiiCrnCgeaWGiqvvykslelPvlkirsfvvedkatsvkkqykkWkelpfevpdlD.yaelc 911 
+                         k+ +k +    +++k+ C++Cge+WG++ +  + e P lki+sfvv+ +  + +k+y+kW+e  +++ ++D y+e+ 
+  HADN01056494.1.p1  971 KK-PKLIDGITMDTKVHCKKCGEDWGVTAKIHGAEWPLLKINSFVVQ-IEGGPRKLYRKWTEAALNIKQVDdYLEVL 1045
+                         88.*******************************************9.99************999999885366665 PP
+
+>> HADN01069483.1.p1  type:complete len:1517 gc:universal HADN01069483.1:110-4660(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.0   0.0   1.2e-31     1e-28     227     446 ..      14     223 ..       1     262 [. 0.78
+   2 !   88.1   0.0   9.5e-28   8.6e-25     589     742 ..     357     520 ..     283     529 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 101.0 bits;  conditional E-value: 1.2e-31
+                RLR 227 vadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgk.vvvlvnkvllveqlkskefkrflkkryr 315
+                         a+++l   l +r+yq e++  ale knii+cl tG+Gkt+++v++ k+   +v k+  e+gk   +lvn v+l +q+k++  k+   k   
+  HADN01069483.1.p1  14 EAESKLLDGLTPRPYQSELVRIALE-KNIIVCLGTGTGKTFISVMLIKELSFQVRKSrkEGGKrTFFLVNTVPLAKQQKEVIAKNTDLK--- 101
+                        35566777899*************9.******************999987666655545777736789*********999999876655... PP
+
+                RLR 316 viglsGdtaekv....sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqv 403
+                        v  + Gd++         ++    n ++++taqi+   L +    a  +Ls+  Li++DeChh+ k ++y +im  y+e          P++
+  HADN01069483.1.p1 102 VKEFIGDMGVDFwsdeQWKKELDDNQVLVMTAQIFLDLLGH----ARLRLSDVNLIVFDECHHARKGHPYKQIMG-YFEE------SDYPRI 182
+                        55555666554410005566666788********9887776....9****************************7.5554......3569** PP
+
+                RLR 404 lGLtaspGvGgakkldealehilkLCanLDafviktvkenleq 446
+                        lGLtas    + k++ + ++ i++L a + a + ++   ++ q
+  HADN01069483.1.p1 183 LGLTASI--INTKETHKMEQLICELEATMRAACQTSDDITVSQ 223
+                        ******6..57899999************99998776666655 PP
+
+  == domain 2  score: 88.1 bits;  conditional E-value: 9.5e-28
+                RLR 589 nekLekLrfkilqeeyrleesa.....rgiiftktrqsadaLkqWi....eeneklaevdvkaqlLiGaG....kssqstgmtqreqkevid 667
+                         +k + L  +il+++ + + s+      gi+f+  r +a+ L + +    + ++ l++  +k ++++G G    +ss  t+m   +q++v++
+  HADN01069483.1.p1 357 SPKAKALV-EILKQYGNPQASTpdislCGIVFVERRYTAKILCEQLniiaTRDPSLEF--IKCDFVVGHGasgiNSSSDTQMGSTKQEKVLK 445
+                        46666676.48888766555442222279*******9998876544222368899999..*********9555557899************* PP
+
+                RLR 668 kfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefke 742
+                         f++ ++nlL+atsv eeGlD+++Cn v+r+++  n  + vq++Grara++s +++++ +   +     +  ++e
+  HADN01069483.1.p1 446 MFRKHQINLLVATSVVEEGLDVPKCNFVVRFDFPQNFRSYVQSKGRARAKNSAFIVLVEDKDSEWAGLEVERYQE 520
+                        *****************************************************9887776665555555555555 PP
+
+>> HADN01066477.1.p3  type:complete len:889 gc:universal HADN01066477.1:16751-14085(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.2      0.62   5.6e+02     849     898 ..      71     118 ..      52     134 .. 0.80
+   2 !  168.7   0.0     4e-52   3.6e-49     237     749 ..     172     693 ..     155     705 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.62
+                RLR 849 gkiiCrnCgeaWGiqvvykslelPvlkirsfvvedkatsvkkqykkWkel 898
+                         ki+C +C    G   +  + ++ ++k++++ v   a + ++  k+ k++
+  HADN01066477.1.p3  71 FKIVCARCDTPIGSVTIIEGQQVWCFKVETVYVL--ARGQRIENKRLKNI 118
+                        48***************************99888..67777777766665 PP
+
+  == domain 2  score: 168.7 bits;  conditional E-value: 4e-52
+                RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsG.d..tae 325
+                         +r+yq e+ + a++ +n +++lPtGsGkt va+++    L+  +   +   v++v++++l  q+     k+  k   +   ++G d   ++
+  HADN01066477.1.p3 172 TPRDYQRELFISAIQ-RNSLVYLPTGSGKTLVAAMVISCMLKLNP---DKMAVFVVDRINLAHQQSAYIQKQCPKLNVKTL-VAGnDpnPNH 258
+                        58************8.89*********************999888...55578999********87777766655444433.3331311333 PP
+
+                RLR 326 k....vsfeevv.ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGv 412
+                        +    + ++ ++ k  D+++lt qiL n L +  ++  +++     +++De hh   +++yn im+++  +  + + +PL  vlGL asp  
+  HADN01066477.1.p3 259 EaemsAVLGALArKQIDVLVLTHQILLNHLAD--DEGLIRMPNICALVFDEAHHCIGNHPYNKIMSDFYVKTAD-KYKPL--VLGLSASPA- 344
+                        3111144556663567**************99..6778899999999*******************99765444.66666..*******94. PP
+
+                RLR 413 GgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalv.....earreDpfkellaelmtdiesylk..mselsrefGtqk 497
+                         g+++l++  + +  L  nL a+ +  v  n  +L+   + P  +f++v     ++r +D ++  l+   +++e++++    el r+f   +
+  HADN01066477.1.p3 345 -GSTDLAKTRHNLQCLLENLCASPVLPV--NSRDLEMYTNLPESFFSVVpltmqQQRLNDSLEAFLQSASRKLEDMAEgcFGEL-RDFHPSM 432
+                        .667777777777777788888888877..568999999999999998833222456667777777777778888887765666.9998765 PP
+
+                RLR 498 ..yeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdviedd........rfLlalfeekkkeLk 579
+                          +   + +l  ++ ++ + k     e + +   aL ++  + +  a++ Lk+ ++   ++ + +  +            l++  +  +eL+
+  HADN01066477.1.p3 433 pnFRGGLRTLIGKCHLARNIKGHALGELMTHLLAALEMNSVLGLTYAVECLKECFQVMDNASTPMEMEKkaltrhdpD--LSRVRDAIRELD 522
+                        337778999**********99999999999*************************98777766543333233333220..234444555555 PP
+
+                RLR 580 rlaedp..enenek....LekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmt.qreqke 664
+                        +   d    ++ +k    Le+L+   + ++++ ++++rgiif++ r++a+ L + +++ + ++e  + +  ++G G  +    m    eq+ 
+  HADN01066477.1.p3 523 QGRYDClgIKQKDKfqflLEELT--SFTDKTKQDDNSRGIIFVRMRRTAYKLCERLKGYDVISE-YLNPTAIVGHGGGDG---MSwYGEQEV 608
+                        44433211234444111144444..47889999*******************************.9**********8765...541468888 PP
+
+                RLR 665 vidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsgsgvieketin..efkeklmekai 749
+                        +++ f++G++ lLi+tsv eeGlD++ Cn+v+r++   n  ++vq+rGra r  +s + +v+ s+ ++  k+ ++  + ke  m++++
+  HADN01066477.1.p3 609 ILKSFRTGRIKLLISTSVLEEGLDVPVCNLVVRFDSTMNLKSLVQSRGRAsRRSDSHF-VVLCSNGKE--KQEVDelKLKEANMKESM 693
+                        999**********************************************945556666.555555543..333430145677777765 PP
+
+>> HADN01030611.1.p1  type:internal len:1692 gc:universal HADN01030611.1:1-5073(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   0.0   4.9e-18   4.4e-15     237     392 ..      83     229 ..      69     246 .. 0.91
+   2 !   51.3   0.0   1.2e-16   1.1e-13     607     730 ..     487     608 ..     414     628 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 4.9e-18
+                RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                         +r+yq+++++ al  +ni++ lPtG Gkt++a+ +  ++    +   +gkvv+++   +lv q+ +  +k +   +     ++G++a+   
+  HADN01030611.1.p1  83 PVRDYQFNIVQKALY-QNIMVTLPTGLGKTFIAAVVMYNYYRWYP---QGKVVFMAPTKPLVAQQIEACYKIMGIPQTDTAEMTGNMAPT-K 169
+                        57************7.8**************************99...89*************************************996.6 PP
+
+                RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqk 392
+                         e++ +++ +  lt+q+L+n L +         ++  L+++De h++  ++ y +++r+ L   
+  HADN01030611.1.p1 170 RENLWRTKRVFFLTPQVLQNDLSR----GSCAAADVVLLVVDEAHKALGNHSYCQVVREILSYT 229
+                        79*********************9....566778999*******************99988765 PP
+
+  == domain 2  score: 51.3 bits;  conditional E-value: 1.2e-16
+                RLR 607 eesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkss.qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                        + ++r +if + r s++ ++  +  ++ l         +iG+  +   s+g+ q+eq ev+++f+ G +n L++t v eeGlDi + ++++ 
+  HADN01030611.1.p1 487 SVDTRVMIFSQYRDSVKEITTILCRHKPLVR----VMSFIGQASTGkSSKGLSQKEQLEVVHRFRMGGYNTLVSTCVGEEGLDIGDVDLIVC 574
+                        5679999*************99999988855....6788898776515799***************************************** PP
+
+                RLR 698 yglvtneiamvqarGr.aradeskyvlvatsgsg 730
+                        ++  +  i++vq  Gr +r ++ ++v+++ +g  
+  HADN01030611.1.p1 575 FDAHASPIRLVQRMGRtGRKRDGRIVVLVAEGKE 608
+                        ***************9568888887777766643 PP
+
+>> HADN01028774.1.p1  type:complete len:901 gc:universal HADN01028774.1:386-3088(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   69.9   0.1     3e-22   2.7e-19     239     480 ..     376     625 ..     365     639 .. 0.75
+   2 ?   -2.4   0.1       2.1   1.9e+03     671     725 ..     815     869 ..     809     893 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 69.9 bits;  conditional E-value: 3e-22
+                RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk................ry 314
+                          y +e+   al   n + +lPtG+ kt va++i  + L+  +   + +vv+lv++vllv q+ s + ++ l +                 +
+  HADN01028774.1.p1 376 SGYHIELFTKALA-NNSVCFLPTGADKTLVAALIIAHLLQLNP---SRQVVFLVDRVLLVLQQ-SDFLRTELSHvaiptstegkmpsarqPW 462
+                        5699999999996.79999****************98888888...889***********995.4444443333011111111111111122 PP
+
+                RLR 315 ......rviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPL 400
+                              rv ++ G++   +  +  v  +D++++ta+  +n + +     + ++ +++Li++De hh +ke++ynvi+r+y   +   ++   
+  HADN01028774.1.p1 463 qrfrpiRVGAICGEMRR-LEPGVPVFDHDVLVVTADCYKNHINN----GTLRFEDLALIVLDEAHHCNKEHPYNVIIRDYYLCR---KSDAA 546
+                        22222356777777754.3334446789*************999....77899*************************986433...45677 PP
+
+                RLR 401 PqvlGLtaspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvear.reDpfkellaelmtdi 480
+                        P vlGL +s    g   +d+ ++ + +L  nL    + tv e   +L+ + +  +    l+e +  e +f e l+e  t+ 
+  HADN01028774.1.p1 547 PMVLGLVSSL--AGEMTTDRTVKKLERLLCNLGEAGLLTVTEETSELDRKARMKQLTCYLAEYTlFEQKFVEALMEYATRC 625
+                        89****9996..466779999***************************999888877777776625788888888776665 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 2.1
+                RLR 671 sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlva 725
+                         G + +++a   a e   i++C +v++ +  + + a+   r  +  +e+ ++ + 
+  HADN01028774.1.p1 815 AGLFQIVVAVCPAGEAPKIRNCKMVVQMEPASAVSALNHMRCCSHYEEAIFAAIC 869
+                        5778899999999999999999999998877777666666666666666655555 PP
+
+>> HADN01036029.1.p1  type:5prime_partial len:754 gc:universal HADN01036029.1:3033-772(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1   0.2   6.4e-10   5.8e-07     216     375 ..     168     345 ..      82     360 .. 0.69
+   2 !   37.6   1.0   1.6e-12   1.5e-09     654     793 ..     463     608 ..     439     629 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 29.1 bits;  conditional E-value: 6.4e-10
+                RLR 216 d....................lsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekg 286
+                        d                    +++           +    l++ + q   +  al Gk++  c+ tG+Gkt + ++ i ++ L +  ++   
+  HADN01036029.1.p1 168 DrlkekknffqdpppqvhhqsFTSMNLSRPLLKAVNELGFLHPTPIQASTIPVALMGKDVCACAATGTGKTAAFMLpILERLLYRPTQSPAI 259
+                        1322444444444444222222222222223334555667899999*************************997765999999999999999 PP
+
+                RLR 287 kvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChht 375
+                        +v+v+     l  q +s+  +  +    +v   +G  ++k     + k+ Di+i+t+  L+  L++        L    ++++De  + 
+  HADN01036029.1.p1 260 RVLVITPTRELAIQIHSVTNNLSKYTNIQVCLAAGGLDLKSQEAALRKNPDIVIATPGRLVDHLHN---TMSFGLQSIEILVLDEADRM 345
+                        ******************9999999999*************************************9...78888999999999997665 PP
+
+  == domain 2  score: 37.6 bits;  conditional E-value: 1.6e-12
+                RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades.kyvlvatsgsgvieketinefkek 743
+                          ++tq ++ e ++kfk+G++++L+at  a  GlDi+    vi y + +++ + v   Gr ara +s + v ++ +  +   ke + +++  
+  HADN01036029.1.p1 463 HGNLTQLQRLEALQKFKNGEVDILVATDLAARGLDITGVKTVINYSMPSDVKQYVHRVGRtARAGKSgRSVTLVGEKERKALKEVVKNARTA 554
+                        457899999**************************************************977999983456777888889999999998877 PP
+
+                RLR 744 lmekai....lavqkmdeaeyrekilelqtqellerkakekrkiakrqkndkel 793
+                        +  + +          + +  ++ i+++ +qe  e++++  + + ++ +n  e+
+  HADN01036029.1.p1 555 VKSRIVppeiIEKYSGKIEALEQDIKDILKQEEEEKEMRISEMEVNKARNMLEH 608
+                        665544220034444466778888888888888888888777766666665554 PP
+
+>> HADN01026545.1.p1  type:complete len:594 gc:universal HADN01026545.1:3-1784(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.0     3e-10   2.7e-07     242     373 ..     189     318 ..     171     327 .. 0.83
+   2 !   32.5   0.1   5.8e-11   5.2e-08     657     718 ..     443     505 ..     427     529 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 3e-10
+                RLR 242 qlevalPal.eGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe.e 331
+                        q++ a P + +G+ ++ c+PtGsGkt + ++    h+ k +k  + + vv+     l +q ++++ +  +   +r+  l+ + a   +f+ +
+  HADN01026545.1.p1 189 QMQ-ATPLMaHGREVLCCAPTGSGKTAAFILPIL-HMLKGPKKSGFRAVVVSPTRELAQQIYREFCHLAKGCAFRIHVLTKANASTNTFGaK 278
+                        555.4455437***************87766655.55556666777888888888999999999999999999********99999999735 PP
+
+                RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373
+                          k  Di+++t++ L+  L++  e  ++eL     +i+De  
+  HADN01026545.1.p1 279 SSKRFDILVTTPNRLVHLLTQ--EPPGIELHNVEWLILDEAD 318
+                        67999**************99..999*************975 PP
+
+  == domain 2  score: 32.5 bits;  conditional E-value: 5.8e-11
+                RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arade 718
+                         tq ++ ++++ f++Gk+ +Liat     G+D k  n+vi y++ t  +a +   Gr +ra  
+  HADN01026545.1.p1 443 RTQAQRDNIVKSFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPTSAVAYIHRIGRtGRAGR 505
+                        6999999********************************************999998446643 PP
+
+>> HADN01000165.1.p1  type:complete len:2140 gc:universal HADN01000165.1:130-6549(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.0   0.1   1.1e-11   9.5e-09     242     378 ..     480     618 ..     464     650 .. 0.78
+   2 !   16.0   0.0   5.4e-06    0.0049     253     375 ..    1339    1454 ..    1329    1487 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.0 bits;  conditional E-value: 1.1e-11
+                RLR 242 qlevalPaleG.kniiiclPtGsGktrvavy.....iakd.hLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaek 326
+                        q  +   al+   n+++c+PtG+Gkt va++     i k+  L+ + ++e+ k+++++    lv+ +  +++kr+   + +v  l+Gd ++ 
+  HADN01000165.1.p1 480 QSRLCETALNSdENLLLCAPTGAGKTNVALLtilreIGKHiNLDGTINTEEFKIIYVAPMRSLVQEMVLNFSKRLSTYGLTVSELTGDHNL- 570
+                        66667777765279***************983222233332366677789*************************************9765. PP
+
+                RLR 327 vsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtske 378
+                         + e+ ++ + ii++t++  +   +k  e +  +L    LiiiDe h  + +
+  HADN01000165.1.p1 571 -TKEQ-IHGTQIIVCTPEKWDIITRKSGERTFTQLV--RLIIIDEIHLLHDD 618
+                        .4455.67899********99999998899999985..79*******76655 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 5.4e-06
+                RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevvksnDiiil 341 
+                          n+ i +PtGsGkt  a +   + L++ +   +g+ v++     l eq +    ++f l+ +  v+ l+G+t+  +    ++   +++++
+  HADN01000165.1.p1 1339 ENVFIGAPTGSGKTICAEFAVLRFLQQSP---EGRCVYVTPIQALAEQVYADWQNKFgLQLGKNVVMLTGETSADLK--LLA-KGNVVVS 1422
+                         699**********************9999...89998888888999**9999888885788999*******997764..455.567999* PP
+
+                RLR  342 taqiLensLkkleedaiveLsvfsLiiiDeChht 375 
+                         t++  +   ++   ++  ++   sL i+De h  
+  HADN01000165.1.p1 1423 TPEKWDV--LSRRWKQRKNVQNVSLFIMDEAHLI 1454
+                         **96554..343456677788999*******965 PP
+
+>> HADN01022639.1.p1  type:3prime_partial len:2172 gc:universal HADN01022639.1:6515-3(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.7   5.6e-11   5.1e-08     253     409 ..     504     661 ..     490     663 .. 0.79
+   2 ?   -3.7   0.0       5.1   4.6e+03     652     697 ..     792     837 ..     785     839 .. 0.86
+   3 !   17.4   0.0   2.1e-06    0.0019     253     374 ..    1354    1468 ..    1332    1484 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 5.6e-11
+                RLR 253 kniiiclPtGsGktrvavyiakdhLe.kvkka....ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDii 339
+                         n++ic+PtG+Gkt +a++   + ++ +++++    +k k+v+++    l   + ++++kr+   +  v  l+Gd+++     e+ k+  ++
+  HADN01022639.1.p1 504 ENLLICAPTGAGKTNIAMMTIVREIKqNIEQGvikkDKFKIVYVAPMKALAAEMVRNFSKRLAGLGISVRELTGDMQLT--KMEILKT-QML 592
+                        699**************9865555541456555533677888888888999999**********************975..4678776.688 PP
+
+                RLR 340 iltaqiLensLkkleedaiveLs.vfsLiiiDeCh..htskeavynvimrnyLeqkLknsaiPLPqvlGLtas 409
+                        ++t++  +   +k      v L+    L+iiDe h  h ++ +v   ++ + L q L   ++ + +++GL a+
+  HADN01022639.1.p1 593 VTTPEKWDVVTRK--STGDVALAqLVKLLIIDEVHllHDDRGSVIECLVARTLRQVLS--SQSMIRIVGLSAT 661
+                        9999988877766..333444541468********55556678999*********998..8889999999985 PP
+
+  == domain 2  score: -3.7 bits;  conditional E-value: 5.1
+                RLR 652 sqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                        ++  gm + ++  v + f +G + +L+ t+    G++++   ++i+
+  HADN01022639.1.p1 792 THHAGMLRTDRTMVEQYFAKGLIKVLVCTATLAWGVNLPAHAVIIK 837
+                        5667899999999999*************99999999988888775 PP
+
+  == domain 3  score: 17.4 bits;  conditional E-value: 2.1e-06
+                RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevvksnDiiil 341 
+                          n+++ +PtGsGkt +a +   + ++k +   ++k v+++    lv  +      rf  k + rvi l+Gd+++     + +   D+i++
+  HADN01022639.1.p1 1354 HNVLLGAPTGSGKTIIAELAIFRLFDKYP---GAKAVYIAPLKALVRERMDDWKVRFgRKLGKRVIELTGDVTPD---SRSISQADLIVT 1437
+                         6999*****************9999*999...9999999986666666566555556155689********9976...4567789***** PP
+
+                RLR  342 taqiLensLkkleedaiveLsvfsLiiiDeChh 374 
+                         t++  +   ++   ++   +    L+iiDe h 
+  HADN01022639.1.p1 1438 TPEKWDGISRS--WQTRSYVKQVNLLIIDEIHL 1468
+                         ***88776666..67788888999******995 PP
+
+>> HADN01023508.1.p1  type:complete len:749 gc:universal HADN01023508.1:113-2359(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   9.5e-07   0.00086     214     372 ..     240     397 ..     109     401 .. 0.81
+   2 !   27.0   0.0   2.7e-09   2.5e-06     656     728 ..     519     594 ..     515     624 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 9.5e-07
+                RLR 214 cldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgkvvvlvnkvllveqlks 303
+                        c  +++   +e+ +a        ++ + q +    al G++ii ++ tGsGkt + ++ a  h+   ++    +g +v++      + q+  
+  HADN01023508.1.p1 240 CISFAHFGFDEQMMASIRKLEYTQPTQIQCQALPIALSGRDIIGIAKTGSGKTAAFLWPALVHIMDQPELqvGDGPIVLICAPTRELCQQIY 331
+                        55555555555566666666667788888887777****************************98888662245667777777776667788 PP
+
+                RLR 304 kefkrflkk.ryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         e +rf k    +v+++ G  ++    + + +  +i+++t+  L   +k     +  +L   + +++De 
+  HADN01023508.1.p1 332 TEARRFGKAyNIHVVAVFGGGNKYEQSKALQEGAEIVVATPGRLIDHVKA----KATNLHRVTYLVFDEA 397
+                        8899997752568999999999999999*************999999888....7788999999999986 PP
+
+  == domain 2  score: 27.0 bits;  conditional E-value: 2.7e-09
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvatsg 728
+                        +m q e+ +v+ +fk+ ++ +L+at va  GlDi+    vi y++   +t   + +   Gra  ++  y+l+ +s+
+  HADN01023508.1.p1 519 DMDQFERSKVLGQFKKREIPILVATDVAARGLDIPSIKTVINYDVardITTHTHRIGRTGRAGEKGNAYTLLTQSD 594
+                        6899999************************************974446677778888899999999998888775 PP
+
+>> HADN01046091.1.p1  type:complete len:1065 gc:universal HADN01046091.1:164-3358(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.6   0.0   1.1e-07    0.0001     238     372 ..     427     563 ..     417     568 .. 0.85
+   2 !   32.8   0.0   4.9e-11   4.4e-08     656     728 ..     684     759 ..     679     775 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 21.6 bits;  conditional E-value: 1.1e-07
+                RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka...ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaek 326
+                        + + q + +   + G+++i ++ tGsGkt + +    +h++  +     e+   +v+     l  q +++  k  + +  r + + G t+  
+  HADN01046091.1.p1 427 PTPIQAQAIPVIMSGRDMIGIAKTGSGKTLAFLIPMFRHIKDQPPLereEGPIAIVMTPTRELAIQIHRECKKFCKPNNLRCVCVYGGTGIS 518
+                        5566777777789*****************9999999***9987433315556689999999****9998888888899************* PP
+
+                RLR 327 vsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                          + e+ +  +ii++t+  +   L+  +++   +    + +++De 
+  HADN01046091.1.p1 519 EQIAELKRGAEIIVCTPGRMIDMLTA-NNGRVTNCQRCTYLVLDEA 563
+                        *****************998888887.7888888889999999986 PP
+
+  == domain 2  score: 32.8 bits;  conditional E-value: 4.9e-11
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvatsg 728
+                        gm q ++   i  fk+G   l+iatsva  GlD+k+ n+v+ y+      + ++ v   Gra  +++ y+++  ++
+  HADN01046091.1.p1 684 GMDQFDRDSTIADFKNGVTKLMIATSVAARGLDVKHLNLVVNYDCpnhYEDYVHRVGRTGRAGNKGTAYTFLTPEQ 759
+                        79999999***********************************861114566777888888888999999987665 PP
+
+>> HADN01038720.1.p1  type:complete len:783 gc:universal HADN01038720.1:174-2522(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   7.2e-06    0.0065     240     372 ..     335     466 ..     268     470 .. 0.84
+   2 !   26.2   0.0   4.6e-09   4.1e-06     659     726 ..     592     662 ..     582     679 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 7.2e-06
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka.ek.g..kvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekv 327
+                        + q +     + G ++i ++ tG+Gkt + ++ a  h++  + a ek g   v+vl     l  q  ++e k++  ++ r + + G  + k 
+  HADN01038720.1.p1 335 PIQCQAWPVVMSGMDLIGIAQTGTGKTLAFLLPAFLHIDGQELArEKrGgpSVLVLSPTRELALQ-IEQEVKKYHYRGIRSVCIYGGGSRKD 425
+                        5555555557999************************9988777532122368999999999999.778889999999999*********** PP
+
+                RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         ++ v k  +i+i+t+  L+  L++    +i ++   + +++De 
+  HADN01038720.1.p1 426 QIGVVEKGVEIVIATPGRLNDLLMH----DILSVRSVTYLVLDEA 466
+                        *****************99887776....6777777888888885 PP
+
+  == domain 2  score: 26.2 bits;  conditional E-value: 4.6e-09
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvat 726
+                        q ++++ +d fk+G   +Liat va  GlDik+   vi y++   + + ++ v   Gra   ++  +++  
+  HADN01038720.1.p1 592 QYDREQALDDFKTGLARILIATDVASRGLDIKDITYVINYDFprhIEDYVHRVGRTGRAGRSGTSLTFISR 662
+                        5677889*********************************9822244445555555554444444445555 PP
+
+>> HADN01043628.1.p2  type:complete len:447 gc:universal HADN01043628.1:3616-4956(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.3   0.0   0.00029      0.26     241     372 ..      40     166 ..      30     188 .. 0.74
+   2 !   29.7   0.0   4.2e-10   3.8e-07     656     721 ..     286     352 ..     266     426 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.00029
+                RLR 241 yqlevalPaleGkniiiclPtGsGktrv.avyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfe 330
+                         q e +  al+Gk++i  + tGsGkt + a+ i +  L++ +   +   ++l     l  q  s++ + +  + + +   + G ++      
+  HADN01043628.1.p2  40 IQREAIPVALQGKDVIGLAETGSGKTGAfALPILQALLDNPQ---RLFALILTPTRELAFQ-ISEQCEALGSGiGVKCAVIVGGIDMMSQAL 127
+                        68899999******************8725556666666544...5555666666677777.455555554432566777777777777777 PP
+
+                RLR 331 evvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                         ++k   iii+t+  L   L +    ++ +L  +  +++De 
+  HADN01043628.1.p2 128 MLAKKPHIIIATPGRLIDHLEN---TKGFSLRTLKYLVMDEA 166
+                        7888888888888888777776...77777777777887775 PP
+
+  == domain 2  score: 29.7 bits;  conditional E-value: 4.2e-10
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradesky 721
+                        +m q ++   ++kfks +  +L+at va  GlDi++ ++vi +++ t     +   Gr ara  s  
+  HADN01043628.1.p2 286 QMSQSKRLGALNKFKSKSRSILVATDVASRGLDIPHVDVVINFDIPTHSKDYIHRVGRtARAGRSGR 352
+                        6899999999*******************************************99999668877643 PP
+
+>> HADN01022924.1.p1  type:complete len:706 gc:universal HADN01022924.1:2660-543(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.2   0.0     2e-05     0.018     249     372 ..     144     266 ..     130     270 .. 0.87
+   2 !   33.4   0.0   3.1e-11   2.8e-08     592     782 ..     342     519 ..     323     534 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 2e-05
+                RLR 249 aleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk...vvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnD 337
+                        al G+n++ ++ tGsGkt   ++    h+++ +  ++g    v+vl     l +q +++ +   ++ + r + + G   +   + e+ +  +
+  HADN01022924.1.p1 144 ALTGRNLVGIAQTGSGKTLSFILPGIVHINHQPLLQPGDgpiVLVLCPTRELAQQVQEVAYSVGKHCKLRSTCIYGGAPKGPQIRELERGVE 235
+                        99******************999888899888765555333388999999999999999999999999************************ PP
+
+                RLR 338 iiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        i i+t+  L   L +     + +L   + +++De 
+  HADN01022924.1.p1 236 ICIATPGRLIDMLES----RKTNLRRCTYLVLDEA 266
+                        ******999888877....7788888888888885 PP
+
+  == domain 2  score: 33.4 bits;  conditional E-value: 3.1e-11
+                RLR 592 LekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsva 683
+                          kL  k+l ee+  e++ +++ift t++ ad L++ ++ +      +  a  + G        + +q+e+  v+++f++G+  +L+at va
+  HADN01022924.1.p1 342 EHKLL-KLL-EEIMGEKENKTLIFTETKRRADELTRKLRSD------GWPAMCIHG--------DKAQPERDWVLSEFRKGHAPILVATDVA 417
+                        33333.222.3444567778888888888888887655443......333333333........3468999********************* PP
+
+                RLR 684 eeGlDikeCniviryglvtneiamvqarGr.arad..eskyvlvatsgsgvieketinefke..klmekailavqkmdeaeyrekilelqtq 770
+                          GlDi++   vi +++       v   Gr ar+d  ++ y++   ++++   ke++   +e  + ++  +l +q+m + ++ +k   ++ +
+  HADN01022924.1.p1 418 SRGLDISDIKFVINFDFPNCTEDYVHRIGRtARSDrtGTSYTFFTVNNAKQ-AKELVSVLQEakQHVNPKLLNLQDMAR-NFGKKRDRFRRD 507
+                        *****************9999999999998667772246788888877776.678888887732457788899999875.577777777777 PP
+
+                RLR 771 ellerkakekrk 782
+                        +   r+ ++++k
+  HADN01022924.1.p1 508 NTYARDLRSNPK 519
+                        777777666665 PP
+
+>> HADN01001263.1.p1  type:5prime_partial len:459 gc:universal HADN01001263.1:3273-1897(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.9   0.0    0.0001     0.091     237     273 ..      51      87 ..      37     183 .. 0.66
+   2 !   26.6   0.2   3.5e-09   3.2e-06     659     741 ..     305     392 ..     299     448 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 11.9 bits;  conditional E-value: 0.0001
+                RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyia 273
+                        k+ + ql+ + P l+G++ i c+ tGsGkt + ++  
+  HADN01001263.1.p1  51 KPTEIQLNCVPPILQGRDCIGCAKTGSGKTAAFALPI 87 
+                        67788*************************9866544 PP
+
+  == domain 2  score: 26.6 bits;  conditional E-value: 3.5e-09
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv..lvatsgsgviek..etinefk 741
+                        q e+   + +fksG++ +L+at va  GlDi++  +v+  ++ ++    +   Gr ara    ++  +v + +   ++k  e+in   
+  HADN01001263.1.p1 305 QGERLAALARFKSGTIKILVATDVASRGLDIPQVELVVNSNIPADPKDYIHRVGRtARAGRGGMAisMVTQYDIDRVKKieEKINTKL 392
+                        5566677899******************************999999999998898567765444211454444444443335666543 PP
+
+>> HADN01062427.1.p1  type:5prime_partial len:725 gc:universal HADN01062427.1:1-2175(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0     0.041        37     247     271 ..     297     322 ..     275     423 .. 0.69
+   2 !   32.7   0.0     5e-11   4.5e-08     608     713 ..     513     604 ..     496     637 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 3.2 bits;  conditional E-value: 0.041
+                RLR 247 lP.aleGkniiiclPtGsGktrvavy 271
+                        lP  + G++++ c+ tGsGkt + ++
+  HADN01062427.1.p1 297 LPiVMAGRDLMACAQTGSGKTAAYML 322
+                        552589***************88665 PP
+
+  == domain 2  score: 32.7 bits;  conditional E-value: 5e-11
+                RLR 608 esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryg 699
+                           r+++f+  ++ ad L  W+ +n+ + +             +s s +  q e++  +  f++G+ n+L+atsva  GlDi++   vi y+
+  HADN01062427.1.p1 513 GTDRTLVFVELKRVADFLAAWLSQNN-FPT-------------TSISSDRCQSEREAALRDFRDGRANILVATSVAARGLDIPNVKHVINYD 590
+                        55677777777777777777777664.444.............45566778999999*********************************** PP
+
+                RLR 700 lvtneiamvqarGr 713
+                        l  +  + v   Gr
+  HADN01062427.1.p1 591 LPQDIEEYVHRVGR 604
+                        97766666666665 PP
+
+>> HADN01102893.1.p1  type:5prime_partial len:421 gc:universal HADN01102893.1:1584-322(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0   0.0     0.024        22     240     268 ..      72     100 ..      64     137 .. 0.79
+   2 !   28.8   0.0   7.9e-10   7.1e-07     652     714 ..     315     377 ..     228     411 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 4.0 bits;  conditional E-value: 0.024
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrv 268
+                        + q   + P l+G+++i  +  G+Gkt  
+  HADN01102893.1.p1  72 AIQQRAIKPILKGRDVIAQAQSGTGKTAT 100
+                        5688889*******************975 PP
+
+  == domain 2  score: 28.8 bits;  conditional E-value: 7.9e-10
+                RLR 652 sqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                        s   +m q+e++ +++ f+ G+  +Li+t v   GlD+++  +vi y+l  n    +   Gr+
+  HADN01102893.1.p1 315 SMHGDMPQKEREAIMKDFRAGQSRVLISTDVWARGLDVQQVSLVINYDLPNNRELYIHRIGRS 377
+                        55668********************************************99986666666654 PP
+
+>> HADN01061759.1.p1  type:5prime_partial len:419 gc:universal HADN01061759.1:2297-1041(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.1      0.68   6.1e+02     241     280 ..      65     104 ..      52     170 .. 0.66
+   2 !   33.6   0.8   2.7e-11   2.4e-08     586     734 ..     266     398 ..     230     415 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: -0.8 bits;  conditional E-value: 0.68
+                RLR 241 yqlevalPaleGkniiiclPtGsGktrvavyiakdhLekv 280
+                         q   + P  + +++i  +  G+Gkt   +    + +++ 
+  HADN01061759.1.p1  65 IQQRAIRPCCQARDVIAQAQSGTGKTATFAISILQEIDTN 104
+                        5667788888889999999999999865433333333332 PP
+
+  == domain 2  score: 33.6 bits;  conditional E-value: 2.7e-11
+                RLR 586 enenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlL 677
+                        e+e+ kL++L+       y++   ++++if  tr+ +d L   ++e++                 ss   +m q+e+  ++++f+sG+  +L
+  HADN01061759.1.p1 266 EKEDWKLDTLCD-----LYETLTITQAVIFANTRRKVDWLAAKMTEKDHT--------------VSSMHGDMSQKERDIIMKEFRSGSSRVL 338
+                        677777777774.....566666778888888888887666555544332..............3677889********************* PP
+
+                RLR 678 iatsvaeeGlDikeCniviryglvtneiamvqarGra...radeskyvlvatsgsgviek 734
+                        i t     G+D+++  +vi y+l +n  + +   Gr+     +++ + +v +++ ++++ 
+  HADN01061759.1.p1 339 ITTDLLARGIDVHQVSLVINYDLPSNRENYIHRIGRGgrfGRKGAAINFVTNDDVRMLKD 398
+                        ***********************9988777776666421145667777888888888764 PP
+
+>> HADN01065629.1.p1  type:5prime_partial len:714 gc:universal HADN01065629.1:2-2143(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0     0.059        54     245     268 ..     265     289 ..     250     400 .. 0.89
+   2 !   27.4   0.0     2e-09   1.8e-06     656     714 ..     526     584 ..     480     619 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 2.7 bits;  conditional E-value: 0.059
+                RLR 245 valPaleGk.niiiclPtGsGktrv 268
+                         a+P ++Gk +++ c+ tGsGkt +
+  HADN01065629.1.p1 265 YAIPIVKGKrDLMACAQTGSGKTAA 289
+                        5889****945788*********76 PP
+
+  == domain 2  score: 27.4 bits;  conditional E-value: 2e-09
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                        +  qre++e +  f+ G+  +L+at+va  GlDi++   vi ++l t+  + v   Gr+
+  HADN01065629.1.p1 526 DRSQREREEALRTFRCGDTPILVATAVAARGLDIPNVKHVINFDLPTDIEEYVHRIGRT 584
+                        457899***************************************99988888887774 PP
+
+>> HADN01058264.1.p1  type:complete len:705 gc:universal HADN01058264.1:84-2198(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.8   0.0    0.0034       3.1     251     371 ..     109     227 ..      10     233 .. 0.82
+   2 !   23.1   0.0   4.1e-08   3.7e-05     659     717 ..     360     419 ..     346     435 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 6.8 bits;  conditional E-value: 0.0034
+                RLR 251 eGkniiiclPtGsGktrvavyiakdhLe..k..vkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                        +G ++i  + tG+Gkt   ++   + L+  k   k+++  kv+v++    l +q  ++ef+++ k    v  + G +  +   + +    D+
+  HADN01058264.1.p1 109 DGEDVIGQARTGTGKTLSFALPLVEKLQdgKlsQKRGRAPKVLVMAPTRELAKQ-VGNEFENL-KSNLEVYCIYGGMPYEPQENAINSGLDV 198
+                        79999999********876654444444122113456889*************9.89999886.67889********9999999999999** PP
+
+                RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                        ++ t+  +   +++     + +Ls +  +++De
+  HADN01058264.1.p1 199 LVGTPGRILDFMRQ----GTLDLSKLKHVVLDE 227
+                        *9998543333333....456666666666666 PP
+
+  == domain 2  score: 23.1 bits;  conditional E-value: 4.1e-08
+                RLR 659 qreqkev.idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                        q +q+ev ++ f++Gk+  L+at va  GlDi+e ++v++ +   ++ a +   Gr +ra 
+  HADN01058264.1.p1 360 Q-KQREVtLKSFREGKFRCLVATDVAARGLDIPEIDLVVQCEPPKDVDAYIHRSGRtGRAG 419
+                        3.455553899*****************************999888888888888844663 PP
+
+>> HADN01062565.1.p1  type:5prime_partial len:454 gc:universal HADN01062565.1:1512-151(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.14   1.3e+02     252     271 ..       3      22 ..       2      60 .. 0.72
+   2 !   28.2   0.0   1.2e-09   1.1e-06     666     728 ..     347     412 ..     335     437 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.14
+                RLR 252 GkniiiclPtGsGktrvavy 271
+                        G n++i + tGsGkt   ++
+  HADN01062565.1.p1   3 GGNTVINAETGSGKTLCYLL 22 
+                        78*************98776 PP
+
+  == domain 2  score: 28.2 bits;  conditional E-value: 1.2e-09
+                RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad..eskyvlvatsg 728
+                        ++kfk+G++ +Li t +a  GlDi++   vi+ ++ t+  +m+   Gr ara   + ++ ++ +++
+  HADN01062565.1.p1 347 LEKFKNGEIQVLICTDIASRGLDIPNVTHVIQLDFATDAAQMLHRVGRtARAGshGKVVNFITKDN 412
+                        79*********************************************9445531123344555544 PP
+
+>> HADN01060954.1.p1  type:5prime_partial len:566 gc:universal HADN01060954.1:2601-904(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0     0.015        13     249     371 ..     163     288 ..      95     292 .. 0.68
+   2 !   24.4   0.0   1.7e-08   1.5e-05     644     713 ..     399     470 ..     384     501 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 4.7 bits;  conditional E-value: 0.015
+                RLR 249 aleGkniiiclPtGsGktrvavy.....iakdhL..ekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevv 333
+                         + G++++ c+ tGsGkt + ++     + +  L    + +++  + + ++    l +q + +  k     + r +   G ++    + ++ 
+  HADN01060954.1.p1 163 VIAGRDVMACAQTGSGKTAAFLLpvmtsMMNAGLtsSSFSETQTPQAMCIAPTRELANQIYLEARKFAHGTMLRPVVCYGGVSVSHQLRQLQ 254
+                        468***************87665211112233331134555667777777777777777554444444445566666677777777777777 PP
+
+                RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                          +++++ t+  L   + k     +v+L  + ++i+De
+  HADN01060954.1.p1 255 SGCNLLVGTPGRLTDFIEK----GKVSLKGLQFLILDE 288
+                        7777777777655544444....667777777777776 PP
+
+  == domain 2  score: 24.4 bits;  conditional E-value: 1.7e-08
+                RLR 644 lLiGaG..kssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                        +L G G   +s   +  q+e++e +d f++G+  +Liat va  GlDi +   vi ++l ++  + v   Gr
+  HADN01060954.1.p1 399 FLSGEGfpTTSIHGDRLQQEREEALDDFRKGRCPVLIATNVAARGLDIDDVKHVINFDLPSDIDEYVHRIGR 470
+                        5666662234444556789999***********************************997776666666665 PP
+
+>> HADN01017283.1.p1  type:5prime_partial len:551 gc:universal HADN01017283.1:3-1655(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.4   0.0    0.0093       8.4     233     269 ..     108     145 ..      23     188 .. 0.74
+   2 !   23.2   0.0   3.8e-08   3.4e-05     664     703 ..     441     480 ..     410     544 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 5.4 bits;  conditional E-value: 0.0093
+                RLR 233 eselk.lrsyqlevalPaleGkniiiclPtGsGktrva 269
+                        + +++ + + q++     + G++ii  + tGsGkt + 
+  HADN01017283.1.p1 108 KKNFQvPTPIQMQSLSCVMSGRDIIGLAETGSGKTLAY 145
+                        4455525688999999*******************874 PP
+
+  == domain 2  score: 23.2 bits;  conditional E-value: 3.8e-08
+                RLR 664 evidkfksGklnlLiatsvaeeGlDikeCniviryglvtn 703
+                        +++++f++Gk+++L+at va  GlD +e   vi y+l   
+  HADN01017283.1.p1 441 KLVKAFRDGKVDILVATDVASRGLDFPEVTHVINYDLPDT 480
+                        6799*******************************98554 PP
+
+>> HADN01015182.1.p1  type:5prime_partial len:686 gc:universal HADN01015182.1:1-2058(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.0   0.0   0.00037      0.33     241     371 ..     184     316 ..     155     322 .. 0.77
+   2 !   17.9   0.0   1.5e-06    0.0014     655     715 ..     468     529 ..     411     592 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00037
+                RLR 241 yqlevalPaleGkniiiclPtGsGktrv.avyia...kdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvigl.sGdtaekv 327
+                         q   +   l G ++ i   tGsGkt   a+ +    +d + k+++a++   vvlv    l  q ++   k ++  ++ v gl  G  + k 
+  HADN01015182.1.p1 184 VQKAAIPTLLAGEDVCIKSKTGSGKTLCyAIPVVqtlQDIVPKIERADGPYAVVLVPTRELALQSFNLLLKLVKPFQWVVPGLvVGGEKRKS 275
+                        55544444579***************8734445411145566788889999*******************************8358888888 PP
+
+                RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                           ++ k  +i+++t+  L   + k    +   +     i++De
+  HADN01015182.1.p1 276 EKARLRKGINILVATPGRLLDHIEK---TQCLTFRNVQWIVLDE 316
+                        9999***********9877665555...5555555666666666 PP
+
+  == domain 2  score: 17.9 bits;  conditional E-value: 1.5e-06
+                RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ar 715
+                         +m q e+  v  k+ s +  +L++t va  GlD+++   +i+y+  +  +  v   Gr ar
+  HADN01015182.1.p1 468 GSMSQTERTDVFTKYSSSQEGILLSTDVAARGLDLPRVSWIIQYDTPGSAVDYVHRVGRtAR 529
+                        4699**************************************************99999334 PP
+
+>> HADN01042167.1.p1  type:complete len:430 gc:universal HADN01042167.1:72-1361(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.2   0.3     2e-05     0.018     239     374 ..      71     202 ..      51     208 .. 0.79
+   2 !   14.2   0.0     2e-05     0.018     655     701 ..     321     367 ..     272     409 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 14.2 bits;  conditional E-value: 2e-05
+                RLR 239 rsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk..kryrviglsGdtaekvs 328
+                         + q e +  a+ G +ii  +  G Gkt v v+ + + Le v+   +  v+v+     l  q   ke++rf k     ++  + G ++ k  
+  HADN01042167.1.p1  71 SEVQHECIPQAILGMDIICQAKSGMGKTAVFVLATLQQLEPVD--GQVSVLVMCHTRELAFQI-HKEYERFCKymSNIKIAVFFGGINIKKD 159
+                        567999999**********************************..556688888888888885.5566666651234567778899999999 PP
+
+                RLR 329 feevvksn.Diiilta.qiLensLkkleedaiveLsvfsLiiiDeChh 374
+                         + +  ++  i++ t+ +iL  +L++   +++ +L      i+DeC +
+  HADN01042167.1.p1 160 QQTLKTNCpHIVVGTPgRIL--ALTR---EKTLNLKHAKHFILDECDK 202
+                        99987776256667762344..6777...7889999999999999976 PP
+
+  == domain 2  score: 14.2 bits;  conditional E-value: 2e-05
+                RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglv 701
+                        +gm q+e+    ++fk+ +  +L+at     G+Di++ niv  y++ 
+  HADN01042167.1.p1 321 RGMKQEERLARYQQFKNFEKRMLVATNLFGRGMDIERVNIVFNYDMP 367
+                        5789999999999*******************************975 PP
+
+>> HADN01056338.1.p1  type:3prime_partial len:386 gc:universal HADN01056338.1:65-1219(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1   0.1   6.4e-10   5.8e-07     171     371 ..      18     230 ..       2     235 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 29.1 bits;  conditional E-value: 6.4e-10
+                RLR 171 vlrkernkekelwiveknikeset.edlev..veesdislaeedvecld...........lsedsdeesvvadasleselklrsyqlevalP 248
+                        + r e+nk +el +v+k   + +  e++e+   + sd++ +ee++   +           lsed +e++     +      + + q   + P
+  HADN01056338.1.p1  18 MKRSEKNKTEELVAVNKVETDDDNpEETEEdsGNVSDTERTEESTLPSEaalpdshefsaLSEDVSEKTLQ-GIKDMGFTTMTEIQHKSIAP 108
+                        33567999999999988655443213333224677888888888766665555555544444444443332.22333344577899****** PP
+
+                RLR 249 aleGkniiiclPtGsGktrvavyiakdhLekvk.ka.ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                         l+G++++  + tGsGkt + +    + L k + k+ +++ v+++     l  q +++    ++++ ++   + G ++ k+  e++ k  ++
+  HADN01056338.1.p1 109 LLKGRDLLGAAKTGSGKTLAFLVPVVELLYKLQfKTrNGTGVIIISPTRELSLQTYGVARDLLKHHNFTYGIIMGGVNRKAEAERLQKGVNL 200
+                        ******************99887666666665424447778999999999999*9999999999999***9********************* PP
+
+                RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                        +i+t+  L   L++    ++     +  ++iDe
+  HADN01056338.1.p1 201 LIATPGRLLDHLQN---TQGFLYKNLQCLVIDE 230
+                        *****999999998...4444444445555555 PP
+
+>> HADN01002234.1.p3  type:complete len:175 gc:universal HADN01002234.1:1988-2512(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.2   0.0   1.2e-09   1.1e-06     659     732 ..      53     130 ..       7     135 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 28.2 bits;  conditional E-value: 1.2e-09
+                RLR 659 qreqke.vidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvatsgsgvi 732
+                         +eq+e  ++ +k G+ ++L+at va  G+Dik+   vi y++   + +  + +   Gra   +  + ++ +s+sgv 
+  HADN01002234.1.p3  53 NQEQREfALSSLKGGSKDILVATDVAGRGIDIKDVSHVINYDMaktIEDYTHRIGRTGRAGKTGIAVSFLTQSDSGVF 130
+                        344554269********************************9822233445566667777777888889999999985 PP
+
+>> HADN01029373.1.p1  type:complete len:817 gc:universal HADN01029373.1:174-2624(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   0.0     1e-05    0.0091     240     371 ..     111     238 ..      21     242 .. 0.67
+   2 !   10.3   0.0   0.00029      0.26     655     727 ..     360     435 ..     331     441 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 1e-05
+                RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvl..vnkvllveqlkskefkrflkkryrviglsGdtaekvsf 329
+                        + q       ++Gk+++ ++ tGsGkt + +    + L++     + + ++l    ++ l +q++ ke  rf   +  vi l Gd +++  f
+  HADN01029373.1.p1 111 PIQRKTLPLVMDGKDVVAMARTGSGKTAAFLIPMFEKLQTHTAKVGIRALILspTRELALQTQKFIKELGRFTGLKSSVI-LGGD-SLEGQF 200
+                        45555555579****************98888888899888755555666662256788999999999999988777776.6666.57789* PP
+
+                RLR 330 eevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                          +  + Di+++t+  +   +++       +Ls    +++De
+  HADN01029373.1.p1 201 AAIHTNPDIVVATPGRFLHVVME----MELKLSSVEYVVFDE 238
+                        *************9755544444....456777777777777 PP
+
+  == domain 2  score: 10.3 bits;  conditional E-value: 0.00029
+                RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades..kyvlvats 727
+                         ++ q ++   + kf++ k  +++ t va  G+Di+  + vi + +       v   Gr ara  s   y lva++
+  HADN01029373.1.p1 360 SSLDQTARTINVGKFQHKKTMVMVVTDVAARGIDIPMLDNVINFHFPPKAKLFVHRVGRvARAGRSgtAYSLVAND 435
+                        4566777777799*********************************999999999999978998772245566554 PP
+
+>> HADN01044717.1.p1  type:complete len:433 gc:universal HADN01044717.1:2164-866(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.5   0.0     0.001      0.92     237     372 ..      69     198 ..      12     217 .. 0.80
+   2 !   17.5   0.0   2.1e-06    0.0019     633     712 ..     292     373 ..     238     379 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.001
+                RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                        k+ + q e +  al G++i+  +  G+Gkt + +    +  +++k++ ++ v+v   ++ l + +   e  +  + + +v+  +G t++k  
+  HADN01044717.1.p1  69 KPSPIQEESIPVALAGRDILARAKNGTGKTAAYLVPLLERTDTTKNCIQALVLVPTRELALQTSQICIELGK--HMGAQVMVTTGGTSLKDD 158
+                        466789999999******************887777777778888676676666666666655554444443..4456677778******** PP
+
+                RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                        + ++ +   +i++t+  +   +kk    +  ++s   ++++De 
+  HADN01044717.1.p1 159 ILRLYNKVHVIVATPGRVLDLMKK----KLADMSKCQMLVMDEA 198
+                        **************9754443443....6788888888888886 PP
+
+  == domain 2  score: 17.5 bits;  conditional E-value: 2.1e-06
+                RLR 633 eklaevdvkaqlLiGaGkssq..stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarG 712
+                        + ++ v++ a+ ++  G s       m q +++ v + f++G+   L+       G+Di+  n+vi +++  n  + +   G
+  HADN01044717.1.p1 292 NSVQRVELLARKILELGFSCFyiHARMSQSHRNRVFHDFRQGHCRNLVCSDLFTRGIDIQSVNVVINFDFPKNSETYLHRIG 373
+                        45567777777777777776511467******************************************99888766555555 PP
+
+>> HADN01033145.1.p1  type:5prime_partial len:504 gc:universal HADN01033145.1:1882-371(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0   3.9e-05     0.035     245     422 ..     133     314 ..     108     364 .. 0.76
+   2 !   10.1   0.0   0.00035      0.31     666     714 ..     409     457 ..     403     490 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 3.9e-05
+                RLR 245 valPaleGkniiic.lPtGsGktrvavyiakdhLek..vkka.....ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                        v +P +  +  +ic + tGsGkt + +    + L +    ++     ++ +  ++v    l +q  +       + r+r +gl G  ++k  
+  HADN01033145.1.p1 133 VTIPKIIHRHHVICaAQTGSGKTLAYLAPLVHRLREdeERHGilarlKRPRACIVVPARELATQILKTAKSLCHHARFRSVGLIGGRKQKWM 224
+                        44555555555566268******986654444444300333322122455677888888999**8777777778889*************** PP
+
+                RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLe.qkLknsaiPLPqvlGLtaspGvGgakkld 419
+                         +++    D++++t+  L +      +++   +s+++ ++iDe  +t  +a +  + ++ L+   +++   P P  l + a + + ga+  +
+  HADN01033145.1.p1 225 RDDLESPVDLLVATPGTLLKY----RQKDRLFFSDLTHLVIDEA-DTMFDASFKSLTMEILHtINIRECQAPPPDQLPIDAQVTIAGATLPQ 311
+                        ***************876544....44578999**********8.57778888877666665268898999999999999999999998766 PP
+
+                RLR 420 eal 422
+                        e +
+  HADN01033145.1.p1 312 ELI 314
+                        655 PP
+
+  == domain 2  score: 10.1 bits;  conditional E-value: 0.00035
+                RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                         +kf++ + ++L+ t +a  GlD ++   vi +++    +  +   Gr+
+  HADN01033145.1.p1 409 FEKFQNKTADILVCTDIASRGLDTSDVSHVINFDFPNSMVDYIHRVGRT 457
+                        689********************************99999999999985 PP
+
+>> HADN01039043.1.p1  type:complete len:500 gc:universal HADN01039043.1:90-1589(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       2.5   2.2e+03     254     315 ..     153     211 ..     134     263 .. 0.59
+   2 !   22.0   0.0   8.9e-08     8e-05     655     700 ..     385     430 ..     365     434 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 2.5
+                RLR 254 niiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryr 315
+                        n+i     G+Gkt + v+     ++ +k     +v+ l     l  q  +k  + + k+  +
+  HADN01039043.1.p1 153 NMIAQSQSGTGKTAAFVLTMLSRVDATK--PYPQVICLSPTYELARQ-TGKVAEAMGKHCPH 211
+                        6777777888888777776655555555..45677777777777777.66666666665543 PP
+
+  == domain 2  score: 22.0 bits;  conditional E-value: 8.9e-08
+                RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                         ++t +++  v+++f+ Gk  lLi t v+  G+D+++  +vi y++
+  HADN01039043.1.p1 385 GEITIEQRIAVLERFRLGKEKLLITTNVSARGIDVEQVTLVINYDM 430
+                        5678888899**********************************86 PP
+
+>> HADN01046480.1.p1  type:complete len:597 gc:universal HADN01046480.1:2016-226(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   0.0     0.026        24     249     372 ..      52     182 ..      14     202 .. 0.73
+   2 !   17.0   0.0   2.8e-06    0.0025     660     715 ..     314     370 ..     306     397 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 3.9 bits;  conditional E-value: 0.026
+                RLR 249 aleGkniiiclPtGsGktrvavy.iakdhL...ekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevv.k 334
+                         +  k++ + + tGsGkt + v  i +  L   +k kk e g  ++   +  l +q  ++ +  +++    r   l G  ++++ ++    +
+  HADN01046480.1.p1  52 FMSNKDVAVEAVTGSGKTLAFVIpIIEIILrreDKLKKHEIGALIITPTR-ELAQQIDEVVSTLVEDIpNIRRLLLIGGADPNADLKAFKyE 142
+                        47889999**********98765455555511156666666666655444.77788777777777764256777788889999999987537 PP
+
+                RLR 335 snDiiiltaqiLensLkkle..edaiveLsvfsLiiiDeC 372
+                          +iii t+  Le  L + +   +   +L  + ++++De 
+  HADN01046480.1.p1 143 GANIIIGTPGRLEDFLARQQdgINLASHLKSLEVLVLDEA 182
+                        8999*****9999999997723334567788888888886 PP
+
+  == domain 2  score: 17.0 bits;  conditional E-value: 2.8e-06
+                RLR 660 reqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ar 715
+                         +++++ d f++ +  +L+ t v   G+Di+e n vi+y+  +   a v   Gr ar
+  HADN01046480.1.p1 314 SNRHKIFDSFRKLESGILVCTDVMARGVDIPEVNWVIQYDPPSSANAFVHRCGRtAR 370
+                        567789**********************************99999999998888334 PP
+
+>> HADN01056342.1.p2  type:complete len:359 gc:universal HADN01056342.1:1128-2204(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.0   1.4e-07   0.00012     656     718 ..     133     196 ..     130     212 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 1.4e-07
+                RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arade 718
+                        +m qr++ + +d+fk  +  lL+at va  GlDi++   vi y++  +    v   Gr ara +
+  HADN01056342.1.p2 133 SMQQRQRLKNLDRFKASNTGLLLATDVAARGLDIANIEHVIHYQVPKDPEVYVHRSGRtARASH 196
+                        6899999999*********************************998887777888887456654 PP
+
+>> HADN01072201.1.p1  type:complete len:643 gc:universal HADN01072201.1:2478-4406(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.0      0.25   2.2e+02     247     270 ..     232     256 ..     220     366 .. 0.84
+   2 !   18.2   0.0   1.2e-06    0.0011     658     727 ..     487     559 ..     460     593 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.6 bits;  conditional E-value: 0.25
+                RLR 247 lPa.leGkniiiclPtGsGktrvav 270
+                        lPa l G+++i ++ tGsGkt v  
+  HADN01072201.1.p1 232 LPAvLTGRDMIGIAFTGSGKTLVFT 256
+                        455389***************9854 PP
+
+  == domain 2  score: 18.2 bits;  conditional E-value: 1.2e-06
+                RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlvats 727
+                         q+e+   i +f++G+ ++L+at va  GlD ++   vi +++   + n ++ +   Gr    +   +++ +s
+  HADN01072201.1.p1 487 SQEERVHAIREFHQGNKDVLVATDVASKGLDFPDIQHVINFDMpedIENYVHRIGRTGRCGKTGVATTFINKS 559
+                        577788899********************************87444667777777777766666666666554 PP
+
+>> HADN01043934.1.p1  type:5prime_partial len:739 gc:universal HADN01043934.1:1-2217(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.9   0.0       1.4   1.3e+03     241     269 ..      33      61 ..      23      81 .. 0.75
+   2 !   18.3   0.0   1.2e-06    0.0011     578     725 ..     476     619 ..     463     627 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -1.9 bits;  conditional E-value: 1.4
+                RLR 241 yqlevalPaleGkniiiclPtGsGktrva 269
+                         q e +   l G ++++ + tGsGkt + 
+  HADN01043934.1.p1  33 VQAEAIPLILGGGDVLMAAETGSGKTGAF 61 
+                        5777777789999*************764 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 1.2e-06
+                RLR 578 LkrlaedpenenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiG.aGkssqstgmtqreqkevidk 668
+                        +k  ++ pe   e ++ L+ + l + +  ++   giif +t+   d ++q++    +  +  v a   +   G+         +e+k  ++k
+  HADN01043934.1.p1 476 IKPNSQSPESLSEAVKILKAEYLVKAIDEHKMDSGIIFCRTKLDCDNIEQYLLSLGGGPKAMVDAYSCVClHGDR------SPQERKTNLQK 561
+                        555677788777888888888888888889999999999999999999999876555444444443333212332......34678889*** PP
+
+                RLR 669 fksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlva 725
+                        fk+ ++ +Li t va  G+Di+    vi   +  ++ + v   Gr +rad    +l +
+  HADN01043934.1.p1 562 FKDNEVCFLICTDVAARGIDIQGVPYVINVTFPDDKQNYVHRIGRvGRADRMGLALSL 619
+                        *****************************99999999999999986788877666655 PP
+
+>> HADN01092012.1.p1  type:internal len:137 gc:universal HADN01092012.1:2-409(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.0   9.1e-07   0.00082     599     717 ..       7     133 ..       2     136 .] 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 9.1e-07
+                RLR 599 ilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGa.Gkssqstgmtqreqk.......evidkfksGklnlLiatsv 682
+                        i ++ +r  + + ++i+ k    a+a++  i     +++  +k+++L     +   +t+m +++++         ++   +G++n+Li    
+  HADN01092012.1.p1   7 IANHTTRPMQRPVAVILAKSELQAHAINSLISYISDFTHPYLKTRILSNDkINQMINTHMSLDDKEpdplvgdMTMQGILNGSINVLIVCRE 98 
+                        677888889999**********************************97641455568****99975333222246777889*********** PP
+
+                RLR 683 aeeGlDikeCniviryglvtneiamvqarGrarad 717
+                         e  l +++C +v+r+g+  + i+ v  +  ar +
+  HADN01092012.1.p1  99 VEHLLRLSQCRLVVRFGVPNDYISYVVVKNIAREQ 133
+                        ******************9999*999988888765 PP
+
+>> HADN01045341.1.p1  type:5prime_partial len:542 gc:universal HADN01045341.1:3049-1424(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.1   0.0   1.1e-05    0.0097     208     343 ..       5     144 ..       1     171 [. 0.67
+   2 ?    1.3   0.0      0.15   1.4e+02     685     750 ..     349     417 ..     346     467 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 15.1 bits;  conditional E-value: 1.1e-05
+                RLR 208 aeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrv.avyiakdhLekvkkaekg..kvvvlvnkvl 296
+                        a+ed + l + +   ++ +v   s  +  k+ + q   +  aleGk+++  + tGsGkt + a+ + ++ L++++ ++++  + ++lv    
+  HADN01045341.1.p1   5 ADEDEQSLSFDSMGLDDRIVKAISKLNWSKPTPIQEKAITLALEGKDVLARAKTGSGKTAAyAIPVVQRILQEKQTCKESyiRALILVPTKE 96 
+                        5555555555555566777777777778899999999**********************87478899**9*999988555226688888888 PP
+
+                RLR 297 lveqlkskefkrflkkryrviglsGdtaekvsf..eevvksnDiiilta 343
+                        l +q   ++ k++     r + ++   + +++   + ++   Di++ t+
+  HADN01045341.1.p1  97 LAQQ-AARNAKELSSCCAREVRVADVAQGNLPStkPLLMDKPDIVVGTP 144
+                        8777.55555555554444444444444444431134566666666666 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.15
+                RLR 685 eGlDikeCniviryglvtneiamvqarGr.arades..kyvlvatsgsgvieketinefkeklmekail 750
+                         G+D +    vi +++ + + a +   Gr ar d s     +v +s+  vi k     ++e+  +k + 
+  HADN01045341.1.p1 349 RGIDFQGVENVINFDFPSTVEAYIHRVGRtARGDSSgtALSFVTHSDNTVISKAEERLAQETGSDKEVF 417
+                        5999999999*****999998889888885677777224569*********998777777776666665 PP
+
+>> HADN01024922.1.p1  type:5prime_partial len:643 gc:universal HADN01024922.1:2-1930(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.0   0.00033       0.3     222     269 ..     225     272 ..     150     287 .. 0.81
+   2 !    5.6   0.0    0.0077       6.9     659     714 ..     506     561 ..     498     591 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00033
+                RLR 222 deesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrva 269
+                         +es   + s +    + + q++v    l G+++++c+ tGsGkt   
+  HADN01024922.1.p1 225 FNESLSKNLSNHGYHSPTPIQMQVLPVLLSGRDVMVCASTGSGKTASF 272
+                        55555566666667778899****99999****************754 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.0077
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                        q e+ ++++ f  G+  l+++t+v   G+D+ +   vi +++     + v   Gra
+  HADN01024922.1.p1 506 QAERAQILQDFLAGECPLVVSTAVLGRGVDLLNIRQVINFDMPPTYEEYVHQIGRA 561
+                        678889********************************999865555555555554 PP
+
+>> HADN01075572.1.p2  type:complete len:264 gc:universal HADN01075572.1:1337-546(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.4   0.0   4.2e-06    0.0038     660     728 ..      66     137 ..      46     167 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 4.2e-06
+                RLR 660 reqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsg 728
+                        +++  +++ fk  +G++ +L+at     G+D k     i +g   n  a +q  Gra r  +s + +++ +g
+  HADN01075572.1.p2  66 QNKDAILESFKrlDGHVQVLVATIAFSMGIDCKCVHRTIHFGPSKNCEAFIQETGRAgRDGKSSFSYLLYKG 137
+                        455689****999********************99*********************8466678888888776 PP
+
+>> HADN01068649.1.p2  type:complete len:421 gc:universal HADN01068649.1:952-2214(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.1   5.7e-06    0.0052     661     721 ..     107     169 ..      47     233 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 5.7e-06
+                RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                         qkev+ +f   + k+ +++at     G+Di++ + +i yg+ + + + vq  Gr+  d+  +
+  HADN01068649.1.p2 107 IQKEVLGEFIksNSKIRVVVATCALGMGVDIPDVDHIIHYGIPSEVEHYVQEIGRGGRDGRLC 169
+                        59******96567899***************************************98887766 PP
+
+>> HADN01016559.1.p1  type:3prime_partial len:775 gc:universal HADN01016559.1:148-2469(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.2   0.0   7.8e-05     0.071     255     377 ..     265     385 ..     260     395 .. 0.84
+   2 ?    1.7   0.0      0.12   1.1e+02     645     728 ..     546     640 ..     503     649 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 7.8e-05
+                RLR 255 iiiclPtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqi 345
+                        +++c+PtGsGkt +  + i +  ++  +  +++k+++++    l   + +    +f   + +   ++Gd ++   fe  ++  +i+++t++ 
+  HADN01016559.1.p1 265 LVVCAPTGSGKTVIFeLAIIRLIMKSAEDIRRTKIIYMAPMKALCSERCTDWAAKFGPLGIKCKEVTGDSELDDYFE--IRDVNIVMTTPEK 354
+                        689*********986155677777777777**********999999999**********************999998..79999******98 PP
+
+                RLR 346 LensLkkleedaiveLsvfsLiiiDeChhtsk 377
+                         +   +k  +d++  +    L +iDe h  + 
+  HADN01016559.1.p1 355 WDSMTRK-WKDNQSLVQSVQLFLIDEVHLLND 385
+                        8765555.56666667778999*****97665 PP
+
+  == domain 2  score: 1.7 bits;  conditional E-value: 0.12
+                RLR 645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir....yg...lv....tneiamvqarGraradeskyvlva 725
+                        L+  G   +  g+   ++k++   f +G+l +L ats    G++++   ++i+    y+   +v    t  ++m+   Gr + d s  ++++
+  HADN01016559.1.p1 546 LVICGVGYHHAGLDPTDRKNIEALFVKGDLPVLFATSTLAVGVNLPAHLVIIKstqcYDkgvYVeyseTQILQMIGRAGRPQFDTSATAVIL 637
+                        334444455677777889999999********************998888886333332222333333566778888888888888888887 PP
+
+                RLR 726 tsg 728
+                        t  
+  HADN01016559.1.p1 638 TTT 640
+                        765 PP
+
+>> HADN01061831.1.p1  type:3prime_partial len:263 gc:universal HADN01061831.1:148-933(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.1   0.0   2.1e-05     0.019     208     267 ..      54     119 ..      26     257 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 2.1e-05
+                RLR 208 aeedvecld...lse...dsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktr 267
+                        +  +v c +    s+     ++e ++a  ++      r  qle +   + G + i+++PtG Gk  
+  HADN01061831.1.p1  54 FSSNVACAQgsdWSStafSWSQEVEAALKNVFKIDTFRHLQLECINATMSGVDCILIMPTGGGKSL 119
+                        4456666653333332222334444555555555567999************************85 PP
+
+>> HADN01016453.1.p1  type:complete len:101 gc:universal HADN01016453.1:245-547(+)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   1.8e-05     0.016      22      88 ..      22      86 ..       5      97 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 1.8e-05
+                RLR 22 veyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllarai 88
+                       +  ++ yl  l ++ keqi  e +++G+ +a+ ll++ +k  +++G + +f+ al ++G   ++  i
+  HADN01016453.1.p1 22 PGDMMPYLPCLTDDDKEQILCEEENRGSRRAAYLLVDRLKR-RRNGMF-DFIRALSKTGCHHVVARI 86
+                       45577899999999999999999999999999998887765.445654.899999999987665433 PP
+
+>> HADN01010913.1.p1  type:5prime_partial len:1033 gc:universal HADN01010913.1:3277-179(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.0   0.00018      0.16     226     326 ..     121     212 ..      55     254 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 11.1 bits;  conditional E-value: 0.00018
+                RLR 226 vvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvi 317
+                         +a+ + e ++ l ++q e      + k ++i + t +Gkt va y     L+k++     +v++      l +q++++ +++f++    v 
+  HADN01010913.1.p1 121 SAAKPAKEYPFILDPFQKEALRCLENNKSVLISAHTSAGKTVVAEYAIAMSLQKKQ-----RVIYTTPIKALSNQKYRELYEEFQD----VG 203
+                        466677788999*******88888889**************************999.....6776666666677766666666655....33 PP
+
+                RLR 318 glsGdtaek 326
+                         ++Gd++ +
+  HADN01010913.1.p1 204 LMTGDVTIN 212
+                        445555544 PP
+
+>> HADN01051767.1.p1  type:internal len:1241 gc:universal HADN01051767.1:3720-1(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.1    0.0003      0.27     227     308 ..     413     495 ..     390     565 .. 0.70
+   2 ?   -2.4   0.0         2   1.8e+03     659     696 ..     724     761 ..     720     768 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 10.3 bits;  conditional E-value: 0.0003
+                RLR 227 vadasleselklrsyqlevalPaleGkniiiclPtGsGkt.rvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkr 308
+                         a  +  s+l + +y+  + +   e + iii   tG+Gkt +v  ++ +  Le+ + ae   vv    ++  v    ++  +r
+  HADN01051767.1.p1 413 KAMLEQRSQLPVFNYKHAILQAVHENRVIIIKGATGCGKTtQVPQFVLDAFLENGQGAECNIVVTQPRRISAVSVAERVAAER 495
+                        4556677889999**************************73699*********999888888888778887777655554443 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 2
+                RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCnivi 696
+                        +++q+ v +   +G   ++++t +ae  + i +   vi
+  HADN01051767.1.p1 724 REDQRRVFEPVPEGVTKIILSTNIAETSITIDDVVFVI 761
+                        689****************************9988777 PP
+
+>> HADN01015180.1.p1  type:internal len:235 gc:universal HADN01015180.1:704-3(-)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.7   0.0   0.00044       0.4     238     265 ..     207     234 .]     200     234 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 0.00044
+                RLR 238 lrsyqlevalPaleGkniiiclPtGsGk 265
+                        lr+ ql+v+  a+  kn  + +PtG Gk
+  HADN01015180.1.p1 207 LRTNQLQVINAAMMRKNCFVLMPTGGGK 234
+                        899************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (917 nodes)
+Target sequences:                      42379  (12602443 residues searched)
+Passed MSV filter:                      1414  (0.0333656); expected 847.6 (0.02)
+Passed bias filter:                      667  (0.0157389); expected 847.6 (0.02)
+Passed Vit filter:                        98  (0.00231247); expected 42.4 (0.001)
+Passed Fwd filter:                        47  (0.00110904); expected 0.4 (1e-05)
+Initial search space (Z):              42379  [actual number of targets]
+Domain search space  (domZ):              47  [number of targets reported over threshold]
+# CPU time: 1.09u 0.07s 00:00:01.16 Elapsed: 00:00:00.54
+# Mc/sec: 21257.09
+//
+[ok]

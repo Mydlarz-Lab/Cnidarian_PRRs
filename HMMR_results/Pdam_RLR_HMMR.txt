@@ -1,0 +1,1462 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  RLR.hmm
+# target sequence database:        ../proteomes/Pdam_proteome.fa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RLR  [M=917]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   1.9e-190  635.5  19.8     1e-101  341.8  11.3    2.9  2  XP_027039850.1  interferon-induced helicase C domain-containi
+   3.6e-188  628.0  20.8    1.1e-99  335.2  10.4    3.0  3  XP_027039857.1  probable ATP-dependent RNA helicase DHX58 [Po
+   1.8e-186  622.4  13.7   1.8e-185  619.0  13.4    1.9  2  XP_027052918.1  probable ATP-dependent RNA helicase DDX58 [Po
+      4e-56  191.0   0.6    5.8e-28   97.8   0.1    2.0  2  XP_027042516.1  endoribonuclease Dicer-like [Pocillopora dami
+    1.6e-55  189.0   1.8    3.2e-27   95.3   0.1    2.1  2  XP_027042533.1  endoribonuclease Dicer-like, partial [Pocillo
+    1.3e-49  169.4   3.5    2.4e-49  168.6   0.2    2.5  2  XP_027051224.1  uncharacterized protein LOC113678531 [Pocillo
+      2e-35  122.5   0.0    3.1e-25   88.8   0.0    2.2  2  XP_027060508.1  uncharacterized protein LOC113687008 isoform 
+    2.2e-35  122.3   0.0    3.3e-25   88.7   0.0    2.2  2  XP_027060506.1  uncharacterized protein LOC113687008 isoform 
+    2.2e-35  122.3   0.0    3.3e-25   88.7   0.0    2.2  2  XP_027060507.1  uncharacterized protein LOC113687008 isoform 
+    8.9e-32  110.4   0.2    4.3e-16   58.5   0.1    2.2  2  XP_027054323.1  Fanconi anemia group M protein-like [Pocillop
+    9.8e-24   83.8   0.0    1.3e-23   83.4   0.0    1.1  1  XP_027042518.1  endoribonuclease Dicer-like [Pocillopora dami
+    2.4e-17   62.6   0.1    5.8e-08   31.6   0.0    2.3  2  XP_027057006.1  probable ATP-dependent RNA helicase DDX52 [Po
+      3e-15   55.7   3.6    4.4e-08   32.0   0.5    2.2  2  XP_027039147.1  probable ATP-dependent RNA helicase DDX27 [Po
+    4.4e-13   48.5   0.4    1.9e-08   33.2   0.1    2.9  3  XP_027041915.1  U5 small nuclear ribonucleoprotein 200 kDa he
+    4.5e-13   48.5   0.0    1.5e-07   30.3   0.0    2.3  2  XP_027048397.1  probable ATP-dependent RNA helicase DDX46 [Po
+    7.4e-13   47.8   0.0    3.9e-09   35.5   0.0    2.2  2  XP_027046480.1  probable ATP-dependent RNA helicase DDX47 [Po
+    9.8e-13   47.4   0.0    1.7e-06   26.8   0.0    2.6  2  XP_027043481.1  ATP-dependent RNA helicase dbp2-like [Pocillo
+    7.4e-12   44.5   0.0    3.5e-05   22.4   0.0    2.3  2  XP_027052249.1  DEAD-box ATP-dependent RNA helicase 22-like [
+    9.8e-12   44.1   0.0    1.4e-06   27.1   0.0    2.2  2  XP_027055791.1  ATP-dependent RNA helicase DDX42-like [Pocill
+    1.8e-11   43.2   0.8    3.7e-06   25.6   0.6    2.7  3  XP_027043856.1  activating signal cointegrator 1 complex subu
+    5.2e-11   41.7   0.0    1.7e-05   23.4   0.1    2.1  2  XP_027052862.1  probable ATP-dependent RNA helicase DDX43 [Po
+    2.5e-09   36.1   1.7    8.2e-09   34.4   0.6    2.1  2  XP_027047182.1  eukaryotic initiation factor 4A-I-like [Pocil
+    5.8e-09   34.9   0.0    2.6e-06   26.1   0.0    2.1  2  XP_027035532.1  ATP-dependent RNA helicase DDX4-like [Pocillo
+    9.6e-09   34.2   0.0      6e-05   21.6   0.0    2.2  2  XP_027060673.1  ATP-dependent RNA helicase DDX54-like [Pocill
+    1.3e-08   33.8   1.7    2.8e-07   29.3   0.1    2.7  3  XP_027044975.1  eukaryotic initiation factor 4A-III [Pocillop
+    1.6e-08   33.5   0.0    0.00015   20.3   0.0    2.1  2  XP_027037573.1  probable ATP-dependent RNA helicase DDX31 [Po
+    2.2e-08   33.0   0.6    0.00079   17.9   0.1    2.2  2  XP_027043703.1  spliceosome RNA helicase Ddx39b [Pocillopora 
+    5.4e-08   31.7   0.1    0.00016   20.2   0.0    2.3  2  XP_027050199.1  probable ATP-dependent RNA helicase DDX49 [Po
+    1.7e-07   30.0   0.0    1.2e-05   23.9   0.1    2.3  2  XP_027042127.1  probable ATP-dependent RNA helicase DDX23 [Po
+    1.9e-07   29.9   0.0    0.00015   20.3   0.0    2.1  2  XP_027037518.1  DNA polymerase theta-like [Pocillopora damico
+      3e-07   29.3   0.0    5.3e-06   25.1   0.0    2.2  2  XP_027059671.1  ATP-dependent RNA helicase DDX3X-like [Pocill
+    3.2e-07   29.1   0.4    0.00032   19.2   0.0    2.2  2  XP_027058140.1  endoribonuclease Dicer-like [Pocillopora dami
+    4.7e-07   28.6   0.0      0.001   17.6   0.0    3.1  3  XP_027036423.1  ATP-dependent RNA helicase DBP2-like [Pocillo
+    5.8e-07   28.3   0.1     0.0021   16.5   0.0    2.1  2  XP_027048593.1  probable ATP-dependent RNA helicase ddx6 [Poc
+    9.5e-07   27.6   0.0      0.003   16.0   0.0    2.1  2  XP_027038813.1  nucleolar RNA helicase 2-like [Pocillopora da
+    7.4e-06   24.6   0.0    2.3e-05   23.0   0.0    1.7  2  XP_027056411.1  probable ATP-dependent RNA helicase DDX4 [Poc
+    2.8e-05   22.7   0.0    2.8e-05   22.7   0.0    1.0  1  XP_027039855.1  uncharacterized protein LOC113668178 [Pocillo
+    3.9e-05   22.3   1.6      4e-05   22.2   0.1    1.6  2  XP_027039099.1  probable ATP-dependent RNA helicase DDX56 [Po
+      6e-05   21.6   0.0     0.0026   16.2   0.0    2.1  2  XP_027051629.1  ATP-dependent RNA helicase HAS1-like [Pocillo
+    6.9e-05   21.4   0.1    0.00011   20.7   0.1    1.2  1  XP_027035542.1  probable ATP-dependent RNA helicase DDX60 [Po
+    0.00012   20.7   0.0     0.0032   15.9   0.0    2.2  2  XP_027050320.1  probable ATP-dependent RNA helicase DDX41 [Po
+    0.00013   20.5   0.5      0.002   16.6   0.3    2.3  2  XP_027046979.1  ATP-dependent DNA helicase Q1-like isoform X2
+    0.00015   20.3   0.4     0.0025   16.3   0.2    2.3  2  XP_027046978.1  ATP-dependent DNA helicase Q1-like isoform X1
+     0.0003   19.3   0.0       0.17   10.2   0.0    2.1  2  XP_027036674.1  DEAD-box ATP-dependent RNA helicase 39-like [
+    0.00044   18.8   0.0     0.0008   17.9   0.0    1.4  1  XP_027035544.1  probable ATP-dependent RNA helicase DDX60 [Po
+    0.00062   18.3   0.1     0.0011   17.4   0.1    1.4  1  XP_027049492.1  RNA-dependent RNA polymerase 6-like, partial 
+     0.0013   17.2   0.0     0.0024   16.4   0.0    1.3  1  XP_027047973.1  probable ATP-dependent RNA helicase DDX60 [Po
+     0.0016   16.9   0.0     0.0037   15.7   0.0    1.5  2  XP_027053096.1  probable ATP-dependent DNA helicase HFM1 [Poc
+     0.0053   15.2   0.0      0.085   11.2   0.0    2.1  2  XP_027049758.1  ATP-dependent RNA helicase DDX55-like [Pocill
+  ------ inclusion threshold ------
+      0.013   13.9   0.0      0.042   12.2   0.0    1.8  2  XP_027051972.1  ATP-dependent RNA helicase DDX1-like [Pocillo
+      0.019   13.4   0.0        3.4    5.9   0.0    2.3  2  XP_027037091.1  probable ATP-dependent RNA helicase DDX59 [Po
+      0.019   13.4   0.1        2.9    6.1   0.0    2.4  2  XP_027052927.1  ATP-dependent DNA/RNA helicase DHX36-like [Po
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_027039850.1  interferon-induced helicase C domain-containing protein 1-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  341.8  11.3  2.1e-104    1e-101      20     605 ..      25     696 ..       7     703 .. 0.85
+   2 !  296.2   1.2   1.3e-90   6.3e-88     610     910 ..     740    1038 ..     730    1047 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 341.8 bits;  conditional E-value: 2.1e-104
+             RLR  20 ldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllaraieltdlkkeekldeyllllkllqpelk 114
+                     +++  +l yl  l++  ke i+a++++ G+  a ++l++ +k  +++G+  +f+ al+ +G    a  ++ + +  +++ d+   + +  +  +k
+  XP_027039850.1  25 VNPVDLLPYLPCLEQMDKEAIEAKQNNMGPTTANQILVDRLKR-RNKGF-VQFVRALRTSGNEHTALLVDPYYIYPIDEGDDEIAVPNGSEIGYK 117
+                     67778899**************************999988765.56675.58**********999998888888878888877888888777777 PP
+
+             RLR 115 dkllvrdvlddlseelltiedrerlaiaetkGneaGvrkllkrlvdkenwfkalklvlrke.................................. 175
+                         + dv+ +      t  d+e  + + ++  e    +l ++ + ke   k +++ l+k                                   
+  XP_027039850.1 118 RIGTAIDVIIKGNLSAETSGDEEEPESCYAE--EKYLAELYEQHSSKES--KQMRKELQKYlpqgavfvhtakgsiittirlstkeaavklwdmy 208
+                     7667778887776666677777777766554..5567899999999996..445555555556669***************************** PP
+
+             RLR 176 ........................................rnkekelwiveknikesetedlevveesdislaeedvecldlsedsdeesv..va 228
+                                                              + +++l  +e++ +  e   +   ++ + s++++d +  ++ e+ d + v    
+  XP_027039850.1 209 tegefqkslqhvlvddtfkkhqripekplklnlsisqerfVQIQEKLAEIEEEQEREEKMRSTLSSKQEDSVTDDDGSIPEVEEEIDIPPVylGN 303
+                     ******************************99986655543333334444444443343344444444555666666666677766655441157 PP
+
+             RLR 229 dasles..elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkk......a..ekgkvvvlvnkvllveqlkskefkrflkkr 313
+                     +a++ s  el+lr+yq e+a PaleGkn+iic+Pt sGkt+va+ iak+hLe +k       +  +k kvv++v  v+lv q +++ f+ +l+++
+  XP_027039850.1 304 KANPFSvcELELREYQKELADPALEGKNTIICAPTNSGKTYVAIEIAKNHLESFKAkaptdsSlsKKPKVVFIVSTVNLVSQ-QKERFELYLRDK 397
+                     788865449*******************************************9874222222133678**************.567889999*** PP
+
+             RLR 314 yrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.saiPLPqvlGLt 407
+                     y v+ +sG+ a++++++ + +++Dii+ltaqiL+n+L+   ++++v+L + sL+++DeChh++ke+ yn im +yL +k +  + + LPqv+G+t
+  XP_027039850.1 398 YSVVDISGANATEIPLKYLLQNHDIIVLTAQILVNALTCKSKEEQVNLEDISLLLFDECHHAHKEHSYNRIMERYLALKKQPrNQGSLPQVVGFT 492
+                     ***************************************99**************************************99834568******** PP
+
+             RLR 408 aspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk........mselsrefG 494
+                     as G+G ak  ++a+ehil + anLDa vi tvk+n  +Lk+  + P ++     ++ +Dpf++++ ++m++ie  ++        + + +    
+  XP_027039850.1 493 ASLGTGKAKSVEKAEEHILLVSANLDAEVISTVKKNQSELKKFANVPERNVYQLSTTGNDPFEKIISQVMKNIEAKVRgrrgeestSAPPDDSKS 587
+                     *****************************************************************************99***9998666667778 PP
+
+             RLR 495 tqkyeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeL.krlaedpene 588
+                      q+y qwv +l+k+++    + +  +aehLr y  aL i+    m++a + L+++++    +kf  i +   L  lf+   + L k++ae+ e+e
+  XP_027039850.1 588 CQQYRQWVEELSKNSVADADRYLITFAEHLREYHIALTINKSTTMKNAKKRLEKYFESLDREKFLPIDKS--LERLFQCAMEILdKNVAEHGEPE 680
+                     9***************************************************************999777..********9999457******** PP
+
+             RLR 589 nekLekLrfkilqeeyr 605
+                     n+ L kL+  +lq +y+
+  XP_027039850.1 681 NPFLMKLKELLLQ-HYK 696
+                     ********75555.554 PP
+
+  == domain 2  score: 296.2 bits;  conditional E-value: 1.3e-90
+             RLR  610 argiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702 
+                      ++gi+ft+tr+s+ aL+ Wi+e+e+l    ++++ L+G G+   + gmtq+eq+ vi++f++G+ nlL+atsvaeeGlDi++Cn viry++++
+  XP_027039850.1  740 PKGILFTRTRESTSALEDWIKEDEQLRA-VLRPEALVGSGDG--NIGMTQNEQERVISRFHTGEKNLLLATSVAEEGLDIRDCNFVIRYDMMG 829 
+                      78*************************9.59*********87..589********************************************** PP
+
+             RLR  703 neiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrekilelqtqellerkakekrkiakrqkndkelvk 795 
+                      nei+ vq+rGr rade +y +++  +sg +++e+ n f+e+lm +a+ +vq++ e+++++k++ +q ++   rk k+     k+ k+ ++ v+
+  XP_027039850.1  830 NEISSVQSRGRVRADEGMYSVLVSVDSGALKRENTNRFRETLMVEALSKVQNISEKDFQRKVKAIQDKNFRDRKLKKGVMALKKSKPVPDDVN 922 
+                      ********************************************************************************9************ PP
+
+             RLR  796 lLCknCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrnCgeaWGiqvvykslelPvlkirsfvvedkats. 887 
+                      + C++C+ ++c+++D+r + et +v ++ + +e  vv +    +kk+ d + + ki+C++Cg++WG++v    +e  ++ki sfvv++  ++ 
+  XP_027039850.1  923 FHCRKCNEAVCQAHDIRRVRETFYVIINSDVRESKVVMKICPSPKKIDDVEFNKKIYCKKCGQDWGVTVRINDVEWLCIKISSFVVQFPGPNp 1015
+                      **********************************999988777*********************************************97662 PP
+
+             RLR  888 vkkqykkWkelpfevpdlDyael 910 
+                       +++ kkWk+lpf + +  + el
+  XP_027039850.1 1016 QRIMKKKWKDLPFGIEEATFEEL 1038
+                      6778899******9887776665 PP
+
+>> XP_027039857.1  probable ATP-dependent RNA helicase DHX58 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.0   7.4e-05     0.036      22      84 ..      22      82 ..       4     102 .. 0.82
+   2 !  335.2  10.4  2.3e-102   1.1e-99      98     605 ..     142     695 ..     116     702 .. 0.81
+   3 !  284.1   3.0   6.2e-87     3e-84     583     912 ..     820    1152 ..     807    1157 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 7.4e-05
+             RLR 22 veyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssll 84
+                    +  +l yl+ l++  ke i+a++++kG+  a + l++ +k  +++G + ef+ al+++Gs   
+  XP_027039857.1 22 PGDLLPYLSCLQQTDKEAIEATQSNKGPTTANQTLVDRLKR-RDKG-FSEFVRALRKCGSEHT 82
+                    567899*************************9999987765.4556.689*********9765 PP
+
+  == domain 2  score: 335.2 bits;  conditional E-value: 2.3e-102
+             RLR  98 kldeyllllkllqpelkdkllvrdvlddlse..elltiedrerlaiaetkGneaGvrkllkrlvdkenwfkalklvlrke............... 175
+                      l+eyl  l   q    +k + rd+ ++l +   +++     ++a      +   ++kl +    k+ + + lk vl +                
+  XP_027039857.1 142 DLEEYLAGLFGKQSSEESKRMRRDLQKHLPQgaVFVNTAKGSIIATF-RLSTVEAAKKLWEM-YSKQTFQDKLKEVLVEStlkrhqklpdkplql 234
+                     57788888877888888888888888888775333444444444443.34444456666664.56788888899888777799999999999999 PP
+
+             RLR 176 .........rnkekelwiveknikesetedlevveesdislaeedvecldlsedsdeesvv......adas..leselklrsyqlevalPaleGk 253
+                              ++ +k+l  +e++ +  e       ++ + s ae+d +  ++  d  +e v+      ++a+     el+lr+yq e+a Pal+Gk
+  XP_027039857.1 235 nitfsedrfKQIQKKLKEIEEEQERDEQMRNTLSSKQEGSAAEDDGSLSEIDRDEIDEIVIppvylgSNANsfNIRELELREYQKELAAPALKGK 329
+                     99888444433333333333333322222222233444456666666666655555444432222224444114579****************** PP
+
+             RLR 254 niiiclPtGsGktrvavyiakdhLekvkkaekg.........kvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDii 339
+                     n+iic+Pt sGkt+va+ iak+hLe + + +++         kvv++v  v+lv q +++ f+ +l ++y vi +sG+ a++v+++ + +s+ i+
+  XP_027039857.1 330 NTIICAPTNSGKTYVALEIAKKHLEFFTQDNEAtdssnrkqpKVVFIVSTVNLVSQ-QKERFEAYLGDKYPVIDISGANATEVPLKYLLQSHSIV 423
+                     ************************9887653222223333339*************.566788889999************************** PP
+
+             RLR 340 iltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.saiPLPqvlGLtaspGvGgakkldealehilkLCanLD 433
+                     +ltaq+L+n+L +  ++++v+L + sL+++DeChh++ke+ yn im +yL  k +  + +PLPqv+G+tas G+G ak  ++a ehi+ L anLD
+  XP_027039857.1 424 VLTAQMLVNALNNKSKEEQVNLQDISLLLFDECHHAHKEHSYNRIMERYLAFKKQPrHQGPLPQVVGFTASLGTGKAKSVEKAAEHIILLSANLD 518
+                     ***************************************************999973578*********************************** PP
+
+             RLR 434 afviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk.......mselsrefGtqkyeqwvvklekaaaveglkkervya 521
+                     a vi tv++n  +L +  + P +k   v +  +Dpf++++ ++mt+ie+ +k        s    e G q+y qwv ++ k ++    + +   a
+  XP_027039857.1 519 AEVISTVQDNKSELAQYANVPERKVFQVPTSEKDPFEKIVSQIMTKIETRVKgikgkllKSVPPEEKGSQQYRQWVEEFYKDSVTDADRILITLA 613
+                     **********************999999***************************999955555799**************************** PP
+
+             RLR 522 ehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeL.krlaedpenenekLekLrfkilqeeyr 605
+                     ehLr y  aL i+    m++a + L+++++    +kf  i +   L++lf+    +L k++ e+ e+ n+ L kL+  +lq++ +
+  XP_027039857.1 614 EHLREYHIALTINKSTTMKNARKCLQKYFDSLDREKFLQIDEK--LTNLFQAAMSMLdKHVKEHGEPPNPLLMKLKDLLLQHY-K 695
+                     *************************************999888..************56899**************8666655.4 PP
+
+  == domain 3  score: 284.1 bits;  conditional E-value: 6.2e-87
+             RLR  583 edpenenek.LekLrf.kilqe...eyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfk 670 
+                      e+p++e +k  e+L+  k l++   e r  + ++gi+ft+tr+s+ aL+ Wi+e+++l+   ++++ L+G G+   + gmtq+eq+ vi++f+
+  XP_027039857.1  820 ENPSQETDKsAENLQDdKSLNKrngEQREWKGPKGIVFTRTRESTTALEDWIKEDDELNA-VLRPEALVGSGDG--NIGMTQNEQERVISRFH 909 
+                      4444444442233332123333111445566799*************************9.59*********87..589************** PP
+
+             RLR  671 sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaeyrek 763 
+                      +G+ nlL+atsvaeeGlDi +Cn viry++++nei+ vq+rGr ra+  +y +++  +sg +++e  n+f+e lm +a+ +vqkm ++ ++ k
+  XP_027039857.1  910 KGETNLLLATSVAEEGLDIMDCNFVIRYDMMGNEISTVQSRGRVRAEVGMYSVLVSGDSGALKREYTNQFRESLMIEALSKVQKMSPKAFQSK 1002
+                      ********************************************************************************************* PP
+
+             RLR  764 ilelqtqellerkakekrkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrnC 856 
+                      ++ +q ++ l rk k++    k+ ++ ++ v++ C++C + +c+++++r + et+hv ++ + ++  vv e+   +k +   +++ ki+C++C
+  XP_027039857.1 1003 VKAIQDRNFLDRKLKKRVMALKHSEPVPDDVTFHCRRCFAEVCQAHNIRRVKETYHVIISSDVRDSKVVMEEHHNPKALDGVEMNRKIYCKEC 1095
+                      *********************************************************************999999****************** PP
+
+             RLR  857 geaWGiqvvykslelPvlkirsfvvedkatsvkkq.ykkWkelpfevpdlDyaelck 912 
+                       e+WG++v   ++e  ++ki  fv+++  ++++++  kkWk lpf++ +  + el +
+  XP_027039857.1 1096 REDWGVTVLINGMEWMCIKISGFVLQFPEPKARRLtVKKWKLLPFTIQEATFEELMQ 1152
+                      ****************************9998775279********99988888765 PP
+
+>> XP_027052918.1  probable ATP-dependent RNA helicase DDX58 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.17        80      20      82 ..      23      87 ..      14     106 .. 0.76
+   2 !  619.0  13.4  3.8e-188  1.8e-185     226     911 ..     270     981 ..     224     986 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.17
+             RLR 20 ldveyvldylaflreevkeqiqaekatkGnmeavelllkt.ekelqelG..wtreflealdraGss 82
+                    + ++ +l+yl  l++  ke+i  e  ++G+  a+  ll+  +k+   +G   +  ++ al++ G  
+  XP_027052918.1 23 VAPTKLLQYLN-LPKWDKEKITCEERNEGPAYATATLLEKlKKQNGPEGqkTFDALVRALRNIGNQ 87
+                    678999***97.89999*************998766665525555555522466778888887765 PP
+
+  == domain 2  score: 619.0 bits;  conditional E-value: 3.8e-188
+             RLR 226 vvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvk.ka.e.kg...........kvvvlvnkvllveqlkskef 306
+                     v  d s   +l+lrsyq e+ +Pal+G n iic+Pt sGkt+va+ ia  hL +   ka e k            kv+++vnkv+lv q+++++ 
+  XP_027052918.1 270 VFLDKSASRKLELRSYQQELSIPALKGNNCIICAPTNSGKTYVALAIAIAHLAELRaKAaEnKCrtpastsiprkKVLFIVNKVNLVLQQRQRFD 364
+                     4557788899******************************************764312222111222233344449*************666555 PP
+
+             RLR 307 krflk..kryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLkn.... 395
+                      ++ +  +++ v+ +sG+ a+   ++e+ + nD+i+ltaqiL+ +Lk+      v+++++sL+i+DeChht+k ++yn im +yL  k ++    
+  XP_027052918.1 365 YYLSNrvDGHDVTDISGANAQDKQLDEITEENDVIVLTAQILVDALKS----RRVSITDYSLLIFDECHHTDKGHPYNDIMLKYLGIKYGSrggq 455
+                     55544224699************************************9....99**********************************9999999 PP
+
+             RLR 396 ....saiPLPqvlGLtaspGvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylk. 485
+                         + + LPq++GLtas GvG ak + ea +hil+LC+nLD+++i tv++  ++L+    +  +  + + +   D f e++  +m +ie++l  
+  XP_027052918.1 456 eltqERQNLPQIIGLTASLGVGKAKSRIEAQDHILQLCSNLDCSAIVTVEKHKKDLQGFTGRCIRTCHEIANGETDYFDEIMNAVMVNIEQMLPr 550
+                     999999************************************************************************************99865 PP
+
+             RLR 486 ...mselsrefGtqkyeqwvvklekaaaveglkkervyaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkke 577
+                         +   ++ G q+y+qw+ +l++ ++ ++ +++    +hL+ yn aL i+   r++Dal+++ +f++++++ kf+ i  +  L al+++ ++ 
+  XP_027052918.1 551 lsrRNGTPNDRGGQQYQQWLKELDRDSVTHKSREQCTLVQHLQVYNTALAIKKCCRVKDALKYVTEFHDRQREDKFKDIDRN--LRALYQKARED 643
+                     55445556899******************************************************************99655..*******9999 PP
+
+             RLR 578 Lk.rlaedpenenekLekLrfkilqeeyrl......eesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkev 665
+                     L+ ++ e+ e  n+kLe +   +l+++y++      ++ a+g++ftktr+s++aLk W++en+ l +  ++a+ L+G Gk +   gmtq +q+ev
+  XP_027052918.1 644 LDlKIKEKGELRNPKLEAVAS-LLKQKYQAcveeggQQTAKGMLFTKTRESTKALKAWLDENPDLRF--IRAERLVGTGKGE--DGMTQCQQEEV 733
+                     9757999999**********5.999988753433335679***************************..**********986..59********* PP
+
+             RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekailavqkmdeaey 760
+                     i +f+sG++nlL++t+v eeG+Di++C  viry++ +neia vq+rGr r +e +y +va +++gvieke++n ++e++me+ai  v+ m+ +ey
+  XP_027052918.1 734 IANFRSGRVNLLVSTTVGEEGIDIPDCKFVIRYDVRGNEIASVQSRGRVRDREGQYEVVAGKETGVIEKENLNVIREEMMEDAIREVKAMNVDEY 828
+                     *********************************************************************************************** PP
+
+             RLR 761 rekilelqtqellerkakekrkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvnltpefkelyvvredkalqkkfadykkrgkiiCrn 855
+                     +ekil+lq +++ +r+ ke  k+ ++ k ++e+vkl+C++C+v acsg  +r i e hhv++ ++f   +  ++ k  +++++d +  g + C++
+  XP_027052918.1 829 KEKILDLQRRTISQRQRKETIKKYEKSKRHQEKVKLFCRKCQVFACSGISIRCIKEAHHVVIDQDFPSKFYFKKSKS-PRRINDIELTGPLHCQD 922
+                     **************************************************************************999.***************** PP
+
+             RLR 856 CgeaWGiqvvykslelPvlkirsfvvedkats..vkk.qykkWkelpfevpdlDyaelc 911
+                     C  +WG++++yks elP++k   f  e+  ++  +k+  ++kWk++ f+v  +D++e+ 
+  XP_027052918.1 923 CDAEWGVMLKYKSKELPCIKASCFGFEFEEEDggTKTfSFRKWKDVLFNVKGFDPSETQ 981
+                     ***********************999998765114442479***************976 PP
+
+>> XP_027042516.1  endoribonuclease Dicer-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.8   0.1   1.2e-30   5.8e-28     226     480 ..      27     272 ..      10     275 .. 0.82
+   2 !   91.6   0.0   8.8e-29   4.3e-26     605     749 ..     395     544 ..     369     556 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 97.8 bits;  conditional E-value: 1.2e-30
+             RLR 226 vvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekg.kvvvlvnkvllveqlkskefkrf.lkkryrv 316
+                       +d + e ++  r+yq+e+   a + +n+i+cl tG+Gkt+++v++ k+  ++v     ++g +  +lvn v+l  q+ +   k+  l+ r+ v
+  XP_027042516.1  27 SKTDGETEGKFSARPYQVELLERA-KERNTIVCLGTGTGKTFISVMLIKELAHEVRGNykDGGrRTFFLVNTVPLASQQAKAIAKHTdLEVRHYV 120
+                     2356678889**********9998.569*******************9987666654443444268899*********99998887636778889 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspG 411
+                       +  d   k + e+  ++ +++++taqi+   L++    + + Ls   L+i+DeChh++k+ +y +im+ + +     +   LP+v+GLtas  
+  XP_027042516.1 121 GEMGVDFWDKPTWEKEFNTSNVLVMTAQIFLDLLLH----SYILLSQVNLLIFDECHHAKKNDPYRQIMQCFSDC----PQRQLPKVMGLTASIV 207
+                     99999************************9999988....899**************************999876....5568**********97 PP
+
+             RLR 412 vGgakkldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdi 480
+                      G   k  + +  i +L   L + + ++  e   ++++   kP     +  +++ D+  ++l ++++d+
+  XP_027042516.1 208 NGK-VKPYKIESEIQELERTLRSTCETSQDE---DVEKYAAKPEELVLVYRSQSTDENVNILIQILSDV 272
+                     666.566788889999999998877665554...55666778888888888888888888888888765 PP
+
+  == domain 2  score: 91.6 bits;  conditional E-value: 8.8e-29
+             RLR 605 rleesargiiftktrqsadaLkqWieeneklae..vdvkaqlLiGaGks.....sqstgmtqreqkevidkfksGk....lnlLiatsvaeeGlD 688
+                     + ++   +i+f+  r +a  L++ +++  +l +    +k++++iG G       s +t+m  ++q+ev+ kf++ k    +n+Liatsv eeGlD
+  XP_027042516.1 395 EEDKTLCAIVFVERRYTALILSKQLNKAAELDHelSFIKSDFVIGHGTGarvsySSNTEMNFKKQEEVLRKFRNDKkrheFNVLIATSVVEEGLD 489
+                     222233579*********99999999877664311239*******997533333789***************954322237************** PP
+
+             RLR 689 ikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekai 749
+                     i++Cn+v r+++  n  + vq++Grara++sky +++ +      ke++ +++e  m +ai
+  XP_027042516.1 490 IPKCNVVCRFDFPKNYRSYVQSKGRARAKGSKYYMLVDE------KEQVEKVNELEMLRAI 544
+                     *********************************777665......4444444444444444 PP
+
+>> XP_027042533.1  endoribonuclease Dicer-like, partial [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.3   0.1   6.6e-30   3.2e-27     233     416 ..      14     192 ..       2     255 .. 0.81
+   2 !   93.1   0.2   3.2e-29   1.6e-26     588     736 ..     341     505 ..     299     525 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 95.3 bits;  conditional E-value: 6.6e-30
+             RLR 233 eselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekg.kvvvlvnkvllveqlkskefkrf.lkkryrviglsGdt 323
+                       ++  r+yq+e+   a + +n+i+cl tG+Gkt+++v++ k+  ++v     ++g +  +lvn v+l  q+ +   k+  lk r+ v  +  d 
+  XP_027042533.1  14 VENFSARPYQVELLERA-KERNTIVCLGTGTGKTFISVMLIKELAHEVRGNykDGGrRTFFLVNTVPLASQQAKAIAKHTdLKVRHYVGEMGVDF 107
+                     56899********9998.569*******************9987666654443444268899*********9999888763677888999999** PP
+
+             RLR 324 aekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgak 416
+                      +k + e+  ++ +++++t qi+ n L +    + + Ls   L+i+DeChh+ k+++y +im+ + +     +  PLP+v+GLtas   G  k
+  XP_027042533.1 108 WKKPTWENEFNTFNVLVMTYQIFLNLLSH----SFILLSQVNLLIFDECHHATKNHPYRQIMQCFSNC----PQRPLPKVMGLTASIINGKVK 192
+                     **********************9987777....999**************************988654....678***********9777654 PP
+
+  == domain 2  score: 93.1 bits;  conditional E-value: 3.2e-29
+             RLR 588 enekLekLrfkil......qeeyrleesa.rgiiftktrqsadaLkqWieeneklae..vdvkaqlLiGaG.....kssqstgmtqreqkevidk 668
+                       +kLekL   ++      q+e + e+++  +i+f+  r +a  L++ ++   kl +    +k++++iG G     + s + +m  ++q+ev+ k
+  XP_027042533.1 341 FMPKLEKLLS-VFrefansQHEASEEDKTlCAIVFVERRYTAMILSKQLNMAAKLDQelSFIKSNFVIGHGtgakvNYSSNAEMNFKKQEEVLRK 434
+                     5678888864.4411111133333333332479**************999988875411349*******99333333467899************ PP
+
+             RLR 669 fksGk....lnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieket 736
+                     f++ k    +n+Liatsv eeGlDi++Cn+v r+++  n  + vq++Grara++sky +++ +    +eke+
+  XP_027042533.1 435 FRNDKkrheFNVLIATSVVEEGLDIPKCNVVCRFDFPKNYRSYVQSKGRARAKGSKYYMLVDEK-EQVEKEN 505
+                     *954322237***********************************************6665554.4455543 PP
+
+>> XP_027051224.1  uncharacterized protein LOC113678531 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.3      0.38   1.8e+02     840     882 ..      58      99 ..       8     134 .. 0.74
+   2 !  168.6   0.2   4.9e-52   2.4e-49     237     754 ..     167     687 ..     113     706 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 0.2 bits;  conditional E-value: 0.38
+             RLR 840 kkfadykkrgkiiCrnCgeaWGiqvvykslelPvlkirsfvve 882
+                      k a++ +  ki+C++C +  G+  +     l ++ki+++  +
+  XP_027051224.1  58 AKKASFSP-YKILCKQCNDYVGTVSIVHENTLICFKIENVYFK 99 
+                     44455554.4899999999999998888889999999997665 PP
+
+  == domain 2  score: 168.6 bits;  conditional E-value: 4.9e-52
+             RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk.vvvlvnkvllveqlkskefkrflkkryrviglsGdtae..... 325
+                      +r yq e+ l al+G n++++lPtGsGkt +a+++       +kk ++ k +v+lv++++lv q+      ++     rv  l+Gd++      
+  XP_027051224.1 167 IPRGYQQEMFLEALRG-NTLVYLPTGSGKTLIAAMVL----SCMKKLNPNKlMVFLVDRIPLVYQQSDYIKSQVP--DLRVEILAGDVGRfpgdk 254
+                     58**************.99***********9999884....444555566626889*********6554444444..456666666654322221 PP
+
+             RLR 326 ..k.vsfeevvksn.DiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgak 416
+                         ++++ +++++ D+++lt qiL n + +  +   v++s+ s++++De hh   ++ yn++mr++     + + +PL  vl Ltasp   ga 
+  XP_027051224.1 255 srWiATVQALAENKiDLLVLTHQILLNLMAS--DPVVVRMSDISVLVFDEAHHCLGNHCYNQVMRDFYRVTSN-RFKPL--VLALTASPA--GAD 342
+                     114256888998855***********99998..8999*****************************9987654.77776..9*******6..677 PP
+
+             RLR 417 kldealehilkLCanLDafviktvkenleqLkeqvqkPckkfalve.arreDpfkellaelmtdiesylk........mselsrefGtqkyeqwv 502
+                      l+   + + +L +nL a   +  +    +L+   ++P  ++++v  ++++  f+  +   ++ ++++++            + +    +y   +
+  XP_027051224.1 343 TLQATSKKLEELLSNLSACGRMPSRS--TDLEVYWNRPDTEYQMVPlNTKQTVFESNVELYLNSLKELIEceakcpraL--DKLQVLKHNYRGAL 433
+                     777888899999****9988776664..689************997357788899888877777777777555544221..22345567899999 PP
+
+             RLR 503 vklekaaaveglkkerv.yaehLrkyndaLlisdtvrmvDalaaLkdfyseekakkf..dviedd....rfLlalfeekkkeLkrlae..dpene 588
+                      kl +++   + + + +   eh  +    + +++ +    a++ L++  ++ + +    + +++        l+ +e   k L+r++     +  
+  XP_027051224.1 434 RKLIERCYGDKSRVKGLaLGEHAMHMLSVIEVNNILGNEYAVECLEECIKQLRMATSplERLKKKlvgsLNALKVLESSIKDLRRVSSffALSDR 528
+                     9999999988887665426899999999*********************9999876411344444444444567788899999999983233555 PP
+
+             RLR 589 nekLek.LrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsv 682
+                      + L+k L++ il+  ++ +e +rgiif+k r++a+ L + ++++ ++ e ++ + +L+G G+ s+  +  + eq+e+++k++sG++ lL++tsv
+  XP_027051224.1 529 YQHLTKeLENFILR--VEKDETSRGIIFVKMRRTAHKLCERLRKETEICE-KLNPAFLVGHGRGSDGMDW-RGEQEEILKKLRSGEVKLLVSTSV 619
+                     66776438888886..5678999**************************9.9***********9986543.569********************* PP
+
+             RLR 683 aeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsgsgvieketinefkeklmekailavqk 754
+                      eeGlD++ Cn+vir++    +  +vq+rGra r  +s++ +v+ s+     ke+ n f    me+ + +  +
+  XP_027051224.1 620 LEEGLDVPVCNLVIRFDSALTVRGIVQSRGRAsRRPDSRF-VVICSDC----KEQTNAFDAIKMENNMECAMR 687
+                     *******************************945567777.5555554....677777777777766655333 PP
+
+>> XP_027060508.1  uncharacterized protein LOC113687008 isoform X2 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.8   0.0   6.4e-28   3.1e-25     235     454 ..     479     699 ..     472     739 .. 0.77
+   2 !   31.4   0.0   1.4e-10   6.9e-08     608     744 ..     871    1005 ..     849    1015 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 88.8 bits;  conditional E-value: 6.4e-28
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf............lk.kryrv 316
+                       ++ +yqle+   a+   n + +lPtG+Gkt va+ +  + L+  +   + +vv+lv++vllv q+     k++            +  +  r+
+  XP_027060508.1 479 STQPFNYQLELYRKAML-TNGVCFLPTGTGKTLVAAQVIAHMLKLNP---SRQVVFLVDRVLLVLQQSDYLRKELghirvadergsfEStRSIRI 569
+                     56889***********8.58899****************99999998...889*************86544433211122221111133134577 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL+  ++   +  P++lGLtasp
+  XP_027060508.1 570 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLQEDVH--LGHRPKILGLTASP 657
+                     78889888776666665.58**************99....77899************************9845666665..8899*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkP 454
+                        g + l++    + +L  nL    +  v  n  +L+e+ ++ 
+  XP_027060508.1 658 A--GETSLEKTTRRLQRLLGNLGEAELLVVTRNGLELEEKTNRA 699
+                     5..56778899999999999998888888888888888877655 PP
+
+  == domain 2  score: 31.4 bits;  conditional E-value: 1.4e-10
+             RLR  608 esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700 
+                       s  +++++k + +a +L++++ ++ +l   +v++  +i aG+s++ +g+t +     + + ++Gk+ +++ ts aeeGlD++e   v   + 
+  XP_027060508.1  871 SSCLALVLVKRQHTARCLSEYLSNQGELISRGVRTT-FINAGRSAD-KGLTYPLEIDPVAQTREGKFQIVVTTSLAEEGLDLPEPQWVFHMDP 961 
+                      57788999**************************86.6899*9875.89****9999999********************************* PP
+
+             RLR  701 vtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                       + + a+   rGra  ++s++v +  ++ +  + + + +  e++
+  XP_027060508.1  962 SSPVQALREIRGRAPLNGSRFVAICRNNEQTKKIDDLLKREENM 1005
+                      *********************99998887766655555555555 PP
+
+>> XP_027060506.1  uncharacterized protein LOC113687008 isoform X1 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   0.0   6.9e-28   3.3e-25     235     454 ..     518     738 ..     511     778 .. 0.77
+   2 !   31.3   0.0   1.5e-10   7.3e-08     608     744 ..     910    1044 ..     888    1054 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 6.9e-28
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf............lk.kryrv 316
+                       ++ +yqle+   a+   n + +lPtG+Gkt va+ +  + L+  +   + +vv+lv++vllv q+     k++            +  +  r+
+  XP_027060506.1 518 STQPFNYQLELYRKAML-TNGVCFLPTGTGKTLVAAQVIAHMLKLNP---SRQVVFLVDRVLLVLQQSDYLRKELghirvadergsfEStRSIRI 608
+                     56889***********8.58899****************99999998...889*************86544433211122221111133134577 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL+  ++   +  P++lGLtasp
+  XP_027060506.1 609 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLQEDVH--LGHRPKILGLTASP 696
+                     78889888776666665.58**************99....77899************************9845666665..8899*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkP 454
+                        g + l++    + +L  nL    +  v  n  +L+e+ ++ 
+  XP_027060506.1 697 A--GETSLEKTTRRLQRLLGNLGEAELLVVTRNGLELEEKTNRA 738
+                     5..56778899999999999998888888888888888877655 PP
+
+  == domain 2  score: 31.3 bits;  conditional E-value: 1.5e-10
+             RLR  608 esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700 
+                       s  +++++k + +a +L++++ ++ +l   +v++  +i aG+s++ +g+t +     + + ++Gk+ +++ ts aeeGlD++e   v   + 
+  XP_027060506.1  910 SSCLALVLVKRQHTARCLSEYLSNQGELISRGVRTT-FINAGRSAD-KGLTYPLEIDPVAQTREGKFQIVVTTSLAEEGLDLPEPQWVFHMDP 1000
+                      57788999**************************86.6899*9875.89****9999999********************************* PP
+
+             RLR  701 vtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                       + + a+   rGra  ++s++v +  ++ +  + + + +  e++
+  XP_027060506.1 1001 SSPVQALREIRGRAPLNGSRFVAICRNNEQTKKIDDLLKREENM 1044
+                      *********************99998887766655555555555 PP
+
+>> XP_027060507.1  uncharacterized protein LOC113687008 isoform X1 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.7   0.0   6.9e-28   3.3e-25     235     454 ..     518     738 ..     511     778 .. 0.77
+   2 !   31.3   0.0   1.5e-10   7.3e-08     608     744 ..     910    1044 ..     888    1054 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 88.7 bits;  conditional E-value: 6.9e-28
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf............lk.kryrv 316
+                       ++ +yqle+   a+   n + +lPtG+Gkt va+ +  + L+  +   + +vv+lv++vllv q+     k++            +  +  r+
+  XP_027060507.1 518 STQPFNYQLELYRKAML-TNGVCFLPTGTGKTLVAAQVIAHMLKLNP---SRQVVFLVDRVLLVLQQSDYLRKELghirvadergsfEStRSIRI 608
+                     56889***********8.58899****************99999998...889*************86544433211122221111133134577 PP
+
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrn.yLeqkLknsaiPLPqvlGLtasp 410
+                      ++ G++ +  +  ++   +D++i+ta+  +n L +     + ++ + sLi++De hh +k+++ynvi+r+ yL+  ++   +  P++lGLtasp
+  XP_027060507.1 609 GAVCGEMRKLEGNARIY-EQDVLIITADCYRNHLNN----GTLRFDDVSLIVLDEAHHCNKDHPYNVIIRDfYLQEDVH--LGHRPKILGLTASP 696
+                     78889888776666665.58**************99....77899************************9845666665..8899*********9 PP
+
+             RLR 411 GvGgakkldealehilkLCanLDafviktvkenleqLkeqvqkP 454
+                        g + l++    + +L  nL    +  v  n  +L+e+ ++ 
+  XP_027060507.1 697 A--GETSLEKTTRRLQRLLGNLGEAELLVVTRNGLELEEKTNRA 738
+                     5..56778899999999999998888888888888888877655 PP
+
+  == domain 2  score: 31.3 bits;  conditional E-value: 1.5e-10
+             RLR  608 esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700 
+                       s  +++++k + +a +L++++ ++ +l   +v++  +i aG+s++ +g+t +     + + ++Gk+ +++ ts aeeGlD++e   v   + 
+  XP_027060507.1  910 SSCLALVLVKRQHTARCLSEYLSNQGELISRGVRTT-FINAGRSAD-KGLTYPLEIDPVAQTREGKFQIVVTTSLAEEGLDLPEPQWVFHMDP 1000
+                      57788999**************************86.6899*9875.89****9999999********************************* PP
+
+             RLR  701 vtneiamvqarGraradeskyvlvatsgsgvieketinefkekl 744 
+                       + + a+   rGra  ++s++v +  ++ +  + + + +  e++
+  XP_027060507.1 1001 SSPVQALREIRGRAPLNGSRFVAICRNNEQTKKIDDLLKREENM 1044
+                      *********************99998887766655555555555 PP
+
+>> XP_027054323.1  Fanconi anemia group M protein-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   0.0   4.6e-16   2.2e-13     235     386 ..     114     256 ..      81     269 .. 0.90
+   2 !   58.5   0.1   8.9e-19   4.3e-16     562     730 ..     456     633 ..     429     659 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 4.6e-16
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsf 329
+                     +  +r+yq++++  al  kn+++ lPtG Gkt++a+ +  + +   +   +gkv++++   +lv q+ +  +k +   +     ++G++a++   
+  XP_027054323.1 114 NYPIRNYQFDIVEKALY-KNTLVTLPTGLGKTFIAAVVMYNFFRWYP---QGKVIFMAPTKPLVAQQIEACYKIMGIPQSDTAEMTGNMAPNK-R 203
+                     4568************6.***************************99...89***************************************96.5 PP
+
+             RLR 330 eevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimr 386
+                     + + +   +  lt+q+L+n L +       +     L++ De h++  ++ y +++r
+  XP_027054323.1 204 QSLWRMRRVFFLTPQVLQNDLIR----GSCKAEEVILLVADEAHKALGNHAYCQVVR 256
+                     789*******************9....4556667789***************98876 PP
+
+  == domain 2  score: 58.5 bits;  conditional E-value: 8.9e-19
+             RLR 562 eddrfLlalfeekkkeLkrlaedpe..nenekLekLrfkilqe..ey..rlees.....argiiftktrqsadaLkqWieeneklaevdvkaqlL 645
+                      ++  L ++f  +++ L ++ +     +  +kL kL+  +l++  ++  +++e+     +r +if + r s++ +   +  ++ l     +   +
+  XP_027054323.1 456 ANESLLFSQFSPRRRALMNVPKPSTtfKSHPKLLKLKEIVLEHfeKFqgKSDEDskgvaTRVMIFSQYRDSVNEIAALLSRHKPLV----RVMSF 546
+                     4557899999999999999976543225789*****987777522222234444233336778*****************999985....56789 PP
+
+             RLR 646 iGaGkssqs.tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsgsg 730
+                     iG+  + +s +g+ q+eq +v+++f++G +n L+at v eeGlDi e ++++ ++  +  i++vq  Gr +r ++ ++v+++t+g  
+  XP_027054323.1 547 IGQQTTGKSvRGLSQKEQLQVVQRFRQGGYNTLVATCVGEEGLDIGEVDLIVCFDAHASPIRLVQRMGRtGRKRDGRIVVLVTEGKE 633
+                     998887664289*********************************************************669999999999999854 PP
+
+>> XP_027042518.1  endoribonuclease Dicer-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4   0.0   2.6e-26   1.3e-23     633     749 ..       7     124 ..       3     137 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 83.4 bits;  conditional E-value: 2.6e-26
+             RLR 633 eklaevdvkaqlLiGaGks.....sqstgmtqreqkevidkfksGk....lnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarade 718
+                     ++l++  +k++++iG G       s +t+m  ++q+ev+ kf++ k    +n+Lia sv eeGlDi++Cn+v r+++  n  + vq++Grara++
+  XP_027042518.1   7 QELSF--IKSDFVIGHGTGarvsySSNTEMNFKKQEEVLRKFRNDKkrheFNVLIAISVVEEGLDIPKCNVVCRFDFPKNYCSYVQSKGRARAKG 99 
+                     67788..99999999986422333789***************954322237******************************************** PP
+
+             RLR 719 skyvlvatsgsgvieketinefkeklmekai 749
+                     sky +++ +      ke++ +++e  m +ai
+  XP_027042518.1 100 SKYYMLVDE------KEQVEKVNELEMLRAI 124
+                     ***777665......4444444444444444 PP
+
+>> XP_027057006.1  probable ATP-dependent RNA helicase DDX52 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.7   0.0   9.2e-10   4.4e-07     235     372 ..     193     328 ..     115     338 .. 0.81
+   2 !   31.6   0.0   1.2e-10   5.8e-08     657     717 ..     454     515 ..     438     538 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 28.7 bits;  conditional E-value: 9.2e-10
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsf 329
+                       k+ + q++ +   ++ + ++ c+PtGsGkt + ++    hL+     ++ + vv+     l +q + ++ +    +++r+  l+ + a   sf
+  XP_027057006.1 193 YHKPTPIQMQAVPLMIHKREVLCCAPTGSGKTAAFILPILYHLKSSR-RKGFRAVVVSPTRELAQQIYHEFCHLSNGRKFRIHLLTKAKASSNSF 286
+                     456778888866556677789999*******************9988.4556777777777899998888888888999**************** PP
+
+             RLR 330 ee.vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +    +  Di+++t++ L+  L +  +  ++eL     +i+De 
+  XP_027057006.1 287 GSkSSQRFDILVTTPNRLVHLLSQ--DPPGIELHNVEWLILDEA 328
+                     86156789***********99988..889999999999999997 PP
+
+  == domain 2  score: 31.6 bits;  conditional E-value: 1.2e-10
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                      tq ++ +v++ f++Gk+ +Liat     G+D k  n+vi y++ t  +a +   Gr +ra 
+  XP_027057006.1 454 RTQAQRDNVVKCFRTGKIWVLIATELMGRGIDFKGVNLVINYDFPTSSVAYIHRIGRtGRAG 515
+                     6999999*********************************************9999844664 PP
+
+>> XP_027039147.1  probable ATP-dependent RNA helicase DDX27 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.0   0.5   9.2e-11   4.4e-08     172     373 ..     110     338 ..      74     353 .. 0.63
+   2 !   24.4   0.1   1.8e-08   8.5e-06     655     782 ..     459     587 ..     417     603 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 32.0 bits;  conditional E-value: 9.2e-11
+             RLR 172 lrke...............rnkeke...lwiveknikesetedlevveesdislaeedvecld.........lsedsdeesvvad.....asles 234
+                     l ++               ++ke e   +  +++++++s+ ed+   +e      ++ +e ++         l ++     + ++      +   
+  XP_027039147.1 110 LSQTivgeeddiknqskgkQEKEMEgngVNNIDNSMQHSDDEDSTSEDEE---TIDKVIEKKNkffeepppqLKHQNFATMNLSRpllkaINELG 201
+                     33333333334544444442233220012222333333333333222222...222222222233224444433322222223320000023333 PP
+
+             RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                       ++ + q   +  al Gk+i  c+ tG+Gkt + ++ i ++ + + ++   ++v++l     l  q +s+     ++   +v   +G  + kv 
+  XP_027039147.1 202 FNHPTPIQASTVPVALMGKDICACAATGTGKTAAYMLpILERLIYRPQQYAMTRVLILTPTRELAIQVHSVTKTLSKHTNIQVCLATGGLDSKVQ 296
+                     33678899999999******************998874666666666667*****************99887666666778899999******** PP
+
+             RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373
+                        + k  Di+i+t+  L+  L++       +L    +i++De  
+  XP_027039147.1 297 EAALRKGPDIVIATPGRLVDHLHN---TPSFSLQTVEIIVLDEAD 338
+                     ***********************9...8889999999*****975 PP
+
+  == domain 2  score: 24.4 bits;  conditional E-value: 1.8e-08
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades.kyvlvatsgsgvieketinefkeklmek 747
+                      ++tq ++ e + kfk G++++L+at  a  GlDi     vi   l     + +   Gr ara  s + v ++ +  + + ke +  +k  +  +
+  XP_027039147.1 459 GNLTQLQRLEALRKFKAGEVDILLATDLASRGLDIVGVKTVINASLPPTMKQYIHRVGRtARAGRSgRSVSLVGEKERKLLKEIVKSAKTPVKSR 553
+                     568999999*************************************999999999999967997773456788999999******9999776554 PP
+
+             RLR 748 ailavqkmdeaeyrekilelqt..qellerkakekrk 782
+                      +        ++y+ ki  l +  +e+l+++++ek+ 
+  XP_027039147.1 554 IV---PPEVIEKYKGKIQGLDKdlKEILKQESEEKEL 587
+                     33...33345678888877754225677777776654 PP
+
+>> XP_027041915.1  U5 small nuclear ribonucleoprotein 200 kDa helicase-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   0.1   3.8e-11   1.9e-08     242     378 ..     479     617 ..     464     649 .. 0.78
+   2 ?   -0.9   0.0      0.82     4e+02     636     697 ..     762     823 ..     751     830 .. 0.86
+   3 !   11.5   0.0   0.00015     0.071     253     374 ..    1338    1452 ..    1325    1476 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 3.8e-11
+             RLR 242 qlevalPaleG.kniiiclPtGsGktrvavyiakd....h..LekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsf 329
+                     q  +   al+   n+++c+PtG+Gkt va++   +    h  L+ + + e+ k ++++    lv+ +  ++ kr+   + +v  l+Gd + +   
+  XP_027041915.1 479 QSRLSNSALNTdENLLLCAPTGAGKTNVALLTILReigkHinLDGTINLEEFKAIYVAPMKSLVQEMVANFTKRLSTYGITVSELTGDHNMN--- 570
+                     55566667764269***************98654311114124555556999************************************8766... PP
+
+             RLR 330 eevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtske 378
+                     +e ++s+ ii++t++  +   +k  e +  +L    LiiiDe h  + +
+  XP_027041915.1 571 KEQINSTQIIVCTPEKWDIITRKGGERTFTQLV--RLIIIDEIHLLHDD 617
+                     45568999*******999999998899998885..79*******76655 PP
+
+  == domain 2  score: -0.9 bits;  conditional E-value: 0.82
+             RLR 636 aevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                     + v++  + L+  G + +  gmt+ ++  v d f + ++ +L++t+    G++++   ++i+
+  XP_027041915.1 762 QAVNLELKDLLPYGFAIHHAGMTRVDRTLVEDLFADRHIQVLVSTATLAWGVNLPAHTVIIK 823
+                     56777777888889999999***************************999*99999999887 PP
+
+  == domain 3  score: 11.5 bits;  conditional E-value: 0.00015
+             RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevvksnDiiiltaq 344 
+                       n++i +PtGsGkt  a +   + L++++   + + v++     l +q ++    +f l+ +  v+ l+G+t+  +    ++   ++i++t++
+  XP_027041915.1 1338 ENVLIGAPTGSGKTICAEFAVLRLLQQTP---DCRCVYVTPLQSLADQVYTDWQSKFgLQLGKNVVKLTGETSADLK--LLA-KGNVIVSTPE 1424
+                      69*******************99999999...77888888878889998877655553888999*******997764..455.5679999*98 PP
+
+             RLR  345 iLensLkkleedaiveLsvfsLiiiDeChh 374 
+                        +   ++   ++  ++    L i+De h 
+  XP_027041915.1 1425 QWDV--LSRRWKQRKNVQNVHLFILDEAHL 1452
+                      5543..444456666777888999999995 PP
+
+>> XP_027048397.1  probable ATP-dependent RNA helicase DDX46 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   8.2e-06     0.004     246     372 ..     246     375 ..     232     380 .. 0.83
+   2 !   30.3   0.0     3e-10   1.5e-07     656     728 ..     496     571 ..     490     579 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 8.2e-06
+             RLR 246 alPa.leGkniiiclPtGsGktrvavyiakdh.Lekvkka.ekgkv.vvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksn 336
+                     a+Pa + G+++i ++ tG Gkt + ++   +h L++ +   e+g + +++     l  q +++  k  +    r + + G t+    + e+ +  
+  XP_027048397.1 246 AIPAiMSGRDMIGIAKTGGGKTLAFLLPMYRHvLDQPELDrEDGPIgIIMTPTRELALQIFRECKKFCKPLNLRAVCVYGGTGISEQIAELKRGA 340
+                     4565389******************998888835554433556655388888899999*9998888888899*********************** PP
+
+             RLR 337 DiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +ii++t+  +   L+  +++   +    + +++De 
+  XP_027048397.1 341 EIIVCTPGRMIDMLTA-NNGRVTNCRRCTYLVLDEA 375
+                     *******988888887.7888888888899999986 PP
+
+  == domain 2  score: 30.3 bits;  conditional E-value: 3e-10
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr...aradeskyvlvatsg 728
+                     gm q ++   i  fk+G  nl+iatsva  GlD+k+  +v+ y+        v   Gr   a  +++ y++v  ++
+  XP_027048397.1 496 GMDQFDRDSTIADFKNGVCNLMIATSVAARGLDVKQLILVVNYDCPNHYEDYVHRCGRtgrAGRKGTSYTFVTPEQ 571
+                     7999999************************************987666666665554200555778888887665 PP
+
+>> XP_027046480.1  probable ATP-dependent RNA helicase DDX47 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.0   0.00037      0.18     240     372 ..      46     173 ..      35     178 .. 0.80
+   2 !   35.5   0.0   8.1e-12   3.9e-09     656     801 ..     293     438 ..     283     447 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00037
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevv 333
+                     + q e +  al+G +ii  + tGsGkt + ++   + L + +  ++   ++l     l  q  s++f+ +    + +   + G ++       ++
+  XP_027046480.1  46 KIQREAIPVALQGNDIIGLAETGSGKTGAFALPVLQKLLENP--QRLYALILTPTRELAFQ-ISEQFEALgASIGVKCAVIVGGIDMMSQALMLA 137
+                     568899999******************986665444444444..56777888888888888.555555551566788899999999999999999 PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     k   iii+ +  L+  L +    ++ +L  +  +i+De 
+  XP_027046480.1 138 KKPHIIIASPGRLVDHLEN---TKGFNLRTLKYLIMDEA 173
+                     9999999999999999988...88899999999999986 PP
+
+  == domain 2  score: 35.5 bits;  conditional E-value: 8.1e-12
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyv..lvatsgsgvieketinefkeklmek 747
+                     +mtq ++   ++kfks +  +Liat va  GlDi++ ++vi +++ t     +   Gr ara  s     +v + +        + +  e+l+ k
+  XP_027046480.1 293 QMTQSKRLGALNKFKSKDRSILIATDVASRGLDIPHVDVVINFDIPTHSKDYIHRVGRtARAGRSGRSitFVTQYDVE------LYQRIEQLIGK 381
+                     7******************************************************9*967998886530033332222......23334667777 PP
+
+             RLR 748 ailavqkmdeaey..rekilelqtqelle.rkakekrkiakrqkndkelvklLCknC 801
+                      +    +++e++    e++ e q  +++e r+ +ek+k    + ++ +++++  k+ 
+  XP_027046480.1 382 KLPLYPTVEEEVMllMERVTEAQRYAKMElRELQEKKKRPLDEGENSQEIRMPSKKK 438
+                     777777777766422577777777777654667777776666666666666555555 PP
+
+>> XP_027043481.1  ATP-dependent RNA helicase dbp2-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.0   2.2e-06    0.0011     237     372 ..     140     274 ..      70     278 .. 0.77
+   2 !   26.8   0.0   3.4e-09   1.7e-06     658     730 ..     400     475 ..     332     489 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 2.2e-06
+             RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvk...kaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvs 328
+                     ++   q +    al G++++ ++ tGsGkt   ++ a  h+++ +   ++e+   +vl     l +q +++ f++  +   + + + G   +   
+  XP_027043481.1 140 EPTVIQAQGWPVALSGRDLVGIAQTGSGKTISFILPAIVHIKHQPlvqRGEGPVALVLCPTRELAQQVQTVAFQYGRNTNVKSVCIYGGAPKGPQ 234
+                     4555566666669******************999999888888651115566667999999********************************** PP
+
+             RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     + e+ k  +i i+t+  L   L       + +L   +++++De 
+  XP_027043481.1 235 IRELEKGVEICIATPGRLIDMLEA----GKTNLRRCTFLVLDEA 274
+                     ***************988887766....6778888888888885 PP
+
+  == domain 2  score: 26.8 bits;  conditional E-value: 3.4e-09
+             RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arade..skyvlvatsgsg 730
+                      q+e+  v+++f++G+  +L+at va  GlDi++   vi +++ +     v   Gr ar+d   + y++    +++
+  XP_027043481.1 400 SQPERDWVLNEFRKGNAPILVATDVASRGLDISDIKFVINFDFPSCSEDYVHRIGRtARSDRtgTSYTFFTVGNAK 475
+                     579999*************************************999999999999856776411456666555554 PP
+
+>> XP_027052249.1  DEAD-box ATP-dependent RNA helicase 22-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.4   0.0   7.3e-08   3.5e-05     238     329 ..      49     141 ..      30     172 .. 0.81
+   2 !   19.7   0.0   4.8e-07   0.00023     661     731 ..     488     560 ..     462     566 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 22.4 bits;  conditional E-value: 7.3e-08
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavy..iakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsf 329
+                     + + q     P leG+n+ii + tGsGkt   ++  i k  ++k   +++   +vl   + l  q   + f+ + ++  +  ++  d +++++ 
+  XP_027052249.1  49 PTEIQEKALRPVLEGRNTIINAETGSGKTLCYLLpiINKLLVDKETVSKPPYALVLLPTIELCHQ-VANVFQSLTDDSMQPCTVHKDSKLHINS 141
+                     5566777789*******************999865356666677777799***************.7888999999998888888887776654 PP
+
+  == domain 2  score: 19.7 bits;  conditional E-value: 4.8e-07
+             RLR 661 eqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl.vatsgsgv 731
+                     e+   ++kf sG+l +Li t  a  GlDi++   vi+ ++     +++   Gr ara  s  v+ ++t++ + 
+  XP_027052249.1 488 ERIDTLKKFTSGELKVLICTDLASRGLDIPDVSHVIQLDFALSATQVLHRTGRtARAGASGKVInLVTENDQD 560
+                     3446899**********************************99999999999967998885543266776655 PP
+
+>> XP_027055791.1  ATP-dependent RNA helicase DDX42-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   0.0   1.2e-05     0.006     224     372 ..     255     402 ..     111     406 .. 0.79
+   2 !   27.1   0.0   2.8e-09   1.4e-06     656     728 ..     524     598 ..     520     630 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 1.2e-05
+             RLR 224 esvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgk..vvvlvnkvllveqlkskefkrflkk.ryr 315
+                     e+ +         ++ + q + +  al G++ii ++ tGsGkt + ++ a  h+   ++ e+g   + ++      + q+   e +rf k    +
+  XP_027055791.1 255 EQLMGAIRKSEYTQPTPIQCQAIPVALSGRDIIGIAKTGSGKTAAFLWPALVHIMDQPELEPGDgpIALICAPTRELCQQIFAEARRFGKVyNIH 349
+                     5555555555567899999999999*****************************99998877643255555555544555666778886531334 PP
+
+             RLR 316 viglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                      +++ G  ++    + + +  +i+++t+  L   +k     ++ +L   + +++De 
+  XP_027055791.1 350 AVAVFGGGNKYEQSKALQEGAEIVVATPGRLIDHVKA----KGTNLKRVTYLVFDEA 402
+                     4555666666777789999999*****9999988887....7888999999999986 PP
+
+  == domain 2  score: 27.1 bits;  conditional E-value: 2.8e-09
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtnei...amvqarGraradeskyvlvatsg 728
+                     +m q e+ +vi+ fk+ ++ +L+at va  GlDi+    vi y++  +     + +   Gra  ++  y+l+ ts 
+  XP_027055791.1 524 DMDQFERDKVINSFKKQEIPILVATDVAARGLDIPSIKTVINYDVARDIHthtHRIGRTGRAGEKGVAYTLL-TSA 598
+                     699999*************************************97554430003444555666666666544.433 PP
+
+>> XP_027043856.1  activating signal cointegrator 1 complex subunit 3-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.6   7.7e-09   3.7e-06     253     409 ..     505     662 ..     490     664 .. 0.79
+   2 ?   -3.2   0.0       4.1     2e+03     648     697 ..     789     838 ..     782     842 .. 0.87
+   3 !   14.5   0.0   1.8e-05    0.0088     253     374 ..    1355    1469 ..    1340    1485 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 7.7e-09
+             RLR 253 kniiiclPtGsGktrvavyiakdhLekvkka.....ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiilt 342
+                      n++i +PtG+Gkt +a++   + +++  +a     +k k+++++    l   + +++ kr+   + +v  l+Gd+++     e+ k+  ++i+t
+  XP_027043856.1 505 ENLLISAPTGAGKTNIAMLTILREIKQNIEAgvikkDKFKIIYVAPMKALAAEMVQNFGKRLACLGITVRELTGDMQLTK--SEILKT-QMLITT 596
+                     699**************9988777766433223322788999999999999999**********************9865..588886.68999* PP
+
+             RLR 343 aqiLensLkkleedaiveLs.vfsLiiiDeCh..htskeavynvimrnyLeqkLknsaiPLPqvlGLtas 409
+                     ++  +   +k      v Ls    L+iiDe h  h ++ +v   ++ + L q   +s++ + +++GL a+
+  XP_027043856.1 597 PEKWDVVTRK--STGDVALSqQVKLLIIDEVHllHDDRGSVIECLVARTLRQV--ESSQSMIRIVGLSAT 662
+                     *998887777..455567762579********444455577888888887764..368889999999885 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 4.1
+             RLR 648 aGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                      G s +  gm ++++  v + f  G + +L+ t+    G++++   ++i+
+  XP_027043856.1 789 DGFSIHHAGMLRQDRTMVEQLFARGLIRVLVCTATLAWGVNLPAHAVIIK 838
+                     567778899999**********************9999999998888886 PP
+
+  == domain 3  score: 14.5 bits;  conditional E-value: 1.8e-05
+             RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvn.kvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaq 344 
+                       n+++ +PtGsGkt +a +   + ++  +   ++k v+++  k l+ e++   + +  +k +  v+ l+Gd+++ +    ++   D+i++t++
+  XP_027043856.1 1355 HNVLLGAPTGSGKTLAAELAIFRIFNVHP---GTKAVYIAPlKALVRERMEDWKIRFQEKLGRSVVELTGDVTPDM--RAIA-KADVIVTTPE 1441
+                      6999*************999988888888...88989888725555566556666666777889********9976..4555.57******** PP
+
+             RLR  345 iLensLkkleedaiveLsvfsLiiiDeChh 374 
+                        +   ++   ++   +   sL++iDe h 
+  XP_027043856.1 1442 KWDGISRS--WQTRNYVQAVSLLVIDEIHL 1469
+                      98877777..5666667789********95 PP
+
+>> XP_027052862.1  probable ATP-dependent RNA helicase DDX43 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   0.0   5.7e-06    0.0028     249     372 ..     330     452 ..     270     456 .. 0.85
+   2 !   23.4   0.1   3.6e-08   1.7e-05     659     729 ..     578     651 ..     530     667 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 5.7e-06
+             RLR 249 aleGkniiiclPtGsGktrvavyiakdhLekvkka..ekg..kvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDii 339
+                      + G ++i ++ tG+Gkt + ++ a  h++  +    e+g   v+vl     l  q  + e k+f  ++ + + + G  + k  ++ v k  +i+
+  XP_027052862.1 330 IMSGMDLIGIAQTGTGKTLAFLLPAFLHIDGQETPrnERGgpTVLVLSPTRELALQ-IEAEVKKFHYRGIKSVCVYGGGSRKGQIQVVQKGVEIV 423
+                     588999***********************976543225442357788888888888.88999********************************* PP
+
+             RLR 340 iltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     i+t+  L+  L++    +i+++   + +++De 
+  XP_027052862.1 424 IATPGRLNDLLMN----EIMDVRSVTYLVLDEA 452
+                     *******998888....7888888889999986 PP
+
+  == domain 2  score: 23.4 bits;  conditional E-value: 3.6e-08
+             RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr...aradeskyvlvatsgs 729
+                     q ++++ +d fk+G   +Liat va  GlDi+    v+ +++  n    v   Gr   a  +++  ++v  ++ 
+  XP_027052862.1 578 QIDREQALDDFKTGVAKILIATDVASRGLDIRGVTCVLNFDFPRNIEDYVHRIGRtgrAGKKGTSLTFVTREDW 651
+                     5677889**********************************988876666655553005556666777776665 PP
+
+>> XP_027047182.1  eukaryotic initiation factor 4A-I-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.0      0.58   2.8e+02     239     268 ..      66      95 ..      50     127 .. 0.87
+   2 !   34.4   0.6   1.7e-11   8.2e-09     586     731 ..     266     395 ..     232     415 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -0.4 bits;  conditional E-value: 0.58
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrv 268
+                      + q   ++P  +G ++i  +  G+Gkt  
+  XP_027047182.1  66 SAIQQRAIIPCCKGLDVIAQAQSGTGKTAT 95 
+                     566888899******************964 PP
+
+  == domain 2  score: 34.4 bits;  conditional E-value: 1.7e-11
+             RLR 586 enenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiat 680
+                     e+e  kLe+L+       y++   ++++if  tr+ +d L+q + e++ ++              ss   +m q+e+  ++++f+sG+  +Li t
+  XP_027047182.1 266 EKEEWKLETLCD-----LYETLTITQAVIFLNTRRKVDWLQQRMSEKD-FT-------------VSSMHGDMDQKERDVIMKEFRSGSSRVLITT 341
+                     678889999995.....6777788999********9986655554432.33.............3777889************************ PP
+
+             RLR 681 svaeeGlDikeCniviryglvtneiamvqarGrar...adeskyvlvatsgsgv 731
+                          G+D+++  +vi y+l +n  + +   Gr+     ++  + +v +++ + 
+  XP_027047182.1 342 DLLARGIDVQQVSLVINYDLPGNRENYIHRIGRGGrfgRKGVAINFVTNEDIRT 395
+                     **********************99888888777631113344445666666555 PP
+
+>> XP_027035532.1  ATP-dependent RNA helicase DDX4-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.6   0.0    0.0042         2     242     270 ..     485     513 ..     463     620 .. 0.83
+   2 !   26.1   0.0   5.4e-09   2.6e-06     653     713 ..     742     802 ..     725     834 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 6.6 bits;  conditional E-value: 0.0042
+             RLR 242 qlevalPaleGkniiiclPtGsGktrvav 270
+                     q   +  aleG++++ c+ tGsGkt + v
+  XP_027035532.1 485 QKYAIPIALEGQDLMACAQTGSGKTVAFV 513
+                     54455569*****************8654 PP
+
+  == domain 2  score: 26.1 bits;  conditional E-value: 5.4e-09
+             RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr 713
+                      s + tq+e++  ++ f+sG+  +L+atsva  GlDi++   vi ++l  +  + v   Gr
+  XP_027035532.1 742 ISGDRTQQEREAALQDFRSGRAPVLVATSVAARGLDIPDVKHVINFDLPQDIEEYVHRIGR 802
+                     566789****************************************997666666655555 PP
+
+>> XP_027060673.1  ATP-dependent RNA helicase DDX54-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.0   0.00035      0.17     246     371 ..     131     252 ..     116     256 .. 0.71
+   2 !   21.6   0.0   1.2e-07     6e-05     648     728 ..     365     448 ..     331     455 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00035
+             RLR 246 alPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlv..nkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDi 338
+                     +   ++Gk+++ ++ tGsGkt + +    + L+      +++ ++l    ++ l + +++ke  rf   +  v  l Gd +++  f  +  + Di
+  XP_027060673.1 131 IPVIMDGKDVVAMARTGSGKTAAFLIPMFERLKAHSAKVGARGLILSptRELALQTLKFTKELGRFTGLKAAV-VLGGD-SLEGQFAALHGNPDI 223
+                     55569****************9888888889988876667777777611456666667777777776655544.36666.57789********** PP
+
+             RLR 339 iiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     i++t+  +   +++       +L+    +++De
+  XP_027060673.1 224 IVATPGRFLHVVME----MDLKLTSVEYVVFDE 252
+                     ****9644443333....455666666666666 PP
+
+  == domain 2  score: 21.6 bits;  conditional E-value: 1.2e-07
+             RLR 648 aGkssqs..tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsg 728
+                     aG  s +   ++ q ++k  i kf++ k n+++ t va  G+Di+  + vi y++ +     +   Gr ara  s  ++ + sg
+  XP_027060673.1 365 AGMESSFvySTLDQTARKINIGKFQHKKTNVMVVTDVAARGIDIPMLDNVINYNFPAKPKLFIHRVGRvARAGRSGTAYSLVSG 448
+                     45444441145668889999***********************************99999999999997899988777666655 PP
+
+>> XP_027044975.1  eukaryotic initiation factor 4A-III [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.1     0.065        31     239     268 ..      54      83 ..      39     117 .. 0.84
+   2 ?   -1.1   0.0      0.89   4.3e+02     781     821 ..     112     152 ..      90     157 .. 0.73
+   3 !   29.3   0.1   5.8e-10   2.8e-07     654     714 ..     300     360 ..     216     395 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 2.7 bits;  conditional E-value: 0.065
+             RLR 239 rsyqlevalPaleGkniiiclPtGsGktrv 268
+                      + q   + P ++G+++i  +  G+Gkt  
+  XP_027044975.1  54 SAIQQRAIKPIIKGRDVIAQAQSGTGKTAT 83 
+                     56688899*******************964 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 0.89
+             RLR 781 rkiakrqkndkelvklLCknCkvlacsgeDvrvieethhvn 821
+                     ++i+k      + + + C+ C   +  geD+r+++   hv+
+  XP_027044975.1 112 QQIQKVILALGDYMSIQCHACIGGTNVGEDIRKLDYGQHVV 152
+                     444445555556778889999999999******99888886 PP
+
+  == domain 3  score: 29.3 bits;  conditional E-value: 5.8e-10
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                       +m q+e+  ++++f+sG+  +Li+t v   G+D+++  +vi y+l  n    +   Gr+
+  XP_027044975.1 300 HGDMPQKERDAIMKEFRSGQSRVLISTDVWARGIDVQQVSLVINYDLPNNRELYIHRIGRS 360
+                     4579*******************************************99986666666654 PP
+
+>> XP_027037573.1  probable ATP-dependent RNA helicase DDX31 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.0    0.0002     0.097     229     372 ..     162     310 ..     124     313 .. 0.73
+   2 !   20.3   0.0   3.2e-07   0.00015     655     714 ..     467     526 ..     408     545 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0002
+             RLR 229 dasleselklrsy..qlevalPa.leGkniiiclPtGsGktrvavyiakdhLe....kvkkaekgkvvvlvnkvllveqlkskefkrflkkryrv 316
+                      ++le++lkl +       a+P  +eG+++ +   tG+Gkt   +    + L+    k+ ++++   v+lv    l  q +++  + ++  ++ v
+  XP_027037573.1 162 ISNLENNLKLTTMtsVQKAAIPLlIEGRDVFVKSKTGTGKTLTYAVPVIHSLQsitpKISRSDGPYAVILVPTRELAIQSFNVLQRLVKPFQWVV 256
+                     4566666666543112345566526****************97666555666522236677889999****************99999999**** PP
+
+             RLR 317 igl.sGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                      g+ +G  + k    ++ k  +++++t+  L   + k    +  eL  +  ii+De 
+  XP_027037573.1 257 PGVvTGGEKRKSEKARLRKGVNVLVATPGRLLDHIEK---TKSLELKRLRWIILDEA 310
+                     996378888999999*************988666655...89999999999**9996 PP
+
+  == domain 2  score: 20.3 bits;  conditional E-value: 3.2e-07
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                      +m q e+  v + f + +  +L  t va  GlD+++ n +++y+  +n    v   Gr+
+  XP_027037573.1 467 GNMSQSERTSVFKSFSDATRGILFCTDVAARGLDLPHVNWILQYNTPGNPADYVHRVGRT 526
+                     369999*******************************************99999999985 PP
+
+>> XP_027043703.1  spliceosome RNA helicase Ddx39b [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.1   1.6e-06   0.00079     238     374 ..      68     200 ..       6     206 .. 0.80
+   2 !   13.6   0.0   3.4e-05     0.016     655     702 ..     319     366 ..     275     409 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1.6e-06
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk..kryrviglsGdtaekvsfe 330
+                     + + q e +  a+ G +ii  +  G Gkt v v+ + + Le+++   +  v+v+     l  q  ske++rf k  +  +v  + G ++ k   +
+  XP_027043703.1  68 PSEVQHECIPQAILGMDIICQAKSGMGKTAVFVLATLQQLEQID--GQVSVLVMCHTRELAFQ-ISKEYERFSKymNNIKVSVFFGGISIKKDQQ 159
+                     456799*************************************9..45667777777788888.7888888887224568888999999999999 PP
+
+             RLR 331 evvksn.Diiilta.qiLensLkkleedaiveLsvfsLiiiDeChh 374
+                      +  ++  i++ t+ +iL  +L +   ++  +L      i+DeC +
+  XP_027043703.1 160 TLKTNCpHIVVGTPgRIL--ALAR---EKSLNLKHIKHFILDECDK 200
+                     998777257777773455..4555...779999999999*****76 PP
+
+  == domain 2  score: 13.6 bits;  conditional E-value: 3.4e-05
+             RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvt 702
+                     +gm q+e+    ++fk+ +  +L+at     G+Di++ niv  y++  
+  XP_027043703.1 319 RGMEQEERLSRYKQFKDFSKRMLVATNLFGRGMDIERVNIVFNYDMPE 366
+                     56888888888899******************************9754 PP
+
+>> XP_027050199.1  probable ATP-dependent RNA helicase DDX49 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.3   0.0   0.00065      0.32     238     275 ..      44      81 ..      14     176 .. 0.66
+   2 !   20.2   0.0   3.3e-07   0.00016     666     717 ..     304     356 ..     292     390 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 9.3 bits;  conditional E-value: 0.00065
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakd 275
+                     + + q   + P l G++ i c+ tGsGkt + ++   +
+  XP_027050199.1  44 PTEIQQKCIPPILSGRDCIGCAKTGSGKTAAFALPILQ 81 
+                     5567889999*******************986654444 PP
+
+  == domain 2  score: 20.2 bits;  conditional E-value: 3.3e-07
+             RLR 666 idkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arad 717
+                     +  fksG + +L+at va  GlDi++  +vi  ++ +     +   Gr ara 
+  XP_027050199.1 304 LATFKSGIVKILVATDVASRGLDIPQVELVINSNVPASPKDYIHRVGRtARAG 356
+                     678****************************9887777777777667644554 PP
+
+>> XP_027042127.1  probable ATP-dependent RNA helicase DDX23 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0     0.036        17     248     372 ..     406     533 ..     341     537 .. 0.75
+   2 !   23.9   0.1   2.6e-08   1.2e-05     659     731 ..     679     755 ..     648     761 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.036
+             RLR 248 PaleGkniiiclPtGsGktrv...avyiakdhLekvkka...ekgkv.vvlvnkvllveqlkskefkrflk.kryrvigl.sGdtaekvsfeevv 333
+                       l+ ++ii ++ tGsGkt +    +++    L k+++    +kg   ++++    l +q  +    +f +  + r +++  G   e  +f ++ 
+  XP_027042127.1 406 IGLQNRDIIGVAETGSGKTAAfliPLLVWIMGLPKIERDidaDKGPYaLIMAPTRELAQQ-IEDDAAKFGRpLGVRTVSViGGLSREDQGF-QLR 498
+                     4688899************76222567777778777764322666551555555566655.555555555424555555505555555665.788 PP
+
+             RLR 334 ksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                       ++i+i+t+  L   L +        Ls  s i++De 
+  XP_027042127.1 499 LGCEIVIATPGRLIDVLEN----RYLVLSRCSYIVLDEA 533
+                     999*******999888877....88999********996 PP
+
+  == domain 2  score: 23.9 bits;  conditional E-value: 2.6e-08
+             RLR 659 qreqke.vidkfksGklnlLiatsvaeeGlDikeCniviryglvtne...iamvqarGraradeskyvlvatsgsgv 731
+                      +eq+e  ++ +ksG  ++L+at va  G+Dik+  +v+ y++        + +   Gra   +  ++++ +++s v
+  XP_027042127.1 679 NQEQREfALSSLKSGAKDILVATDVAGRGIDIKDVSLVLNYDMAKSIegyTHRIGRTGRAGKTGISVTFLTQEDSAV 755
+                     345555269********************************986543111344555566655565666777777766 PP
+
+>> XP_027037518.1  DNA polymerase theta-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.3   0.0   3.1e-07   0.00015     250     374 ..      60     175 ..      54     183 .. 0.84
+   2 !    7.2   0.0    0.0028       1.3     653     699 ..     382     428 ..     297     452 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.3 bits;  conditional E-value: 3.1e-07
+             RLR 250 leGkniiiclPtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiilta 343
+                     l G n++  +Pt +Gkt+va +++ k+ Le++      k +++   + +   +     + +++ + rv g  G  a+  +f     s Di ++t 
+  XP_027037518.1  60 LTGGNLVYSAPTSAGKTMVAeLLMLKRVLETKR-----KALFILPFISVAREKMFYLQRLYQESGVRVEGYMGSHAPARGFV----SVDIAVCTI 145
+                     7899***************94567799999988.....88999999999999777777888899999999999988888886....569*****9 PP
+
+             RLR 344 qiLensLkkleedaiveLsvfsLiiiDeChh 374
+                     +   nsL++   ++   Ls + +++iDe h 
+  XP_027037518.1 146 EK-ANSLLNRLLEENKALSSLGIVVIDEMHM 175
+                     96.56666666667789************96 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.0028
+             RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryg 699
+                     +  g+t +e+  +  +f++G++ +L+ats    G++++   ++ir  
+  XP_027037518.1 382 HHAGLTFDERDIIEGAFRQGSIRVLVATSTLSSGVNLPARRVIIRTP 428
+                     456788888888888***************************99954 PP
+
+>> XP_027059671.1  ATP-dependent RNA helicase DDX3X-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.13        64     203     270 ..     185     247 ..     144     358 .. 0.65
+   2 !   25.1   0.0   1.1e-08   5.3e-06     626     714 ..     466     540 ..     433     571 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 1.7 bits;  conditional E-value: 0.13
+             RLR 203 sdislaeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGk.niiiclPtGsGktrvav 270
+                      d+    e+ +  +l+e  +++ + a+ s  ++++  +y    a+P ++ k +++ c+ tGsGkt + +
+  XP_027059671.1 185 QDVPKNIESFSDCELGEILCNNVELANYSKPTPVQ--KY----AIPIVKKKrDLMACAQTGSGKTAAFL 247
+                     45554445555555666666655555544444333..34....5676666526889*********7644 PP
+
+  == domain 2  score: 25.1 bits;  conditional E-value: 1.1e-08
+             RLR 626 kqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                       +++++  +a+              s   +  qre++  +  fksG+  +L+at+va  GlDi++   vi +++ t+  + v   Gr+
+  XP_027059671.1 466 DDFLHGEGWYAT--------------SIHGDRSQREREAALGSFKSGRTPILVATAVAARGLDIPNVRHVINFDMPTDIEEYVHRIGRT 540
+                     444444444433..............444456789999*************************************99998888888885 PP
+
+>> XP_027058140.1  endoribonuclease Dicer-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.0   6.6e-07   0.00032     329     408 ..     103     175 ..      27     179 .. 0.73
+   2 !    7.9   0.1    0.0018      0.87     607     700 ..     415     512 ..     353     549 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 6.6e-07
+             RLR 329 feevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskea.vynvimrnyLeqkLknsaiPLPqvlGLta 408
+                      + +    +ii++t + +   L       +v+Ls  sLii+DeCh + ke+  + vi+++    kL+      Pq++GL +
+  XP_027058140.1 103 WNFIFSMYNIIVTTGKAFAWMLIA----RTVDLSSCSLIIFDECHLALKEEnHFAVILKQMELSKLD----SRPQIVGLSS 175
+                     455667778899999988888888....89***************9999761678888888888998....569****975 PP
+
+  == domain 2  score: 7.9 bits;  conditional E-value: 0.0018
+             RLR 607 eesargiiftktrqsadaLkqWieene..klaevdvkaqlLiGaGkssqstgm..tqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                      +++  +i++     a+aL+  +++     ++   +++  + G    +++++     +    v+   ++G++n+L+at   e+ l  k+C + ir
+  XP_027058140.1 415 CNDPLCVILVPSTIVAKALNSLLKKLSstVFKYSFLRSACIYGSKAKQEMKESnfSEEVDDSVMVCVQDGSVNVLVATFEIEQELYAKRCSLLIR 509
+                     366778888888888888888887643114555559999999988777777650045557899******************************** PP
+
+             RLR 698 ygl 700
+                      g+
+  XP_027058140.1 510 LGM 512
+                     886 PP
+
+>> XP_027036423.1  ATP-dependent RNA helicase DBP2-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0     0.011       5.1     236     270 ..      95     129 ..      21     186 .. 0.81
+   2 ?    1.9   0.0      0.11        54     313     372 ..     253     308 ..     249     311 .. 0.85
+   3 !   17.6   0.0   2.1e-06     0.001     664     714 ..     439     489 ..     418     540 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.011
+             RLR 236 lklrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                     + + + q++     + G++ii  + tGsGkt +  
+  XP_027036423.1  95 ISPTAIQMQALSCVMSGRDIIGLAETGSGKTLAYS 129
+                     5667789999999******************8754 PP
+
+  == domain 2  score: 1.9 bits;  conditional E-value: 0.11
+             RLR 313 ryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                     +y+ +g+ G +   v  +e+    D++i+t+  L    k       ++L   s +++De 
+  XP_027036423.1 253 KYKSVGICGGVPVSVQAQEIRSGVDVVIATPGRLLDLCK----RGLISLNKVSYLVMDEV 308
+                     7999**************************986654333....57889999999999986 PP
+
+  == domain 3  score: 17.6 bits;  conditional E-value: 2.1e-06
+             RLR 664 evidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                      ++ +f++Gk+++L+at v   GlD +e   vi y+l       v   Gr+
+  XP_027036423.1 439 TLVREFREGKVDVLVATDVGSRGLDFPEVTHVINYDLPDSIEDYVHRCGRT 489
+                     57899*******************************977666677766664 PP
+
+>> XP_027048593.1  probable ATP-dependent RNA helicase ddx6 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.9   0.0   0.00044      0.21     238     371 ..      71     198 ..      64     202 .. 0.69
+   2 !   16.5   0.0   4.4e-06    0.0021     654     710 ..     316     372 ..     230     379 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.00044
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfee 331
+                     + + q e +  al Gk i+  +  G+Gkt + +    +  +  k   +g v  lv    l  q  s+  k++ k+ + +v++ +G t++k  + +
+  XP_027048593.1  71 PSPIQEESIPMALTGKHILARAKNGTGKTAAYLIPLLEKCDVDKSHIQGLV--LVPTRELALQ-TSQICKELGKHlGVQVMATTGGTSLKDDIMR 162
+                     56788999999******************7655433333333332255555..5555555555.556666666653689**************** PP
+
+             RLR 332 vvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     + +   +i++t+  +   +kk       ++    ++i+De
+  XP_027048593.1 163 LYNDVHLIVATPGRILDLMKK----GVAKMDNCQMLIMDE 198
+                     ***********9544333333....444555555555555 PP
+
+  == domain 2  score: 16.5 bits;  conditional E-value: 4.4e-06
+             RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqa 710
+                       +m q ++++v + f++G+   L++      G+D++  n+vi +++  n  + +  
+  XP_027048593.1 316 HAKMEQSHRNKVFHDFRQGETRTLVSSDLFTRGIDVQSVNVVINFDFPKNSETYLHR 372
+                     45799****************************************998887665555 PP
+
+>> XP_027038813.1  nucleolar RNA helicase 2-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.5   0.0   0.00056      0.27     240     348 ..      92     202 ..      53     215 .. 0.82
+   2 !   16.0   0.0   6.1e-06     0.003     668     699 ..     215     246 ..     210     279 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.00056
+             RLR 240 syqlevalPaleGkniiiclPtGsGktrvav..yiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe 330
+                     + q e      +G +++  + tG+Gkt   +  +i k  Le+  ++  +  kv+vl+    l +q  + ef +f+  + +v  + G +      +
+  XP_027038813.1  92 PIQSETFDFIYNGEDVMAQARTGTGKTLSFIlpLIEKLKLENRSESyrQAPKVLVLAPTRELCKQ-IGGEFDYFK-SGLKVGCFYGGVPVGPQAD 184
+                     556666666778999999*********765522799999999988887899**************.888999995.5789999999999999999 PP
+
+             RLR 331 evvksnDiiiltaqiLen 348
+                      + +  Di++ t+  L  
+  XP_027038813.1 185 AIERGLDIVVGTPGRLMD 202
+                     999999999999876655 PP
+
+  == domain 2  score: 16.0 bits;  conditional E-value: 6.1e-06
+             RLR 668 kfksGklnlLiatsvaeeGlDikeCniviryg 699
+                      f++Gk+  L+at va  GlDi+e ++v++ +
+  XP_027038813.1 215 SFREGKVRCLVATDVAARGLDIPEVDLVVLTQ 246
+                     59**************************9865 PP
+
+>> XP_027056411.1  probable ATP-dependent RNA helicase DDX4 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.0       1.2   5.7e+02     298     372 ..     287     357 ..     284     360 .. 0.84
+   2 !   23.0   0.0   4.7e-08   2.3e-05     657     713 ..     482     538 ..     431     581 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 1.2
+             RLR 298 veqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                       q +++  k  l  + + + + G ++    + +v + ++ +++t+  L    k+  e+ +v+L     +i+De 
+  XP_027056411.1 287 ASQIFNEARKFSLGTMLKAVCIYGGVSVSHHLRQVQRGCNFLVATPGRL----KHFVEGGQVSLEKVQYLILDEA 357
+                     567777777777888889999999999999***************9765....5666789999999999999996 PP
+
+  == domain 2  score: 23.0 bits;  conditional E-value: 4.7e-08
+             RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtnei.amvqarGr 713
+                       q+e++e +  f+ G+  +Liat va  GlDi +   v+ y+l  nei + v   Gr
+  XP_027056411.1 482 RLQQEREEALRDFRLGRCPVLIATNVAARGLDIDDVRHVVNYDL-PNEIeEFVHRIGR 538
+                     5689999************************************7.5666145665566 PP
+
+>> XP_027039855.1  uncharacterized protein LOC113668178 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.7   0.0   5.8e-08   2.8e-05       6     100 ..       6      98 ..       1     126 [. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 22.7 bits;  conditional E-value: 5.8e-08
+             RLR   6 rrllsafrdrvkktldveyvldylaflreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllaraieltdlkkeekld 100
+                     r l+s    ++   + +  +l yl  l +  ke+i+ e +++G+m+a++ l++ +   ++   +r+f+eal ++G   la++    +++  ++++
+  XP_027039855.1   6 RDLISENITQLVEDVIPVDMLPYLPCLTKSDKEKIKCEETNHGSMRAAQELIDRL--FRRRNSFRQFIEALCETGCRHLAEQLCPLQFHEGNEQE 98 
+                     555555444444555566789***************************9998765..567788***************99987776666555444 PP
+
+>> XP_027039099.1  probable ATP-dependent RNA helicase DDX56 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.1   8.2e-08     4e-05     245     371 ..      38     167 ..       5     171 .. 0.73
+   2 ?   -2.6   0.1       2.6   1.2e+03     538     584 ..     429     477 ..     427     487 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: 22.2 bits;  conditional E-value: 8.2e-08
+             RLR 245 valP.aleGkniiiclPtGsGktrv.avyiakdhLekvkka...ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdt.aekvsfee.v 332
+                      a+P aleGk+i+  + tGsGkt + a+ + ++ L+ ++      + + vvlv    l +q + ++ k++     r i ++    ++ +s +  +
+  XP_027039099.1  38 KAIPlALEGKDILARAMTGSGKTAAyAIPVIQRILQDKQANssnSGIRSVVLVPTKELAKQAH-QNIKELSCYCSRDIKVADVAqGNLISTKSlL 131
+                     444549*****************87477799999977664434344588***********955.5566666666666665554404556776626 PP
+
+             RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     +++ Di+++t+ +L   ++  + d + +L    ++iiDe
+  XP_027039099.1 132 MECPDIVVATPSVLLGHVQAKNIDLKARL---QMLIIDE 167
+                     8999**********998888555544444...5677777 PP
+
+  == domain 2  score: -2.6 bits;  conditional E-value: 2.6
+             RLR 538 rmvDalaaLkdf.ysee..kakkfdvieddrfLlalfeekkkeLkrlaed 584
+                     r+ Dal a+ +   +e   k+ k ++++ + +L a fee+ + L+ l +d
+  XP_027039099.1 429 RAQDALRAVTKSaVKEArlKEIKSEILNSE-KLKAYFEENPRDLQVLRHD 477
+                     677777766543033331134455566666.9999****99999988766 PP
+
+>> XP_027051629.1  ATP-dependent RNA helicase HAS1-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   5.3e-06    0.0026     238     371 ..     128     260 ..      56     265 .. 0.82
+   2 ?    3.3   0.0     0.043        21     659     699 ..     385     427 ..     379     452 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 5.3e-06
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe 330
+                     + + q   ++P l+G++++  + tGsGkt + +  a + L k      +++ v+++     l  q +++    ++ + ++   + G  + k   +
+  XP_027051629.1 128 MMEIQHKSIVPLLKGRDLLGAARTGSGKTLAFLIPAVELLYKLSFKprNGTGVIIISPTRELSLQTYGVAWDLLKYHNHTFGIVMGGANRKGEAD 222
+                     445688899*********************9999999999987643347778999999999*******************99999********** PP
+
+             RLR 331 evvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                     ++ k  +++i+t+  L   L++    ++  +  +  +iiDe
+  XP_027051629.1 223 RLQKGVNLLIATPGRLLDHLQN---TQGFIFKNLQCLIIDE 260
+                     *************999999999...5555566666677777 PP
+
+  == domain 2  score: 3.3 bits;  conditional E-value: 0.043
+             RLR 659 qreqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryg 699
+                     q++qk     f   + +   L+ t va  GlDi+e + +++++
+  XP_027051629.1 385 QKQQKRTTTFFEfcNATSGTLLCTDVAARGLDIPEVDWIVQFD 427
+                     66677666655544888999****************9999886 PP
+
+>> XP_027035542.1  probable ATP-dependent RNA helicase DDX60 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.7   0.1   2.4e-07   0.00011     202     373 ..     748     920 ..     621     928 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 20.7 bits;  conditional E-value: 2.4e-07
+             RLR 202 esdislaeedvecld.......lsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvv 289
+                     es+ +  + +v+          +++    e+ + + s   ++ + ++q e+     +    +i++Pt sGkt+++ y  ++ L + +   +g vv
+  XP_027035542.1 748 ESERKAQQLSVHTTStrfqldcMGHLLKRETRTDRDSRVDHFIPDTWQRELLDAVDKNESAVIVAPTSSGKTFASYYCMEKVLTQDN---DGVVV 839
+                     333333333333333334445577777778888888899999999******999999999*****************9999998766...88888 PP
+
+             RLR 290 vlvnkvllveqlkskefkrflkkry.rviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373
+                     ++     lv+q     + rf +k+     ++ G  +    f+ +  +  i+++ +q Le  ++++  ++  +      +i+De h
+  XP_027035542.1 840 YVSPTKALVNQVAATVYARFHRKQLpEGRAVYGVFTRDYRFNTL--NSQILVTVPQCLEILFLSPRRQDWTK--NVRYVIFDEVH 920
+                     8888889**********999999873567888999999999887..67899999999999888877555554..34457888877 PP
+
+>> XP_027050320.1  probable ATP-dependent RNA helicase DDX41 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0     0.083        40     241     279 ..     202     241 ..     184     344 .. 0.55
+   2 !   15.9   0.0   6.5e-06    0.0032     659     725 ..     463     532 ..     435     553 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.083
+             RLR 241 yqlevalPaleGkniiiclPtGsGktrvavy.iakdhLek 279
+                      q++ +   l G+++i ++ tGsGkt v  + i    Le+
+  XP_027050320.1 202 IQIQGIPAVLTGRDMIGIAFTGSGKTLVFTLpIIMFSLEQ 241
+                     56666666799***************99544254444444 PP
+
+  == domain 2  score: 15.9 bits;  conditional E-value: 6.5e-06
+             RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGraradeskyvlva 725
+                     q+e++  +  f++ k ++++at va  GlD ++   vi y++   + n ++ +   Gr+   +   +++ 
+  XP_027050320.1 463 QEEREYAMRCFRQAKKDVMVATDVASKGLDFPNIQHVINYDMpedIENYVHRIGRTGRSGKTGVATTFIN 532
+                     6677778999******************************874446677777766677665555555555 PP
+
+>> XP_027046979.1  ATP-dependent DNA helicase Q1-like isoform X2 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.3   4.2e-06     0.002     206     267 ..      45     116 ..       5     262 .. 0.76
+   2 ?    1.5   0.0      0.15        72     663     723 ..     350     412 ..     323     416 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 4.2e-06
+             RLR 206 slaeedvecldlse..........dsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktr 267
+                     +l+  +++c +  e            +e+ ++a+ +       r+ qle +   + G + i+++PtG Gk  
+  XP_027046979.1  45 QLVPREPSCSQKKEnniewsaknfSWSENVEAARKNTFKIKSFRPLQLECINATMSGSDCILIMPTGGGKSL 116
+                     4777888888744444444445433455667888888888889***************************85 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.15
+             RLR 663 kevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarad..eskyvl 723
+                      +v  ++ s  + +++at     G+D ++   vi + l     +  q  Gra  d  es ++l
+  XP_027046979.1 350 SQVHRAWTSNAIQVVVATVAFGMGIDKPDVRFVIHHSLSKSMENFYQESGRAGRDdrESHCIL 412
+                     5677788889999*****999******************************854312677765 PP
+
+>> XP_027046978.1  ATP-dependent DNA helicase Q1-like isoform X1 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.2   5.2e-06    0.0025     206     267 ..      45     116 ..      10     253 .. 0.78
+   2 ?    1.3   0.0      0.17        81     663     723 ..     350     412 ..     327     416 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 16.3 bits;  conditional E-value: 5.2e-06
+             RLR 206 slaeedvecldlse..........dsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktr 267
+                     +l+  +++c +  e            +e+ ++a+ +       r+ qle +   + G + i+++PtG Gk  
+  XP_027046978.1  45 QLVPREPSCSQKKEnniewsaknfSWSENVEAARKNTFKIKSFRPLQLECINATMSGSDCILIMPTGGGKSL 116
+                     4777788887744444444445433455667888888888889***************************85 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.17
+             RLR 663 kevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarad..eskyvl 723
+                      +v  ++ s  + +++at     G+D ++   vi + l     +  q  Gra  d  es ++l
+  XP_027046978.1 350 SQVHRAWTSNAIQVVVATVAFGMGIDKPDVRFVIHHSLSKSMENFYQESGRAGRDdrESHCIL 412
+                     5667778889999*****999******************************854312677765 PP
+
+>> XP_027036674.1  DEAD-box ATP-dependent RNA helicase 39-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.0   0.00036      0.17     247     372 ..       5     133 ..       1     147 [. 0.75
+   2 !    7.1   0.0     0.003       1.4     664     716 ..     277     329 ..     267     365 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00036
+             RLR 247 lPaleGkniiiclPtGsGktrvavyiakdhLekvkka.......ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvk 334
+                      P l+   ++  + tG+Gkt + +    +hL + ++        ++ +  ++v    l  q  ++      + r++ +g+ G  ++k    +++ 
+  XP_027036674.1   5 PPLLKREHVLCAAQTGTGKTLAYLAPVVHHLREDERKhgvitrlKRPRACIVVPGRELAIQVLEVAKSLSHHARFKSVGIIGGRKKKFMKRDLAS 99 
+                     46666667777789********999999***8766431112112334455666666777786666555556779********************* PP
+
+             RLR 335 snDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                       D++++t+  L +  +    ++   +s++s ++iDe 
+  XP_027036674.1 100 PVDLVVATPGTLLQFRQ----KDRLFFSDLSYLVIDEA 133
+                     *********87654443....47888999999999996 PP
+
+  == domain 2  score: 7.1 bits;  conditional E-value: 0.003
+             RLR 664 evidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.ra 716
+                     ++ ++f++G+  +L+ t +a  G+D ++   vi +++ t  +  +   Gr+ r 
+  XP_027036674.1 277 NLFEEFQEGRARVLVCTDIASRGVD-PDVGHVINFDFPTSLVDYIHRVGRTgRV 329
+                     57899********************.6778899****99999999888884243 PP
+
+>> XP_027035544.1  probable ATP-dependent RNA helicase DDX60 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0   1.7e-06    0.0008     217     373 ..     457     607 ..     316     614 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1.7e-06
+             RLR 217 lsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk 311
+                     +++    e+ + + s   ++ + ++q e+     +    +i++Pt sGkt+++ y  ++ L + +   +g vv++     lv+q     + rf +
+  XP_027035544.1 457 MGHLLKRETRTDRDSRVDHFIPDTWQRELLDAVDNNESAVIVAPTSSGKTFASYYCMEKVLTQDN---DGVVVYVSPTKALVNQVAATVYARFRR 548
+                     555666677777778888888999999998888888899****************9999998766...888888888889******999999999 PP
+
+             RLR 312 kry.rviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeCh 373
+                     k      ++ G  +    ++ +  +  i+++ +q Le  ++++  ++  +      +i+De h
+  XP_027035544.1 549 KNLpEGRAVYGVFTRDYRYNTL--NSQILVTVPQCLEILFLSPRRQDWTK--NIRYVIFDEVH 607
+                     8762345666666666666655..55677777777777666665444333..33446666666 PP
+
+>> XP_027049492.1  RNA-dependent RNA polymerase 6-like, partial [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.4   0.1   2.3e-06    0.0011     369     444 ..       1      70 [.       1     128 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 17.4 bits;  conditional E-value: 2.3e-06
+             RLR 369 iDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgakkldealehilkLCanLDafviktvkenl 444
+                     +De hh s +++yn im  y       +    P vlGL asp   g  + ++  e + kL  nLD+ + + ++  l
+  XP_027049492.1   1 LDEAHHCSGHHPYNKIMEYYKTT----PNRFKPVVLGLSASPA--GELEVEKTREKLKKLLENLDCKIAMPIESDL 70 
+                     69***************999543....4456688*******95..56788999999*********98877766543 PP
+
+>> XP_027047973.1  probable ATP-dependent RNA helicase DDX60 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.4   0.0   4.9e-06    0.0024     253     374 ..     896    1010 ..     868    1024 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 16.4 bits;  conditional E-value: 4.9e-06
+             RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqi 345 
+                         +i++Pt sGkt+++ y  ++ L k +   ++ vv+++    lv+q     + rf+k++    ++ G  +      +   +  i+++ +q 
+  XP_027047973.1  896 ESAVIVAPTSSGKTYASYYCMEKILRKDN---DSVVVYVAPTKALVNQVVATIYARFEKQMPEGRSVFGVFTRDYR--HNTLNSQILVTVPQC 983 
+                      4679****************999999887...677777788889****************9999999998887655..555588999999999 PP
+
+             RLR  346 LensLkkleedaiveLsvfsLiiiDeChh 374 
+                      Le  + ++  +   +      +i+De h 
+  XP_027047973.1  984 LEILFISPHRQHWTK--NVKYVIFDEVHC 1010
+                      999999977666554..445688999886 PP
+
+>> XP_027053096.1  probable ATP-dependent DNA helicase HFM1 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   7.6e-06    0.0037     255     379 ..     179     301 ..     172     323 .. 0.88
+   2 ?   -3.2   0.0       3.9   1.9e+03     647     696 ..     466     515 ..     416     541 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 7.6e-06
+             RLR 255 iiiclPtGsGktrvavyiakdhLekvkka.ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLen 348
+                     +++c+PtGsGkt +  +   + L   + +   +kvv+++    l   +++  + +f   + r   ++Gd ++   +e   +s  +i++t++  + 
+  XP_027053096.1 179 LVVCAPTGSGKTVIFELAVIRLLMSCEGGlSTAKVVYMAPMKALCSERFTDWSTKFGPFGLRCKEVTGDSELDDLYE--LQSVHVIMTTPEKWDS 271
+                     689************9999999***99999**********999*9999*********************99886555..4788899999998876 PP
+
+             RLR 349 sLkkleedaiveLsvfsLiiiDeChhtskea 379
+                       +k   d+   +    L +iDe h  + +a
+  XP_027053096.1 272 MTRK-WRDNRSLVQSVKLFLIDEVHLINDDA 301
+                     5555.667777777889********888775 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 3.9
+             RLR 647 GaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivi 696
+                       G   +  g+   +++++   f +G+l +L ats    G++++   ++i
+  XP_027053096.1 466 MCGIGYHHAGLDPTDRRNIETMFIKGDLPVLFATSTLAVGVNLPAHLVII 515
+                     33444445556666777788888888888888888888888877666555 PP
+
+>> XP_027049758.1  ATP-dependent RNA helicase DDX55-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.16        77     250     357 ..      40     152 ..      22     172 .. 0.59
+   2 !   11.2   0.0   0.00017     0.085     660     714 ..     301     355 ..     293     384 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 1.4 bits;  conditional E-value: 0.16
+             RLR 250 leGkniiiclPtGsGktrvavy.iakdhLekvkkaekgkv..vvlvnkvllveqlkskefkrflkkryrvig..lsGdtaekvsfeevv.ksnDi 338
+                     +  k++ + + tGsGkt + +  i +  L + +k +k  v  +++     l +q   +  ++f k+  +     l G +++  ++++       i
+  XP_027049758.1  40 MSNKDVAVEAVTGSGKTLAFLIpIVEMLLRREEKLKKHDVgaIIITPTRELAKQ-IDEVLRTFTKDLIQLKQllLIGGVDPVENMQRFKsDGGHI 133
+                     778899999999999999876547777776665554444332444455566666.6667777777665544311456555555555543133467 PP
+
+             RLR 339 iiltaqiLensLkkleeda 357
+                     ii t+  Le  +++ +e+ 
+  XP_027049758.1 134 IIGTPGRLEDLMTRKQEGI 152
+                     7777777777776655543 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.00017
+             RLR 660 reqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                      ++++v d f++ k  +Li t v   G+Di+e + vi+++  +   a v   Gr+
+  XP_027049758.1 301 SKRHKVFDSFRKLKSGVLICTDVMARGVDIPEVDWVIQFDPPSSASAFVHRCGRT 355
+                     566789*********************************9888888888888884 PP
+
+>> XP_027051972.1  ATP-dependent RNA helicase DDX1-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0       1.5   7.1e+02     317     386 ..     328     393 ..     305     403 .. 0.79
+   2 ?   12.2   0.0   8.7e-05     0.042     660     718 ..     558     617 ..     486     634 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 1.5
+             RLR 317 iglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimr 386
+                     + l G  + k+ ++ + +  Di+  t+  L+  +      ++v+Ls   + i+De      +     imr
+  XP_027051972.1 328 VLLIGGENIKMQIQTLNEGVDILTGTPGKLDDFIST----NKVSLSQVRFFILDEADGLLAQGNQELIMR 393
+                     456677788999999999*********999988777....89*************887777766666665 PP
+
+  == domain 2  score: 12.2 bits;  conditional E-value: 8.7e-05
+             RLR 660 reqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arade 718
+                     +e+k  ++ fk+G+  +Li t va  G+D++    v+   +  ++ + v   Gr +ra+ 
+  XP_027051972.1 558 KERKANLESFKDGEARFLICTDVAARGIDVSGVPFVVNVTFPDDKQNYVHRIGRvGRAQR 617
+                     5788899**************************999998887777777776666445554 PP
+
+>> XP_027037091.1  probable ATP-dependent RNA helicase DDX59 [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0     0.007       3.4     238     270 ..     227     259 ..     184     368 .. 0.79
+   2 ?    5.4   0.0      0.01         5     659     720 ..     493     554 ..     486     615 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.007
+             RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                     + + q++v+  +l  +++++c+ tGsGkt + +
+  XP_027037091.1 227 PTPVQMQVIPVSLCSRDLLVCAHTGSGKTAAFL 259
+                     5688*************************8643 PP
+
+  == domain 2  score: 5.4 bits;  conditional E-value: 0.01
+             RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesk 720
+                     q+e+ + ++ f  G+  +L+ ts    G+D+++   vi +++ +   + v   Gra   +s+
+  XP_027037091.1 493 QKERSKRLELFLGGECPVLVCTSLLGRGMDLPKVRQVINFDMPSSIEEYVHQVGRASRLGST 554
+                     677777889999******************************99999999999999776665 PP
+
+>> XP_027052927.1  ATP-dependent DNA/RNA helicase DHX36-like [Pocillopora damicornis]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0     0.017       8.1     180     290 ..     152     250 ..      83     341 .. 0.71
+   2 ?    6.1   0.0    0.0061       2.9     656     701 ..     533     578 ..     505     585 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 4.6 bits;  conditional E-value: 0.017
+             RLR 180 kelwiveknikesetedlevveesdislaeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGkt.rvavyia 273
+                     k  + + +n ++ +t d +  ee + ++  e++ c+ + e                l   + + e+ +     + i+i   tG+Gkt +va +i 
+  XP_027052927.1 152 KHHFNMGRNLQQDSTLDHQLKEEQQRRFLSESARCKAMQEFR------------KSLPAYKQKEELLQLISSEQVIVISGETGCGKTtQVAQFIL 234
+                     555555555555555555555555555555555555554321............111112222344444445567889999*****637999**9 PP
+
+             RLR 274 kdhLekvkkaekgkvvv 290
+                     +d +e+ + + k +v+ 
+  XP_027052927.1 235 DDAIEQGH-GSKCRVIC 250
+                     99998876.77777775 PP
+
+  == domain 2  score: 6.1 bits;  conditional E-value: 0.0061
+             RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglv 701
+                      m   +q+ev d+  +G   ++iat +ae  + i +   v+  g v
+  XP_027052927.1 533 MMPSTNQREVFDRPPEGVRKIVIATNIAETSITIDDVVFVVDAGKV 578
+                     578899*****************************99999977766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (917 nodes)
+Target sequences:                      25183  (13735379 residues searched)
+Passed MSV filter:                      1360  (0.0540047); expected 503.7 (0.02)
+Passed bias filter:                      504  (0.0200135); expected 503.7 (0.02)
+Passed Vit filter:                       105  (0.00416948); expected 25.2 (0.001)
+Passed Fwd filter:                        52  (0.00206489); expected 0.3 (1e-05)
+Initial search space (Z):              25183  [actual number of targets]
+Domain search space  (domZ):              52  [number of targets reported over threshold]
+# CPU time: 1.22u 0.04s 00:00:01.26 Elapsed: 00:00:01.32
+# Mc/sec: 9539.71
+//
+[ok]

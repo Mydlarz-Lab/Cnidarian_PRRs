@@ -1,0 +1,1194 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  RLR.hmm
+# target sequence database:        ../proteomes/Aurelia.Genome_v1.2_Protein_Models_12-28-18.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RLR  [M=917]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    2.7e-51  175.1   0.6    4.9e-25   88.2   0.0    2.1  2  Seg2061.1              transcript_id=Seg2061.1|GoldUCD|mRNA.D
+    1.3e-29  103.4   0.1    1.7e-18   66.6   0.1    2.3  2  Seg3676.1              transcript_id=Seg3676.1|GoldUCD|mRNA.D
+    9.1e-16   57.5   0.1    1.6e-09   36.9   0.1    2.4  2  Seg2414.1              transcript_id=Seg2414.1|GoldUCD|mRNA.D
+    6.1e-13   48.2   1.5    2.7e-08   32.8   0.0    3.1  3  Seg8129.2              transcript_id=Seg8129.2|GoldUCD|mRNA.D
+    1.1e-12   47.4   0.0    1.2e-12   47.2   0.0    1.0  1  Seg1055.2              transcript_id=Seg1055.2|GoldUCD|mRNA.D
+    1.1e-12   47.4   0.0    3.3e-06   25.9   0.0    2.1  2  Seg1437.8              transcript_id=Seg1437.8|GoldUCD|mRNA.D
+    4.8e-12   45.2   0.3    1.1e-05   24.2   0.4    2.8  3  Seg453.11              transcript_id=Seg453.11|GoldUCD|mRNA.D
+    6.4e-12   44.8   3.4    4.7e-08   32.0   0.0    2.7  3  Seg1321.8              transcript_id=Seg1321.8|GoldUCD|mRNA.D
+    7.3e-12   44.6   3.6    4.8e-08   32.0   0.0    2.7  3  Seg562.18              transcript_id=Seg562.18|GoldUCD|mRNA.D
+    2.5e-10   39.5   0.0    7.4e-10   38.0   0.0    1.7  1  Seg1117.5              transcript_id=Seg1117.5|GoldUCD|mRNA.D
+    5.2e-10   38.5   2.8    4.5e-09   35.4   0.7    2.4  2  Seg2185.5              transcript_id=Seg2185.5|GoldUCD|mRNA.D
+    2.6e-09   36.1   0.1    0.00056   18.5   0.0    2.9  3  Seg1818.3              transcript_id=Seg1818.3|GoldUCD|mRNA.D
+    3.1e-09   35.9   0.6    2.6e-05   22.9   2.0    2.4  2  Seg397.26              transcript_id=Seg397.26|GoldUCD|mRNA.D
+    6.8e-09   34.8   1.8    3.6e-06   25.8   0.1    2.0  2  Seg339.8               transcript_id=Seg339.8|GoldUCD|mRNA.D3
+    6.5e-08   31.6   0.0     0.0085   14.6   0.0    2.3  2  Seg138.3               transcript_id=Seg138.3|GoldUCD|mRNA.D3
+    1.1e-07   30.8   0.0    5.8e-05   21.8   0.0    2.3  2  Seg1644.12_Seg1644.13  transcript_id=Seg1644.12_Seg1644.13|Go
+    1.2e-07   30.6   0.1    1.6e-05   23.7   0.0    2.4  2  Seg1232.17             transcript_id=Seg1232.17|GoldUCD|mRNA.
+    2.5e-07   29.6   0.0    2.5e-07   29.6   0.0    1.1  1  Seg1650.6              transcript_id=Seg1650.6|GoldUCD|mRNA.D
+    8.4e-07   27.9   0.6    1.4e-06   27.1   0.6    1.3  1  Seg503.15              transcript_id=Seg503.15|GoldUCD|mRNA.D
+    1.2e-06   27.4   0.0    1.2e-06   27.4   0.0    1.2  1  Seg422.17              transcript_id=Seg422.17|GoldUCD|mRNA.D
+    1.2e-06   27.3   0.0    4.1e-06   25.6   0.0    1.9  2  Seg13.9                transcript_id=Seg13.9|GoldUCD|mRNA.D3Y
+    2.2e-06   26.5   0.0    3.8e-06   25.7   0.0    1.4  1  Seg11011.2             transcript_id=Seg11011.2|GoldUCD|mRNA.
+      7e-06   24.8   0.0    1.1e-05   24.2   0.0    1.2  1  Seg389.3               transcript_id=Seg389.3|GoldUCD|mRNA.D3
+    2.6e-05   22.9   0.4    0.00025   19.7   0.1    2.2  2  Seg4660.1              transcript_id=Seg4660.1|GoldUCD|mRNA.D
+    3.5e-05   22.5   0.0    4.9e-05   22.0   0.0    1.2  1  Seg5504.1              transcript_id=Seg5504.1|GoldUCD|mRNA.D
+    9.8e-05   21.0   0.0     0.0001   21.0   0.0    1.2  1  Seg900.3               transcript_id=Seg900.3|GoldUCD|mRNA.D3
+    0.00011   20.9   0.0    0.00012   20.8   0.0    1.0  1  Seg1415.3              transcript_id=Seg1415.3|GoldUCD|mRNA.D
+    0.00014   20.5   0.4    0.00084   17.9   0.0    1.9  2  Seg1028.4              transcript_id=Seg1028.4|GoldUCD|mRNA.D
+    0.00014   20.5   0.0     0.0011   17.6   0.0    2.3  3  Seg5489.3              transcript_id=Seg5489.3|GoldUCD|mRNA.D
+    0.00017   20.2   0.0       0.37    9.2   0.0    2.2  2  Seg5310.3              transcript_id=Seg5310.3|GoldUCD|mRNA.D
+    0.00024   19.7   0.1    0.00056   18.5   0.1    1.6  1  Seg593.15              transcript_id=Seg593.15|GoldUCD|mRNA.D
+    0.00025   19.7   0.1      0.071   11.6   0.0    2.2  2  Seg3545.2              transcript_id=Seg3545.2|GoldUCD|mRNA.D
+    0.00063   18.4   0.2    0.00093   17.8   0.2    1.2  1  Seg740.2               transcript_id=Seg740.2|GoldUCD|mRNA.D3
+    0.00064   18.3   0.1    0.00095   17.8   0.1    1.2  1  Seg19009.1             transcript_id=Seg19009.1|GoldUCD|mRNA.
+    0.00071   18.2   0.3     0.0011   17.6   0.3    1.2  1  Seg14018.1             transcript_id=Seg14018.1|GoldUCD|mRNA.
+    0.00085   17.9   0.0    0.00088   17.9   0.0    1.0  1  Seg10014.1             transcript_id=Seg10014.1|GoldUCD|mRNA.
+     0.0014   17.2   0.9       0.15   10.5   0.1    3.0  2  Seg5761.2              transcript_id=Seg5761.2|GoldUCD|mRNA.D
+     0.0016   17.0   0.1      0.015   13.8   0.0    2.2  2  Seg377.9               transcript_id=Seg377.9|GoldUCD|mRNA.D3
+     0.0022   16.5   0.0     0.0042   15.6   0.0    1.3  1  Seg1309.1              transcript_id=Seg1309.1|GoldUCD|mRNA.D
+     0.0024   16.4   0.0     0.0033   16.0   0.0    1.1  1  Seg2861.6              transcript_id=Seg2861.6|GoldUCD|mRNA.D
+     0.0042   15.6   1.7     0.0092   14.5   0.0    2.2  3  Seg2341.2              transcript_id=Seg2341.2|GoldUCD|mRNA.D
+     0.0046   15.5   1.7     0.0099   14.4   0.0    2.2  3  Seg1717.8              transcript_id=Seg1717.8|GoldUCD|mRNA.D
+      0.005   15.4   0.8      0.019   13.5   0.0    1.8  2  Seg1437.4              transcript_id=Seg1437.4|GoldUCD|mRNA.D
+     0.0051   15.4   0.0     0.0074   14.8   0.0    1.2  1  Seg1287.8              transcript_id=Seg1287.8|GoldUCD|mRNA.D
+     0.0054   15.3   3.2       0.67    8.4   0.0    2.6  2  Seg4483.1              transcript_id=Seg4483.1|GoldUCD|mRNA.D
+  ------ inclusion threshold ------
+      0.014   13.9   0.0      0.043   12.3   0.0    1.7  2  Seg1266.2              transcript_id=Seg1266.2|GoldUCD|mRNA.D
+      0.016   13.7   0.0      0.016   13.7   0.0    1.1  1  Seg3958.4              transcript_id=Seg3958.4|GoldUCD|mRNA.D
+      0.016   13.7   0.0      0.018   13.5   0.0    1.1  1  Seg3948.2              transcript_id=Seg3948.2|GoldUCD|mRNA.D
+      0.017   13.6   0.0      0.022   13.3   0.0    1.2  1  Seg4083.2              transcript_id=Seg4083.2|GoldUCD|mRNA.D
+       0.02   13.4   0.0       0.03   12.8   0.0    1.2  1  Seg3094.1              transcript_id=Seg3094.1|GoldUCD|mRNA.D
+      0.036   12.5   0.0      0.063   11.7   0.0    1.3  1  Seg4975.1_Seg4975.3    transcript_id=Seg4975.1_Seg4975.3|Gold
+      0.052   12.0   0.0      0.052   12.0   0.0    1.0  1  Seg3924.1              transcript_id=Seg3924.1|GoldUCD|mRNA.D
+      0.054   12.0   0.0      0.072   11.5   0.0    1.1  1  Seg626.8               transcript_id=Seg626.8|GoldUCD|mRNA.D3
+       0.13   10.7   0.0       0.14   10.6   0.0    1.0  1  Seg503.16              transcript_id=Seg503.16|GoldUCD|mRNA.D
+       0.13   10.7   0.0       0.14   10.6   0.0    1.0  1  Seg503.17              transcript_id=Seg503.17|GoldUCD|mRNA.D
+       0.21   10.0   0.0       0.28    9.6   0.0    1.1  1  Seg3889.1              transcript_id=Seg3889.1|GoldUCD|mRNA.D
+
+
+Domain annotation for each sequence (and alignments):
+>> Seg2061.1  transcript_id=Seg2061.1|GoldUCD|mRNA.D3Y31 product="Endoribonuclease dcr-1" protein_id=Seg2061.1|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   88.2   0.0     1e-27   4.9e-25     233     419 ..       9     191 ..       4     213 .. 0.84
+   2 !   85.0   0.1   9.5e-27   4.6e-24     590     737 ..     359     509 ..     352     523 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 88.2 bits;  conditional E-value: 1e-27
+        RLR 233 eselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..ekgk.vvvlvnkvllveqlks.kefkrflk.kryrviglsGdtaekv 327
+                ++e+  r+yqle+   a e +n+i+cl tG+Gkt+++v++ kd  +++  +  e+gk   +lv  v+lv q+ +  e ++ l  ++y+   +  d   k+
+  Seg2061.1   9 NTEFTARPYQLEIFEKARE-QNVIVCLGTGTGKTFISVMLIKDLAHQISGTlkEGGKrTFFLVTTVPLVYQQGKaIEDQTNLTvGKYT-GEMGVDFWDKA 106
+                57999*********99976.8*********************988888766667787356789****998864414444433303343.446668889** PP
+
+        RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgakkld 419
+                   +    ++++i+t qiL n L +      ++ s   L+i+DeChh +k+++y  im      k +      P+v+GLtas     akk+ 
+  Seg2061.1 107 DWTKQFDDHEVLIMTHQILLNMLSH----GYIKASNINLLILDECHHCDKNHPYAKIMESVEAVKKR---SDRPRVMGLTASIINEKAKKRG 191
+                *********************9998....78999*************************98888766...5679********9988888875 PP
+
+  == domain 2  score: 85.0 bits;  conditional E-value: 9.5e-27
+        RLR 590 ekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieen....eklaev...dvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsv 682
+                +k++ L   il+e++    +  +i+f++ r +a+ L+  i++     e +a +    v  + L+   k      mt ++q++++++f+ G++n+L+atsv
+  Seg2061.1 359 PKVTCLM-DILRENM---TDLCAIVFVQRRITAHVLSDLINNMvtsyEDYAGIisdFVYGHNLVELMKNKTGFAMTSKKQEQILKRFRRGEFNVLVATSV 454
+                5666666.3665554...35679************998876541111444432111366777888888888889************************** PP
+
+        RLR 683 aeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketi 737
+                 eeGlD+++Cniv+r++ ++n  + vq++Grara +s++ ++a +g     ++ i
+  Seg2061.1 455 VEEGLDVRKCNIVVRFDGISNYREYVQSKGRARAPNSQFFVLAEEGEEYEVRNGI 509
+                ***************************************5555555443334555 PP
+
+>> Seg3676.1  transcript_id=Seg3676.1|GoldUCD|mRNA.D3Y31 product="Fanconi anemia group M protein" protein_id=Seg3676.1|G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   1.9e-11   9.1e-09     235     392 ..     142     290 ..      81     313 .. 0.81
+   2 !   66.6   0.1   3.5e-21   1.7e-18     588     739 ..     466     625 ..     410     691 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 1.9e-11
+        RLR 235 elklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvk 334
+                +  +r+yq+++++ al   n++++lPtG Gkt++a+ +  +     +   +gkv++++   +lv q+ +  +            ++G +++    + + +
+  Seg3676.1 142 NYPVRDYQFNIIMKALT-ENTLVVLPTGLGKTFIAAVVMYNFYRWYP---QGKVLFMAPTKPLVAQQIQACYSITGTPAEDTAEMTGSMTPDR-RKVLWE 236
+                4568************7.7************************9999...89***************99999999999999999***999875.466889 PP
+
+        RLR 335 snDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqk 392
+                ++ +  +t+++L+n L +   ++     +   +++De h++  +  y +++++    k
+  Seg3676.1 237 TKRMFFITPHVLQNDLGR---GNCFA-KDIVCLVFDEAHKALGNYAYCQVIKEVAGCK 290
+                999*************99...55444.4556679******999999998887765555 PP
+
+  == domain 2  score: 66.6 bits;  conditional E-value: 3.5e-21
+        RLR 588 enekLekLrfkilqeeyrlees.........argiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssq.stgmtqreqkevidkfksGklnlL 677
+                  +kL+kL+  i+ +++++ ++         +r +if + r s++ ++  +++++ l     k   ++G+G s + ++g+ q+eq ev+++f++G +n+L
+  Seg3676.1 466 SHPKLKKLEE-IVVKHFETAKEnlsstasqgTRIMIFSQYRDSVQEITAVLNKHQPLV----KVMSFVGQGGSGKgKRGLSQKEQLEVLENFRKGGYNVL 560
+                5688888885.665555443221112222227889****************9999985....57889999998772568********************* PP
+
+        RLR 678 iatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlvatsgs..gvieketine 739
+                ++tsv eeGlDi e +++i ++     i++vq  Gr +r +  k+v+++t+g   +v ++ + n+
+  Seg3676.1 561 VSTSVGEEGLDIGEVDLIICFDASNSPIRLVQRMGRtGRKRAGKIVILVTEGKedQVYKRSLTNK 625
+                ***********************************966999999999999986224667766665 PP
+
+>> Seg2414.1  transcript_id=Seg2414.1|GoldUCD|mRNA.D3Y31 product="U5 small nuclear ribonucleoprotein 200 kDa helicase" p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.9   0.1   3.3e-12   1.6e-09     235     408 ..     476     651 ..     337     655 .. 0.80
+   2 !   18.1   0.0   1.6e-06   0.00075     253     394 ..    1342    1480 ..    1320    1508 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 36.9 bits;  conditional E-value: 3.3e-12
+        RLR 235 elklrsyqlevalPaleG.kniiiclPtGsGktrvavy.....iakd.hLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekv 327
+                   l   q  +   al+   n+++c+PtG+Gkt va++     i+k+  L+ + + ++ k+++++    lv+ +  ++ kr+   + +v  l+Gd +++ 
+  Seg2414.1 476 YSTLNRIQSRMCDAALKSdENVLLCAPTGAGKTNVALLtilreISKHiNLDGTINVDEFKIIYIAPMRSLVQEMVMNFGKRLSSYGITVSELTGDHQLN- 574
+                445556777788889986379***************98322223333235556667999*************************************998. PP
+
+        RLR 328 sfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskea..vynvimrnyLeqkLknsaiPLPqvlGLta 408
+                  +e +  + +i++t++  +   +k  e +  +L    LiiiDe h  + +   v  +++ + + q ++ s++ L +++GL a
+  Seg2414.1 575 --KEQIDGTQVIVCTPEKWDIITRKAGERTYTQLV--RLIIIDEIHLLHDDRgpVLETVVARTIRQ-IE-STQELVRLIGLSA 651
+                ..45678999********99999998899999985..79*******66655322666666666655.33.5777777777776 PP
+
+  == domain 2  score: 18.1 bits;  conditional E-value: 1.6e-06
+        RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrf.lkkryrviglsGdtaekvsfeevvksnDiiiltaqiLens 349 
+                  n+ i +PtGsGkt  a +   + L + +   ++k v++     l eq +     +f  + +  v+ l+G+t+  +    +    +i+i+t++  +  
+  Seg2414.1 1342 DNVFIGAPTGSGKTICAEFAILHMLSQNP---DSKCVFVTPLQSLAEQAYVDWRTKFgIQLGKNVVMLTGETSADLK---LLAKGNIVISTPDKWDV- 1432
+                 599****************9999999888...99***999999*****9888777773577889*******998764...445567******96544. PP
+
+        RLR  350 LkkleedaiveLsvfsLiiiDeChhtskea..vynvimr..nyLeqkLk 394 
+                  ++   ++  ++   sL ++De h  + ++  v  vi +  +y+  +++
+  Seg2414.1 1433 -LSRRWKQRKNVQNVSLFVLDEAHLIEEDNgpVMEVICSrmRYISSQIE 1480
+                 .34345667778899*********8877653356666542245555555 PP
+
+>> Seg8129.2  transcript_id=Seg8129.2|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase" protein_id=Seg812
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00014     0.067     231     271 ..      41      81 ..      21     110 .. 0.79
+   2 ?    0.7   0.5      0.28   1.4e+02     131     632 ..     275     335 ..     238     390 .. 0.53
+   3 !   32.8   0.0   5.6e-11   2.7e-08     660     728 ..     403     474 ..     397     479 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00014
+        RLR 231 sleselklrsyqlevalPaleGkniiiclPtGsGktrvavy 271
+                + +   ++ + q   ++  leG+niii   tGsGkt   + 
+  Seg8129.2  41 ERKRITQPTEIQNKAMQQILEGQNIIINSETGSGKTLCYLI 81 
+                5555567788888999999*****************87655 PP
+
+  == domain 2  score: 0.7 bits;  conditional E-value: 0.28
+        RLR 131 ltiedrerlaiaetkGneaGvrkllkrlvdkenwfkalklvlrkernkekelwiveknikesetedlevveesdislaeedvecldlsedsdeesvvada 230
+                ++ied+  ++                                                                                          
+  Seg8129.2 275 IEIEDDFDIK------------------------------------------------------------------------------------------ 284
+                3333333222.......................................................................................... PP
+
+        RLR 231 sleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfe 330
+                                                                                                                    
+  Seg8129.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+        RLR 331 evvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtaspGvGgakkldealehilkLCa 430
+                                                                                                                    
+  Seg8129.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+        RLR 431 nLDafviktvkenleqLkeqvqkPckkfalvearreDpfkellaelmtdiesylkmselsrefGtqkyeqwvvklekaaaveglkkervyaehLrkynda 530
+                                                                                                                    
+  Seg8129.2   - ----------------------------------------------------------------------------------------------------   -
+                .................................................................................................... PP
+
+        RLR 531 LlisdtvrmvDalaaLkdfyseekakkfdvieddrfLlalfeekkkeLkrlaedpenenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWie 630
+                                                               L+ +      e e++ +L++  l+++ ++ +  r+i++t t + a+ L + ++
+  Seg8129.2 285 --------------------------------------------VSILAAV-----LERERFSSLTN--LKQQGETTKPFRAILYTNTVADAQKLFEMLN 333
+                ............................................2222222.....23355555555..5555566666666666666666555555544 PP
+
+        RLR 631 en 632
+                ++
+  Seg8129.2 334 KR 335
+                43 PP
+
+  == domain 3  score: 32.8 bits;  conditional E-value: 5.6e-11
+        RLR 660 reqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ar..adeskyvlvatsg 728
+                 e+  vid f +Gk+n+L+ ts+a  GlDi++ ++v+++++  n+  ++   Gr ar  a++ ++ +v +++
+  Seg8129.2 403 SERLDVIDGFTKGKFNVLVTTSIAGRGLDIPNVDLVVQFDFPLNVADILHRAGRtARagAKGKVISFVCQKN 474
+                56778*******************************************999997434115677777777665 PP
+
+>> Seg1055.2  transcript_id=Seg1055.2|GoldUCD|mRNA.D3Y31 product="Endoribonuclease Dicer" protein_id=Seg1055.2|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.2   0.0   2.6e-15   1.2e-12     659     729 ..      33     102 ..      24     109 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.2 bits;  conditional E-value: 2.6e-15
+        RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgs 729
+                 ++ +  +++f  Gkl +L+at v ee lD+++Cniv+r++ +    + vq+  ra+a +s++ +v+ ++s
+  Seg1055.2  33 IKKHERFLKRFPGGKLKILVATGVVEEQLDVRKCNIVMRFDRIRSHKEYVQSERRAKAPNSQV-FVLAKSS 102
+                566778899****************************************************99.5555444 PP
+
+>> Seg1437.8  transcript_id=Seg1437.8|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX31" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   0.0   6.8e-07   0.00033     246     372 ..     163     292 ..     145     297 .. 0.82
+   2 !   25.9   0.0   6.8e-09   3.3e-06     655     730 ..     460     538 ..     400     577 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 6.8e-07
+        RLR 246 alPal.eGkniiiclPtGsGktrvavyiakdhLe....kvkkaekgkvvvlvnkvllveqlkskefkrflkkryrvigl.sGdtaekvsfeevvksnDii 339
+                a+Pal   k+++i  PtGsGkt + ++   + L+    k++++++   vvl     l  q ++++        + v gl  G  + k+   ++ k  +ii
+  Seg1437.8 163 AIPALmTQKDVLIKSPTGSGKTLAYALPLIQRLQavvpKINRTDGPYAVVLLPTRELAIQSYEVFESMCRTFVWIVPGLiIGGENRKAEKSRIRKGINII 262
+                678852679*************9987755555542222677888888899999999999977777777777899**996369999*************** PP
+
+        RLR 340 iltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                ++t+  L   Lk     +  +L  + ++i De 
+  Seg1437.8 263 VATPGRLLDHLKA---TKSLSLKNLLFMIYDEA 292
+                *****99999999...78899999999999996 PP
+
+  == domain 2  score: 25.9 bits;  conditional E-value: 6.8e-09
+        RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.r..adeskyvlvatsgsg 730
+                 +m q+e++ v +kfk+ k  +L+ t va  GlD+++ n +i+y   t     +   Gr+ r  a++    +++ s+ +
+  Seg1437.8 460 GDMKQNERNDVFHKFKKCKKGILLCTDVAARGLDLPRVNWIIQYSCPTQIHDYIHRVGRTaRigAQGESLLFLLPSEVK 538
+                57******************************************99888877777777741333666666677766655 PP
+
+>> Seg453.11  transcript_id=Seg453.11|GoldUCD|mRNA.D3Y31 product="Activating signal cointegrator 1 complex subunit 3" pr
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.4   2.2e-08   1.1e-05     253     408 ..     477     633 ..     463     636 .. 0.78
+   2 ?   -2.5   0.0       2.7   1.3e+03     645     697 ..     758     810 ..     751     813 .. 0.88
+   3 !   17.4   0.0   2.6e-06    0.0012     253     374 ..    1327    1441 ..    1322    1456 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 2.2e-08
+        RLR 253 kniiiclPtGsGktrvavyiakdhLek.vkka....ekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLe 347
+                 n+++ +PtG+Gkt +a++   + +++ +k++    ++ kv++++    l   + + + kr+   +  v  l+Gd+++    +e+ k+  ++i+t++  +
+  Seg453.11 477 ENLLVAAPTGAGKTNIALLTIVHEIKNnIKEGvlkkDDFKVIYVAPMKALAAEMTESFGKRLGPLGISVKELTGDMQLT--KNEILKT-QMLITTPEKWD 573
+                6999*************99877777652333333226789****9999999999**********************975..6799886.58999**9988 PP
+
+        RLR 348 nsLkkleedaiveLs.vfsLiiiDeCh..htskeavynvimrnyLeqkLknsaiPLPqvlGLta 408
+                   +k      v Ls +  L+i+De h  h ++ +v  +++ + L q   +s++ + +++GL a
+  Seg453.11 574 VVTRK--STGDVALSnMVKLLIFDEVHllHDDRGSVIETLVARTLRQV--ESTQSMIRIVGLSA 633
+                77777..455677772468********444445567777777777664..36788888888887 PP
+
+  == domain 2  score: -2.5 bits;  conditional E-value: 2.7
+        RLR 645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                L   G s +  gm +r+++ v + f +G + +++ t+    G++++   ++i+
+  Seg453.11 758 LFSDGFSMHHAGMLRRDRNLVQNLFSKGVIKVIVCTATLAWGVNLPAHAVIIK 810
+                66678899999*************************99999999988888775 PP
+
+  == domain 3  score: 17.4 bits;  conditional E-value: 2.6e-06
+        RLR  253 kniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevvksnDiiiltaqiLens 349 
+                  n+++ +PtGsGkt +a +   + + + +   ++k v+++    lv+ + +   +rf kk + +vi l+Gd+++     + + + D+i++t++  +  
+  Seg453.11 1327 HNVLLGAPTGSGKTVAAELAMFRTFREYP---DTKAVYIAPLKALVKERIEDWKERFTKKlGKKVIELTGDVTPDT---RAIANADVIVTTPEKWDGI 1418
+                 69999************999888888888...89999999888888777777777777763689********9875...67889*********98876 PP
+
+        RLR  350 LkkleedaiveLsvfsLiiiDeChh 374 
+                  ++   ++   +   sL++iDe h 
+  Seg453.11 1419 SRS--WQTRSYVKSVSLLVIDEIHL 1441
+                 666..6778888899*******995 PP
+
+>> Seg1321.8  transcript_id=Seg1321.8|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX46" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.3   2.2       9.4   4.5e+03     450     523 ..     444     515 ..     404     523 .. 0.50
+   2 !   12.8   0.0   6.1e-05     0.029     242     371 ..     591     722 ..     568     726 .. 0.76
+   3 !   32.0   0.0   9.8e-11   4.7e-08     654     723 ..     842     912 ..     813     936 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -4.3 bits;  conditional E-value: 9.4
+        RLR 450 qvqkPckkfal...vearreDpfkellaelmtdiesylkmselsrefGtqkyeqwvvklekaaaveglkkervyaeh 523
+                  qk  k  ++   v ++++D+ ke   e+m++ +++++ s      G    e  +     aa++++ kke + a+h
+  Seg1321.8 444 AAQKKGKTTTIvttVVKKSQDEQKESKPEVMEQNQDLMEYSSE---EGE--KEDILEGNAFAAMKQKKKKELLAADH 515
+                2222223222211134566666666666666666666664433...221..22222223334455555555555555 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 6.1e-05
+        RLR 242 qlevalPaleGkniiiclPtGsGktrvavyiakdh.Lekvkka.ekgkv.vvlvnkvllveqlkskefkrflk.kryrviglsGdtaekvsfeevvksnD 337
+                q + +   + G+++i ++ tGsGkt + ++   +h L++ +   ++g + +++     l  q + ke ++f k  + + + + G  +    + e+ +  +
+  Seg1321.8 591 QAQGIPSIMSGRDVIGIAKTGSGKTLAFLLPMFRHvLDQEPLDeNDGPIaIIMSPTRELALQIH-KECRKFCKpLGLHAVCIYGGSGISEQIAELKRGAE 689
+                5555666799*****************9996655537887765455555156666667777755.5555555526899999999999999********** PP
+
+        RLR 338 iiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                ii++t+  +   L+  + +   +    + +++De
+  Seg1321.8 690 IIVCTPGRMIDMLTA-NCGRVTNCRRCTYLVLDE 722
+                ******887777776.566677777777777777 PP
+
+  == domain 3  score: 32.0 bits;  conditional E-value: 9.8e-11
+        RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                  gm q ++   i  fk+G + +++atsva  GlD+k+ n+v+ y+        v   Gr +ra +   ++
+  Seg1321.8 842 HGGMDQFDRDSTIADFKNGVIKIMVATSVAARGLDVKHLNLVVNYDCPNHYEDYVHRVGRtGRAGNKGHAF 912
+                5689999**************************************98766666666666533554444444 PP
+
+>> Seg562.18  transcript_id=Seg562.18|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX46" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.3   2.5       9.1   4.4e+03     438     524 ..     431     518 ..     405     525 .. 0.49
+   2 !   12.8   0.0   6.1e-05     0.029     242     371 ..     593     724 ..     570     728 .. 0.76
+   3 !   32.0   0.0   9.8e-11   4.8e-08     654     723 ..     844     914 ..     815     938 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -4.3 bits;  conditional E-value: 9.1
+        RLR 438 ktvkenleqLk...eqvqkPckkfal...vearreDpfkellaelmtdiesylkmselsrefGtqkyeqwvvklekaaaveglkkervyaehL 524
+                k v++ ++++    +  qk  k  ++   v ++++D+ ke   e+m++ +++++ s      G    e  +     aa++++ kke + a+h 
+  Seg562.18 431 KEVQNEVKKFAtfgQAAQKKGKTTTIvttVVKKSQDEQKESKPEVMEQNQDLMEYSSE---EGE--KEDILEGNAFAAMKQKKKKELLAADHS 518
+                4444444444301022333333333311134566777777777777777777665443...222..222222233345555555555556665 PP
+
+  == domain 2  score: 12.8 bits;  conditional E-value: 6.1e-05
+        RLR 242 qlevalPaleGkniiiclPtGsGktrvavyiakdh.Lekvkka.ekgkv.vvlvnkvllveqlkskefkrflk.kryrviglsGdtaekvsfeevvksnD 337
+                q + +   + G+++i ++ tGsGkt + ++   +h L++ +   ++g + +++     l  q + ke ++f k  + + + + G  +    + e+ +  +
+  Seg562.18 593 QAQGIPSIMSGRDVIGIAKTGSGKTLAFLLPMFRHvLDQEPLDeNDGPIaIIMSPTRELALQIH-KECRKFCKpLGLHAVCIYGGSGISEQIAELKRGAE 691
+                5555666799*****************9996655537887765455555156666667777755.5555555526899999999999999********** PP
+
+        RLR 338 iiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                ii++t+  +   L+  + +   +    + +++De
+  Seg562.18 692 IIVCTPGRMIDMLTA-NCGRVTNCRRCTYLVLDE 724
+                ******887777776.566677777777777777 PP
+
+  == domain 3  score: 32.0 bits;  conditional E-value: 9.8e-11
+        RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvl 723
+                  gm q ++   i  fk+G + +++atsva  GlD+k+ n+v+ y+        v   Gr +ra +   ++
+  Seg562.18 844 HGGMDQFDRDSTIADFKNGVIKIMVATSVAARGLDVKHLNLVVNYDCPNHYEDYVHRVGRtGRAGNKGHAF 914
+                5689999**************************************98766666666666533554444444 PP
+
+>> Seg1117.5  transcript_id=Seg1117.5|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX17" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0   0.0   1.5e-12   7.4e-10     658     724 ..     238     305 ..     170     325 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 38.0 bits;  conditional E-value: 1.5e-12
+        RLR 658 tqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradeskyvlv 724
+                 q+e+  v+++f++Gk  +Liat va  GlDik+ n vi y++       v   Gr arad+s  ++ 
+  Seg1117.5 238 SQPERDWVLKEFRDGKAPVLIATDVASRGLDIKDINFVINYDFPNSAEDYVHRIGRtARADKSGTAYT 305
+                5899999*************************************9999*******978***9975543 PP
+
+>> Seg2185.5  transcript_id=Seg2185.5|GoldUCD|mRNA.D3Y31 product="Eukaryotic initiation factor 4A-II" protein_id=Seg2185
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0     0.074        36     236     268 ..      63      95 ..      31     137 .. 0.80
+   2 !   35.4   0.7   9.4e-12   4.5e-09     565     730 ..     250     399 ..     180     415 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 2.6 bits;  conditional E-value: 0.074
+        RLR 236 lklrsyqlevalPaleGkniiiclPtGsGktrv 268
+                 k+ + q   ++P ++G ++i  +  G+Gkt  
+  Seg2185.5  63 EKPSAIQQRAIVPCIKGYDVIAQAQSGTGKTAT 95 
+                5677789999********************964 PP
+
+  == domain 2  score: 35.4 bits;  conditional E-value: 9.4e-12
+        RLR 565 rfLlalfeekkkeLkrlaedpenenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqke 664
+                r L+++ e  ++ +k+   d ++e  kLe+L+       y +   ++++if  tr+ +d L++ +++++ +         L G        +m q+e+  
+  Seg2185.5 250 RILVKKEELTLEGIKQFYVDVSKEEWKLETLCD-----LYDTLSITQAVIFLNTRRKVDWLTESMTQKD-F-----TVSALHG--------DMDQKERDL 330
+                66666666667778888889999*********5.....688888999**********986665555432.3.....3344544........79******* PP
+
+        RLR 665 vidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.r..adeskyvlvatsgsg 730
+                ++ +f++G+  +Li t     G+D+++  +vi y+l tn  + +   Gr+ r   ++  + ++ t++ +
+  Seg2185.5 331 IMREFRTGSSRVLITTDLLSRGIDVQQVSLVINYDLPTNRESYIHRIGRSgRfgRKGVAINFITTDDQR 399
+                ***************************************988888877751211334444566666555 PP
+
+>> Seg1818.3  transcript_id=Seg1818.3|GoldUCD|mRNA.D3Y31 product="ATP-dependent RNA helicase DED1" protein_id=Seg1818.3|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.7   0.0   3.3e-05     0.016     184     269 ..      33     129 ..      17     142 .. 0.71
+   2 ?   -0.3   0.1      0.57   2.8e+02     308     374 ..     286     348 ..     272     367 .. 0.84
+   3 !   18.5   0.0   1.2e-06   0.00056     657     700 ..     470     513 ..     401     537 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 3.3e-05
+        RLR 184 iveknikesete..dlevveesdislaeedvecld.........lsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrva 269
+                ++e +ik+ + +  d +  ee +   +++ +e  +         + e + +++ ++    ++  ++ + q++ +   l G+++i ++PtGsGkt+  
+  Seg1818.3  33 GIETGIKNQKSSrlDISSAEELEKVRFQNGIEVDEdgcpgpistFEESTLPKELISILGKYNVYQPTPVQMQAIPILLSGRDLIAVAPTGSGKTFGY 129
+                566666554333114444444444444444444444566665544456667788899999************999999****************965 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.57
+        RLR 308 rflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChh 374
+                +  ++r++v g+ G +   v   ++     +i+ t+  L        + +i +L     +++DeC +
+  Seg1818.3 286 KQIEERFTVYGVCGGIPVSVQSARLKSDVKVIVGTPGRLIDLC----QRNILNLENVNYLVLDECDK 348
+                4457899**************99**99999*****98765433....36899999999999***975 PP
+
+  == domain 3  score: 18.5 bits;  conditional E-value: 1.2e-06
+        RLR 657 mtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                + q ++ +++  fk+G+l++L+at  a  GlDi++   vi ++ 
+  Seg1818.3 470 LEQTNRFQIVADFKNGELDVLVATDLASRGLDIPDVTHVINFDT 513
+                556777789*******************************9985 PP
+
+>> Seg397.26  transcript_id=Seg397.26|GoldUCD|mRNA.D3Y31 product="ATP-dependent RNA helicase DDX18" protein_id=Seg397.26
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   2.0   5.4e-08   2.6e-05     173     371 ..     103     302 ..       3     327 .. 0.73
+   2 !    9.1   0.0   0.00082       0.4     659     699 ..     427     469 ..     423     504 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 5.4e-08
+        RLR 173 rkernkekelwiveknikesetedlevveesdislaeedvecldlse.dsdeesvvadaslesel.klrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                +++  +e+e    ++ni+e + e  ++ + s+  l e+ +  +++++ +    +++ da  e e+ k+ + q   ++P l G++++  + tGsGkt + +
+  Seg397.26 103 ENNDSQEQEPTETDENIEENDEEKENEAKPSESVLGEQLPPTQEFASlKGIVSEKTLDAIKEMEFtKMTEIQHRTIMPLLAGRDLLGAAKTGSGKTLAFL 202
+                22355566666777788888887777788888888888888888777555556666777777777467899***************************** PP
+
+        RLR 271 yiakdhLekvkka.ekgk.vvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLii 368
+                + a + L k +   ++g  ++++     l  q +++    + +++++   + G  + k+  e++ k  +i+++t+  L   L++     +     +  +i
+  Seg397.26 203 LPAIELLYKLNFKpRNGTgILIISPTRELSLQTFGVLRDLLVHHQHTFGIVMGGANRKAEAEKLQKGVNILVATPGRLLDHLQNT---PGFIYKSLQCLI 299
+                *****9999875445555055556677899999**99999999999999999***********************9999999883...333333344455 PP
+
+        RLR 369 iDe 371
+                iDe
+  Seg397.26 300 IDE 302
+                565 PP
+
+  == domain 2  score: 9.1 bits;  conditional E-value: 0.00082
+        RLR 659 qreqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryg 699
+                q++qk     f   + +  +L+ t va  GlDi+e + +++y+
+  Seg397.26 427 QKQQKRTSTFFEfcTADSGILLCTDVAARGLDIPEVDWIVQYD 469
+                55555554444444999*************************8 PP
+
+>> Seg339.8  transcript_id=Seg339.8|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX6" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.7   0.2    0.0011      0.53     238     372 ..      57     185 ..      50     198 .. 0.75
+   2 !   25.8   0.1   7.4e-09   3.6e-06     587     710 ..     233     358 ..     182     365 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 8.7 bits;  conditional E-value: 0.0011
+       RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkr.yrviglsGdtaekvsfeevvksnD 337
+               + + q e +  al G++i+  +  G+Gkt + +    + ++  k + ++  +vlv    l  q  s+  k++ k++  +v+   G +++k  + ++ ++  
+  Seg339.8  57 PSPIQEESIPVALAGRDIMARAKNGTGKTAAYLVPLLERIDISKDCIQA--LVLVPTRELALQ-TSHICKELSKHMnVKVMVTLGGVGLKDDIMRLYQTVH 154
+               56778999999******************88777666777777755555..555555555556.56666666666425777778999************** PP
+
+       RLR 338 iiilta.qiLensLkkleedaiveLsvfsLiiiDeC 372
+               ++i+t+ +iL+  L +   ++  ++   s++++De 
+  Seg339.8 155 VVIATPgRILD--LIN---KKVAKVDRCSMLVMDEA 185
+               *****934554..333...45667777788888875 PP
+
+  == domain 2  score: 25.8 bits;  conditional E-value: 7.4e-09
+       RLR 587 nenekLekLrfkilqeeyrleesargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstg..mtqreqkevidkfksGklnlLiatsvaee 685
+               +e + +++L+ k + ++y   e+ + +    t  s   ++q i   + ++ v++ a+ ++  G s  + +  m q +++ v + f++G++  L+ t     
+  Seg339.8 233 YEINLMDELTLKGITQYYAFVEERQKVHCLNTLFSKLQINQSIIFCNTVQRVELLARKITDLGYSCFFIHsrMQQAHRNSVFHDFRDGQFRNLVCTDLFTR 333
+               555666667777777777777777777777777777777777777788999**************987544499*************************** PP
+
+       RLR 686 GlDikeCniviryglvtneiamvqa 710
+               G+Di+  n+vi +++  n  + +  
+  Seg339.8 334 GIDIQAVNVVINFDFPKNSETYLHR 358
+               *************998887665555 PP
+
+>> Seg138.3  transcript_id=Seg138.3|GoldUCD|mRNA.D3Y31 product="ATP-dependent RNA helicase DDX54" protein_id=Seg138.3|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.6   0.0   1.8e-05    0.0085     249     371 ..     196     313 ..     185     317 .. 0.77
+   2 !   14.4   0.0     2e-05    0.0097     644     727 ..     422     510 ..     367     514 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 1.8e-05
+       RLR 249 aleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflk.kryrviglsGdtaekvsfeevvksnDiiiltaq.iLe 347
+                l+Gk+++ ++ tGsGkt + +    + L++ + a++ + ++l     l  q   k+ k++ k  + + + + G  + +  f  + ++ Diii+t+   L+
+  Seg138.3 196 LLDGKDVVAMARTGSGKTAAFLIPMFEKLHTHD-AKGPRALILSPTRELAMQ-TLKFTKELGKfTGLKSTCILGGDKFEDQFAALHQNPDIIIATPGrFLH 294
+               589***************998888899999999.888899999988888888.666667665535788899988889999***************951444 PP
+
+       RLR 348 nsLkkleedaiveLsvfsLiiiDe 371
+                ++     +   +L     +++De
+  Seg138.3 295 LAV-----EMNLKLQTIEYVVFDE 313
+               333.....3455555555556655 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 2e-05
+       RLR 644 lLiGaGk..ssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.arades..kyvlvats 727
+               +Li aG   s     + q ++k  + kf++    lL+ t va  G+Di+  + vi +++ +     v   Gr ara  s   y +v t+
+  Seg138.3 422 VLIEAGIdcSYIYSALDQTARKINVAKFQKKITLLLVVTDVAARGIDIPMLDNVINFDFPAKPKLFVHRVGRvARAGRSgtAYSFVSTE 510
+               466565411334567889999999******9999**************************99999999999978997763367788776 PP
+
+>> Seg1644.12_Seg1644.13  transcript_id=Seg1644.12_Seg1644.13|GoldUCD|mRNA.D3Y31 product="DNA polymerase theta" protein_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.0   1.2e-07   5.8e-05     178     374 ..     146     338 ..     111     347 .. 0.73
+   2 !    6.4   0.0    0.0053       2.6     645     697 ..     530     582 ..     506     607 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 1.2e-07
+                    RLR 178 kekelwiveknikes.etedlevveesdis.laeedvecldlseds.deesvvadasleselk.lrsyqleval..PaleGkniiicl 259
+                            k ++l +v kn+++  e  +le++ + + +  a e+v  + ls ds d +s v++    + +k + ++q +  +   al+G n++  +
+  Seg1644.12_Seg1644.13 146 KVQNLDGVIKNSNQMfENVNLEDLAQGQQDiNAAESVIAKTLSIDSwDLPSCVSEKYKTAGIKqIFQWQRDCLMtgKALNGGNLVYSA 233
+                            55666666666655325556677666655534678888999999984558889888887777515677777776336*********** PP
+
+                    RLR 260 PtGsGktrva.vyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkkryrviglsGdtaekvsfeevvksnDiiiltaqiL 346
+                            Pt +Gkt va +++ k+ L ++      k +++   v +   +     + f++ + rv g  G+    v+ +  + ++Di ++t +  
+  Seg1644.12_Seg1644.13 234 PTSAGKTLVAeMLMLKRVLSTKR-----KALYILPFVSVAREKMFCLQEMFKEAGVRVDGYMGAQ---VPAGGFA-ATDIAVCTIEKA 312
+                            ********994566788888877.....7777888888888866667777888888887766665...5555544.689****98864 PP
+
+                    RLR 347 ensLkk.leedaiveLsvfsLiiiDeChh 374
+                             nsL + l ed   ++s + ++++De h 
+  Seg1644.12_Seg1644.13 313 -NSLVNrLMED--KKMSTLGVVVVDEMHM 338
+                            .5555503355..578999********96 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.0053
+                    RLR 645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivir 697
+                            ++  G s +  g+t +e+  +  +f+ G + +L+ats    G++++   +++r
+  Seg1644.12_Seg1644.13 530 IVSSGVSFHHAGLTFDERDVIEGAFRRGAIRVLVATSTLSSGVNLPARRVILR 582
+                            567899999999***99999999********************9998888876 PP
+
+>> Seg1232.17  transcript_id=Seg1232.17|GoldUCD|mRNA.D3Y31 product="Acyl-CoA synthetase family member 2 mitochondrial" p
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.024        11     240     290 ..      56     104 ..       5     122 .. 0.78
+   2 !   23.7   0.0   3.3e-08   1.6e-05     651     714 ..     298     361 ..     231     391 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.024
+         RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvv 290
+                 + q   ++P ++G+++i  +  G+Gkt      a + ++++   ++++v++
+  Seg1232.17  56 AIQQRAIIPVVKGRDVIAQAQSGTGKTATYSISALQGVDTKL--RETQVLI 104
+                 5688899********************876666666666554..4555555 PP
+
+  == domain 2  score: 23.7 bits;  conditional E-value: 3.3e-08
+         RLR 651 ssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                 ss   g+ q+e++ ++++f+ G+  +Li+t     GlD+++  +vi y+l  n    +   Gr+
+  Seg1232.17 298 SSMHGGLPQKEREAIMKEFRGGQSRVLISTDLWARGLDVSQVSLVINYDLPNNRELYIHRIGRS 361
+                 66777899******************************************99986666666654 PP
+
+>> Seg1650.6  transcript_id=Seg1650.6|GoldUCD|mRNA.D3Y31 product="Dicer-like protein 1" protein_id=Seg1650.6|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.0   5.3e-10   2.5e-07     362     410 ..       2      46 ..       1      99 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 5.3e-10
+        RLR 362 svfsLiiiDeChhtskeavynvimrnyLeqkLknsaiPLPqvlGLtasp 410
+                ++f +i++DeChh+  ++vy +i+ + Le+  +   +  P+vlGLtasp
+  Seg1650.6   2 TDFCVIVFDECHHATGDHVYAQIL-HLLEMCPQ---KTRPRVLGLTASP 46 
+                89********************98.56665444...6779********9 PP
+
+>> Seg503.15  transcript_id=Seg503.15|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX49" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.1   0.6   2.9e-09   1.4e-06     656     787 ..      93     226 ..      86     246 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 27.1 bits;  conditional E-value: 2.9e-09
+        RLR 656 gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.ara.deskyvlvats.gsgvie..ketinefkeklmekail 750
+                 m q+++   + +f+ G   +L++t va  GlDi+  ++vi +++ +     +   Gr ara ++ k v ++t+ +   i+  +e in   e++  +   
+  Seg503.15  93 LMSQNDRLSTLARFRGGIAKILVSTDVASRGLDIPIVDLVINHNVPASPTDYIHRVGRtARAgRGGKAVTLMTQyDIERIKaiEERINTKLEEFETNETE 192
+                599******************************************99999999999986677344555555544155666644599***99999999888 PP
+
+        RLR 751 avqkmdeaeyrekilelqtqellerkakekrkiakrq 787
+                av+ ++     ++  el+ ++    +  ekrki+kr+
+  Seg503.15 193 AVKLLKVVSVVRREVELRLDDS---NFGEKRKINKRK 226
+                8888887666555555554432...222222222222 PP
+
+>> Seg422.17  transcript_id=Seg422.17|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase hus2/rqh1" protein_id=Seg42
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.0   2.4e-09   1.2e-06     659     721 ..      92     156 ..      15     165 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 2.4e-09
+        RLR 659 qreqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradesky 721
+                 ++++ v++ +   sG+  + +at+  e G+Di++ n  i yg    +   +q  Grar d+s+ 
+  Seg422.17  92 EKHKQRVLSDLTdaSGSCRVAVATTSLEMGIDISDINCAIHYGSPREVADYIQGIGRARRDKSNA 156
+                344567888877679***********************************************976 PP
+
+>> Seg13.9  transcript_id=Seg13.9|GoldUCD|mRNA.D3Y31 product="ATP-dependent RNA helicase DDX3X" protein_id=Seg13.9|GoldU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   0.0       3.9   1.9e+03     255     269 ..      91     105 ..      86     112 .. 0.82
+   2 !   25.6   0.0   8.4e-09   4.1e-06     608     714 ..     310     402 ..     291     460 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 3.9
+      RLR 255 iiiclPtGsGktrva 269
+              ++ c+ tGsGkt + 
+  Seg13.9  91 LMACAQTGSGKTAAF 105
+              678*********875 PP
+
+  == domain 2  score: 25.6 bits;  conditional E-value: 8.4e-09
+      RLR 608 esargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvq 709
+              +++ +++f+ t++ adaL+ ++  +e  a        +   G+        q e++  ++ f+sG+  +L+at+va  GlDi++   vi +++ t+  + v 
+  Seg13.9 310 PDSLTLVFVETKRGADALEDYLYREEYNAA------SI--HGDK------SQYEREHSLSSFRSGQTPILVATAVAARGLDIPNVKHVINFDMPTDIEEYVH 397
+              566677777777777777777765554333......12..2333......456778899**********************************999988888 PP
+
+      RLR 710 arGra 714
+                Gr+
+  Seg13.9 398 RIGRT 402
+              88885 PP
+
+>> Seg11011.2  transcript_id=Seg11011.2|GoldUCD|mRNA.D3Y31 product="Eukaryotic initiation factor 4A-III" protein_id=Seg1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0     8e-09   3.8e-06     609     714 ..      89     180 ..      41     210 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 25.7 bits;  conditional E-value: 8e-09
+         RLR 609 sargiiftktrqsadaLkqWieeneklaevdvkaqlLiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiam 707
+                  ++++if+ t++ ++    W++e+ + a+      +      ss   g+ q+e++ ++++f+ G+  +Li+t     GlD+++  +vi y+l  n    
+  Seg11011.2  89 ITQAVIFVNTKRKVE----WLTEKMREAN------F----TVSSMHGGLPQKEREAIMKEFRGGQSRVLISTDLWARGLDVSQVSLVINYDLPNNRELY 173
+                 555666666666553....5544322222......1....2366777899******************************************9998666 PP
+
+         RLR 708 vqarGra 714
+                 +   Gr+
+  Seg11011.2 174 IHRIGRS 180
+                 6666654 PP
+
+>> Seg389.3  transcript_id=Seg389.3|GoldUCD|mRNA.D3Y31 product="Werner syndrome ATP-dependent helicase" protein_id=Seg38
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   2.2e-08   1.1e-05     605     728 ..      64     190 ..      23     201 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 2.2e-08
+       RLR 605 rleesargiiftktrqsadaLkqWieen......eklaevdvkaqlLiGaGkssqstgmtqreqkevidkfk..sGklnlLiatsvaeeGlDikeCnivir 697
+               rl    ++ii+ +  + +  L  +++e+      + ++e ++ + +LiG  +   s     ++++ ++d +   +G+  +++at+    G+Di++   vi 
+  Seg389.3  64 RLY--EKTIIYCQSIENVSKLYVYLKEQlgpdayDSFKEQKLASSMLIGMYHRKTS----EKQKQRILDDLSevHGSCRVVVATTSLVMGVDISDLKCVIH 158
+               332..478999999999999999999984333334566777777777777664433....345567999998789************************** PP
+
+       RLR 698 yglvtneiamvqarGrarade.skyvlvatsg 728
+               yg  +  i  +q  Gra  d+ s  +++  sg
+  Seg389.3 159 YGSPSEIIDYIQGIGRAGRDGtSAKAILYYSG 190
+               ****************8666515555555555 PP
+
+>> Seg4660.1  transcript_id=Seg4660.1|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX41" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1      0.26   1.2e+02     241     268 ..     189     216 ..     178     232 .. 0.82
+   2 !   19.7   0.1   5.1e-07   0.00025     645     714 ..     436     505 ..     387     535 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 0.8 bits;  conditional E-value: 0.26
+        RLR 241 yqlevalPaleGkniiiclPtGsGktrv 268
+                 q++ +   l+G+++i ++ tGsGkt v
+  Seg4660.1 189 IQIQGIPTVLNGRDMIGIAFTGSGKTLV 216
+                5666677789****************98 PP
+
+  == domain 2  score: 19.7 bits;  conditional E-value: 5.1e-07
+        RLR 645 LiGaGkssqstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                L G    +   +m q++++  +++f++ k ++L+at va  GlD +    vi y++  +  + v   Gr+
+  Seg4660.1 436 LKGVEAVAIHGNMDQEDRERGVKAFRERKKDVLVATDVASKGLDFQGIQHVINYDMPDDIENYVHRIGRT 505
+                445666666778******************************************9854444444444443 PP
+
+>> Seg5504.1  transcript_id=Seg5504.1|GoldUCD|mRNA.D3Y31 product="ATP-dependent RNA helicase DDX19A" protein_id=Seg5504.
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.0     1e-07   4.9e-05     661     700 ..     189     228 ..     152     232 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1e-07
+        RLR 661 eqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                ++  ++++f++Gk  +Li t v   G+D+++  iv+ y++
+  Seg5504.1 189 QRLAILNRFRDGKEKVLITTNVCARGIDVEQVTIVVNYDI 228
+                445799********************************85 PP
+
+>> Seg900.3  transcript_id=Seg900.3|GoldUCD|mRNA.D3Y31 product="ATP-dependent helicase SGS1" protein_id=Seg900.3|GoldUCD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.0   2.1e-07    0.0001     227     269 ..      21      62 ..       2     129 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 21.0 bits;  conditional E-value: 2.1e-07
+       RLR 227 vadasleselklrsyqlevalPaleGkniiiclPtGsGktrva 269
+               +++a l+ e +lr+yq+e  l  ++G+++++  PtGsGk  v 
+  Seg900.3  21 ASKAVLDIE-ELRPYQVEALLGIMDGRDVLVAQPTGSGKSVVY 62 
+               444444444.89***************************9885 PP
+
+>> Seg1415.3  transcript_id=Seg1415.3|GoldUCD|mRNA.D3Y31 product="Bloom syndrome protein" protein_id=Seg1415.3|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.0   2.4e-07   0.00012     223     301 ..       2      80 ..       1      90 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 2.4e-07
+        RLR 223 eesvvadasleselklrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveql 301
+                e+s++a  +    l l+++q  v    l+G ++ +c+Pt sGkt+  +++++    + ++  +   vv     l+veq 
+  Seg1415.3   2 EDSIIAAIEEMFRLTLKEFQKAVYANILRGEDVFVCAPTRSGKTYCFAFLSEAFNLRNDQQSSVTLVVSPLSSLVVEQA 80 
+                567777778888999************************************9987777755555555555555677775 PP
+
+>> Seg1028.4  transcript_id=Seg1028.4|GoldUCD|mRNA.D3Y31 product="Dicer-like protein 1" protein_id=Seg1028.4|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.9   0.0      0.25   1.2e+02     843     868 ..      47      72 ..       3     117 .. 0.72
+   2 !   17.9   0.0   1.7e-06   0.00084     238     303 ..     162     223 ..     146     237 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 0.9 bits;  conditional E-value: 0.25
+        RLR 843 adykkrgkiiCrnCgeaWGiqvvyks 868
+                 + kkr +i C++C e+ G+ v y  
+  Seg1028.4  47 VETKKRVRIKCKKCLENVGVDVPYGP 72 
+                45689999*******99999998854 PP
+
+  == domain 2  score: 17.9 bits;  conditional E-value: 1.7e-06
+        RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlks 303
+                +r+yq+e  + al+ +++++++ tG Gkt +a ++  +  +  +   +   v+lv++++lv q+ +
+  Seg1028.4 162 PRNYQIEAYIEALQ-QDLVVVIDTGLGKTLIASMVIARM-KVLN--PNHMAVMLVDRIPLVFQQGQ 223
+                8************9.6788999*******9988776553.3333..3456799********99754 PP
+
+>> Seg5489.3  transcript_id=Seg5489.3|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase RecQ" protein_id=Seg5489.3|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0   2.3e-06    0.0011     238     303 ..      26      96 ..       5     109 .. 0.77
+   2 ?   -1.9   0.0       1.7   8.3e+02     664     749 ..     326     413 ..     278     417 .. 0.73
+   3 ?   -1.1   0.0         1   4.9e+02     664     749 ..     621     708 ..     568     712 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 2.3e-06
+        RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkka..e...kgkvvvlvnkvllveqlks 303
+                ++++qle a  al Gk++ +  PtGsGk  v  ++   h+e  k    e   +g +vv+   + l++ + +
+  Seg5489.3  26 IKDFQLEAATAALLGKDVFVAKPTGSGKSLVFQLLPFAHFELQKMMgnEpvvPGFIVVISPLIALMKDQMQ 96 
+                579****************************9999888876554321232224666777666766666554 PP
+
+  == domain 2  score: -1.9 bits;  conditional E-value: 1.7
+        RLR 664 evidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekai 749
+                 + + f   +G+l +L at     G+D k+   v+  g       + q  Gra  d+ +   v+    +   k +  e++e + +++i
+  Seg5489.3 326 AITKSFAdpKGDLRVLFATIAFGMGVDCKNLYEVVHLGPPKGLDDLCQELGRAGRDGKQSHAVVLVFPRSAPKKMTKEMREYIKNDTI 413
+                344557766799999***999999***9999999999999999999999999876654443344344444455555666666666655 PP
+
+  == domain 3  score: -1.1 bits;  conditional E-value: 1
+        RLR 664 evidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlvatsgsgvieketinefkeklmekai 749
+                 + + f   +G+l +L at     G+D k+   v+  g       + q  Gra  d+ +   v+    +   k +  e++e + +++i
+  Seg5489.3 621 AITKSFAdpKGDLRVLFATIAFGMGVDCKNLYEVVHLGPPKGLDDLCQESGRAGRDGKQSHAVVLVFPRSAPKKMTKEMREYIKNDTI 708
+                344567766899*******999*******99999999999999999999999977654444444444444555666666666666665 PP
+
+>> Seg5310.3  transcript_id=Seg5310.3|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase hus2/rqh1" protein_id=Seg53
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.8   0.0   0.00098      0.47     237     268 ..      21      52 ..       2      57 .. 0.85
+   2 !    9.2   0.0   0.00076      0.37     661     726 ..     310     378 ..     206     401 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 8.8 bits;  conditional E-value: 0.00098
+        RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrv 268
+                klr++q + a+  l+G ++++  PtGsGk  +
+  Seg5310.3  21 KLRDFQRNAAVGILKGHDVLVSQPTGSGKSLI 52 
+                89***************************865 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.00076
+        RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvat 726
+                 +k +id f   +G++ +L  t     G+D k  n +i yg  +++    q  Gra r+ e+  + ++t
+  Seg5310.3 310 IKKHIIDSFGdaEGTVRVLFCTVAFGMGIDCKGLNNIIHYGPPSDVDDYCQETGRAgRSMEASHATLIT 378
+                3689*****8778*********999******************************75776666655554 PP
+
+>> Seg593.15  transcript_id=Seg593.15|GoldUCD|mRNA.D3Y31 product="Spliceosome RNA helicase Ddx39b" protein_id=Seg593.15|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.5   0.1   1.1e-06   0.00056     655     700 ..     186     231 ..      94     270 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 18.5 bits;  conditional E-value: 1.1e-06
+        RLR 655 tgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCnivirygl 700
+                ++m q+e+    ++fk+ +  +L+at     G+Di++ nivi y++
+  Seg593.15 186 RSMPQEERLSRYKQFKDFQKRILVATNLFGRGMDIERVNIVINYDM 231
+                56888888888999******************************97 PP
+
+>> Seg3545.2  transcript_id=Seg3545.2|GoldUCD|mRNA.D3Y31 product="DEAD-box ATP-dependent RNA helicase 39" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.4   0.0    0.0055       2.7     238     270 ..     158     190 ..      71     271 .. 0.88
+   2 !   11.6   0.0   0.00015     0.071     663     718 ..     433     491 ..     388     530 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.0055
+        RLR 238 lrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                +   q+  +   l+Gk+++  + tG+Gkt + +
+  Seg3545.2 158 PTVIQMKAIPAILKGKDVLCAAQTGTGKTLAYL 190
+                5566888777779****************8754 PP
+
+  == domain 2  score: 11.6 bits;  conditional E-value: 0.00015
+        RLR 663 kevidkfksGklnlLiatsvaeeGlDikeCnivirygl...vtneiamvqarGrarade 718
+                + + +++ + +  +Li t +a  GlD ++   vi y+     t+ i+ v   Grara+ 
+  Seg3545.2 433 HRIFKELVKSEACILICTDIASRGLDFPDLFYVINYDCplnTTDYIHRVGRTGRARAEY 491
+                5566666678889***********************97323566788888889999974 PP
+
+>> Seg740.2  transcript_id=Seg740.2|GoldUCD|mRNA.D3Y31 product="RNA helicase CrhR" protein_id=Seg740.2|GoldUCD|D3Y31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   1.9e-06   0.00093     642     716 ..     125     202 ..      98     215 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 1.9e-06
+       RLR 642 aqlLiGaGkssqst...gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrara 716
+               a  L  aG+s++      m  +e++     fk+Gk   Liat   e G+  k+C + +r g   n    +q  Gr+  
+  Seg740.2 125 AMSLCEAGHSARYIvggRMMAKEKQIASTSFKEGKEKTLIATETYECGMHNKNCTMSVRIGCARNTGVFIQEMGRTGR 202
+               456788899888642226888888888999********************************************9754 PP
+
+>> Seg19009.1  transcript_id=Seg19009.1|GoldUCD|mRNA.D3Y31 product="UvrABC system protein B" protein_id=Seg19009.1|GoldU
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.1     2e-06   0.00095     661     732 ..     181     258 ..     154     269 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 2e-06
+         RLR 661 eqkevidkfksGklnlLiatsvaeeGlDikeCnivi.....ryglvtneiamvqarGra.radeskyvlvatsgsgvi 732
+                 e+ e++ +++  ++++L+      eGlD++e  +v      + g++ ne +++q+ Gra r  +  +vl   + +  i
+  Seg19009.1 181 ERVEILRALRAAEFDILVGINLLREGLDLPEVSLVCildadKEGFLRNETSLIQTAGRAaRHVNGECVLFCDEITESI 258
+                 6779*****************************997333334589*************64888899998887766666 PP
+
+>> Seg14018.1  transcript_id=Seg14018.1|GoldUCD|mRNA.D3Y31 product="RNA helicase CrhR" protein_id=Seg14018.1|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.3   2.3e-06    0.0011     642     716 ..     192     269 ..     166     282 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 2.3e-06
+         RLR 642 aqlLiGaGkssqst...gmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrara 716
+                 a  L  aG+s+++     m  +e++     f++Gk   Liat   e G+  k+C + +r g   n    +q  Gr+  
+  Seg14018.1 192 AMSLCEAGHSARFIvggRMMAKEKQIASTSFNEGKEKTLIATETYECGMHNKNCTMTVRIGCARNTGVFIQEMGRTGR 269
+                 556888999999853336888888889999********************************************9754 PP
+
+>> Seg10014.1  transcript_id=Seg10014.1|GoldUCD|mRNA.D3Y31 product="Bloom syndrome protein" protein_id=Seg10014.1|GoldUC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0   1.8e-06   0.00088     233     271 ..      19      57 ..       1      76 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1.8e-06
+         RLR 233 eselklrsyqlevalPaleGkniiiclPtGsGktrvavy 271
+                  +e  l++yq + ++  l+Gkn+ +  PtG+Gk  v  +
+  Seg10014.1  19 LPENYLKQYQENAVIDLLRGKNTFVAQPTGAGKSLVYQL 57 
+                 4677899**************************998654 PP
+
+>> Seg5761.2  transcript_id=Seg5761.2|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase Q1" protein_id=Seg5761.2|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.1   0.00031      0.15     168     266 ..      29     121 ..      11     128 .. 0.67
+   2 ?    3.1   0.1     0.052        25     671     714 ..     364     407 ..     260     430 .. 0.57
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.00031
+        RLR 168 lklvlrkernkekelwiveknikesetedlev.veesdislaeedvecldlsedsdeesvvadasleselklrsyqlevalPaleGkniiiclPtGsGkt 266
+                +   l++++ +e++   +ek+ik  e++d ++ v +  ++        + +s  +   +++   ++ + +k r+ q e +   + G + i+ +PtG+Gk 
+  Seg5761.2  29 IETLLERQEVLERKKQELEKQIKTYELKDNHDtVTDNGLDWSS-----KAFSWTA--TAEIVLKEVFNIVKFRKLQRETINATMSGVDCILLMPTGAGKS 121
+                5556666666666666777777777777766634333333322.....2233222..333444556677899***************************7 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.052
+        RLR 671 sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra 714
+                + k+ +++at     G+D ++   vi y +     +  q  Gra
+  Seg5761.2 364 ENKIQVIVATVAFGMGIDKPDVRFVIHYTISKSIQNYYQESGRA 407
+                45666677776667777777777777776666666666777765 PP
+
+>> Seg377.9  transcript_id=Seg377.9|GoldUCD|mRNA.D3Y31 product="DEAD-box ATP-dependent RNA helicase 13" protein_id=Seg37
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1      0.32   1.5e+02     222     283 ..     188     251 ..      77     352 .. 0.67
+   2 !   13.8   0.0   3.1e-05     0.015     659     721 ..     498     561 ..     483     578 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 0.5 bits;  conditional E-value: 0.32
+       RLR 222 deesvvadasleselklrsyqlevalPa.leGkniiiclPtGsGktrvavy.iakdhLekvkka 283
+                +++  a  s +   ++ + q      a ++ +++i  + tGsGkt + ++ +  + L+ ++ a
+  Seg377.9 188 VPNQLLAALSEKGFDQPTPIQSATLPVAiFNHQDVIGAAETGSGKTLAFALpVLTHILDLKHTA 251
+               3444444444444445555554433323146677888888999999875551555545554444 PP
+
+  == domain 2  score: 13.8 bits;  conditional E-value: 3.1e-05
+       RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGr.aradesky 721
+               q+++ + +++f   +  +++at va  GlD+++ + +i y l  +    +   Gr ara++   
+  Seg377.9 498 QKQRFKALERFMGSENAIMVATDVAARGLDVPNVDTIIHYHLPKDPRIYIHRSGRtARAKKGGH 561
+               33334678999999999*************************9988888888888568877655 PP
+
+>> Seg1309.1  transcript_id=Seg1309.1|GoldUCD|mRNA.D3Y31 product="ATP-dependent helicase SGS1" protein_id=Seg1309.1|Gold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.6   0.0   8.6e-06    0.0042     236     272 ..      14      50 ..       4      53 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 15.6 bits;  conditional E-value: 8.6e-06
+        RLR 236 lklrsyqlevalPaleGkniiiclPtGsGktrvavyi 272
+                 +l++yq e  +  l+G+++++  PtGsGk  v  +i
+  Seg1309.1  14 AELKEYQTEALIGLLQGRDVVVAQPTGSGKSLVYQLI 50 
+                5899**************************9997665 PP
+
+>> Seg2861.6  transcript_id=Seg2861.6|GoldUCD|mRNA.D3Y31 product="Werner syndrome ATP-dependent helicase" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.0   6.9e-06    0.0033     636     752 ..     178     306 ..     165     315 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 6.9e-06
+        RLR 636 aevdvkaqlLiGaGkssq..stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarade..sk.yvlvat.... 726
+                a+v+  aq+L G G   +    gm q  +ke  +kf   +l  ++at     G+D ++   vi yg   +  +  q  Gra  d+  s+ y++  +    
+  Seg2861.6 178 AMVEQVAQILSGMGVKCEpyHAGMPQLTKKETHHKFLRDELQCIVATIAFGMGIDKPDVRTVIHYGCPRDIESYYQEIGRAGRDGlpSTcYAFFSHnefv 277
+                56777899******98873356799*******************************************9999********98886555515665541111 PP
+
+        RLR 727 ...sgsgvieketinefkeklmekailav 752
+                   s   +i   +  ++ke ++ k i+ +
+  Seg2861.6 278 imrSHLTEISDPQFRNYKESMVSKMIQYL 306
+                11144456666677888899988888765 PP
+
+>> Seg2341.2  transcript_id=Seg2341.2|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX56" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   1.9e-05    0.0092     240     371 ..      31     165 ..      25     171 .. 0.65
+   2 ?   -1.7   0.0       1.5   7.3e+02     656     683 ..     288     315 ..     284     320 .. 0.81
+   3 ?   -1.8   0.1       1.6   7.5e+02     538     586 ..     430     480 ..     428     495 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 1.9e-05
+        RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyia.kdhLekvkkaekgk.....vvvlvnkvllveqlkskefkrflkkryrvigls.Gdtaekvsfeev 332
+                + q  v+  aleGk+i+  + tGsGkt + +  a ++ +ek+ ++++        +v+     l  q + +  k        v gl  G+ + + + + +
+  Seg2341.2  31 PVQTKVIPLALEGKDIVARAKTGSGKTAAFLIPAiQKAIEKKSHGRSENecglcCLVILPSKELCRQAFDHMVKLTAYCSKDVRGLDiGNKTVENAKPLL 130
+                568999999******************8876644367789998884443011112233333345555555555444444445555533555555566778 PP
+
+        RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                 +  D+i +t+  +   + +    +  +L  + +i+iDe
+  Seg2341.2 131 SNVPDMIFSTPSKILACISH----KVLSLQSLEMIVIDE 165
+                88889999998655555544....678888888888888 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 1.5
+        RLR 656 gmtqreqkevidkfksGklnlLiatsva 683
+                ++ q+ +  ++++f++G ++++iat  a
+  Seg2341.2 288 ELPQNSRLHIVEQFNKGIYDIVIATDEA 315
+                567888999***************9544 PP
+
+  == domain 3  score: -1.8 bits;  conditional E-value: 1.6
+        RLR 538 rmvDalaaLkdfy...seekakkfdvieddrfLlalfeekkkeLkrlaedpe 586
+                r+ Dal a+ +      + k+ k++++    +L + fe++ k Lk l +d  
+  Seg2341.2 430 RVNDALRAVTKVSikeARLKEIKTEILTSH-KLKSFFEDNPKDLKVLRHDKT 480
+                566666666554311123456677777776.999**********99987754 PP
+
+>> Seg1717.8  transcript_id=Seg1717.8|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX56" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0     2e-05    0.0099     240     371 ..      31     165 ..      25     171 .. 0.65
+   2 ?   -1.7   0.0       1.5   7.3e+02     656     683 ..     288     315 ..     284     320 .. 0.81
+   3 ?   -1.8   0.1       1.6   7.5e+02     538     586 ..     430     480 ..     428     495 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 2e-05
+        RLR 240 syqlevalPaleGkniiiclPtGsGktrvavyia.kdhLekvkkaekgk.....vvvlvnkvllveqlkskefkrflkkryrvigls.Gdtaekvsfeev 332
+                + q  v+  aleGk+i+  + tGsGkt + +  a ++ +ek+ ++++        +v+     l  q + +  k        v gl  G+ + + + + +
+  Seg1717.8  31 PVQTKVIPLALEGKDIVARAKTGSGKTAAFLIPAiQKAIEKKSHGRSENecglcCLVILPSKELCRQAFDHMVKLTAYCSKDVRGLDiGNKTVENAKPLL 130
+                568999999******************8876644367789988884443011112233333345555555555444444445555533555555556778 PP
+
+        RLR 333 vksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDe 371
+                 +  D+i +t+  +   + +    +  +L  + +i+iDe
+  Seg1717.8 131 SNVPDMIFSTPSKILACISH----KVLSLKSLEMIVIDE 165
+                88889999998655545544....678888888888888 PP
+
+  == domain 2  score: -1.7 bits;  conditional E-value: 1.5
+        RLR 656 gmtqreqkevidkfksGklnlLiatsva 683
+                ++ q+ +  ++++f++G ++++iat  a
+  Seg1717.8 288 ELPQNSRLHIVEQFNKGIYDIVIATDEA 315
+                567888999***************9544 PP
+
+  == domain 3  score: -1.8 bits;  conditional E-value: 1.6
+        RLR 538 rmvDalaaLkdfy...seekakkfdvieddrfLlalfeekkkeLkrlaedpe 586
+                r+ Dal a+ +      + k+ k++++    +L + fe++ k Lk l +d  
+  Seg1717.8 430 RVNDALRAVTKVSikeARLKEIKTEILTSH-KLKSFFEDNPKDLKVLRHDKT 480
+                566666666554311123456677777776.999**********99987754 PP
+
+>> Seg1437.4  transcript_id=Seg1437.4|GoldUCD|mRNA.D3Y31 product="ATP-dependent helicase SGS1" protein_id=Seg1437.4|Gold
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.2      0.55   2.6e+02     145     266 ..      63     192 ..      49     207 .. 0.67
+   2 !   13.5   0.0   3.8e-05     0.019     654     722 ..     422     491 ..     410     503 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.55
+        RLR 145 kGneaGvrkllkrlvdkenwfkalklvlrkernke...kelwiveknikeseted.lev.veesdislaee.dvecldlsedsdeesvvadasles..el 236
+                +  e   ++l   +  ke+w + l  +++++r+      ++  +++++ +  + + + +  +e+  s+ +   v   d++e s+e + + + +l +    
+  Seg1437.4  63 NNAEQIEEDLETSINWKEQWEEDLSYMIEETRESTcgdADVIFIDDDSLDETLLNiATDaSKEAPESFSKAwYVTSEDIAEASQERQYIWKGALTTfgFS 162
+                4445555677778899999999999999999876422256666666665555444034434455556665525777889999999998887776542145 PP
+
+        RLR 237 klrsyqlevalPaleGkniiiclPtGsGkt 266
+                k +++ql  +    + ++++i+ Pt + k 
+  Seg1437.4 163 KFKPFQLAAINAIENRRDVVIIQPTNARKS 192
+                789999987766666778999999999886 PP
+
+  == domain 2  score: 13.5 bits;  conditional E-value: 3.8e-05
+        RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyv 722
+                 +gm q+++k+ +++f + ++ +L at   e G+  ++ ++v r g + n   + q  Gra r ++s+ v
+  Seg1437.4 422 GKGMSQEARKKTMEEFCNKQFQVLCATECYEVGVHNPHVDLVARIGCMRNMNVLWQEFGRAgREEGSTSV 491
+                589*********************************************************7477777765 PP
+
+>> Seg1287.8  transcript_id=Seg1287.8|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase Q4" protein_id=Seg1287.8|Go
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0   1.5e-05    0.0074     653     717 ..      85     149 ..      72     176 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 1.5e-05
+        RLR 653 qstgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarad 717
+                   gmt  +++ v ++f sG+l +++at+    GlD ++   +i y++     + +q  Gra  d
+  Seg1287.8  85 YHAGMTPAHRRRVQKRFMSGELRIVVATTAFGMGLDKADVRAIIHYNMPKSFESYLQEIGRAGRD 149
+                5679********************************************99999999999998655 PP
+
+>> Seg4483.1  transcript_id=Seg4483.1|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX59" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.2   2.5     0.013       6.1     233     372 ..     320     466 ..      71     492 .. 0.74
+   2 !    8.4   0.0    0.0014      0.67     659     692 ..     592     625 ..     584     628 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 5.2 bits;  conditional E-value: 0.013
+        RLR 233 eselklrsyqlevalPaleGkniiiclPtGsGktrvavy.......iakdhLekvkka.ekgkvvvlvnkvllveqlkskefkrflkkr..yrviglsGd 322
+                ++ + + + q++ +  al  ++++ c+ tG+Gk    ++        a + L   +++ +    ++l     l  q  + + k f ++    +   l G 
+  Seg4483.1 320 NNYISPTPIQMQAIPTALSKRDMLACAQTGTGKSASFLLpiitrisAATESLSSNHQCcRVPLALILGPTRELCMQ-IEDQAKFFSRGLsnLKTALLIGG 418
+                445788899************************8765443211111356667777766444445667666677777.44444555554310344456777 PP
+
+        RLR 323 taekvsfeevvksnDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                  +   ++++ ++  iii+t+  L+  L k   ++  +L    ++++De 
+  Seg4483.1 419 CPLPQQLHRLGQNIQIIIATPGRLNEILEK--HEDVCDLRFVQMLVLDEV 466
+                88888999****************999999..667889999999999996 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.0014
+        RLR 659 qreqkevidkfksGklnlLiatsvaeeGlDikeC 692
+                q+e+ +v++ f sG++ +L++tsv   G+D+ + 
+  Seg4483.1 592 QQERTQVLQDFLSGSYQVLVSTSVLGRGIDLLNV 625
+                788999************************9765 PP
+
+>> Seg1266.2  transcript_id=Seg1266.2|GoldUCD|mRNA.D3Y31 product="Werner syndrome ATP-dependent helicase" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.0       2.3   1.1e+03     234     267 ..     242     276 ..     191     280 .. 0.65
+   2 ?   12.3   0.0   8.8e-05     0.043     636     752 ..     478     606 ..     469     614 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 2.3
+        RLR 234 selklrsyqlevalPaleGk..niiiclPtGsGktr 267
+                   k r+ q+ v+   l  k  n + ++ tG+Gk  
+  Seg1266.2 242 GFGKFRPVQWKVIRSVLVDKqdNCV-IMATGAGKSL 276
+                44489**********9977643555.567*****75 PP
+
+  == domain 2  score: 12.3 bits;  conditional E-value: 8.8e-05
+        RLR 636 aevdvkaqlLiGaGkssq..stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrarade..sk.yvlvat.... 726
+                a+v+  aq+L G G   +    gm q  +ke  +kf   +l  ++at     G+D ++   vi yg   +  +  q  Gra  d+  s+ y++  +    
+  Seg1266.2 478 AMVEQVAQILSGMGVKCEpyHAGMPQLTKKETHHKFLRDELQCIVATIAFGMGIDKPDVRTVIHYGCPRDIESYYQEIGRAGRDGlpSTcYAFFSHnefv 577
+                56677799******98873356799*******************************************9999********98886555515555441111 PP
+
+        RLR 727 ...sgsgvieketinefkeklmekailav 752
+                   s   +i   +  ++ke ++ k i+ +
+  Seg1266.2 578 imrSHLTEISDPQFRNYKESMVSKMIQYL 606
+                11134455666677788888888888765 PP
+
+>> Seg3958.4  transcript_id=Seg3958.4|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase RecQ" protein_id=Seg3958.4|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.0   3.2e-05     0.016     237     280 ..      19      65 ..       8     159 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 13.7 bits;  conditional E-value: 3.2e-05
+        RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyi...akdhLekv 280
+                kl ++q + +l  l+G+++ i +PtGsGk  +  +i    ++ L+k 
+  Seg3958.4  19 KLEDFQRNGVLAVLQGQDVFIAAPTGSGKSLIFQLIlfaVQEKLKKE 65 
+                567899999999*****************998766622145555543 PP
+
+>> Seg3948.2  transcript_id=Seg3948.2|GoldUCD|mRNA.D3Y31 product="hypothetical protein" protein_id=Seg3948.2|GoldUCD|D3Y
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.0   3.7e-05     0.018     227     270 ..      13      56 ..       1      71 [. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 13.5 bits;  conditional E-value: 3.7e-05
+        RLR 227 vadasleselklrsyqlevalPaleGkniiiclPtGsGktrvav 270
+                + +    +e  l++yq + ++  l+Gk++ +  PtG+Gk  v  
+  Seg3948.2  13 ARRLRGLPENYLKQYQENPVIDLLRGKDTFVAQPTGAGKSLVYQ 56 
+                344455678889***************************99865 PP
+
+>> Seg4083.2  transcript_id=Seg4083.2|GoldUCD|mRNA.D3Y31 product="Bloom syndrome protein" protein_id=Seg4083.2|GoldUCD|D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   4.5e-05     0.022     661     716 ..      10      67 ..       3     116 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 4.5e-05
+        RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGrara 716
+                 ++ ++++fk  +  + ++iats  e GlD ++  ++i y l     +  q  Gr+  
+  Seg4083.2  10 SKNFILSEFKtpDSAVRVVIATSSFEMGLDFPDVSLIINYSLPRSLESFSQQSGRGGR 67 
+                566799****66667889************************9999999999999743 PP
+
+>> Seg3094.1  transcript_id=Seg3094.1|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase RecQ" protein_id=Seg3094.1|
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   6.2e-05      0.03     654     724 ..     751     821 ..     733     832 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.8 bits;  conditional E-value: 6.2e-05
+        RLR 654 stgmtqreqkevidkfksGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGraradeskyvlv 724
+                s +mt + +++v+d f+  k+ ++  t     G+Di++   vir g        +q  Gra  d+s    v
+  Seg3094.1 751 SGSMTSKMKEKVVDDFRAKKVQVICGTEAFGVGVDIPHVRYVIRIGCPPSIQLWIQELGRAGRDGSHAEAV 821
+                457*******************************************99988889*******9999976433 PP
+
+>> Seg4975.1_Seg4975.3  transcript_id=Seg4975.1_Seg4975.3|GoldUCD|mRNA.D3Y31 product="Werner syndrome ATP-dependent heli
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   0.00013     0.063     661     734 ..     320     395 ..     309     410 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 0.00013
+                  RLR 661 eqkevidkfk..sGklnlLiatsvaeeGlDikeCniviryglvtneiamvqarGra.radeskyvlvatsgsgviek 734
+                          ++++++d +   +G   +++at+    G+Di++   +i yg   +    +q  Gra r + s +++ +    + + k
+  Seg4975.1_Seg4975.3 320 HKNNILDDMSkgDGLCRVVVATTSLVMGVDINDIRYIIHYGSPLDIEDYIQGVGRAgRDRSSSCAV-LYCTGQQLGK 395
+                          45678888764667799*************************99999********83556666655.4444455555 PP
+
+>> Seg3924.1  transcript_id=Seg3924.1|GoldUCD|mRNA.D3Y31 product="hypothetical protein" pseudo=true protein_id=Seg3924.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00011     0.052     241     280 ..      13      52 ..       2      60 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00011
+        RLR 241 yqlevalPaleGkniiiclPtGsGktrvavyiakdhLekv 280
+                 q  +++ al+G ni+    +G+Gkt+v + i     ek+
+  Seg3924.1  13 EQRTIIQLALDGINIVFTGAAGTGKTQVLLSIVSSLKEKF 52 
+                57889***********************999988766666 PP
+
+>> Seg626.8  transcript_id=Seg626.8|GoldUCD|mRNA.D3Y31 product="ATP-dependent DNA helicase RecQ" protein_id=Seg626.8|Gol
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0   0.00015     0.072     237     268 ..      21      52 ..       3      59 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.00015
+       RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrv 268
+               klr++q + a+  l+G ++++  PtGsGk  +
+  Seg626.8  21 KLRDFQRNAAVGILKGHDVLVSQPTGSGKSLI 52 
+               89***************************865 PP
+
+>> Seg503.16  transcript_id=Seg503.16|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX49" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   0.00029      0.14     237     375 ..      30     163 ..       4     194 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00029
+        RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevvks 335
+                k+ + q++ +   l+G + i  + tGsGkt + ++   + L + + +     +vl     l  q  s++f+ + +  + + + + G +++      + k 
+  Seg503.16  30 KPTDIQMNTIPAILKGEDCIGRAKTGSGKTAAFALPILQRLSEDPYG--IFALVLTPTRELAYQ-ISEQFEALGRSiGLKSVVVVGGMDTMKQSLSLSKK 126
+                56678999998889*****************9998888889888844..445667777777777.66777777654256666666666666666679999 PP
+
+        RLR 336 nDiiiltaqiLensLkkleedaiveLsvfsLiiiDeChht 375
+                  ++i+t+  L   L++    ++ +L    ++++De  + 
+  Seg503.16 127 PHVVIATPGRLADLLRS---SDTFSLDKIKFLVLDEADRL 163
+                99*******99999999...77889999999999998665 PP
+
+>> Seg503.17  transcript_id=Seg503.17|GoldUCD|mRNA.D3Y31 product="putative ATP-dependent RNA helicase DDX49" protein_id=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   0.00029      0.14     237     372 ..      30     160 ..       4     167 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.00029
+        RLR 237 klrsyqlevalPaleGkniiiclPtGsGktrvavyiakdhLekvkkaekgkvvvlvnkvllveqlkskefkrflkk.ryrviglsGdtaekvsfeevvks 335
+                k+ + q++ +   l+G + i  + tGsGkt + ++   + L + + +     +vl     l  q  s++f+ + +  + + + + G +++      + k 
+  Seg503.17  30 KPTDIQMNTIPAILKGEDCIGRAKTGSGKTAAFALPILQRLSEDPYG--IFALVLTPTRELAYQ-ISEQFEALGRSiGLKSVVVVGGMDTMKQSLSLSKK 126
+                56678999998889*****************9998888888888844..445667777777777.66677776654256666666666666666679999 PP
+
+        RLR 336 nDiiiltaqiLensLkkleedaiveLsvfsLiiiDeC 372
+                  ++i+t+  L   L++    ++ +L    ++++De 
+  Seg503.17 127 PHVVIATPGRLADLLRS---SDTFSLDKIKFLVLDEA 160
+                99999999999999998...77788999999999986 PP
+
+>> Seg3889.1  transcript_id=Seg3889.1|GoldUCD|mRNA.D3Y31 product="Apoptotic protease-activating factor 1" protein_id=Seg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.0   0.00058      0.28       2      93 ..       2      96 ..       1     114 [. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 9.6 bits;  conditional E-value: 0.00058
+        RLR  2 tdefrrllsafrdrvkktldveyvldyla...flreevkeqiqaekatkGnmeavelllktekelqelGwtreflealdraGssllar....aieltdl 93
+                +++r+ll+a ++ +   l +e v++yl     l  e +e i+ e++++     +  ll+++ +   +  +  f  al+ aG+  la      ie  d+
+  Seg3889.1  2 NEQQRYLLKANKKAIGDDLRPEDVFSYLQskfVLDVEDVELIKDERTSRR---RTGKLLEFLSNKGSQ-AFTHFYGALKDAGYEHLAAlltsGIEDKDV 96
+               5789************************8763466788888887776654...445566665554444.4668999******98877644445666655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (917 nodes)
+Target sequences:                      27044  (10271587 residues searched)
+Passed MSV filter:                      1575  (0.0582384); expected 540.9 (0.02)
+Passed bias filter:                      537  (0.0198565); expected 540.9 (0.02)
+Passed Vit filter:                       101  (0.00373465); expected 27.0 (0.001)
+Passed Fwd filter:                        56  (0.0020707); expected 0.3 (1e-05)
+Initial search space (Z):              27044  [actual number of targets]
+Domain search space  (domZ):              56  [number of targets reported over threshold]
+# CPU time: 0.89u 0.02s 00:00:00.91 Elapsed: 00:00:00.63
+# Mc/sec: 14893.19
+//
+[ok]
