@@ -4,7 +4,7 @@ The purpose of this repository is to provide the code and intermediate files use
 
 ## PRR survey
 We surveyed for PRRs in 15 cnidarian species and 1 sponge 
-###Proteomes 
+### Proteomes 
 The proteomes used in this study were: 
 Acropora millepora [citation](https://science.sciencemag.org/content/369/6501/eaba4674) 
 Actinia tenebrosa [citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6802032/)
@@ -39,12 +39,9 @@ source miniconda3/bin/activate
 
 /home/miniconda3/pkgs/cd-hit-4.8.1-h8b12597_3/bin/cd-hit -i Stella_HADN_longest_orfs.fasta -o Stella_TSA_HADN_cdhit85.fasta -c 0.85 -n 5 
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
 
-###HMMR searches 
+### HMMR searches 
 [HMMR](http://eddylab.org/software/hmmer/Userguide.pdf) was used to identify PRRs in the cnidarian proteomes. To make the queries we first used [ClustalOmega](https://www.ebi.ac.uk/Tools/msa/clustalo/) to make an alignment of all the humman PRRs of a given type in the stockholm output format. That alignment was then converted into a .hmm and used as a query against the proteome data bases. The generalized code for this is as follows: 
 
 ```{linux, eval=FALSE}
@@ -58,7 +55,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 All queries can be found in PPR_queries. All result files can be found in HMMR_results. 
 
-###Domain confirmation with Pfam 
+### Domain confirmation with Pfam 
 All sequences with an Evalue < 10^-4.9 in each HMMR output file were then compiled and their corresponding sequences were extracted from their respective proteome using [cdbfasta](https://github.com/gpertea/cdbfasta) 
 
 ```{linux, eval=FALSE}
@@ -71,7 +68,7 @@ cat PRR_seqIDs.txt | /opt/storage/opt_programs/cdbfasta/cdbyank proteome.fasta.c
 
 the resulting fasta file was then submitted to [Pfam batch search](http://pfam.xfam.org/ncbiseq/398365647#tabview=tab1). All PRR fasta files can be found in PRR_sequences. 
 
-###Ancestral state reconstructions 
+### Ancestral state reconstructions 
 To create a phylogenetic tree of the species in our study to use in our ancestral state reconstuctions we used [orthofinder](https://github.com/davidemms/OrthoFinder). 
 
 ```{linux, eval=FALSE}
@@ -155,9 +152,9 @@ plot(RLR_obj)
 
 ```
 
-##PRR Relationship to Clade and Life History Traits 
+## PRR Relationship to Clade and Life History Traits 
 all following code uses input file "R_compatable_PRRs.csv"
-###Principal component analysis 
+### Principal component analysis 
 Figure 4A in the paper is the combination of two PCA plots, one where the points are the species names and one where the points represent clade and symbiosis. Edits were made in illusrator to label the points of the clade and symbiosis plot. 
 ```{r, eval=FALSE}
 
@@ -176,7 +173,7 @@ autoplot(PRR.pca, data = PRRs, label = TRUE, colour = "Sub_phylum", loadings =  
 
 ```
 
-###GLMs 
+### GLMs 
 To test for associations between total PRR number and clade, intracellular algal symbiosis, coloniality, and mobility, generalized linear models were run in R using the following code: 
 
 ```{r, eval=FALSE}
@@ -196,7 +193,7 @@ summary(move_predict)
 ```
 
 
-##Downstream immune pathways 
+## Downstream immune pathways 
 All methods in this section of the paper start with BLASTp 
 
 ```{linux, eval=FALSE}
