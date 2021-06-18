@@ -6,22 +6,23 @@ The purpose of this repository is to provide the code and intermediate files use
 We surveyed for PRRs in 15 cnidarian species and 1 sponge 
 ### Proteomes 
 The proteomes used in this study were: 
-*Acropora millepora [citation](https://science.sciencemag.org/content/369/6501/eaba4674) 
-*Actinia tenebrosa [citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6802032/)
-*Aurelia sp. [citation](https://www.nature.com/articles/s41559-018-0719-8)
-*Clavadosia cruxmelitensis [citation](https://academic.oup.com/gigascience/article/8/7/giz069/5524763)
-*Cassiopea xamachana [citation](https://mycocosm.jgi.doe.gov/Casxa1/Casxa1.home.html)
-*Clytia hemisphaerica [citation](https://www.nature.com/articles/s41559-019-0833-2)
-*Dendronephyta gigantea [citation](https://academic.oup.com/gbe/article/11/3/949/5368506)
-*Exaiptasia daiphana (previously Exaiptasia pallida) [citation](https://www.pnas.org/content/112/38/11893)
-*Hydra vulgaris [citation](https://www.nature.com/articles/nature08830)
-*Montipora capitata [citation](https://www.nature.com/articles/s41598-019-39274-3)
-*Morbakka virulenta [citation](https://www.nature.com/articles/s41559-019-0853-y)
-*Nematostella vectensis [citation](https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-016-0683-3)
-*Orbicella faveolata [citation](https://www.sciencedirect.com/science/article/pii/S096098221631123X)
-*Pocillopora damicornis [citation](https://www.nature.com/articles/s41598-018-34459-8)
-*Xenia sp. [citation](https://www.nature.com/articles/s41586-020-2385-7)
-*Amphimedon queesnlandica [citation](https://www.nature.com/articles/nature09201)
+
+* Acropora millepora [citation](https://science.sciencemag.org/content/369/6501/eaba4674) 
+* Actinia tenebrosa [citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6802032/)
+* Aurelia sp. [citation](https://www.nature.com/articles/s41559-018-0719-8)
+* Clavadosia cruxmelitensis [citation](https://academic.oup.com/gigascience/article/8/7/giz069/5524763)
+* Cassiopea xamachana [citation](https://mycocosm.jgi.doe.gov/Casxa1/Casxa1.home.html)
+* Clytia hemisphaerica [citation](https://www.nature.com/articles/s41559-019-0833-2)
+* Dendronephyta gigantea [citation](https://academic.oup.com/gbe/article/11/3/949/5368506)
+* Exaiptasia daiphana (previously Exaiptasia pallida) [citation](https://www.pnas.org/content/112/38/11893)
+* Hydra vulgaris [citation](https://www.nature.com/articles/nature08830)
+* Montipora capitata [citation](https://www.nature.com/articles/s41598-019-39274-3)
+* Morbakka virulenta [citation](https://www.nature.com/articles/s41559-019-0853-y)
+* Nematostella vectensis [citation](https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-016-0683-3)
+* Orbicella faveolata [citation](https://www.sciencedirect.com/science/article/pii/S096098221631123X)
+* Pocillopora damicornis [citation](https://www.nature.com/articles/s41598-018-34459-8)
+* Xenia sp. [citation](https://www.nature.com/articles/s41586-020-2385-7)
+* Amphimedon queesnlandica [citation](https://www.nature.com/articles/nature09201)
 
 all proteomes were genome based with the exception of N. vectesis, for which we used a filtered transcriptome shotgun assembly. The following code was used to filter NCBI GenBank :
 268 HADN000000000.1:
