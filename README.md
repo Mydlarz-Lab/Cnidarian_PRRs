@@ -54,7 +54,7 @@ source miniconda3/bin/activate
 
 ```
 
-All queries can be found in PPR_queries. All result files can be found in HMMR_results. 
+All queries can be found in PRR_queries. All result files can be found in HMMR_results. 
 
 ### Domain confirmation with Pfam 
 All sequences with an Evalue < 10^-4.9 in each HMMR output file were then compiled and their corresponding sequences were extracted from their respective proteome using [cdbfasta](https://github.com/gpertea/cdbfasta) 
