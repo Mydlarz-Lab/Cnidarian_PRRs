@@ -1,0 +1,16 @@
+﻿species,Sub_phylum,Symbiosis,NLR,TLR,RIG,CTLD,total,Colonality,move_binary,clade_bin,symbio_bin,clonal_bin,move_words
+Acropora millepora,Anthozoa,Symbiotic ,59,20,2,119,200,yes,0,1,1,1,sedentery
+Orbicella faveolata ,Anthozoa,Symbiotic ,53,18,2,121,194,yes,0,1,1,1,sedentery
+Pocillopora damicornis,Anthozoa,Symbiotic ,53,24,3,95,175,yes,0,1,1,1,sedentery
+Montipera Capitata ,Anthozoa,Symbiotic ,119,19,4,138,280,yes,0,1,1,1,sedentery
+Nematostella vectensis,Anthozoa,non-symbiotic,14,1,2,69,86,no,0,1,0,0,sedentery
+Exaiptasia pallida,Anthozoa,Symbiotic ,94,1,7,156,258,no,0,1,1,0,sedentery
+Actinia tenebrosa,Anthozoa,non-symbiotic,72,6,8,143,229,no,0,1,0,0,sedentery
+Dendronephthya gigantea,Anthozoa,non-symbiotic,131,7,2,80,220,yes,0,1,0,1,sedentery
+Xenia sp,Anthozoa,Symbiotic ,99,2,2,67,170,yes,0,1,1,1,sedentery
+Cassiopea xamachana,Medusazoa,Symbiotic ,51,4,0,41,96,no,1,0,1,0,mobile
+Aurelia ,Medusazoa,non-symbiotic,25,1,0,18,44,no,1,0,0,0,mobile
+Morbakka virulenta ,Medusazoa,non-symbiotic,0,0,0,14,14,no,1,0,0,0,mobile
+Calvadosia cruxelitensis,Medusazoa,non-symbiotic,0,3,0,40,43,no,0,0,0,0,sedentery
+Hydra vulgaris ,Medusazoa,non-symbiotic,28,2,0,48,78,no,0,0,0,0,sedentery
+Clytia hemisphaerica ,Medusazoa,non-symbiotic,17,0,0,63,80,no,1,0,0,0,mobile
