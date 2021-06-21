@@ -41,6 +41,7 @@ source miniconda3/bin/activate
 /home/miniconda3/pkgs/cd-hit-4.8.1-h8b12597_3/bin/cd-hit -i Stella_HADN_longest_orfs.fasta -o Stella_TSA_HADN_cdhit85.fasta -c 0.85 -n 5 
 
 ```
+The final filtered transcriptome has been uploaded to this repository and is named "Stella_TSA_HADN_cdhit85.fasta"
 
 ### HMMR searches 
 [HMMR](http://eddylab.org/software/hmmer/Userguide.pdf) was used to identify PRRs in the cnidarian proteomes. To make the queries we first used [ClustalOmega](https://www.ebi.ac.uk/Tools/msa/clustalo/) to make an alignment of all the humman PRRs of a given type in the stockholm output format. That alignment was then converted into a .hmm and used as a query against the proteome data bases. The generalized code for this is as follows: 
